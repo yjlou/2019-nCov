@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>File(s) size</title>
+<script src="https://raw.githubusercontent.com/Stuk/jszip/master/dist/jszip.min.js">
+/*
+function decompressZip(file_blob) {
+  var zip = new JSZip();
+  zip.loadAsync(file_blob) {
+     .then(function(zip) {
+         // process ZIP file content here
+         alert("OK")
+     }, function() {alert("Not a valid zip file")}); 
+  };
+}
+*/
+</script>
+
+<script>
+function loadFileContent(f) {
+  var oReader = new FileReader();
+  oReader.onload = function(e){
+    console.log(e);
+    console.log(e.target.result);
+  };
+  //oReader.readAsDataURL(f);
+  oReader.readAsBinaryString(f);
+}
+
+function updateSize() {
+  let nBytes = 0,
+      oFiles = document.getElementById("uploadInput").files,
+      nFiles = oFiles.length;
+  for (let nFileId = 0; nFileId < nFiles; nFileId++) {
+    nBytes += oFiles[nFileId].size;
+  }
+  if (nFiles > 0) loadFileContent(oFiles[0]);
+  let sOutput = nBytes + " bytes";
+  // optional code for multiples approximation
+  for (let aMultiples = ["KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"], nMultiple = 0, nApprox = nBytes / 1024; nApprox > 1; nApprox /= 1024, nMultiple++) {
+    sOutput = nApprox.toFixed(3) + " " + aMultiples[nMultiple] + " (" + nBytes + " bytes)";
+  }
+  // end of optional code
+  document.getElementById("fileNum").innerHTML = nFiles;
+  document.getElementById("fileSize").innerHTML = sOutput;
+}
+
+</script>
+</head>
+
+<body onload="updateSize();">
+<form name="uploadForm">
+<p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
+<!--p><input type="submit" value="Send file"></p-->
+</form>
+</body>
+</html>
+
