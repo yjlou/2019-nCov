@@ -22,7 +22,7 @@ function loadFileContent(f) {
   var oReader = new FileReader();
   oReader.onload = function(e){
     console.log(e);
-    console.log(e.target.result);
+    document.getElementById("file_content").innerHTML = e.target.result;
   };
   //oReader.readAsDataURL(f);
   oReader.readAsBinaryString(f);
@@ -51,7 +51,11 @@ function updateSize() {
 
 <body onload="updateSize();">
 <form name="uploadForm">
-Select a local file to test. Remember to open the Developer COnsole. <p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
+Select a local file to test.
+<p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
+<hr>
+File content:
+<pre id=file_content></pre>
 </form>
 </body>
 </html>
