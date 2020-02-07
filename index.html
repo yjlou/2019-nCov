@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>File(s) size</title>
+<title>2019-nCov</title>
 <script src="https://raw.githubusercontent.com/Stuk/jszip/master/dist/jszip.min.js">
 /*
 function decompressZip(file_blob) {
@@ -51,8 +51,7 @@ function updateSize() {
 
 <body onload="updateSize();">
 <form name="uploadForm">
-<p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
-<!--p><input type="submit" value="Send file"></p-->
+Select a local file to test. Remember to open the Developer COnsole. <p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
 </form>
 </body>
 </html>
