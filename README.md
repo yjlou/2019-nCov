@@ -8,12 +8,22 @@ Use Google Maps Timeline data
   $ git push origin master:master  # replace the first 'master' with your local branch name
 ```
 
-See preview [here](https://htmlpreview.github.io/?https://yjlou.github.io/2019-nCov/).
+See preview [here](https://htmlpreview.github.io/?https://yjlou.github.io/2019-nCov/). New change
+may take few minutes to be propagated on the server side.
 
 # Push to production
 
+Ensure your local repo is clean to create a branch.
+
 ```
-  $ git push origin master:gh-pages  # replace the 'master' with your local branch name
+  $ export ORG_BRANCH=$(git branch | grep \* | cut -d ' ' -f2)       # Save original branch name.
+  $ git checkout -b prod origin/master                               # Checkout new branch. Change
+                                                                     # 'origin/master' in case you
+                                                                     # prefer something else.
+  $ git push origin prod:gh-pages                                    # Push to production.
+  $ git checkout ${ORG_BRANCH}                                       # Move back to original branch.
+  $ git branch -D prod
 ```
 
-See production [here](https://yjlou.github.io/2019-nCov/)
+See production [here](https://yjlou.github.io/2019-nCov/). New change may take few minutes to be
+propagated on the server side.
