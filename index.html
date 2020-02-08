@@ -31,9 +31,9 @@ function parseKml(text) {
     var latlng = "";
     var time_begin = "";
     var time_end = "";
+    var name = "";
 
     var point = placemark.getElementsByTagName("Point");
-    console.log(point);
     if (point.length == 0) {
       // Not point data. Maybe LineString data. Discard.
       continue;
@@ -44,8 +44,12 @@ function parseKml(text) {
       continue;
     }
 
+    var name_elem = placemark.getElementsByTagName("name");
+    if (name_elem.length == 1) {
+      name = name_elem[0].innerHTML;
+    }
+
     var timespan = placemark.getElementsByTagName("TimeSpan");
-    console.log(timespan);
     if (timespan.length == 1) {
       time_begin = timespan[0].children[0].innerHTML;
       time_end = timespan[0].children[1].innerHTML;
@@ -55,12 +59,12 @@ function parseKml(text) {
     }
 
     // Point data: (-122.02223289999999,37.338164,0) 2020-02-07T16:14:56.673Z~2020-02-07T16:20:34.000Z
-    console.log("Point data: (" + latlng + ") " + time_begin + "~" + time_end);
     output.push({
       'lat': latlng.split(",")[0],
       'lng': latlng.split(",")[1],
       'begin': time_begin,
       'end': time_end,
+      'name': name,
     });
   }
 
@@ -72,9 +76,8 @@ function loadFileContent(file_blob) {
   var filename = file_blob.name;
   if (filename.endsWith(".kml")) {
     var oReader = new FileReader();
-    oReader.onload = function(e){
-      console.log(e);
-      var points = parseKml(e.target.result);
+    oReader.onload = function(fp){
+      var points = parseKml(fp.target.result);
       document.getElementById("file_content").innerHTML = JSON.stringify(points);
     };
     oReader.readAsBinaryString(file_blob);
