@@ -34,7 +34,9 @@ function loadServerKml(path) {
 var PATIENTS = Array();
 function loadPatientData() {
   var points = loadServerKml("kml/Diamond.kml");
-  document.getElementById("file_content").innerHTML = JSON.stringify(points).split("},{").join("},\n{");//FIXME
+  document.getElementById("file_content").innerHTML =
+      "讀取病人的軌跡...\n" +
+      JSON.stringify(points).split("},{").join("},\n{");//FIXME
   PATIENTS.push({
     'desc': "Diamond Princess",
     'points': points,
@@ -51,7 +53,9 @@ function loadFileContent(file_blob) {
       var points = parseKml(kml_text);
       // FIXME document.getElementById("file_content").innerHTML = JSON.stringify(points);
       var contacts = checkContact(points, PATIENTS);
-      document.getElementById("file_content").innerHTML = JSON.stringify(contacts).split("},{").join("},\n{");//FIXME
+      document.getElementById("file_content").innerHTML =
+          "比對結果，有重疊的地方：\n" +
+          JSON.stringify(contacts).split("},{").join("},\n{");//FIXME
     };
     oReader.readAsText(file_blob, "UTF-8");
   } else {
@@ -59,7 +63,7 @@ function loadFileContent(file_blob) {
   }
 }
 
-function updateSize() {
+function fileTypeProcess() {
   let nBytes = 0,
       oFiles = document.getElementById("uploadInput").files,
       nFiles = oFiles.length;
@@ -67,25 +71,40 @@ function updateSize() {
     nBytes += oFiles[nFileId].size;
     loadFileContent(oFiles[nFileId]);
   }
-  let sOutput = nBytes + " bytes";
-  // optional code for multiples approximation
-  for (let aMultiples = ["KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"], nMultiple = 0, nApprox = nBytes / 1024; nApprox > 1; nApprox /= 1024, nMultiple++) {
-    sOutput = nApprox.toFixed(3) + " " + aMultiples[nMultiple] + " (" + nBytes + " bytes)";
+}
+
+// Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
+//
+function dropHandler(ev) {
+  // Prevent default behavior (Prevent file from being opened)
+  ev.preventDefault();
+
+  // process each file
+  for (var i = 0; i < ev.dataTransfer.items.length; i++) {
+    if (ev.dataTransfer.items[i].kind === 'file') {
+      var file = ev.dataTransfer.items[i].getAsFile();
+      loadFileContent(file);
+    }
   }
-  // end of optional code
-  document.getElementById("fileNum").innerHTML = nFiles;
-  document.getElementById("fileSize").innerHTML = sOutput;
+}
+
+function dragOverHandler(ev) {
+  // Prevent default behavior (Prevent file from being opened)
+  ev.preventDefault();
 }
 
 </script>
 </head>
 
-<body onload="updateSize(); loadPatientData();">
+<body onload="loadPatientData();">
 <form name="uploadForm">
-Select a local file to test.
-<p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
+<p>點選這裡選擇 KML 檔上傳<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
+<div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+  <label for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
+    或是把 KML 檔案拖到這裡上傳。
+  </label>
+</div>
 <hr>
-File content:
 <pre id=file_content></pre>
 </form>
 </body>
