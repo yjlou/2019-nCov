@@ -62,7 +62,7 @@ function getRisk(p0, p1) {
 //
 // Args:
 //  user_points: Array of user's Point data.
-//  patient_points: Array of {
+//  patients: Array of {
 //    'desc': patient info
 //    'points': Array of Point data
 //  }
@@ -82,21 +82,24 @@ function getRisk(p0, p1) {
 //    }
 //  }
 //
-function checkContact(user_points, patient_points) {
+function checkContact(user_points, patients) {
   var ret = Array();
 
-  for (var idxUser = 0; idxUser < user_points.length; idxUser++) {
-    for(var idxPatient = 0; idxPatient < patient_points.length; idxPatient++) {
-      var risk = getRisk(user_points[idxUser], patient_points[idxPatient]);
-      if (risk >= 0.8) {
-        ret.push({
-          'user_desc': user_points[idxUser].desc,
-          'patient_desc': patient_points[idxPatient].desc,
-          'lat': user_points[idxUser].lat,
-          'lng': user_points[idxUser].lng,
-          'begin': user_points[idxUser].begin,
-          'end': user_points[idxUser].end,
-        });
+  for (var idxUserPoint = 0; idxUserPoint < user_points.length; idxUserPoint++) {
+    for(var idxPatient = 0; idxPatient < patients.length; idxPatient++) {
+      for(var idxPatientPoint = 0; idxPatientPoint < patients[idxPatient].points.length; idxPatientPoint++) {
+        var patient_point = patients[idxPatient].points[idxPatientPoint];
+        var risk = getRisk(user_points[idxUserPoint], patient_point);
+        if (risk >= 0.8) {
+          ret.push({
+            'patient_desc': patients[idxPatient].desc + ":" + patient_point.name,
+            'user_desc': user_points[idxUserPoint].name,
+            'lat': user_points[idxUserPoint].lat,
+            'lng': user_points[idxUserPoint].lng,
+            'begin': user_points[idxUserPoint].begin,
+            'end': user_points[idxUserPoint].end,
+          });
+        }
       }
     }
   }
