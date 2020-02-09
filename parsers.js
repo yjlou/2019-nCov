@@ -56,6 +56,56 @@ function tryParsePoint(placemark) {
   }];
 }
 
+function tryParseLineString(placemark) {
+  const line_string = placemark.getElementsByTagName("LineString");
+
+  if (line_string.length == 0) {
+    // Not a LineString, does nothing.
+    return null;
+  }
+  if (line_string.length != 1) {
+    console.error("Invalid LineString data: ", placemark);
+    return null;
+  }
+
+  // TODO: check altitudeMode?
+  let coords_elements = line_string[0].getElementsByTagName("coordinates");
+  if (coords_elements.length != 1) {
+    console.error("Invalid LineString data: ", placemark);
+    return null;
+  }
+
+  const coords = [];
+  for (let coord_string of coords_elements[0].innerHTML.trim().split(" ")) {
+    // TODO: should we check the optional altitude?
+    const [lng_string, lat_string] = coord_string.split(",");
+    const lng = parseFloat(lng_string.trim());
+    const lat = parseFloat(lat_string.trim());
+    coords.push({lng, lat});
+  }
+
+  const name = tryParseName(placemark);
+  const timespan = tryParseTimeSpan(placemark);
+  if (timespan === null) {
+    return null;
+  }
+
+  const retval = [];
+
+  // TODO: Can we compute a reasonable but more restricted timespan for each
+  // coords?
+  for (let coord of coords) {
+    retval.push({
+      lat: coord.lat,
+      lng: coord.lng,
+      begin: timespan.begin,
+      end: timespan.end,
+      name: name,
+    });
+  }
+  return retval;
+}
+
 // Given a KML text, returns an array of Point data.
 //
 function parseKml(text) {
@@ -69,8 +119,6 @@ function parseKml(text) {
   for(var i = 0; i < placemarks.length; i++) {
     var placemark = placemarks[i];
 
-    // TODO: support 'address' type
-    // TODO: support 'linestring' type
     let retval = tryParsePoint(placemark);
     if (retval !== null) {
       console.info(retval);
@@ -78,6 +126,14 @@ function parseKml(text) {
       continue;
     }
 
+    retval = tryParseLineString(placemark);
+    if (retval !== null) {
+      console.info(retval);
+      output.push(...retval);
+      continue;
+    }
+
+    // TODO: support 'address' type
   }
 
   return output;
