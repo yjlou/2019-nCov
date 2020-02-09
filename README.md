@@ -8,7 +8,7 @@ Use Google Maps Timeline data
   $ git push origin master:master  # replace the first 'master' with your local branch name
 ```
 
-See preview [here](http://htmlpreview.github.io/?https://github.com/yjlou/2019-nCov/blob/master/index.html).
+See preview [here](https://raw.githack.com/yjlou/2019-nCov/master/index.html).
 New change may take few minutes to be propagated on the server side.
 
 # Push to production
