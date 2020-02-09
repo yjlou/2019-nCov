@@ -56,3 +56,66 @@ function parseKml(text) {
 
   return output;
 }
+
+// An example of the JSON file is listed below. We only care about "placeVisit".
+//
+//   {
+//     "timelineObjects" : [ {
+//       "placeVisit" : {
+//         "location" : {
+//           "latitudeE7" : 374000000,
+//           "longitudeE7" : -1220000000,
+//           "placeId" : "ChIJKesZhf65j4ARxoBh866SiDM",
+//           "address" : "N Shoreline Blvd\nMountain View, CA 94043\nUSA",
+//           "name" : "US-MTV-9999",
+//           "semanticType" : "TYPE_WORK",
+//           "sourceInfo" : {
+//             "deviceTag" : 999999999
+//           },
+//           "locationConfidence" : 98.11278
+//         },
+//         "duration" : {
+//           "startTimestampMs" : "1577980781680",
+//           "endTimestampMs" : "1577994830225"
+//         },
+//         "placeConfidence" : "HIGH_CONFIDENCE",
+//         "centerLatE7" : 374000000,
+//         "centerLngE7" : -1220000000,
+//         "visitConfidence" : 87,
+//         "otherCandidateLocations" : [ { ... } ],
+//         "editConfirmationStatus" : "NOT_CONFIRMED"
+//       }
+//     }, {
+//       "activitySegment" : {
+//         ... don't care
+//       }
+//     },
+//       ...
+//   }
+//
+function parseJson(json_text) {
+  var output = Array();
+
+  var json = JSON.parse(json_text);
+  var objs = json.timelineObjects;
+  if (!objs) {
+    alert("Unknown JSON file. Please download from Google Maps Timeline.", json_text);
+    return;
+  }
+
+  for(var idx = 0; idx < objs.length; idx++) {
+    var obj = objs[idx];
+    var place_visit = obj.placeVisit;
+    if (!place_visit) { continue; }
+
+    output.push({
+      'lat': place_visit.location.latitudeE7 / 10000000,
+      'lng': place_visit.location.longitudeE7 / 10000000,
+      'begin': Math.floor(place_visit.duration.startTimestampMs / 1000),
+      'end': Math.floor(place_visit.duration.endTimestampMs / 1000),
+      'name':place_visit.location.name,
+    });
+  }
+
+  return output;
+}
