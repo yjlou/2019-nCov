@@ -23,24 +23,7 @@ function getOverlappedDuration(begin0, end0, begin1, end1) {
   EXPECT_LE(begin0, end0);
   EXPECT_LE(begin1, end1);
 
-  // swap so that begin0 < begin1
-  if (begin0 > begin1) {
-    [begin0, end0, begin1, end1] = [begin1, end1, begin0, end0];
-  }
-
-  if (end0 >= end1) {
-    // -----------------------------------------------
-    //   |<-- begin0                       end0 -->|
-    //           |<-- begin1 ... end1 -->|
-    return end1 - begin1;
-  } else if (end0 >= begin1 && end0 <= end1) {
-    // -----------------------------------------------
-    //   |<-- begin0           end0 -->|
-    //           |<-- begin1          end1 -->|
-    return end0 - begin1;
-  } else {
-    return 0;
-  }
+  return Math.max(0, Math.min(end0, end1) - Math.max(begin0, begin1));
 }
 
 // Given 2 points and returns the risk.
