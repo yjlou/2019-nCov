@@ -22,18 +22,41 @@ function decompressZip(file_blob) {
 <script src="utils.js"></script>
 
 <script>
-function loadServerKml(path) {
-  var req = new XMLHttpRequest();
-  req.open("GET", path, false);
-  req.setRequestHeader("Content-Type", "text/xml");
-  req.send(null);
-  var kml_text = req.response;
-  return parseKml(kml_text);
+// Global variables
+var PARAMS;  // URL parameters. Type: URLSearchParams
+var PATIENTS = Array();
+
+function parseUrlParams() {
+  PARAMS = new URLSearchParams(window.location.search);
 }
 
-var PATIENTS = Array();
+// Returns Array of points.
+function parseFile(filename, file_text) {
+  if (filename.endsWith(".kml")) {
+    return parseKml(file_text);
+  } else if (filename.endsWith(".json")) {
+    return parseJson(file_text);
+  } else {
+    alert("parseFile(): unsupported filename: " + filename);
+  }
+}
+
+function fetchHttpFile(path) {
+  var req = new XMLHttpRequest();
+  req.open("GET", path, false);
+  req.setRequestHeader("Content-Type", "text/*");
+  req.send(null);
+  var kml_text = req.response;
+
+  return parseFile(path, kml_text);
+}
+
 function loadPatientData() {
-  var points = loadServerKml("kml/Diamond.kml");
+  if (PARAMS.get("patient")) {
+    var points = fetchHttpFile(PARAMS.get("patient"));
+  } else {
+    var points = fetchHttpFile("kml/Diamond.kml");
+  }
   document.getElementById("file_content").innerHTML =
       "讀取病人的軌跡...\n" +
       JSON.stringify(points).split("},{").join("},\n{");
@@ -50,7 +73,7 @@ function loadFileContent(file_blob) {
     var oReader = new FileReader();
     oReader.onload = function(fp){
       var file_text = fp.target.result;
-      var points = parseKml(file_text);
+      var points = parseFile(filename, file_text);
       var contacts = checkContact(points, PATIENTS);
       document.getElementById("file_content").innerHTML =
           "比對結果，有 " + contacts.length + " 個重疊的地方：\n\n" +
@@ -95,7 +118,7 @@ function dragOverHandler(ev) {
 </script>
 </head>
 
-<body onload="loadPatientData();">
+<body onload="parseUrlParams(); loadPatientData();">
 <form name="uploadForm">
 <p>點選這裡選擇 KML 檔上傳<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
 <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
