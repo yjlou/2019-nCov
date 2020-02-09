@@ -31,9 +31,14 @@ function loadServerKml(path) {
   return parseKml(kml_text);
 }
 
+var PATIENTS = Array();
 function loadPatientData() {
   var points = loadServerKml("kml/Diamond.kml");
   document.getElementById("file_content").innerHTML = JSON.stringify(points).split("},{").join("},\n{");//FIXME
+  PATIENTS.push({
+    'desc': "Diamond Princess",
+    'points': points,
+  });
 }
 
 function loadFileContent(file_blob) {
@@ -44,7 +49,9 @@ function loadFileContent(file_blob) {
     oReader.onload = function(fp){
       var kml_text = fp.target.result;
       var points = parseKml(kml_text);
-      document.getElementById("file_content").innerHTML = JSON.stringify(points);
+      // FIXME document.getElementById("file_content").innerHTML = JSON.stringify(points);
+      var contacts = checkContact(points, PATIENTS);
+      document.getElementById("file_content").innerHTML = JSON.stringify(contacts).split("},{").join("},\n{");//FIXME
     };
     oReader.readAsText(file_blob, "UTF-8");
   } else {

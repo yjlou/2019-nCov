@@ -48,8 +48,8 @@ function parseKml(text) {
     output.push({
       'lat': parseFloat(latlng.split(",")[1].trim()),
       'lng': parseFloat(latlng.split(",")[0].trim()),
-      'begin': parseFloat(time_begin.trim()),
-      'end': parseFloat(time_end.trim()),
+      'begin': parseFloat(convKmlDateToTimestamp(time_begin.trim())),
+      'end': parseFloat(convKmlDateToTimestamp(time_end.trim())),
       'name': name.trim(),
     });
   }
