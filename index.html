@@ -18,18 +18,35 @@ function decompressZip(file_blob) {
 </script>
 <script src="algos.js"></script>
 <script src="parsers.js"></script>
+<script src="test.js"></script>
+<script src="utils.js"></script>
 
 <script>
+function loadServerKml(path) {
+  var req = new XMLHttpRequest();
+  req.open("GET", path, false);
+  req.setRequestHeader("Content-Type", "text/xml");
+  req.send(null);
+  var kml_text = req.response;
+  return parseKml(kml_text);
+}
+
+function loadPatientData() {
+  var points = loadServerKml("kml/Diamond.kml");
+  document.getElementById("file_content").innerHTML = JSON.stringify(points).split("},{").join("},\n{");//FIXME
+}
+
 function loadFileContent(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
   if (filename.endsWith(".kml")) {
     var oReader = new FileReader();
     oReader.onload = function(fp){
-      var points = parseKml(fp.target.result);
+      var kml_text = fp.target.result;
+      var points = parseKml(kml_text);
       document.getElementById("file_content").innerHTML = JSON.stringify(points);
     };
-    oReader.readAsBinaryString(file_blob);
+    oReader.readAsText(file_blob, "UTF-8");
   } else {
     alert("Not supported file type: " + filename);
   }
@@ -56,7 +73,7 @@ function updateSize() {
 </script>
 </head>
 
-<body onload="updateSize();">
+<body onload="updateSize(); loadPatientData();">
 <form name="uploadForm">
 Select a local file to test.
 <p><input id="uploadInput" type="file" name="myFiles" onchange="updateSize();" multiple> selected files: <span id="fileNum">0</span>; total size: <span id="fileSize">0</span></p>
