@@ -46,11 +46,11 @@ function loadPatientData() {
 function loadFileContent(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
-  if (filename.endsWith(".kml")) {
+  if (filename.endsWith(".kml") || filename.endsWith(".json")) {
     var oReader = new FileReader();
     oReader.onload = function(fp){
-      var kml_text = fp.target.result;
-      var points = parseKml(kml_text);
+      var file_text = fp.target.result;
+      var points = parseKml(file_text);
       var contacts = checkContact(points, PATIENTS);
       document.getElementById("file_content").innerHTML =
           "比對結果，有 " + contacts.length + " 個重疊的地方：\n\n" +
