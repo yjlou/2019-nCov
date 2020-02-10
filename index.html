@@ -3,22 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <title>2019-nCov</title>
-<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_geohash.js -->
-<script src="https://raw.githubusercontent.com/Stuk/jszip/master/dist/jszip.min.js">
-/*
-function decompressZip(file_blob) {
-  var zip = new JSZip();
-  zip.loadAsync(file_blob) {
-     .then(function(zip) {
-         // process ZIP file content here
-         alert("OK")
-     }, function() {alert("Not a valid zip file")});
-  };
-}
-*/
-</script>
+<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_sthash.js -->
 <script src="algos.js"></script>
-<script src="lib_geohash.js"></script>
+<script src="lib_sthash.js"></script>
 <script src="parsers.js"></script>
 <script src="test.js"></script>
 <script src="utils.js"></script>
@@ -125,7 +112,7 @@ function dragOverHandler(ev) {
 <p>點選這裡選擇 KML 檔上傳<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
 <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
   <label for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
-    或是把 KML 檔案拖到這裡上傳。
+    或是把 KML/JSON 檔案拖到這裡上傳。
   </label>
 </div>
 <hr>

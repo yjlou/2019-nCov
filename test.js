@@ -21,7 +21,8 @@ function EXPECT_LE(a, b, msg) {
 function EXPECT_EQ(expected, actual, msg) {
   if (msg === undefined) { msg = "";}
   if (JSON.stringify(expected) != JSON.stringify(actual)) {
-    console.error("EXPECT_EQ: Expected: (" + expected + "), but actual: (" + actual + "). " + msg);
+    console.error("EXPECT_EQ: Expected: " + JSON.stringify(expected, null, 2) +
+                  ", but actual: " + JSON.stringify(actual, null, 2) + ". " + msg);
     console.error(new Error().stack);
     FAILED++;
   }
@@ -39,10 +40,11 @@ function test() {
   // utils.js
   testConvKmlDateToTimestamp();
 
-  // lib_geohash.js
-  testQuantify();
+  // lib_sthash.js
+  testQuantifyDuration();
+  testQuantifyLatLng();
   testHmac();
-  testConvLatLng();
+  testHashSpacetime();
 
   if (FAILED) {
     console.error("[FAIL]");
