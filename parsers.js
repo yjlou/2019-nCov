@@ -1,3 +1,11 @@
+"use strict";
+
+// JS code used in both broswer and nodejs
+(function(exports){
+  exports.parseKml = parseKml;
+  exports.parseJson = parseJson;
+}(typeof exports === 'undefined' ? this.parsers = {} : exports));
+
 function tryParseName(placemark) {
   const name_elem = placemark.getElementsByTagName("name");
   if (name_elem.length == 1) {

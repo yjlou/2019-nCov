@@ -1,6 +1,16 @@
 # 2019-nCov
 Use Google Maps Timeline data
 
+# NodeJs for Spacetime hash
+
+```
+  # Node.js v12.x:
+  curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+  sudo apt-get install -y nodejs
+  npm install js-sha256 fs
+
+  node nodejs/sthash.js
+```
 
 # Push to development page:
 
@@ -8,7 +18,7 @@ Use Google Maps Timeline data
   $ git push origin master:master  # replace the first 'master' with your local branch name
 ```
 
-See preview [here](https://raw.githack.com/yjlou/2019-nCov/master/index.html).
+See preview [here](http://raw.githack.com/yjlou/2019-nCov/master/index.html).
 New change may take few minutes to be propagated on the server side.
 
 # Push to production
