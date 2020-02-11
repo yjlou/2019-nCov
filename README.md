@@ -7,7 +7,7 @@ Use Google Maps Timeline data
   # Node.js v12.x:
   curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
   sudo apt-get install -y nodejs
-  npm install js-sha256 fs
+  npm install js-sha256 fs yargs
 
   node nodejs/sthash.js
 ```
