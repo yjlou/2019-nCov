@@ -59,6 +59,30 @@ function loadPatientData() {
   document.getElementById("file_content").innerHTML = "讀取完畢。請開始使用。";
 }
 
+function twoDigits(num) {
+  return num < 10 ? "0" + num : num;
+}
+
+function myLocaleTime(timestamp) {
+  var date = new Date(timestamp * 1000);
+  return date.getFullYear() + "/" + twoDigits(date.getMonth() + 1) + "/" + twoDigits(date.getDate()) + " " +
+         twoDigits(date.getHours()) + ":" + twoDigits(date.getMinutes());
+}
+
+function showContacts(contacts) {
+  // TODO: de-duplicate contacts
+
+  console.log(contacts);
+  var html = "";
+  for(let contact of contacts) {
+    html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
+                     myLocaleTime(contact.end) + ": " +
+                     " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
+                     " lat:" + contact.lat + "lng:" + contact.lng;
+  }
+  return html;
+}
+
 function loadFileContent(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
@@ -68,8 +92,7 @@ function loadFileContent(file_blob) {
       var file_text = fp.target.result;
       var points = parseFile(filename, file_text);
       var contacts = checkContact(points, PATIENTS);
-      document.getElementById("file_content").innerHTML +=
-          JSON.stringify(contacts).split("},{").join("},\n{");
+      document.getElementById("file_content").innerHTML += showContacts(contacts);
       TOTAL_FOUND += contacts.length;
     };
     oReader.readAsText(file_blob, "UTF-8");
