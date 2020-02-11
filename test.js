@@ -46,6 +46,9 @@ function test() {
   testHmac();
   testHashSpacetime();
 
+  // parsers.js
+  testIntrapolateCoords();
+
   if (FAILED) {
     console.error("[FAIL]");
   } else {

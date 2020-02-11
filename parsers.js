@@ -64,6 +64,234 @@ function tryParsePoint(placemark) {
   }];
 }
 
+function intrapolateCoords(coords, timespan, name) {
+  const delta_t = timespan.end - timespan.begin;  // seconds
+  let total_dist = 0;
+
+  const segment_dist = [0];
+  for (let i = 1; i < coords.length; i++) {
+    const d = getDistanceFromLatLonInMeters(
+      coords[i - 1].lat, coords[i - 1].lng,
+      coords[i].lat, coords[i].lng
+    );
+    segment_dist.push(d);
+    total_dist += d;
+  }
+
+  if (total_dist == 0) {
+    // The user is not moving at all...
+    // Return a single point.
+    return [
+      {
+        lat: coords[0].lat,
+        lng: coords[0].lng,
+        begin: timespan.begin,
+        end: timespan.end,
+        name: name,
+      }
+    ];
+  }
+
+  const retval = [];
+  let current_t = timespan.begin;
+  // Convert the LineString into points such that point[i] and point[i + 1] are
+  // at most 100 meters away.
+  // Assume that the user is moving in a constant speed.
+  for (let i = 1; i < coords.length; i++) {
+    const segment_t = delta_t * segment_dist[i] / total_dist;
+
+    const num_seg = Math.ceil(segment_dist[i] / 100);
+    const [px, py] = [coords[i - 1].lat, coords[i - 1].lng];
+    const [qx, qy] = [coords[i].lat, coords[i].lng];
+
+    /*
+     * E.g. num_seg = 6
+     *
+     *  p                       q  (coords[i - 1] and coords[i])
+     *  |---|---|---|---|---|---|
+     *    0   1   2   3   4   5
+     *  b                       e  (time: begin and end)
+     *
+     *  Use the middle point of each segment as coordinate.
+     */
+    for (let j = 0; j < num_seg; ++j) {
+      const r = (j + 0.5) / num_seg;
+      const begin = current_t + segment_t * (j / num_seg);
+      const end = current_t + segment_t * ((j + 1) / num_seg);
+      retval.push({
+        // Use intrapolation.
+        lat: px * (1 - r) + qx * r,
+        lng: py * (1 - r) + qy * r,
+        // Slightly extend the interval.
+        begin: begin,
+        end: end,
+        name: name,
+      });
+    }
+
+    current_t += segment_t;
+  }
+  return retval;
+}
+
+function testIntrapolateCoords() {
+  {
+    // Case 1, user is not moving at all.
+    const timespan = {
+      begin: 0,
+      end: 10000
+    };
+
+    const coords = [
+      {
+        lat: 25.083,
+        lng: 121.481,
+      },
+      {
+        lat: 25.083,
+        lng: 121.481,
+      }
+    ];
+
+    EXPECT_EQ(
+      [{lat: 25.083, lng: 121.481, begin: 0, end: 10000, name: 'case_1'}],
+      intrapolateCoords(coords, timespan, 'case_1')
+    );
+  }
+  {
+    // Case 2, user is moving, but no more than 100 meters
+    const timespan = {
+      begin: 0,
+      end: 10000
+    };
+
+    // This should be ~75m
+    const coords = [
+      {
+        lat: 25.083,
+        lng: 121.481,
+      },
+      {
+        lat: 25.0835,
+        lng: 121.4815,
+      }
+    ];
+
+    EXPECT_EQ(
+      [
+        {
+          lat: 25.08325,
+          lng: 121.48124999999999,
+          begin: 0,
+          end: 10000,
+          name: 'case_2'
+        }
+      ],
+      intrapolateCoords(coords, timespan, 'case_2')
+    );
+  }
+  {
+    // Case 3, user is moving, and more than 100 meters
+    const timespan = {
+      begin: 0,
+      end: 10000
+    };
+
+    // This should be ~150m
+    const coords = [
+      {
+        lat: 25.083,
+        lng: 121.481,
+      },
+      {
+        lat: 25.084,
+        lng: 121.482,
+      }
+    ];
+
+    EXPECT_EQ(
+      [
+        {
+          lat: 25.08325,
+          lng: 121.48124999999999,
+          begin: 0,
+          end: 5000,
+          name: "case_3"
+        },
+        {
+          lat: 25.08375,
+          lng: 121.48175,
+          begin: 5000,
+          end: 10000,
+          name: "case_3"
+        }
+      ],
+      intrapolateCoords(coords, timespan, 'case_3')
+    );
+  }
+  {
+    // Case 3, user is moving, and more than 100 meters
+    const timespan = {
+      begin: 0,
+      end: 10000
+    };
+
+    // This should be ~111 meters
+    const coords = [
+      {
+        lat: 25.083,
+        lng: 121.481,
+      },
+      {  // ~75m away from previous point
+        lat: 25.0835,
+        lng: 121.4815,
+      },
+      {  // ~150m away from previous point
+        lat: 25.0845,
+        lng: 121.4825,
+      },
+      {  // ~75m away from previous point
+        lat: 25.085,
+        lng: 121.483,
+      }
+    ];
+
+    EXPECT_EQ(
+      [
+        {
+          lat: 25.08325,
+          lng: 121.48124999999999,
+          begin: 0,
+          end: 2500.00690288375,
+          name: "case_4"
+        },
+        {
+          lat: 25.083750000000002,
+          lng: 121.48175,
+          begin: 2500.00690288375,
+          end: 5000.006902911471,
+          name: "case_4"
+        },
+        {
+          lat: 25.08425,
+          lng: 121.48225,
+          begin: 5000.006902911471,
+          end: 7500.006902939191,
+          name: "case_4"
+        },
+        {
+          lat: 25.08475,
+          lng: 121.48275000000001,
+          begin: 7500.006902939191,
+          end: 10000,
+          name: "case_4"
+        }
+      ],
+      intrapolateCoords(coords, timespan, 'case_4')
+    );
+  }
+}
+
 function tryParseLineString(placemark) {
   const line_string = placemark.getElementsByTagName("LineString");
 
@@ -98,20 +326,7 @@ function tryParseLineString(placemark) {
     return null;
   }
 
-  const retval = [];
-
-  // TODO: Can we compute a reasonable but more restricted timespan for each
-  // coords?
-  for (let coord of coords) {
-    retval.push({
-      lat: coord.lat,
-      lng: coord.lng,
-      begin: timespan.begin,
-      end: timespan.end,
-      name: name,
-    });
-  }
-  return retval;
+  return intrapolateCoords(coords, timespan, name);
 }
 
 // Given a KML text, returns an array of Point data.
