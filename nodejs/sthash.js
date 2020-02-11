@@ -26,9 +26,11 @@ if (desc == undefined) {
   desc = "";
 }
 
-if (!argv.key.length) {
-  console.error("Use --key or -k to specify hash key ...");
-  process.exit(1);
+let hash_key;
+if (argv.key != undefined) {
+  hash_key = argv.key;
+} else {
+  hash_key = sthash.DEFAULT_HASH_KEY;
 }
 
 let json_text = fs.readFileSync("/dev/stdin", 'utf-8');
@@ -36,7 +38,7 @@ let points = parsers.parseJson(json_text);
 
 let all_hashes = {};
 for (let point of points) {
-  var hashes = sthash.hashSpacetime(argv.key, point.begin, point.end, point.lat, point.lng);
+  var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng);
   for (let hash of hashes) {
     all_hashes[hash] = desc;
   }

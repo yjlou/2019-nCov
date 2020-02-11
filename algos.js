@@ -90,6 +90,31 @@ function checkContact(user_points, patients) {
   return ret;
 }
 
+function checkHashes(user_points, knwon_hashes) {
+  var ret = Array();
+
+  var dedup = {};
+  for(let user_point of user_points) {
+    hashes = hashSpacetime(DEFAULT_HASH_KEY, user_point.begin, user_point.end, user_point.lat, user_point.lng);
+    for(let hash of hashes) {
+      let found = knwon_hashes[hash];
+      if (found) {
+        ret.push({
+          patient_desc: found.desc,
+          user_desc: user_point.name,
+          begin: user_point.begin,
+          end: user_point.end,
+          lat: user_point.lat,
+          lng: user_point.lng,
+        });
+        break;  // For each user point, we only need to return a found point.
+      }
+    }
+  }
+
+  return ret;
+}
+
 function testGetDistanceFromLatLonInMeters() {
   var d = getDistanceFromLatLonInMeters(37.339084, -122.048175, 37.341971, -122.035795);
   // d = 1140.5617662522875
