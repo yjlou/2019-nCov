@@ -42,7 +42,8 @@ function fetchHttpFile(path) {
 }
 
 function loadPatientData() {
-  document.getElementById("file_content").innerHTML = "讀取別人的軌跡中 ...";
+  const display = document.getElementById("file_content");
+  display.innerHTML = "讀取別人的軌跡中 ...";
 
   if (PARAMS.get("hashes")) {
     let hashes = PARAMS.get("hashes");
@@ -54,14 +55,13 @@ function loadPatientData() {
       var path = "kml/Diamond.kml";
     }
     var points = parseFile(path, fetchHttpFile(path));
-    document.getElementById("file_content").innerHTML =
-        JSON.stringify(points).split("},{").join("},\n{");
+    display.innerHTML = JSON.stringify(points).split("},{").join("},\n{");
     PATIENTS.push({
       'desc': "",  // don't know what to put here.
       'points': points,
     });
   }
-  document.getElementById("file_content").innerHTML = "讀取完畢。請開始使用。";
+  display.innerHTML = "讀取完畢。請開始使用。";
 }
 
 function twoDigits(num) {
@@ -88,39 +88,49 @@ function showContacts(contacts) {
   return html;
 }
 
-function loadFileContent(file_blob) {
+function loadFileContentAsync(file_blob) {
+  return new Promise((resolve, reject) => {
+    let reader = new FileReader();
+
+    reader.onload = (fp) => {
+      resolve(fp.target.result);
+    };
+
+    reader.onerror = reject;
+
+    reader.readAsText(file_blob, "UTF-8");
+  });
+}
+
+async function processFile(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
+  const display = document.getElementById("file_content");
   if (filename.endsWith(".kml") || filename.endsWith(".json")) {
-    var oReader = new FileReader();
-    oReader.onload = function(fp){
-      var file_text = fp.target.result;
-      var points = parseFile(filename, file_text);
+    display.innerHTML += `讀取 ${filename} ...\n`;
+    let file_text = await loadFileContentAsync(file_blob);
+    let points = parseFile(filename, file_text);
 
-      var contacts = Array();
-      contacts = contacts.concat(checkContact(points, PATIENTS));
-      contacts = contacts.concat(checkHashes(points, HASHES));
+    var contacts = Array();
+    contacts = contacts.concat(checkContact(points, PATIENTS));
+    contacts = contacts.concat(checkHashes(points, HASHES));
 
-      document.getElementById("file_content").innerHTML += showContacts(contacts);
-      TOTAL_FOUND += contacts.length;
-    };
-    oReader.readAsText(file_blob, "UTF-8");
+    display.innerHTML += showContacts(contacts);
+    TOTAL_FOUND += contacts.length;
   } else {
     alert("Not supported file type: " + filename);
   }
 }
 
 function clearResults() {
-  document.getElementById("file_content").innerHTML = "";  // reset result
   TOTAL_FOUND = 0;
+  document.getElementById("file_content").innerHTML = "";  // reset result
 }
 
 function finishResults() {
-  /* TODO: await oReader async read.
   document.getElementById("file_content").innerHTML =
-          "比對結果，有 " + TOTAL_FOUND + " 個重疊的地方：\n\n" +
-          document.getElementById("file_content").innerHTML;
-  */
+    `比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` +
+    document.getElementById("file_content").innerHTML;
 }
 
 function fileTypeProcess() {
@@ -129,12 +139,18 @@ function fileTypeProcess() {
   let nBytes = 0,
       oFiles = document.getElementById("uploadInput").files,
       nFiles = oFiles.length;
+
+  const promises = [];
   for (let nFileId = 0; nFileId < nFiles; nFileId++) {
     nBytes += oFiles[nFileId].size;
-    loadFileContent(oFiles[nFileId]);
+    promises.push(processFile(oFiles[nFileId]));
   }
 
-  finishResults();
+  Promise.all(promises).then(
+    finishResults
+  ).catch(
+    (e) => console.error(e)
+  );
 }
 
 // Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
@@ -149,7 +165,7 @@ function dropHandler(ev) {
   for (var i = 0; i < ev.dataTransfer.items.length; i++) {
     if (ev.dataTransfer.items[i].kind === 'file') {
       var file = ev.dataTransfer.items[i].getAsFile();
-      loadFileContent(file);
+      processFile(file);
     }
   }
 
