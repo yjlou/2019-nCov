@@ -21,6 +21,13 @@ function parseUrlParams() {
   PARAMS = new URLSearchParams(window.location.search);
 }
 
+function log(message) {
+  const logs = document.getElementById("logs");
+  logs.innerHTML += message + '\n';
+  // scroll to the bottom.
+  logs.scrollTo(0, logs.scrollHeight);
+}
+
 // Returns Array of points.
 function parseFile(filename, file_text) {
   if (filename.endsWith(".kml")) {
@@ -42,8 +49,7 @@ function fetchHttpFile(path) {
 }
 
 function loadPatientData() {
-  const display = document.getElementById("file_content");
-  display.innerHTML = "讀取別人的軌跡中 ...";
+  log("讀取別人的軌跡中 ...\n");
 
   if (PARAMS.get("hashes")) {
     let hashes = PARAMS.get("hashes");
@@ -55,13 +61,13 @@ function loadPatientData() {
       var path = "kml/Diamond.kml";
     }
     var points = parseFile(path, fetchHttpFile(path));
-    display.innerHTML = JSON.stringify(points).split("},{").join("},\n{");
+    log(JSON.stringify(points).split("},{").join("},\n{"));
     PATIENTS.push({
       'desc': "",  // don't know what to put here.
       'points': points,
     });
   }
-  display.innerHTML = "讀取完畢。請開始使用。";
+  log("讀取完畢。請開始使用。");
 }
 
 function twoDigits(num) {
@@ -105,9 +111,9 @@ function loadFileContentAsync(file_blob) {
 async function processFile(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
-  const display = document.getElementById("file_content");
+  const display = document.getElementById("results");
   if (filename.endsWith(".kml") || filename.endsWith(".json")) {
-    display.innerHTML += `讀取 ${filename} ...\n`;
+    log(`分析 ${filename} ...`);
     let file_text = await loadFileContentAsync(file_blob);
     let points = parseFile(filename, file_text);
 
@@ -117,6 +123,8 @@ async function processFile(file_blob) {
 
     display.innerHTML += showContacts(contacts);
     TOTAL_FOUND += contacts.length;
+
+    log(`完成分析 ${filename} ... 發現 ${contacts.length} 個重疊的地方`);
   } else {
     alert("Not supported file type: " + filename);
   }
@@ -124,13 +132,13 @@ async function processFile(file_blob) {
 
 function clearResults() {
   TOTAL_FOUND = 0;
-  document.getElementById("file_content").innerHTML = "";  // reset result
+  document.getElementById("results").innerHTML = "";  // reset result
 }
 
 function finishResults() {
-  document.getElementById("file_content").innerHTML =
-    `比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` +
-    document.getElementById("file_content").innerHTML;
+  const display = document.getElementById("results");
+  display.innerHTML =
+    `比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` + display.innerHTML;
 }
 
 function fileTypeProcess() {
@@ -244,8 +252,11 @@ function onLoad() {
   </label>
 </div>
 <hr>
-第三步：查看結果。
-<pre id=file_content></pre>
+<p>第三步：查看結果。</p>
+<pre id="results"></pre>
+<hr>
+<p>Logs</p>
+<pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
 </form>
 </body>
 </html>
