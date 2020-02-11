@@ -89,7 +89,7 @@ function showContacts(contacts) {
     html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
                      myLocaleTime(contact.end) + ": " +
                      " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
-                     " lat:" + contact.lat + "lng:" + contact.lng;
+                     " lat:" + contact.lat + " lng:" + contact.lng;
   }
   return html;
 }
