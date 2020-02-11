@@ -14,6 +14,7 @@
 // Global variables
 var PARAMS;  // URL parameters. Type: URLSearchParams
 var PATIENTS = Array();
+var HASHES = Array();
 var TOTAL_FOUND;  // Number of found overlapped points.
 
 function parseUrlParams() {
@@ -36,26 +37,30 @@ function fetchHttpFile(path) {
   req.open("GET", path, false);
   req.setRequestHeader("Content-Type", "text/*");
   req.send(null);
-  var kml_text = req.response;
 
-  return parseFile(path, kml_text);
+  return req.response;
 }
 
 function loadPatientData() {
   document.getElementById("file_content").innerHTML = "讀取別人的軌跡中 ...";
 
-  if (PARAMS.get("patient")) {
-    var path = PARAMS.get("patient");
+  if (PARAMS.get("hashes")) {
+    let hashes = PARAMS.get("hashes");
+    HASHES = JSON.parse(fetchHttpFile(hashes));
   } else {
-    var path = "kml/Diamond.kml";
+    if (PARAMS.get("patient")) {
+      var path = PARAMS.get("patient");
+    } else {
+      var path = "kml/Diamond.kml";
+    }
+    var points = parseFile(path, fetchHttpFile(path));
+    document.getElementById("file_content").innerHTML =
+        JSON.stringify(points).split("},{").join("},\n{");
+    PATIENTS.push({
+      'desc': "",  // don't know what to put here.
+      'points': points,
+    });
   }
-  var points = fetchHttpFile(path);
-  document.getElementById("file_content").innerHTML =
-      JSON.stringify(points).split("},{").join("},\n{");
-  PATIENTS.push({
-    'desc': "",  // don't know what to put here.
-    'points': points,
-  });
   document.getElementById("file_content").innerHTML = "讀取完畢。請開始使用。";
 }
 
@@ -91,7 +96,11 @@ function loadFileContent(file_blob) {
     oReader.onload = function(fp){
       var file_text = fp.target.result;
       var points = parseFile(filename, file_text);
-      var contacts = checkContact(points, PATIENTS);
+
+      var contacts = Array();
+      contacts = contacts.concat(checkContact(points, PATIENTS));
+      contacts = contacts.concat(checkHashes(points, HASHES));
+
       document.getElementById("file_content").innerHTML += showContacts(contacts);
       TOTAL_FOUND += contacts.length;
     };

@@ -42,10 +42,13 @@
 //
 "use strict";
 
-var sha256 = require("js-sha256");
+var DEFAULT_HASH_KEY = "JuliaWu";
+
+var sha256 = require("js-sha256");  // This line fails at browser. So leave this at end of global variables.
 
 // JS code used in both broswer and nodejs
 (function(exports){
+  exports.DEFAULT_HASH_KEY = DEFAULT_HASH_KEY;
   exports.hashSpacetime = hashSpacetime;
 }(typeof exports === 'undefined' ? this.sthash = {} : exports));
 
