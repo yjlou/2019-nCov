@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>2019-nCov</title>
+<title>邂逅</title>
 <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_sthash.js -->
 <script src="algos.js"></script>
 <script src="lib_sthash.js"></script>
@@ -14,6 +14,7 @@
 // Global variables
 var PARAMS;  // URL parameters. Type: URLSearchParams
 var PATIENTS = Array();
+var TOTAL_FOUND;  // Number of found overlapped points.
 
 function parseUrlParams() {
   PARAMS = new URLSearchParams(window.location.search);
@@ -41,18 +42,21 @@ function fetchHttpFile(path) {
 }
 
 function loadPatientData() {
+  document.getElementById("file_content").innerHTML = "讀取別人的軌跡中 ...";
+
   if (PARAMS.get("patient")) {
-    var points = fetchHttpFile(PARAMS.get("patient"));
+    var path = PARAMS.get("patient");
   } else {
-    var points = fetchHttpFile("kml/Diamond.kml");
+    var path = "kml/Diamond.kml";
   }
+  var points = fetchHttpFile(path);
   document.getElementById("file_content").innerHTML =
-      "讀取病人的軌跡...\n" +
       JSON.stringify(points).split("},{").join("},\n{");
   PATIENTS.push({
-    'desc': "Diamond Princess",
+    'desc': "",  // don't know what to put here.
     'points': points,
   });
+  document.getElementById("file_content").innerHTML = "讀取完畢。請開始使用。";
 }
 
 function loadFileContent(file_blob) {
@@ -64,9 +68,9 @@ function loadFileContent(file_blob) {
       var file_text = fp.target.result;
       var points = parseFile(filename, file_text);
       var contacts = checkContact(points, PATIENTS);
-      document.getElementById("file_content").innerHTML =
-          "比對結果，有 " + contacts.length + " 個重疊的地方：\n\n" +
+      document.getElementById("file_content").innerHTML +=
           JSON.stringify(contacts).split("},{").join("},\n{");
+      TOTAL_FOUND += contacts.length;
     };
     oReader.readAsText(file_blob, "UTF-8");
   } else {
@@ -74,7 +78,22 @@ function loadFileContent(file_blob) {
   }
 }
 
+function clearResults() {
+  document.getElementById("file_content").innerHTML = "";  // reset result
+  TOTAL_FOUND = 0;
+}
+
+function finishResults() {
+  /* TODO: await oReader async read.
+  document.getElementById("file_content").innerHTML =
+          "比對結果，有 " + TOTAL_FOUND + " 個重疊的地方：\n\n" +
+          document.getElementById("file_content").innerHTML;
+  */
+}
+
 function fileTypeProcess() {
+  clearResults();
+
   let nBytes = 0,
       oFiles = document.getElementById("uploadInput").files,
       nFiles = oFiles.length;
@@ -82,6 +101,8 @@ function fileTypeProcess() {
     nBytes += oFiles[nFileId].size;
     loadFileContent(oFiles[nFileId]);
   }
+
+  finishResults();
 }
 
 // Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
@@ -90,6 +111,8 @@ function dropHandler(ev) {
   // Prevent default behavior (Prevent file from being opened)
   ev.preventDefault();
 
+  clearResults();
+
   // process each file
   for (var i = 0; i < ev.dataTransfer.items.length; i++) {
     if (ev.dataTransfer.items[i].kind === 'file') {
@@ -97,6 +120,8 @@ function dropHandler(ev) {
       loadFileContent(file);
     }
   }
+
+  finishResults();
 }
 
 function dragOverHandler(ev) {
@@ -104,18 +129,73 @@ function dragOverHandler(ev) {
   ev.preventDefault();
 }
 
+function downloadKml(period) {
+  var begin, end;
+  if (period.startsWith('-')) {
+    // last N seconds
+    let now = (+ new Date()) / 1000;  // get cuurent timestamp
+    begin = now - parseInt(period.substr(1));
+    end = now;
+  } else {
+    // period seperated by comma
+    [begin, end] = period.split(",");
+    [begin, end] = [parseInt(begin), parseInt(end)];
+  }
+
+  const secs_per_day = 24 * 60 * 60;
+  for(let timestamp = begin; timestamp <= end; timestamp += secs_per_day) {
+    let date = new Date(timestamp * 1000);
+    let year = date.getFullYear();
+    let month = date.getMonth();  // starts from 0
+    let mday = date.getDate();
+    let download_url = "https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8!1m3!1i" + year + "!2i" + month + "!3i" + mday +
+                                                                                  "!2m3!1i" + year + "!2i" + month + "!3i" + mday;
+    window.open(download_url, "_blank");
+  }
+}
+
+function download_btn_onclick(ev) {
+  console.log(ev);
+  ev.preventDefault();
+  ev.defaultPrevented = false;
+  var opt = document.getElementById('download_period');
+  var value = opt.options[opt.selectedIndex].value;
+  downloadKml(value);
+  return false;
+}
+
+function onLoad() {
+  parseUrlParams();
+  loadPatientData();
+
+  document.getElementById('download_btn').onclick = download_btn_onclick;
+}
 </script>
 </head>
 
-<body onload="parseUrlParams(); loadPatientData();">
-<form name="uploadForm">
-<p>點選這裡選擇 KML 檔上傳<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
+<body onload="onLoad();">
+<form name="uploadForm" onsubmit="return false;">
+<h1>邂逅</h1>
+<p>第一步：先到 <a href="https://google.com/maps/timeline" target="_blank">Google Maps 時間軸</a>，確認你的定位紀錄已經開啟。</p>
+<p>然後下載 KML 檔。
+  <select id="download_period">
+    <option value="1577836800,1580515199">2020年一月份</option>
+    <option value="1549929600,1551052799">2019/02/12 ~ 2020/02/24</option>
+    <option value="-1209600">最近 14 天</option>
+    <option value="-0">今天</option>
+  </select>
+<button id="download_btn">下載</button>
+</p>
+<hr>
+<p>第二步：開啟你的軌跡檔</p>
+<p>點選這裡選 KML/JSON 檔<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
 <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
   <label for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
-    或是把 KML/JSON 檔案拖到這裡上傳。
+    或是把 KML/JSON 檔案拖到這裡。
   </label>
 </div>
 <hr>
+第三步：查看結果。
 <pre id=file_content></pre>
 </form>
 </body>
