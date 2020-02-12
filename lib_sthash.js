@@ -43,6 +43,7 @@
 "use strict";
 
 var DEFAULT_HASH_KEY = "JuliaWu";
+var HASH_VALUE_LEN = 16;  // 16 * 4 = 64 bits should be long enough.
 
 var sha256 = require("js-sha256");  // This line fails at browser. So leave this at end of global variables.
 
@@ -95,7 +96,7 @@ function testQuantifyLatLng() {
 function HMAC(key) {
   return function(timestamp, lat, lng) {
     var msg = timestamp.toString() + lat.toString() + lng.toString();
-    return sha256.hmac(key, msg).substr(0, 32);
+    return sha256.hmac(key, msg).substr(0, HASH_VALUE_LEN);
   };
 }
 
