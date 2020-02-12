@@ -25,6 +25,10 @@ const argv = yargs
         description: 'Remove top visited N places',
         type: 'number',
     })
+    .option('pretty', {
+        description: 'Pretty output',
+        type: 'boolean',
+    })
     .help()
     .alias('help', 'h')
     .argv;
@@ -92,4 +96,6 @@ for (let point of points) {
     all_hashes[hash] = desc;
   }
 }
-STDOUT.write(JSON.stringify(all_hashes, null, 2));
+
+let space = argv.pretty ? 2 : 0;
+STDOUT.write(JSON.stringify(all_hashes, null, space));
