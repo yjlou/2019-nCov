@@ -1,3 +1,9 @@
+// Command line tools to generate hashed point data.
+//
+// TODO: support parseKml
+// TODO: --remove-weekdays --timezone
+// TODO: --compress: to use gzip to compress data.
+//
 "use strict";
 
 const fs = require("fs");
@@ -10,6 +16,16 @@ const STDOUT = process.stdout;
 const STDERR = process.stderr;
 
 const argv = yargs
+    .option('input', {
+        alias: 'i',
+        description: 'Specify the input filename',
+        type: 'string',
+    })
+    .option('output', {
+        alias: 'o',
+        description: 'Specify the output filename',
+        type: 'string',
+    })
     .option('desc', {
         alias: 'd',
         description: 'Description for hash value',
@@ -45,8 +61,9 @@ if (argv.key != undefined) {
   hash_key = sthash.DEFAULT_HASH_KEY;
 }
 
-let json_text = fs.readFileSync("/dev/stdin", 'utf-8');
-let points = parsers.parseJson(json_text);
+let input_filename = (argv.input != undefined) ? argv.input : "/dev/stdin";
+let text = fs.readFileSync(input_filename, 'utf-8');
+var points = parsers.parseJson(text);
 
 if (argv.remove_top) {
   // Count all of them.
@@ -98,4 +115,12 @@ for (let point of points) {
 }
 
 let space = argv.pretty ? 2 : 0;
-STDOUT.write(JSON.stringify(all_hashes, null, space));
+let out_data = JSON.stringify(all_hashes, null, space);
+
+if (argv.output != undefined) {
+  fs.writeFile(argv.output, out_data, function (err) {
+    if (err) throw err;
+  });
+} else {
+  STDOUT.write(out_data);
+}
