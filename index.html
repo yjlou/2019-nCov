@@ -52,6 +52,7 @@ function loadPatientData() {
   log("讀取別人的軌跡中 ...\n");
 
   if (PARAMS.get("hashes")) {
+    // TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
     let hashes = PARAMS.get("hashes");
     HASHES = JSON.parse(fetchHttpFile(hashes));
   } else {

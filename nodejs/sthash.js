@@ -1,5 +1,6 @@
 // Command line tools to generate hashed point data.
 //
+// TODO: shuffle location (random offset)
 // TODO: support parseKml
 // TODO: --remove-weekdays --timezone
 // TODO: --compress: to use gzip to compress data.
@@ -106,6 +107,7 @@ if (argv.remove_top) {
   }
 }
 
+// TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
 let all_hashes = {};
 for (let point of points) {
   var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng);
