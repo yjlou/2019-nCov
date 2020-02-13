@@ -39,6 +39,7 @@ function test() {
 
   // utils.js
   testConvKmlDateToTimestamp();
+  testShuffleFloat();
 
   // lib_sthash.js
   testQuantifyDuration();
