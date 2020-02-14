@@ -10,6 +10,8 @@ Use Google Maps Timeline data
   npm install js-sha256 fs yargs
 
   node nodejs/sthash.js
+  node nodejs/sthash.js -d "your description" --remove_top 3
+      -i INPUT_FILE -o OUTPUT_FILE
 ```
 
 # Push to development page:

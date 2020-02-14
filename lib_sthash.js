@@ -40,7 +40,6 @@
 // Then, all combination of above timestamps and lat/lng will be hashed
 // to its value for future comparison.
 //
-// TODO: hashSpacetime() supports dynamic N-level spread-out.
 // TODO: sthash.js generates 0-level spread-out; web matching uses N-level spread-out.
 //
 "use strict";
@@ -48,7 +47,10 @@
 var DEFAULT_HASH_KEY = "JuliaWu";
 var HASH_VALUE_LEN = 16;  // 16 * 4 = 64 bits should be long enough.
 
-var sha256 = require("js-sha256");  // This line fails at browser. So leave this at end of global variables.
+if (this.sha256 == undefined) {
+  var sha256 = require("js-sha256");
+  var utils = require("./utils.js");
+}
 
 // JS code used in both broswer and nodejs
 (function(exports){
@@ -57,8 +59,8 @@ var sha256 = require("js-sha256");  // This line fails at browser. So leave this
 }(typeof exports === 'undefined' ? this.sthash = {} : exports));
 
 //
-function quantifyDuration(begin_, end_) {
-  let step = 10 * 60;  // 10-mins
+function quantifyDuration(begin_, end_, time_step_in_mins) {
+  let step = time_step_in_mins * 60;
   let begin = Math.floor(begin_ / step) * step;
   let end = Math.ceil(end_ / step) * step;
 
@@ -71,7 +73,7 @@ function quantifyDuration(begin_, end_) {
 }
 
 function testQuantifyDuration() {
-  EXPECT_EQ([0, 600, 1200], quantifyDuration(123, 601));
+  EXPECT_EQ([0, 600, 1200], quantifyDuration(123, 601, 10));
 }
 
 // Quantify a lat/lng to ~100 meters scale
@@ -81,19 +83,19 @@ function testQuantifyDuration() {
 // Returns:
 //   [lat, lng, lat_step, lng_step]
 //
-function quantifyLatLng(lat, lng) {
+function quantifyLatLng(lat, lng, latlng_precision) {
   // TODO: more precise steps by considering the lat.
-  var lat_step = 0.001;
-  var lng_step = 0.001;
+  var lat_step = 10 ** latlng_precision;
+  var lng_step = 10 ** latlng_precision;
 
-  return [Math.round(lat / lat_step) * lat_step,
-          Math.round(lng / lng_step) * lng_step,
+  return [parseFloat(utils.shuffleFloat(lat, latlng_precision - 1, latlng_precision - 1, '0')),
+          parseFloat(utils.shuffleFloat(lng, latlng_precision - 1, latlng_precision - 1, '0')),
           lat_step,
           lng_step];
 }
 
 function testQuantifyLatLng() {
-  EXPECT_EQ([25.123000, 122.123000, 0.001, 0.001], quantifyLatLng(25.123456, 122.123456));
+  EXPECT_EQ([25.123000, 122.123000, 0.001, 0.001], quantifyLatLng(25.123456, 122.123456, -3));
 }
 
 function HMAC(key) {
@@ -108,22 +110,36 @@ function testHmac() {
   EXPECT_EQ("bfa8c5bc764321ac", hmac(123, 25.123, 122.123));
 }
 
-function hashSpacetime(key, begin, end, lat, lng){
+// Hash a spacetime point
+//
+// Args:
+//   key: str. hash key
+//   begin: timestamp
+//   end: timestamp
+//   lat: float
+//   lng: float
+//   time_step_in_mins: number. in minutes.
+//   latlng_precision: int. truncate to the least-significant digit. negative means digits after point.
+//   spread_out: int. the level number to populate nearby points.
+//
+// Returns:
+//   Array of hash
+//
+function hashSpacetime(key, begin, end, lat, lng, time_step_in_mins, latlng_precision, spread_out){
   var hmac = HMAC(key);
-  var q = quantifyLatLng(lat, lng);
+  var q = quantifyLatLng(lat, lng, latlng_precision);
   var lat = q[0];
   var lng = q[1];
   var lat_step = q[2];
   var lng_step = q[3];
 
   var ret = Array();
-  for(let t of quantifyDuration(begin, end)) {
-    var latlngs = [
-      hmac(t, lat + lat_step, lng - lng_step), hmac(t, lat + lat_step, lng), hmac(t, lat + lat_step, lng + lng_step),
-      hmac(t, lat           , lng - lng_step), hmac(t, lat           , lng), hmac(t, lat           , lng + lng_step),
-      hmac(t, lat - lat_step, lng - lng_step), hmac(t, lat - lat_step, lng), hmac(t, lat - lat_step, lng + lng_step),
-    ];
-    ret = ret.concat(latlngs);
+  for(let t of quantifyDuration(begin, end, time_step_in_mins)) {
+    for(let lat_i = spread_out; lat_i >= -spread_out; lat_i--) {
+      for(let lng_i = -spread_out; lng_i <= spread_out; lng_i++) {
+        ret.push(hmac(t, lat + lat_i * lat_step, lng + lng_i * lng_step));
+      }
+    }
   }
 
   return ret;
@@ -143,5 +159,5 @@ function testHashSpacetime() {
     "85ec3daafd12a580", "546835556647f287", "46b4b9f876166efe",
     "8f72ee403295fa96", "29dd5053e89e18e7", "e086767349312bc8",
     "f003d1589b89a76c", "435ce8b5b333c9b0", "0a79fc6b39705be6",
-  ], hashSpacetime("abc", 100, 700, 25.123456, 122.123000));
+  ], hashSpacetime("abc", 100, 700, 25.123456, 122.123000, 10, -3, 1));
 }

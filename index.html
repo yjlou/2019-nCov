@@ -12,6 +12,9 @@
 
   gtag('config', 'G-EBZR5PXS5X');
 </script>
+<script>
+function require() {}  // fake function to bypass the node.js require code.
+</script>
 <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_sthash.js -->
 <script src="algos.js"></script>
 <script src="lib_sthash.js"></script>
@@ -62,6 +65,7 @@ function loadPatientData() {
 
   if (PARAMS.get("hashes")) {
     // TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
+    // TODO: HASHES[xxx] = [desc_a, desc_b, ...]  use araay for hash value to contain multiple user's points.
     let hashes = PARAMS.get("hashes");
     HASHES = JSON.parse(fetchHttpFile(hashes));
   } else {

@@ -1,3 +1,12 @@
+// Utility functions
+//
+"use strict";
+
+// JS code used in both broswer and nodejs
+(function(exports){
+  exports.shuffleFloat = shuffleFloat;
+}(typeof exports === 'undefined' ? this.utils = {} : exports));
+
 // String.trim(): remove whitespace in string
 //
 if(typeof(String.prototype.trim) === "undefined")
@@ -107,4 +116,5 @@ function testShuffleFloat() {
   EXPECT_EQ("123.xxx", shuffleFloat(123.456789, -1, -3, 'x'));
   EXPECT_EQ("123.456xxx", shuffleFloat(123.456789, -4, -6, 'x'));
   EXPECT_EQ("123.45xxxxxx", shuffleFloat(123.456789, -3, -8, 'x'));
+  EXPECT_EQ("123.45678", shuffleFloat(123.456789, -6, -6, ''));
 }

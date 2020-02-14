@@ -46,6 +46,21 @@ const argv = yargs
         description: 'Pretty output',
         type: 'boolean',
     })
+    .option('time_quan', {
+        description: 'Time quantization duration (in mins)',
+        type: 'number',
+        default: 10,
+    })
+    .option('latlng_quan', {
+        description: 'lat/lng quantization scale (-3 by default)',
+        type: 'number',
+        default: -3,
+    })
+    .option('spread_out', {
+        description: 'spread_out (1 by default)',
+        type: 'number',
+        default: 1,
+    })
     .help()
     .alias('help', 'h')
     .argv;
@@ -96,7 +111,7 @@ if (argv.remove_top) {
       if (lat == point.lat.toString() && lng == point.lng.toString()) {
         // ignore
         if (!shown) {
-          STDERR.write("IGNORED: " + latlng + " \"" + point.name + "\"\n");
+          STDERR.write("REMOVED: " + latlng + " \"" + point.name + "\"\n");
           shown = true;
         }
       } else {
@@ -110,7 +125,8 @@ if (argv.remove_top) {
 // TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
 let all_hashes = {};
 for (let point of points) {
-  var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng);
+  var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng,
+                                    argv.time_quan, argv.latlng_quan, argv.spread_out);
   for (let hash of hashes) {
     all_hashes[hash] = desc;
   }

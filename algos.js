@@ -95,7 +95,7 @@ function checkHashes(user_points, knwon_hashes) {
 
   var dedup = {};
   for(let user_point of user_points) {
-    hashes = hashSpacetime(DEFAULT_HASH_KEY, user_point.begin, user_point.end, user_point.lat, user_point.lng);
+    hashes = hashSpacetime(DEFAULT_HASH_KEY, user_point.begin, user_point.end, user_point.lat, user_point.lng, 10, -3, 1);
     for(let hash of hashes) {
       let found = knwon_hashes[hash];
       if (found) {
