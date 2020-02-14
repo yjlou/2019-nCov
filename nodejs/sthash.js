@@ -52,14 +52,14 @@ const argv = yargs
         default: 10,
     })
     .option('latlng_quan', {
-        description: 'lat/lng quantization scale (-3 by default)',
+        description: 'lat/lng quantization scale (default: -4)',
         type: 'number',
-        default: -3,
+        default: -4,
     })
     .option('spread_out', {
-        description: 'spread_out (1 by default)',
+        description: 'spread_out (default: 4)',
         type: 'number',
-        default: 1,
+        default: 4,
     })
     .help()
     .alias('help', 'h')
@@ -123,6 +123,7 @@ if (argv.remove_top) {
 }
 
 // TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
+// TODO: dedup hash before writing
 let all_hashes = {};
 for (let point of points) {
   var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng,
@@ -142,3 +143,6 @@ if (argv.output != undefined) {
 } else {
   STDOUT.write(out_data);
 }
+STDERR.write("OUTPUT: " + points.length + " points, " +
+                          Object.values(all_hashes).length + " hashes, and " +
+                          out_data.length + " bytes.\n");

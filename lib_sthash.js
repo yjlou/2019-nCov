@@ -26,21 +26,34 @@
 //                            ^
 //                            | newly added point
 //
-// For lat/lng, they will be quantified first, then populated with nearby
-// points:
+// For lat/lng, they will be quantified first, then populated as an empty
+// square.
 //
-//          *--------*--------*
-//          |        |        |
-//          *---- lat/lng ----*
-//          |        |        |
-//          *--------*--------*
+//             -spread_out  ...  +spread_out
+//    -spread_out  +-----------------+
+//          :      |                 |
+//          :      |      center     |
+//          :      |                 |
+//    +spread_out  +-----------------+
 //
-// The 8 asterisks are nearby points.
+// Empty square can easily intersect with another empty square nearby by detecting
+// the edge conflicting in the hash.
+//
+// TODO: web generates grid (multiple empty squares); nodejs generates a single empty square.
+//
+//       +---+---+---+
+//       |   |   |   |
+//       +---+---+---+          +---+
+//       |   |   |   |          |   |
+//       +---+---+---+          +---+
 //
 // Then, all combination of above timestamps and lat/lng will be hashed
 // to its value for future comparison.
 //
-// TODO: sthash.js generates 0-level spread-out; web matching uses N-level spread-out.
+// ---
+//
+// getDistanceFromLatLonInMeters( 0,  0,  0.00001,  0.00001) = 1.57 meters
+// getDistanceFromLatLonInMeters(45, 45, 45.00001, 45.00001) = 1.36 meters
 //
 "use strict";
 
@@ -135,10 +148,15 @@ function hashSpacetime(key, begin, end, lat, lng, time_step_in_mins, latlng_prec
 
   var ret = Array();
   for(let t of quantifyDuration(begin, end, time_step_in_mins)) {
-    for(let lat_i = spread_out; lat_i >= -spread_out; lat_i--) {
-      for(let lng_i = -spread_out; lng_i <= spread_out; lng_i++) {
-        ret.push(hmac(t, lat + lat_i * lat_step, lng + lng_i * lng_step));
-      }
+    // Empty square: top and bottom lines
+    for(let lng_i = -spread_out; lng_i <= spread_out; lng_i++) {
+      ret.push(hmac(t, lat - spread_out * lat_step, lng + lng_i * lng_step));
+      ret.push(hmac(t, lat + spread_out * lat_step, lng + lng_i * lng_step));
+    }
+    // Empty square: left and right lines
+    for(let lat_i = spread_out - 1; lat_i >= -spread_out + 1; lat_i--) {
+      ret.push(hmac(t, lat + lat_i * lat_step, lng - spread_out * lng_step));
+      ret.push(hmac(t, lat + lat_i * lat_step, lng + spread_out * lng_step));
     }
   }
 
