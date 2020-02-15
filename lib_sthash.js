@@ -166,16 +166,16 @@ function hashSpacetime(key, begin, end, lat, lng, time_step_in_mins, latlng_prec
 function testHashSpacetime() {
   EXPECT_EQ([
     // timestamp 0
-    "c382a0e3cb70d994", "c70af5fb7b8fde48", "9eb8bf971bd6a5c4",
-    "3edfc9c2b1918d94", "6d01141a9aa0ccfa", "b677765bc46e842c",
-    "4bc38a6e7d6ff3b1", "bb10b2665ae6ddfb", "3221754cc20782e2",
+    "4bc38a6e7d6ff3b1", "c382a0e3cb70d994", "bb10b2665ae6ddfb",
+    "c70af5fb7b8fde48",                     "3221754cc20782e2",
+    "9eb8bf971bd6a5c4", "3edfc9c2b1918d94", "b677765bc46e842c",
     // timestamp 600
-    "514f818e18001c56", "6d196070385fb881", "3354367bcca7a39a",
-    "38df5a16e00b8fdd", "2d2423974df2968c", "dc37d585fefe04e2",
-    "1d4093fde8022368", "e3c6e6e96e94d4be", "0cefa29f531ab9a5",
+    "1d4093fde8022368", "514f818e18001c56", "e3c6e6e96e94d4be",
+    "6d196070385fb881",                     "0cefa29f531ab9a5",
+    "3354367bcca7a39a", "38df5a16e00b8fdd", "dc37d585fefe04e2",
     // timestamp 1200
-    "85ec3daafd12a580", "546835556647f287", "46b4b9f876166efe",
-    "8f72ee403295fa96", "29dd5053e89e18e7", "e086767349312bc8",
-    "f003d1589b89a76c", "435ce8b5b333c9b0", "0a79fc6b39705be6",
+    "f003d1589b89a76c", "85ec3daafd12a580", "435ce8b5b333c9b0",
+    "546835556647f287",                     "0a79fc6b39705be6",
+    "46b4b9f876166efe", "8f72ee403295fa96", "e086767349312bc8"
   ], hashSpacetime("abc", 100, 700, 25.123456, 122.123000, 10, -3, 1));
 }
