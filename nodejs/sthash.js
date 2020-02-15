@@ -1,6 +1,5 @@
 // Command line tools to generate hashed point data.
 //
-// TODO: shuffle location (random offset)
 // TODO: support parseKml
 // TODO: --remove-weekdays --timezone
 // TODO: --compress: to use gzip to compress data.
@@ -128,22 +127,27 @@ if (argv.remove_top) {
   }
 }
 
-// TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
-// TODO: dedup hash before writing
-let all_hashes = {};
+// First hash all points in a dictionary (for dedup). Then abstract the dict keys.
+let all_hashes_dict = {};
 for (let point of points) {
   let lat = utils.shuffleFloat(point.lat, argv.shuffle, argv.shuffle - 3);
   let lng = utils.shuffleFloat(point.lng, argv.shuffle, argv.shuffle - 3);
   let hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, lat, lng,
                                     argv.time_quan, argv.latlng_quan, argv.spread_out);
   for (let hash of hashes) {
-    all_hashes[hash] = desc;
+    all_hashes_dict[hash] = 1;
   }
 }
+let all_hashes = Object.keys(all_hashes_dict);
 
+// Generate the output data.
 let space = argv.pretty ? 2 : 0;
-let out_data = JSON.stringify(all_hashes, null, space);
+let out_data = JSON.stringify({
+        desc: desc,
+        hashes: all_hashes,
+    }, null, space);
 
+// Output to medium.
 if (argv.output != undefined) {
   fs.writeFile(argv.output, out_data, function (err) {
     if (err) throw err;
@@ -151,6 +155,8 @@ if (argv.output != undefined) {
 } else {
   STDOUT.write(out_data);
 }
+
+// Show some numbers.
 STDERR.write("OUTPUT: " + points.length + " points, " +
                           Object.values(all_hashes).length + " hashes, and " +
                           out_data.length + " bytes.\n");

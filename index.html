@@ -25,7 +25,7 @@ function require() {}  // fake function to bypass the node.js require code.
 <script>
 // Global variables
 var PARAMS;  // URL parameters. Type: URLSearchParams
-var PATIENTS = Array();
+var PATIENTS = Array();  // TODO: deprecate PATIENTS
 var HASHES = Array();
 var TOTAL_FOUND;  // Number of found overlapped points.
 
@@ -64,10 +64,25 @@ function loadPatientData() {
   log("讀取別人的軌跡中 ...\n");
 
   if (PARAMS.get("hashes")) {
-    // TODO: output to remove redundant 'desc': {'desc': xxx, hashes=[...]}
-    // TODO: HASHES[xxx] = [desc_a, desc_b, ...]  use araay for hash value to contain multiple user's points.
-    let hashes = PARAMS.get("hashes");
-    HASHES = JSON.parse(fetchHttpFile(hashes));
+    // The hashed file format:
+    //
+    //   {
+    //     'desc': DESCRIPTION,
+    //     'hashes': [ ... ],
+    //   }
+    //
+    // TODO: move to parser.js and integrate with parseFile().
+    let hashes_path = PARAMS.get("hashes");
+    let json_obj = JSON.parse(fetchHttpFile(hashes_path));
+    let desc = json_obj.desc;
+    let hashes = json_obj.hashes;
+    for(hash of hashes) {
+      if (hash in HASHES) {
+        HASHES[hash].push(desc);
+      } else {
+        HASHES[hash] = [desc];
+      }
+    }
   } else {
     if (PARAMS.get("patient")) {
       var path = PARAMS.get("patient");
