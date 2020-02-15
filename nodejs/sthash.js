@@ -12,6 +12,7 @@ const yargs = require("yargs");
 
 const sthash = require("../lib_sthash.js");
 const parsers = require("../parsers.js");
+const utils = require("../utils.js");
 
 const STDOUT = process.stdout;
 const STDERR = process.stderr;
@@ -51,15 +52,20 @@ const argv = yargs
         type: 'number',
         default: 10,
     })
+    .option('shuffle', {
+        description: 'Shuffle location (default: -5: ~15 meters)',
+        type: 'number',
+        default: -5,
+    })
     .option('latlng_quan', {
         description: 'lat/lng quantization scale (default: -4)',
         type: 'number',
         default: -4,
     })
     .option('spread_out', {
-        description: 'spread_out (default: 4)',
+        description: 'spread_out (default: 5)',
         type: 'number',
-        default: 4,
+        default: 5,
     })
     .help()
     .alias('help', 'h')
@@ -126,7 +132,9 @@ if (argv.remove_top) {
 // TODO: dedup hash before writing
 let all_hashes = {};
 for (let point of points) {
-  var hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, point.lat, point.lng,
+  let lat = utils.shuffleFloat(point.lat, argv.shuffle, argv.shuffle - 3);
+  let lng = utils.shuffleFloat(point.lng, argv.shuffle, argv.shuffle - 3);
+  let hashes = sthash.hashSpacetime(hash_key, point.begin, point.end, lat, lng,
                                     argv.time_quan, argv.latlng_quan, argv.spread_out);
   for (let hash of hashes) {
     all_hashes[hash] = desc;
