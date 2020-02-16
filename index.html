@@ -24,6 +24,10 @@ function require() {}  // fake function to bypass the node.js require code.
 <script src="utils.js"></script>
 
 <script>
+//
+// TODO: i18n
+//
+
 // Global variables
 var PARAMS;  // URL parameters. Type: URLSearchParams
 var PATIENTS = Array();  // TODO: deprecate PATIENTS
@@ -34,7 +38,16 @@ function parseUrlParams() {
   PARAMS = new URLSearchParams(window.location.search);
 }
 
+// Return true if the code is running at production.
+function is_production() {
+  return window.location.hostname.match("github.io") != null;
+}
+
 function log(message) {
+  if (is_production()) {
+    return;
+  }
+
   const logs = document.getElementById("logs");
   logs.innerHTML += message + '\n';
   // scroll to the bottom.
@@ -257,6 +270,11 @@ function onLoad() {
   loadPatientData();
 
   document.getElementById('download_btn').onclick = download_btn_onclick;
+
+  // Do not show log field in prod.
+  if (is_production()) {
+    document.getElementById('logs_title').style.display = 'none';
+  }
 }
 </script>
 </head>
@@ -264,7 +282,7 @@ function onLoad() {
 <body onload="onLoad();">
 <form name="uploadForm" onsubmit="return false;">
 <h1>邂逅</h1>
-<p>比對資料：</p>
+<p>已載入可供比對的資料：</p>
 <pre id="loadFiles"></pre>
 <hr>
 
@@ -272,7 +290,6 @@ function onLoad() {
 <p>然後下載 KML 檔。
   <select id="download_period">
     <option value="1577836800,1580515199">2020年一月份</option>
-    <option value="1549929600,1551052799">2019/02/12 ~ 2020/02/24</option>
     <option value="-1209600">最近 14 天</option>
     <option value="-0">今天</option>
   </select>
@@ -292,8 +309,10 @@ function onLoad() {
 <p>第三步：查看結果。</p>
 <pre id="results"></pre>
 <hr>
-<p>Logs</p>
-<pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
+<div id='logs_title'>
+  <p>Logs</p>
+  <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
+</div>
 </form>
 </body>
 </html>
