@@ -16,6 +16,7 @@
 function require() {}  // fake function to bypass the node.js require code.
 </script>
 <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_sthash.js -->
+<script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script><!-- for parsers.js -->
 <script src="algos.js"></script>
 <script src="lib_sthash.js"></script>
 <script src="parsers.js"></script>
@@ -154,6 +155,7 @@ async function processFile(file_blob) {
     TOTAL_FOUND += contacts.length;
 
     log(`完成分析 ${filename} ... 發現 ${contacts.length} 個重疊的地方`);
+    finishResults();
   } else {
     alert("Not supported file type: " + filename);
   }
@@ -184,7 +186,7 @@ function fileTypeProcess() {
   }
 
   Promise.all(promises).then(
-    finishResults
+    finishResults  // TODO: seems not working. need to investigate.
   ).catch(
     (e) => console.error(e)
   );
@@ -205,8 +207,6 @@ function dropHandler(ev) {
       processFile(file);
     }
   }
-
-  finishResults();
 }
 
 function dragOverHandler(ev) {

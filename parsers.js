@@ -1,26 +1,29 @@
 "use strict";
 
+if (this.DOMParser == undefined) {
+  // node.js
+  var parser = require('fast-xml-parser');
+  var utils = require('./utils.js');
+  var convKmlDateToTimestamp = utils.convKmlDateToTimestamp;
+  var getDistanceFromLatLonInMeters = utils.getDistanceFromLatLonInMeters;
+}
+
 // JS code used in both broswer and nodejs
 (function(exports){
   exports.parseKml = parseKml;
   exports.parseJson = parseJson;
+  exports.parseFile = parseFile;
 }(typeof exports === 'undefined' ? this.parsers = {} : exports));
 
 function tryParseName(placemark) {
-  const name_elem = placemark.getElementsByTagName("name");
-  if (name_elem.length == 1) {
-    return name_elem[0].innerHTML.trim();
-  }
-
-  console.error("Too many names: ", name_elem);
-  return "";
+  return placemark.name;
 }
 
 function tryParseTimeSpan(placemark) {
-  const timespan = placemark.getElementsByTagName("TimeSpan");
-  if (timespan.length == 1) {
-    const time_begin = timespan[0].children[0].innerHTML;
-    const time_end = timespan[0].children[1].innerHTML;
+  const timespan = placemark.TimeSpan;
+  if (timespan != undefined) {
+    const time_begin = timespan.begin;
+    const time_end = timespan.end;
     return {
       begin: parseFloat(convKmlDateToTimestamp(time_begin.trim())),
       end: parseFloat(convKmlDateToTimestamp(time_end.trim())),
@@ -35,18 +38,15 @@ function tryParseTimeSpan(placemark) {
 function tryParsePoint(placemark) {
   var latlng = "";
 
-  const point = placemark.getElementsByTagName("Point");
+  const point = placemark.Point;
 
-  if (point.length == 0) {
+  if (point == undefined) {
     // Not point data. Maybe LineString data. Discard.
     return null;
   }
-  if (point.length != 1) {
-    console.error("Invalid point data: ", placemark);
-    return null;
-  }
 
-  latlng = point[0].children[0].innerHTML;
+  // "-122.02223289999999,37.338164,0"
+  latlng = point.coordinates;
 
   const name = tryParseName(placemark);
   const timespan = tryParseTimeSpan(placemark);
@@ -54,7 +54,6 @@ function tryParsePoint(placemark) {
     return null;
   }
 
-  // Point data: (-122.02223289999999,37.338164,0) 2020-02-07T16:14:56.673Z~2020-02-07T16:20:34.000Z
   return [{
     'lat': parseFloat(latlng.split(",")[1].trim()),
     'lng': parseFloat(latlng.split(",")[0].trim()),
@@ -293,26 +292,22 @@ function testIntrapolateCoords() {
 }
 
 function tryParseLineString(placemark) {
-  const line_string = placemark.getElementsByTagName("LineString");
+  const line_string = placemark.LineString;
 
-  if (line_string.length == 0) {
+  if (line_string == undefined) {
     // Not a LineString, does nothing.
-    return null;
-  }
-  if (line_string.length != 1) {
-    console.error("Invalid LineString data: ", placemark);
     return null;
   }
 
   // TODO: check altitudeMode?
-  let coords_elements = line_string[0].getElementsByTagName("coordinates");
-  if (coords_elements.length != 1) {
+  let coords_elements = line_string.coordinates;
+  if (coords_elements == undefined) {
     console.error("Invalid LineString data: ", placemark);
     return null;
   }
 
   const coords = [];
-  for (let coord_string of coords_elements[0].innerHTML.trim().split(" ")) {
+  for (let coord_string of coords_elements.trim().split(" ")) {
     // TODO: should we check the optional altitude?
     const [lng_string, lat_string] = coord_string.split(",");
     const lng = parseFloat(lng_string.trim());
@@ -332,26 +327,24 @@ function tryParseLineString(placemark) {
 // Given a KML text, returns an array of Point data.
 //
 function parseKml(text) {
-  var parser = new DOMParser();
-  var kml = parser.parseFromString(text,"text/xml");
   var output = Array();
 
-  console.log(kml);
-  var placemarks = kml.getElementsByTagName("Placemark");
-  console.log(placemarks);
-  for(var i = 0; i < placemarks.length; i++) {
-    var placemark = placemarks[i];
+  var jsonObj = parser.parse(text, {});
+  if ("Folder" in jsonObj.kml.Document) {
+    var placemarks = jsonObj.kml.Document.Folder.Placemark;
+  } else {
+    var placemarks = jsonObj.kml.Document.Placemark;
+  }
+  for(let placemark of placemarks) {
 
     let retval = tryParsePoint(placemark);
     if (retval !== null) {
-      console.info(retval);
       output.push(...retval);
       continue;
     }
 
     retval = tryParseLineString(placemark);
     if (retval !== null) {
-      console.info(retval);
       output.push(...retval);
       continue;
     }
@@ -423,4 +416,28 @@ function parseJson(json_text) {
   }
 
   return output;
+}
+
+
+// Gien a text and returns Array of points.
+//
+// Args:
+//   filename: undefined if it is unknown (e.g. from STDIN)
+//   file_text: str, the file content.
+//
+// Returns:
+//   Array of points.
+//
+function parseFile(filename, file_text) {
+  if (filename && filename.endsWith(".kml")) {
+    return parseKml(file_text);
+  } else if (filename && filename.endsWith(".json")) {
+    return parseJson(file_text);
+  } else if (file_text.startsWith("<?xml ")) {
+    return parseKml(file_text);
+  } else if (file_text.startsWith("{")) {
+    return parseJson(file_text);
+  } else {
+    alert("parseFile(): unsupported filename: " + filename);
+  }
 }

@@ -5,6 +5,8 @@
 // JS code used in both broswer and nodejs
 (function(exports){
   exports.shuffleFloat = shuffleFloat;
+  exports.convKmlDateToTimestamp = convKmlDateToTimestamp;
+  exports.getDistanceFromLatLonInMeters = getDistanceFromLatLonInMeters;
 }(typeof exports === 'undefined' ? this.utils = {} : exports));
 
 // String.trim(): remove whitespace in string
@@ -16,6 +18,26 @@ if(typeof(String.prototype.trim) === "undefined")
         return String(this).replace(/^\s+|\s+$/g, '');
     };
 }
+
+// Start of distance helper (http://stackoverflow.com/questions/27928/calculate-distance-between-two-latitude-longitude-points-haversine-formula)
+function getDistanceFromLatLonInMeters(lat1, lon1, lat2, lon2) {
+  var R = 6371; // Radius of the earth in km
+  var dLat = deg2rad(lat2-lat1);  // deg2rad below
+  var dLon = deg2rad(lon2-lon1);
+  var a =
+    Math.sin(dLat/2) * Math.sin(dLat/2) +
+    Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+    Math.sin(dLon/2) * Math.sin(dLon/2)
+    ;
+  var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+  var d = R * c; // Distance in km
+  return d * 1000;  // Convert to meters
+}
+
+function deg2rad(deg) {
+  return deg * (Math.PI/180)
+}
+// End of distance helper
 
 // Returns the timestamp (#seconds since 1970/01/01)
 //

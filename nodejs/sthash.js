@@ -1,6 +1,5 @@
 // Command line tools to generate hashed point data.
 //
-// TODO: support parseKml
 // TODO: --remove-weekdays --timezone
 // TODO: --compress: to use gzip to compress data.
 //
@@ -84,7 +83,7 @@ if (argv.key != undefined) {
 
 let input_filename = (argv.input != undefined) ? argv.input : "/dev/stdin";
 let text = fs.readFileSync(input_filename, 'utf-8');
-var points = parsers.parseJson(text);
+var points = parsers.parseFile(undefined, text);
 
 if (argv.remove_top) {
   // Count all of them.
