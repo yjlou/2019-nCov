@@ -64,6 +64,7 @@ function fetchHttpFile(path) {
 function loadPatientData() {
   log("讀取別人的軌跡中 ...\n");
 
+  let load_files_elem = document.getElementById("loadFiles");
   if (PARAMS.get("hashes")) {
     // The hashed file format:
     //
@@ -84,6 +85,7 @@ function loadPatientData() {
         HASHES[hash] = [desc];
       }
     }
+    load_files_elem.innerHTML += "<LI>" + desc + "\n";
   } else {
     if (PARAMS.get("patient")) {
       var path = PARAMS.get("patient");
@@ -96,6 +98,7 @@ function loadPatientData() {
       'desc': "",  // don't know what to put here.
       'points': points,
     });
+    load_files_elem.innerHTML += "<LI>" + path + "\n";  // TODO: show meaningful description.
   }
   log("讀取完畢。請開始使用。");
 }
@@ -261,6 +264,10 @@ function onLoad() {
 <body onload="onLoad();">
 <form name="uploadForm" onsubmit="return false;">
 <h1>邂逅</h1>
+<p>比對資料：</p>
+<pre id="loadFiles"></pre>
+<hr>
+
 <p>第一步：先到 <a href="https://google.com/maps/timeline" target="_blank">Google Maps 時間軸</a>，確認你的定位紀錄已經開啟。</p>
 <p>然後下載 KML 檔。
   <select id="download_period">
@@ -273,6 +280,7 @@ function onLoad() {
 </p>
 <p>* 記得點選瀏覽器網址「允許」彈跳視窗後，重新再點選「下載」。</p>
 <hr>
+
 <p>第二步：開啟你的軌跡檔</p>
 <p>點選這裡選 KML/JSON 檔<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
 <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
