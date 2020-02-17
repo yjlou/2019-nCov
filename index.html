@@ -103,7 +103,7 @@ function loadPatientData() {
     if (PARAMS.get("patient")) {
       var path = PARAMS.get("patient");
     } else {
-      var path = "kml/Diamond.kml";
+      var path = "kml/test.kml";
     }
     var points = parseFile(path, fetchHttpFile(path));
     log(JSON.stringify(points).split("},{").join("},\n{"));
