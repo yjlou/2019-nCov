@@ -72,6 +72,7 @@ function checkContact(user_points, patients) {
 
 function checkHashes(user_points, knwon_hashes) {
   var ret = Array();
+  if (Object.keys(knwon_hashes).length == 0) { return ret; }
 
   var dedup = {};
   for(let user_point of user_points) {
