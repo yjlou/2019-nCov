@@ -330,10 +330,17 @@ function parseKml(text) {
   var output = Array();
 
   var jsonObj = parser.parse(text, {});
+  console.log("ParseKml(): jsonObj: ", jsonObj);
   if ("Folder" in jsonObj.kml.Document) {
     var placemarks = jsonObj.kml.Document.Folder.Placemark;
   } else {
     var placemarks = jsonObj.kml.Document.Placemark;
+
+    // If there is only one record in that day, the placemark would be that record
+    // instead of an array of records.
+    if (!Array.isArray(placemarks)) {
+      placemarks = [placemarks];
+    }
   }
   for(let placemark of placemarks) {
 
