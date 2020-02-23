@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>邂逅</title>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBZR5PXS5X"></script>
 <script>
@@ -12,11 +13,21 @@
 
   gtag('config', 'G-EBZR5PXS5X');
 </script>
-<script>
-function require() {}  // fake function to bypass the node.js require code.
-</script>
-<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script><!-- for lib_sthash.js -->
-<script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script><!-- for parsers.js -->
+<!-- end of GA -->
+
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+        crossorigin="anonymous"></script>
+
+<!-- fake function to bypass the node.js require() code. Must be defined before the local .js files are imported. -->
+<script> function require() {} </script>
+
+<!-- for lib_sthash.js -->
+<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script>
+<!-- for parsers.js -->
+<script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script>
+<!-- local .js files -->
 <script src="algos.js"></script>
 <script src="lib_sthash.js"></script>
 <script src="parsers.js"></script>
@@ -132,6 +143,7 @@ function showContacts(contacts) {
   console.log(contacts);
   var html = "";
   for(let contact of contacts) {
+    // TODO: show in-page static map to avoid opening a new window.
     html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
                      myLocaleTime(contact.end) + ": " +
                      " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
@@ -157,7 +169,7 @@ function loadFileContentAsync(file_blob) {
 async function processFile(file_blob) {
   console.log(file_blob);
   var filename = file_blob.name;
-  const display = document.getElementById("results");
+  const display = $("#results");
   if (filename.endsWith(".kml") || filename.endsWith(".json")) {
     log(`分析 ${filename} ...`);
     let file_text = await loadFileContentAsync(file_blob);
@@ -167,7 +179,7 @@ async function processFile(file_blob) {
     contacts = contacts.concat(checkContact(points, PATIENTS));
     contacts = contacts.concat(checkHashes(points, HASHES));
 
-    display.innerHTML += showContacts(contacts);
+    display.html(showContacts(contacts));
     TOTAL_FOUND += contacts.length;
 
     log(`完成分析 ${filename} ... 發現 ${contacts.length} 個重疊的地方`);
@@ -179,13 +191,12 @@ async function processFile(file_blob) {
 
 function clearResults() {
   TOTAL_FOUND = 0;
-  document.getElementById("results").innerHTML = "";  // reset result
+  $("#results").html("");  // reset result
 }
 
 function finishResults() {
-  const display = document.getElementById("results");
-  display.innerHTML =
-    `比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` + display.innerHTML;
+  const display = $("#results");
+  display.html(`比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` + display.html());
 }
 
 function fileTypeProcess() {
