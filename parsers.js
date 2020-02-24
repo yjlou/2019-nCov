@@ -336,9 +336,13 @@ function parseKml(text) {
   } else {
     var placemarks = jsonObj.kml.Document.Placemark;
 
+    // If there is no Placemark, this could be an empty KML (the day without history data).
+    if (placemarks == undefined) {
+      placemarks = [];
+    }
     // If there is only one record in that day, the placemark would be that record
     // instead of an array of records.
-    if (!Array.isArray(placemarks)) {
+    else if (!Array.isArray(placemarks)) {
       placemarks = [placemarks];
     }
   }
