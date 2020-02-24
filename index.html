@@ -16,9 +16,11 @@
 <!-- end of GA -->
 
 <!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
         crossorigin="anonymous"></script>
+
+<!-- Simple i18n: https://i18njs.com/ -->
+<script src="https://i18njs.com/js/i18n.min.js"></script>
 
 <!-- fake function to bypass the node.js require() code. Must be defined before the local .js files are imported. -->
 <script> function require() {} </script>
@@ -27,18 +29,16 @@
 <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script>
 <!-- for parsers.js -->
 <script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script>
+
 <!-- local .js files -->
 <script src="algos.js"></script>
+<script src="i18n.js"></script>
 <script src="lib_sthash.js"></script>
 <script src="parsers.js"></script>
 <script src="test.js"></script>
 <script src="utils.js"></script>
 
 <script>
-//
-// TODO: i18n
-//
-
 // Global variables
 var PARAMS;  // URL parameters. Type: URLSearchParams
 var PATIENTS = Array();  // TODO: deprecate PATIENTS
@@ -86,9 +86,9 @@ function fetchHttpFile(path) {
 }
 
 function loadPatientData() {
-  log("讀取別人的軌跡中 ...\n");
+  log(i18n("LOADING_TRACKING"));
 
-  let load_files_elem = document.getElementById("loadFiles");
+  let load_files_elem = $("#loadFiles");
   if (PARAMS.get("hashes")) {
     // The hashed file format:
     //
@@ -109,7 +109,7 @@ function loadPatientData() {
         HASHES[hash] = [desc];
       }
     }
-    load_files_elem.innerHTML += "<LI>" + desc + "\n";
+    load_files_elem.html(load_files_elem.html() + "<LI>" + desc + "\n");
   } else {
     if (PARAMS.get("patient")) {
       var path = PARAMS.get("patient");
@@ -122,9 +122,9 @@ function loadPatientData() {
       'desc': "",  // don't know what to put here.
       'points': points,
     });
-    load_files_elem.innerHTML += "<LI>" + path + "\n";  // TODO: show meaningful description.
+    load_files_elem.html(load_files_elem.html() + "<LI>" + path + "\n");  // TODO: show meaningful description.
   }
-  log("讀取完畢。請開始使用。");
+  log(i18n("DONE_LOADING"));
 }
 
 function twoDigits(num) {
@@ -171,7 +171,7 @@ async function processFile(file_blob) {
   var filename = file_blob.name;
   const display = $("#results");
   if (filename.endsWith(".kml") || filename.endsWith(".json")) {
-    log(`分析 ${filename} ...`);
+    log(i18n("ANALYZING", {filename: filename}));
     let file_text = await loadFileContentAsync(file_blob);
     let points = parseFile(filename, file_text);
 
@@ -179,13 +179,16 @@ async function processFile(file_blob) {
     contacts = contacts.concat(checkContact(points, PATIENTS));
     contacts = contacts.concat(checkHashes(points, HASHES));
 
-    display.html(showContacts(contacts));
+    display.html(display.html() + showContacts(contacts));
     TOTAL_FOUND += contacts.length;
 
-    log(`完成分析 ${filename} ... 發現 ${contacts.length} 個重疊的地方`);
+    log(i18n("DONE_ANALYZE", {
+      filename: filename,
+      contacts_length: contacts.length
+    }));
     finishResults();
   } else {
-    alert("Not supported file type: " + filename);
+    alert(i18n("UNSUPPORTED_FILE_TYPE", {filename: filename}));
   }
 }
 
@@ -196,7 +199,7 @@ function clearResults() {
 
 function finishResults() {
   const display = $("#results");
-  display.html(`比對結果，有 ${TOTAL_FOUND} 個重疊的地方。\n\n` + display.html());
+  display.html(i18n("FINISH_RESULTS", {total_found: TOTAL_FOUND}) + display.html());
 }
 
 function fileTypeProcess() {
@@ -278,7 +281,10 @@ function download_btn_onclick(ev) {
 
 function onLoad() {
   parseUrlParams();
-  loadPatientData();
+  load_i18n(function() {
+    updateUiText();
+    loadPatientData();
+  });
 
   document.getElementById('download_btn').onclick = download_btn_onclick;
 
@@ -292,32 +298,32 @@ function onLoad() {
 
 <body onload="onLoad();">
 <form name="uploadForm" onsubmit="return false;">
-<h1>邂逅</h1>
-<p>已載入可供比對的資料：</p>
+<h1 id="HTML_APP_NAME">COVID-19</h1>
+<p id="HTML_LOADED_DATA">Loaded Data List</p>
 <pre id="loadFiles"></pre>
 <hr>
 
-<p>第一步：先到 <a href="https://google.com/maps/timeline" target="_blank">Google Maps 時間軸</a>，確認你的定位紀錄已經開啟。</p>
-<p>然後下載 KML 檔。
+<p id="HTML_STEP_1_1">Step 1: Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps Timeline</a> and verify 'Location History' had been ON.</p>
+<p><span id="HTML_STEP_1_2">Then select period to download: </span>
   <select id="download_period">
-    <option value="1577836800,1580515199">2020年一月份</option>
-    <option value="-1209600">最近 14 天</option>
-    <option value="-0">今天</option>
+    <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
+    <option id="HTML_ONLY_TODAY" value="-0">Today</option>
   </select>
-  <button id="download_btn">下載</button>。
+  <button id="download_btn"><span id="HTML_DONWLOAD">Download</span></button>
+  <span id="HTML_PUNC_PERIOD">.</span>
 </p>
-<p>* 記得點選瀏覽器網址「允許」彈跳視窗後，重新再點選「下載」。</p>
+<p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
 <hr>
 
-<p>第二步：開啟你的軌跡檔</p>
-<p>點選這裡選 KML/JSON 檔<input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/>，</p>
+<p id="HTML_STEP_2_1">Step 2: Open your location history file(s)</p>
+<p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/></p>
 <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-  <label for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
-    或是把 KML/JSON 檔案拖到這裡。
+  <label id="HTML_DRAG_DROP_AREA" for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
+    Or drag-drop KML/JSON file(s) to here.
   </label>
 </div>
 <hr>
-<p>第三步：查看結果。</p>
+<p id="HTML_STEP_3">Step 3: See results below.</p>
 <pre id="results"></pre>
 <hr>
 <div id='logs_title'>
@@ -326,7 +332,7 @@ function onLoad() {
 </div>
 </form>
 <hr>
-<a href="https://github.com/yjlou/2019-nCov" target="_blank">原始程式碼</a>
+<a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a>
 </body>
 </html>
 

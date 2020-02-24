@@ -1,0 +1,27 @@
+﻿{
+  "values": {
+    "HTML_APP_NAME": "COVID-19",
+    "HTML_LOADED_DATA": "Loaded Data List:",
+    "HTML_STEP_1_1": "Step 1: Go to <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a> and verify 'Location History' had been ON.",
+    "HTML_STEP_1_2": "Then select period to download: ",
+    "HTML_LAST_14_DAYS": "last 14 days",
+    "HTML_ONLY_TODAY": "Today",
+    "HTML_DONWLOAD": "Download",
+    "HTML_PUNC_PERIOD": ".",
+    "HTML_ALLOW_POPUP": "* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.",
+    "HTML_STEP_2_1": "Step 2: Open your location history file(s)",
+    "HTML_STEP_2_2": "Click here to select KML/JSON file(s): ",
+    "HTML_DRAG_DROP_AREA": "Or drag-drop KML/JSON file(s) to here.",
+    "HTML_STEP_3": "Step 3: See results below.",
+    "HTML_SOURCE_CODE": "Source code link",
+
+    "LOADING_TRACKING": "Loading tracking data ...\n",
+    "DONE_LOADING": "Done loading. You can start using now.\n",
+    "ANALYZING": "Analyzing %{filename} ...",
+    "DONE_ANALYZE": "Analyzed %{filename}. Found %{contacts_length} duplicate(s).",
+    "UNSUPPORTED_FILE_TYPE": "Unsupported file extension: %{filename}",
+    "FINISH_RESULTS": "Done comparison. Found %{total_found} overlapped place(s).\n\n",
+
+    "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
+  }
+}

@@ -1,0 +1,27 @@
+﻿{
+  "values": {
+    "HTML_APP_NAME": "코로나",
+    "HTML_LOADED_DATA": "로드 된 데이터 목록",
+    "HTML_STEP_1_1": "1 단계 : <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 타임라인</a> 로 이동하여 '위치 기록'이 켜져 있는지 확인합니다.",
+    "HTML_STEP_1_2": "그런 다음 다운로드 할 기간을 선택하십시오: ",
+    "HTML_LAST_14_DAYS": "지난 14 일",
+    "HTML_ONLY_TODAY": "오늘",
+    "HTML_DONWLOAD": "다운로드",
+    "HTML_PUNC_PERIOD": ".",
+    "HTML_ALLOW_POPUP": "* 브라우저에서 '팝업'을 허용 한 다음 '다운로드'버튼을 다시 클릭하십시오.",
+    "HTML_STEP_2_1": "2 단계 : 위치 기록 파일 열기",
+    "HTML_STEP_2_2": "KML / JSON 파일을 선택하려면 여기를 클릭하십시오: ",
+    "HTML_DRAG_DROP_AREA": "또는 KML / JSON 파일을 여기로 끌어다 놓습니다.",
+    "HTML_STEP_3": "3 단계 : 아래 결과를 참조하십시오.",
+    "HTML_SOURCE_CODE": "소스 코드 링크",
+
+    "LOADING_TRACKING": "Loading tracking data ...\n",
+    "DONE_LOADING": "Done loading. You can start using now.\n",
+    "ANALYZING": "Analyzing %{filename} ...",
+    "DONE_ANALYZE": "Analyzed %{filename}. Found %{contacts_length} duplicate(s).",
+    "UNSUPPORTED_FILE_TYPE": "지원되지 않는 파일 확장자 : %{filename}",
+    "FINISH_RESULTS": "비교를 완료했습니다. 중복 된 장소가 %{total_found} 개 있습니다.\n\n",
+
+    "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
+  }
+}

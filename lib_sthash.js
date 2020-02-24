@@ -40,6 +40,7 @@
 // the edge conflicting in the hash.
 //
 // TODO: web generates grid (multiple empty squares); nodejs generates a single empty square.
+// TODO: web generates concentric circles (1r, 3r, 5r, ...); nodejs generates a single small circle (r).
 //
 //       +---+---+---+
 //       |   |   |   |
