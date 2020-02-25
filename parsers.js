@@ -405,7 +405,7 @@ function parseKml(text) {
 function parseJson(json_text) {
   var output = Array();
 
-  var json = JSON.parse(json_text);
+  var json = myJsonParse(json_text);
   var objs = json.timelineObjects;
   if (!objs) {
     alert("Unknown JSON file. Please download from Google Maps Timeline.", json_text);

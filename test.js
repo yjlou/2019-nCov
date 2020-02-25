@@ -40,6 +40,7 @@ function test() {
   // utils.js
   testConvKmlDateToTimestamp();
   testShuffleFloat();
+  testMyJsonParse();
 
   // lib_sthash.js
   testQuantifyDuration();

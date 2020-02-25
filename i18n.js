@@ -5,13 +5,7 @@
 function load_lang(locale, callback, fallback) {
   $.ajax(`locales/${locale}.json`)
     .done(function(text){
-      if ((typeof text) == "string") {
-        var data = JSON.parse(text);
-      } else {
-        // Seems like on some servers (e.g. raw.githack.com) the JSON file would be converted to
-        // Javascript Object directly.
-        var data = text;
-      }
+      var data = myJsonParse(text);
       i18n.translator.add(data);
       callback();
     })

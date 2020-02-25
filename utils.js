@@ -140,3 +140,30 @@ function testShuffleFloat() {
   EXPECT_EQ("123.45xxxxxx", shuffleFloat(123.456789, -3, -8, 'x'));
   EXPECT_EQ("123.45678", shuffleFloat(123.456789, -6, -6, ''));
 }
+
+// It seems like some servers would return different MLME type for JSON so that it will be
+// converted to JS objectdirectly. This is the helper function to check that.
+//
+function myJsonParse(text) {
+  if ((typeof text) == "string") {
+    var data = JSON.parse(text);
+  } else {
+    // Seems like on some servers (e.g. raw.githack.com) the JSON file would be converted to
+    // Javascript Object directly.
+    var data = text;
+  }
+
+  return data;
+}
+
+function testMyJsonParse() {
+  let obj = {
+    a: "A",
+    b: "B",
+  };
+
+  let text = JSON.stringify(obj);
+
+  EXPECT_EQ(JSON.stringify(obj), JSON.stringify(myJsonParse(text)));
+  EXPECT_EQ(JSON.stringify(obj), JSON.stringify(myJsonParse(obj)));
+}
