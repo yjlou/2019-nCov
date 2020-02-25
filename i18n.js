@@ -40,7 +40,7 @@ function load_i18n(callback) {
     load_lang(lang, callback);
   } else {
     $.ajax({ 
-        url: "http://ajaxhttpheaders.appspot.com", 
+        url: "https://ajaxhttpheaders.appspot.com", 
         dataType: 'jsonp', 
         success: function(headers) {
             let language = headers['Accept-Language'];
