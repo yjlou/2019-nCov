@@ -54,11 +54,6 @@ def Main(input_file, output_file):
   results = []
   tz = KoreanTimeZone()
   for k, e in cases.items():
-    place_visit = {
-      'location': {
-        'name': e['originalIndex']
-      }
-    }
     places = e['data']['data']
 
     for idx, place in enumerate(places):
@@ -75,7 +70,7 @@ def Main(input_file, output_file):
       x = place['latlng']['x']
       y = place['latlng']['y']
       d = place['date']
-      name = e['originalIndex'] + '-' + str(idx)
+      name = str(e['data']['name'])
       if not d:
         print('!!! Unknown date !!!')
         print(name)
@@ -95,7 +90,7 @@ def Main(input_file, output_file):
               "location" : {
                 "latitudeE7" : int(y * (10 ** 7)),
                 "longitudeE7" : int(x * (10 ** 7)),
-                "name" : e['originalIndex'] + '-' + str(idx),
+                "name" : name,
               },
               "duration" : {
                 "startTimestampMs" : str(t),
