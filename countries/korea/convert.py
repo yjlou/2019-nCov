@@ -1,3 +1,8 @@
+"""Convert data from coronamap.live.
+
+TOOD: For match results, instead of linking to Google Maps, link back to coronamap.live to give
+      them credits.
+"""
 import argparse
 import datetime
 import json
