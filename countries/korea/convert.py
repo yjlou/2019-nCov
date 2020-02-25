@@ -93,8 +93,8 @@ def Main(input_file, output_file):
           {
             "placeVisit" : {
               "location" : {
-                "latitudeE7" : int(x * (10 ** 7)),
-                "longitudeE7" : int(y * (10 ** 7)),
+                "latitudeE7" : int(y * (10 ** 7)),
+                "longitudeE7" : int(x * (10 ** 7)),
                 "name" : e['originalIndex'] + '-' + str(idx),
               },
               "duration" : {
