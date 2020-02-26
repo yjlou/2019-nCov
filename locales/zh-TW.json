@@ -1,7 +1,8 @@
 ﻿{
   "values": {
-    "HTML_APP_NAME": "邂逅",
-    "HTML_LOADED_DATA": "已載入可供比對的資料：",
+    "HTML_APP_NAME": "武漢肺炎歷史軌跡比對",
+    "HTML_APP_DESCRIPTION": "這個程式藉由比對你的手機歷史位置記錄，來判斷是否曾與病患接觸。",
+    "HTML_LOADED_DATA": "目前可供比對的資料：",
     "HTML_WARNING": "警告！ 所有的比對結果都僅供參考。 如果有疑問，以官方公佈的資訊為準。",
     "HTML_STEP_1_1": "第一步：先到 <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 時間軸</a>，確認你的定位紀錄已經開啟。",
     "HTML_STEP_1_2": "接著選擇要下載的區間：",

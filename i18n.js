@@ -55,4 +55,6 @@ function updateUiText() {
   $("[id^=HTML_]").each(function(idx) {
     $(this).html(i18n($(this)[0].id));
   });
+
+  window.document.title = i18n("HTML_APP_NAME");
 }

@@ -1,6 +1,7 @@
 ﻿{
   "values": {
     "HTML_APP_NAME": "코로나",
+    "HTML_APP_DESCRIPTION": "이 프로그램은 휴대폰 기록 위치 데이터와 비교하여 확인 된 환자에게 연락했는지 여부를 알려줍니다.",
     "HTML_LOADED_DATA": "로드 된 데이터 목록",
     "HTML_WARNING": "경고! 일치하는 모든 결과는 단지 참고입니다. 정보가 정확하지 않으면 당국이 발표 한 정보를 참조하십시오.",
     "HTML_STEP_1_1": "1 단계 : <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 타임라인</a> 로 이동하여 '위치 기록'이 켜져 있는지 확인합니다.",
