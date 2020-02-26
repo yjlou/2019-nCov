@@ -121,23 +121,21 @@ const ndata = require('./' + argv.input);
 //   }
 //
 let out_obj = [];
-for(let patient of ndata.position) {
-  for(let record of patient) {
-    out_obj.push({
-      placeVisit: {
-        location: {
-          latitudeE7: record.latlng[0] * 10000000,
-          longitudeE7: record.latlng[1] * 10000000,
-          name : record.title,
-        },
-        duration: {
-          startTimestampMs: KrDateToTimestampMs(record.month, record.day),
-          endTimestampMs: KrDateToTimestampMs(record.month, record.day) +
-                          24 * 60 * 60 * 1000,  // The whole day.
-        },
-      }
-    });
-  }
+for(let record of ndata.position) {
+  out_obj.push({
+    placeVisit: {
+      location: {
+        latitudeE7: record.latlng[0] * 10000000,
+        longitudeE7: record.latlng[1] * 10000000,
+        name : record.title,
+      },
+      duration: {
+        startTimestampMs: KrDateToTimestampMs(record.month, record.day),
+        endTimestampMs: KrDateToTimestampMs(record.month, record.day) +
+                        24 * 60 * 60 * 1000,  // The whole day.
+      },
+    }
+  });
 }
 
 let space = argv.pretty ? 2 : 0;
