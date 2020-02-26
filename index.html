@@ -38,6 +38,11 @@
   <script src="test.js"></script>
   <script src="utils.js"></script>
 
+  <!-- Materialize: Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
   <script>
     // Global variables
     var PARAMS;  // URL parameters. Type: URLSearchParams
@@ -325,6 +330,10 @@
       load_i18n(function () {
         updateUiText();
         loadPatientData();
+        // Initialize Materialize selects after UI text is updated,
+        // since Materialize inserts DOM elements based on the state of the
+        // selects.
+        M.FormSelect.init(document.querySelectorAll('select'), {});
       });
 
       document.getElementById('download_btn').onclick = download_btn_onclick;
@@ -338,60 +347,102 @@
 </head>
 
 <body onload="onLoad();">
-  <form name="uploadForm" onsubmit="return false;">
-    <p>
-      <select id="select_lang" style="float: right;" onchange="language_changed();">
-        <option id="HTML_SELECT_LANGUAGE">Select Language</option>
-        <option value="en-US">English</option>
-        <option value="zh-TW">繁體中文</option>
-        <option value="ko">한국어</option>
-      </select>
-    </p>
-    <h1 id="HTML_APP_NAME">COVID-19</h1>
-    <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell you
-      whether you have contacted the confirmed patient or not.</p>
-    <p id="HTML_LOADED_DATA">Loaded Data List</p>
-    <pre id="loadFiles"></pre>
-    <p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to the
-      information announced by the authority.</p>
-    <hr>
-
-    <p id="HTML_STEP_1_1">Step 1: Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps
-        Timeline</a> and verify 'Location History' had been ON.</p>
-    <p><span id="HTML_STEP_1_2">Then select period to download: </span>
-      <select id="download_period">
-        <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
-        <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
-        <option id="HTML_ONLY_TODAY" value="-0">Today</option>
-      </select>
-      <button id="download_btn"><span id="HTML_DONWLOAD">Download</span></button>
-      <span id="HTML_PUNC_PERIOD">.</span>
-    </p>
-    <p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
-    <hr>
-
-    <p id="HTML_STEP_2_1">Step 2: Open your location history file(s)</p>
-    <p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file"
-        style="visibility:;" onchange="fileTypeProcess();" multiple /></p>
-    <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-      <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
-        style="background: #e0e0e0; padding: 100px; display: inline-block;">
-        Or drag-drop KML/JSON file(s) to here.
-      </label>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-wrapper">
+          <div class="row">
+            <div class="col s12">
+              <a href="#" id="HTML_APP_NAME" class="brand-logo">COVID-19</a>
+              <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                  <form onsubmit="return false;">
+                    <select id="select_lang" onchange="language_changed();">
+                      <option id="HTML_SELECT_LANGUAGE" disabled selected>Select Language</option>
+                      <option value="en-US">English</option>
+                      <option value="zh-TW">繁體中文</option>
+                      <option value="ko">한국어</option>
+                    </select>
+                  </form>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
     </div>
-    <hr>
-    <p id="HTML_STEP_3">Step 3: See results below.</p>
-    <pre id="results"></pre>
-    <hr>
-    <div id='logs_title'>
-      <p>Logs</p>
-      <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
+  </header>
+
+  <main>
+    <div class="container">
+      <form name="uploadForm" onsubmit="return false;">
+        <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell
+          you
+          whether you have contacted the confirmed patient or not.</p>
+        <p id="HTML_LOADED_DATA">Loaded Data List</p>
+        <pre id="loadFiles"></pre>
+        <p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to
+          the
+          information announced by the authority.</p>
+        <hr>
+
+        <h5 id="HTML_STEP_1_1">
+          Step 1: Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps
+            Timeline</a> and verify 'Location History' had been ON.
+        </h5>
+        <p>
+          <span id="HTML_STEP_1_2">Then select period to download: </span>
+          <span class="input-field inline">
+            <select id="download_period">
+              <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
+              <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
+              <option id="HTML_ONLY_TODAY" value="-0">Today</option>
+            </select>
+          </span>
+          <button id="download_btn"><span id="HTML_DONWLOAD">Download</span></button>
+          <span id="HTML_PUNC_PERIOD">.</span>
+        </p>
+        <p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
+        <hr>
+
+        <h5 id="HTML_STEP_2_1">
+          Step 2: Open your location history file(s)
+        </h5>
+        <p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file"
+            style="visibility:;" onchange="fileTypeProcess();" multiple /></p>
+        <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+          <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
+            style="background: #e0e0e0; padding: 100px; display: inline-block;">
+            Or drag-drop KML/JSON file(s) to here.
+          </label>
+        </div>
+        <hr>
+        <h5 id="HTML_STEP_3">
+          Step 3: See results below.
+        </h5>
+        <pre id="results"></pre>
+        <hr>
+        <div id='logs_title'>
+          <p>Logs</p>
+          <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
+        </div>
+      </form>
     </div>
-  </form>
-  <hr>
-  <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a> |
-  <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank">Contact us ( covid-19@googlegroups.com
-    )</a>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a> |
+        <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank">Contact us (
+          covid-19@googlegroups.com
+          )</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Materialize: Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
 
 </html>
