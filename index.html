@@ -121,9 +121,10 @@ function loadPatientData() {
         src: PARAMS.get("patient"),
       });
     } else {
+      // Load default data.
       load_files.push({
         desc: 'Korea data (coronamap.live)',
-        path: "countries/korea/output.json",
+        path: "countries/korea/coronamap.live-output.json",
         src: 'https://coronamap.live',
       });
     }
