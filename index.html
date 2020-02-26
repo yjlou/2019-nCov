@@ -302,6 +302,12 @@ function download_btn_onclick(ev) {
   return false;
 }
 
+function language_changed() {
+  let lang = $("#select_lang option:selected").val();
+  window.location.href = "?hl=" + lang;
+  return false;
+}
+
 function onLoad() {
   parseUrlParams();
   load_i18n(function() {
@@ -321,6 +327,14 @@ function onLoad() {
 
 <body onload="onLoad();">
 <form name="uploadForm" onsubmit="return false;">
+<p>
+  <select id="select_lang" style="float: right;" onchange="language_changed();">
+    <option id="HTML_SELECT_LANGUAGE">Select Language</option>
+    <option value="en-US">English</option>
+    <option value="zh-TW">繁體中文</option>
+    <option value="ko">한국어</option>
+  </select>
+</p>
 <h1 id="HTML_APP_NAME">COVID-19</h1>
 <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell you whether you have contacted the confirmed patient or not.</p>
 <p id="HTML_LOADED_DATA">Loaded Data List</p>
