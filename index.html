@@ -89,6 +89,7 @@ function loadPatientData() {
   log(i18n("LOADING_TRACKING"));
 
   let load_files_elem = $("#loadFiles");
+  let load_files = [];
   if (PARAMS.get("hashes")) {
     // The hashed file format:
     //
@@ -109,21 +110,43 @@ function loadPatientData() {
         HASHES[hash] = [desc];
       }
     }
-    load_files_elem.html(load_files_elem.html() + "<LI>" + desc + "\n");
+    load_files.push({
+      desc: desc,
+    });
   } else {
     if (PARAMS.get("patient")) {
-      var path = PARAMS.get("patient");
+      load_files.push({
+        desc: PARAMS.get("patient"),
+        path: PARAMS.get("patient"),
+        src: PARAMS.get("patient"),
+      });
     } else {
-      var path = "countries/korea/output.json";
+      load_files.push({
+        desc: 'Korea data (coronamap.live)',
+        path: "countries/korea/output.json",
+        src: 'https://coronamap.live',
+      });
     }
-    var points = parseFile(path, fetchHttpFile(path));
-    log(JSON.stringify(points).split("},{").join("},\n{"));
-    PATIENTS.push({
-      'desc': "",  // don't know what to put here.
-      'points': points,
-    });
-    load_files_elem.html(load_files_elem.html() + "<LI>" + path + "\n");  // TODO: show meaningful description.
+
+    for(let file of load_files) {
+      let points = parseFile(file.path, fetchHttpFile(file.path));
+      log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
+      PATIENTS.push({
+        'desc': "",  // don't know what to put here.
+        'points': points,
+      });
+    }
   }
+
+  for(let file of load_files) {
+    let add_html = "<LI>";
+    if (file.src) { add_html += `<a target='_blank' href='${file.src}'>`; }
+    add_html += file.desc;
+    if (file.src) { add_html += "</a>"; }
+    add_html += "\n";
+    load_files_elem.html(load_files_elem.html() + add_html);
+  }
+
   log(i18n("DONE_LOADING"));
 }
 
