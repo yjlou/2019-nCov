@@ -122,18 +122,29 @@ function loadPatientData() {
       });
     } else {
       // Load default data.
+
+      // coronamap.site
+      load_files.push({
+        desc: 'Korea data (coronamap.site)',
+        path: "countries/korea/coronamap.site-output.json",
+        src: 'https://coronamap.site',
+      });
+
+      /* DO NOT LOAD because it has less data.
+      // coronamap.live
       load_files.push({
         desc: 'Korea data (coronamap.live)',
         path: "countries/korea/coronamap.live-output.json",
         src: 'https://coronamap.live',
       });
+      */
     }
 
     for(let file of load_files) {
       let points = parseFile(file.path, fetchHttpFile(file.path));
       log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
       PATIENTS.push({
-        'desc': "",  // don't know what to put here.
+        'desc': file.desc,
         'points': points,
       });
     }
