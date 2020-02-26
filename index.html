@@ -1,391 +1,397 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>COVID-19</title>
+  <meta charset="UTF-8">
+  <title>COVID-19</title>
 
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EBZR5PXS5X"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBZR5PXS5X"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-EBZR5PXS5X');
-</script>
-<!-- end of GA -->
+    gtag('config', 'G-EBZR5PXS5X');
+  </script>
+  <!-- end of GA -->
 
-<!-- jQuery -->
-<script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        crossorigin="anonymous"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
 
-<!-- Simple i18n: https://i18njs.com/ -->
-<script src="https://i18njs.com/js/i18n.min.js"></script>
+  <!-- Simple i18n: https://i18njs.com/ -->
+  <script src="https://i18njs.com/js/i18n.min.js"></script>
 
-<!-- fake function to bypass the node.js require() code. Must be defined before the local .js files are imported. -->
-<script> function require() {} </script>
+  <!-- fake function to bypass the node.js require() code. Must be defined before the local .js files are imported. -->
+  <script> function require() { } </script>
 
-<!-- for lib_sthash.js -->
-<script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script>
-<!-- for parsers.js -->
-<script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script>
+  <!-- for lib_sthash.js -->
+  <script src="https://cdn.jsdelivr.net/gh/emn178/js-sha256@master/build/sha256.min.js"></script>
+  <!-- for parsers.js -->
+  <script src="https://cdn.jsdelivr.net/gh/NaturalIntelligence/fast-xml-parser@master/lib/parser.min.js"></script>
 
-<!-- local .js files -->
-<script src="algos.js"></script>
-<script src="i18n.js"></script>
-<script src="lib_sthash.js"></script>
-<script src="parsers.js"></script>
-<script src="test.js"></script>
-<script src="utils.js"></script>
+  <!-- local .js files -->
+  <script src="algos.js"></script>
+  <script src="i18n.js"></script>
+  <script src="lib_sthash.js"></script>
+  <script src="parsers.js"></script>
+  <script src="test.js"></script>
+  <script src="utils.js"></script>
 
-<script>
-// Global variables
-var PARAMS;  // URL parameters. Type: URLSearchParams
-var PATIENTS = Array();  // TODO: deprecate PATIENTS
-var HASHES = Array();
-var TOTAL_FOUND;  // Number of found overlapped points.
+  <script>
+    // Global variables
+    var PARAMS;  // URL parameters. Type: URLSearchParams
+    var PATIENTS = Array();  // TODO: deprecate PATIENTS
+    var HASHES = Array();
+    var TOTAL_FOUND;  // Number of found overlapped points.
 
-function parseUrlParams() {
-  PARAMS = new URLSearchParams(window.location.search);
-}
+    function parseUrlParams() {
+      PARAMS = new URLSearchParams(window.location.search);
+    }
 
-// Return true if the code is running at production.
-function is_production() {
-  return window.location.hostname.match("github.io") != null;
-}
+    // Return true if the code is running at production.
+    function is_production() {
+      return window.location.hostname.match("github.io") != null;
+    }
 
-function log(message) {
-  if (is_production()) {
-    return;
-  }
+    function log(message) {
+      if (is_production()) {
+        return;
+      }
 
-  const logs = document.getElementById("logs");
-  logs.innerHTML += message + '\n';
-  // scroll to the bottom.
-  logs.scrollTo(0, logs.scrollHeight);
-}
+      const logs = document.getElementById("logs");
+      logs.innerHTML += message + '\n';
+      // scroll to the bottom.
+      logs.scrollTo(0, logs.scrollHeight);
+    }
 
-// Returns Array of points.
-function parseFile(filename, file_text) {
-  if (filename.endsWith(".kml")) {
-    return parseKml(file_text);
-  } else if (filename.endsWith(".json")) {
-    return parseJson(file_text);
-  } else {
-    alert("parseFile(): unsupported filename: " + filename);
-  }
-}
-
-function fetchHttpFile(path) {
-  var req = new XMLHttpRequest();
-  req.open("GET", path, false);
-  req.setRequestHeader("Content-Type", "text/*");
-  req.send(null);
-
-  return req.response;
-}
-
-function loadPatientData() {
-  log(i18n("LOADING_TRACKING"));
-
-  let load_files_elem = $("#loadFiles");
-  let load_files = [];
-  if (PARAMS.get("hashes")) {
-    // The hashed file format:
-    //
-    //   {
-    //     'desc': DESCRIPTION,
-    //     'hashes': [ ... ],
-    //   }
-    //
-    // TODO: move to parser.js and integrate with parseFile().
-    let hashes_path = PARAMS.get("hashes");
-    let json_obj = JSON.parse(fetchHttpFile(hashes_path));
-    let desc = json_obj.desc;
-    let hashes = json_obj.hashes;
-    for(hash of hashes) {
-      if (hash in HASHES) {
-        HASHES[hash].push(desc);
+    // Returns Array of points.
+    function parseFile(filename, file_text) {
+      if (filename.endsWith(".kml")) {
+        return parseKml(file_text);
+      } else if (filename.endsWith(".json")) {
+        return parseJson(file_text);
       } else {
-        HASHES[hash] = [desc];
+        alert("parseFile(): unsupported filename: " + filename);
       }
     }
-    load_files.push({
-      desc: desc,
-    });
-  } else {
-    if (PARAMS.get("patient")) {
-      load_files.push({
-        desc: PARAMS.get("patient"),
-        path: PARAMS.get("patient"),
-        src: PARAMS.get("patient"),
-      });
-    } else {
-      // Load default data.
 
-      // coronamap.site
-      load_files.push({
-        desc: 'Korea data (coronamap.site)',
-        path: "countries/korea/coronamap.site-output.json",
-        src: 'https://coronamap.site',
-      });
+    function fetchHttpFile(path) {
+      var req = new XMLHttpRequest();
+      req.open("GET", path, false);
+      req.setRequestHeader("Content-Type", "text/*");
+      req.send(null);
 
-      /* DO NOT LOAD because it has less data.
-      // coronamap.live
-      load_files.push({
-        desc: 'Korea data (coronamap.live)',
-        path: "countries/korea/coronamap.live-output.json",
-        src: 'https://coronamap.live',
-      });
-      */
+      return req.response;
     }
 
-    for(let file of load_files) {
-      let points = parseFile(file.path, fetchHttpFile(file.path));
-      log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
-      PATIENTS.push({
-        'desc': file.desc,
-        'points': points,
+    function loadPatientData() {
+      log(i18n("LOADING_TRACKING"));
+
+      let load_files_elem = $("#loadFiles");
+      let load_files = [];
+      if (PARAMS.get("hashes")) {
+        // The hashed file format:
+        //
+        //   {
+        //     'desc': DESCRIPTION,
+        //     'hashes': [ ... ],
+        //   }
+        //
+        // TODO: move to parser.js and integrate with parseFile().
+        let hashes_path = PARAMS.get("hashes");
+        let json_obj = JSON.parse(fetchHttpFile(hashes_path));
+        let desc = json_obj.desc;
+        let hashes = json_obj.hashes;
+        for (hash of hashes) {
+          if (hash in HASHES) {
+            HASHES[hash].push(desc);
+          } else {
+            HASHES[hash] = [desc];
+          }
+        }
+        load_files.push({
+          desc: desc,
+        });
+      } else {
+        if (PARAMS.get("patient")) {
+          load_files.push({
+            desc: PARAMS.get("patient"),
+            path: PARAMS.get("patient"),
+            src: PARAMS.get("patient"),
+          });
+        } else {
+          // Load default data.
+
+          // coronamap.site
+          load_files.push({
+            desc: 'Korea data (coronamap.site)',
+            path: "countries/korea/coronamap.site-output.json",
+            src: 'https://coronamap.site',
+          });
+
+          /* DO NOT LOAD because it has less data.
+          // coronamap.live
+          load_files.push({
+            desc: 'Korea data (coronamap.live)',
+            path: "countries/korea/coronamap.live-output.json",
+            src: 'https://coronamap.live',
+          });
+          */
+        }
+
+        for (let file of load_files) {
+          let points = parseFile(file.path, fetchHttpFile(file.path));
+          log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
+          PATIENTS.push({
+            'desc': file.desc,
+            'points': points,
+          });
+        }
+      }
+
+      for (let file of load_files) {
+        let add_html = "<LI>";
+        if (file.src) { add_html += `<a target='_blank' href='${file.src}'>`; }
+        add_html += file.desc;
+        if (file.src) { add_html += "</a>"; }
+        add_html += "\n";
+        load_files_elem.html(load_files_elem.html() + add_html);
+      }
+
+      log(i18n("DONE_LOADING"));
+    }
+
+    function twoDigits(num) {
+      return num < 10 ? "0" + num : num;
+    }
+
+    function myLocaleTime(timestamp) {
+      var date = new Date(timestamp * 1000);
+      return date.getFullYear() + "/" + twoDigits(date.getMonth() + 1) + "/" + twoDigits(date.getDate()) + " " +
+        twoDigits(date.getHours()) + ":" + twoDigits(date.getMinutes());
+    }
+
+    function showContacts(contacts) {
+      // TODO: de-duplicate contacts
+
+      console.log(contacts);
+      var html = "";
+      for (let contact of contacts) {
+        // TODO: show in-page static map to avoid opening a new window.
+        html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
+          myLocaleTime(contact.end) + ": " +
+          " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
+          " lat:" + contact.lat + " lng:" + contact.lng;
+      }
+      return html;
+    }
+
+    function loadFileContentAsync(file_blob) {
+      return new Promise((resolve, reject) => {
+        let reader = new FileReader();
+
+        reader.onload = (fp) => {
+          resolve(fp.target.result);
+        };
+
+        reader.onerror = reject;
+
+        reader.readAsText(file_blob, "UTF-8");
       });
     }
-  }
 
-  for(let file of load_files) {
-    let add_html = "<LI>";
-    if (file.src) { add_html += `<a target='_blank' href='${file.src}'>`; }
-    add_html += file.desc;
-    if (file.src) { add_html += "</a>"; }
-    add_html += "\n";
-    load_files_elem.html(load_files_elem.html() + add_html);
-  }
+    async function processFile(file_blob) {
+      console.log(file_blob);
+      var filename = file_blob.name;
+      const display = $("#results");
+      if (filename.endsWith(".kml") || filename.endsWith(".json")) {
+        log(i18n("ANALYZING", { filename: filename }));
+        let file_text = await loadFileContentAsync(file_blob);
+        let points = parseFile(filename, file_text);
 
-  log(i18n("DONE_LOADING"));
-}
+        var contacts = Array();
+        contacts = contacts.concat(checkContact(points, PATIENTS));
+        contacts = contacts.concat(checkHashes(points, HASHES));
 
-function twoDigits(num) {
-  return num < 10 ? "0" + num : num;
-}
+        display.html(display.html() + showContacts(contacts));
+        TOTAL_FOUND += contacts.length;
 
-function myLocaleTime(timestamp) {
-  var date = new Date(timestamp * 1000);
-  return date.getFullYear() + "/" + twoDigits(date.getMonth() + 1) + "/" + twoDigits(date.getDate()) + " " +
-         twoDigits(date.getHours()) + ":" + twoDigits(date.getMinutes());
-}
-
-function showContacts(contacts) {
-  // TODO: de-duplicate contacts
-
-  console.log(contacts);
-  var html = "";
-  for(let contact of contacts) {
-    // TODO: show in-page static map to avoid opening a new window.
-    html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
-                     myLocaleTime(contact.end) + ": " +
-                     " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
-                     " lat:" + contact.lat + " lng:" + contact.lng;
-  }
-  return html;
-}
-
-function loadFileContentAsync(file_blob) {
-  return new Promise((resolve, reject) => {
-    let reader = new FileReader();
-
-    reader.onload = (fp) => {
-      resolve(fp.target.result);
-    };
-
-    reader.onerror = reject;
-
-    reader.readAsText(file_blob, "UTF-8");
-  });
-}
-
-async function processFile(file_blob) {
-  console.log(file_blob);
-  var filename = file_blob.name;
-  const display = $("#results");
-  if (filename.endsWith(".kml") || filename.endsWith(".json")) {
-    log(i18n("ANALYZING", {filename: filename}));
-    let file_text = await loadFileContentAsync(file_blob);
-    let points = parseFile(filename, file_text);
-
-    var contacts = Array();
-    contacts = contacts.concat(checkContact(points, PATIENTS));
-    contacts = contacts.concat(checkHashes(points, HASHES));
-
-    display.html(display.html() + showContacts(contacts));
-    TOTAL_FOUND += contacts.length;
-
-    log(i18n("DONE_ANALYZE", {
-      filename: filename,
-      contacts_length: contacts.length
-    }));
-    finishResults();
-  } else {
-    alert(i18n("UNSUPPORTED_FILE_TYPE", {filename: filename}));
-  }
-}
-
-function clearResults() {
-  TOTAL_FOUND = 0;
-  $("#results").html("");  // reset result
-}
-
-function finishResults() {
-  const display = $("#results");
-  display.html(i18n("FINISH_RESULTS", {total_found: TOTAL_FOUND}) + display.html());
-}
-
-function fileTypeProcess() {
-  clearResults();
-
-  let nBytes = 0,
-      oFiles = document.getElementById("uploadInput").files,
-      nFiles = oFiles.length;
-
-  const promises = [];
-  for (let nFileId = 0; nFileId < nFiles; nFileId++) {
-    nBytes += oFiles[nFileId].size;
-    promises.push(processFile(oFiles[nFileId]));
-  }
-
-  Promise.all(promises).then(
-    finishResults  // TODO: seems not working. need to investigate.
-  ).catch(
-    (e) => console.error(e)
-  );
-}
-
-// Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
-//
-function dropHandler(ev) {
-  // Prevent default behavior (Prevent file from being opened)
-  ev.preventDefault();
-
-  clearResults();
-
-  // process each file
-  for (var i = 0; i < ev.dataTransfer.items.length; i++) {
-    if (ev.dataTransfer.items[i].kind === 'file') {
-      var file = ev.dataTransfer.items[i].getAsFile();
-      processFile(file);
+        log(i18n("DONE_ANALYZE", {
+          filename: filename,
+          contacts_length: contacts.length
+        }));
+        finishResults();
+      } else {
+        alert(i18n("UNSUPPORTED_FILE_TYPE", { filename: filename }));
+      }
     }
-  }
-}
 
-function dragOverHandler(ev) {
-  // Prevent default behavior (Prevent file from being opened)
-  ev.preventDefault();
-}
+    function clearResults() {
+      TOTAL_FOUND = 0;
+      $("#results").html("");  // reset result
+    }
 
-function downloadKml(period) {
-  var begin, end;
-  if (period.startsWith('-')) {
-    // last N seconds
-    let now = (+ new Date()) / 1000;  // get cuurent timestamp
-    begin = now - parseInt(period.substr(1));
-    end = now;
-  } else {
-    // period seperated by comma
-    [begin, end] = period.split(",");
-    [begin, end] = [parseInt(begin), parseInt(end)];
-  }
+    function finishResults() {
+      const display = $("#results");
+      display.html(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }) + display.html());
+    }
 
-  const secs_per_day = 24 * 60 * 60;
-  for(let timestamp = begin; timestamp <= end; timestamp += secs_per_day) {
-    let date = new Date(timestamp * 1000);
-    let year = date.getFullYear();
-    let month = date.getMonth();  // starts from 0
-    let mday = date.getDate();
-    let download_url = "https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8!1m3!1i" + year + "!2i" + month + "!3i" + mday +
-                                                                                  "!2m3!1i" + year + "!2i" + month + "!3i" + mday;
-    window.open(download_url, "_blank");
-  }
-}
+    function fileTypeProcess() {
+      clearResults();
 
-function download_btn_onclick(ev) {
-  console.log(ev);
-  ev.preventDefault();
-  ev.defaultPrevented = false;
-  var opt = document.getElementById('download_period');
-  var value = opt.options[opt.selectedIndex].value;
-  downloadKml(value);
-  return false;
-}
+      let nBytes = 0,
+        oFiles = document.getElementById("uploadInput").files,
+        nFiles = oFiles.length;
 
-function language_changed() {
-  let lang = $("#select_lang option:selected").val();
-  window.location.href = "?hl=" + lang;
-  return false;
-}
+      const promises = [];
+      for (let nFileId = 0; nFileId < nFiles; nFileId++) {
+        nBytes += oFiles[nFileId].size;
+        promises.push(processFile(oFiles[nFileId]));
+      }
 
-function onLoad() {
-  parseUrlParams();
-  load_i18n(function() {
-    updateUiText();
-    loadPatientData();
-  });
+      Promise.all(promises).then(
+        finishResults  // TODO: seems not working. need to investigate.
+      ).catch(
+        (e) => console.error(e)
+      );
+    }
 
-  document.getElementById('download_btn').onclick = download_btn_onclick;
+    // Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
+    //
+    function dropHandler(ev) {
+      // Prevent default behavior (Prevent file from being opened)
+      ev.preventDefault();
 
-  // Do not show log field in prod.
-  if (is_production()) {
-    document.getElementById('logs_title').style.display = 'none';
-  }
-}
-</script>
+      clearResults();
+
+      // process each file
+      for (var i = 0; i < ev.dataTransfer.items.length; i++) {
+        if (ev.dataTransfer.items[i].kind === 'file') {
+          var file = ev.dataTransfer.items[i].getAsFile();
+          processFile(file);
+        }
+      }
+    }
+
+    function dragOverHandler(ev) {
+      // Prevent default behavior (Prevent file from being opened)
+      ev.preventDefault();
+    }
+
+    function downloadKml(period) {
+      var begin, end;
+      if (period.startsWith('-')) {
+        // last N seconds
+        let now = (+ new Date()) / 1000;  // get cuurent timestamp
+        begin = now - parseInt(period.substr(1));
+        end = now;
+      } else {
+        // period seperated by comma
+        [begin, end] = period.split(",");
+        [begin, end] = [parseInt(begin), parseInt(end)];
+      }
+
+      const secs_per_day = 24 * 60 * 60;
+      for (let timestamp = begin; timestamp <= end; timestamp += secs_per_day) {
+        let date = new Date(timestamp * 1000);
+        let year = date.getFullYear();
+        let month = date.getMonth();  // starts from 0
+        let mday = date.getDate();
+        let download_url = "https://www.google.com/maps/timeline/kml?authuser=0&pb=!1m8!1m3!1i" + year + "!2i" + month + "!3i" + mday +
+          "!2m3!1i" + year + "!2i" + month + "!3i" + mday;
+        window.open(download_url, "_blank");
+      }
+    }
+
+    function download_btn_onclick(ev) {
+      console.log(ev);
+      ev.preventDefault();
+      ev.defaultPrevented = false;
+      var opt = document.getElementById('download_period');
+      var value = opt.options[opt.selectedIndex].value;
+      downloadKml(value);
+      return false;
+    }
+
+    function language_changed() {
+      let lang = $("#select_lang option:selected").val();
+      window.location.href = "?hl=" + lang;
+      return false;
+    }
+
+    function onLoad() {
+      parseUrlParams();
+      load_i18n(function () {
+        updateUiText();
+        loadPatientData();
+      });
+
+      document.getElementById('download_btn').onclick = download_btn_onclick;
+
+      // Do not show log field in prod.
+      if (is_production()) {
+        document.getElementById('logs_title').style.display = 'none';
+      }
+    }
+  </script>
 </head>
 
 <body onload="onLoad();">
-<form name="uploadForm" onsubmit="return false;">
-<p>
-  <select id="select_lang" style="float: right;" onchange="language_changed();">
-    <option id="HTML_SELECT_LANGUAGE">Select Language</option>
-    <option value="en-US">English</option>
-    <option value="zh-TW">繁體中文</option>
-    <option value="ko">한국어</option>
-  </select>
-</p>
-<h1 id="HTML_APP_NAME">COVID-19</h1>
-<p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell you whether you have contacted the confirmed patient or not.</p>
-<p id="HTML_LOADED_DATA">Loaded Data List</p>
-<pre id="loadFiles"></pre>
-<p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to the information announced by the authority.</p>
-<hr>
+  <form name="uploadForm" onsubmit="return false;">
+    <p>
+      <select id="select_lang" style="float: right;" onchange="language_changed();">
+        <option id="HTML_SELECT_LANGUAGE">Select Language</option>
+        <option value="en-US">English</option>
+        <option value="zh-TW">繁體中文</option>
+        <option value="ko">한국어</option>
+      </select>
+    </p>
+    <h1 id="HTML_APP_NAME">COVID-19</h1>
+    <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell you
+      whether you have contacted the confirmed patient or not.</p>
+    <p id="HTML_LOADED_DATA">Loaded Data List</p>
+    <pre id="loadFiles"></pre>
+    <p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to the
+      information announced by the authority.</p>
+    <hr>
 
-<p id="HTML_STEP_1_1">Step 1: Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps Timeline</a> and verify 'Location History' had been ON.</p>
-<p><span id="HTML_STEP_1_2">Then select period to download: </span>
-  <select id="download_period">
-    <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
-    <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
-    <option id="HTML_ONLY_TODAY" value="-0">Today</option>
-  </select>
-  <button id="download_btn"><span id="HTML_DONWLOAD">Download</span></button>
-  <span id="HTML_PUNC_PERIOD">.</span>
-</p>
-<p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
-<hr>
+    <p id="HTML_STEP_1_1">Step 1: Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps
+        Timeline</a> and verify 'Location History' had been ON.</p>
+    <p><span id="HTML_STEP_1_2">Then select period to download: </span>
+      <select id="download_period">
+        <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
+        <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
+        <option id="HTML_ONLY_TODAY" value="-0">Today</option>
+      </select>
+      <button id="download_btn"><span id="HTML_DONWLOAD">Download</span></button>
+      <span id="HTML_PUNC_PERIOD">.</span>
+    </p>
+    <p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
+    <hr>
 
-<p id="HTML_STEP_2_1">Step 2: Open your location history file(s)</p>
-<p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file" style="visibility:;" onchange="fileTypeProcess();" multiple/></p>
-<div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-  <label id="HTML_DRAG_DROP_AREA" for="uploadInput" style="background: #e0e0e0; padding: 100px; display: inline-block;">
-    Or drag-drop KML/JSON file(s) to here.
-  </label>
-</div>
-<hr>
-<p id="HTML_STEP_3">Step 3: See results below.</p>
-<pre id="results"></pre>
-<hr>
-<div id='logs_title'>
-  <p>Logs</p>
-  <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
-</div>
-</form>
-<hr>
-<a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a> |
-<a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank">Contact us ( covid-19@googlegroups.com )</a>
+    <p id="HTML_STEP_2_1">Step 2: Open your location history file(s)</p>
+    <p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file"
+        style="visibility:;" onchange="fileTypeProcess();" multiple /></p>
+    <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+      <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
+        style="background: #e0e0e0; padding: 100px; display: inline-block;">
+        Or drag-drop KML/JSON file(s) to here.
+      </label>
+    </div>
+    <hr>
+    <p id="HTML_STEP_3">Step 3: See results below.</p>
+    <pre id="results"></pre>
+    <hr>
+    <div id='logs_title'>
+      <p>Logs</p>
+      <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>
+    </div>
+  </form>
+  <hr>
+  <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a> |
+  <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank">Contact us ( covid-19@googlegroups.com
+    )</a>
 </body>
-</html>
 
+</html>
