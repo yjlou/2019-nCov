@@ -63,7 +63,7 @@ function main() {
           location: {
             latitudeE7: p.lat * 1e7,
             longitudeE7: p.lng * 1e7,
-            name: p.name,
+            name: p.name + " " + p.description.split("#!metadata")[0],
           },
           duration: {
             startTimestampMs: p.begin * 1000,

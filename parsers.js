@@ -20,6 +20,10 @@ function tryParseName(placemark) {
   return placemark.name;
 }
 
+function tryParseDescription(placemark) {
+  return placemark.description;
+}
+
 function tryParseMetadataFromDescription(placemark) {
   let desc = placemark.description;
   if (!desc) {
@@ -109,6 +113,7 @@ function tryParsePoint(placemark, metadata) {
   latlng = point.coordinates;
 
   const name = tryParseName(placemark);
+  const description = tryParseDescription(placemark);
   const timespan = tryParseTimeSpan(placemark, metadata);
   if (timespan === null) {
     return null;
@@ -120,10 +125,11 @@ function tryParsePoint(placemark, metadata) {
     'begin': timespan.begin,
     'end': timespan.end,
     'name': name,
+    'description': description,
   }];
 }
 
-function intrapolateCoords(coords, timespan, name) {
+function intrapolateCoords(coords, timespan, name, description) {
   const delta_t = timespan.end - timespan.begin;  // seconds
   let total_dist = 0;
 
@@ -147,6 +153,7 @@ function intrapolateCoords(coords, timespan, name) {
         begin: timespan.begin,
         end: timespan.end,
         name: name,
+        description: description,
       }
     ];
   }
@@ -185,6 +192,7 @@ function intrapolateCoords(coords, timespan, name) {
         begin: begin,
         end: end,
         name: name,
+        description: description,
       });
     }
 
@@ -376,12 +384,13 @@ function tryParseLineString(placemark, metadata) {
   }
 
   const name = tryParseName(placemark);
+  const description = tryParseDescription(placemark);
   const timespan = tryParseTimeSpan(placemark, metadata);
   if (timespan === null) {
     return null;
   }
 
-  return intrapolateCoords(coords, timespan, name);
+  return intrapolateCoords(coords, timespan, name, description);
 }
 
 function getPlacemarks(jsonObj) {
