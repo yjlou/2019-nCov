@@ -134,7 +134,7 @@ for(let record of ndata.position) {
       location: {
         latitudeE7: latlng[0] * 10000000,
         longitudeE7: latlng[1] * 10000000,
-        name : record.title,
+        name : record.name,
       },
       duration: {
         startTimestampMs: KrDateToTimestampMs(record.month, record.day),
