@@ -106,7 +106,7 @@
       </Placemark>
       <Placemark>
         <name>02/16 樹林車站</name>
-        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br><br>begin:2020-02-16T18:50:00; end:2020-02-16T19:40:00;]]></description>
+        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br>#!metadata<br>begin:2020-02-16T18:50:00; end:2020-02-16T19:40:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -116,7 +116,7 @@
       </Placemark>
       <Placemark>
         <name>02/16 樹林後火車站</name>
-        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br><br>begin:2020-02-16T19:00:00; end:2020-02-16T19:34:00;]]></description>
+        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br>#!metadata<br>begin:2020-02-16T19:00:00; end:2020-02-16T19:34:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -325,7 +325,7 @@
       <name>02/18</name>
       <Placemark>
         <name>02/18 臺北車站</name>
-        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br><br>begin:2020-02-18T10:32:00; end:2020-02-18T11:16:00;]]></description>
+        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br>#!metadata<br>begin:2020-02-18T10:32:00; end:2020-02-18T11:16:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -347,7 +347,7 @@
       </Placemark>
       <Placemark>
         <name>02/18 樹林車站</name>
-        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br><br>begin:2020-02-18T11::00:00; end:2020-02-18T11:16:00;]]></description>
+        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br>#!metadata<br>begin:2020-02-18T11:00:00; end:2020-02-18T11:16:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -357,7 +357,7 @@
       </Placemark>
       <Placemark>
         <name>02/18 搭公車至東昇公園</name>
-        <description><![CDATA[11:16 三重客運藍38至東昇公園<br>#!metadata<br>begin:2020-02-18T11:16:00; end:2020-02-18T12:36:00;]]></description>
+        <description><![CDATA[11:16 三重客運藍38至東昇公園<br>#!metadata<br>begin:2020-02-18T11:16:00;<br>end:2020-02-18T12:36:00;]]></description>
         <styleUrl>#line-000000-1200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -381,7 +381,7 @@
       </Placemark>
       <Placemark>
         <name>02/18 火車站四周購物</name>
-        <description><![CDATA[12:39~13:00 樹林火車站周遭購物<br><br>begin:2020-02-18T12:39:00; end:2020-02-18T13:00:00;]]></description>
+        <description><![CDATA[12:39~13:00 樹林火車站周遭購物<br>#!metadata<br>begin:2020-02-18T12:39:00; end:2020-02-18T13:00:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -403,7 +403,7 @@
       </Placemark>
       <Placemark>
         <name>02/18 板橋高鐵車站至樹林火車站</name>
-        <description><![CDATA[13:20~13:51 送友人到板橋高鐵車站後，搭火車回到樹林車站(13:51)。<br>#!metadata<br>begin:2020-02-18T13:20:00; end:2020-02-18T14:05:00;]]></description>
+        <description><![CDATA[13:20~13:51 送友人到板橋高鐵車站後，搭火車回到樹林車站(13:51)。<br>#!metadata<br>begin:2020-02-18T13:20:00;<br>end:2020-02-18T14:05:00;]]></description>
         <styleUrl>#line-000000-1200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
@@ -415,7 +415,7 @@
       </Placemark>
       <Placemark>
         <name>02/18 樹林火車站至東昇公園</name>
-        <description><![CDATA[14:05~ 搭藍38到東昇公園<br>#!metadata<br>begin:2020-02-18T14:05:00; end:2020-02-18T14:10:00;]]></description>
+        <description><![CDATA[14:05~ 搭藍38到東昇公園<br>#!metadata<br>begin:2020-02-18T14:05:00;<br>end:2020-02-18T14:10:00;]]></description>
         <styleUrl>#line-000000-1200</styleUrl>
         <LineString>
           <tessellate>1</tessellate>
