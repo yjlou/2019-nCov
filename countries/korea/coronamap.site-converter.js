@@ -122,11 +122,18 @@ const ndata = require('./' + argv.input);
 //
 let out_obj = [];
 for(let record of ndata.position) {
+  // latlng can be either naver.maps.LatLng() or a string "37.47700115295818, 126.96292928072465"
+  let latlng = record.latlng;
+  if (typeof latlng == "string") {
+    latlng = latlng.split(",");
+    latlng = [parseFloat(latlng[0]), parseFloat(latlng[1])];
+  }
+
   out_obj.push({
     placeVisit: {
       location: {
-        latitudeE7: record.latlng[0] * 10000000,
-        longitudeE7: record.latlng[1] * 10000000,
+        latitudeE7: latlng[0] * 10000000,
+        longitudeE7: latlng[1] * 10000000,
         name : record.title,
       },
       duration: {
