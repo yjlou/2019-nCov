@@ -148,6 +148,54 @@ var position = [
     address_name: "서울 종로구 창신1동"
   },
   {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "동림오피스텔",
+    latlng: "37.47700115295818, 126.96292928072465",
+    address_name: "서울특별시 관악구 인헌동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "삼일 공인중개사사무소",
+    latlng: "37.4764295447952, 126.961774150289",
+    address_name: "서울특별시 관악구 인헌동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "장도뚝배기 낙성대점",
+    latlng: "37.4773265685037, 126.96061148347802",
+    address_name: "서울특별시 관악구 낙성대동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "원당프라자약국",
+    latlng: "37.47538918821613, 126.96572021316796",
+    address_name: "서울특별시 관악구 인헌동"
+  },
+  {
     profile: "-",
     tag: "#85번째 확진자",
     month: 2,
@@ -193,7 +241,7 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     profile: "-",
@@ -313,7 +361,7 @@ var position = [
     full: "이천 확진자",
     address: "이천 중식당 방문",
     latlng: "37.121864, 127.628632",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -433,7 +481,7 @@ var position = [
     full: "수원 확진자",
     address: "동대구역 -> 수원역 KTX 이동",
     latlng: "37.266633, 126.999397",
-    address_name: "경기도 수원시 팔달구 매산동"
+    address_name: "경기 수원시 팔달구 매산동"
   },
   {
     solo: true,
@@ -566,7 +614,7 @@ var position = [
     full: "수원 확진자",
     address: "광교 참누리 레이크 아파트 귀가",
     latlng: "37.290972, 127.072968",
-    address_name: "경기도 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동"
   },
   {
     solo: true,
@@ -842,7 +890,7 @@ var position = [
     full: "수원 확진자",
     address: "도쿄등심에서 저녁식사(18:00경)",
     latlng: "37.274512, 127.062579",
-    address_name: "경기도 수원시 영통구 원천동"
+    address_name: "경기 수원시 영통구 원천동"
   },
   {
     solo: true,
@@ -938,7 +986,7 @@ var position = [
     full: "부천 확진자",
     address: "군자생선구이",
     latlng: "37.390893926367106, 126.804562164648",
-    address_name: "경기도 시흥시 연성동"
+    address_name: "경기 시흥시 연성동"
   },
   {
     solo: true,
@@ -998,7 +1046,7 @@ var position = [
     full: "포천 확진자",
     address: "메가커피 연천전곡점 방문",
     latlng: "38.026251187345494, 127.06833623691",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -1118,7 +1166,7 @@ var position = [
     full: "포천 확진자",
     address: "전곡 블루가이 미용실에서 이발",
     latlng: "38.024958, 127.068072",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -1142,7 +1190,7 @@ var position = [
     full: "부천 확진자",
     address: "시흥경찰서",
     latlng: "37.3767915755216, 126.788083138307",
-    address_name: "경기도 시흥시 장곡동"
+    address_name: "경기 시흥시 장곡동"
   },
   {
     solo: true,
@@ -1203,18 +1251,6 @@ var position = [
     address: "소루 경산사동점",
     latlng: "35.8122871887642, 128.75557409209645",
     address_name: "경북 경산시 동부동"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#문경 확진자",
-    month: 2,
-    day: 19,
-    name: "문경",
-    full: "문경 확진자",
-    address: "칠곡휴게소 (남편만 화장실 방문) (13:00)",
-    latlng: "36.0159043, 128.4296851",
-    address_name: "경북 칠곡군 왜관읍"
   },
   {
     solo: true,
@@ -1310,7 +1346,7 @@ var position = [
     full: "부천 확진자",
     address: "하나로마트 광명 농협 가리대점",
     latlng: "37.448312431419, 126.882327647416",
-    address_name: "경기도 광명시 소하1동"
+    address_name: "경기 광명시 소하1동"
   },
   {
     solo: true,
@@ -1467,7 +1503,7 @@ var position = [
     profile: "-",
     name: "4번째 확진자",
     full: "4번째 확진자",
-    address_name: "경기도 평택시 중앙동"
+    address_name: "경기 평택시 중앙동"
   },
   {
     profile: "-",
@@ -1520,7 +1556,7 @@ var position = [
     solo: true,
     name: "32번째 확진자",
     full: "32번째 확진자",
-    address_name: "경기도 성남시 분당구 구미동"
+    address_name: "경기 성남시 분당구 구미동"
   },
   {
     memo:
@@ -1679,7 +1715,7 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 양주시 회천1동"
+    address_name: "경기 양주시 회천1동"
   },
   {
     profile: "-",
@@ -1841,7 +1877,7 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기도 부천시 대산동"
+    address_name: "경기 부천시 대산동"
   },
   {
     month: 1,
@@ -1880,7 +1916,7 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기도 부천시 대산동"
+    address_name: "경기 부천시 대산동"
   },
   {
     month: 1,
@@ -1893,7 +1929,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기 구리시 교문1동"
   },
   {
     month: 1,
@@ -1906,7 +1942,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기 구리시 수택3동"
   },
   {
     month: 2,
@@ -1919,7 +1955,7 @@ var position = [
     profile: "-",
     name: "14번째 확진자",
     full: "14번째 확진자",
-    address_name: "경기도 성남시 분당구 구미동"
+    address_name: "경기 성남시 분당구 구미동"
   },
   {
     solo: true,
@@ -1931,7 +1967,7 @@ var position = [
     full: "파주 확진자",
     address: "풍작플랜지 식당(2/17~2/21)",
     latlng: "37.893414, 126.8715187",
-    address_name: "경기도 파주시 법원읍"
+    address_name: "경기 파주시 법원읍"
   },
   {
     solo: true,
@@ -1943,7 +1979,7 @@ var position = [
     full: "안양 확진자",
     address: "죽전휴게소 서울방향",
     latlng: "37.3324026187663, 127.10477675221802",
-    address_name: "경기도 용인시 수지구 죽전2동"
+    address_name: "경기 용인시 수지구 죽전2동"
   },
   {
     solo: true,
@@ -1991,7 +2027,7 @@ var position = [
     full: "안양 확진자",
     address: "지에스테크윈",
     latlng: "37.2294780184202, 127.06567694811201",
-    address_name: "경기도 화성시 반월동"
+    address_name: "경기 화성시 반월동"
   },
   {
     month: 1,
@@ -2004,7 +2040,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기 구리시 수택3동"
   },
   {
     solo: true,
@@ -2104,7 +2140,7 @@ var position = [
     full: "부천 확진자",
     address: "KTX 광명역",
     latlng: "37.416451341811104, 126.88480397548899",
-    address_name: "경기도 광명시 소하2동"
+    address_name: "경기 광명시 소하2동"
   },
   {
     solo: true,
@@ -2116,7 +2152,7 @@ var position = [
     full: "이천 확진자",
     address: "엄마밥차",
     latlng: "37.11903298806259, 127.63109225348101",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -2200,7 +2236,7 @@ var position = [
     full: "이천 확진자",
     address: "청미천 근무",
     latlng: "37.088738121826985, 127.59098921804299",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -2246,9 +2282,9 @@ var position = [
     day: 21,
     name: "포천",
     full: "포천 확진자",
-    address: "경기도의료원 포천병원",
+    address: "경기의료원 포천병원",
     latlng: "37.90326330517421, 127.198317737577",
-    address_name: "경기도 포천시 포천동"
+    address_name: "경기 포천시 포천동"
   },
   {
     solo: true,
@@ -2296,7 +2332,7 @@ var position = [
     full: "성남 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     solo: true,
@@ -2344,7 +2380,7 @@ var position = [
     full: "포천 확진자",
     address: "큰손원조할매순대국 전곡점",
     latlng: "38.02569181414809, 127.06816146129502",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -2416,7 +2452,7 @@ var position = [
     full: "안양 확진자",
     address: "지리산석유주유소 방문",
     latlng: "37.31803891802031, 127.102076293537",
-    address_name: "경기도 용인시 기흥구 보정동"
+    address_name: "경기 용인시 기흥구 보정동"
   },
   {
     solo: true,
@@ -2464,7 +2500,7 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     solo: true,
@@ -2524,7 +2560,7 @@ var position = [
     full: "포천 확진자",
     address: "전곡시외버스터미널",
     latlng: "38.02528574643019, 127.06772943358702",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -4232,7 +4268,7 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 수원시 장안구 율천동"
+    address_name: "경기 수원시 장안구 율천동"
   },
   {
     month: 2,
@@ -4271,7 +4307,7 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기도 성남시 분당구 수내1동"
+    address_name: "경기 성남시 분당구 수내1동"
   },
   {
     month: 1,
@@ -4284,7 +4320,7 @@ var position = [
     profile: "-",
     name: "14번째 확진자",
     full: "14번째 확진자",
-    address_name: "경기도 부천시 대산동"
+    address_name: "경기 부천시 대산동"
   },
   {
     month: 1,
@@ -4339,7 +4375,7 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기도 군포시 광정동"
+    address_name: "경기 군포시 광정동"
   },
   {
     month: 1,
@@ -4456,7 +4492,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기 구리시 교문1동"
   },
   {
     month: 1,
@@ -4469,7 +4505,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 동구동"
+    address_name: "경기 구리시 동구동"
   },
   {
     status: "완치",
@@ -4558,7 +4594,7 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기도 김포시 사우동"
+    address_name: "경기 김포시 사우동"
   },
   {
     solo: true,
@@ -4570,7 +4606,7 @@ var position = [
     full: "부천 확진자",
     address: "메이저리치 빌딩 근무",
     latlng: "37.44846731235319, 126.88405648750621",
-    address_name: "경기도 광명시 소하1동"
+    address_name: "경기 광명시 소하1동"
   },
   {
     profile: "-",
@@ -4702,7 +4738,7 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기도 김포시 사우동"
+    address_name: "경기 김포시 사우동"
   },
   {
     solo: true,
@@ -5882,7 +5918,7 @@ var position = [
     full: "증평 \u001d군부대 장교",
     latlng: "37.390689, 127.149482",
     solo: true,
-    address_name: "경기도 성남시 분당구 서현1동"
+    address_name: "경기 성남시 분당구 서현1동"
   },
   {
     profile: "-",
@@ -6348,7 +6384,7 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     profile: "-",
@@ -6421,7 +6457,7 @@ var position = [
     profile: "-",
     name: "4번째 확진자",
     full: "4번째 확진자",
-    address_name: "경기도 평택시 송북동"
+    address_name: "경기 평택시 송북동"
   },
   {
     month: 1,
@@ -6579,7 +6615,7 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     profile: "-",
@@ -6831,7 +6867,7 @@ var position = [
     full: "이천 확진자",
     address: "샘재로밥상 방문",
     latlng: "37.124234, 127.615585",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -7311,7 +7347,7 @@ var position = [
     full: "부천 확진자",
     address: "가톨릭대학교 부천성모병원 선별진료소",
     latlng: "37.48698266881209, 126.792466925871",
-    address_name: "경기도 부천시 심곡동"
+    address_name: "경기 부천시 심곡동"
   },
   {
     solo: true,
@@ -7335,7 +7371,7 @@ var position = [
     full: "파주 확진자",
     address: "풍작플랜지 식당(2/17~2/21)",
     latlng: "37.893414, 126.8715187",
-    address_name: "경기도 파주시 법원읍"
+    address_name: "경기 파주시 법원읍"
   },
   {
     solo: true,
@@ -7359,7 +7395,7 @@ var position = [
     full: "부천 확진자",
     address: "가톨릭대학교 부천성모병원",
     latlng: "37.48698266881209, 126.792466925871",
-    address_name: "경기도 부천시 심곡동"
+    address_name: "경기 부천시 심곡동"
   },
   {
     solo: true,
@@ -7371,7 +7407,7 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     solo: true,
@@ -7443,7 +7479,7 @@ var position = [
     full: "포천 확진자",
     address: "큰손원조할매순대국 전곡점",
     latlng: "38.02569181414809, 127.06816146129502",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -7455,7 +7491,7 @@ var position = [
     full: "부천 확진자",
     address: "메이저리치 빌딩 근무",
     latlng: "37.44846731235319, 126.88405648750621",
-    address_name: "경기도 광명시 소하1동"
+    address_name: "경기 광명시 소하1동"
   },
   {
     solo: true,
@@ -7467,7 +7503,7 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기도 김포시 사우동"
+    address_name: "경기 김포시 사우동"
   },
   {
     solo: true,
@@ -7491,7 +7527,7 @@ var position = [
     full: "포천 확진자",
     address: "전곡시외버스터미널",
     latlng: "38.02528574643019, 127.06772943358702",
-    address_name: "경기도 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍"
   },
   {
     solo: true,
@@ -7527,7 +7563,7 @@ var position = [
     full: "평택 확진자",
     address: "평택사랑외과의원",
     latlng: "36.993689570219985, 127.09204772606253",
-    address_name: "경기도 평택시 신평동"
+    address_name: "경기 평택시 신평동"
   },
   {
     solo: true,
@@ -7539,7 +7575,7 @@ var position = [
     full: "평택 확진자",
     address: "동삭동 현대아파트 거주",
     latlng: "37.01903532652067, 127.09859591275836",
-    address_name: "경기도 평택시 비전1동"
+    address_name: "경기 평택시 비전1동"
   },
   {
     solo: true,
@@ -7552,6 +7588,78 @@ var position = [
     address: "김포공항역 공항철도",
     latlng: "37.56182975642019, 126.80247310798501",
     address_name: "서울 강서구 방화2동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 17,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "롤리김밥",
+    latlng: "37.549171372268006, 126.850750479918",
+    address_name: "서울특별시 강서구 화곡6동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 22,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "강서구보건소",
+    latlng: "37.54961750526951, 126.868285554347",
+    address_name: "서울특별시 강서구 염창동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 15,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "GS25 화곡까치점",
+    latlng: "37.5516748667775, 126.85260143575998",
+    address_name: "서울특별시 강서구 화곡6동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 18,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "롤리김밥",
+    latlng: "37.549171372268006, 126.850750479918",
+    address_name: "서울특별시 강서구 화곡6동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 20,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "양푼이동태탕 바다장어탕",
+    latlng: "37.55027896287321, 126.84883351212",
+    address_name: "서울특별시 강서구 화곡6동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 20,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "프렌즈빈",
+    latlng: "37.54974388975971, 126.85034194566299",
+    address_name: "서울특별시 강서구 화곡6동"
   },
   {
     solo: true,
@@ -7575,7 +7683,7 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기도 김포시 사우동"
+    address_name: "경기 김포시 사우동"
   },
   {
     solo: true,
@@ -7587,7 +7695,7 @@ var position = [
     full: "수원 확진자",
     address: "GS25 광교참누리점",
     latlng: "37.291098360098886, 127.07213954282454",
-    address_name: "경기도 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동"
   },
   {
     solo: true,
@@ -7635,7 +7743,7 @@ var position = [
     full: "평택 확진자",
     address: "송탄보건소 출근",
     latlng: "37.06569374577861, 127.066470987295",
-    address_name: "경기도 평택시 중앙동"
+    address_name: "경기 평택시 중앙동"
   },
   {
     solo: true,
@@ -7647,7 +7755,2549 @@ var position = [
     full: "수원 확진자",
     address: "해운대국밥",
     latlng: "37.2731345422434, 127.01580295485999",
-    address_name: "경기도 수원시 팔달구 매교동"
+    address_name: "경기 수원시 팔달구 매교동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "서울시 중구 소재 백화점 방문",
+    latlng: "37.565152, 126.981348",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 중구 소공동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#17번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>290명</span></span>",
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "동묘앞역 도착(21:36~21:46)",
+    latlng: "37.573067, 127.015951",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "구리시 마트 방문",
+    latlng: "37.586809, 127.138323",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#20번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>2명</span></span>",
+    month: 2,
+    day: 5,
+    date: "",
+    address: "영등포구 회사 근무",
+    latlng: "37.521024, 126.889323",
+    solo: true,
+    name: "20번째 확진자",
+    full: "20번째 확진자",
+    address_name: "서울특별시 영등포구 문래동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "종로구 소재 약국(봄약국) 방문",
+    latlng: "37.573326, 127.015311",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "동묘앞역 출발",
+    latlng: "37.573067, 127.015951",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.438205, 126.796363",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 은행동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#25번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>11명</span></span>",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.41733, 126.811396",
+    solo: true,
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 매화동"
+  },
+  {
+    profile: "-",
+    tag: "#27번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>37명</span></span>",
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    tag: "#27번째 확진자",
+    profile: "-",
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "녹양역 출발(11:41~12:41)",
+    latlng: "37.759448, 127.042167",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 의정부시 녹양동"
+  },
+  {
+    month: 2,
+    day: 9,
+    date: "2/9",
+    address: "분당서울대병원 <span style='color:red;'>격리</span>",
+    latlng: "37.350625, 127.124515",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 성남시 분당구 구미동"
+  },
+  {
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "서울대 병원 <span style='color:red;'>격리</span>",
+    latlng: "37.579678, 126.998945",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 이화동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "서울시 송파구 소재 음식점 방문",
+    latlng: "37.495414, 127.117521",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락본동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "소요산역 이동",
+    latlng: "37.948023, 127.061052",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 동두천시 소요동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "송도 대형쇼핑몰 방문",
+    latlng: "37.381624, 126.657218",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "인천광역시 연수구 송도3동"
+  },
+  {
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "한양대 구리병원 선별진료소 방문",
+    latlng: "37.601095, 127.132179",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 교문1동"
+  },
+  {
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.438205, 126.796363",
+    solo: true,
+    tag: "#26번째 확진자",
+    profile: "-",
+    name: "26번째 확진자",
+    full: "26번째 확진자",
+    address_name: "경기도 시흥시 은행동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "신천지예수교회다대오지성전에서 예배",
+    latlng: "35.839821, 128.566553",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 남구 대명10동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 17,
+    date: "2/17",
+    address: "대구 수성구 보건소에서 검사 실시 후 양성",
+    latlng: "35.844728, 128.612261",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 수성구 중동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "신설동역 출발",
+    latlng: "37.575879, 127.024495",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 동대문구 용신동"
+  },
+  {
+    profile: "-",
+    tag: "#26번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    name: "26번째 확진자",
+    full: "26번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "서울시 종로구 소재 약국(보람약국) 방문",
+    latlng: "37.57239, 127.013899",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "대구 의료기관에서(새로난한방병원) 외래진료",
+    latlng: "35.858512, 128.635278",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 수성구 범어4동"
+  },
+  {
+    month: 1,
+    day: 27,
+    date: "1/27-2/2",
+    address: "21세기병원 치료<br>21세기병원 내 체류",
+    latlng: "35.175836, 126.818103",
+    solo: true,
+    tag: "#16번째 확진자",
+    profile: "-",
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "광주광역시 광산구 운남동"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "자택 자가격리",
+    latlng: "37.297586, 126.978377",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 수원시 장안구 율천동"
+  },
+  {
+    month: 1,
+    day: 25,
+    date: "1/25",
+    address: "수서역 도착",
+    latlng: "37.487409, 127.10155",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "서울특별시 강남구 수서동"
+  },
+  {
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "전남대학교병원 <span style='color:red;'>격리</span>",
+    latlng: "35.142094, 126.921635",
+    solo: true,
+    tag: "#16번째 확진자",
+    profile: "-",
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "광주광역시 동구 학동"
+  },
+  {
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "동대구역 도착",
+    latlng: "35.879893, 128.628476",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 동구 신암4동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "국군수도병원 <span style='color:red;'>격리</span>",
+    latlng: "37.390524, 127.149769",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 성남시 분당구 서현1동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "장안구보건소 방문",
+    latlng: "37.304558, 127.010198",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 수원시 장안구 조원2동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#16번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>430명</span></span>",
+    month: 1,
+    day: 19,
+    date: "1/19",
+    address: "무안공항 입국",
+    latlng: "34.996485, 126.387447",
+    solo: true,
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "전라남도 무안군 망운면"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "구리시 음식점 식사",
+    latlng: "37.587193, 127.138966",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    month: 1,
+    day: 27,
+    date: "1/27",
+    address: "삼성서울가정의원 진료<br>구리시 약국 약처방",
+    latlng: "37.606423, 127.138958",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 동구동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "광나루역 도착 후 인근 편의점 이용",
+    latlng: "37.545354, 127.10319",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "서울특별시 광진구 광장동"
+  },
+  {
+    month: 1,
+    day: 26,
+    date: "1/26",
+    address: "한양대 응급실 방문,진료",
+    latlng: "37.601196, 127.132803",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 교문1동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#19번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>67명</span></span>",
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "송파구소재 빵집 방문",
+    latlng: "37.499514, 127.11202",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락1동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "서울아산내과 진료 및 근처 약국 이용",
+    latlng: "37.587102, 127.138193",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#18번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>8명</span></span>",
+    month: 1,
+    day: 27,
+    date: "1/27",
+    address: "광주 21세기병원 입원",
+    latlng: "35.175661, 126.818743",
+    solo: true,
+    name: "18번째 확진자",
+    full: "18번째 확진자",
+    address_name: "광주광역시 광산구 운남동"
+  },
+  {
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "송파구 소재 소재 음식점 방문",
+    latlng: "37.497001, 127.119984",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락본동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "전남대학교병원 <span style='color:red;'>격리</span>",
+    latlng: "35.140927, 126.922322",
+    solo: true,
+    tag: "#18번째 확진자",
+    profile: "-",
+    name: "18번째 확진자",
+    full: "18번째 확진자",
+    address_name: "광주광역시 동구 학동"
+  },
+  {
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "서울시 중구 소재 호텔 퇴실",
+    latlng: "37.565707, 126.979336",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 중구 명동"
+  },
+  {
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "수성구 본가 이동",
+    latlng: "35.85816, 128.63054",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 수성구 범어1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "서울시 종로구 소재 의료기관(신중호내과의원) 방문",
+    latlng: "37.575739, 127.015399",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#33번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/19",
+    address: "현대백화점 대구점 방문(오후 1시경)",
+    latlng: "35.866696, 128.590597",
+    solo: true,
+    name: "33번째 확진자",
+    full: "33번째 확진자",
+    address_name: "대구광역시 중구 성내2동"
+  },
+  {
+    profile: "-",
+    tag: "#24번째 확진자",
+    month: 1,
+    day: 23,
+    date: "1/23",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "24번째 확진자",
+    full: "24번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#16번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>430명</span></span>",
+    month: 1,
+    day: 19,
+    date: "1/19",
+    address: "무안공항 입국",
+    latlng: "34.996485, 126.387447",
+    solo: true,
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "전라남도 무안군 망운면"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "전남대학교병원 <span style='color:red;'>격리</span>",
+    latlng: "35.140927, 126.922322",
+    solo: true,
+    tag: "#18번째 확진자",
+    profile: "-",
+    name: "18번째 확진자",
+    full: "18번째 확진자",
+    address_name: "광주광역시 동구 학동"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "구리시 마트 방문",
+    latlng: "37.586809, 127.138323",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#19번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>67명</span></span>",
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "서울시 강남구 소재 호텔 방문",
+    latlng: "37.504752, 127.027474",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 강남구 역삼1동"
+  },
+  {
+    month: 2,
+    day: 6,
+    date: "2/6",
+    address: "국군수도병원 <span style='color:red;'>격리</span>",
+    latlng: "37.391762, 127.148825",
+    solo: true,
+    tag: "#20번째 확진자",
+    profile: "-",
+    name: "20번째 확진자",
+    full: "20번째 확진자",
+    address_name: "경기도 성남시 분당구 서현1동"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "자택 자가격리",
+    latlng: "37.297586, 126.978377",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 수원시 장안구 율천동"
+  },
+  {
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "송파구소재 빵집 방문",
+    latlng: "37.499514, 127.11202",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락1동"
+  },
+  {
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "수성구 본가 이동",
+    latlng: "35.85816, 128.63054",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 수성구 범어1동"
+  },
+  {
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "서울역 음식점에서 식사",
+    latlng: "37.555877, 126.969728",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "서울특별시 중구 회현동"
+  },
+  {
+    month: 1,
+    day: 27,
+    date: "1/27",
+    address: "삼성서울가정의원 진료<br>구리시 약국 약처방",
+    latlng: "37.606423, 127.138958",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 동구동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "송도 대형쇼핑몰 방문",
+    latlng: "37.381624, 126.657218",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "인천광역시 연수구 송도3동"
+  },
+  {
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "동대구역 도착",
+    latlng: "35.879893, 128.628476",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 동구 신암4동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "성북구 보건소 방문",
+    latlng: "37.602813, 127.039582",
+    solo: true,
+    tag: "#21번째 확진자",
+    profile: "-",
+    name: "21번째 확진자",
+    full: "21번째 확진자",
+    address_name: "서울특별시 성북구 월곡2동"
+  },
+  {
+    profile: "-",
+    tag: "#24번째 확진자",
+    month: 1,
+    day: 23,
+    date: "1/23",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "24번째 확진자",
+    full: "24번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "동묘앞역 도착(21:36~21:46)",
+    latlng: "37.573067, 127.015951",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "국군수도병원 <span style='color:red;'>격리</span>",
+    latlng: "37.390524, 127.149769",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 성남시 분당구 서현1동"
+  },
+  {
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "한양대 구리병원 선별진료소 방문",
+    latlng: "37.601095, 127.132179",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 교문1동"
+  },
+  {
+    month: 2,
+    day: 6,
+    date: "2/6",
+    address: "서울대병원 <span style='color:red;'>격리</span>",
+    latlng: "37.579747, 126.998395",
+    solo: true,
+    tag: "#21번째 확진자",
+    profile: "-",
+    name: "21번째 확진자",
+    full: "21번째 확진자",
+    address_name: "서울특별시 종로구 이화동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "수원 장안구 보건소 이동 후 검사",
+    latlng: "37.304439, 127.010123",
+    solo: true,
+    tag: "#20번째 확진자",
+    profile: "-",
+    name: "20번째 확진자",
+    full: "20번째 확진자",
+    address_name: "경기도 수원시 장안구 조원2동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#18번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>8명</span></span>",
+    month: 1,
+    day: 27,
+    date: "1/27",
+    address: "광주 21세기병원 입원",
+    latlng: "35.175661, 126.818743",
+    solo: true,
+    name: "18번째 확진자",
+    full: "18번째 확진자",
+    address_name: "광주광역시 광산구 운남동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "서울시 중구 소재 호텔 퇴실",
+    latlng: "37.565707, 126.979336",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 중구 명동"
+  },
+  {
+    month: 2,
+    day: 9,
+    date: "2/9",
+    address: "경기도의료원 안성병원 <span style='color:red;'>격리</span>",
+    latlng: "37.017297, 127.260422",
+    solo: true,
+    tag: "#27번째 확진자",
+    profile: "-",
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "경기도 안성시 안성3동"
+  },
+  {
+    status: "완치",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>1명</span></span>",
+    profile: "-",
+    tag: "#28번째 확진자",
+    month: 2,
+    day: 11,
+    date: "2/11",
+    address:
+      " 1월 26일부터 자가격리<br>명지병원 <span style='color:red;'>격리</span>",
+    latlng: "37.642092, 126.831264",
+    solo: true,
+    name: "28번째 확진자",
+    full: "28번째 확진자",
+    address_name: "경기도 고양시 덕양구 화정1동"
+  },
+  {
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "분당 수내동 직장 출근",
+    latlng: "37.378511, 127.114316",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "경기도 성남시 분당구 수내1동"
+  },
+  {
+    month: 1,
+    day: 27,
+    date: "1/27-2/2",
+    address: "21세기병원 치료<br>21세기병원 내 체류",
+    latlng: "35.175836, 126.818103",
+    solo: true,
+    tag: "#16번째 확진자",
+    profile: "-",
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "광주광역시 광산구 운남동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "동묘앞역 도착(14:58~16:14)",
+    latlng: "37.572925, 127.015772",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "소요산역 이동",
+    latlng: "37.948023, 127.061052",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 동두천시 소요동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "분당구 소재 음식점 방문",
+    latlng: "37.377241, 127.112749",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "경기도 성남시 분당구 수내1동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#20번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>2명</span></span>",
+    month: 2,
+    day: 5,
+    date: "",
+    address: "영등포구 회사 근무",
+    latlng: "37.521024, 126.889323",
+    solo: true,
+    name: "20번째 확진자",
+    full: "20번째 확진자",
+    address_name: "서울특별시 영등포구 문래동"
+  },
+  {
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.438205, 126.796363",
+    solo: true,
+    tag: "#26번째 확진자",
+    profile: "-",
+    name: "26번째 확진자",
+    full: "26번째 확진자",
+    address_name: "경기도 시흥시 은행동"
+  },
+  {
+    month: 1,
+    day: 25,
+    date: "1/25",
+    address: "수서역 도착",
+    latlng: "37.487409, 127.10155",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "서울특별시 강남구 수서동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/15",
+    address: "29번째 확진자 간호를 위해 고려대 안암병원 방문",
+    latlng: "37.587055, 127.02683",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 성북구 안암동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "서울시 종로구 소재 의료기관(신중호내과의원) 방문",
+    latlng: "37.575739, 127.015399",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    tag: "#27번째 확진자",
+    profile: "-",
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "전남대학교병원 <span style='color:red;'>격리</span>",
+    latlng: "35.142094, 126.921635",
+    solo: true,
+    tag: "#16번째 확진자",
+    profile: "-",
+    name: "16번째 확진자",
+    full: "16번째 확진자",
+    address_name: "광주광역시 동구 학동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "서울시 송파구 소재 음식점 방문",
+    latlng: "37.495414, 127.117521",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락본동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#17번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>290명</span></span>",
+    month: 1,
+    day: 24,
+    date: "1/24",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "서울시 종로구 소재 약국(보람약국) 방문",
+    latlng: "37.57239, 127.013899",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 1,
+    day: 26,
+    date: "1/26",
+    address: "한양대 응급실 방문,진료",
+    latlng: "37.601196, 127.132803",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 교문1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "덕정역 출발",
+    latlng: "37.843309, 127.061543",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 양주시 회천1동"
+  },
+  {
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "한양대병원 선별진료소에서 최종 양성<br>국가지정병원이송",
+    latlng: "37.559702, 127.04396",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 성동구 사근동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>117명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/15",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "신설동역 출발",
+    latlng: "37.575879, 127.024495",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 동대문구 용신동"
+  },
+  {
+    profile: "-",
+    tag: "#44번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "경북대병원 <span style='color:red;'>격리</span>",
+    latlng: "35.866029, 128.60506",
+    solo: true,
+    name: "44번째 확진자",
+    full: "44번째 확진자",
+    address_name: "대구광역시 중구 삼덕동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "장안구보건소 방문",
+    latlng: "37.304558, 127.010198",
+    solo: true,
+    tag: "#15번째 확진자",
+    profile: "-",
+    name: "15번째 확진자",
+    full: "15번째 확진자",
+    address_name: "경기도 수원시 장안구 조원2동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 12,
+    date: "2/14",
+    address: "창신역 - 봉화산역 왕복이동",
+    latlng: "37.579471, 127.015224",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신3동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "지인들과 함께 인천시 중구 용유도 방문",
+    latlng: "37.423537, 126.421426",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "인천광역시 중구 용유동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "종로구 소재 약국(봄약국) 방문",
+    latlng: "37.573326, 127.015311",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "서울아산내과 진료 및 근처 약국 이용",
+    latlng: "37.587102, 127.138193",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "신설동역 출발",
+    latlng: "37.575981, 127.024678",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 동대문구 용신동"
+  },
+  {
+    month: 2,
+    day: 9,
+    date: "2/9",
+    address: "경기도의료원 안성병원 <span style='color:red;'>격리</span>",
+    latlng: "37.017297, 127.260422",
+    solo: true,
+    tag: "#26번째 확진자",
+    profile: "-",
+    name: "26번째 확진자",
+    full: "26번째 확진자",
+    address_name: "경기도 안성시 안성3동"
+  },
+  {
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "송파구 소재 소재 음식점 방문",
+    latlng: "37.497001, 127.119984",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락본동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "서울시 종로구 소재 의료기관(신중호내과의원) 방문",
+    latlng: "37.575739, 127.015399",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#27번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>37명</span></span>",
+    month: 1,
+    day: 31,
+    date: "1/31",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/18",
+    address: "삼육서울병원 장례식장 방문",
+    latlng: "37.588233, 127.063556",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 동대문구 휘경2동"
+  },
+  {
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 18,
+    date: "2/18",
+    address: "한양대병원 외래방문",
+    latlng: "37.559702, 127.04396",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 성동구 사근동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "서울대 병원 <span style='color:red;'>격리</span>",
+    latlng: "37.579678, 126.998945",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 이화동"
+  },
+  {
+    profile: "-",
+    tag: "#46번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "46번째 확진자",
+    full: "46번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "서울시 종로구 소재 약국(보람약국) 방문",
+    latlng: "37.57239, 127.013899",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#32번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "분당서울대병원 <span style='color:red;'>격리</span>",
+    latlng: "37.351384, 127.123507",
+    solo: true,
+    name: "32번째 확진자",
+    full: "32번째 확진자",
+    address_name: "경기도 성남시 분당구 구미동"
+  },
+  {
+    profile: "-",
+    tag: "#33번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "33번째 확진자",
+    full: "33번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#47번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "47번째 확진자",
+    full: "47번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.438205, 126.796363",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 은행동"
+  },
+  {
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "서울대 병원 <span style='color:red;'>격리</span>",
+    latlng: "37.579678, 126.998945",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 이화동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "명지병원 <span style='color:red;'>격리</span>",
+    latlng: "37.645413, 126.831101",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 고양시 덕양구 화정1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 11,
+    date: "2/11",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#39번째 확진자",
+    month: 2,
+    day: 19,
+    address: "동국대경주병원 <span style='color:red;'>격리</span>",
+    latlng: "35.858249, 129.196778",
+    solo: true,
+    name: "39번째 확진자",
+    full: "39번째 확진자",
+    address_name: "경상북도 경주시 성건동"
+  },
+  {
+    profile: "-",
+    tag: "#41번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "동국대경주병원 <span style='color:red;'>격리</span>",
+    latlng: "35.858249, 129.196778",
+    solo: true,
+    name: "41번째 확진자",
+    full: "41번째 확진자",
+    address_name: "경상북도 경주시 성건동"
+  },
+  {
+    profile: "-",
+    tag: "#42번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "42번째 확진자",
+    full: "42번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "종로구 소재 약국(단골온누리약국) 방문",
+    latlng: "37.574541, 127.015927",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 숭인1동"
+  },
+  {
+    profile: "-",
+    tag: "#35번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "35번째 확진자",
+    full: "35번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#37번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "경북대병원 <span style='color:red;'>격리</span>",
+    latlng: "35.866029, 128.60506",
+    solo: true,
+    name: "37번째 확진자",
+    full: "37번째 확진자",
+    address_name: "대구광역시 중구 삼덕동"
+  },
+  {
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "국립중앙의료원 <span style='color:red;'>격리</span>",
+    latlng: "37.567241, 127.005702",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 중구 광희동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 13,
+    date: "2/13",
+    address: "종로구 소재 카페(스타벅스 동묘앞역점) 방문",
+    latlng: "37.572793, 127.015975",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    profile: "-",
+    tag: "#43번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "계명대동산병원 <span style='color:red;'>격리</span>",
+    latlng: "35.854171, 128.480071",
+    solo: true,
+    name: "43번째 확진자",
+    full: "43번째 확진자",
+    address_name: "대구광역시 달서구 신당동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 12,
+    date: "2/14",
+    address: "창신역 - 봉화산역 왕복이동",
+    latlng: "37.617076, 127.091603",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 중랑구 신내2동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "서울시 중구 소재 백화점 방문",
+    latlng: "37.565152, 126.981348",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 중구 소공동"
+  },
+  {
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 14,
+    address: "포보스 엔터식스 한양대점 방문",
+    latlng: "37.557378, 127.040081",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 성동구 사근동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 18,
+    date: "2/18",
+    address: "대구 의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859594, 128.540617",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#36번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "36번째 확진자",
+    full: "36번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 17,
+    date: "2/17",
+    address: "대구 수성구 보건소에서 검사 실시 후 양성",
+    latlng: "35.844728, 128.612261",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 수성구 중동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 6,
+    date: "2/6 ~ 2/7",
+    address: "동구소재 C클럽 직장 출근",
+    latlng: "35.875115, 128.627581",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 동구 신천4동"
+  },
+  {
+    profile: "-",
+    tag: "#33번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/19",
+    address: "현대백화점 대구점 방문(오후 1시경)",
+    latlng: "35.866696, 128.590597",
+    solo: true,
+    name: "33번째 확진자",
+    full: "33번째 확진자",
+    address_name: "대구광역시 중구 성내2동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 13,
+    date: "2/13",
+    address: "종로구 소재 식당(명륜진사갈비 서울동묘점) 방문",
+    latlng: "37.572499, 127.013268",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#38번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "경북대병원 <span style='color:red;'>격리</span>",
+    latlng: "35.866029, 128.60506",
+    solo: true,
+    name: "38번째 확진자",
+    full: "38번째 확진자",
+    address_name: "대구광역시 중구 삼덕동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 12,
+    date: "2/12",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    profile: "-",
+    tag: "#37번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "영천 금호의원 진료",
+    latlng: "35.932453, 128.872049",
+    solo: true,
+    name: "37번째 확진자",
+    full: "37번째 확진자",
+    address_name: "경상북도 영천시 금호읍"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 12,
+    date: "2/12",
+    address: "종로구 소재 약국(봄약국) 방문",
+    latlng: "37.573326, 127.015311",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#22번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>1명</span></span>",
+    month: 2,
+    day: 6,
+    date: "2/6",
+    address: "나주 자택에서 자가격리 중 확진판정",
+    latlng: "35.015831, 126.710771",
+    solo: true,
+    name: "22번째 확진자",
+    full: "22번째 확진자",
+    address_name: "전라남도 나주시 송월동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>166명</span></span>",
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 1,
+    day: 29,
+    address: "서울 대치동 C클럽 본사에서 열린 행사에 참석",
+    latlng: "37.505066, 127.047281",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "서울특별시 강남구 역삼1동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 14,
+    date: "2/14",
+    address: "종로구 소재 약국(단골온누리약국) 방문",
+    latlng: "37.574541, 127.015927",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 숭인1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>27명</span></span>",
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "종로구 소재 의료기관(서울대학교병원 외래) 방문",
+    latlng: "37.579541, 126.999305",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 이화동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 14,
+    date: "2/14",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 1,
+    day: 25,
+    date: "1/25",
+    address: "북구 방문",
+    latlng: "35.885552, 128.582882",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 북구 침산3동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "광나루역 도착 후 인근 편의점 이용",
+    latlng: "37.545354, 127.10319",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "서울특별시 광진구 광장동"
+  },
+  {
+    profile: "-",
+    tag: "#26번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    name: "26번째 확진자",
+    full: "26번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    month: 2,
+    day: 2,
+    date: "2/2",
+    address: "마포구 소재 대형마트 방문(이마트 마포공덕점)",
+    latlng: "37.542533, 126.95331",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 마포구 공덕동"
+  },
+  {
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/15",
+    address: "고려대안암 병원에서 검사 후 양성판정",
+    latlng: "37.587055, 127.02683",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 성북구 안암동"
+  },
+  {
+    profile: "-",
+    tag: "#21번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>6명</span></span>",
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "명륜교회 예배당(본당)",
+    latlng: "37.586425, 126.9998",
+    solo: true,
+    name: "21번째 확진자",
+    full: "21번째 확진자",
+    address_name: "서울특별시 종로구 혜화동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "동묘앞역 출발",
+    latlng: "37.573067, 127.015951",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 숭인2동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "수원 천천동 자택 기거",
+    latlng: "37.296669, 126.97957",
+    solo: true,
+    tag: "#20번째 확진자",
+    profile: "-",
+    name: "20번째 확진자",
+    full: "20번째 확진자",
+    address_name: "경기도 수원시 장안구 율천동"
+  },
+  {
+    month: 2,
+    day: 9,
+    date: "2/9",
+    address: "분당서울대병원 <span style='color:red;'>격리</span>",
+    latlng: "37.350625, 127.124515",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 성남시 분당구 구미동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "녹양역 도착(11:41~12:41)",
+    latlng: "37.759448, 127.042167",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 의정부시 녹양동"
+  },
+  {
+    month: 2,
+    day: 6,
+    date: "2/6",
+    address: "국립중앙의료원 <span style='color:red;'>격리</span>",
+    latlng: "37.567122, 127.005777",
+    solo: true,
+    tag: "#23번째 확진자",
+    profile: "-",
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "서울특별시 중구 광희동"
+  },
+  {
+    month: 1,
+    day: 29,
+    date: "1/29",
+    address: "구리시 음식점 식사",
+    latlng: "37.587193, 127.138966",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "경기도 구리시 수택3동"
+  },
+  {
+    profile: "-",
+    tag: "#23번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>23명</span></span>",
+    month: 1,
+    day: 23,
+    date: "1/23",
+    address: "인천공항 도착",
+    latlng: "37.460459, 126.44068",
+    solo: true,
+    name: "23번째 확진자",
+    full: "23번째 확진자",
+    address_name: "인천광역시 중구 운서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "녹양역 출발(11:41~12:41)",
+    latlng: "37.759448, 127.042167",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 의정부시 녹양동"
+  },
+  {
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "국립중앙의료원 <span style='color:red;'>격리</span>",
+    latlng: "37.567152, 127.00567",
+    solo: true,
+    tag: "#24번째 확진자",
+    profile: "-",
+    name: "24번째 확진자",
+    full: "24번째 확진자",
+    address_name: "서울특별시 중구 광희동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "경인아라뱃길 방문",
+    latlng: "37.570719, 126.675649",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "인천광역시 서구 검암경서동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "동대문역 출발",
+    latlng: "37.571721, 127.010896",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "서울의료원 <span style='color:red;'>격리</span>",
+    latlng: "37.613102, 127.098658",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 중랑구 신내1동"
+  },
+  {
+    month: 1,
+    day: 25,
+    date: "1/25",
+    address: "동대구역 출발",
+    latlng: "35.878754, 128.6254936",
+    solo: true,
+    tag: "#17번째 확진자",
+    profile: "-",
+    name: "17번째 확진자",
+    full: "17번째 확진자",
+    address_name: "대구광역시 동구 신암3동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>114명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "덕정역 도착(14:04~14:53)",
+    latlng: "37.843309, 127.061543",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "경기도 양주시 회천1동"
+  },
+  {
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    month: 2,
+    day: 1,
+    date: "2/1",
+    address: "송파구소재 빵집 방문",
+    latlng: "37.499514, 127.11202",
+    solo: true,
+    tag: "#19번째 확진자",
+    profile: "-",
+    name: "19번째 확진자",
+    full: "19번째 확진자",
+    address_name: "서울특별시 송파구 가락1동"
+  },
+  {
+    status: "완치",
+    profile: "-",
+    tag: "#25번째 확진자",
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>11명</span></span>",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "경기도 시흥시 소재 슈퍼마켓 방문",
+    latlng: "37.41733, 126.811396",
+    solo: true,
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 매화동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 5,
+    date: "2/5",
+    address: "동대문역 도착(12:43~13:38)",
+    latlng: "37.571721, 127.010896",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>115명</span></span>",
+    profile: "-",
+    tag: "#29번째 확진자",
+    month: 2,
+    day: 4,
+    date: "2/4",
+    address: "신설동역 도착(15:53~15:57)",
+    latlng: "37.575981, 127.024678",
+    solo: true,
+    name: "29번째 확진자",
+    full: "29번째 확진자",
+    address_name: "서울특별시 동대문구 용신동"
+  },
+  {
+    month: 2,
+    day: 6,
+    date: "2/6",
+    address: "조선대병원 <span style='color:red;'>격리</span>",
+    latlng: "35.138602, 126.92612",
+    solo: true,
+    tag: "#22번째 확진자",
+    profile: "-",
+    name: "22번째 확진자",
+    full: "22번째 확진자",
+    address_name: "광주광역시 동구 학동"
+  },
+  {
+    month: 2,
+    day: 3,
+    date: "2/3",
+    address: "시흥시 소재 음식점 방문",
+    latlng: "37.432458, 126.80988",
+    solo: true,
+    tag: "#27번째 확진자",
+    profile: "-",
+    name: "27번째 확진자",
+    full: "27번째 확진자",
+    address_name: "경기도 시흥시 은행동"
+  },
+  {
+    profile: "-",
+    tag: "#34번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "34번째 확진자",
+    full: "34번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 15,
+    date: "2/15",
+    address: "동구 소재 호텔(퀸벨호텔) 뷔페에서 점심 식사",
+    latlng: "35.882409, 128.662136",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 동구 방촌동"
+  },
+  {
+    profile: "-",
+    tag: "#37번째 확진자",
+    month: 2,
+    day: 18,
+    address: "영제한의원 진료",
+    latlng: "35.961186, 128.927832",
+    solo: true,
+    name: "37번째 확진자",
+    full: "37번째 확진자",
+    address_name: "경상북도 영천시 남부동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 7,
+    date: "2/7",
+    address: "대구 의료기관에서(새로난한방병원) 외래진료",
+    latlng: "35.858512, 128.635278",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 수성구 범어4동"
+  },
+  {
+    profile: "-",
+    tag: "#45번째 확진자",
+    month: 2,
+    day: 19,
+    date: "2/19",
+    address: "대구의료원 <span style='color:red;'>격리</span>",
+    latlng: "35.859629, 128.540596",
+    solo: true,
+    name: "45번째 확진자",
+    full: "45번째 확진자",
+    address_name: "대구광역시 서구 상중이동"
+  },
+  {
+    profile: "-",
+    tag: "#37번째 확진자",
+    month: 2,
+    day: 18,
+    address: "김인환내과의원 재진료",
+    latlng: "35.965198, 128.938671",
+    solo: true,
+    name: "37번째 확진자",
+    full: "37번째 확진자",
+    address_name: "경상북도 영천시 완산동"
+  },
+  {
+    month: 2,
+    day: 8,
+    date: "2/8",
+    address: "시흥시 소재 의료기관(신천연합병원)방문",
+    latlng: "37.444478, 126.789562",
+    solo: true,
+    tag: "#25번째 확진자",
+    profile: "-",
+    name: "25번째 확진자",
+    full: "25번째 확진자",
+    address_name: "경기도 시흥시 대야동"
+  },
+  {
+    profile: "-",
+    tag: "#30번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "종로구 소재 의료기관(강북서울외과의원) 방문",
+    latlng: "37.572596, 127.01527",
+    solo: true,
+    name: "30번째 확진자",
+    full: "30번째 확진자",
+    address_name: "서울특별시 종로구 창신1동"
+  },
+  {
+    memo:
+      "<span style='font-size:12px !important;'>  접촉자 <span style='color:red;'>8명</span></span>",
+    profile: "-",
+    tag: "#40번째 확진자",
+    month: 2,
+    day: 10,
+    date: "2/10",
+    address: "이마트 성수점 방문",
+    latlng: "37.539848, 127.053015",
+    solo: true,
+    name: "40번째 확진자",
+    full: "40번째 확진자",
+    address_name: "서울특별시 성동구 성수2가1동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 9,
+    date: "2/9",
+    address: "신천지예수교회다대오지성전에서 예배",
+    latlng: "35.839821, 128.566553",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 남구 대명10동"
+  },
+  {
+    profile: "-",
+    tag: "#37번째 확진자",
+    month: 2,
+    day: 17,
+    date: "2/16",
+    address: "김인환내과의원 진료",
+    latlng: "35.965198, 128.938671",
+    solo: true,
+    name: "37번째 확진자",
+    full: "37번째 확진자",
+    address_name: "경상북도 영천시 완산동"
+  },
+  {
+    profile: "-",
+    tag: "#31번째 확진자",
+    month: 2,
+    day: 16,
+    date: "2/16",
+    address: "신천지예수교회다대오지성전에서 예배",
+    latlng: "35.839821, 128.566553",
+    solo: true,
+    name: "31번째 확진자",
+    full: "31번째 확진자",
+    address_name: "대구광역시 남구 대명10동"
   },
   {
     solo: true,
@@ -7659,7 +10309,7 @@ var position = [
     full: "파주 확진자",
     address: "기사식당",
     latlng: "37.84876326667472, 126.875299602282",
-    address_name: "경기도 파주시 법원읍"
+    address_name: "경기 파주시 법원읍"
   },
   {
     solo: true,
@@ -8055,7 +10705,7 @@ var position = [
     full: "포천 확진자 ",
     address: "포천 보건소 방문",
     latlng: "37.900718, 127.201162",
-    address_name: "경기도 포천시 포천동"
+    address_name: "경기 포천시 포천동"
   },
   {
     profile: "-",
@@ -8163,7 +10813,7 @@ var position = [
     full: "수원 확진자",
     address: "광교2동 행정복지센터",
     latlng: "37.29221866084465, 127.07012301688236",
-    address_name: "경기도 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동"
   },
   {
     solo: true,
@@ -8353,9 +11003,9 @@ var position = [
     day: 25,
     name: "평택",
     full: "평택 확진자",
-    address: "경기도의료원 파주병원",
+    address: "경기의료원 파주병원",
     latlng: "37.754883167701436, 126.779774098725",
-    address_name: "경기도 파주시 금촌1동"
+    address_name: "경기 파주시 금촌1동"
   },
   {
     solo: true,
@@ -8379,7 +11029,7 @@ var position = [
     full: "수원 확진자",
     address: "국군수도병원",
     latlng: "37.39170679339027, 127.15176219552485",
-    address_name: "경기도 성남시 분당구 서현1동"
+    address_name: "경기 성남시 분당구 서현1동"
   },
   {
     status: "완치",
@@ -8393,7 +11043,7 @@ var position = [
     solo: true,
     name: "11번째 확진자",
     full: "11번째 확진자",
-    address_name: "경기도 고양시 일산동구 백석1동"
+    address_name: "경기 고양시 일산동구 백석1동"
   },
   {
     solo: true,
@@ -8573,7 +11223,7 @@ var position = [
     full: "서울 확진자",
     address: "신천지 교육관 식사",
     latlng: "37.42917180424796, 126.99067212437589",
-    address_name: "경기도 과천시 중앙동"
+    address_name: "경기 과천시 중앙동"
   },
   {
     solo: true,
@@ -8705,7 +11355,7 @@ var position = [
     full: "서울 확진자",
     address: "행복한밥상",
     latlng: "37.4278420662319, 126.993040370933",
-    address_name: "경기도 과천시 별양동"
+    address_name: "경기 과천시 별양동"
   },
   {
     solo: true,
@@ -8789,7 +11439,7 @@ var position = [
     full: "평택 확진자",
     address: "노걸대 감자탕에서 점심(11:30)",
     latlng: "37.009115, 127.076112",
-    address_name: "경기도 평택시 세교동"
+    address_name: "경기 평택시 세교동"
   },
   {
     solo: true,
@@ -8885,7 +11535,7 @@ var position = [
     full: "평택 확진자",
     address: "지제역 방문",
     latlng: "37.019014, 127.070253",
-    address_name: "경기도 평택시 세교동"
+    address_name: "경기 평택시 세교동"
   },
   {
     solo: true,
@@ -9174,7 +11824,7 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기도 성남시 분당구 수내1동"
+    address_name: "경기 성남시 분당구 수내1동"
   },
   {
     month: 1,
@@ -9213,7 +11863,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     month: 2,
@@ -9226,7 +11876,7 @@ var position = [
     profile: "-",
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "경기도 수원시 장안구 조원2동"
+    address_name: "경기 수원시 장안구 조원2동"
   },
   {
     profile: "-",
@@ -9252,7 +11902,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 동구동"
+    address_name: "경기 구리시 동구동"
   },
   {
     status: "완치",
@@ -10139,7 +12789,7 @@ var position = [
     full: "이천 확진자",
     address: "샘재로밥상 방문",
     latlng: "37.124234, 127.615585",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -10223,7 +12873,7 @@ var position = [
     full: "평택 확진자",
     address: "현대향촌마트 방문(18:40)",
     latlng: "37.001363, 127.079635",
-    address_name: "경기도 평택시 세교동"
+    address_name: "경기 평택시 세교동"
   },
   {
     solo: true,
@@ -10535,7 +13185,7 @@ var position = [
     full: "평택 확진자",
     address: "한라약국 방문(18:40)",
     latlng: "37.001396, 127.07967",
-    address_name: "경기도 평택시 세교동"
+    address_name: "경기 평택시 세교동"
   },
   {
     solo: true,
@@ -10655,7 +13305,7 @@ var position = [
     full: "평택 확진자",
     address: "평택 성모병원 진료소 방문(증상 미미로 검사 미실시)",
     latlng: "37.008554, 127.074076",
-    address_name: "경기도 평택시 세교동"
+    address_name: "경기 평택시 세교동"
   },
   {
     solo: true,
@@ -10824,7 +13474,7 @@ var position = [
     full: "이천 확진자",
     address: "청미천 근무",
     latlng: "37.088738121826985, 127.59098921804299",
-    address_name: "경기도 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍"
   },
   {
     solo: true,
@@ -10836,7 +13486,7 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     solo: true,
@@ -10896,7 +13546,7 @@ var position = [
     full: "안양 확진자",
     address: "지리산석유주유소 방문",
     latlng: "37.31803891802031, 127.102076293537",
-    address_name: "경기도 용인시 기흥구 보정동"
+    address_name: "경기 용인시 기흥구 보정동"
   },
   {
     solo: true,
@@ -11028,7 +13678,7 @@ var position = [
     full: "부천 확진자",
     address: "신일해피트리아파트 거주",
     latlng: "37.479595389642746, 126.81019687028662",
-    address_name: "경기도 부천시 범안동"
+    address_name: "경기 부천시 범안동"
   },
   {
     solo: true,
@@ -11040,7 +13690,7 @@ var position = [
     full: "안양 확진자",
     address: "의왕카페인더뷰",
     latlng: "37.3105116495352, 126.94364704461599",
-    address_name: "경기도 의왕시 부곡동"
+    address_name: "경기 의왕시 부곡동"
   },
   {
     solo: true,
@@ -11100,7 +13750,7 @@ var position = [
     full: "부천 확진자",
     address: "365 플러스 의원",
     latlng: "37.4849071119903, 126.81434428836802",
-    address_name: "경기도 부천시 범안동"
+    address_name: "경기 부천시 범안동"
   },
   {
     solo: true,
@@ -11220,7 +13870,7 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동"
   },
   {
     solo: true,
@@ -11486,7 +14136,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기 구리시 교문1동"
   },
   {
     month: 1,
@@ -11499,7 +14149,7 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기 구리시 수택3동"
   },
   {
     solo: true,
@@ -11740,6 +14390,7 @@ var position = [
     full: "17번째 확진자",
     address_name: "서울 중구 회현동"
   },
+  ////
   {
     solo: true,
     profile: "-",
@@ -11895,86 +14546,6 @@ var position = [
     address: "부산의료원",
     address_name: "부산 연제구 거제동 1330",
     latlng: "35.18729655432529, 129.05922489147238"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#성남 확진자",
-    month: 2,
-    day: 20,
-    name: "성남",
-    full: "성남 확진자",
-    address: "동대구터미널",
-    latlng: "35.87798595963672, 128.63030849835795"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#남양주 확진자",
-    month: 2,
-    day: 22,
-    name: "남양주",
-    full: "남양주 확진자",
-    address: "춘천고속버스터미널",
-    latlng: "37.864694398014976, 127.71752938649898"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#남양주 확진자",
-    month: 2,
-    day: 22,
-    name: "남양주",
-    full: "남양주 확진자",
-    address: "천마산역 경춘선",
-    latlng: "37.6592276778117, 127.28506270036199"
-  },
-  //
-  //   {
-  //     solo: true,
-  //     profile: "-",
-  //     tag: "#남양주 확진자",
-  //     month: 2,
-  //     day: 22,
-  //     name: "남양주",
-  //     full: "남양주 확진자",
-  //     address: "Q마트",
-  //     latlng: "37.6640119413308, 127.29886738196198"
-  //   }
-  // ,
-
-  {
-    solo: true,
-    profile: "-",
-    tag: "#남양주 확진자",
-    month: 2,
-    day: 23,
-    name: "남양주",
-    full: "남양주 확진자",
-    address: "청호마트",
-    latlng: "37.65550461990519, 127.30391475696598"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#남양주 확진자",
-    month: 2,
-    day: 25,
-    name: "남양주",
-    full: "남양주 확진자",
-    address: "코로나19 남양주보건소 선별진료소",
-    latlng: "37.6355738764696, 127.21607792914601"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#남양주 확진자",
-    month: 2,
-    day: 25,
-    name: "남양주",
-    full: "남양주 확진자",
-    address: "평내호평역 버스정거장",
-    latlng: "37.653528243424205, 127.244009376608"
   },
   {
     solo: true,
@@ -12373,6 +14944,54 @@ var position = [
     address: "이마트트레이더스 킨텍스점",
     address_name: "경기 고양시 일산서구 대화동 2703",
     latlng: "37.662241550793496, 126.74405399518555"
+  },
+  {
+    month: 1,
+    day: 24,
+    address: "일산 음식점 이용",
+    latlng: "37.674192, 126.776955",
+    solo: true,
+    tag: "#3번째 확진자",
+    profile: "-",
+    name: "3번째 확진자",
+    full: "3번째 확진자",
+    address_name: "경기도 고양시 일산동구 정발산동"
+  },
+  {
+    month: 1,
+    day: 24,
+    address: "일산 모친 자택 체류",
+    latlng: "37.682229, 126.770046",
+    solo: true,
+    tag: "#3번째 확진자",
+    profile: "-",
+    name: "3번째 확진자",
+    full: "3번째 확진자",
+    address_name: "경기도 고양시 일산서구 일산2동"
+  },
+  {
+    month: 1,
+    day: 25,
+    address: "일산 명지병원에 <span style='color:red;'>격리</span>",
+    latlng: "37.642457, 126.831318",
+    solo: true,
+    tag: "#3번째 확진자",
+    profile: "-",
+    name: "3번째 확진자",
+    full: "3번째 확진자",
+    address_name: "경기도 고양시 덕양구 화정1동"
+  },
+  {
+    month: 1,
+    day: 24,
+    address: "일산 카페 이용",
+    latlng: "37.678158, 126.812165",
+    solo: true,
+    tag: "#3번째 확진자",
+    profile: "-",
+    name: "3번째 확진자",
+    full: "3번째 확진자",
+    address_name: "경기도 고양시 일산동구 식사동"
   },
   {
     solo: true,
@@ -13141,17 +15760,6 @@ var position = [
     address: "동아문구센터",
     address_name: "경북 안동시 옥동 942-3",
     latlng: "36.561818, 128.701147"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#서울 확진자",
-    month: 2,
-    day: 23,
-    name: "서울",
-    full: "서울 확진자",
-    address: "인제대학교 상계백병원 응급실 방문",
-    latlng: "37.648581267298596, 127.06311619032103"
   },
 
   {
@@ -14591,7 +17199,7 @@ var position = [
     day: 20,
     name: "충주",
     full: "충주 확진자B",
-    address: "롯데마트 2층 롯데리아 및 마트 방문 (12:20-13:30)",
+    address: "롯데마트 2층 롯데리아 및 마트 방문 (12:18-14:15)",
     address_name: "충북 충주시 칠금동 849",
     latlng: "36.98183421784591, 127.914653882495"
   },
@@ -14639,7 +17247,7 @@ var position = [
     day: 21,
     name: "충주",
     full: "충주 확진자B",
-    address: "정연무내과의원 진료 및 수액 (11:50)",
+    address: "정연무내과의원 진료 및 수액 (11:30-14:00)",
     address_name: "충북 충주시 칠금동 838",
     latlng: "36.98266005936304, 127.91692804572162"
   },
@@ -14651,7 +17259,7 @@ var position = [
     day: 21,
     name: "충주",
     full: "충주 확진자B",
-    address: "새충주약국 방문 후 자택 귀가 (13:00)",
+    address: "새충주약국 방문 후 자택 귀가 (13:11-14:11)",
     address_name: "충북 충주시 칠금동 858",
     latlng: "36.982601, 127.916918"
   },
@@ -14663,7 +17271,7 @@ var position = [
     day: 22,
     name: "충주",
     full: "충주 확진자B",
-    address: "이마트 4층 주차장-엘리베이터-1층 매장 (16:30-17:15)",
+    address: "이마트 4층 주차장-엘리베이터-1층 매장 (16:42-18:22)",
     address_name: "충북 충주시 문화동 1024",
     latlng: "36.97217978702432, 127.92380082965099"
   },
@@ -14675,7 +17283,7 @@ var position = [
     day: 23,
     name: "충주",
     full: "충주 확진자B",
-    address: "현대연합의원 고열, 심한 두통 진료(15:30)",
+    address: "현대연합의원 고열, 심한 두통 진료(15:48-17:03)",
     address_name: "충북 충주시 금릉동 862",
     latlng: "36.9880844959914, 127.928045760794"
   },
@@ -14687,7 +17295,7 @@ var position = [
     day: 23,
     name: "충주",
     full: "충주 확진자B",
-    address: "이수약국 방문 후 자택 귀가 (16:00)",
+    address: "이수약국 방문 후 자택 귀가 (16:04-17:05)",
     address_name: "충북 충주시 금릉동 862",
     latlng: "36.9880369784015, 127.92813054906001"
   },
@@ -14702,17 +17310,6 @@ var position = [
     address: "코로나19 충주의료원 선별진료소 방문 (15:00)",
     address_name: "충북 충주시 안림동 134",
     latlng: "36.97957909864061, 127.970350888968"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#충주 확진자B",
-    month: 2,
-    day: 24,
-    name: "충주",
-    full: "충주 확진자B",
-    address: "B 충주의료원 음압병실 입원 (2/24 15:00)",
-    latlng: "36.97957909864063, 127.97035088896845"
   },
   {
     solo: true,
@@ -15359,6 +17956,7 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "열린연합이비인후과",
+    address_name: "경북 구미시 황상동 314-6",
     latlng: "36.1073799388922, 128.41896637077008"
   },
   {
@@ -15370,6 +17968,7 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "구미시 우정약국 방문",
+    address_name: "경북 구미시 황상동 314-6",
     latlng: "36.1073799388922, 128.41896637077008"
   },
   {
@@ -15381,6 +17980,8 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "삼성디지털프라자 광평점",
+    address_name: "경북 구미시 공단동 257-16",
+
     latlng: "36.10344771877789, 128.3866172691851"
   },
   {
@@ -15392,6 +17993,8 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "유니클로 구미신평점 방문",
+    address_name: "경북 구미시 신평동 299-1",
+
     latlng: "36.113450141788256, 128.36418820033666"
   },
   {
@@ -15402,6 +18005,7 @@ var position = [
     day: 22,
     name: "구미",
     full: "구미 확진자",
+    address_name: "경북 구미시 고아읍 원호리 428-5",
     address: "시골여행 원호점 식사",
     latlng: "36.15247135429501, 128.32923393910207"
   },
@@ -15414,6 +18018,8 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "농협하나로마트 원호점 방문",
+    address_name: "경북 구미시 고아읍 원호리 428-1",
+
     latlng: "36.15204809862171, 128.32945235637567"
   },
   {
@@ -15425,40 +18031,9 @@ var position = [
     name: "구미",
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소 진료",
+    address_name: "경북 구미시 지산동 853-12",
+
     latlng: "36.13993541358159, 128.34595355207307"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#구미 확진자",
-    month: 2,
-    day: 16,
-    name: "구미",
-    full: "구미 확진자",
-    address: "가야 예식장 참석 ",
-    latlng: "36.615910203584114, 128.167415029125"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#구미 확진자",
-    month: 2,
-    day: 16,
-    name: "구미",
-    full: "구미 확진자",
-    address: "대구역 이동",
-    latlng: "35.87594876570239, 128.59627719643822"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#구미 확진자",
-    month: 2,
-    day: 16,
-    name: "구미",
-    full: "구미 확진자",
-    address: "구미역 버스 탑승",
-    latlng: "36.12827222133691, 128.33101623502307"
   },
   {
     solo: true,
@@ -16984,6 +19559,3260 @@ var position = [
     address: "동진자동차공업사",
     address_name: "충남 서천군 마서면 송내리 475-6",
     latlng: "36.0273473827745, 126.710014130125"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#군산 확진자",
+    month: 2,
+    day: 24,
+    name: "군산",
+    full: "군산 확진자",
+    address: "코로나19 군산시보건소 선별진료소",
+    address_name: "전북 군산시 수송동 851-1",
+    latlng: "35.964691785897806, 126.720166432176"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#군산 확진자",
+    month: 2,
+    day: 25,
+    name: "군산",
+    full: "군산 확진자",
+    address: "서천특화시장",
+    address_name: "충남 서천군 서천읍 군사리 686-1",
+    latlng: "36.0747370968095, 126.687015825881"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#군산 확진자",
+    month: 2,
+    day: 24,
+    name: "군산",
+    full: "군산 확진자",
+    address: "한사랑약국",
+    address_name: "충남 서천군 장항읍 창선1리 183",
+    latlng: "36.01033180166029, 126.69815885129101"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#군산 확진자",
+    month: 2,
+    day: 25,
+    name: "군산",
+    full: "군산 확진자",
+    address: "서천특화시장",
+    address_name: "충남 서천군 서천읍 군사리 686-1",
+    latlng: "36.0747370968095, 126.687015825881"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 18,
+    name: "광주",
+    full: "광주 확진자",
+    address: "창평국밥",
+    address_name: "전남 담양군 창평면 창평리 250",
+    latlng: "35.23851058457609, 127.01438325888101"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "광주송정역",
+    address_name: "광주 광산구 송정동 1003-1",
+    latlng: "35.1376351602507, 126.790864370399"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "미풍해장국",
+    address_name: "전남 나주시 빛가람동 283-1",
+    latlng: "35.020324307803, 126.791216107466"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "한국인터넷진흥원",
+    address_name: "전남 나주시 빛가람동 301-2",
+    latlng: "35.01846344368172, 126.79520252378528"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 20,
+    name: "광주",
+    full: "광주 확진자",
+    address: "고흥실버대학",
+    address_name: "전남 고흥군 고흥읍 서문리 245-4",
+    latlng: "34.6104619158584, 127.278688762485"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 18,
+    name: "광주",
+    full: "광주 확진자",
+    address: "텐토",
+    address_name: "광주 서구 치평동 1223-1",
+    latlng: "35.154655610261806, 126.854322137303"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 18,
+    name: "광주",
+    full: "광주 확진자",
+    address: "양산동 양떼목장",
+    address_name: "광주 북구 양산동 93",
+    latlng: "35.209196, 126.878995"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 18,
+    name: "광주",
+    full: "광주 확진자",
+    address: "중흥헬스",
+    address_name: "광주 북구 중흥3동 280-2",
+    latlng: "35.1732986278818, 126.91392310848802"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 20,
+    name: "광주",
+    full: "광주 확진자",
+    address: "뚝배기식당",
+    address_name: "전남 고흥군 도양읍 봉암리 2786",
+    latlng: "34.5256261490987, 127.135755821348"
+  },
+
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#고양 확진자",
+  //   month: 2,
+  //   day: 25,
+  //   name: "고양",
+  //   full: "고양 확진자",
+  //   address: "행신SK뷰1차아파트 거주",
+  //   latlng: "37.62072956862662, 126.83295974679233"
+  // },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#고양 확진자",
+  //   month: 2,
+  //   day: 21,
+  //   name: "고양",
+  //   full: "고양 확진자",
+  //   address: "서울가정의학과",
+  //   latlng: "37.6566983050837, 126.773360019902"
+  // },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#고양 확진자",
+  //   month: 2,
+  //   day: 24,
+  //   name: "고양",
+  //   full: "고양 확진자",
+  //   address: "코로나19 강북삼성병원 선별진료소",
+  //   latlng: "37.56850663657661, 126.96792107169"
+  // },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#고양 확진자",
+  //   month: 2,
+  //   day: 25,
+  //   name: "고양",
+  //   full: "고양 확진자",
+  //   address: "웨스턴돔 유니버셜라이센싱 근무",
+  //   latlng: "37.654959837988784, 126.772644563395"
+  // },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 26,
+    name: "광명",
+    full: "광명 확진자",
+    address: "광명브라운스톤2차 거주",
+    address_name: "경기 광명시 철산동 630",
+    latlng: "37.47188899356597, 126.86446993944945"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 25,
+    name: "용인",
+    full: "용인 확진자",
+    address: "김재한내과의원",
+    address_name: "경기 용인시 기흥구 보정동 1208-1",
+    latlng: "37.32072316831987, 127.1138482186981"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 25,
+    name: "용인",
+    full: "용인 확진자",
+    address: "주연약국",
+    address_name: "경기 용인시 기흥구 보정동 1208-1",
+    latlng: "37.32072405089719, 127.11386739949499"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 25,
+    name: "용인",
+    full: "용인 확진자",
+    address: "코로나19 수지구보건소 선별진료소",
+    address_name: "경기 용인시 수지구 풍덕천동 720",
+    latlng: "37.3221916779058, 127.09683791577301"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 24,
+    name: "용인",
+    full: "용인 확진자",
+    address: "열린이비인후과",
+    address_name: "경기 성남시 분당구 구미동 185-4",
+    latlng: "37.3386804474259, 127.109371584405"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 24,
+    name: "용인",
+    full: "용인 확진자",
+    address: "오렌지약국",
+    address_name: "경기 성남시 분당구 구미동 185-3",
+    latlng: "37.33881206129299, 127.10930293831332"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 24,
+    name: "용인",
+    full: "용인 확진자",
+    address: "이마트에브리데이 죽전점",
+    address_name: "경기 용인시 수지구 죽전동 551-1",
+    latlng: "37.3309650862311, 127.11208199601198"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 22,
+    name: "용인",
+    full: "용인 확진자",
+    address: "오성인테리어",
+    address_name: "경기 용인시 수지구 풍덕천동 692",
+    latlng: "37.32630216652179, 127.090019308019"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 22,
+    name: "용인",
+    full: "용인 확진자",
+    address: "동성2차아파트",
+    address_name: "경기 용인시 수지구 죽전동 1003-64",
+    latlng: "37.32721819417681, 127.10962576052898"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#대구 확진자",
+    month: 2,
+    day: 21,
+    name: "대구",
+    full: "대구 확진자",
+    address: "대지면사무소",
+    address_name: "경남 창녕군 대지면 모산리 501-1",
+    latlng: "35.5555840663766, 128.4678579091381"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경남 확진자",
+    month: 2,
+    day: 25,
+    name: "경남",
+    full: "경남 확진자",
+    address: "코로나19 창녕군보건소 선별진료소",
+    address_name: "경남 창녕군 창녕읍 교리 996-1",
+    latlng: "35.5436236634433, 128.49008663732516"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 24,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "밀양시보건소",
+    address_name: "경남 밀양시 삼문동 159-1",
+    latlng: "35.4857132334172, 128.75613196992745"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#과천 확진자",
+    month: 2,
+    day: 24,
+    name: "과천",
+    full: "과천 확진자",
+    address: "인덕원역 4호선",
+    address_name: "경기 안양시 동안구 관양동 1563",
+    latlng: "37.40149417095971, 126.97667985518699"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#과천 확진자",
+    month: 2,
+    day: 24,
+    name: "과천",
+    full: "과천 확진자",
+    address: "정부과천청사역 4호선",
+    address_name: "경기 과천시 중앙동 6-3",
+    latlng: "37.4265047272927, 126.989868044926"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 24,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "미르아이병원",
+    address_name: "경남 밀양시 삼문동 724-1",
+    latlng: "35.48369000204471, 128.74850765413746"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "코로나19 밀양시보건소 선별진료소",
+    address_name: "경남 밀양시 삼문동 159-1",
+    latlng: "35.4857132334172, 128.75613196992745"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "햇살약국 (2/24, 25)",
+    address_name: "경남 밀양시 삼문동 512",
+    latlng: "35.483664393982515, 128.74853354223245"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "밀양 삼문동 중앙약국",
+    address_name: "경남 밀양시 삼문동 159-1",
+    latlng: "35.485608, 128.756565"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#김해 확진자",
+    month: 2,
+    day: 22,
+    name: "김해",
+    full: "김해 확진자",
+    address: "키무카츠 신세계백화점김해점",
+    address_name: "경남 김해시 외동 1264",
+    latlng: "35.22933971803031, 128.8722426839287"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#김해 확진자",
+    month: 2,
+    day: 22,
+    name: "김해",
+    full: "김해 확진자",
+    address: "활천고개",
+    address_name: "경남 김해시 삼정동",
+    latlng: "35.233613668226106, 128.89110096834676"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#김해 확진자",
+    month: 2,
+    day: 24,
+    name: "김해",
+    full: "김해 확진자",
+    address: "코로나19 김해시보건소 선별진료소",
+    address_name: "경남 김해시 외동 1261-3",
+    latlng: "35.23222919863411, 128.87070989801472"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창원 확진자",
+    month: 2,
+    day: 26,
+    name: "창원",
+    full: "창원 확진자",
+    address: "코로나19 한마음창원병원 선별진료소",
+    address_name: "경남 창원시 성산구 상남동 43-3",
+    latlng: "35.22118263704339, 128.68661471884636"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "미리내어린이집",
+    address_name: "경기 광명시 철산동 625",
+    latlng: "37.46994197898321, 126.863745449838"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "철산역 7호선",
+    address_name: "경기 광명시 철산동 526",
+    latlng: "37.476192842453685, 126.868211027014"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "가산디지털단지역 7호선",
+    address_name: "서울 금천구 가산동",
+    latlng: "37.48039596609821, 126.882661758356"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "금천구 사무실 근무",
+    address_name: "서울 금천구 가산동 481-2",
+    latlng: "37.48585896244501, 126.87838828082998"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 18,
+    name: "광명",
+    full: "광명 확진자",
+    address: "서울아산이비인후과의원",
+    address_name: "경기 광명시 철산동 482",
+    latlng: "37.47533701801807, 126.86592774143179"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 18,
+    name: "광명",
+    full: "광명 확진자",
+    address: "명지옵티마약국",
+    address_name: "경기 광명시 철산동 486-18",
+    latlng: "37.4753034971968, 126.86576613649886"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 22,
+    name: "광명",
+    full: "광명 확진자",
+    address: "2001아울렛 철산점 지하 슈퍼(2/18, 22)",
+    address_name: "경기 광명시 철산동 261",
+    latlng: "37.4750788153997, 126.86706776662622"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 21,
+    name: "광명",
+    full: "광명 확진자",
+    address: "홈플러스익스프레스 광명철산2점",
+    address_name: "경기 광명시 철산동 625-2",
+    latlng: "37.4710106848018, 126.86541206673398"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 22,
+    name: "광명",
+    full: "광명 확진자",
+    address: "엔비의원 광명철산점",
+    address_name: "경기 광명시 철산동 259",
+    latlng: "37.475999316152, 126.865977432319"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "광명성애병원",
+    address_name: "경기 광명시 철산동 389",
+    latlng: "37.47347856519616, 126.87191025301993"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "스타벅스 철산로데오점",
+    address_name: "경기 광명시 철산동 425",
+    latlng: "37.4739236088593, 126.86939073408199"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 25,
+    name: "광명",
+    full: "광명 확진자",
+    address: "코로나19 광명시보건소 선별진료소",
+    address_name: "경기 광명시 하안동 230-1",
+    latlng: "37.4566775267623, 126.878851478017"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명 확진자",
+    month: 2,
+    day: 26,
+    name: "광명",
+    full: "광명 확진자",
+    address: "명지병원",
+    address_name: "경기 고양시 덕양구 화정동 697-24",
+    latlng: "37.64206996516571, 126.83145714476498"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#고령 확진자",
+    month: 2,
+    day: 18,
+    name: "고령",
+    full: "고령 확진자",
+    address: "앤유 PC방 방문",
+    address_name: "대구 달성군 유가읍 봉리 606",
+    latlng: "35.69301985949687, 128.4580670676183"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#과천시 확진자",
+    month: 2,
+    day: 25,
+    name: "과천시",
+    full: "과천시 확진자",
+    address: "CU 과천여울점 근무(2/24, 25)",
+    address_name: "경기 과천시 문원동 143",
+    latlng: "37.4243424420614, 127.00809810052"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#고령 확진자",
+    month: 2,
+    day: 19,
+    name: "고령",
+    full: "고령 확진자",
+    address: "구지연합내과의원",
+    address_name: "대구 달성군 구지면 응암리 1189-3",
+    latlng: "35.65554923979591, 128.41693542231508"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#고령 확진자",
+    month: 2,
+    day: 19,
+    name: "고령",
+    full: "고령 확진자",
+    address: "구지봄약국",
+    address_name: "대구 달성군 구지면 응암리 1189-3",
+    latlng: "35.655548928004904, 128.41696191766812"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#고령 확진자",
+    month: 2,
+    day: 20,
+    name: "고령",
+    full: "고령 확진자",
+    address: "동고령농협 우곡지점",
+    address_name: "경북 고령군 우곡면 봉산리 1135",
+    latlng: "35.63757603428241, 128.38342424221108"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#고령 확진자",
+    month: 2,
+    day: 20,
+    name: "고령",
+    full: "고령 확진자",
+    address: "윤솔공인중개사사무소",
+    address_name: "대구 서구 내당동 13-34",
+    latlng: "35.861891302670195, 128.5641923566642"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성남 확진자",
+    month: 2,
+    day: 21,
+    name: "성남",
+    full: "성남 확진자",
+    address: "충북대학교 졸업식 참석",
+    address_name: "충북 청주시 흥덕구 복대동 680",
+    latlng: "36.6320539435727, 127.452988055796"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성남 확진자",
+    month: 2,
+    day: 21,
+    name: "성남",
+    full: "성남 확진자",
+    address: "트리제이더테라스 청주산남점",
+    address_name: "충북 청주시 서원구 산남동 1085",
+    latlng: "36.6075774653501, 127.47109947732999"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성남 확진자",
+    month: 2,
+    day: 21,
+    name: "성남",
+    full: "성남 확진자",
+    address: "오창휴게소 하남방향",
+    address_name: "충북 청주시 청원구 오창읍 화산리 395-17",
+    latlng: "36.75667230837761, 127.482191529916"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "터미널호텔사우나 2층",
+    address_name: "경북 구미시 선산읍 동부리 327-5",
+    latlng: "36.2402265577043, 128.30439035697106"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "e편한세상구미교리아파트 방문",
+    address_name: "경북 구미시 선산읍 교리 1172",
+    latlng: "36.25230047920839, 128.304992680739"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "중앙스포츠볼링장",
+    address_name: "경북 구미시 남통동 8",
+    latlng: "36.1294255883706, 128.3245218617891"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "복권천하명당 방문",
+    address_name: "경북 구미시 선산읍 동부리 336",
+    latlng: "36.24105016174811, 128.30389678763305"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "미니스톱 구미선산단계점",
+    address_name: "경북 구미시 선산읍 노상리 149-2",
+    latlng: "36.242269775377906, 128.29781208866106"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 26,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "코로나19 기흥구보건소 선별진료소",
+    address_name: "경기 용인시 기흥구 신갈동 60-3",
+    latlng: "37.272608430459805, 127.10639859028402"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 25,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "우리들소아청소년과",
+    address_name: "경기 용인시 기흥구 언남동 414-4",
+    latlng: "37.293784362857, 127.119889843822"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "하나은행 구미인동지점 근무 (2/21, 24)",
+    address_name: "경북 구미시 황상동 314-6",
+    latlng: "36.107387304231786, 128.4189531773041"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 21,
+    name: "구미",
+    full: "구미 확진자",
+    address: "전국제일순대 인동점",
+    address_name: "경북 구미시 황상동 313-4",
+    latlng: "36.107469322472305, 128.41933222194908"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 21,
+    name: "구미",
+    full: "구미 확진자",
+    address: "매스커피 구미인동점",
+    address_name: "경북 구미시 황상동 314-20",
+    latlng: "36.1076749470673, 128.41870959951308"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 21,
+    name: "구미",
+    full: "구미 확진자",
+    address: "제이엠5주유소",
+    address_name: "경북 구미시 황상동 382-1",
+    latlng: "36.1108276546153, 128.42003232933013"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "스타벅스 구미인동점",
+    address_name: "경북 구미시 황상동 305-26",
+    latlng: "36.1078817815538, 128.4185933852291"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 27,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "경기의료원 수원병원",
+    address_name: "경기 수원시 장안구 정자동 886-9",
+    latlng: "37.29185913925371, 126.99637759217902"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "삼성연합의원",
+    address_name: "경북 구미시 황상동 313-2",
+    latlng: "36.10706126897719, 128.41924270326882"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "우정약국",
+    address_name: "경북 구미시 황상동 314-6",
+    latlng: "36.10731475554349, 128.41899185009012"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "이마트24 비산파라디아점",
+    address_name: "경북 구미시 공단동 109",
+    latlng: "36.1207238938898, 128.3719400553911"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 27,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "구성역효성해링턴플레이스아파트 거주",
+    address_name: "경기 용인시 기흥구 마북동 651",
+    latlng: "37.296923499423336, 127.1163545100717"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 20,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "정자동 포스코건설 공사장 근무",
+    address_name: "경기 성남시 분당구 정자동 215",
+    latlng: "37.355104092823375, 127.11722408590458"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 26,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "GS25 구성효성점(2/22, 23, 26)",
+    address_name: "경기 용인시 기흥구 마북동 342-3",
+    latlng: "37.296069902922184, 127.115756570315"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인시 확진자",
+    month: 2,
+    day: 22,
+    name: "용인시",
+    full: "용인시 확진자",
+    address: "마트킹 구성점",
+    address_name: "경기 용인시 기흥구 마북동 553",
+    latlng: "37.302857086504474, 127.10650435417789"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#용인 확진자",
+    month: 2,
+    day: 25,
+    name: "용인",
+    full: "용인 확진자",
+    address: "셀메드주오약국",
+    address_name: "경기 용인시 기흥구 언남동 414-4",
+    latlng: "37.29376622099302, 127.12000936194876"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 26,
+    name: "수원",
+    full: "수원 확진자",
+    address: "아주대학교병원",
+    address_name: "경기 수원시 영통구 원천동 산 26-6",
+    latlng: "37.27958828328031, 127.04761136661999"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 26,
+    name: "수원",
+    full: "수원 확진자",
+    address: "호반마을광교22단지아파트 거주",
+    address_name: "경기 수원시 영통구 하동 1028",
+    latlng: "37.27997030632964, 127.06950500587713"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 24,
+    name: "수원",
+    full: "수원 확진자",
+    address: "한림대학교 동탄성심병원 코로나19 선별진료소 방문",
+    address_name: "경기 화성시 석우동 40",
+    latlng: "37.2166490921101, 127.08000585823602"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성남 확진자",
+    month: 2,
+    day: 20,
+    name: "성남",
+    full: "성남 확진자",
+    address: "성남종합버스터미널",
+    address_name: "경기 성남시 분당구 야탑동 341",
+    latlng: "37.41311607869241, 127.127200696629"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성남 확진자",
+    month: 2,
+    day: 20,
+    name: "성남",
+    full: "성남 확진자",
+    address: "파리바게뜨 분당상탑점",
+    address_name: "경기 성남시 분당구 야탑동 175-5",
+    latlng: "37.40692430763553, 127.1466243169044"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 20,
+    name: "파주",
+    full: "파주 확진자",
+    address: "동대구역",
+    address_name: "대구 동구 신암동 294",
+    latlng: "35.879323993179504, 128.62839377538825"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 20,
+    name: "파주",
+    full: "파주 확진자",
+    address: "서울역",
+    address_name: "서울 용산구 동자동 43-205",
+    latlng: "37.554678838867396, 126.970606917394"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 24,
+    name: "파주",
+    full: "파주 확진자",
+    address: "늘봄이비인후과의원(2/20, 24)",
+    address_name: "경기 파주시 목동동 933",
+    latlng: "37.72867781028519, 126.73639658266"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 24,
+    name: "파주",
+    full: "파주 확진자",
+    address: "수온누리약국(2/20, 24)",
+    address_name: "경기 파주시 목동동 933",
+    latlng: "37.72867781028519, 126.73639658266"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 21,
+    name: "파주",
+    full: "파주 확진자",
+    address: "롯데몰 은평점",
+    address_name: "서울 은평구 진관동 80-25",
+    latlng: "37.63762792633299, 126.91774573633398"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 21,
+    name: "파주",
+    full: "파주 확진자",
+    address: "연세키즈웰 소아청소년과의원",
+    address_name: "경기 파주시 목동동 927",
+    latlng: "37.729536336775, 126.736756539342"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 21,
+    name: "파주",
+    full: "파주 확진자",
+    address: "두리약국",
+    address_name: "경기 파주시 목동동 927",
+    latlng: "37.7295687815196, 126.736760961992"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 21,
+    name: "파주",
+    full: "파주 확진자",
+    address: "다이소",
+    address_name: "경기 파주시 목동동 927",
+    latlng: "37.7295327227968, 126.73675201463699"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 25,
+    name: "파주",
+    full: "파주 확진자",
+    address: "중구보건소",
+    address_name: "서울 중구 무학동 50-5",
+    latlng: "37.56458889596116, 127.01509124756984"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 25,
+    name: "파주",
+    full: "파주 확진자",
+    address: "코로나19 파주시보건소 선별진료소",
+    address_name: "경기 파주시 금촌동 953-1",
+    latlng: "37.756350556560406, 126.77391425919102"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 22,
+    name: "울산",
+    full: "울산 확진자",
+    address: "두울원칼국수 다운점",
+    address_name: "울산 중구 다운동 776-9",
+    latlng: "35.562711462773414, 129.26768548007058"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 22,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산광역시 중구보건소 방문",
+    address_name: "울산 중구 남외동 603-2",
+    latlng: "35.56953499455542, 129.35040542542728"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 24,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "밀양시보건소",
+    address_name: "경남 밀양시 삼문동 159-1",
+    latlng: "35.4857132334172, 128.75613196992745"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 24,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "미르아이병원",
+    address_name: "경남 밀양시 삼문동 724-1",
+    latlng: "35.48369000204471, 128.74850765413746"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "휴베이스 햇살약국",
+    address_name: "경남 밀양시 삼문동 512",
+    latlng: "35.483664393982515, 128.74853354223245"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "코로나19 밀양시보건소 선별진료소",
+    address_name: "경남 밀양시 삼문동 159-1",
+    latlng: "35.4857132334172, 128.75613196992745"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 25,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "중앙약국",
+    address_name: "경남 밀양시 삼문동 161-6",
+    latlng: "35.48571287130291, 128.75665201793447"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#밀양 확진자",
+    month: 2,
+    day: 26,
+    name: "밀양",
+    full: "밀양 확진자",
+    address: "경상남도 마산의료원 이송",
+    address_name: "경남 창원시 마산합포구 장군동4가 3-6",
+    latlng: "35.19917138155086, 128.565560620545"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#파주 확진자",
+    month: 2,
+    day: 21,
+    name: "파주",
+    full: "파주 확진자",
+    address: "식빵연구소",
+    address_name: "경기 파주시 문발동 263-22",
+    latlng: "37.725966426629, 126.69934796557298"
+  },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#파주 확진자",
+  //   month: 2,
+  //   day: 24,
+  //   name: "파주",
+  //   full: "파주 확진자",
+  //   address: "팜스마트 산내마을점",
+  //   address_name: "경기 파주시 문발동 263-22",
+  //   latlng: "37.6407069,126.7234247"
+  // },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 16,
+    name: "울산",
+    full: "울산 확진자",
+    address: "신명횟집",
+    address_name: "울산 북구 신명동 126",
+    latlng: "35.645484657150824, 129.44173266479427"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 19,
+    name: "평택",
+    full: "평택 확진자",
+    address: "평택역",
+    address_name: "경기 평택시 평택동 185-579",
+    latlng: "36.99098235648259, 127.08529109294702"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 19,
+    name: "평택",
+    full: "평택 확진자",
+    address: "케이엠제약",
+    address_name: "경기 평택시 포승읍 도곡리 1219",
+    latlng: "36.98681017820531, 126.850706087085"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 19,
+    name: "평택",
+    full: "평택 확진자",
+    address: "지제역",
+    address_name: "경기 평택시 지제동 559-4",
+    latlng: "37.01878180904829, 127.06983273837399"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 19,
+    name: "평택",
+    full: "평택 확진자",
+    address: "동대구역",
+    address_name: "대구 동구 신암동 294",
+    latlng: "35.879323993179504, 128.62839377538825"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 24,
+    name: "평택",
+    full: "평택 확진자",
+    address: "호박공인중개사사무소",
+    address_name: "경기 평택시 포승읍 도곡리 1113",
+    latlng: "36.990661571873495, 126.849409000487"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 24,
+    name: "평택",
+    full: "평택 확진자",
+    address: "태광공인중개사무소",
+    address_name: "경기 평택시 포승읍 도곡리 1144-12",
+    latlng: "36.98681149427661, 126.846091760752"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 24,
+    name: "평택",
+    full: "평택 확진자",
+    address: "코로나19 박애병원 선별진료소",
+    address_name: "경기 평택시 평택동 41-2",
+    latlng: "36.993084506701805, 127.089076869905"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#평택 확진자",
+    month: 2,
+    day: 26,
+    name: "평택",
+    full: "평택 확진자",
+    address: "경기의료원 파주병원",
+    address_name: "경기 파주시 금촌동 798",
+    latlng: "37.754883167701436, 126.779774098725"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#송파 확진자",
+    month: 2,
+    day: 24,
+    name: "송파",
+    full: "송파 확진자",
+    address: "국립경찰병원 응급실 근무",
+    address_name: "서울 송파구 가락동 58",
+    latlng: "37.4964276249056, 127.12349248212799"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "경주",
+    full: "부산 확진자",
+    address: "대일식육식당",
+    address_name: "경북 경주시 산내면 의곡리 174-1",
+    latlng: "35.75760685993621, 129.04435553051528"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "명성부부치과의원",
+    address_name: "부산 부산진구 전포동 192-2",
+    latlng: "35.1599994269324, 129.06616067625043"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 동래구보건소 선별진료소",
+    address_name: "부산 동래구 명륜동 702-54",
+    latlng: "35.21141202010109, 129.07985303660647"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "방어동행정복지센터",
+    address_name: "울산 동구 방어동 413-1",
+    latlng: "35.48623044176802, 129.42397412950612"
+  },
+
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#거제 확진자",
+  //   month: 2,
+  //   day: 20,
+  //   name: "거제",
+  //   full: "거제 확진자",
+  //   address: "다인오피스텔홍보관 (2/20 18:00_19:00)",
+  //   latlng: "35.5368909, 129.3288589"
+  // },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#거제 확진자",
+    month: 2,
+    day: 20,
+    name: "거제",
+    full: "거제 확진자",
+    address: "짱이야 본점",
+    address_name: "울산 남구 삼산동 1477-11",
+    latlng: "35.537919868247656, 129.33761057863603"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 21,
+    name: "부산",
+    full: "부산 확진자",
+    address: "부산대학교 기계관",
+    address_name: "부산 금정구 장전동 483-97",
+    latlng: "35.23062544447391, 129.08084869757647"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 대동병원 선별진료소",
+    address_name: "부산 동래구 명륜동 530-1",
+    latlng: "35.2042360924945, 129.08022333262247"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "금정구보건소",
+    address_name: "부산 금정구 부곡동 78",
+    latlng: "35.24205367713832, 129.0924545622475"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "아시아드요양병원 (24일-검사, 25일-근무&1인실격리)",
+    address_name: "부산 연제구 연산동 1143-6",
+    latlng: "35.18681768089162, 129.07859802929644"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 26,
+    name: "부산",
+    full: "부산 확진자",
+    address: "부산의료원 이송(보건소 차량 이용)",
+    address_name: "부산 연제구 거제동 1330",
+    latlng: "35.18729655432529, 129.05922489147238"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "아미산(20, 21, 22, 24일에 산행)",
+    address_name: "부산 사하구 장림동",
+    latlng: "35.06656277067329, 128.96778942967003"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "(주)재경수산 사무실",
+    address_name: "부산 서구 남부민동 649-29",
+    latlng: "35.0892442387555, 129.02403124046322"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "서울깍두기",
+    address_name: "부산 서구 남부민동 650-6",
+    latlng: "35.08900422981651, 129.02415687475522"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "장림 한서병원(21일, 24일 방문)",
+    address_name: "부산 사하구 장림2동 380-1",
+    latlng: "35.074124024246586, 128.97696860562806"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "큰사랑약국(21일, 24일 방문)",
+    address_name: "부산 사하구 장림동 380-2",
+    latlng: "35.0740378001734, 128.97672974663004"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 사하구보건소 선별진료소",
+    address_name: "부산 사하구 신평동 647-5",
+    latlng: "35.0941572529117, 128.959553446035"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "구포국수",
+    address_name: "부산 사상구 괘법동 535",
+    latlng: "35.163965182492696, 128.9839400381481"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "커피킹콩",
+    address_name: "부산 사상구 괘법동 545-18",
+    latlng: "35.162634700280535, 128.9856657269515"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "더조은 이비인후과의원(20, 22, 25일 방문)",
+    address_name: "부산 사상구 괘법동 546-1",
+    latlng: "35.1629607430383, 128.98457736267608"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "사상온누리약국(20일, 22일 방문)",
+    address_name: "부산 사상구 괘법동 546-1",
+    latlng: "35.162967661946894, 128.98459508904108"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "OX PC방",
+    address_name: "부산 사상구 괘법동 546-11",
+    latlng: "35.16269554724891, 128.9847026045051"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "GS25 사상광장점(20일, 22일 방문)",
+    address_name: "부산 사상구 괘법동 548-1",
+    latlng: "35.1617173798652, 128.98632050243907"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 21,
+    name: "부산",
+    full: "부산 확진자",
+    address: "봉추찜닭 부산사상점",
+    address_name: "부산 사상구 괘법동 545-13",
+    latlng: "35.16308595678012, 128.98573486059462"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "파리바게뜨 부산사상점",
+    address_name: "부산 사상구 괘법동 272-19",
+    latlng: "35.1642670415352, 128.9838321438291"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "가야정 본점",
+    address_name: "부산 부산진구 가야동 136-46",
+    latlng: "35.153808722497104, 129.02958411120926"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "커피젤",
+    address_name: "부산 사상구 주례동 411-17",
+    latlng: "35.15101406156981, 129.00589919744314"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "부산",
+    full: "부산 확진자",
+    address: "사상 화오뎅",
+    address_name: "부산 사상구 괘법동 272-16",
+    latlng: "35.164207385264, 128.98417308531907"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "부산",
+    full: "부산 확진자",
+    address: "스타벅스 사상역점",
+    address_name: "부산 사상구 괘법동 526-7",
+    latlng: "35.16397494193661, 128.98339925552605"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 사상구보건소 선별진료소",
+    address_name: "부산 사상구 감전동 138-8",
+    latlng: "35.15244078567301, 128.9921297939431"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "노크 이자카야",
+    address_name: "부산 부산진구 부전동 521-22",
+    latlng: "35.15350036439261, 129.0574728963914"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "쓰리제이에듀 부산진구지점",
+    address_name: "부산 부산진구 양정동 511-3",
+    latlng: "35.17450835507701, 129.0633977090364"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "선산휴게소 양평방향",
+    address_name: "경북 구미시 옥성면 대원리 31-6",
+    latlng: "36.27806165422611, 128.24915052331605"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "경기",
+    full: "부산 확진자",
+    address: "메종드베르",
+    address_name: "경기 성남시 분당구 야탑동 366-1",
+    latlng: "37.411592417228306, 127.129723827723"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 동래구보건소 선별진료소",
+    address_name: "부산 동래구 명륜동 702-54",
+    latlng: "35.21141202010109, 129.07985303660647"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "류마장구본승내과의원",
+    address_name: "울산 중구 반구동 54-2",
+    latlng: "35.56407553952055, 129.336551902857"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "행복한약국",
+    address_name: "울산 중구 반구동 54-2",
+    latlng: "35.564088104445005, 129.3365544733072"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "선린약국",
+    address_name: "울산 중구 반구동 54-2",
+    latlng: "35.5416502,129.4177623"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 22,
+    name: "울산",
+    full: "울산 확진자",
+    address: "창원시창원보건소",
+    address_name: "경남 창원시 의창구 신월동 96-2",
+    latlng: "35.2280471157693, 128.68552228110838"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 18,
+    name: "울산",
+    full: "울산 확진자",
+    address: "신천지 울산교회",
+    address_name: "울산 남구 무거동 947-2",
+    latlng: "35.5399759866827, 129.2520958698045"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "투썸플레이스 울산달동목화점",
+    address_name: "울산 남구 달동 1266-15",
+    latlng: "35.53693233249522, 129.33160809125712"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 22,
+    name: "울산",
+    full: "울산 확진자",
+    address: "한울테크",
+    address_name: "울산 남구 달동 1266-15",
+    latlng: "35.571673,129.3540191"
+  },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#울산 확진자",
+  //   month: 2,
+  //   day: 16,
+  //   name: "울산",
+  //   full: "울산 확진자",
+  //   address: "꽃마름 울산무거점",
+  //   address_name: "울산 남구 무거동 272-13",
+  //   latlng: "35.55459572406046, 129.26494385239323"
+  // },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 19,
+    name: "울산",
+    full: "울산 확진자",
+    address: "은화수식당 울산성남점",
+    address_name: "울산 중구 성남동 219-143",
+    latlng: "35.553580214045304, 129.31872219925805"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 19,
+    name: "울산",
+    full: "울산 확진자",
+    address: "큰애기야시장",
+    address_name: "울산 중구 옥교동 275-4",
+    latlng: "35.55518383348842, 129.32229243506305"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 19,
+    name: "울산",
+    full: "울산 확진자",
+    address: "아마스빈 성남점",
+    address_name: "울산 중구 성남동 238-2",
+    latlng: "35.554693447768315, 129.320245031815"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산광역시 중구보건소",
+    address_name: "울산 중구 남외동 603-2",
+    latlng: "35.56953499455542, 129.35040542542728"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "코로나19 동구보건소 선별진료소",
+    address_name: "울산 동구 화정동 222",
+    latlng: "35.50651566280682, 129.417646067224"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산남목교회",
+    address_name: "울산 동구 동부동 668-2",
+    latlng: "35.54402374776762, 129.43021547044614"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "현대떡방앗간",
+    address_name: "울산 동구 동부동 270-2",
+    latlng: "35.54374479778861, 129.42617207056108"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "방어진농협 남목지점 ATM",
+    address_name: "울산 동구 동부동 259-10",
+    latlng: "35.54201741440262, 129.4262214386101"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 21,
+    name: "부산",
+    full: "부산 확진자",
+    address: "보떼베르떼",
+    address_name: "부산 해운대구 우동 1181-12",
+    latlng: "35.1630316027012, 129.14612095010384"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 수영구보건소 선별진료소",
+    address_name: "부산 수영구 광안동 661-1",
+    latlng: "35.1626441095325, 129.11343165102565"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "남목선린약국",
+    address_name: "울산 동구 동부동 259-10",
+    latlng: "35.5416505,129.4265171"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 25,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산남목교회",
+    address_name: "울산 동구 동부동 668-2",
+    latlng: "35.54402374776762, 129.43021547044614"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "부산",
+    full: "부산 확진자",
+    address: "해운대나눔과행복병원(22, 23일 근무)",
+    address_name: "부산 해운대구 중동 1766-3",
+    latlng: "35.16588226149276, 129.16881084358434"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "이마트 해운대점",
+    address_name: "부산 해운대구 중동 1767",
+    latlng: "35.16585516382471, 129.16730451162496"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "인제대학교 부산백병원 선별진료소",
+    address_name: "부산 부산진구 개금동 633-165",
+    latlng: "35.14632389348339, 129.02083598513693"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "현대떡방앗간",
+    address_name: "울산 동구 동부동 270-2",
+    latlng: "35.54374479778861, 129.42617207056108"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#대구 확진자",
+    month: 2,
+    day: 19,
+    name: "대구",
+    full: "대구 확진자",
+    address: "대구대봉초등학교",
+    address_name: "대구 남구 이천동 253-2",
+    latlng: "35.850973161796, 128.60516709579827"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 15,
+    name: "울산",
+    full: "울산 확진자",
+    address: "수영만요트경기장",
+    address_name: "부산 해운대구 우동 1393",
+    latlng: "35.161230880191695, 129.13971789873878"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 15,
+    name: "울산",
+    full: "울산 확진자",
+    address: "동백역 부산2호선",
+    address_name: "부산 해운대구 우동 991-3",
+    latlng: "35.16133675038451, 129.1479901521838"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "부산상공회의소",
+    address_name: "부산 부산진구 범천1동 853-1",
+    latlng: "35.147856758052015, 129.0622724282704"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 20,
+    name: "안양",
+    full: "안양 확진자",
+    address: "평촌범계약국",
+    latlng: "37.3913922574005, 126.953447277579",
+    address_name: "경기도 안양시 동안구 범계동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 20,
+    name: "안양",
+    full: "안양 확진자",
+    address: "평촌연세내과의원",
+    latlng: "37.3913922574005, 126.953447277579",
+    address_name: "경기도 안양시 동안구 범계동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 20,
+    name: "안양",
+    full: "안양 확진자",
+    address: "평촌범계약국",
+    latlng: "37.3913922574005, 126.953447277579",
+    address_name: "경기도 안양시 동안구 범계동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 20,
+    name: "안양",
+    full: "안양 확진자",
+    address: "평촌역 4호선 출퇴근",
+    latlng: "37.39423950914369, 126.9638080221341",
+    address_name: "경기도 안양시 동안구 부림동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 19,
+    name: "안양",
+    full: "안양 확진자",
+    address: "범계동 우성아파트",
+    latlng: "37.38927022235603, 126.95545862043359",
+    address_name: "경기도 안양시 동안구 범계동"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "토즈모임센터 부산서면점",
+    address_name: "부산 부산진구 부전동 233-1",
+    latlng: "35.15336541010001, 129.05820245609337"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 19,
+    name: "부산",
+    full: "부산 확진자",
+    address: "스타벅스서면중앙대로R점, 음식점 푸다 방문",
+    address_name: "부산 부산진구 부전동 227-2",
+    latlng: "35.15301351239521, 129.05960683342838"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 19,
+    name: "부산",
+    full: "부산 확진자",
+    address: "교보문고 부산점",
+    address_name: "부산 부산진구 부전동 536-3",
+    latlng: "35.151673678812905, 129.05954233375135"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "노포 부산종합버스터미널",
+    address_name: "부산 금정구 노포동 133",
+    latlng: "35.2847732659778, 129.09547021712456"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "고반식당",
+    address_name: "울산 남구 달동 1262-5",
+    latlng: "35.53620382650832, 129.33354040710577"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 22,
+    name: "부산",
+    full: "부산 확진자",
+    address: "울산시외버스터미널",
+    address_name: "울산 남구 삼산동 1481-14",
+    latlng: "35.53656232936562, 129.3397285258992"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "미니스톱 동래명륜점",
+    address_name: "부산 동래구 명륜동 681-16",
+    latlng: "35.21109859288891, 129.07942340167648"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 25,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 동래구보건소 선별진료소",
+    address_name: "부산 동래구 명륜동 702-54",
+    latlng: "35.21141202010109, 129.07985303660647"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 18,
+    name: "울산",
+    full: "울산 확진자",
+    address: "영남내과외과연합의원",
+    address_name: "경북 경산시 조영동 282-4",
+    latlng: "35.838222004706495, 128.75505209950148"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 18,
+    name: "울산",
+    full: "울산 확진자",
+    address: "CU 영남대서문점",
+    address_name: "경북 경산시 계양동 113-5",
+    latlng: "35.831559408334904, 128.74897405530746"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 18,
+    name: "울산",
+    full: "울산 확진자",
+    address: "바다약국",
+    address_name: "경북 경산시 계양동 113-5",
+    latlng: "35.8383296,128.7515073"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "좋은의사들안과병원",
+    address_name: "울산 남구 달동 1360-9",
+    latlng: "35.538302824879494, 129.33039764696744"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "밝은약국",
+    address_name: "울산 남구 달동 1360-9",
+    latlng: "35.53831178783053, 129.33040011116313"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "명륜진사갈비 울산달동점",
+    address_name: "울산 남구 달동 191-3",
+    latlng: "35.53350086609292, 129.32359395205006"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 17,
+    name: "부산",
+    full: "부산 확진자",
+    address: "맛나감자탕 부산대점",
+    address_name: "부산 금정구 장전동 413-20",
+    latlng: "35.23139580301661, 129.08864865249254"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 17,
+    name: "부산",
+    full: "부산 확진자",
+    address: "ZARA 부산대점",
+    address_name: "부산 금정구 장전동 292-4",
+    latlng: "35.2302178043053, 129.0879814501315"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "인제대학교 부산백병원",
+    address_name: "부산 부산진구 개금동 633-165",
+    latlng: "35.14632389348339, 129.02083598513693"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "우리마트 만덕점",
+    address_name: "부산 북구 만덕동 308",
+    latlng: "35.210665466529406, 129.0374945357873"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "하동돌솥밥",
+    address_name: "부산 북구 만덕동 303-3",
+    latlng: "35.211439084092014, 129.03779057529925"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 19,
+    name: "부산",
+    full: "부산 확진자",
+    address: "옵포드",
+    address_name: "부산 부산진구 부전동 177",
+    latlng: "35.155212473839, 129.06097680121138"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 19,
+    name: "부산",
+    full: "부산 확진자",
+    address: "기승전골 서면점",
+    address_name: "부산 부산진구 부전동 168-342",
+    latlng: "35.1561923265906, 129.06159515219787"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "훈혁",
+    address_name: "부산 부산진구 부전동 168-151",
+    latlng: "35.1561218199345, 129.05996610686037"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "153구포국수 덕천점",
+    address_name: "부산 북구 덕천동 401-10",
+    latlng: "35.210010627983806, 129.00722128417317"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 21,
+    name: "부산",
+    full: "부산 확진자",
+    address: "공차 부산덕천점",
+    address_name: "부산 북구 덕천동 400-9",
+    latlng: "35.20992338817636, 129.00661303096578"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#성주 확진자",
+    month: 2,
+    day: 16,
+    name: "성주",
+    full: "성주 확진자",
+    address: "문양역 대구2호선",
+    address_name: "대구 달성군 다사읍 문양리 400",
+    latlng: "35.8641579148789, 128.43700263750412"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 18,
+    name: "울산",
+    full: "울산 확진자",
+    address: "명랑핫도그 대구안지랑점",
+    address_name: "대구 남구 대명동 811-2",
+    latlng: "35.8393325667357, 128.5755911894652"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#대구 확진자",
+    month: 2,
+    day: 20,
+    name: "대구",
+    full: "대구 확진자",
+    address: "아트필미술학원",
+    address_name: "대구 수성구 만촌동 342-37",
+    latlng: "35.8745077993982, 128.65087318860031"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구로구 확진자",
+    month: 2,
+    day: 18,
+    name: "구로구",
+    full: "구로구 확진자",
+    address: "GS25 군자역점",
+    address_name: "서울 광진구 중곡동 648-15",
+    latlng: "37.55803252905384, 127.07971074370758"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "대명부동산",
+    address_name: "서울 관악구 봉천동 1629-4",
+    latlng: "37.4768728517033, 126.961805579825"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "삼일 공인중개사사무소",
+    address_name: "서울 관악구 봉천동 1630-8",
+    latlng: "37.4764295447952, 126.961774150289"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 19,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "원당프라자약국",
+    address_name: "서울 관악구 봉천동 1637-1",
+    latlng: "37.47538918821613, 126.96572021316796"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 22,
+    name: "서울",
+    full: "서울 확진자",
+    address: "가톨릭대학교 은평성모병원",
+    address_name: "서울 은평구 진관동 93-11",
+    latlng: "37.63359406719202, 126.91625359899413"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 17,
+    name: "서울",
+    full: "서울 확진자",
+    address: "티파니",
+    address_name: "서울 은평구 대조동 15-84",
+    latlng: "37.60900510113008, 126.92838920866055"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 18,
+    name: "서울",
+    full: "서울 확진자",
+    address: "톰플러스모텔",
+    address_name: "서울 은평구 대조동 2-2",
+    latlng: "37.61239964217209, 126.927462888182"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 18,
+    name: "서울",
+    full: "서울 확진자",
+    address: "온누리 할매순대국 군자역점",
+    address_name: "서울 광진구 중곡동 647-15",
+    latlng: "37.55853689870779, 127.07998969888001"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "군자닭갈비",
+    address_name: "서울 광진구 중곡동 649-8",
+    latlng: "37.55785238934061, 127.07962227378"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 24,
+    name: "서울",
+    full: "서울 확진자",
+    address: "김재면내과의원",
+    address_name: "서울 노원구 상계8동 651-6",
+    latlng: "37.66535332998289, 127.057263910802"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 24,
+    name: "서울",
+    full: "서울 확진자",
+    address: "코로나19 노원구보건소 선별진료소",
+    address_name: "서울 노원구 상계동 701-1",
+    latlng: "37.6546642208363, 127.05698372406"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#은평구 확진자",
+    month: 2,
+    day: 26,
+    name: "은평구",
+    full: "은평구 확진자",
+    address: "코로나19 은평구보건소 선별진료소",
+    address_name: "서울 은평구 녹번동 84",
+    latlng: "37.602456970227585, 126.928823550033"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "쉬크모텔",
+    address_name: "서울 서대문구 창천동 29-65",
+    latlng: "37.5562410168929, 126.937722306731"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "소반",
+    address_name: "서울 서대문구 홍은동 400-13",
+    latlng: "37.581440759569105, 126.92641628264701"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "미니스톱 연대점",
+    address_name: "서울 서대문구 창천동 29-111",
+    latlng: "37.55700507422813, 126.93774430599565"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 1,
+    name: "서울",
+    full: "서울 확진자",
+    address: "신천순대국",
+    address_name: "서울 은평구 역촌동 45-61",
+    latlng: "37.60685186111261, 126.91499818969599"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 21,
+    name: "서울",
+    full: "서울 확진자",
+    address: "성내과의원",
+    address_name: "서울 금천구 독산1동 145-8",
+    latlng: "37.47594488267859, 126.898093711342"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 21,
+    name: "서울",
+    full: "서울 확진자",
+    address: "코로나19 한림대학교강남성심병원 선별진료소",
+    address_name: "서울 영등포구 대림동 948-1",
+    latlng: "37.49338631914179, 126.90877639591899"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 24,
+    name: "서울",
+    full: "서울 확진자",
+    address: "희명병원",
+    address_name: "서울 금천구 시흥동 882-31",
+    latlng: "37.45567063464179, 126.90056251863875"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "미션약국",
+    address_name: "서울 노원구 상계동 651-6",
+    latlng: "37.6653461441407, 127.05721856928201"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 25,
+    name: "서울",
+    full: "서울 확진자",
+    address: "인제대학교 상계백병원",
+    address_name: "서울 노원구 상계동 761-1",
+    latlng: "37.648581267298596, 127.06311619032103"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#금천구 확진자",
+    month: 2,
+    day: 21,
+    name: "금천구",
+    full: "금천구 확진자",
+    address: "코로나19 한림대학교강남성심병원 선별진료소",
+    address_name: "서울 영등포구 대림동 948-1",
+    latlng: "37.49338631914179, 126.90877639591899"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#금천구 확진자",
+    month: 2,
+    day: 21,
+    name: "금천구",
+    full: "금천구 확진자",
+    address: "성내과의원",
+    address_name: "서울 금천구 독산1동 145-8",
+    latlng: "37.47594488267859, 126.898093711342"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#금천구 확진자",
+    month: 2,
+    day: 24,
+    name: "금천구",
+    full: "금천구 확진자",
+    address: "코로나19 금천구보건소 선별진료소",
+    address_name: "서울 금천구 시흥동 1020",
+    latlng: "37.4570867261768, 126.89602608378298"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#금천구 확진자",
+    month: 2,
+    day: 18,
+    name: "금천구",
+    full: "금천구 확진자",
+    address: "에이스하이엔드타워9차",
+    address_name: "서울 금천구 가산동 481-2",
+    latlng: "37.48585896244501, 126.87838828082998"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#금천구 확진자",
+    month: 2,
+    day: 18,
+    name: "금천구",
+    full: "금천구 확진자",
+    address: "가산디지털단지역 1호선",
+    address_name: "서울 금천구 가산동 468-4",
+    latlng: "37.481531190174906, 126.88261475847898"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 18,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "철산역 7호선",
+    address_name: "경기 광명시 철산동 526",
+    latlng: "37.476192842453685, 126.868211027014"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 18,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "미리내어린이집",
+    address_name: "경기 광명시 철산동 625",
+    latlng: "37.46994197898321, 126.863745449838"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 18,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "서울아산이비인후과의원",
+    address_name: "경기 광명시 철산동 482",
+    latlng: "37.47533701801807, 126.86592774143179"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 18,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "명지옵티마약국",
+    address_name: "경기 광명시 철산동 486-18",
+    latlng: "37.4753034971968, 126.86576613649886"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 18,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "2001아울렛 철산점",
+    address_name: "경기 광명시 철산동 261",
+    latlng: "37.4750788153997, 126.86706776662622"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 19,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "광명브라운스톤2단지아파트",
+    address_name: "경기 광명시 철산동 630",
+    latlng: "37.47188899356597, 126.86446993944945"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 22,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "엔비의원 광명철산점",
+    address_name: "경기 광명시 철산동 259",
+    latlng: "37.475999316152, 126.865977432319"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 22,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "2001아울렛 철산점",
+    address_name: "경기 광명시 철산동 261",
+    latlng: "37.4750788153997, 126.86706776662622"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 25,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "광명성애병원",
+    address_name: "경기 광명시 철산동 389",
+    latlng: "37.47347856519616, 126.87191025301993"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 25,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "스타벅스 철산로데오점",
+    address_name: "경기 광명시 철산동 425",
+    latlng: "37.4739236088593, 126.86939073408199"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 25,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "코로나19 광명시보건소 선별진료소",
+    address_name: "경기 광명시 하안동 230-1",
+    latlng: "37.4566775267623, 126.878851478017"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광명시 확진자",
+    month: 2,
+    day: 26,
+    name: "광명시",
+    full: "광명시 확진자",
+    address: "명지병원",
+    address_name: "경기 고양시 덕양구 화정동 697-24",
+    latlng: "37.64206996516571, 126.83145714476498"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 22,
+    name: "서울",
+    full: "서울 확진자",
+    address: "롯데마트 송파점",
+    address_name: "서울 송파구 문정동 150-2",
+    latlng: "37.49173383860761, 127.117749483852"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 22,
+    name: "서울",
+    full: "서울 확진자",
+    address: "스타벅스 가락시장역점",
+    address_name: "서울 송파구 가락동 79",
+    latlng: "37.4944040855798, 127.121639143162"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 22,
+    name: "서울",
+    full: "서울 확진자",
+    address: "화포식당 가락점",
+    address_name: "서울 송파구 가락동 97-8",
+    latlng: "37.4947531166639, 127.11864530729402"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 24,
+    name: "서울",
+    full: "서울 확진자",
+    address: "코로나19 송파구보건소 선별진료소",
+    address_name: "서울 송파구 신천동 29-5",
+    latlng: "37.5145795416534, 127.10655565199299"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 17,
+    name: "서울",
+    full: "서울 확진자",
+    address: "자연별곡 잠실웰빙점",
+    address_name: "서울 송파구 잠실동 40-1",
+    latlng: "37.51033894048559, 127.09663482417787"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 17,
+    name: "서울",
+    full: "서울 확진자",
+    address: "명일역 5호선",
+    address_name: "서울 강동구 명일동",
+    latlng: "37.55139789582771, 127.14404374473999"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 18,
+    name: "서울",
+    full: "서울 확진자",
+    address: "굿모닝 이비인후과의원",
+    address_name: "서울 강동구 암사3동 414-18",
+    latlng: "37.5552045064776, 127.140388796272"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 18,
+    name: "서울",
+    full: "서울 확진자",
+    address: "조은온누리약국",
+    address_name: "서울 강동구 암사동 414-18",
+    latlng: "37.5553126312555, 127.14038447218601"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 21,
+    name: "서울",
+    full: "서울 확진자",
+    address: "명일전통시장",
+    address_name: "서울 강동구 명일동 333-2",
+    latlng: "37.5495984231066, 127.14492749082702"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 21,
+    name: "서울",
+    full: "서울 확진자",
+    address: "코로나19 강동구보건소 선별진료소",
+    address_name: "서울 강동구 성내동 541-2",
+    latlng: "37.529268770502796, 127.125614688949"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 25,
+    name: "서울",
+    full: "서울 확진자",
+    address: "한일병원 격리",
+    address_name: "서울 도봉구 쌍문동 388-1",
+    latlng: "37.646116875386134, 127.0290268239299"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 19,
+    name: "서울",
+    full: "서울 확진자",
+    address: "교보문고 천호점",
+    address_name: "서울 강동구 천호동 425-5",
+    latlng: "37.540605199583034, 127.12472284062106"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 21,
+    name: "서울",
+    full: "서울 확진자",
+    address: "스타벅스 명일역점",
+    address_name: "서울 강동구 명일동 312-28",
+    latlng: "37.5525623017895, 127.14378343387901"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 20,
+    name: "서울",
+    full: "서울 확진자",
+    address: "롯데시네마 건대입구",
+    address_name: "서울 광진구 자양동 227-7",
+    latlng: "37.53860688301305, 127.07292268612835"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 21,
+    name: "수원",
+    full: "수원 확진자",
+    address: "미소랑치과 서울대입구역점",
+    address_name: "서울 관악구 봉천동 856-6",
+    latlng: "37.4793203178658, 126.95273704718402"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 21,
+    name: "수원",
+    full: "수원 확진자",
+    address: "커피빈 서울대입구역점",
+    address_name: "서울 관악구 봉천동 863-13",
+    latlng: "37.479702136482594, 126.95221673523798"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 18,
+    name: "부산",
+    full: "부산 확진자",
+    address: "컴포즈커피 오션시티점",
+    address_name: "부산 강서구 명지동 3239-5",
+    latlng: "35.082831913985785, 128.90385227317984"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 19,
+    name: "부산",
+    full: "부산 확진자",
+    address: "명호고등학교",
+    address_name: "부산 강서구 명지동 3236-3",
+    latlng: "35.080375479008, 128.9000458417328"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 20,
+    name: "부산",
+    full: "부산 확진자",
+    address: "위앤대우리큰내과의원",
+    address_name: "부산 강서구 명지동 3238",
+    latlng: "35.0840468369518, 128.9031569221878"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 23,
+    name: "부산",
+    full: "부산 확진자",
+    address: "삼성서울내과",
+    address_name: "부산 동래구 사직동 43-1",
+    latlng: "35.198585597593485, 129.057355904131"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 21,
+    name: "수원",
+    full: "수원 확진자",
+    address: "GS25 광교참누리점",
+    address_name: "경기 수원시 영통구 하동 994",
+    latlng: "37.291098360098886, 127.07213954282454"
   }
 ];
 module.exports.position = position;
