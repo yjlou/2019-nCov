@@ -48,19 +48,18 @@ function getRisk(p0, p1) {
 function checkContact(user_points, patients) {
   var ret = Array();
 
-  for (var idxUserPoint = 0; idxUserPoint < user_points.length; idxUserPoint++) {
-    for(var idxPatient = 0; idxPatient < patients.length; idxPatient++) {
-      for(var idxPatientPoint = 0; idxPatientPoint < patients[idxPatient].points.length; idxPatientPoint++) {
-        var patient_point = patients[idxPatient].points[idxPatientPoint];
-        var risk = getRisk(user_points[idxUserPoint], patient_point);
+  for (let user_point of user_points) {
+    for(let patient of patients) {
+      for(let patient_point of patient.points) {
+        var risk = getRisk(user_point, patient_point);
         if (risk >= 0.8) {
           ret.push({
-            'patient_desc': patients[idxPatient].desc + ":" + patient_point.name,
-            'user_desc': user_points[idxUserPoint].name,
-            'lat': user_points[idxUserPoint].lat,
-            'lng': user_points[idxUserPoint].lng,
-            'begin': user_points[idxUserPoint].begin,
-            'end': user_points[idxUserPoint].end,
+            'patient_desc': patient.desc + ":" + patient_point.name,
+            'user_desc': user_point.name,
+            'lat': user_point.lat,
+            'lng': user_point.lng,
+            'begin': user_point.begin,
+            'end': user_point.end,
           });
         }
       }
