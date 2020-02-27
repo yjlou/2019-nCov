@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Case 32 - 案32 外籍移工活動時序</name>
+    <description><![CDATA[Tour of case 32 during Feb. 16 ~ Feb. 19<br><br>https://www.cdc.gov.tw/Bulletin/Detail/mTuBGI3SsNvibVzT07cCfQ?typeid=9]]></description>
+    <Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels"/>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="line-000000-1200-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+    </Style>
+    <Style id="line-000000-1200-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="line-000000-1200">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#line-000000-1200-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#line-000000-1200-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>02/16</name>
+      <Placemark>
+        <name>02/16 大坪林到台北車站</name>
+        <description><![CDATA[18:00~18:46 大坪林捷運站至捷運台北車站<br><br>#!metadata<br>begin:2020-02-16T18:00:00;end:2020-02-16T18:36:00]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5412679,24.9828714,0
+            121.5409245,24.9928294,0
+            121.5390792,25.0017365,0
+            121.5283503,25.0206375,0
+            121.5233722,25.0255373,0
+            121.5185656,25.0330032,0
+            121.5156474,25.0366583,0
+            121.5164199,25.0435015,0
+            121.5179648,25.0477005,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/16 臺北車站</name>
+        <description><![CDATA[18:00~18:46 大坪林捷運站至捷運台北車站<br>18:46~ 19:00 搭乘臺鐵到樹林車站<br><br>#!metadata<br>begin:2020-02-16T18:00:00;end:2020-02-16T18:36:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5173735,25.047702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/16 台北車站到樹林火車站</name>
+        <description><![CDATA[18:00~18:46 大坪林捷運站至捷運台北車站<br>18:46~ (約) 19:00 搭乘臺鐵到樹林車站<br><br>#!metadata<br>begin:2020-02-16T18:46:00; end:2020-02-16T19:34:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.517296,25.0460649,0
+            121.4244272,24.9913876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/16 樹林車站</name>
+        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br><br>begin:2020-02-16T18:50:00; end:2020-02-16T19:40:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4244296,24.9913972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/16 樹林後火車站</name>
+        <description><![CDATA[18:46~ 19:00(約) 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br><br>begin:2020-02-16T19:00:00; end:2020-02-16T19:34:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4236389,24.9916826,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/16 樹林火車站到東昇公園 (籃38)</name>
+        <description><![CDATA[18:46~ 19:00 搭乘臺鐵到樹林車站<br>19:34~ 三重客運藍38號公車到東昇公園<br>#!metadata<br>begin:2020-02-16T19:00:00; end:2020-02-16T20:00:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244468,24.9912555,0
+            121.420284,24.9863932,0
+            121.4124091,24.9825811,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>02/17</name>
+      <Placemark>
+        <name>02/17 西園路一帶逛街，搭捷運至台北車站</name>
+        <description><![CDATA[19:06~20:40 萬華區西園路一段活動，再返回龍山寺旁購物，再搭捷運板南線至台北車站。<br>#!metadata<br>begin:2020-02-17T19:06:00;<br> end:2020-02-17T20:40:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5004232,25.0352329,0
+            121.4993944,25.0370729,0
+            121.5008106,25.0352649,0
+            121.5083411,25.0422122,0
+            121.5099289,25.0474222,0
+            121.5142395,25.0486357,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/17 東昇公園</name>
+        <description><![CDATA[15:07 三重客運藍38號公車到臺鐵樹林火車站<br>#!metadata<br>begin:2020-02-17T15:07:00; end:2020-02-17T15:09:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4146984,24.9849111,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 樹林車站</name>
+        <description><![CDATA[15:07 三重客運藍38號公車到臺鐵樹林火車站<br>#!metadata<br>begin:2020-02-17T15:07:00; end:2020-02-17T15:09:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4244296,24.9913972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 樹林火車站到台北車站</name>
+        <description><![CDATA[15:09 搭火車到台北車站<br>#!metadata<br>begin:2020-02-17T15:09:00; end:2020-02-17T15:42:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244272,24.9913876,0
+            121.517296,25.0460649,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/17 臺北車站</name>
+        <description><![CDATA[15:09 搭火車到台北車站<br>#!metadata<br>begin:2020-02-17T15:07:00; end:2020-02-17T15:09:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5173735,25.047702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 台北車站地下街</name>
+        <description><![CDATA[15:42~16:42 台北車站地下街逛街<br>#!metadata<br>begin:2020-02-17T15:42:00;<br>end:2020-02-17T16:42:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5151026,25.0489706,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>DEL: 02/17 捷運台北車站 (紅線)</name>
+        <description>16:42~17:14 台北車站紅線到竹圍站</description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5178761,25.0477548,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 搭捷運至竹圍站</name>
+        <description><![CDATA[16:42~17:14 台北車站紅線到竹圍站<br>#!metadata<br>begin:2020-02-17T16:42:00; end:2020-02-17T17:14:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5142395,25.0486357,0
+            121.5176298,25.0476832,0
+            121.5202691,25.0526791,0
+            121.5206983,25.0578497,0
+            121.519604,25.0628257,0
+            121.520076,25.0714362,0
+            121.5249898,25.0844964,0
+            121.5261271,25.0936883,0
+            121.5226295,25.1031321,0
+            121.5186598,25.109855,0
+            121.5156557,25.1143238,0
+            121.5062358,25.1206963,0
+            121.5011718,25.1254756,0
+            121.4986398,25.131731,0
+            121.4855721,25.1374811,0
+            121.4732983,25.1308763,0
+            121.4672258,25.1255144,0
+            121.4595439,25.1368789,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[02/17 竹圍站 -> 民族路 -> 竹圍站 -> 士林站]]></name>
+        <description><![CDATA[17:14~18:32 下車至民族路，後返回竹圍站搭淡水線至士林站<br>#!metadata<br>begin:2020-02-17T17:14:00; end:2020-02-17T18:32:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4595439,25.1368789,0
+            121.4628699,25.1348003,0
+            121.4612606,25.1321681,0
+            121.4595011,25.1366263,0
+            121.4672258,25.1255144,0
+            121.4733198,25.1310219,0
+            121.4855721,25.1374811,0
+            121.4986398,25.131731,0
+            121.5011718,25.1254756,0
+            121.5060213,25.1207837,0
+            121.5156557,25.1143238,0
+            121.5187886,25.1099424,0
+            121.5225437,25.1030057,0
+            121.5262559,25.0934454,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/17 士林站到龍山寺站</name>
+        <description><![CDATA[18:32~19:06 出站不久，再搭淡水線轉板南線至龍山寺站<br>#!metadata<br>begin:2020-02-17T18:32:00; end:2020-02-17T19:06:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5261271,25.0936883,0
+            121.5249898,25.0844964,0
+            121.520076,25.0714362,0
+            121.519604,25.0628257,0
+            121.5202691,25.0526791,0
+            121.5179648,25.0477005,0
+            121.5142395,25.0486357,0
+            121.5099289,25.0474222,0
+            121.5083411,25.0422122,0
+            121.5004232,25.0352329,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/17 西園路一段(南)</name>
+        <description><![CDATA[19:06~20:40 萬華區西園路一段活動，再返回龍山寺旁購物，再搭捷運板南線至台北車站。<br>#!metadata<br>begin:2020-02-17T19:06:00; end:2020-02-17T20:40:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4995896,25.0376922,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 西園路一段(北)</name>
+        <description><![CDATA[19:06~20:40 萬華區西園路一段活動，再返回龍山寺旁購物，再搭捷運板南線至台北車站。<br>#!metadata<br>begin:2020-02-17T19:06:00; end:2020-02-17T20:40:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4998362,25.039449,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/17 艋舺公園</name>
+        <description><![CDATA[19:06~20:40 萬華區西園路一段活動，再返回龍山寺旁購物，再搭捷運板南線至台北車站。<br>#!metadata<br>begin:2020-02-17T19:06:00; end:2020-02-17T20:40:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.499914,25.0360144,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>02/18</name>
+      <Placemark>
+        <name>02/18 臺北車站</name>
+        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br><br>begin:2020-02-18T10:32:00; end:2020-02-18T11:16:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5173735,25.047702,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/18 搭火車至樹林火車站</name>
+        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br>#!metadata<br>begin:2020-02-18T10:32:00; end:2020-02-18T11:16:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5179648,25.0477005,0
+            121.4244272,24.9913876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/18 樹林車站</name>
+        <description><![CDATA[10:32~11:16 旅店退房，搭火車至樹林車站<br><br>begin:2020-02-18T11::00:00; end:2020-02-18T11:16:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4244296,24.9913972,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/18 搭公車至東昇公園</name>
+        <description><![CDATA[11:16 三重客運藍38至東昇公園<br>#!metadata<br>begin:2020-02-18T11:16:00; end:2020-02-18T12:36:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244272,24.9913876,0
+            121.4135709,24.983156,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/18 搭公車至樹林火車站</name>
+        <description><![CDATA[12:36~ 搭藍38到樹林火車站<br>#!metadata<br>begin:2020-02-18T12:36:00; end:2020-02-18T12:39:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4135709,24.983156,0
+            121.4244272,24.9913876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/18 火車站四周購物</name>
+        <description><![CDATA[12:39~13:00 樹林火車站周遭購物<br><br>begin:2020-02-18T12:39:00; end:2020-02-18T13:00:00;]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4244272,24.9913876,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>02/18 樹林火車站至板橋火車站</name>
+        <description><![CDATA[13:00~搭火車到板橋車站<br>#!metadata<br>begin:2020-02-18T13:00:00; end:2020-02-18T13:20:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244272,24.9913876,0
+            121.4634386,25.0141069,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/18 板橋高鐵車站至樹林火車站</name>
+        <description><![CDATA[13:20~13:51 送友人到板橋高鐵車站後，搭火車回到樹林車站(13:51)。<br>#!metadata<br>begin:2020-02-18T13:20:00; end:2020-02-18T14:05:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4634386,25.0141069,0
+            121.4244272,24.9913876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/18 樹林火車站至東昇公園</name>
+        <description><![CDATA[14:05~ 搭藍38到東昇公園<br>#!metadata<br>begin:2020-02-18T14:05:00; end:2020-02-18T14:10:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244272,24.9913876,0
+            121.4135709,24.983156,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>02/19</name>
+      <Placemark>
+        <name>02/19 東昇公園至樹林火車站</name>
+        <description><![CDATA[08:52~ 搭藍38到樹林火車站<br>#!metadata<br>begin:2020-02-19T08:52:00; end:2020-02-19T09:00:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4138692,24.9832743,0
+            121.4244272,24.9913876,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/19 樹林火車站至台北車站</name>
+        <description><![CDATA[09:00~ 搭火車到台北車站<br>#!metadata<br>begin:2020-02-19T09:00:00; end:2020-02-19T09:33:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.4244272,24.9913876,0
+            121.4668725,25.0173918,0
+            121.5179648,25.0477005,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>捷運台北車站至景安站</name>
+        <description><![CDATA[#!metadata<br>begin:2020-02-19T09:33:00; end:2020-02-19T10:02:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5179648,25.0477005,0
+            121.5163176,25.0419665,0
+            121.5181629,25.032518,0
+            121.5283768,25.0339567,0
+            121.5233722,25.0255373,0
+            121.5155022,25.0134244,0
+            121.5109961,25.0024179,0
+            121.5046017,24.9940166,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+      <Placemark>
+        <name>02/19 台北車站至景安捷運站</name>
+        <description><![CDATA[09:33~10:02 轉成中和新盧線至景安捷運站<br>#!metadata<br>begin:2020-02-19T09:33:00; end:2020-02-19T10:02:00;]]></description>
+        <styleUrl>#line-000000-1200</styleUrl>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            121.5179648,25.0477005,0
+            121.5161993,25.0419511,0
+            121.5183451,25.0325804,0
+            121.523452,25.0252699,0
+            121.5155615,25.0136764,0
+            121.5108349,25.0020136,0
+            121.5045693,24.9939234,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

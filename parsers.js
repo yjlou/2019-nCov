@@ -324,20 +324,32 @@ function tryParseLineString(placemark) {
   return intrapolateCoords(coords, timespan, name);
 }
 
-// Given a KML text, returns an array of Point data.
-//
-function parseKml(text) {
-  var output = Array();
+function getPlacemarks(jsonObj) {
+  let placemarks;
 
-  var jsonObj = parser.parse(text, {});
-  console.log("ParseKml(): jsonObj: ", jsonObj);
   if ("Folder" in jsonObj.kml.Document) {
-    var placemarks = jsonObj.kml.Document.Folder.Placemark;
+    let folders = jsonObj.kml.Document.Folder;
+    if (!Array.isArray(folders)) {
+      folders = [folders];
+    }
+
+    placemarks = [];
+    for (let folder of folders) {
+      let ps = folder.Placemark;
+      if (ps === undefined) {
+        continue;
+      }
+      if (Array.isArray(ps)) {
+        placemarks.push(...ps);
+      } else {
+        placemarks.push(ps);
+      }
+    }
   } else {
-    var placemarks = jsonObj.kml.Document.Placemark;
+    placemarks = jsonObj.kml.Document.Placemark;
 
     // If there is no Placemark, this could be an empty KML (the day without history data).
-    if (placemarks == undefined) {
+    if (placemarks === undefined) {
       placemarks = [];
     }
     // If there is only one record in that day, the placemark would be that record
@@ -346,6 +358,18 @@ function parseKml(text) {
       placemarks = [placemarks];
     }
   }
+  return placemarks;
+}
+
+// Given a KML text, returns an array of Point data.
+//
+function parseKml(text) {
+  var output = Array();
+
+  var jsonObj = parser.parse(text, {});
+  console.log("ParseKml(): jsonObj: ", jsonObj);
+  var placemarks = getPlacemarks(jsonObj);
+
   for(let placemark of placemarks) {
 
     let retval = tryParsePoint(placemark);
