@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>Case 32 - 案32 外籍移工活動時序</name>
-    <description><![CDATA[Tour of case 32 during Feb. 16 ~ Feb. 19<br><br>https://www.cdc.gov.tw/Bulletin/Detail/mTuBGI3SsNvibVzT07cCfQ?typeid=9]]></description>
+    <name>台灣 [案32] 活動時序  Taiwan Case 32</name>
+    <description><![CDATA[資料來源：中央流行疫情指揮中心<br><br>https://www.cdc.gov.tw/Bulletin/Detail/mTuBGI3SsNvibVzT07cCfQ?typeid=9<br><br>Tour of case 32 during Feb. 16 ~ Feb. 19<br>]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -199,22 +199,22 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>02/17 台北車站地下街</name>
+        <name>02/17 台北車站地下街(西)</name>
         <description><![CDATA[15:42~16:42 台北車站地下街逛街<br>#!metadata<br>begin:2020-02-17T15:42:00;<br>end:2020-02-17T16:42:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
-            121.5151026,25.0489706,0
+            121.5148237,25.0490678,0
           </coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>DEL: 02/17 捷運台北車站 (紅線)</name>
-        <description>16:42~17:14 台北車站紅線到竹圍站</description>
+        <name>02/17 台北車站地下街(東)</name>
+        <description><![CDATA[15:42~16:42 台北車站地下街逛街<br>#!metadata<br>begin:2020-02-17T15:42:00;<br>end:2020-02-17T16:42:00;]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
-            121.5178761,25.0477548,0
+            121.5166959,25.0486393,0
           </coordinates>
         </Point>
       </Placemark>
