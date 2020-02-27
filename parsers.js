@@ -307,7 +307,7 @@ function tryParseLineString(placemark) {
   }
 
   const coords = [];
-  for (let coord_string of coords_elements.trim().split(" ")) {
+  for (let coord_string of coords_elements.trim().split(/\s+/)) {
     // TODO: should we check the optional altitude?
     const [lng_string, lat_string] = coord_string.split(",");
     const lng = parseFloat(lng_string.trim());
