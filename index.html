@@ -233,7 +233,6 @@
           filename: filename,
           contacts_length: contacts.length
         }));
-        finishResults();
       } else {
         alert(i18n("UNSUPPORTED_FILE_TYPE", { filename: filename }));
       }
@@ -242,6 +241,8 @@
     function clearResults() {
       TOTAL_FOUND = 0;
       $("#results").html("");  // reset result
+      $("#HTML_EXPLAIN_NOT_FOUND").hide();
+      $("#HTML_EXPLAIN_FOUND_RESULTS").hide();
     }
 
     function finishResults() {
@@ -255,24 +256,34 @@
       }
     }
 
-    function fileTypeProcess() {
+    // The common code for file type and drap&drop handler.
+    //
+    // Args:
+    //   blobs: array of File Blobs.
+    function processBlobs(blobs) {
       clearResults();
 
-      let nBytes = 0,
-        oFiles = document.getElementById("uploadInput").files,
-        nFiles = oFiles.length;
-
       const promises = [];
-      for (let nFileId = 0; nFileId < nFiles; nFileId++) {
-        nBytes += oFiles[nFileId].size;
-        promises.push(processFile(oFiles[nFileId]));
+      for(let blob of blobs) {
+        promises.push(processFile(blob));
       }
 
       Promise.all(promises).then(
-        finishResults  // TODO: seems not working. need to investigate.
+        finishResults
       ).catch(
         (e) => console.error(e)
       );
+    }
+
+    function fileTypeOnChanged() {
+      let oFiles = document.getElementById("uploadInput").files;
+
+      const blobs = [];
+      for (let oFile of oFiles) {
+        blobs.push(oFile);
+      }
+
+      processBlobs(blobs);
     }
 
     // Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
@@ -281,15 +292,14 @@
       // Prevent default behavior (Prevent file from being opened)
       ev.preventDefault();
 
-      clearResults();
-
-      // process each file
-      for (var i = 0; i < ev.dataTransfer.items.length; i++) {
-        if (ev.dataTransfer.items[i].kind === 'file') {
-          var file = ev.dataTransfer.items[i].getAsFile();
-          processFile(file);
+      const blobs = [];
+      for (let item of ev.dataTransfer.items) {
+        if (item.kind === 'file') {
+          blobs.push(item.getAsFile());
         }
       }
+
+      processBlobs(blobs);
     }
 
     function dragOverHandler(ev) {
@@ -423,7 +433,7 @@
           Step 2: Open your location history file(s)
         </h5>
         <p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file"
-            style="visibility:;" onchange="fileTypeProcess();" multiple /></p>
+            style="visibility:;" onchange="fileTypeOnChanged();" multiple /></p>
         <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
           <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
             style="background: #e0e0e0; padding: 100px; display: inline-block;">
