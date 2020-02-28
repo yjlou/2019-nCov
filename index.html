@@ -136,7 +136,7 @@
           });
           // coronamap.site
           load_files.push({
-            desc: 'Korea data (coronamap.site)',
+            desc: 'Korea data [https://coronamap.site]',
             path: "countries/korea/coronamap.site-output.json",
             src: 'https://coronamap.site',
           });
@@ -153,6 +153,7 @@
 
         for (let file of load_files) {
           let points = parseFile(file.path, fetchHttpFile(file.path));
+          file.num_points = points.length;
           log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
           PATIENTS.push({
             'desc': file.desc,
@@ -164,7 +165,7 @@
       for (let file of load_files) {
         let add_html = "<LI>";
         if (file.src) { add_html += `<a target='_blank' href='${file.src}'>`; }
-        add_html += file.desc;
+        add_html += file.desc + " (" + file.num_points + ")";
         if (file.src) { add_html += "</a>"; }
         add_html += "\n";
         load_files_elem.html(load_files_elem.html() + add_html);
