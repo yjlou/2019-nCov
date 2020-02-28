@@ -6,6 +6,7 @@
     "HTML_PROCESS_IN_LOCAL": "개인 정보 보호를 위해 데이터는 로컬에서만 처리되며 서버에 업로드되지 않습니다.",
     "HTML_LOADED_DATA": "로드 된 데이터 목록",
     "HTML_WARNING": "주의! 일치하는 모든 결과는 단지 참고입니다. 정보가 정확하지 않으면 당국이 발표 한 정보를 참조하십시오.",
+
     "HTML_STEP_1_1": "1 단계 : <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 타임라인</a> 로 이동하여 '위치 기록'이 켜져 있는지 확인합니다.",
     "HTML_STEP_1_2": "그런 다음 다운로드 할 기간을 선택하십시오: ",
     "HTML_LAST_14_DAYS": "지난 14 일",
@@ -14,10 +15,15 @@
     "HTML_DONWLOAD": "다운로드",
     "HTML_PUNC_PERIOD": ".",
     "HTML_ALLOW_POPUP": "* 브라우저에서 '팝업'을 허용 한 다음 '다운로드'버튼을 다시 클릭하십시오.",
+
     "HTML_STEP_2_1": "2 단계 : 방금 다운로드 한 위치 기록 파일 열기",
     "HTML_STEP_2_2": "KML / JSON 파일을 선택하려면 여기를 클릭하십시오: ",
     "HTML_DRAG_DROP_AREA": "또는 KML / JSON 파일을 여기로 끌어다 놓습니다.",
+
     "HTML_STEP_3": "3 단계 : 아래 결과를 참조하십시오.",
+    "HTML_EXPLAIN_FOUND_RESULTS": "위의 결과에 따르면 특정 시간대에 약 100 미터 이내에 환자가있는 핫 존에 있었을 것입니다. 자세한 경로를 확인하려면 당국의 공식 발표를 확인하십시오.",
+    "HTML_EXPLAIN_NOT_FOUND": "결과는 아마도 환자와 함께 더운 지역에 있지 않았 음을 나타냅니다. 그러나 우리는 여전히 당국의 발표에주의를 기울이고 매일 점검하기 위해 돌아 오는 것이 좋습니다.",
+
     "HTML_SOURCE_CODE": "소스 코드 링크",
     "HTML_CONTACT_US": "연락주세요 ( covid-19@googlegroups.com )",
 

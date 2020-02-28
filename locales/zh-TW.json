@@ -6,6 +6,7 @@
     "HTML_PROCESS_IN_LOCAL": "基於隱私考量，你的資料只會在本地端處理，不會上傳到任何網路主機。",
     "HTML_LOADED_DATA": "目前可供比對的資料：",
     "HTML_WARNING": "注意！ 所有的比對結果都僅供參考。 如果有疑問，以官方公佈的資訊為準。",
+
     "HTML_STEP_1_1": "第一步：先到 <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 時間軸</a>，確認你的定位紀錄已經開啟。",
     "HTML_STEP_1_2": "接著選擇要下載的區間：",
     "HTML_LAST_14_DAYS": "最近 14 天",
@@ -14,10 +15,15 @@
     "HTML_DONWLOAD": "下載",
     "HTML_PUNC_PERIOD": "。",
     "HTML_ALLOW_POPUP": "* 記得點選瀏覽器網址「允許」彈跳視窗後，重新再點選「下載」。",
+
     "HTML_STEP_2_1": "第二步：開啟剛剛下載的歷史軌跡檔",
     "HTML_STEP_2_2": "選擇剛剛下載的 KML/JSON 檔：",
     "HTML_DRAG_DROP_AREA": "或是把 KML/JSON 檔案拖曳到這裡。",
+
     "HTML_STEP_3": "第三步：在下方查看結果。",
+    "HTML_EXPLAIN_FOUND_RESULTS": "結果顯示你可能與病患曾在某個時段，出現在附近(約100公尺內)。請參考官方資訊做進一步的確認。",
+    "HTML_EXPLAIN_NOT_FOUND": "結果顯示你可能沒有和病患接觸過。不過我們還是建議您隨時注意官方的資訊，並且每天回來檢查。",
+
     "HTML_SOURCE_CODE": "原始程式碼連結",
     "HTML_CONTACT_US": "與我們聯絡 covid-19@googlegroups.com",
 

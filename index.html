@@ -247,6 +247,12 @@
     function finishResults() {
       const display = $("#results");
       display.html(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }) + display.html());
+
+      if (TOTAL_FOUND == 0) {
+        $("#HTML_EXPLAIN_NOT_FOUND").show();
+      } else {
+        $("#HTML_EXPLAIN_FOUND_RESULTS").show();
+      }
     }
 
     function fileTypeProcess() {
@@ -429,7 +435,10 @@
           Step 3: See results below.
         </h5>
         <pre id="results"></pre>
+        <p id="HTML_EXPLAIN_FOUND_RESULTS" style="display: none;">Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.</p>
+        <p id="HTML_EXPLAIN_NOT_FOUND" style="display: none;">The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.</p>
         <hr>
+
         <div id='logs_title'>
           <p>Logs</p>
           <pre style='overflow: scroll; border: 1px solid; height: 24em' id="logs"></pre>

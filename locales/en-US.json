@@ -6,6 +6,7 @@
     "HTML_PROCESS_IN_LOCAL": "For your privacy, your data are ONLY processed in local and will NOT be uploaded to any server.",
     "HTML_LOADED_DATA": "Available Data to Compare:",
     "HTML_WARNING": "CAUTION! All the matched results are just FYI. If any information is incorrect, please refer to the information announced by the authority.",
+
     "HTML_STEP_1_1": "Step 1: Go to <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a> and verify 'Location History' had been ON.",
     "HTML_STEP_1_2": "Then select period to download: ",
     "HTML_LAST_14_DAYS": "last 14 days",
@@ -14,10 +15,15 @@
     "HTML_DONWLOAD": "Download",
     "HTML_PUNC_PERIOD": ".",
     "HTML_ALLOW_POPUP": "* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.",
+
     "HTML_STEP_2_1": "Step 2: Open the location history file(s) you just downloaded",
     "HTML_STEP_2_2": "Click here to select KML/JSON file(s): ",
     "HTML_DRAG_DROP_AREA": "Or drag&drop KML/JSON file(s) to here.",
+
     "HTML_STEP_3": "Step 3: See results below.",
+    "HTML_EXPLAIN_FOUND_RESULTS": "Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.",
+    "HTML_EXPLAIN_NOT_FOUND": "The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.",
+
     "HTML_SOURCE_CODE": "Source code link",
     "HTML_CONTACT_US": "Contact us ( covid-19@googlegroups.com )",
 
