@@ -196,7 +196,7 @@
           " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
           " lat:" + contact.lat + " lng:" + contact.lng;
       }
-      return html;
+      return html || null;
     }
 
     function loadFileContentAsync(file_blob) {
@@ -219,6 +219,7 @@
       const display = $("#results");
       if (filename.endsWith(".kml") || filename.endsWith(".json")) {
         log(i18n("ANALYZING", { filename: filename }));
+        appendResults(i18n("ANALYZING", { filename: filename }));
         let file_text = await loadFileContentAsync(file_blob);
         let points = parseFile(filename, file_text);
 
@@ -226,10 +227,15 @@
         contacts = contacts.concat(checkContact(points, PATIENTS));
         contacts = contacts.concat(checkHashes(points, HASHES));
 
-        display.html(display.html() + showContacts(contacts));
+        appendResults(showContacts(contacts));
+
         TOTAL_FOUND += contacts.length;
 
         log(i18n("DONE_ANALYZE", {
+          filename: filename,
+          contacts_length: contacts.length
+        }));
+        appendResults(i18n("DONE_ANALYZE", {
           filename: filename,
           contacts_length: contacts.length
         }));
@@ -245,9 +251,27 @@
       $("#HTML_EXPLAIN_FOUND_RESULTS").hide();
     }
 
-    function finishResults() {
+    // Prepend a string in the beginning of the resutls.
+    function prependResults(msg) {
+      if (msg === null) return;
       const display = $("#results");
-      display.html(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }) + display.html());
+      if (!msg.endsWith('\n')) {
+        msg += '\n';
+      }
+      display.html(msg + display.html());
+    }
+
+    function appendResults(msg) {
+      if (msg === null) return;
+      const display = $("#results");
+      if (!msg.endsWith('\n')) {
+        msg += '\n';
+      }
+      display.html(display.html() + msg);
+    }
+
+    function finishResults() {
+      prependResults(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }));
 
       if (TOTAL_FOUND == 0) {
         $("#HTML_EXPLAIN_NOT_FOUND").show();
@@ -275,8 +299,10 @@
       );
     }
 
-    function fileTypeOnChanged() {
+    function onClickLetsCheckButton() {
       let oFiles = document.getElementById("uploadInput").files;
+
+      if (oFiles.length === 0) return;
 
       const blobs = [];
       for (let oFile of oFiles) {
@@ -432,8 +458,11 @@
         <h5 id="HTML_STEP_2_1">
           Step 2: Open your location history file(s)
         </h5>
-        <p><span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span><input id="uploadInput" type="file"
-            style="visibility:;" onchange="fileTypeOnChanged();" multiple /></p>
+        <p>
+          <span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span>
+          <input id="uploadInput" type="file" multiple />
+          <button onclick="onClickLetsCheckButton()">Let's Check</button>
+        </p>
         <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
           <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
             style="background: #e0e0e0; padding: 100px; display: inline-block;">
