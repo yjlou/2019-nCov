@@ -64,10 +64,10 @@
         return;
       }
 
-      const logs = document.getElementById("logs");
-      logs.innerHTML += message + '\n';
+      const logs = $("#logs");
+      logs.html(logs.html + message + '\n');
       // scroll to the bottom.
-      logs.scrollTo(0, logs.scrollHeight);
+      logs.scrollTop(1e10);
     }
 
     // Returns Array of points.
