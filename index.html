@@ -65,7 +65,7 @@
       }
 
       const logs = $("#logs");
-      logs.html(logs.html + message + '\n');
+      logs.html(logs.html() + message + '\n');
       // scroll to the bottom.
       logs.scrollTop(1e10);
     }
