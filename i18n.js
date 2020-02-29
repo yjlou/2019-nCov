@@ -3,7 +3,7 @@
 // If 'fallback' is true, 
 //
 function load_lang(locale, callback, fallback) {
-  $.ajax(`locales/${locale}.json`)
+  $.ajax(`locales/${locale}/text.json`)
     .done(function(text){
       var data = myJsonParse(text);
       i18n.translator.add(data);
