@@ -380,7 +380,8 @@
       load_i18n(function () {
         update_i18n_UI();
         loadPatientData();
-        // Initialize Materialize selects after UI text is updated,
+
+        // Initialize Materialize selects after UI components are updated,
         // since Materialize inserts DOM elements based on the state of the
         // selects.
         M.FormSelect.init(document.querySelectorAll('select'), {});
@@ -433,11 +434,10 @@
         <p id="HTML_LOADED_DATA">Loaded Data List</p>
         <pre id="loadFiles"></pre>
         <p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to
-          the
-          information announced by the authority.</p>
+          the information announced by the authority.</p>
         <hr>
 
-        <h5 id="HTML_STEP_1">Step 1: Confirm your Location History had been opted-in</h5>
+        <h5 id="HTML_STEP_1_0">Step 1: Confirm your Location History had been opted-in</h5>
         <p id="HTML_STEP_1_1">Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps Timeline</a>. If you see red dots on the map (as below screenshot), you have enabled the History Location feature. Please move to step 2.</p>
         <img id="IMG_LOCATION_HISTORY_ENABLED" src="locales/en-US/LocationHistoryEnabled.jpg"/>
 
@@ -446,7 +446,7 @@
         <p id="HTML_COME_BACK_AND_CHECK">Since you just started collecting your location data, there is no data to match. Please come back another day to match again.</p>
         <hr>
 
-        <h5 id="HTML_STEP_2">Step 2: Select period to download: </h5>
+        <h5 id="HTML_STEP_2_0">Step 2: Select period to download: </h5>
         <p>
           <span class="input-field inline">
             <select id="download_period">
@@ -462,7 +462,7 @@
         <p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
         <hr>
 
-        <h5 id="HTML_STEP_3_1">
+        <h5 id="HTML_STEP_3_0">
           Step 3: Open your location history file(s)
         </h5>
         <p>
@@ -477,8 +477,8 @@
           </label>
         </div>
         <hr>
-        <h5 id="HTML_STEP_4">
-          Step 3: See results below.
+        <h5 id="HTML_STEP_4_0">
+          Step 4: See results below.
         </h5>
         <pre id="results"></pre>
         <p id="HTML_EXPLAIN_FOUND_RESULTS" style="display: none;">Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.</p>
