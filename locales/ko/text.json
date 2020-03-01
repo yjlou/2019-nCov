@@ -7,7 +7,13 @@
     "HTML_LOADED_DATA": "로드 된 데이터 목록",
     "HTML_WARNING": "주의! 일치하는 모든 결과는 단지 참고입니다. 정보가 정확하지 않으면 당국이 발표 한 정보를 참조하십시오.",
 
-    "HTML_STEP_1_1": "1 단계 : <a href='https://google.com/maps/timeline' target='_blank'>Google Maps 타임라인</a> 로 이동하여 '위치 기록'이 켜져 있는지 확인합니다.",
+    "HTML_STEP_1": "1 단계 : 기록 위치 기능이 활성화되어 있는지 확인",
+    "HTML_STEP_1_1": "<a href='https://google.com/maps/timeline' target='_blank'>Google지도 타임 라인</a>으로 이동하십시오. 아래 스크린 샷과 같이지도에 빨간색 점이 표시되면 기록 위치 기능이 활성화 된 것입니다. 2 단계로 이동하십시오.",
+    "IMG_LOCATION_HISTORY_ENABLED": "locales/ko/LocationHistoryEnabled.jpg",
+    "HTML_ENABLE_HISTORY_LOCATION": "지도에 빨간색 점이 표시되지 않으면 해당 기능을 활성화해야합니다. 화면 오른쪽 하단의 '기어 아이콘'을 클릭하십시오. 그런 다음 '위치 기록 사용'을 선택하십시오. 그러면 컨센서스 페이지로 연결됩니다. 이 기능을 활성화하십시오.",
+    "IMG_ENABLE_HISTORY_LOCATION": "locales/ko/EnableLocationHistory.png",
+    "HTML_COME_BACK_AND_CHECK": "위치 데이터 수집을 시작 했으므로 일치하는 데이터가 없습니다. 다시 일치시키기 위해 다시 오세요.",
+
     "HTML_STEP_1_2": "그런 다음 다운로드 할 기간을 선택하십시오: ",
     "HTML_LAST_14_DAYS": "지난 14 일",
     "HTML_LAST_3_DAYS": "지난 3 일",

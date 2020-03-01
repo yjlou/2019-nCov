@@ -51,9 +51,15 @@ function load_i18n(callback) {
 // This function iterates all elements starting with "HTML_" prefix. Then replace the
 // innerHTML with i18n string (by its ID).
 //
-function updateUiText() {
+// It also does similar things for IMG.
+//
+function update_i18n_UI() {
   $("[id^=HTML_]").each(function(idx) {
     $(this).html(i18n($(this)[0].id));
+  });
+
+  $("[id^=IMG_]").each(function(idx) {
+    $(this).attr("src", i18n($(this)[0].id));
   });
 
   window.document.title = i18n("HTML_APP_NAME");

@@ -7,7 +7,13 @@
     "HTML_LOADED_DATA": "Available Data to Compare:",
     "HTML_WARNING": "CAUTION! All the matched results are just FYI. If any information is incorrect, please refer to the information announced by the authority.",
 
-    "HTML_STEP_1_1": "Step 1: Go to <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a> and verify 'Location History' had been ON.",
+    "HTML_STEP_1": "Step 1: Ensure Your History Location Feature Had Been Enabled",
+    "HTML_STEP_1_1": "Go to <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a>. If you see red dots on the map (as below screenshot), you have enabled the History Location feature. Please move to step 2.",
+    "IMG_LOCATION_HISTORY_ENABLED": "locales/en-US/LocationHistoryEnabled.jpg",
+    "HTML_ENABLE_HISTORY_LOCATION": "If you don't see any red dot on the map, you probably need to enable the feature. Click the 'Gear Icon' on the bottom-right of screen. Then opt-in 'Enable Location History'. This will lead you into a concensus page. Enable this feature.",
+    "IMG_ENABLE_HISTORY_LOCATION": "locales/en-US/EnableLocationHistory.png",
+    "HTML_COME_BACK_AND_CHECK": "Since you just started collecting your location data, there is no data to match. Please come back another day to match again.",
+
     "HTML_STEP_1_2": "Then select period to download: ",
     "HTML_LAST_14_DAYS": "last 14 days",
     "HTML_LAST_3_DAYS": "last 3 days",
