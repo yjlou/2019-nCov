@@ -24,7 +24,8 @@
     "HTML_ONLY_TODAY": "今天",
     "HTML_DONWLOAD": "下載",
     "HTML_PUNC_PERIOD": "。",
-    "HTML_ALLOW_POPUP": "* 記得點選瀏覽器網址「允許」彈跳視窗後，重新再點選「下載」。",
+    "HTML_EXPECT_DOWNLOADS": "點擊「下載」後，你應該會看到一些檔案下載。請前往<a href=\"#\" onclick=\"selectTab('step3')\">第三步</a>。",
+    "HTML_ALLOW_POPUP": "* 如果沒有，請「允許」彈跳視窗後，重新再點選「下載」。",
 
     "HTML_STEP_3": "第三步",
     "HTML_STEP_3_0": "開啟剛剛下載的歷史軌跡檔",

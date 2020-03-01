@@ -24,7 +24,8 @@
     "HTML_ONLY_TODAY": "Today",
     "HTML_DONWLOAD": "Download",
     "HTML_PUNC_PERIOD": ".",
-    "HTML_ALLOW_POPUP": "* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.",
+    "HTML_EXPECT_DOWNLOADS": "After clicking the Download button, you shall be able to see some files downloaded. Please move forward to <a href=\"#\" onclick=\"selectTab('step3')\">Step 3</a>.",
+    "HTML_ALLOW_POPUP": "* If not, please allow 'pop-ups' in browser, then click the 'Download' button again.",
 
     "HTML_STEP_3": "Step 3",
     "HTML_STEP_3_0": "Open the location history file(s) you just downloaded",
