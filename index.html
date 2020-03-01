@@ -439,17 +439,19 @@
 
         <h5 id="HTML_STEP_1">Step 1: Confirm your Location History had been opted-in</h5>
         <p id="HTML_STEP_1_1">Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps Timeline</a>. If you see red dots on the map (as below screenshot), you have enabled the History Location feature. Please move to step 2.</p>
-        <img id="IMG_LOCATION_HISTORY_ENABLED" src="locales/en-US/LocationHistoryEnabled.png"/>
+        <img id="IMG_LOCATION_HISTORY_ENABLED" src="locales/en-US/LocationHistoryEnabled.jpg"/>
 
         <p id="HTML_ENABLE_HISTORY_LOCATION">If you don't see any red dot on the map, you probably need to enable the feature. Click the 'Gear Icon' on the bottom-right of screen. Then opt-in 'Enable Location History'. This will lead you into a concensus page. Enable this feature.</p>
         <img id="IMG_ENABLE_HISTORY_LOCATION" src="locales/en-US/EnableLocationHistory.png"/>
         <p id="HTML_COME_BACK_AND_CHECK">Since you just started collecting your location data, there is no data to match. Please come back another day to match again.</p>
+        <hr>
 
+        <h5 id="HTML_STEP_2">Step 2: Select period to download: </h5>
         <p>
-          <span id="HTML_STEP_1_2">Then select period to download: </span>
           <span class="input-field inline">
             <select id="download_period">
               <option id="HTML_LAST_14_DAYS" value="-1209600">last 14 days</option>
+              <option id="HTML_LAST_7_DAYS" value="-604800">last 3 days</option>
               <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
               <option id="HTML_ONLY_TODAY" value="-0">Today</option>
             </select>
@@ -460,11 +462,11 @@
         <p id="HTML_ALLOW_POPUP">* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
         <hr>
 
-        <h5 id="HTML_STEP_2_1">
-          Step 2: Open your location history file(s)
+        <h5 id="HTML_STEP_3_1">
+          Step 3: Open your location history file(s)
         </h5>
         <p>
-          <span id="HTML_STEP_2_2">Click here to select KML/JSON file(s)</span>
+          <span id="HTML_STEP_3_2">Click here to select KML/JSON file(s)</span>
           <input id="uploadInput" type="file" multiple />
           <button id="HTML_BUTTON_CHECK" onclick="onClickLetsCheckButton()">Let's Check</button>
         </p>
@@ -475,7 +477,7 @@
           </label>
         </div>
         <hr>
-        <h5 id="HTML_STEP_3">
+        <h5 id="HTML_STEP_4">
           Step 3: See results below.
         </h5>
         <pre id="results"></pre>

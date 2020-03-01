@@ -14,20 +14,21 @@
     "IMG_ENABLE_HISTORY_LOCATION": "locales/en-US/EnableLocationHistory.png",
     "HTML_COME_BACK_AND_CHECK": "Since you just started collecting your location data, there is no data to match. Please come back another day to match again.",
 
-    "HTML_STEP_1_2": "Then select period to download: ",
+    "HTML_STEP_2": "Step 2: Select Period to Download: ",
     "HTML_LAST_14_DAYS": "last 14 days",
+    "HTML_LAST_7_DAYS": "last 7 days",
     "HTML_LAST_3_DAYS": "last 3 days",
     "HTML_ONLY_TODAY": "Today",
     "HTML_DONWLOAD": "Download",
     "HTML_PUNC_PERIOD": ".",
     "HTML_ALLOW_POPUP": "* Remember to allow 'pop-ups' in browser, then click the 'Download' button again.",
 
-    "HTML_STEP_2_1": "Step 2: Open the location history file(s) you just downloaded",
-    "HTML_STEP_2_2": "Click here to select KML/JSON file(s): ",
+    "HTML_STEP_3_1": "Step 3: Open the location history file(s) you just downloaded",
+    "HTML_STEP_3_2": "Click here to select KML/JSON file(s): ",
     "HTML_DRAG_DROP_AREA": "Or drag&drop KML/JSON file(s) to here.",
     "HTML_BUTTON_CHECK": "Let's Check",
 
-    "HTML_STEP_3": "Step 3: See results below.",
+    "HTML_STEP_4": "Step 4: See results below.",
     "HTML_EXPLAIN_FOUND_RESULTS": "Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.",
     "HTML_EXPLAIN_NOT_FOUND": "The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.",
 
