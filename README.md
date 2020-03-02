@@ -1,5 +1,5 @@
 # 2019-nCov
-Use Google Maps Timeline data to check weather you had contacted the patient or not.
+Use Google Maps Timeline data to check whether you had contacted the patient or not.
 
 # The Web Interface
 
