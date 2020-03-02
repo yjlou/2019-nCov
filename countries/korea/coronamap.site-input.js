@@ -9,7 +9,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.817049, 128.759688",
     solo: true,
-    address_name: "경북 경산시 동부동"
+    address_name: "경북 경산시 동부동",
+    address_english: "a visit to the Gyeongsan tax office"
   },
   {
     profile: "-",
@@ -21,7 +22,8 @@ var position = [
     solo: true,
     name: "73번째 확진자",
     full: "73번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english: "Pohang Medical Center Isolation"
   },
   {
     profile: "-",
@@ -33,7 +35,9 @@ var position = [
     solo: true,
     name: "73번째 확진자",
     full: "73번째 확진자",
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english:
+      "After visiting Hyehwa United Congressman (Okgok-dong), visit the Health Center's Selective Care Center"
   },
   {
     profile: "(29.여.한국)",
@@ -45,7 +49,8 @@ var position = [
     full: "106번째 확진자",
     latlng: "35.824255, 128.737729",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Kim Dong-hee Visits the Internal Medicine Institute"
   },
   {
     profile: "-",
@@ -57,7 +62,8 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Use Dongdaegu Terminal (7:30-10:30)"
   },
   {
     profile: "(29.여.한국)",
@@ -69,7 +75,8 @@ var position = [
     full: "106번째 확진자",
     latlng: "35.826328, 128.738082",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "A visit to the head of the head office of the country's."
   },
   {
     profile: "-",
@@ -81,7 +88,8 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "전북 전주시 덕진구 송천1동"
+    address_name: "전북 전주시 덕진구 송천1동",
+    address_english: "Songcheon Lotte Mart (20:00-20:30)"
   },
   {
     profile: "-",
@@ -94,7 +102,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 동대문구 휘경2동"
+    address_name: "서울 동대문구 휘경2동",
+    address_english: "Visit to the funeral home of Samyuk Seoul Hospital"
   },
   {
     profile: "-",
@@ -106,7 +115,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit to Daejam Adelia (1:40)"
   },
   {
     profile: "-",
@@ -118,7 +128,8 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "전북 전주시 덕진구 덕진동"
+    address_name: "전북 전주시 덕진구 덕진동",
+    address_english: "Using the Blue Chicken (20:00-21:00)"
   },
   {
     profile: "(55.여.한국)",
@@ -130,7 +141,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "36.122659, 128.126482",
     solo: true,
-    address_name: "경북 김천시 자산동"
+    address_name: "경북 김천시 자산동",
+    address_english: "Kimcheon Medical Center Isolation"
   },
   {
     memo:
@@ -145,7 +157,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 종로구 창신1동"
+    address_name: "서울 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     solo: true,
@@ -157,7 +171,8 @@ var position = [
     full: "관악구 확진자",
     address: "동림오피스텔",
     latlng: "37.47700115295818, 126.96292928072465",
-    address_name: "서울특별시 관악구 인헌동"
+    address_name: "서울특별시 관악구 인헌동",
+    address_english: "Dongrim Officetel"
   },
   {
     solo: true,
@@ -169,7 +184,8 @@ var position = [
     full: "관악구 확진자",
     address: "삼일 공인중개사사무소",
     latlng: "37.4764295447952, 126.961774150289",
-    address_name: "서울특별시 관악구 인헌동"
+    address_name: "서울특별시 관악구 인헌동",
+    address_english: "Samil Public Arbitration Office"
   },
   {
     solo: true,
@@ -181,7 +197,8 @@ var position = [
     full: "관악구 확진자",
     address: "장도뚝배기 낙성대점",
     latlng: "37.4773265685037, 126.96061148347802",
-    address_name: "서울특별시 관악구 낙성대동"
+    address_name: "서울특별시 관악구 낙성대동",
+    address_english: "Jangdoppukbaegi Nakseongdaeji Station"
   },
   {
     solo: true,
@@ -193,7 +210,8 @@ var position = [
     full: "관악구 확진자",
     address: "원당프라자약국",
     latlng: "37.47538918821613, 126.96572021316796",
-    address_name: "서울특별시 관악구 인헌동"
+    address_name: "서울특별시 관악구 인헌동",
+    address_english: "Wondang Praja Pharmacy"
   },
   {
     profile: "-",
@@ -205,7 +223,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit the CoiVinhu Clinic (14:22)"
   },
   {
     profile: "-",
@@ -217,7 +236,9 @@ var position = [
     address: "울산대병원 국가지정음압격리치료실로 이송",
     latlng: "35.520046, 129.428956",
     solo: true,
-    address_name: "울산 동구 전하1동"
+    address_name: "울산 동구 전하1동",
+    address_english:
+      "Transfer to the National Assigned Acoustic Pressure Isolation Treatment Center at Ulsan National University Hospital"
   },
   {
     profile: "-",
@@ -229,7 +250,8 @@ var position = [
     address: "직장(포항우체국) 근무",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "a job (Pohang Post Office)"
   },
   {
     profile: "-",
@@ -241,7 +263,8 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Transfer to Myongji Hospital"
   },
   {
     profile: "-",
@@ -253,7 +276,8 @@ var position = [
     address: "만치만치 방문",
     latlng: "37.443602, 129.163701",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a full visit"
   },
   {
     profile: "-",
@@ -265,7 +289,8 @@ var position = [
     address: "직장 근무",
     latlng: "35.833409, 127.121673",
     solo: true,
-    address_name: "전북 전주시 완산구 서신동"
+    address_name: "전북 전주시 완산구 서신동",
+    address_english: "office work"
   },
   {
     profile: "-",
@@ -277,7 +302,8 @@ var position = [
     address: "중앙상가 애슐리 이용",
     latlng: "36.036665, 129.362961",
     solo: true,
-    address_name: "경북 포항시 북구 중앙동"
+    address_name: "경북 포항시 북구 중앙동",
+    address_english: "Use of Ashley, the Central Market"
   },
   {
     profile: "-",
@@ -289,7 +315,8 @@ var position = [
     address: "밸류플러스 1층 라라코스트 방문",
     latlng: "36.012772, 129.348954",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "Visit Larakost on the first floor of Value Plus"
   },
   {
     profile: "(32.남.한국)",
@@ -301,7 +328,8 @@ var position = [
     full: "#세종 확진자 A",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -313,7 +341,8 @@ var position = [
     address: "바디라인피트니스 방문",
     latlng: "36.059444, 129.374354",
     solo: true,
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "Bodyline Fitness Visit"
   },
   {
     profile: "-",
@@ -325,7 +354,8 @@ var position = [
     address: "증평군 증평읍 송원칼국수",
     latlng: "36.778018, 127.568671",
     solo: true,
-    address_name: "충북 증평군 증평읍"
+    address_name: "충북 증평군 증평읍",
+    address_english: "Songwon Kalguksu in Jeungpyeong-eup, Jeungpyeong-gun"
   },
   {
     profile: "-",
@@ -337,7 +367,9 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "전북 전주시 덕진구 금암2동"
+    address_name: "전북 전주시 덕진구 금암2동",
+    address_english:
+      "Chonbuk National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -349,7 +381,8 @@ var position = [
     address: "홍성철성형외과(오거리) 4층 방문",
     latlng: "36.033023, 129.366457",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "Hongseong Steel Plastic Surgery Visit 4F"
   },
   {
     solo: true,
@@ -361,7 +394,8 @@ var position = [
     full: "이천 확진자",
     address: "이천 중식당 방문",
     latlng: "37.121864, 127.628632",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "Visit Icheon Chinese Restaurant"
   },
   {
     solo: true,
@@ -373,7 +407,8 @@ var position = [
     full: "의성 확진자",
     address: "안계하나로마트 방문",
     latlng: "36.38303, 128.439086",
-    address_name: "경북 의성군 안계면"
+    address_name: "경북 의성군 안계면",
+    address_english: "Visit Angye Hanaromart"
   },
   {
     solo: true,
@@ -385,7 +420,8 @@ var position = [
     full: "의성 확진자",
     address: "안계홈마트 방문",
     latlng: "36.388919, 128.43542",
-    address_name: "경북 의성군 안계면"
+    address_name: "경북 의성군 안계면",
+    address_english: "Visit Angye Home Mart"
   },
   {
     solo: true,
@@ -397,7 +433,8 @@ var position = [
     full: "경산 확진자",
     address: "초원애 한식뷔페 방문",
     latlng: "35.874798, 128.813918",
-    address_name: "경북 경산시 진량읍"
+    address_name: "경북 경산시 진량읍",
+    address_english: "Visit Chow Won-ae Korean Food Buffet"
   },
   {
     solo: true,
@@ -409,7 +446,8 @@ var position = [
     full: "경산 확진자",
     address: "파티마연합속내과의원 방문",
     latlng: "35.91395, 128.819653",
-    address_name: "경북 경산시 하양읍"
+    address_name: "경북 경산시 하양읍",
+    address_english: "Visit the Patima Union Internal Medicine Center"
   },
   {
     solo: true,
@@ -421,7 +459,9 @@ var position = [
     full: "의성 확진자",
     address: "안사면 쌍호1리 경로당 저녁식사(17:00~19:00)",
     latlng: "36.508501, 128.421585",
-    address_name: "경북 의성군 안사면"
+    address_name: "경북 의성군 안사면",
+    address_english:
+      "Dinner per route of Ssangho 1-ri, Ansa-myeon (17:00-19:00)"
   },
   {
     profile: "(29.여.한국)",
@@ -433,7 +473,8 @@ var position = [
     full: "106번째 확진자",
     latlng: "35.824229, 128.737793",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "a visit to the New Byeol Pharmacy"
   },
   {
     solo: true,
@@ -445,7 +486,8 @@ var position = [
     full: "구미 확진자",
     address: "에이플러스노래방(황상동) 방문",
     latlng: "36.107993, 128.418469",
-    address_name: "경북 구미시 인동동"
+    address_name: "경북 구미시 인동동",
+    address_english: "Visit A Plus Singing Room (Hwangsang-dong)"
   },
   {
     solo: true,
@@ -457,7 +499,9 @@ var position = [
     full: "춘천 확진자",
     address: "59쌀피자(남춘천점)에서 아르바이트(17:00~23:00)",
     latlng: "37.862064, 127.731061",
-    address_name: "강원 춘천시 퇴계동"
+    address_name: "강원 춘천시 퇴계동",
+    address_english:
+      "Part time job at 59 Rice Pizza (Namchuncheon Branch) (17:00 to 23:00)"
   },
   {
     solo: true,
@@ -469,7 +513,8 @@ var position = [
     full: "경산 확진자",
     address: "세븐일레븐영대제일원룸점 방문",
     latlng: "35.838615, 128.759718",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visit 7-Eleven Youngdae CheilOne Room Store"
   },
   {
     solo: true,
@@ -481,7 +526,8 @@ var position = [
     full: "수원 확진자",
     address: "동대구역 -> 수원역 KTX 이동",
     latlng: "37.266633, 126.999397",
-    address_name: "경기 수원시 팔달구 매산동"
+    address_name: "경기 수원시 팔달구 매산동",
+    address_english: "Dongdaegu Station - 이동 Move KTX from Suwon Station"
   },
   {
     solo: true,
@@ -493,7 +539,8 @@ var position = [
     full: "경산 확진자",
     address: "포스마트 영남대학점 방문",
     latlng: "35.840582, 128.755491",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visits to Posmart Youngnam University"
   },
   {
     solo: true,
@@ -505,7 +552,8 @@ var position = [
     full: "의성 확진자",
     address: "경산세명장례식장(13:00)",
     latlng: "35.826819, 128.737377",
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Gyeongsan Duty Free Ceremony Hall (13:00)"
   },
   {
     profile: "-",
@@ -517,7 +565,9 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english:
+      "Pohang Medical Center  <Span Style='color:red;'격Division </Span>"
   },
   {
     profile: "(28.남.한국)",
@@ -530,7 +580,8 @@ var position = [
     full: "113번째 확진자",
     latlng: "35.878286, 128.630244",
     solo: true,
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Visit the East Daegu Terminal"
   },
   {
     solo: true,
@@ -542,7 +593,8 @@ var position = [
     full: "의성 확진자",
     address: "김일환 내과 방문(12:00)",
     latlng: "36.355736, 128.694551",
-    address_name: "경북 의성군 의성읍"
+    address_name: "경북 의성군 의성읍",
+    address_english: "Kim Il-hwan Visits Internal Medicine (12:00)"
   },
   {
     profile: "-",
@@ -554,7 +606,8 @@ var position = [
     address: "춘천 버스터미널 도착",
     latlng: "37.863408, 127.718369",
     solo: true,
-    address_name: "강원 춘천시 강남동"
+    address_name: "강원 춘천시 강남동",
+    address_english: "Arrival at Chuncheon Bus Terminal"
   },
   {
     profile: "-",
@@ -566,7 +619,8 @@ var position = [
     address: "순천향구미병원으로부터 양성 판정",
     latlng: "36.102915, 128.382719",
     solo: true,
-    address_name: "경북 구미시 공단2동"
+    address_name: "경북 구미시 공단2동",
+    address_english: "A positive evaluation from Suncheonhyang Gumi Hospital"
   },
   {
     solo: true,
@@ -578,7 +632,8 @@ var position = [
     full: "경산 확진자",
     address: "바른약국 방문",
     latlng: "35.91395, 128.819653",
-    address_name: "경북 경산시 하양읍"
+    address_name: "경북 경산시 하양읍",
+    address_english: "Visit the Barun Pharmacy"
   },
   {
     solo: true,
@@ -590,7 +645,8 @@ var position = [
     full: "의성 확진자",
     address: "김동준 한우-저녁식사(18:00~19:40)",
     latlng: "36.300929, 128.583041",
-    address_name: "경북 의성군 봉양면"
+    address_name: "경북 의성군 봉양면",
+    address_english: "Kim Dong-joon Korean Beef-Dinner (18:00-19:40)"
   },
   {
     solo: true,
@@ -602,7 +658,8 @@ var position = [
     full: "춘천 확진자",
     address: "춘천 고속버스 터미널 방문(14:00)",
     latlng: "37.864705, 127.717515",
-    address_name: "강원 춘천시 강남동"
+    address_name: "강원 춘천시 강남동",
+    address_english: "Visit Chuncheon Express Bus Terminal (14:00)"
   },
   {
     solo: true,
@@ -614,7 +671,8 @@ var position = [
     full: "수원 확진자",
     address: "광교 참누리 레이크 아파트 귀가",
     latlng: "37.290972, 127.072968",
-    address_name: "경기 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동",
+    address_english: "Return to Gwanggyo Chamnuri Lake Apartment"
   },
   {
     solo: true,
@@ -626,7 +684,8 @@ var position = [
     full: "의성 확진자",
     address: "경북의원 방문(10:00)",
     latlng: "36.35133, 128.696059",
-    address_name: "경북 의성군 의성읍"
+    address_name: "경북 의성군 의성읍",
+    address_english: "Visit Kyungbuk National Assembly (10:00)"
   },
   {
     solo: true,
@@ -638,7 +697,8 @@ var position = [
     full: "경산 확진자",
     address: "세명병원 선별진료소 방문",
     latlng: "35.826304, 128.737349",
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Visit the Selective Care Center at the Three-"
   },
   {
     solo: true,
@@ -650,7 +710,8 @@ var position = [
     full: "춘천 확진자",
     address: "새명동 신천지 센터 방문",
     latlng: "37.827495, 127.764597",
-    address_name: "강원 춘천시 동내면"
+    address_name: "강원 춘천시 동내면",
+    address_english: "Visit the Sincheonji Center in Saemyeong-dong"
   },
   {
     solo: true,
@@ -662,7 +723,8 @@ var position = [
     full: "문경 확진자",
     address: "점촌하나로마트(화장실만 이용) (14:00)",
     latlng: "36.6017471, 128.2049427",
-    address_name: "경북 문경시 점촌3동"
+    address_name: "경북 문경시 점촌3동",
+    address_english: "Junchon Haroro Mart (Using Restroom Only) (14:00)"
   },
   {
     solo: true,
@@ -674,7 +736,8 @@ var position = [
     full: "경산 확진자",
     address: "최용식 이비인후과의원",
     latlng: "35.822963214424306, 128.7217301280384",
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english: "Choi Yong-sik, an ENT doctor"
   },
   {
     solo: true,
@@ -686,7 +749,8 @@ var position = [
     full: "의성 확진자",
     address: "김동준 한우-저녁식사(18:00~19:40)",
     latlng: "36.300929, 128.583041",
-    address_name: "경북 의성군 봉양면"
+    address_name: "경북 의성군 봉양면",
+    address_english: "Kim Dong-joon Korean Beef-Dinner (18:00-19:40)"
   },
   {
     solo: true,
@@ -698,7 +762,8 @@ var position = [
     full: "경산 확진자",
     address: "홈마트 옥산점",
     latlng: "35.8189299793717, 128.7232229663764",
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english: "Home Mart Oksan Point"
   },
   {
     solo: true,
@@ -710,7 +775,8 @@ var position = [
     full: "의성 확진자",
     address: "대영목욕탕 방문(17:00)",
     latlng: "36.349524, 128.697745",
-    address_name: "경북 의성군 의성읍"
+    address_name: "경북 의성군 의성읍",
+    address_english: "Visit the British Bathhouse (17:00)"
   },
   {
     profile: "-",
@@ -722,7 +788,9 @@ var position = [
     address: "청주시 상당구 금천동 문구점 방문",
     latlng: "36.628274, 127.507736",
     solo: true,
-    address_name: "충북 청주시 상당구 금천동"
+    address_name: "충북 청주시 상당구 금천동",
+    address_english:
+      "Visit the stationery store in Geumcheon-dong, Daehang-gu, Cheongju"
   },
   {
     solo: true,
@@ -734,7 +802,8 @@ var position = [
     full: "경산 확진자",
     address: "참조은 이비인후과의원",
     latlng: "35.91360714738991, 128.8191337715366",
-    address_name: "경북 경산시 하양읍"
+    address_name: "경북 경산시 하양읍",
+    address_english: "Reference is made to the ENT doctor."
   },
   {
     solo: true,
@@ -746,7 +815,9 @@ var position = [
     full: "의성 확진자",
     address: "풍산 설화맥적 식당-산악회 점심식사(13:00~14:00)",
     latlng: "36.5778, 128.573876",
-    address_name: "경북 안동시 풍산읍"
+    address_name: "경북 안동시 풍산읍",
+    address_english:
+      "Poongsan Sulwhasoo Restaurant-Lunch for Mountain Accompany (13:00-14:00)"
   },
   {
     solo: true,
@@ -758,7 +829,8 @@ var position = [
     full: "부산 확진자",
     address: "투썸플레이스 부산광안역점",
     latlng: "35.15744093195745, 129.11342758817509",
-    address_name: "부산 수영구 광안2동"
+    address_name: "부산 수영구 광안2동",
+    address_english: "Twosome Place Busan Gwangan Station"
   },
   {
     solo: true,
@@ -770,7 +842,8 @@ var position = [
     full: "의성 확진자",
     address: "의성군보건소 방문/검진(14:30)",
     latlng: "36.346136, 128.697437",
-    address_name: "경북 의성군 의성읍"
+    address_name: "경북 의성군 의성읍",
+    address_english: "Visiting/Checking at Uiseong County Health Center (14:30)"
   },
   {
     solo: true,
@@ -782,7 +855,8 @@ var position = [
     full: "경산 확진자",
     address: "명보온누리약국",
     latlng: "35.82299931191259, 128.72172648194044",
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english: "Myungbo Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -794,7 +868,8 @@ var position = [
     full: "울산 확진자",
     address: "삼호약국",
     latlng: "35.552648, 129.26884",
-    address_name: "울산 남구 삼호동"
+    address_name: "울산 남구 삼호동",
+    address_english: "Samho Pharmacy"
   },
   {
     solo: true,
@@ -806,7 +881,8 @@ var position = [
     full: "경산 확진자",
     address: "매스커피 영남대점 방문",
     latlng: "35.836626, 128.753069",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visit Yeungnam Grand Store for Mass Coffee"
   },
   {
     solo: true,
@@ -818,7 +894,8 @@ var position = [
     full: "의성 확진자",
     address: "주광식당 식사 포장(18:30)",
     latlng: "36.350037, 128.697397",
-    address_name: "경북 의성군 의성읍"
+    address_name: "경북 의성군 의성읍",
+    address_english: "Dining Packaging at Jugwang Restaurant (18:30)"
   },
   {
     solo: true,
@@ -830,7 +907,8 @@ var position = [
     full: "경산 확진자",
     address: "국민약국",
     latlng: "35.91357418189389, 128.81916846333357",
-    address_name: "경북 경산시 하양읍"
+    address_name: "경북 경산시 하양읍",
+    address_english: "National Pharmacy"
   },
   {
     solo: true,
@@ -842,7 +920,8 @@ var position = [
     full: "울산 확진자",
     address: "울산 중구보건소",
     latlng: "35.56953499455542, 129.35040542542728",
-    address_name: "울산 중구 병영1동"
+    address_name: "울산 중구 병영1동",
+    address_english: "Jung-gu Health Center in Ulsan"
   },
   {
     solo: true,
@@ -854,7 +933,8 @@ var position = [
     full: "경산 확진자",
     address: "청해수산 방문",
     latlng: "35.827824, 128.725854",
-    address_name: "경북 경산시 서부2동"
+    address_name: "경북 경산시 서부2동",
+    address_english: "Cheonghae Fisheries Visit"
   },
   {
     solo: true,
@@ -866,7 +946,8 @@ var position = [
     full: "이천 확진자",
     address: "음성설렁탕",
     latlng: "36.97347969860879, 127.48293142101998",
-    address_name: "충북 음성군 대소면"
+    address_name: "충북 음성군 대소면",
+    address_english: "voice seolleongtang"
   },
   {
     solo: true,
@@ -878,7 +959,8 @@ var position = [
     full: "경산 확진자",
     address: "대학사진관 방문",
     latlng: "35.837139, 128.754148",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visit the University Photo Gallery"
   },
   {
     solo: true,
@@ -890,7 +972,8 @@ var position = [
     full: "수원 확진자",
     address: "도쿄등심에서 저녁식사(18:00경)",
     latlng: "37.274512, 127.062579",
-    address_name: "경기 수원시 영통구 원천동"
+    address_name: "경기 수원시 영통구 원천동",
+    address_english: "Dinner at Tokyo Sirloin (18:00)"
   },
   {
     solo: true,
@@ -902,7 +985,8 @@ var position = [
     full: "울산 확진자",
     address: "대봉초 방문",
     latlng: "35.851147, 128.605178",
-    address_name: "대구 남구 이천동"
+    address_name: "대구 남구 이천동",
+    address_english: "a visit to Daebongcho"
   },
   {
     solo: true,
@@ -914,7 +998,8 @@ var position = [
     full: "울산 확진자",
     address: "좋은삼정병원 선별진료소",
     latlng: "35.55282542977111, 129.26899908489065",
-    address_name: "울산 남구 삼호동"
+    address_name: "울산 남구 삼호동",
+    address_english: "Good Samjeong Hospital Selective Care Center"
   },
   {
     solo: true,
@@ -926,7 +1011,9 @@ var position = [
     full: "서울 확진자",
     address: "삼성 디지털프라자 서초점 2층(방역조치 완료)",
     latlng: "37.488448, 127.028689",
-    address_name: "서울 서초구 서초2동"
+    address_name: "서울 서초구 서초2동",
+    address_english:
+      "2nd floor of Samsung Digital Plaza Seocho-dong (Instructed)"
   },
   {
     profile: "-",
@@ -938,7 +1025,8 @@ var position = [
     address: "양분식 방문",
     latlng: "37.44415, 129.163383",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a bifurcated visit"
   },
   {
     solo: true,
@@ -950,7 +1038,8 @@ var position = [
     full: "김해 확진자",
     address: "장유율하 돈토리식당",
     latlng: "35.1766241640059, 128.80647609006255",
-    address_name: "경남 김해시 장유3동"
+    address_name: "경남 김해시 장유3동",
+    address_english: "Jang Yu-ha Dontori Restaurant"
   },
   {
     solo: true,
@@ -962,7 +1051,8 @@ var position = [
     full: "인천 확진자",
     address: "동대구역",
     latlng: "35.879323993179504, 128.62839377538825",
-    address_name: "대구 동구 신암4동"
+    address_name: "대구 동구 신암4동",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -974,7 +1064,8 @@ var position = [
     full: "울산 확진자",
     address: "좋은삼정병원 방문",
     latlng: "35.553004, 129.269037",
-    address_name: "울산 남구 삼호동"
+    address_name: "울산 남구 삼호동",
+    address_english: "Visit Good Samjeong Hospital"
   },
   {
     solo: true,
@@ -986,7 +1077,8 @@ var position = [
     full: "부천 확진자",
     address: "군자생선구이",
     latlng: "37.390893926367106, 126.804562164648",
-    address_name: "경기 시흥시 연성동"
+    address_name: "경기 시흥시 연성동",
+    address_english: "Grilled Goon"
   },
   {
     solo: true,
@@ -998,7 +1090,8 @@ var position = [
     full: "인천 확진자",
     address: "부평5동주민센터",
     latlng: "37.493638952611185, 126.728323233836",
-    address_name: "인천 부평구 부평5동"
+    address_name: "인천 부평구 부평5동",
+    address_english: "Bupyeong Five East Community Center"
   },
   {
     profile: "-",
@@ -1010,7 +1103,8 @@ var position = [
     address: "모닝캄 방문",
     latlng: "37.442638, 129.164561",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a morning visit"
   },
   {
     solo: true,
@@ -1022,7 +1116,8 @@ var position = [
     full: "울산 확진자",
     address: "태화로터리에서 시외버스 탑승",
     latlng: "35.54909094925481, 129.30812299649892",
-    address_name: "울산 남구 신정3동"
+    address_name: "울산 남구 신정3동",
+    address_english: "Get on the intercity bus from Taehwa-ri."
   },
   {
     solo: true,
@@ -1034,7 +1129,8 @@ var position = [
     full: "김해 확진자",
     address: "스테이락볼링장",
     latlng: "35.19468929096411, 128.80033282853657",
-    address_name: "경남 김해시 장유2동"
+    address_name: "경남 김해시 장유2동",
+    address_english: "Stallac Bowling Ground"
   },
   {
     solo: true,
@@ -1046,7 +1142,8 @@ var position = [
     full: "포천 확진자",
     address: "메가커피 연천전곡점 방문",
     latlng: "38.026251187345494, 127.06833623691",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "Visit Mega Coffee Yeoncheon Full Curve"
   },
   {
     solo: true,
@@ -1058,7 +1155,8 @@ var position = [
     full: "부산 확진자",
     address: "투썸플레이스 부산광안역점 (2/20)",
     latlng: "35.15744093195745, 129.11342758817509",
-    address_name: "부산 수영구 광안2동"
+    address_name: "부산 수영구 광안2동",
+    address_english: "Twosome Place Busan Gwangan Station (2/20)"
   },
   {
     solo: true,
@@ -1070,7 +1168,8 @@ var position = [
     full: "대전 확진자",
     address: "대전 음식점 방문",
     latlng: "36.397808, 127.355314",
-    address_name: "대전 유성구 신성동"
+    address_name: "대전 유성구 신성동",
+    address_english: "a visit to a Daejeon restaurant"
   },
   {
     solo: true,
@@ -1082,7 +1181,8 @@ var position = [
     full: "대구 확진자",
     address: "포스마트 영남대학점",
     latlng: "35.8383184281012, 128.75634681953446",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Posmart Youngnam University"
   },
   {
     solo: true,
@@ -1094,7 +1194,8 @@ var position = [
     full: "대구 확진자",
     address: "자인초등학교",
     latlng: "35.8212290604591, 128.8243564139486",
-    address_name: "경북 경산시 자인면"
+    address_name: "경북 경산시 자인면",
+    address_english: "Jain Elementary School"
   },
   {
     profile: "-",
@@ -1106,7 +1207,8 @@ var position = [
     address: "강릉의료원 이송",
     latlng: "37.749212, 128.888693",
     solo: true,
-    address_name: "강원 강릉시 중앙동"
+    address_name: "강원 강릉시 중앙동",
+    address_english: "Transfer to Gangneung Medical Center"
   },
   {
     solo: true,
@@ -1118,7 +1220,8 @@ var position = [
     full: "영천 확진자",
     address: "랜드로바 영천점 방문",
     latlng: "35.9632543912451, 128.93610812934787",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "Visit the Landlova Youngcheon Branch"
   },
   {
     solo: true,
@@ -1130,7 +1233,8 @@ var position = [
     full: "대구 확진자",
     address: "파리바게뜨 시지아레나점",
     latlng: "35.840316496684714, 128.70516031667842",
-    address_name: "대구 수성구 고산1동"
+    address_name: "대구 수성구 고산1동",
+    address_english: "Paris Baguette Shijiarena branch"
   },
   {
     solo: true,
@@ -1142,7 +1246,8 @@ var position = [
     full: "대구 확진자",
     address: "CU 영대경산점",
     latlng: "35.83838300826918, 128.75642903073853",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "CU Zero-Grade Scatter"
   },
   {
     solo: true,
@@ -1154,7 +1259,8 @@ var position = [
     full: "대구 확진자",
     address: "영미디지털스튜디오",
     latlng: "35.81908087490171, 128.82292646753058",
-    address_name: "경북 경산시 자인면"
+    address_name: "경북 경산시 자인면",
+    address_english: "Youngmi Digital Studio"
   },
   {
     solo: true,
@@ -1166,7 +1272,8 @@ var position = [
     full: "포천 확진자",
     address: "전곡 블루가이 미용실에서 이발",
     latlng: "38.024958, 127.068072",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "a haircut in a blue-gay salon"
   },
   {
     solo: true,
@@ -1178,7 +1285,8 @@ var position = [
     full: "울산 확진자",
     address: "제일내과의원 방문",
     latlng: "35.839113, 128.575191",
-    address_name: "대구 남구 대명9동"
+    address_name: "대구 남구 대명9동",
+    address_english: "Visit First Clinic"
   },
   {
     solo: true,
@@ -1190,7 +1298,8 @@ var position = [
     full: "부천 확진자",
     address: "시흥경찰서",
     latlng: "37.3767915755216, 126.788083138307",
-    address_name: "경기 시흥시 장곡동"
+    address_name: "경기 시흥시 장곡동",
+    address_english: "Siheung Police Station"
   },
   {
     solo: true,
@@ -1202,7 +1311,8 @@ var position = [
     full: "부산 확진자",
     address: "동래구 보건소 방문",
     latlng: "35.21141202010109, 129.07985303660647",
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a health center in Dongnae-gu"
   },
   {
     solo: true,
@@ -1214,7 +1324,8 @@ var position = [
     full: "부산 확진자",
     address: "미풍해장국 (나주혁신점) 방문",
     latlng: "35.020324307803, 126.791216107466",
-    address_name: "전남 나주시 빛가람동"
+    address_name: "전남 나주시 빛가람동",
+    address_english: "Visit to the U.S.Pung Haejangguk (Naju Innovation Store)"
   },
   {
     solo: true,
@@ -1226,7 +1337,8 @@ var position = [
     full: "광진구 확진자",
     address: "영 모네중식 방문",
     latlng: "37.558112, 127.079373",
-    address_name: "서울 광진구 중곡1동"
+    address_name: "서울 광진구 중곡1동",
+    address_english: "Young Monet Chinese Visit"
   },
   {
     solo: true,
@@ -1238,7 +1350,8 @@ var position = [
     full: "부산 확진자",
     address: "삼성서울내과 방문",
     latlng: "35.198585597593485, 129.057355904131",
-    address_name: "부산 동래구 사직2동"
+    address_name: "부산 동래구 사직2동",
+    address_english: "Visit Samsung Medical Center"
   },
   {
     solo: true,
@@ -1250,7 +1363,8 @@ var position = [
     full: "대구 확진자",
     address: "소루 경산사동점",
     latlng: "35.8122871887642, 128.75557409209645",
-    address_name: "경북 경산시 동부동"
+    address_name: "경북 경산시 동부동",
+    address_english: "Soru Gyeongsan Sa-dong Branch"
   },
   {
     solo: true,
@@ -1262,7 +1376,8 @@ var position = [
     full: "김해 확진자",
     address: "박영진의원(2/18,20)",
     latlng: "35.2385307073672, 128.91555075705287",
-    address_name: "경남 김해시 삼안동"
+    address_name: "경남 김해시 삼안동",
+    address_english: "Park Young-jin (2/18,20)"
   },
   {
     solo: true,
@@ -1274,7 +1389,8 @@ var position = [
     full: "김해 확진자",
     address: "해운대여자중학교(2/17,18)",
     latlng: "35.16830460022331, 129.15366056343984",
-    address_name: "부산 해운대구 우1동"
+    address_name: "부산 해운대구 우1동",
+    address_english: "Haeundae Girls' Middle School (2/17,18)"
   },
   {
     solo: true,
@@ -1286,7 +1402,8 @@ var position = [
     full: "김해 확진자",
     address: "돈토리",
     latlng: "35.1766241640059, 128.80647609006255",
-    address_name: "경남 김해시 장유3동"
+    address_name: "경남 김해시 장유3동",
+    address_english: "Dontori"
   },
   {
     solo: true,
@@ -1298,7 +1415,9 @@ var position = [
     full: "김해 확진자",
     address: "NC백화점 서면점 1층 로이드",
     latlng: "35.15716439259075, 129.06325245873808",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english:
+      "Lloyd on the first floor of Seomyeon branch of NC Department Store"
   },
   {
     solo: true,
@@ -1310,7 +1429,8 @@ var position = [
     full: "김해 확진자",
     address: "부산 구포시장",
     latlng: "35.209249258830205, 129.00357032807014",
-    address_name: "부산 북구 구포1동"
+    address_name: "부산 북구 구포1동",
+    address_english: "Gupo Market in Busan"
   },
   {
     solo: true,
@@ -1322,7 +1442,8 @@ var position = [
     full: "충주 확진자",
     address: "엄정 애린어린이집 방문",
     latlng: "37.097639, 127.933087",
-    address_name: "충북 충주시 엄정면"
+    address_name: "충북 충주시 엄정면",
+    address_english: "a strict visit to the Arin Children's."
   },
   {
     solo: true,
@@ -1334,7 +1455,8 @@ var position = [
     full: "합천 확진자",
     address: "정통닭칼국수 고령점",
     latlng: "35.72981697649501, 128.26812755502903",
-    address_name: "경북 고령군 대가야읍"
+    address_name: "경북 고령군 대가야읍",
+    address_english: "the advanced age of chicken noodle soup"
   },
   {
     solo: true,
@@ -1346,7 +1468,8 @@ var position = [
     full: "부천 확진자",
     address: "하나로마트 광명 농협 가리대점",
     latlng: "37.448312431419, 126.882327647416",
-    address_name: "경기 광명시 소하1동"
+    address_name: "경기 광명시 소하1동",
+    address_english: "Hanarotelecom's Gwangmyeong Nonghyup Garage"
   },
   {
     solo: true,
@@ -1358,7 +1481,8 @@ var position = [
     full: "부산 확진자",
     address: "한국인터넷진흥원 방문",
     latlng: "35.01846344368172, 126.79520252378528",
-    address_name: "전남 나주시 빛가람동"
+    address_name: "전남 나주시 빛가람동",
+    address_english: "Visit Korea Internet & Security Agency"
   },
   {
     solo: true,
@@ -1370,7 +1494,8 @@ var position = [
     full: "충주 확진자",
     address: "충주의료원 음압병실 입원",
     latlng: "36.97957909864063, 127.97035088896845",
-    address_name: "충북 충주시 교현.안림동"
+    address_name: "충북 충주시 교현.안림동",
+    address_english: "Admission to Chungju Medical Center"
   },
   {
     solo: true,
@@ -1382,7 +1507,8 @@ var position = [
     full: "영천 확진자",
     address: "완산약국 방문",
     latlng: "35.9635647407414, 128.93608467315386",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "a visit to Wanshan Pharmacy"
   },
   {
     solo: true,
@@ -1394,7 +1520,8 @@ var position = [
     full: "김해 확진자",
     address: "양산부산대학교병원",
     latlng: "35.32782130499471, 129.00588591265415",
-    address_name: "경남 양산시 물금읍"
+    address_name: "경남 양산시 물금읍",
+    address_english: "Yangsan Pusan National University Hospital"
   },
   {
     solo: true,
@@ -1406,7 +1533,8 @@ var position = [
     full: "김해 확진자",
     address: "일운면 쌤김밥",
     latlng: "34.829590963483376, 128.70372783123926",
-    address_name: "경남 거제시 일운면"
+    address_name: "경남 거제시 일운면",
+    address_english: "Ilunmyun Sam Gimbap"
   },
   {
     solo: true,
@@ -1418,7 +1546,8 @@ var position = [
     full: "김해 확진자",
     address: "부산 대저역 하차,승차(2/17,18,19)",
     latlng: "35.2133137085415, 128.96097294928197",
-    address_name: "부산 강서구 대저1동"
+    address_name: "부산 강서구 대저1동",
+    address_english: "Exit and Exit from Daejeo Station in Busan (2/17,18,19)"
   },
   {
     solo: true,
@@ -1430,7 +1559,8 @@ var position = [
     full: "김해 확진자",
     address: "복있는치과의원",
     latlng: "35.21072481613721, 129.07684012905645",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "a blessed dentist"
   },
   {
     solo: true,
@@ -1442,7 +1572,8 @@ var position = [
     full: "김해 확진자",
     address: "아빠와돈까스",
     latlng: "35.2075966429643, 129.07322936891845",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "Dad and pork cutlet"
   },
   {
     solo: true,
@@ -1454,7 +1585,8 @@ var position = [
     full: "김해 확진자",
     address: "서면역 부산1호선(2/17,18,19)",
     latlng: "35.157939062512, 129.05930088354637",
-    address_name: "부산 부산진구 부전1동"
+    address_name: "부산 부산진구 부전1동",
+    address_english: "Seomyeon Station Busan Line 1 (2/17,18,19)"
   },
   {
     solo: true,
@@ -1466,7 +1598,8 @@ var position = [
     full: "김해 확진자",
     address: "110번 버스 부산전자공업고등학교",
     latlng: "35.21534437587001, 129.07356698119946",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Bus No.110 Busan Electronics Technical High School"
   },
   {
     solo: true,
@@ -1478,7 +1611,8 @@ var position = [
     full: "김해 확진자",
     address: "전포역 지하철 탑승",
     latlng: "35.153088142664124, 129.06538457863138",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english: "Take the subway at Jeonpo Station"
   },
   {
     solo: true,
@@ -1490,7 +1624,8 @@ var position = [
     full: "김해 확진자",
     address: "온천교회",
     latlng: "35.215981775340005, 129.07717612406245",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "hot spring church"
   },
   {
     month: 1,
@@ -1503,7 +1638,8 @@ var position = [
     profile: "-",
     name: "4번째 확진자",
     full: "4번째 확진자",
-    address_name: "경기 평택시 중앙동"
+    address_name: "경기 평택시 중앙동",
+    address_english: "Home of 365th Congressman Pyungtaek from 21st to 25th"
   },
   {
     profile: "-",
@@ -1515,7 +1651,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "Kim In-hwan Medical Center Rep."
   },
   {
     memo:
@@ -1530,7 +1667,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 종로구 창신1동"
+    address_name: "서울 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -1543,7 +1682,9 @@ var position = [
     solo: true,
     name: "35번째 확진자",
     full: "35번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -1556,7 +1697,9 @@ var position = [
     solo: true,
     name: "32번째 확진자",
     full: "32번째 확진자",
-    address_name: "경기 성남시 분당구 구미동"
+    address_name: "경기 성남시 분당구 구미동",
+    address_english:
+      "Bundang Seoul National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -1571,7 +1714,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 종로구 숭인2동"
+    address_name: "서울 종로구 숭인2동",
+    address_english: "Arrival at Dongmyo Station (14:58-16:14)"
   },
   {
     solo: true,
@@ -1583,7 +1727,8 @@ var position = [
     full: "김해 확진자",
     address: "스카이라인루지 통영",
     latlng: "34.824374746340986, 128.4241464930771",
-    address_name: "경남 통영시 봉평동"
+    address_name: "경남 통영시 봉평동",
+    address_english: "Skyline Luge Tongyeong"
   },
   {
     profile: "-",
@@ -1596,7 +1741,9 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 사근동"
+    address_name: "서울 성동구 사근동",
+    address_english:
+      "Final training at Hanyang University Hospital Selective Care Center"
   },
   {
     memo:
@@ -1611,7 +1758,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 성수2가1동"
+    address_name: "서울 성동구 성수2가1동",
+    address_english: "Visit E-Mart's Seongsu branch"
   },
   {
     profile: "-",
@@ -1624,7 +1772,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "Kim In-hwan Medical Clinic"
   },
   {
     profile: "-",
@@ -1637,7 +1786,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울 종로구 숭인2동"
+    address_name: "서울 종로구 숭인2동",
+    address_english:
+      "Visit the café (Dongmyo Station in Starbucks) located in Jongno-gu"
   },
   {
     solo: true,
@@ -1649,7 +1800,8 @@ var position = [
     full: "김해 확진자",
     address: "서면 피자집 도우개러지",
     latlng: "35.15734582681171, 129.0647153473864",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english: "Seomyeon Pizza House's Help Garage"
   },
   {
     profile: "-",
@@ -1662,7 +1814,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     solo: true,
@@ -1674,7 +1827,8 @@ var position = [
     full: "김해 확진자",
     address: "고복 샤브샤브 서면점",
     latlng: "35.15509835931101, 129.0620689933964",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english: "Gobok Shabu Shabu Station"
   },
   {
     profile: "-",
@@ -1687,7 +1841,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 종로구 이화동"
+    address_name: "서울 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -1700,7 +1856,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 수성구 범어4동"
+    address_name: "대구 수성구 범어4동",
+    address_english:
+      "Outpatient treatment at Daegu Medical Center (Saeronan Oriental Medicine Hospital)"
   },
   {
     memo:
@@ -1715,7 +1873,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기 양주시 회천1동"
+    address_name: "경기 양주시 회천1동",
+    address_english: "Departure from Deokjeong Station"
   },
   {
     profile: "-",
@@ -1728,7 +1887,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울 종로구 숭인1동"
+    address_name: "서울 종로구 숭인1동",
+    address_english:
+      "Visit Pharmacy (Donggol Onnuri Pharmacy) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -1741,7 +1902,9 @@ var position = [
     solo: true,
     name: "42번째 확진자",
     full: "42번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -1754,7 +1917,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Donggu Material C Club Job Report"
   },
   {
     profile: "-",
@@ -1766,7 +1930,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 사근동"
+    address_name: "서울 성동구 사근동",
+    address_english: "Phobos Enterix Visit Hanyang University"
   },
   {
     profile: "-",
@@ -1776,7 +1941,8 @@ var position = [
     address: "포항의료원 격리",
     latlng: "36.034762, 129.355059",
     solo: true,
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english: "Pohang Medical Center Isolation"
   },
   {
     profile: "-",
@@ -1789,7 +1955,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 금호읍"
+    address_name: "경북 영천시 금호읍",
+    address_english: "Medical treatment of Kumho Medical Center in Yeongcheon"
   },
   {
     profile: "-",
@@ -1802,7 +1969,8 @@ var position = [
     address: "대구서부터미널에서 포항으로 이동(12:50)",
     latlng: "35.83678, 128.55786",
     solo: true,
-    address_name: "대구 남구 대명11동"
+    address_name: "대구 남구 대명11동",
+    address_english: "From Daegu Station to Pohang (12:50)"
   },
   {
     profile: "-",
@@ -1814,7 +1982,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Arrived at Home (15:30)"
   },
   {
     profile: "-",
@@ -1827,7 +1996,9 @@ var position = [
     solo: true,
     name: "65번째 확진자",
     full: "65번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -1840,7 +2011,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울 종로구 이화동"
+    address_name: "서울 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -1852,7 +2025,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit the Future Health and Drug Administration (14:44)"
   },
   {
     profile: "-",
@@ -1864,7 +2038,9 @@ var position = [
     solo: true,
     name: "39번째 확진자",
     full: "39번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -1877,7 +2053,8 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기 부천시 대산동"
+    address_name: "경기 부천시 대산동",
+    address_english: "Homecoming after visiting a pharmacy in Bucheon"
   },
   {
     month: 1,
@@ -1890,7 +2067,8 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "강원 강릉시 교2동"
+    address_name: "강원 강릉시 교2동",
+    address_english: "Arrival at Gangneung"
   },
   {
     month: 2,
@@ -1903,7 +2081,9 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주 동구 학동"
+    address_name: "광주 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -1916,7 +2096,8 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기 부천시 대산동"
+    address_name: "경기 부천시 대산동",
+    address_english: "Revisit the Medical Center in Bucheon"
   },
   {
     month: 1,
@@ -1929,7 +2110,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 교문1동"
+    address_name: "경기 구리시 교문1동",
+    address_english:
+      "Hanyang University Emergency Room Visits, Medical Examinations"
   },
   {
     month: 1,
@@ -1942,7 +2125,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 수택3동"
+    address_name: "경기 구리시 수택3동",
+    address_english: "Visit Guri City Mart"
   },
   {
     month: 2,
@@ -1955,7 +2139,9 @@ var position = [
     profile: "-",
     name: "14번째 확진자",
     full: "14번째 확진자",
-    address_name: "경기 성남시 분당구 구미동"
+    address_name: "경기 성남시 분당구 구미동",
+    address_english:
+      "Bundang Seoul National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     solo: true,
@@ -1967,7 +2153,8 @@ var position = [
     full: "파주 확진자",
     address: "풍작플랜지 식당(2/17~2/21)",
     latlng: "37.893414, 126.8715187",
-    address_name: "경기 파주시 법원읍"
+    address_name: "경기 파주시 법원읍",
+    address_english: "Poongak Flange Restaurant (2/17-2/21)"
   },
   {
     solo: true,
@@ -1979,7 +2166,8 @@ var position = [
     full: "안양 확진자",
     address: "죽전휴게소 서울방향",
     latlng: "37.3324026187663, 127.10477675221802",
-    address_name: "경기 용인시 수지구 죽전2동"
+    address_name: "경기 용인시 수지구 죽전2동",
+    address_english: "Toward Seoul of Jukjeon Rest Area"
   },
   {
     solo: true,
@@ -1991,7 +2179,9 @@ var position = [
     full: "충북 증평 육군 확진자",
     address: "코로나19 증평군보건소 선별진료소 확진",
     latlng: "36.77434035626601, 127.586694048414",
-    address_name: "충북 증평군 증평읍"
+    address_name: "충북 증평군 증평읍",
+    address_english:
+      "Corona19 Confirmation of Selective Care Center at Jeungpyeong County Health Center"
   },
   {
     solo: true,
@@ -2003,7 +2193,8 @@ var position = [
     full: "김포 확진자",
     address: "코코이비인후과의원",
     latlng: "37.528819096922106, 126.966652883289",
-    address_name: "서울 용산구 한강로동"
+    address_name: "서울 용산구 한강로동",
+    address_english: "Cocoa Narcotics Clinic"
   },
   {
     solo: true,
@@ -2015,7 +2206,8 @@ var position = [
     full: "충주 확진자",
     address: "롯데마트 충주점",
     latlng: "36.981404935714, 127.91423542994",
-    address_name: "충북 충주시 칠금.금릉동"
+    address_name: "충북 충주시 칠금.금릉동",
+    address_english: "Chungju branch of Lotte Mart"
   },
   {
     solo: true,
@@ -2027,7 +2219,8 @@ var position = [
     full: "안양 확진자",
     address: "지에스테크윈",
     latlng: "37.2294780184202, 127.06567694811201",
-    address_name: "경기 화성시 반월동"
+    address_name: "경기 화성시 반월동",
+    address_english: "Gestekwin"
   },
   {
     month: 1,
@@ -2040,7 +2233,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 수택3동"
+    address_name: "경기 구리시 수택3동",
+    address_english: "Guri's Restaurant Meal"
   },
   {
     solo: true,
@@ -2052,7 +2246,8 @@ var position = [
     full: "합천 확진자",
     address: "합천큰약국 방문",
     latlng: "35.567958, 128.163654",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Hapcheon Big Pharmacy"
   },
   {
     solo: true,
@@ -2064,7 +2259,8 @@ var position = [
     full: "부산 확진자",
     address: "빛가람 호수공원 정류장 (-> 광주송정)",
     latlng: "35.021035, 126.789509",
-    address_name: "전남 나주시 빛가람동"
+    address_name: "전남 나주시 빛가람동",
+    address_english: "Bitgaram Lake Park Station (-> Gwangju Songjeong)"
   },
   {
     solo: true,
@@ -2076,7 +2272,8 @@ var position = [
     full: "부산 확진자",
     address: "갓신 괴정점",
     latlng: "35.09866213079249, 128.99256148256515",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "God's necrotic point"
   },
   {
     solo: true,
@@ -2088,7 +2285,8 @@ var position = [
     full: "충주 확진자",
     address: "연수힐스테이트아파트",
     latlng: "36.98531297713321, 127.94402878613687",
-    address_name: "충북 충주시 연수동"
+    address_name: "충북 충주시 연수동",
+    address_english: "Training Hill State Apartments"
   },
   {
     solo: true,
@@ -2100,7 +2298,8 @@ var position = [
     full: "김포 확진자",
     address: "김포공항역 9호선",
     latlng: "37.5619657741382, 126.80191588831",
-    address_name: "서울 강서구 방화2동"
+    address_name: "서울 강서구 방화2동",
+    address_english: "Gimpo Airport Station Line 9"
   },
   {
     status: "완치",
@@ -2116,7 +2315,8 @@ var position = [
     solo: true,
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     solo: true,
@@ -2128,7 +2328,8 @@ var position = [
     full: "부산 확진자",
     address: "사직자이언츠파크 3pop PC방 방문 ",
     latlng: "35.19616968130391, 129.0611647764842",
-    address_name: "부산 동래구 사직1동"
+    address_name: "부산 동래구 사직1동",
+    address_english: "Visit Sajik Giants Park 3pop PC Room"
   },
   {
     solo: true,
@@ -2140,7 +2341,8 @@ var position = [
     full: "부천 확진자",
     address: "KTX 광명역",
     latlng: "37.416451341811104, 126.88480397548899",
-    address_name: "경기 광명시 소하2동"
+    address_name: "경기 광명시 소하2동",
+    address_english: "KTX Gwangmyeong Station"
   },
   {
     solo: true,
@@ -2152,7 +2354,8 @@ var position = [
     full: "이천 확진자",
     address: "엄마밥차",
     latlng: "37.11903298806259, 127.63109225348101",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "Mom's food truck"
   },
   {
     solo: true,
@@ -2164,7 +2367,8 @@ var position = [
     full: "합천 확진자",
     address: "정통닭칼국수 고령점",
     latlng: "35.72981697649501, 128.26812755502903",
-    address_name: "경북 고령군 대가야읍"
+    address_name: "경북 고령군 대가야읍",
+    address_english: "the advanced age of chicken noodle soup"
   },
   {
     solo: true,
@@ -2176,7 +2380,8 @@ var position = [
     full: "부산 확진자",
     address: "리얼야구존 하단동점",
     latlng: "35.108835410639394, 128.96714286487003",
-    address_name: "부산 사하구 하단2동"
+    address_name: "부산 사하구 하단2동",
+    address_english: "Real Baseball Zone Bottom Dongji"
   },
   {
     solo: true,
@@ -2188,7 +2393,8 @@ var position = [
     full: "합천 확진자",
     address: "계명문화대학교 기숙사",
     latlng: "35.86026006021729, 128.49093317437047",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english: "Keimyung Culture University dormitory"
   },
   {
     solo: true,
@@ -2200,7 +2406,8 @@ var position = [
     full: "부산 확진자",
     address: "미풍해장국 나주혁신점",
     latlng: "35.0183097, 126.7908682, 17",
-    address_name: "전남 나주시 빛가람동"
+    address_name: "전남 나주시 빛가람동",
+    address_english: "Naju Innovation Point of Mi Poonghae Province"
   },
   {
     solo: true,
@@ -2212,7 +2419,9 @@ var position = [
     full: "부산 확진자",
     address: "세븐스타코인 노래연습장 서면점 방문",
     latlng: "35.155517700191425, 129.0607277405474",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english:
+      "Visit Seomyeon branch of 7-Starcoin Singing Practice Center"
   },
   {
     solo: true,
@@ -2224,7 +2433,8 @@ var position = [
     full: "부산 확진자",
     address: "롯데마트 동래점 방문",
     latlng: "35.21221772522561, 129.07722514295546",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "Visit Lotte Mart's Dongnae branch"
   },
   {
     solo: true,
@@ -2236,7 +2446,8 @@ var position = [
     full: "이천 확진자",
     address: "청미천 근무",
     latlng: "37.088738121826985, 127.59098921804299",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "Cheongmi Stream Service"
   },
   {
     solo: true,
@@ -2248,7 +2459,9 @@ var position = [
     full: "영천 확진자",
     address: "영남대학교 영천병원 응급실 (19시 49분~19시 57분)",
     latlng: "35.95736, 128.913157",
-    address_name: "경북 영천시 서부동"
+    address_name: "경북 영천시 서부동",
+    address_english:
+      "Emergency Room of Yeongcheon Hospital at Yeungnam University (19:49-1957)"
   },
   {
     solo: true,
@@ -2260,7 +2473,8 @@ var position = [
     full: "부산 확진자",
     address: "도리마리 본점 방문",
     latlng: "35.22109014910189, 129.0846320926265",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "a visit to Dorimari's main office"
   },
   {
     solo: true,
@@ -2272,7 +2486,8 @@ var position = [
     full: "안동 확진자",
     address: "북문동 할매보리밥 (2/18)",
     latlng: "36.569938, 128.7293195",
-    address_name: "경북 안동시 명륜동"
+    address_name: "경북 안동시 명륜동",
+    address_english: "Granny Barley Rice (2/18) in Bukmun-dong"
   },
   {
     solo: true,
@@ -2284,7 +2499,8 @@ var position = [
     full: "포천 확진자",
     address: "경기의료원 포천병원",
     latlng: "37.90326330517421, 127.198317737577",
-    address_name: "경기 포천시 포천동"
+    address_name: "경기 포천시 포천동",
+    address_english: "Gyeonggi Medical Center Pocheon Hospital"
   },
   {
     solo: true,
@@ -2296,7 +2512,8 @@ var position = [
     full: "부산 확진자",
     address: "세인약국",
     latlng: "35.0995495296311, 128.98988999044911",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "Sein Pharmacy"
   },
   {
     solo: true,
@@ -2308,7 +2525,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 연제구보건소 선별진료소 방문",
     latlng: "35.17683141439141, 129.07910319217947",
-    address_name: "부산 연제구 연산2동"
+    address_name: "부산 연제구 연산2동",
+    address_english:
+      "Corona19 Visit the Selective Care Center at the Lotus District Health Center"
   },
   {
     solo: true,
@@ -2320,7 +2539,8 @@ var position = [
     full: "창원 확진자",
     address: "k-1 1호점 PC방(15:00)",
     latlng: "35.217606, 128.68463",
-    address_name: "경남 창원시 성산구 상남동"
+    address_name: "경남 창원시 성산구 상남동",
+    address_english: "k-1 1st store PC room (15:00)"
   },
   {
     solo: true,
@@ -2332,7 +2552,8 @@ var position = [
     full: "성남 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Myeongji Hospital Isolation"
   },
   {
     solo: true,
@@ -2344,7 +2565,8 @@ var position = [
     full: "합천 확진자",
     address: "경남 마산의료원",
     latlng: "35.19917138155086, 128.565560620545",
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english: "Masan Medical Center, Gyeongnam Province"
   },
   {
     solo: true,
@@ -2356,7 +2578,8 @@ var position = [
     full: "합천 확진자",
     address: "이마트24 RS동대구역점",
     latlng: "35.8774317000986, 128.62732308767028",
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "E-Mart24 RS-Dongdae District Store"
   },
   {
     solo: true,
@@ -2368,7 +2591,8 @@ var position = [
     full: "합천 확진자",
     address: "웰크레페 동성로점",
     latlng: "35.866771532163696, 128.59681934329222",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "Welkrepe Dongseongno Branch"
   },
   {
     solo: true,
@@ -2380,7 +2604,8 @@ var position = [
     full: "포천 확진자",
     address: "큰손원조할매순대국 전곡점",
     latlng: "38.02569181414809, 127.06816146129502",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "Big Sowon Halmaedaeguk's Whole Grain"
   },
   {
     solo: true,
@@ -2392,7 +2617,9 @@ var position = [
     full: "영천 확진자",
     address: "새영천경대연합정형외과 (2/17 10:40 ~ 14:00)",
     latlng: "35.963652, 128.936691",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english:
+      "Saeyeongcheon Gyeongdae United Orthopedic Surgery (2/17 10:40 ~ 14:00)"
   },
   {
     solo: true,
@@ -2404,7 +2631,9 @@ var position = [
     full: "서울 확진자",
     address: "롯데백화점 영등포점 식품관 방문 (2/19 15:00경 부터 30분)",
     latlng: "37.515943, 126.907483",
-    address_name: "서울 영등포구 영등포본동"
+    address_name: "서울 영등포구 영등포본동",
+    address_english:
+      "Visit Youngdeungpo Food Hall at Lotte Department Store (2/19 15:00 p.m. to 30 minutes)"
   },
   {
     solo: true,
@@ -2416,7 +2645,8 @@ var position = [
     full: "합천 확진자",
     address: "함안휴게소 화장실(여)",
     latlng: "35.29472855633811, 128.34466059297807",
-    address_name: "경남 함안군 군북면"
+    address_name: "경남 함안군 군북면",
+    address_english: "Haman Rest Area Restroom (Yeo)"
   },
   {
     solo: true,
@@ -2428,7 +2658,8 @@ var position = [
     full: "김포 확진자",
     address: "선유도역 9호선",
     latlng: "37.538156854068006, 126.89333386706899",
-    address_name: "서울 영등포구 양평2동"
+    address_name: "서울 영등포구 양평2동",
+    address_english: "Seonyudo Station Line 9"
   },
   {
     solo: true,
@@ -2440,7 +2671,8 @@ var position = [
     full: "부산 확진자",
     address: "삼진어묵 동래점 방문",
     latlng: "35.211799081316805, 129.07746482467346",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "Visit the Samjin Fishcake Dongnae Branch"
   },
   {
     solo: true,
@@ -2452,7 +2684,8 @@ var position = [
     full: "안양 확진자",
     address: "지리산석유주유소 방문",
     latlng: "37.31803891802031, 127.102076293537",
-    address_name: "경기 용인시 기흥구 보정동"
+    address_name: "경기 용인시 기흥구 보정동",
+    address_english: "Visiting Jiri Mountain Oil Refinery"
   },
   {
     solo: true,
@@ -2464,7 +2697,8 @@ var position = [
     full: "포천 확진자",
     address: "서울역 1호선",
     latlng: "37.555980239632106, 126.972091251236",
-    address_name: "서울 중구 회현동"
+    address_name: "서울 중구 회현동",
+    address_english: "Seoul Station Line 1"
   },
   {
     solo: true,
@@ -2476,7 +2710,8 @@ var position = [
     full: "충주 확진자",
     address: "엄정 애린어린이집 방문",
     latlng: "37.097639, 127.933087",
-    address_name: "충북 충주시 엄정면"
+    address_name: "충북 충주시 엄정면",
+    address_english: "a strict visit to the Arin Children's."
   },
   {
     solo: true,
@@ -2488,7 +2723,8 @@ var position = [
     full: "부산 확진자",
     address: "도담복전문점",
     latlng: "35.09856938178571, 128.99162498776312",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "Dodam-bok Specialist Shop"
   },
   {
     solo: true,
@@ -2500,7 +2736,8 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Myeongji Hospital Isolation"
   },
   {
     solo: true,
@@ -2512,7 +2749,8 @@ var position = [
     full: "충주 확진자",
     address: "충주의료원 음압병실 입원",
     latlng: "36.97957909864063, 127.97035088896845",
-    address_name: "충북 충주시 교현.안림동"
+    address_name: "충북 충주시 교현.안림동",
+    address_english: "Admission to Chungju Medical Center"
   },
   {
     solo: true,
@@ -2524,7 +2762,8 @@ var position = [
     full: "부산 확진자",
     address: "우정 서면2호점 방문",
     latlng: "35.1562060048052, 129.0620091722154",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english: "Friendship Visit 2nd store in Seomyeon"
   },
   {
     solo: true,
@@ -2536,7 +2775,8 @@ var position = [
     full: "창원 확진자",
     address: "굿모닝약국 (2/20,22)",
     latlng: "35.21307609293421, 128.70098176809938",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "Good Morning Pharmacy (2/20,22)"
   },
   {
     solo: true,
@@ -2548,7 +2788,8 @@ var position = [
     full: "부산 확진자",
     address: "부산우리들병원 매점 방문 ",
     latlng: "35.22194092440579, 129.08551591412248",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Visiting the canteen at Busan Udeul Hospital"
   },
   {
     solo: true,
@@ -2560,7 +2801,8 @@ var position = [
     full: "포천 확진자",
     address: "전곡시외버스터미널",
     latlng: "38.02528574643019, 127.06772943358702",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "Jeongok Bus Terminal"
   },
   {
     solo: true,
@@ -2572,7 +2814,8 @@ var position = [
     full: "김포 확진자",
     address: "LS용산타워",
     latlng: "37.5279760820472, 126.96781625386299",
-    address_name: "서울 용산구 한강로동"
+    address_name: "서울 용산구 한강로동",
+    address_english: "LS Yongsan Tower"
   },
   {
     solo: true,
@@ -2584,7 +2827,8 @@ var position = [
     full: "부산 확진자",
     address: "부산지방병무청 방문",
     latlng: "35.1734345402495, 129.10359640653363",
-    address_name: "부산 수영구 망미1동"
+    address_name: "부산 수영구 망미1동",
+    address_english: "Visit Busan Regional Military Manpower Administration"
   },
   {
     solo: true,
@@ -2596,7 +2840,8 @@ var position = [
     full: "청송 확진자",
     address: "고마담치킨 진보점 방문",
     latlng: "36.52883397872731, 129.04532058930724",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visit the Goma-dam-Chicken Progressive Point"
   },
   {
     solo: true,
@@ -2608,7 +2853,8 @@ var position = [
     full: "김포 확진자",
     address: "굿모닝 정형외과 치료 방문",
     latlng: "35.840418, 128.622944",
-    address_name: "대구 수성구 황금2동"
+    address_name: "대구 수성구 황금2동",
+    address_english: "Good morning orthopedic visits"
   },
   {
     solo: true,
@@ -2620,7 +2866,8 @@ var position = [
     full: "합천 확진자",
     address: "코로나19 마산의료원 선별진료소",
     latlng: "35.199171381550805, 128.5655606205452",
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english: "Corona19 Masan Medical Center Screening Care Center"
   },
   {
     profile: "-",
@@ -2632,7 +2879,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit the Future Health and Drug Administration (14:44)"
   },
   {
     profile: "-",
@@ -2645,7 +2893,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -2658,7 +2907,9 @@ var position = [
     solo: true,
     name: "47번째 확진자",
     full: "47번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     solo: true,
@@ -2670,7 +2921,8 @@ var position = [
     full: "안양 확진자",
     address: "근신빌딩 바탕",
     latlng: "37.5390690644966, 126.94735422122199",
-    address_name: "서울 마포구 도화동"
+    address_name: "서울 마포구 도화동",
+    address_english: "Neighborhood Building Background"
   },
   {
     profile: "-",
@@ -2682,7 +2934,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Arrived at Home (15:30)"
   },
   {
     profile: "-",
@@ -2694,7 +2947,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit to Daejam Adelia (1:40)"
   },
   {
     profile: "-",
@@ -2707,7 +2961,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "(55.여.한국)",
@@ -2719,7 +2975,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.829161, 128.73628",
     solo: true,
-    address_name: "경북 경산시 중방동"
+    address_name: "경북 경산시 중방동",
+    address_english: "Visit the Rolling Pin Gyeongsan Branch"
   },
   {
     profile: "(55.여.한국)",
@@ -2731,7 +2988,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.817049, 128.759688",
     solo: true,
-    address_name: "경북 경산시 동부동"
+    address_name: "경북 경산시 동부동",
+    address_english: "a visit to the Gyeongsan tax office"
   },
   {
     profile: "-",
@@ -2744,7 +3002,9 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 중랑구 신내1동"
+    address_name: "서울 중랑구 신내1동",
+    address_english:
+      "Seoul Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "(46.여.한국)",
@@ -2756,7 +3016,8 @@ var position = [
     address: "김천의료원 격리",
     latlng: "36.122683, 128.126468",
     solo: true,
-    address_name: "경북 김천시 자산동"
+    address_name: "경북 김천시 자산동",
+    address_english: "Kimcheon Medical Center Isolation"
   },
   {
     profile: "-",
@@ -2769,7 +3030,9 @@ var position = [
     solo: true,
     name: "34번째 확진자",
     full: "34번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -2781,7 +3044,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 사근동"
+    address_name: "서울 성동구 사근동",
+    address_english: "Phobos Enterix Visit Hanyang University"
   },
   {
     profile: "-",
@@ -2794,7 +3058,9 @@ var position = [
     solo: true,
     name: "36번째 확진자",
     full: "36번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -2809,7 +3075,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 성수2가1동"
+    address_name: "서울 성동구 성수2가1동",
+    address_english: "Visit E-Mart's Seongsu branch"
   },
   {
     memo:
@@ -2824,7 +3091,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 종로구 창신3동"
+    address_name: "서울 종로구 창신3동",
+    address_english: "Changshin Station - Bonghwasan Station Round trip"
   },
   {
     profile: "-",
@@ -2836,7 +3104,8 @@ var position = [
     full: "상주시 확진자",
     latlng: "36.123448, 128.114656",
     solo: true,
-    address_name: "경북 김천시 평화남산동"
+    address_name: "경북 김천시 평화남산동",
+    address_english: "via Gimcheon Station (15:49)"
   },
   {
     profile: "-",
@@ -2849,7 +3118,9 @@ var position = [
     solo: true,
     name: "65번째 확진자",
     full: "65번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -2861,7 +3132,8 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.152283, 126.889923",
     solo: true,
-    address_name: "광주 서구 농성1동"
+    address_name: "광주 서구 농성1동",
+    address_english: "Western Health Care"
   },
   {
     profile: "(59.여.한국)",
@@ -2873,7 +3145,8 @@ var position = [
     full: "경북 예천군 확진자",
     latlng: "37.460459, 126.44068",
     solo: true,
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -2888,7 +3161,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울 중랑구 신내2동"
+    address_name: "서울 중랑구 신내2동",
+    address_english: "Changshin Station - Bonghwasan Station Round trip"
   },
   {
     profile: "(79.여.한국)",
@@ -2901,7 +3175,9 @@ var position = [
     address: "서울의료원 <span style='color:red;'>격리</span>",
     latlng: "37.613102, 127.098658",
     solo: true,
-    address_name: "서울 중랑구 신내1동"
+    address_name: "서울 중랑구 신내1동",
+    address_english:
+      "Seoul Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -2913,7 +3189,9 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.126229, 126.911115",
     solo: true,
-    address_name: "광주 남구 봉선2동"
+    address_name: "광주 남구 봉선2동",
+    address_english:
+      "Visit 'Four-Jinmi Charcoal Spicy Dakgalbi' in Bongseon-dong"
   },
   {
     profile: "-",
@@ -2925,7 +3203,8 @@ var position = [
     full: "광주 확진자 C",
     latlng: "35.1492, 126.926489",
     solo: true,
-    address_name: "광주 동구 동명동"
+    address_name: "광주 동구 동명동",
+    address_english: "Visit a bakery in Dongmyeong-dong"
   },
   {
     profile: "-",
@@ -2937,7 +3216,8 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.135462, 126.895629",
     solo: true,
-    address_name: "광주 남구 주월2동"
+    address_name: "광주 남구 주월2동",
+    address_english: "Visiting Back Exercise Restaurant 'Best Park'"
   },
   {
     profile: "-",
@@ -2950,7 +3230,9 @@ var position = [
     solo: true,
     name: "46번째 확진자",
     full: "46번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -2962,7 +3244,8 @@ var position = [
     full: "광주 확진자 C",
     latlng: "35.173329, 126.91219",
     solo: true,
-    address_name: "광주 북구 중흥2동"
+    address_name: "광주 북구 중흥2동",
+    address_english: "a visit to the Northern District Health Center"
   },
   {
     profile: "-",
@@ -2975,7 +3258,9 @@ var position = [
     solo: true,
     name: "43번째 확진자",
     full: "43번째 확진자",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -2987,7 +3272,8 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.127368, 126.896252",
     solo: true,
-    address_name: "광주 남구 주월1동"
+    address_name: "광주 남구 주월1동",
+    address_english: "Visit Zuwol-dong Cafe 'Soyo'"
   },
   {
     profile: "-",
@@ -2999,7 +3285,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "35.899478, 128.638419",
     solo: true,
-    address_name: "대구 동구 지저동"
+    address_name: "대구 동구 지저동",
+    address_english: "Daegu International Airport Departures Jeju Island"
   },
   {
     profile: "-",
@@ -3011,7 +3298,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.509302, 126.491663",
     solo: true,
-    address_name: "제주특별자치도 제주시 용담2동"
+    address_name: "제주특별자치도 제주시 용담2동",
+    address_english: "T'way Airlines Flight TW809"
   },
   {
     profile: "-",
@@ -3023,7 +3311,8 @@ var position = [
     address: "용봉동 소재 포켓볼하우스 방문",
     latlng: "35.175689, 126.913875",
     solo: true,
-    address_name: "광주 북구 용봉동"
+    address_name: "광주 북구 용봉동",
+    address_english: "Visit the Pokeball House in Yongbong-dong"
   },
   {
     profile: "-",
@@ -3035,7 +3324,9 @@ var position = [
     address: "중흥동 소재 편의점 방문 후 자택 기거",
     latlng: "35.165176, 126.914238",
     solo: true,
-    address_name: "광주 북구 중흥1동"
+    address_name: "광주 북구 중흥1동",
+    address_english:
+      "I will stay at my home after visiting a convenience store in Jungheung-dong."
   },
   {
     profile: "-",
@@ -3047,7 +3338,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.254479, 126.565456",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 동홍동"
+    address_name: "제주특별자치도 서귀포시 동홍동",
+    address_english: "Visit Seogwipo Open Hospital"
   },
   {
     profile: "-",
@@ -3059,7 +3351,8 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "전북 전주시 완산구 효자3동"
+    address_name: "전북 전주시 완산구 효자3동",
+    address_english: "Hyoja-Automatic CGV Isol Haircut (20:00)"
   },
   {
     profile: "-",
@@ -3071,7 +3364,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.255031, 126.428428",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 중문동"
+    address_name: "제주특별자치도 서귀포시 중문동",
+    address_english: "Visit CU Onet Store"
   },
   {
     profile: "-",
@@ -3083,7 +3377,8 @@ var position = [
     address: "홈플러스 계림점 방문 후 자택 기거",
     latlng: "35.16138, 126.91672",
     solo: true,
-    address_name: "광주 동구 계림1동"
+    address_name: "광주 동구 계림1동",
+    address_english: "Stay at Home after Visit to Home Plus Gyerim Store"
   },
   {
     profile: "-",
@@ -3095,7 +3390,9 @@ var position = [
     address: "전남대학교병원 <span style='color:red;'>격리</span>",
     latlng: "35.142094, 126.921635",
     solo: true,
-    address_name: "광주 동구 학동"
+    address_name: "광주 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -3107,7 +3404,8 @@ var position = [
     full: "광주 확진자 C",
     latlng: "35.154714, 126.854335",
     solo: true,
-    address_name: "광주 서구 치평동"
+    address_name: "광주 서구 치평동",
+    address_english: "Visit Tento, a restaurant in Chipyong-dong"
   },
   {
     profile: "(50대.여.한국)",
@@ -3119,7 +3417,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.187234, 129.059263",
     solo: true,
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center Isolation"
   },
   {
     profile: "-",
@@ -3131,7 +3430,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "35.899478, 128.638419",
     solo: true,
-    address_name: "대구 동구 지저동"
+    address_name: "대구 동구 지저동",
+    address_english: "Departure from Daegu International Airport"
   },
   {
     profile: "(50대.여.한국)",
@@ -3143,7 +3443,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.115164, 129.041825",
     solo: true,
-    address_name: "부산 동구 초량3동"
+    address_name: "부산 동구 초량3동",
+    address_english: "Arrival at Busan Station"
   },
   {
     profile: "(19.남.한국)",
@@ -3155,7 +3456,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.206371, 129.085512",
     solo: true,
-    address_name: "부산 동래구 복산동"
+    address_name: "부산 동래구 복산동",
+    address_english: "Visit Boksan-dong Community Center (16:20-16:30)"
   },
   {
     profile: "(50대.여.한국)",
@@ -3167,7 +3469,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.199116, 129.11915",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Banyeo-dong Jangsanmyeongga (11:00-12:40)"
   },
   {
     profile: "-",
@@ -3179,7 +3482,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.285128, 126.454557",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 중문동"
+    address_name: "제주특별자치도 서귀포시 중문동",
+    address_english: "Working at Seogwipo Wii Hotel"
   },
   {
     profile: "(19.남.한국)",
@@ -3191,7 +3495,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.215191, 129.073803",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Using Electronic Advertising (Sports Field) (11:50:-12:40)"
   },
   {
     profile: "-",
@@ -3204,7 +3510,8 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "인천 서구 검암경서동"
+    address_name: "인천 서구 검암경서동",
+    address_english: "Visit Gyeongin-ra-Bat-gil"
   },
   {
     profile: "-",
@@ -3217,7 +3524,9 @@ var position = [
     solo: true,
     name: "41번째 확진자",
     full: "41번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "(50대.여.한국)",
@@ -3229,7 +3538,9 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.173544, 129.18191",
     solo: true,
-    address_name: "부산 해운대구 좌4동"
+    address_name: "부산 해운대구 좌4동",
+    address_english:
+      "Residence at Home after Visit to Busan Marine Daebaek Hospital"
   },
   {
     profile: "(19.남.한국)",
@@ -3241,7 +3552,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.196415, 129.090618",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english: "GS25 Visit Green Point in Dongnae Dream"
   },
   {
     profile: "-",
@@ -3253,7 +3565,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.254479, 126.565456",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 동홍동"
+    address_name: "제주특별자치도 서귀포시 동홍동",
+    address_english: "Visit Seogwipo Open Hospital"
   },
   {
     profile: "(50대.여.한국)",
@@ -3265,7 +3578,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "37.48746, 127.101314",
     solo: true,
-    address_name: "서울 강남구 수서동"
+    address_name: "서울 강남구 수서동",
+    address_english: "Departure from Suseo Station (SRT) (14:00-17:00)"
   },
   {
     profile: "-",
@@ -3277,7 +3591,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.285128, 126.454557",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 중문동"
+    address_name: "제주특별자치도 서귀포시 중문동",
+    address_english: "Shuttle bus to We Hotel"
   },
   {
     profile: "(50대.여.한국)",
@@ -3289,7 +3604,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.199592, 129.116725",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Half of the Natural Dream (12:53-13:30)"
   },
   {
     profile: "(19.남.한국)",
@@ -3301,7 +3617,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.216039, 129.077183",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Visit the cafe on the first floor of the spa church (10:00-13:00) and stay at home."
   },
   {
     profile: "-",
@@ -3313,7 +3631,9 @@ var position = [
     solo: true,
     name: "51번째 확진자",
     full: "51번째 확진자",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -3325,7 +3645,9 @@ var position = [
     full: "광주 확진자 B",
     latlng: "35.126229, 126.911115",
     solo: true,
-    address_name: "광주 남구 봉선2동"
+    address_name: "광주 남구 봉선2동",
+    address_english:
+      "Visit 'Four-Jinmi Charcoal Spicy Dakgalbi' in Bongseon-dong"
   },
   {
     profile: "(19.남.한국)",
@@ -3337,7 +3659,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.204553, 129.079749",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a nearby pharmacy"
   },
   {
     profile: "(19.남.한국)",
@@ -3349,7 +3672,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.19947, 129.098606",
     solo: true,
-    address_name: "부산 동래구 안락1동"
+    address_name: "부산 동래구 안락1동",
+    address_english: "Visit the Dongnae branch of Eolssu Park House"
   },
   {
     profile: "-",
@@ -3361,7 +3685,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.467106, 126.545745",
     solo: true,
-    address_name: "제주특별자치도 제주시 아라동"
+    address_name: "제주특별자치도 제주시 아라동",
+    address_english: "Jeju National University Hospital Isolation"
   },
   {
     profile: "-",
@@ -3373,7 +3698,8 @@ var position = [
     full: "광주 확진자 C",
     latlng: "35.208994, 126.878977",
     solo: true,
-    address_name: "광주 북구 양산동"
+    address_name: "광주 북구 양산동",
+    address_english: "Visit Yangsan-dong Restaurant 'Yangtong Ranch'"
   },
   {
     profile: "-",
@@ -3386,7 +3712,9 @@ var position = [
     solo: true,
     name: "49번째 확진자",
     full: "49번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -3398,7 +3726,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.490004, 126.485135",
     solo: true,
-    address_name: "제주특별자치도 제주시 연동"
+    address_name: "제주특별자치도 제주시 연동",
+    address_english: "Visit Halla Hospital Selective Care Center"
   },
   {
     profile: "(19.남.한국)",
@@ -3410,7 +3739,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.196488, 129.093137",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english:
+      "Visit to the Welfare Policy of Dongnae District Office (17:00-17:20)"
   },
   {
     profile: "(19.남.한국)",
@@ -3422,7 +3753,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.211384, 129.079862",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a health center in Dongnae-gu"
   },
   {
     profile: "(55.여.한국)",
@@ -3434,7 +3766,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.825057, 128.741543",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Visit Gyeongsan City Hall"
   },
   {
     profile: "(19.남.한국)",
@@ -3446,7 +3779,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.187243, 129.05922",
     solo: true,
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center Isolation"
   },
   {
     profile: "(19.남.한국)",
@@ -3458,7 +3792,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.216039, 129.077183",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Residence at home after worship on the second floor of the spa church (18:30-21:00)"
   },
   {
     profile: "-",
@@ -3471,7 +3807,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울 종로구 이화동"
+    address_name: "서울 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -3483,7 +3821,8 @@ var position = [
     address: "부산시 교육청 방문",
     latlng: "35.176226, 129.064766",
     solo: true,
-    address_name: "부산 부산진구 양정1동"
+    address_name: "부산 부산진구 양정1동",
+    address_english: "Visit the Busan Metropolitan Office of Education"
   },
   {
     profile: "(19.남.한국)",
@@ -3495,7 +3834,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.154464, 129.119086",
     solo: true,
-    address_name: "부산 수영구 광안2동"
+    address_name: "부산 수영구 광안2동",
+    address_english: "Visit Gwangalli Pizza Mall (1:40-15:00)"
   },
   {
     profile: "-",
@@ -3507,7 +3847,8 @@ var position = [
     address: "동대구시외버스터미널 출발",
     latlng: "35.877488, 128.62906",
     solo: true,
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Dongdaegu Bus Terminal Departure"
   },
   {
     profile: "-",
@@ -3519,7 +3860,8 @@ var position = [
     address: "해운대구 음식점 방문",
     latlng: "35.186459, 129.203454",
     solo: true,
-    address_name: "부산 해운대구 송정동"
+    address_name: "부산 해운대구 송정동",
+    address_english: "Visit restaurants in Haeundae-gu"
   },
   {
     profile: "-",
@@ -3531,7 +3873,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.288507, 127.235964",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "Visit on the way to Han-ri"
   },
   {
     profile: "-",
@@ -3543,7 +3886,8 @@ var position = [
     address: "왕비 세탁소 방문",
     latlng: "35.566544, 128.159809",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "a visit to the Queen's laundromat"
   },
   {
     profile: "-",
@@ -3555,7 +3899,8 @@ var position = [
     address: " CU반여선수촌점(직원 1명) 방문",
     latlng: "35.203454, 129.123612",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "CU semi-student village (one employee) visit"
   },
   {
     profile: "-",
@@ -3567,7 +3912,8 @@ var position = [
     address: "수영구 광안동 슈가스팟 건물 방문",
     latlng: "35.160705, 129.115174",
     solo: true,
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english: "Visit the Sugar Pot Building in Gwangan-dong, Suyeong-gu"
   },
   {
     profile: "(50대.여.한국)",
@@ -3579,7 +3925,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.202708, 129.119949",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Centum Internal Medicine Officer (11:20-11:50)"
   },
   {
     profile: "(19.남.한국)",
@@ -3591,7 +3938,8 @@ var position = [
     full: "진주 확진자A",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -3603,7 +3951,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.467106, 126.545745",
     solo: true,
-    address_name: "제주특별자치도 제주시 아라동"
+    address_name: "제주특별자치도 제주시 아라동",
+    address_english: "Jeju National University Hospital Transfer"
   },
   {
     profile: "-",
@@ -3616,7 +3965,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 동구 방촌동"
+    address_name: "대구 동구 방촌동",
+    address_english: "Lunch at the hotel (Queenbell Hotel) buffet in Dong-gu"
   },
   {
     profile: "-",
@@ -3628,7 +3978,8 @@ var position = [
     full: "상주시 확진자",
     latlng: "35.819459, 128.727495",
     solo: true,
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english: "Departure from Gyeongsan Station (14:38)"
   },
   {
     profile: "-",
@@ -3640,7 +3991,8 @@ var position = [
     address: "반여 선수촌세븐일레븐(직원 1명) 방문",
     latlng: "35.202023, 129.121793",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Bannyeo athletes visit 7-Eleven (one employee)"
   },
   {
     profile: "-",
@@ -3652,7 +4004,8 @@ var position = [
     address: "마산 의료원 격리",
     latlng: "35.1988, 128.566475",
     solo: true,
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english: "Masan Medical Center Isolation"
   },
   {
     profile: "(19.남.한국)",
@@ -3664,7 +4017,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.204439, 129.080164",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "Visit the Selective Care Center at Daedong Hospital"
   },
   {
     profile: "-",
@@ -3676,7 +4030,8 @@ var position = [
     address: "부산 해운대구 음식점 방문",
     latlng: "35.201308, 129.1198",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit restaurants in Haeundae-gu, Busan"
   },
   {
     profile: "-",
@@ -3686,7 +4041,8 @@ var position = [
     address: "포항의료원 격리",
     latlng: "36.034762, 129.355059",
     solo: true,
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english: "Pohang Medical Center Isolation"
   },
   {
     profile: "-",
@@ -3698,7 +4054,8 @@ var position = [
     address: "부산대병원 이송",
     latlng: "35.100713, 129.01869",
     solo: true,
-    address_name: "부산 서구 아미동"
+    address_name: "부산 서구 아미동",
+    address_english: "Busan University Hospital Transfer"
   },
   {
     profile: "(20대.여.한국)",
@@ -3710,7 +4067,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33982, 127.448997",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "Move to Usong Language Center"
   },
   {
     profile: "(20대.여.한국)",
@@ -3722,7 +4080,9 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.317062, 127.415699",
     solo: true,
-    address_name: "대전 중구 대사동"
+    address_name: "대전 중구 대사동",
+    address_english:
+      "Chungnam National University  <Span style='color:red;'격separation </span>"
   },
   {
     profile: "-",
@@ -3734,7 +4094,8 @@ var position = [
     address: "합천 보건소 방문",
     latlng: "35.567985, 128.156572",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Hapcheon Health Center"
   },
   {
     profile: "-",
@@ -3747,7 +4108,8 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 종로구 사직동"
+    address_name: "서울 종로구 사직동",
+    address_english: "Visit HanaI Clinic (2/6-2/17)"
   },
   {
     profile: "(20대.여.한국)",
@@ -3759,7 +4121,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.332567, 127.436014",
     solo: true,
-    address_name: "대전 동구 중앙동"
+    address_name: "대전 동구 중앙동",
+    address_english: "Transfer of Daejeon Station Donggwang Station"
   },
   {
     profile: "(20대.여.한국)",
@@ -3771,7 +4134,9 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.328707, 127.425853",
     solo: true,
-    address_name: "대전 중구 은행선화동"
+    address_name: "대전 중구 은행선화동",
+    address_english:
+      "After moving to Ginko-dong, visit seven shopping districts."
   },
   {
     profile: "-",
@@ -3783,7 +4148,8 @@ var position = [
     address: "중앙상가 애슐리 이용",
     latlng: "36.036665, 129.362961",
     solo: true,
-    address_name: "경북 포항시 북구 중앙동"
+    address_name: "경북 포항시 북구 중앙동",
+    address_english: "Use of Ashley, the Central Market"
   },
   {
     profile: "(20대.여.한국)",
@@ -3795,7 +4161,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33774, 127.44783",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "a visit to a coin singing room"
   },
   {
     profile: "-",
@@ -3807,7 +4174,9 @@ var position = [
     full: "합천 확진자 A",
     latlng: "35.176216, 128.093848",
     solo: true,
-    address_name: "경남 진주시 천전동"
+    address_name: "경남 진주시 천전동",
+    address_english:
+      "Kyungsang National University Hospital  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -3819,7 +4188,8 @@ var position = [
     address: "해운대보건소 선별진료소 방문",
     latlng: "35.16407, 129.178703",
     solo: true,
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "Visit Haeundae Health Center Screening Care Center"
   },
   {
     profile: "(20대.여.한국)",
@@ -3831,7 +4201,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.337327, 127.448069",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "Visit K-Mart"
   },
   {
     profile: "-",
@@ -3843,7 +4214,8 @@ var position = [
     address: "가야면사무소 20분 방문",
     latlng: "35.762709, 128.139412",
     solo: true,
-    address_name: "경남 합천군 가야면"
+    address_name: "경남 합천군 가야면",
+    address_english: "A 20-minute visit to the Gaya office"
   },
   {
     profile: "-",
@@ -3855,7 +4227,8 @@ var position = [
     address: "야천1구 경로당 방문",
     latlng: "35.762719, 128.138622",
     solo: true,
-    address_name: "경남 합천군 가야면"
+    address_name: "경남 합천군 가야면",
+    address_english: "Visits per Route 1 in Yacheon"
   },
   {
     profile: "(20대.여.한국)",
@@ -3867,7 +4240,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.335688, 127.449375",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "A visit to a fireplace (general restaurant)"
   },
   {
     solo: true,
@@ -3879,7 +4253,8 @@ var position = [
     full: "창원 확진자",
     address: "성주동 프리빌리지 2차 아파트 버스정류장",
     latlng: "35.195416, 128.7144453, 17",
-    address_name: "경남 창원시 성산구 성주동"
+    address_name: "경남 창원시 성산구 성주동",
+    address_english: "The bus stop of Seongju-dong Pre-Village 2nd Apartment"
   },
   {
     profile: "-",
@@ -3891,7 +4266,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.273005, 127.265272",
     solo: true,
-    address_name: "충남 계룡시 두마면"
+    address_name: "충남 계룡시 두마면",
+    address_english: "Arrival at Gyeryong Station"
   },
   {
     solo: true,
@@ -3903,7 +4279,8 @@ var position = [
     full: "속초 확진자",
     address: "우동당 방문(12:03)",
     latlng: "38.186499, 128.60344",
-    address_name: "강원 속초시 청호동"
+    address_name: "강원 속초시 청호동",
+    address_english: "Visit Udondang (12:03)"
   },
   {
     profile: "(20대.여.한국)",
@@ -3915,7 +4292,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.335659, 127.446351",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "a hand-me-down"
   },
   {
     solo: true,
@@ -3927,7 +4305,8 @@ var position = [
     full: "서울 확진자",
     address: "복돼지네 옛날 생돼지김치찌개 방문",
     latlng: "37.477868, 126.987334",
-    address_name: "서울 서초구 방배2동"
+    address_name: "서울 서초구 방배2동",
+    address_english: "Visit the Lucky Pigs' Old Raw Pigs Kimchi Stew"
   },
   {
     solo: true,
@@ -3939,7 +4318,8 @@ var position = [
     full: "문경 확진자",
     address: "칠곡휴게소 (남편만 화장실 방문) (13:00)",
     latlng: "36.0159043, 128.4296851",
-    address_name: "경북 칠곡군 왜관읍"
+    address_name: "경북 칠곡군 왜관읍",
+    address_english: "Chilgok Rest Area (only husband visits bathroom) (13:00)"
   },
   {
     solo: true,
@@ -3951,7 +4331,9 @@ var position = [
     full: "서울 확진자",
     address: "은평구 가톨릭 성모병원 간병인으로 근무(병원에서 숙식)",
     latlng: "37.633918, 126.916581",
-    address_name: "서울 은평구 진관동"
+    address_name: "서울 은평구 진관동",
+    address_english:
+      "Working as a caretaker at Catholic St. Mary's Hospital in Eunpyeong-gu (dorm and board at the hospital)"
   },
   {
     solo: true,
@@ -3963,7 +4345,8 @@ var position = [
     full: "광주 확진자",
     address: "동명동 동명식빵 (20:50)",
     latlng: "35.149437, 126.926382",
-    address_name: "광주 동구 동명동"
+    address_name: "광주 동구 동명동",
+    address_english: "Dongmyeong-dong Dongmyeong Sikbbang (20:50)"
   },
   {
     solo: true,
@@ -3975,7 +4358,8 @@ var position = [
     full: "영주 확진자",
     address: "영주온천 방문(17:30~18:30)",
     latlng: "36.817607, 128.605227",
-    address_name: "경북 영주시 가흥1동"
+    address_name: "경북 영주시 가흥1동",
+    address_english: "Visit Yeongju Oncheon (17:30-18:30)"
   },
   {
     solo: true,
@@ -3987,7 +4371,8 @@ var position = [
     full: "서울 확진자",
     address: "중대병원 이송(격리 조치)",
     latlng: "37.507026, 126.960512",
-    address_name: "서울 동작구 흑석동"
+    address_name: "서울 동작구 흑석동",
+    address_english: "Transfer to a critical hospital (separation measure)"
   },
   {
     solo: true,
@@ -3999,7 +4384,8 @@ var position = [
     full: "서울 확진자",
     address: "강동역 하차 후 도보로 귀가",
     latlng: "37.535983, 127.132187",
-    address_name: "서울 강동구 성내2동"
+    address_name: "서울 강동구 성내2동",
+    address_english: "Walk home after getting off Gangdong Station"
   },
   {
     solo: true,
@@ -4011,7 +4397,8 @@ var position = [
     full: "속초 확진자",
     address: "가덕국수(동명동)",
     latlng: "38.209944, 128.586603",
-    address_name: "강원 속초시 동명동"
+    address_name: "강원 속초시 동명동",
+    address_english: "Gadeokguksu (Dongmyeong-dong)"
   },
   {
     solo: true,
@@ -4023,7 +4410,8 @@ var position = [
     full: "포항 확진자",
     address: "장성동 진할인마트 방문",
     latlng: "36.079349, 129.392489",
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Visit Jangseong-dong Jin Discount Store"
   },
   {
     solo: true,
@@ -4035,7 +4423,8 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원(13:30)",
     latlng: "35.187418, 129.059155",
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center (13:30)"
   },
   {
     solo: true,
@@ -4047,7 +4436,9 @@ var position = [
     full: "창원 확진자",
     address: "창원병원 앞 세계로약국 결제(14:55)",
     latlng: "35.217171, 128.670463",
-    address_name: "경남 창원시 성산구 중앙동"
+    address_name: "경남 창원시 성산구 중앙동",
+    address_english:
+      "Payment by the World Pharmacy in front of Changwon Hospital (14:55)"
   },
   {
     solo: true,
@@ -4059,7 +4450,8 @@ var position = [
     full: "충북 확진자",
     address: "홈플러스 익스프레스 금천점 (2/17 15:49)",
     latlng: "36.630605, 127.505526",
-    address_name: "충북 청주시 상당구 금천동"
+    address_name: "충북 청주시 상당구 금천동",
+    address_english: "Homeplus Express Geumcheon Branch (2/17 15:49)"
   },
   {
     solo: true,
@@ -4071,7 +4463,8 @@ var position = [
     full: "경산 확진자",
     address: "청해수산 방문",
     latlng: "35.827824, 128.725854",
-    address_name: "경북 경산시 서부2동"
+    address_name: "경북 경산시 서부2동",
+    address_english: "Cheonghae Fisheries Visit"
   },
   {
     solo: true,
@@ -4083,7 +4476,8 @@ var position = [
     full: "부산 확진자",
     address: "메리놀병원(08:15)",
     latlng: "35.107914, 129.032607",
-    address_name: "부산 중구 동광동"
+    address_name: "부산 중구 동광동",
+    address_english: "Merinol Hospital (08:15)"
   },
   {
     solo: true,
@@ -4095,7 +4489,8 @@ var position = [
     full: "김해 확진자",
     address: "거제 가덕해양파크 방문",
     latlng: "35.023439, 128.807409",
-    address_name: "부산 강서구 가덕도동"
+    address_name: "부산 강서구 가덕도동",
+    address_english: "Visit Gadeok Ocean Park in Geoje"
   },
   {
     solo: true,
@@ -4107,7 +4502,8 @@ var position = [
     full: "포항 확진자",
     address: "이동 동해해물찜 방문(18:15)",
     latlng: "36.030338, 129.338094",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "(18:15) a visit to a lavish seafood steamed donghae"
   },
   {
     solo: true,
@@ -4119,7 +4515,8 @@ var position = [
     full: "충북 확진자",
     address: "에브리데이 이마트 탑동점 (2/18 14:52)",
     latlng: "36.631858, 127.500884",
-    address_name: "충북 청주시 상당구 탑대성동"
+    address_name: "충북 청주시 상당구 탑대성동",
+    address_english: "Everyday Emart Topdong Branch (2/18 14:52)"
   },
   {
     solo: true,
@@ -4131,7 +4528,8 @@ var position = [
     full: "김해 확진자",
     address: "장유 스테이 볼링장 방문",
     latlng: "35.194853, 128.800353",
-    address_name: "경남 김해시 장유2동"
+    address_name: "경남 김해시 장유2동",
+    address_english: "a visit to the Stays' bowling alley"
   },
   {
     solo: true,
@@ -4143,7 +4541,8 @@ var position = [
     full: "김해 확진자",
     address: "구명역 승차",
     latlng: "35.203012, 128.999503",
-    address_name: "부산 북구 구포2동"
+    address_name: "부산 북구 구포2동",
+    address_english: "a life station ride"
   },
   {
     solo: true,
@@ -4155,7 +4554,8 @@ var position = [
     full: "대구 확진자",
     address: "로제피부과의원 중앙점",
     latlng: "35.864600040207414, 128.59585026286123",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "center point of roje skin clinic"
   },
   {
     solo: true,
@@ -4167,7 +4567,8 @@ var position = [
     full: "김해 확진자",
     address: "구포시장 하차",
     latlng: "35.210143, 129.002827",
-    address_name: "부산 북구 덕천2동"
+    address_name: "부산 북구 덕천2동",
+    address_english: "Exit Gupo Market"
   },
   {
     solo: true,
@@ -4179,7 +4580,8 @@ var position = [
     full: "대구 확진자",
     address: "소루 경산사동점",
     latlng: "35.8122871887642, 128.75557409209645",
-    address_name: "경북 경산시 동부동"
+    address_name: "경북 경산시 동부동",
+    address_english: "Soru Gyeongsan Sa-dong Branch"
   },
   {
     solo: true,
@@ -4191,7 +4593,8 @@ var position = [
     full: "김해 확진자",
     address: "고현더나은동물병원 방문",
     latlng: "34.887603, 128.625321",
-    address_name: "경남 거제시 고현동"
+    address_name: "경남 거제시 고현동",
+    address_english: "Visits to Gohyun Deunaeun Animal Hospital"
   },
   {
     solo: true,
@@ -4203,7 +4606,8 @@ var position = [
     full: "상주 확진자",
     address: "개운궁식당",
     latlng: "36.404336957929, 128.14976784614302",
-    address_name: "경북 상주시 남원동"
+    address_name: "경북 상주시 남원동",
+    address_english: "Gaeun Palace Restaurant"
   },
   {
     solo: true,
@@ -4215,7 +4619,8 @@ var position = [
     full: "거제 확진자",
     address: "더나은동물메디컬센터 방문",
     latlng: "34.887613, 128.625138",
-    address_name: "경남 거제시 고현동"
+    address_name: "경남 거제시 고현동",
+    address_english: "Visit the Better Animal Medical Center"
   },
   {
     solo: true,
@@ -4227,7 +4632,8 @@ var position = [
     full: "김해 확진자",
     address: "대저역 하차",
     latlng: "35.215074, 128.961475",
-    address_name: "부산 강서구 대저1동"
+    address_name: "부산 강서구 대저1동",
+    address_english: "a large-scale descent"
   },
   {
     solo: true,
@@ -4239,7 +4645,8 @@ var position = [
     full: "부산 확진자",
     address: "아시아드요양병원",
     latlng: "35.18681768089162, 129.07859802929644",
-    address_name: "부산 연제구 연산5동"
+    address_name: "부산 연제구 연산5동",
+    address_english: "Asiad Nursing Hospital"
   },
   {
     status: "완치",
@@ -4255,7 +4662,8 @@ var position = [
     solo: true,
     name: "14번째 확진자",
     full: "14번째 확진자",
-    address_name: "서울 강서구 방화2동"
+    address_name: "서울 강서구 방화2동",
+    address_english: "Arrival at Gimpo Airport"
   },
   {
     month: 1,
@@ -4268,7 +4676,8 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기 수원시 장안구 율천동"
+    address_name: "경기 수원시 장안구 율천동",
+    address_english: "home price"
   },
   {
     month: 2,
@@ -4281,7 +4690,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 송파구 가락1동"
+    address_name: "서울 송파구 가락1동",
+    address_english: "Visit the bakery in Songpa-gu."
   },
   {
     month: 2,
@@ -4294,7 +4704,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울 광진구 광장동"
+    address_name: "서울 광진구 광장동",
+    address_english:
+      "Use nearby convenience store after arriving at Gwangnaru Station"
   },
   {
     month: 1,
@@ -4307,7 +4719,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기 성남시 분당구 수내1동"
+    address_name: "경기 성남시 분당구 수내1동",
+    address_english: "a job in Su-Na-dong, Bundang"
   },
   {
     month: 1,
@@ -4320,7 +4733,8 @@ var position = [
     profile: "-",
     name: "14번째 확진자",
     full: "14번째 확진자",
-    address_name: "경기 부천시 대산동"
+    address_name: "경기 부천시 대산동",
+    address_english: "Use of large retail stores in Bucheon City"
   },
   {
     month: 1,
@@ -4333,7 +4747,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울 중구 회현동"
+    address_name: "서울 중구 회현동",
+    address_english: "a meal at a Seoul Station restaurant"
   },
   {
     month: 1,
@@ -4346,7 +4761,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 동구 신암3동"
+    address_name: "대구 동구 신암3동",
+    address_english: "East Daegu Station Departure"
   },
   {
     status: "완치",
@@ -4362,7 +4778,8 @@ var position = [
     solo: true,
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "전남 무안군 망운면"
+    address_name: "전남 무안군 망운면",
+    address_english: "Arrival at Muan Airport"
   },
   {
     month: 1,
@@ -4375,7 +4792,8 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "경기 군포시 광정동"
+    address_name: "경기 군포시 광정동",
+    address_english: "Visit to Gunpo Material Medical Center"
   },
   {
     month: 1,
@@ -4388,7 +4806,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 동구 신암4동"
+    address_name: "대구 동구 신암4동",
+    address_english: "Arrival at Dongdaegu Station"
   },
   {
     month: 1,
@@ -4401,7 +4820,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 수성구 범어1동"
+    address_name: "대구 수성구 범어1동",
+    address_english: "Moving to Mercury District's Main House"
   },
   {
     month: 1,
@@ -4414,7 +4834,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 송파구 가락본동"
+    address_name: "서울 송파구 가락본동",
+    address_english: "Visit a restaurant located in Songpa-gu"
   },
   {
     month: 1,
@@ -4427,7 +4848,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울 강남구 수서동"
+    address_name: "서울 강남구 수서동",
+    address_english: "Arrival at Suseo Station"
   },
   {
     month: 1,
@@ -4440,7 +4862,8 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주 광산구 운남동"
+    address_name: "광주 광산구 운남동",
+    address_english: "Treatment of 21st Century Hospital"
   },
   {
     month: 1,
@@ -4453,7 +4876,8 @@ var position = [
     profile: "-",
     name: "12번째 확진자",
     full: "12번째 확진자",
-    address_name: "서울 중구 필동"
+    address_name: "서울 중구 필동",
+    address_english: "Activities in Jung-gu, Seoul"
   },
   {
     month: 2,
@@ -4466,7 +4890,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 송파구 가락본동"
+    address_name: "서울 송파구 가락본동",
+    address_english: "Visit a restaurant in Songpa-gu, Seoul"
   },
   {
     month: 2,
@@ -4479,7 +4904,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 강남구 역삼1동"
+    address_name: "서울 강남구 역삼1동",
+    address_english: "Visit a hotel in Gangnam-gu, Seoul"
   },
   {
     month: 2,
@@ -4492,7 +4918,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 교문1동"
+    address_name: "경기 구리시 교문1동",
+    address_english: "Visit Hanyang University Guri Hospital Screening Clinic"
   },
   {
     month: 1,
@@ -4505,7 +4932,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 동구동"
+    address_name: "경기 구리시 동구동",
+    address_english:
+      "Samsung Medical Center Br. Guri City Pharmacy Prescription"
   },
   {
     status: "완치",
@@ -4521,7 +4950,8 @@ var position = [
     solo: true,
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     month: 1,
@@ -4534,7 +4964,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 북구 침산3동"
+    address_name: "대구 북구 침산3동",
+    address_english: "a visit to the North."
   },
   {
     solo: true,
@@ -4546,7 +4977,8 @@ var position = [
     full: "부산 확진자",
     address: "광주송정역 SRT탑승",
     latlng: "35.1376351602507, 126.790864370399",
-    address_name: "광주 광산구 송정2동"
+    address_name: "광주 광산구 송정2동",
+    address_english: "SRT Tower at Songjeong Station in Gwangju"
   },
   {
     solo: true,
@@ -4558,7 +4990,8 @@ var position = [
     full: "부산 확진자",
     address: "밀양돼지국밥",
     latlng: "35.11346576733731, 129.0398482640213",
-    address_name: "부산 동구 초량1동"
+    address_name: "부산 동구 초량1동",
+    address_english: "Miryang Pork and Rice Soup"
   },
   {
     solo: true,
@@ -4570,7 +5003,8 @@ var position = [
     full: "합천 확진자",
     address: "스파오 동성로2호점",
     latlng: "35.866921270984705, 128.59450186449286",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Spao Dongseongno No. 2"
   },
   {
     solo: true,
@@ -4582,7 +5016,8 @@ var position = [
     full: "창원 확진자",
     address: "신세계약국",
     latlng: "35.2082781422916, 128.69686277511036",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "New World Pharmacy"
   },
   {
     solo: true,
@@ -4594,7 +5029,8 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기 김포시 사우동"
+    address_name: "경기 김포시 사우동",
+    address_english: "Pung Trading Gimpo Gold Line"
   },
   {
     solo: true,
@@ -4606,7 +5042,8 @@ var position = [
     full: "부천 확진자",
     address: "메이저리치 빌딩 근무",
     latlng: "37.44846731235319, 126.88405648750621",
-    address_name: "경기 광명시 소하1동"
+    address_name: "경기 광명시 소하1동",
+    address_english: "Major Leach Building Service"
   },
   {
     profile: "-",
@@ -4618,7 +5055,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.282554, 127.241553",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "Visit the Nul Blue Ranch Restaurant"
   },
   {
     solo: true,
@@ -4630,7 +5068,9 @@ var position = [
     full: "창원 확진자",
     address: "남창원농협 농수산물종합유통센터",
     latlng: "35.20403010696722, 128.70312961337936",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english:
+      "Namchangwon Agricultural Cooperative Federation General Distribution Center"
   },
   {
     solo: true,
@@ -4642,7 +5082,8 @@ var position = [
     full: "부산 확진자",
     address: "NF커피",
     latlng: "35.208498030784185, 129.0090945585202",
-    address_name: "부산 북구 덕천2동"
+    address_name: "부산 북구 덕천2동",
+    address_english: "NF Coffee"
   },
   {
     solo: true,
@@ -4654,7 +5095,8 @@ var position = [
     full: "영천 확진자",
     address: "안심의원 진료 (2/19 10:00 ~ 11:00)",
     latlng: "35.847313, 128.58481",
-    address_name: "대구 남구 대명5동"
+    address_name: "대구 남구 대명5동",
+    address_english: "Counseling of the Ahn Jung-won (2/19 10:00 to 11:00)"
   },
   {
     solo: true,
@@ -4666,7 +5108,8 @@ var position = [
     full: "청송 확진자",
     address: "다이소 청송진보점 방문",
     latlng: "36.52809323398159, 129.04333179018923",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visits to the Chengsong Progressive Branch of Daiso"
   },
   {
     solo: true,
@@ -4678,7 +5121,8 @@ var position = [
     full: "부산 확진자",
     address: "커피요정",
     latlng: "35.20912091243989, 129.00892105150015",
-    address_name: "부산 북구 덕천2동"
+    address_name: "부산 북구 덕천2동",
+    address_english: "Coffee fairy"
   },
   {
     solo: true,
@@ -4690,7 +5134,8 @@ var position = [
     full: "부산 확진자",
     address: "CU 해운대경남선경점",
     latlng: "35.165969024504406, 129.18503687812006",
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "CU Haeundae-Gyeongnam Line Station"
   },
   {
     solo: true,
@@ -4702,20 +5147,9 @@ var position = [
     full: "부산 확진자",
     address: "센텀가야밀면",
     latlng: "35.1751596401248, 129.1245333176407",
-    address_name: "부산 해운대구 재송1동"
+    address_name: "부산 해운대구 재송1동",
+    address_english: "Centum-Gayamil noodles"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#송파 확진자",
-  //   month: 2,
-  //   day: 22,
-  //   name: "송파",
-  //   full: "송파 확진자",
-  //   address: "S153과학학원 아르바이트",
-  //   latlng: "37.572489, 127.072654",
-  //   address_name: "서울 동대문구 장안2동"
-  // },
   {
     solo: true,
     profile: "-",
@@ -4726,7 +5160,8 @@ var position = [
     full: "부산 확진자",
     address: "KB국민은행ATM 방문",
     latlng: "35.222024739640396, 129.0846263517915",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Visit KB Kookmin Bank ATM"
   },
   {
     solo: true,
@@ -4738,7 +5173,8 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기 김포시 사우동"
+    address_name: "경기 김포시 사우동",
+    address_english: "Pung Trading Gimpo Gold Line"
   },
   {
     solo: true,
@@ -4750,7 +5186,8 @@ var position = [
     full: "김포 확진자",
     address: "서울역 4호선",
     latlng: "37.55302870046421, 126.972644620034",
-    address_name: "서울 용산구 남영동"
+    address_name: "서울 용산구 남영동",
+    address_english: "Seoul Station Line 4"
   },
   {
     solo: true,
@@ -4762,7 +5199,8 @@ var position = [
     full: "창원 확진자",
     address: "인화약국",
     latlng: "35.21370152731169, 128.70085425705238",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "a flammable drugstore"
   },
   {
     solo: true,
@@ -4774,7 +5212,9 @@ var position = [
     full: "창원 확진자",
     address: "성산가음정시장내 서라벌족발옆 분식집",
     latlng: "35.2078278264611, 128.69812714563537",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english:
+      "Snack Stand next to Seorabal Jokbal in Seongsan Gaumjeong Market"
   },
   {
     profile: "-",
@@ -4786,7 +5226,8 @@ var position = [
     address: "중흥동 소재 음식점 방문",
     latlng: "35.170034, 126.910806",
     solo: true,
-    address_name: "광주 북구 중흥2동"
+    address_name: "광주 북구 중흥2동",
+    address_english: "Visit the restaurant located in Jungheung-dong"
   },
   {
     profile: "-",
@@ -4798,7 +5239,8 @@ var position = [
     address: "해운대보건소 선별진료소 방문",
     latlng: "35.164081, 129.17865",
     solo: true,
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "Visit Haeundae Health Center Screening Care Center"
   },
   {
     profile: "-",
@@ -4810,7 +5252,8 @@ var position = [
     address: "부산의료원 격리",
     latlng: "35.18719, 129.059316",
     solo: true,
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center Isolation"
   },
   {
     solo: true,
@@ -4822,7 +5265,8 @@ var position = [
     full: "충북 확진자",
     address: "굿모닝사랑약국 방문 (2/18 15:39)",
     latlng: "36.63063, 127.503412",
-    address_name: "충북 청주시 상당구 금천동"
+    address_name: "충북 청주시 상당구 금천동",
+    address_english: "Visit Good Morning Love Pharmacy (2/18 15:39)"
   },
   {
     solo: true,
@@ -4834,7 +5278,9 @@ var position = [
     full: "포항 확진자",
     address: "포항공과대학교 제3공학관 친구 만난 후 귀가",
     latlng: "36.01191107117713, 129.32106361658597",
-    address_name: "경북 포항시 남구 효곡동"
+    address_name: "경북 포항시 남구 효곡동",
+    address_english:
+      "I met a friend of the 3rd engineer at Pohang University of Science and Technology and went home."
   },
   {
     solo: true,
@@ -4846,7 +5292,8 @@ var position = [
     full: "부산 확진자",
     address: "동래봄산부인과의원",
     latlng: "35.2124826165236, 129.07838263379648",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Dongnae Bomnae Gynecology Clinic"
   },
   {
     solo: true,
@@ -4858,7 +5305,9 @@ var position = [
     full: "포항 확진자",
     address: "선린애육원 내 별도 사무실 서류 수령",
     latlng: "36.071848669811025, 129.4000937531617",
-    address_name: "경북 포항시 북구 환여동"
+    address_name: "경북 포항시 북구 환여동",
+    address_english:
+      "Receiving separate office documents in the Sunrin Child Care Center"
   },
   {
     solo: true,
@@ -4870,7 +5319,8 @@ var position = [
     full: "문경 확진자",
     address: "점촌터미널도착 (쏘카 대여) (15:40)",
     latlng: "36.5962304, 128.1975181",
-    address_name: "경북 문경시 점촌1동"
+    address_name: "경북 문경시 점촌1동",
+    address_english: "Arrival at Junchon Terminal (Socca rental) (15:40)"
   },
   {
     solo: true,
@@ -4882,7 +5332,9 @@ var position = [
     full: "부산 확진자",
     address: "2/20, 2/21 지하철대연역~수영역~연산역이동",
     latlng: "35.13512519557161, 129.09211852431355",
-    address_name: "부산 남구 대연1동"
+    address_name: "부산 남구 대연1동",
+    address_english:
+      "2/20, 2/21 subway station~Swimming station~Yeonsan Station Transfer"
   },
   {
     solo: true,
@@ -4894,7 +5346,8 @@ var position = [
     full: "포항 확진자",
     address: "더벤티 포항영일대점",
     latlng: "36.060226381513814, 129.37529739394347",
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "The Benti Pohang Yeongil Grand Prix"
   },
   {
     solo: true,
@@ -4906,7 +5359,8 @@ var position = [
     full: "부산 확진자",
     address: "오송역 SRT -> 광주송정 이동",
     latlng: "36.62005054337381, 127.327645624362",
-    address_name: "충북 청주시 흥덕구 오송읍"
+    address_name: "충북 청주시 흥덕구 오송읍",
+    address_english: "SRT of Osong Station -> Move to Gwangju Songjeong"
   },
   {
     solo: true,
@@ -4918,7 +5372,8 @@ var position = [
     full: "부산 확진자",
     address: "맥도날드 부산온천SK DT점",
     latlng: "35.20635972522261, 129.07389182218444",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "McDonald's Busan Oncheon SK DT branch"
   },
   {
     solo: true,
@@ -4930,7 +5385,8 @@ var position = [
     full: "부산 확진자",
     address: "한국인터넷진흥원",
     latlng: "35.01846344368172, 126.79520252378528",
-    address_name: "전남 나주시 빛가람동"
+    address_name: "전남 나주시 빛가람동",
+    address_english: "Korea Internet & Security Agency"
   },
   {
     solo: true,
@@ -4942,7 +5398,8 @@ var position = [
     full: "김해 확진자",
     address: "거제 쌤김밥 방문",
     latlng: "34.829724, 128.703794",
-    address_name: "경남 거제시 일운면"
+    address_name: "경남 거제시 일운면",
+    address_english: "Visit Geoje Sam Gimbap"
   },
   {
     solo: true,
@@ -4954,7 +5411,8 @@ var position = [
     full: "대구 확진자",
     address: "CU 영대경산점",
     latlng: "35.83838300826918, 128.75642903073853",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "CU Zero-Grade Scatter"
   },
   {
     solo: true,
@@ -4966,7 +5424,8 @@ var position = [
     full: "부산 확진자",
     address: "부잣집",
     latlng: "35.209861360686, 129.00817947080117",
-    address_name: "부산 북구 덕천2동"
+    address_name: "부산 북구 덕천2동",
+    address_english: "a rich family"
   },
   {
     solo: true,
@@ -4978,7 +5437,8 @@ var position = [
     full: "상주 확진자",
     address: "2/18, 2/19 남성동성당미사참석",
     latlng: "36.41040689765928, 128.16131330917602",
-    address_name: "경북 상주시 남원동"
+    address_name: "경북 상주시 남원동",
+    address_english: "February 18, February 19 Male Saints' Attendance"
   },
   {
     solo: true,
@@ -4990,7 +5450,8 @@ var position = [
     full: "합천 확진자",
     address: "해인사",
     latlng: "35.80125498117031, 128.09798374251903",
-    address_name: "경남 합천군 가야면"
+    address_name: "경남 합천군 가야면",
+    address_english: "Haein Temple"
   },
   {
     solo: true,
@@ -5002,7 +5463,9 @@ var position = [
     full: "부산 확진자",
     address: "2/20, 2/21 지하철대연역~수영역~연산역이동",
     latlng: "35.16568036128701, 129.11480955097366",
-    address_name: "부산 수영구 광안3동"
+    address_name: "부산 수영구 광안3동",
+    address_english:
+      "2/20, 2/21 subway station~Swimming station~Yeonsan Station Transfer"
   },
   {
     solo: true,
@@ -5014,7 +5477,8 @@ var position = [
     full: "충주 확진자",
     address: "우미린캐슬어린이집",
     latlng: "36.95458127600263, 127.92345348691501",
-    address_name: "충북 충주시 호암.직동"
+    address_name: "충북 충주시 호암.직동",
+    address_english: "Umyrin Castle Children's House"
   },
   {
     solo: true,
@@ -5026,7 +5490,8 @@ var position = [
     full: "부산 확진자",
     address: "부산역 부산1호선 -> KTX로 이동",
     latlng: "35.11454123811821, 129.0393442633173",
-    address_name: "부산 동구 초량1동"
+    address_name: "부산 동구 초량1동",
+    address_english: "Busan Station Line 1 -> Go to KTX"
   },
   {
     solo: true,
@@ -5038,7 +5503,9 @@ var position = [
     full: "포항 확진자",
     address: "2/17, 2/18, 2/19, 2/20 직장 근무(현대제철 생산관리팀)",
     latlng: "36.004570235715825, 129.3774981612645",
-    address_name: "경북 포항시 남구 제철동"
+    address_name: "경북 포항시 남구 제철동",
+    address_english:
+      "2/17, 2/18, 2/19, 2/20 Workplaces (Hyundai Steel Production Management Team)"
   },
   {
     solo: true,
@@ -5050,7 +5517,8 @@ var position = [
     full: "부산 확진자",
     address: "착한멸치국수 괴정점",
     latlng: "35.098037815871585, 128.99369982072915",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "Good anchovy noodles at the apex."
   },
   {
     solo: true,
@@ -5062,7 +5530,8 @@ var position = [
     full: "포항 확진자",
     address: "리플러스마트 본점",
     latlng: "36.06082559625642, 129.37543525601947",
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "the head office of Ripple Mart"
   },
   {
     solo: true,
@@ -5074,7 +5543,8 @@ var position = [
     full: "청송 확진자",
     address: "중화요리 용궁식당 방문",
     latlng: "36.52864609069379, 129.04387773693622",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visit Yonggung Restaurant for Chinese cuisine"
   },
   {
     solo: true,
@@ -5086,7 +5556,8 @@ var position = [
     full: "김포 확진자",
     address: "김포공항역 공항철도",
     latlng: "37.56182975642019, 126.80247310798501",
-    address_name: "서울 강서구 방화2동"
+    address_name: "서울 강서구 방화2동",
+    address_english: "Gimpo Airport Station Airport Railway"
   },
   {
     solo: true,
@@ -5098,7 +5569,8 @@ var position = [
     full: "창원 확진자",
     address: "최이비인후과의원 (2/20,22)",
     latlng: "35.21307242741048, 128.70098608411138",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "Choi E.N. Clinic (2/20,22)"
   },
   {
     solo: true,
@@ -5110,7 +5582,8 @@ var position = [
     full: "부산 확진자",
     address: "BHS한서병원 선별진료소",
     latlng: "35.1608998044941, 129.11320654836166",
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english: "BHS Hansuh Hospital Screening Care Center"
   },
   {
     solo: true,
@@ -5122,7 +5595,8 @@ var position = [
     full: "대구 확진자",
     address: "몬스터커피 반월당",
     latlng: "35.86584251496489, 128.59321817162123",
-    address_name: "대구 중구 성내2동"
+    address_name: "대구 중구 성내2동",
+    address_english: "Monster Coffee Banwoldang"
   },
   {
     solo: true,
@@ -5134,7 +5608,8 @@ var position = [
     full: "충주 확진자",
     address: "충주중앙병원",
     latlng: "36.97407955666101, 127.93297420759639",
-    address_name: "충북 충주시 성내.충인동"
+    address_name: "충북 충주시 성내.충인동",
+    address_english: "Chungju Central Hospital"
   },
   {
     profile: "-",
@@ -5147,7 +5622,9 @@ var position = [
     solo: true,
     name: "49번째 확진자",
     full: "49번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5160,7 +5637,9 @@ var position = [
     solo: true,
     name: "47번째 확진자",
     full: "47번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5172,7 +5651,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 남부동"
+    address_name: "경북 영천시 남부동",
+    address_english: "medical treatment of permanent members"
   },
   {
     profile: "-",
@@ -5184,7 +5664,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "Kim In-hwan Medical Center Rep."
   },
   {
     profile: "-",
@@ -5197,7 +5678,9 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 중구 광희동"
+    address_name: "서울 중구 광희동",
+    address_english:
+      "National Medical Center  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -5210,7 +5693,9 @@ var position = [
     solo: true,
     name: "65번째 확진자",
     full: "65번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5223,7 +5708,9 @@ var position = [
     solo: true,
     name: "36번째 확진자",
     full: "36번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5236,7 +5723,9 @@ var position = [
     solo: true,
     name: "43번째 확진자",
     full: "43번째 확진자",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5249,7 +5738,9 @@ var position = [
     solo: true,
     name: "42번째 확진자",
     full: "42번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5262,7 +5753,8 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 종로구 청운효자동"
+    address_name: "서울 종로구 청운효자동",
+    address_english: "Clinical treatment at Jongno Health Center"
   },
   {
     profile: "-",
@@ -5275,7 +5767,9 @@ var position = [
     solo: true,
     name: "41번째 확진자",
     full: "41번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5288,7 +5782,9 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 동대문구 회기동"
+    address_name: "서울 동대문구 회기동",
+    address_english:
+      "Visiting Kyung Hee University Hospital for medical treatment"
   },
   {
     profile: "-",
@@ -5301,7 +5797,9 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "(29.여.한국)",
@@ -5311,7 +5809,8 @@ var position = [
     address: "시지 닥터필의원 방문",
     latlng: "35.841673, 128.704953",
     solo: true,
-    address_name: "대구 수성구 고산3동"
+    address_name: "대구 수성구 고산3동",
+    address_english: "Visits to Dr. Seege's Phil."
   },
   {
     profile: "-",
@@ -5324,7 +5823,9 @@ var position = [
     solo: true,
     name: "45번째 확진자",
     full: "45번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5337,7 +5838,9 @@ var position = [
     solo: true,
     name: "44번째 확진자",
     full: "44번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5350,7 +5853,9 @@ var position = [
     solo: true,
     name: "53번째 확진자",
     full: "53번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5362,7 +5867,9 @@ var position = [
     solo: true,
     name: "73번째 확진자",
     full: "73번째 확진자",
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english:
+      "After visiting Hyehwa United Congressman (Okgok-dong), visit the Health Center's Selective Care Center"
   },
   {
     profile: "-",
@@ -5374,7 +5881,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit to Daejam Adelia (1:40)"
   },
   {
     profile: "-",
@@ -5387,7 +5895,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 금호읍"
+    address_name: "경북 영천시 금호읍",
+    address_english: "Medical treatment of Kumho Medical Center in Yeongcheon"
   },
   {
     profile: "-",
@@ -5400,7 +5909,9 @@ var position = [
     solo: true,
     name: "46번째 확진자",
     full: "46번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5412,7 +5923,9 @@ var position = [
     solo: true,
     name: "55번째 확진자",
     full: "55번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english:
+      "Pohang Medical Center  <Span Style='color:red;'격Division </Span>"
   },
   {
     profile: "-",
@@ -5425,7 +5938,9 @@ var position = [
     solo: true,
     name: "33번째 확진자",
     full: "33번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5437,7 +5952,9 @@ var position = [
     solo: true,
     name: "39번째 확진자",
     full: "39번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5450,7 +5967,9 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 사근동"
+    address_name: "서울 성동구 사근동",
+    address_english:
+      "Final training at Hanyang University Hospital Selective Care Center"
   },
   {
     profile: "-",
@@ -5462,7 +5981,9 @@ var position = [
     solo: true,
     name: "51번째 확진자",
     full: "51번째 확진자",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -5474,7 +5995,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Arrival at Home (22:08)"
   },
   {
     profile: "-",
@@ -5486,7 +6008,9 @@ var position = [
     solo: true,
     name: "54번째 확진자",
     full: "54번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english:
+      "Pohang Medical Center  <Span Style='color:red;'격Division </Span>"
   },
   {
     profile: "-",
@@ -5499,7 +6023,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울 성동구 사근동"
+    address_name: "서울 성동구 사근동",
+    address_english: "Hanyang University Hospital Outdoor Visit"
   },
   {
     profile: "-",
@@ -5512,7 +6037,9 @@ var position = [
     solo: true,
     name: "48번째 확진자",
     full: "48번째 확진자",
-    address_name: "대구 북구 국우동"
+    address_name: "대구 북구 국우동",
+    address_english:
+      "Chilgok Gyeongbuk National University Hospital  <Span style='color:red;'Separate </spanan"
   },
   {
     profile: "-",
@@ -5522,7 +6049,8 @@ var position = [
     address: "대구 예일연합이비인후과 방문",
     latlng: "35.860062, 128.613893",
     solo: true,
-    address_name: "대구 수성구 수성4가동"
+    address_name: "대구 수성구 수성4가동",
+    address_english: "Visit the Yale ENT department in Daegu"
   },
   {
     profile: "-",
@@ -5535,7 +6063,8 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 종로구 사직동"
+    address_name: "서울 종로구 사직동",
+    address_english: "Visit HanaI Clinic (2/6-2/17)"
   },
   {
     profile: "-",
@@ -5545,7 +6074,9 @@ var position = [
     address: "경산시 보건소 선별진료소 방문",
     latlng: "35.824947, 128.743321",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english:
+      "Visit the Health Center Screening Care Center in Gyeongsan City"
   },
   {
     profile: "-",
@@ -5558,7 +6089,8 @@ var position = [
     address: "대구서부터미널에서 포항으로 이동(12:50)",
     latlng: "35.83678, 128.55786",
     solo: true,
-    address_name: "대구 남구 대명11동"
+    address_name: "대구 남구 대명11동",
+    address_english: "From Daegu Station to Pohang (12:50)"
   },
   {
     profile: "(55.여.한국)",
@@ -5570,7 +6102,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.829161, 128.73628",
     solo: true,
-    address_name: "경북 경산시 중방동"
+    address_name: "경북 경산시 중방동",
+    address_english: "Visit the Rolling Pin Gyeongsan Branch"
   },
   {
     profile: "-",
@@ -5582,7 +6115,8 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 남구 대이동"
+    address_name: "경북 포항시 남구 대이동",
+    address_english: "Visit the CoiVinhu Clinic (14:22)"
   },
   {
     profile: "-",
@@ -5594,7 +6128,8 @@ var position = [
     solo: true,
     name: "73번째 확진자",
     full: "73번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english: "Pohang Medical Center Isolation"
   },
   {
     profile: "(55.여.한국)",
@@ -5606,7 +6141,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "36.122659, 128.126482",
     solo: true,
-    address_name: "경북 김천시 자산동"
+    address_name: "경북 김천시 자산동",
+    address_english: "Kimcheon Medical Center Isolation"
   },
   {
     profile: "(55.여.한국)",
@@ -5618,7 +6154,8 @@ var position = [
     full: "105번째 확진자",
     latlng: "35.817049, 128.759688",
     solo: true,
-    address_name: "경북 경산시 동부동"
+    address_name: "경북 경산시 동부동",
+    address_english: "a visit to the Gyeongsan tax office"
   },
   {
     profile: "-",
@@ -5630,7 +6167,9 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "전북 전주시 덕진구 금암1동"
+    address_name: "전북 전주시 덕진구 금암1동",
+    address_english:
+      "Using the Three Pop PC Room at Chonbuk National University (15:00-18:00)"
   },
   {
     profile: "(29.여.한국)",
@@ -5642,7 +6181,8 @@ var position = [
     full: "106번째 확진자",
     latlng: "35.824229, 128.737793",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "a visit to the New Byeol Pharmacy"
   },
   {
     profile: "-",
@@ -5654,7 +6194,9 @@ var position = [
     solo: true,
     name: "85번째 확진자",
     full: "85번째 확진자",
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english:
+      "Pohang Medical Center  <Span Style='color:red;'격Division </Span>"
   },
   {
     profile: "(46.여.한국)",
@@ -5666,7 +6208,8 @@ var position = [
     address: "김천의료원 격리",
     latlng: "36.122683, 128.126468",
     solo: true,
-    address_name: "경북 김천시 자산동"
+    address_name: "경북 김천시 자산동",
+    address_english: "Kimcheon Medical Center Isolation"
   },
   {
     profile: "(20대.여.한국)",
@@ -5678,7 +6221,9 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.328707, 127.425853",
     solo: true,
-    address_name: "대전 중구 은행선화동"
+    address_name: "대전 중구 은행선화동",
+    address_english:
+      "After moving to Ginko-dong, visit seven shopping districts."
   },
   {
     profile: "(29.여.한국)",
@@ -5690,7 +6235,8 @@ var position = [
     full: "106번째 확진자",
     latlng: "35.824255, 128.737729",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Kim Dong-hee Visits the Internal Medicine Institute"
   },
   {
     profile: "-",
@@ -5702,7 +6248,8 @@ var position = [
     address: "마산 의료원 격리",
     latlng: "35.1988, 128.566475",
     solo: true,
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english: "Masan Medical Center Isolation"
   },
   {
     profile: "-",
@@ -5714,7 +6261,8 @@ var position = [
     address: "부산대병원 이송",
     latlng: "35.100713, 129.01869",
     solo: true,
-    address_name: "부산 서구 아미동"
+    address_name: "부산 서구 아미동",
+    address_english: "Busan University Hospital Transfer"
   },
   {
     profile: "(20대.여.한국)",
@@ -5726,7 +6274,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "35.819429, 128.727654",
     solo: true,
-    address_name: "경북 경산시 서부1동"
+    address_name: "경북 경산시 서부1동",
+    address_english: "Departure from Gyeongsan Station"
   },
   {
     profile: "(20대.여.한국)",
@@ -5738,7 +6287,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.332567, 127.436014",
     solo: true,
-    address_name: "대전 동구 중앙동"
+    address_name: "대전 동구 중앙동",
+    address_english: "Transfer of Daejeon Station Donggwang Station"
   },
   {
     profile: "(20대.여.한국)",
@@ -5750,7 +6300,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.335659, 127.446351",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "a hand-me-down"
   },
   {
     profile: "(32.남.한국)",
@@ -5762,7 +6313,9 @@ var position = [
     full: "#세종 확진자 A",
     latlng: "36.841724, 127.172624",
     solo: true,
-    address_name: "충남 천안시 동남구 신안동"
+    address_name: "충남 천안시 동남구 신안동",
+    address_english:
+      "Dankook Daecheon Hospital  <Span style='color:red;'Spanning 대/span'"
   },
   {
     profile: "(20대.여.한국)",
@@ -5774,7 +6327,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33982, 127.448997",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "Move to Usong Language Center"
   },
   {
     profile: "(20대.여.한국)",
@@ -5786,7 +6340,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33774, 127.44783",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "a visit to a coin singing room"
   },
   {
     profile: "-",
@@ -5798,7 +6353,8 @@ var position = [
     address: "중앙상가 애슐리 이용",
     latlng: "36.036665, 129.362961",
     solo: true,
-    address_name: "경북 포항시 북구 중앙동"
+    address_name: "경북 포항시 북구 중앙동",
+    address_english: "Use of Ashley, the Central Market"
   },
   {
     profile: "(20대.여.한국)",
@@ -5810,7 +6366,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33774, 127.44783",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "GS25 Visits Usongdae Center"
   },
   {
     profile: "-",
@@ -5822,7 +6379,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.282554, 127.241553",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "Visit the Nul Blue Ranch Restaurant"
   },
   {
     profile: "(32.남.한국)",
@@ -5834,7 +6392,8 @@ var position = [
     full: "#세종 확진자 A",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "(19.남.한국)",
@@ -5846,7 +6405,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.204553, 129.079749",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a nearby pharmacy"
   },
   {
     profile: "(20대.여.한국)",
@@ -5858,7 +6418,9 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.317062, 127.415699",
     solo: true,
-    address_name: "대전 중구 대사동"
+    address_name: "대전 중구 대사동",
+    address_english:
+      "Chungnam National University  <Span style='color:red;'격separation </span>"
   },
   {
     profile: "-",
@@ -5870,7 +6432,8 @@ var position = [
     address: "남구보건소 검사 후 귀가",
     latlng: "35.99244, 129.396289",
     solo: true,
-    address_name: "경북 포항시 남구 제철동"
+    address_name: "경북 포항시 남구 제철동",
+    address_english: "Homecoming after Namgu Health Center Examination"
   },
   {
     profile: "-",
@@ -5882,7 +6445,8 @@ var position = [
     address: "중앙상가 애슐리 이용",
     latlng: "36.036665, 129.362961",
     solo: true,
-    address_name: "경북 포항시 북구 중앙동"
+    address_name: "경북 포항시 북구 중앙동",
+    address_english: "Use of Ashley, the Central Market"
   },
   {
     profile: "-",
@@ -5894,7 +6458,9 @@ var position = [
     address: "합천시외버스터미널-대구서부정류장 왕복 이동(2/14,2/17,2/18)",
     latlng: "35.567196, 128.162809",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english:
+      "Hapcheon Intercity Bus Terminal-Daegu Western Station round trip (2/14,2/17,2/18)"
   },
   {
     profile: "-",
@@ -5906,7 +6472,9 @@ var position = [
     address: "동해주유소 승차(107번) -> 한전사거리 환승 후 남구보건소 방문",
     latlng: "35.99244, 129.396289",
     solo: true,
-    address_name: "경북 포항시 남구 제철동"
+    address_name: "경북 포항시 남구 제철동",
+    address_english:
+      "KEPCO Nam-gu Health Center after the visit, transfer the crossroad. - (107) entry a gas station donghae >"
   },
   {
     profile: "-",
@@ -5918,7 +6486,9 @@ var position = [
     full: "증평 \u001d군부대 장교",
     latlng: "37.390689, 127.149482",
     solo: true,
-    address_name: "경기 성남시 분당구 서현1동"
+    address_name: "경기 성남시 분당구 서현1동",
+    address_english:
+      "Armed Forces Capital Hospital  <span style='color:red;'격separation </span>"
   },
   {
     profile: "-",
@@ -5930,7 +6500,8 @@ var position = [
     address: "바디라인 피트니스 방문",
     latlng: "36.059444, 129.374354",
     solo: true,
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "Visit Bodyline Fitness"
   },
   {
     profile: "(20대.여.한국)",
@@ -5942,7 +6513,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.33774, 127.44783",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "a visit to a coin singing room"
   },
   {
     profile: "-",
@@ -5954,7 +6526,8 @@ var position = [
     address: "포항 우체국 출근",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "To work at the Pohang Post Office"
   },
   {
     profile: "(19.남.한국)",
@@ -5966,7 +6539,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.19947, 129.098606",
     solo: true,
-    address_name: "부산 동래구 안락1동"
+    address_name: "부산 동래구 안락1동",
+    address_english: "Visit the Dongnae branch of Eolssu Park House"
   },
   {
     profile: "-",
@@ -5978,7 +6552,8 @@ var position = [
     address: "어림지 방문",
     latlng: "36.060524, 129.378828",
     solo: true,
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "a round-the-clock visit"
   },
   {
     profile: "-",
@@ -5990,7 +6565,8 @@ var position = [
     address: " CU반여선수촌점(직원 1명) 방문",
     latlng: "35.203454, 129.123612",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "CU semi-student village (one employee) visit"
   },
   {
     profile: "(20대.여.한국)",
@@ -6002,7 +6578,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.31135, 127.45472",
     solo: true,
-    address_name: "대전 동구 효동"
+    address_name: "대전 동구 효동",
+    address_english: "a visit to the Eastern Health Center in Daejeon"
   },
   {
     profile: "-",
@@ -6014,7 +6591,8 @@ var position = [
     address: "반여 선수촌세븐일레븐(직원 1명) 방문",
     latlng: "35.202023, 129.121793",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Bannyeo athletes visit 7-Eleven (one employee)"
   },
   {
     profile: "-",
@@ -6026,7 +6604,8 @@ var position = [
     address: "직장(포항우체국) 근무",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "a job (Pohang Post Office)"
   },
   {
     profile: "(20대.여.한국)",
@@ -6038,7 +6617,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.333753, 127.445273",
     solo: true,
-    address_name: "대전 동구 대동"
+    address_name: "대전 동구 대동",
+    address_english: "Visit the Azit PC Room"
   },
   {
     profile: "-",
@@ -6050,7 +6630,8 @@ var position = [
     address: "김밥나라(오거리) 이용",
     latlng: "36.031716, 129.364882",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "Use of Kimbab Country (Ode Street)"
   },
   {
     profile: "(32.남.한국)",
@@ -6062,7 +6643,8 @@ var position = [
     full: "#세종 확진자 A",
     latlng: "36.778499, 127.018752",
     solo: true,
-    address_name: "충남 아산시 온양6동"
+    address_name: "충남 아산시 온양6동",
+    address_english: "Visit Asan Pot Boiled Pork"
   },
   {
     profile: "-",
@@ -6074,7 +6656,8 @@ var position = [
     address: "달콤커피(죽도시장) 방문",
     latlng: "36.035098, 129.365516",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "(Jukdo Market) visiting coffee dalkom"
   },
   {
     profile: "-",
@@ -6086,7 +6669,8 @@ var position = [
     address: "매직 PC방 방문후 귀가",
     latlng: "35.999765, 129.345021",
     solo: true,
-    address_name: "경북 포항시 남구 연일읍"
+    address_name: "경북 포항시 남구 연일읍",
+    address_english: "Homecoming after visiting Magic PC Room"
   },
   {
     profile: "-",
@@ -6098,7 +6682,9 @@ var position = [
     address: "포항의료원 <span style='color:red;'>격리</span>",
     latlng: "36.034762, 129.355059",
     solo: true,
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english:
+      "Pohang Medical Center  <Span Style='color:red;'격Division </Span>"
   },
   {
     profile: "-",
@@ -6110,7 +6696,8 @@ var position = [
     address: "합천 보건소 방문",
     latlng: "35.567985, 128.156572",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Hapcheon Health Center"
   },
   {
     profile: "-",
@@ -6122,7 +6709,8 @@ var position = [
     address: "신천지예수교회다대오지성전에서 예배",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -6134,7 +6722,8 @@ var position = [
     address: "바디라인피트니스 운동후 사택 귀가",
     latlng: "36.059444, 129.374354",
     solo: true,
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "Homecoming After Bodyline Fitness Exercise"
   },
   {
     profile: "-",
@@ -6146,7 +6735,8 @@ var position = [
     address: "수영구 광안동 슈가스팟 건물 방문",
     latlng: "35.160705, 129.115174",
     solo: true,
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english: "Visit the Sugar Pot Building in Gwangan-dong, Suyeong-gu"
   },
   {
     profile: "-",
@@ -6158,7 +6748,8 @@ var position = [
     address: "스타벅스 수영강변점 방문",
     latlng: "35.203812, 129.119357",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit the Starbucks swimming riverside."
   },
   {
     profile: "-",
@@ -6170,7 +6761,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.282695, 127.237831",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "a visit to the Kimbab Heaven"
   },
   {
     profile: "-",
@@ -6182,7 +6774,8 @@ var position = [
     address: "남구보건소 방문",
     latlng: "35.992375, 129.396217",
     solo: true,
-    address_name: "경북 포항시 남구 제철동"
+    address_name: "경북 포항시 남구 제철동",
+    address_english: "Visit Namgu Health Center"
   },
   {
     profile: "(14.남.한국)",
@@ -6194,7 +6787,8 @@ var position = [
     full: "진주 확진자B",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -6206,7 +6800,8 @@ var position = [
     address: "포항 우체국 출근",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "To work at the Pohang Post Office"
   },
   {
     profile: "-",
@@ -6218,7 +6813,9 @@ var position = [
     full: "합천 확진자 A",
     latlng: "35.176216, 128.093848",
     solo: true,
-    address_name: "경남 진주시 천전동"
+    address_name: "경남 진주시 천전동",
+    address_english:
+      "Kyungsang National University Hospital  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -6230,7 +6827,8 @@ var position = [
     address: "대구 동성로 식당'스시라스또' 방문",
     latlng: "35.868512, 128.59823",
     solo: true,
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Visiting Dongseongno Restaurant in Daegu"
   },
   {
     profile: "-",
@@ -6242,7 +6840,8 @@ var position = [
     address: "맘스터치 연일점 방문",
     latlng: "35.996333, 129.345901",
     solo: true,
-    address_name: "경북 포항시 남구 연일읍"
+    address_name: "경북 포항시 남구 연일읍",
+    address_english: "a visit to the Mammsterch's office."
   },
   {
     profile: "-",
@@ -6254,7 +6853,8 @@ var position = [
     address: "밸류플러스 1층 라라코스트 방문",
     latlng: "36.012772, 129.348954",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "Visit Larakost on the first floor of Value Plus"
   },
   {
     profile: "-",
@@ -6266,7 +6866,8 @@ var position = [
     address: "야천1구 경로당 방문",
     latlng: "35.762719, 128.138622",
     solo: true,
-    address_name: "경남 합천군 가야면"
+    address_name: "경남 합천군 가야면",
+    address_english: "Visits per Route 1 in Yacheon"
   },
   {
     profile: "-",
@@ -6278,7 +6879,8 @@ var position = [
     address: "북구보건소 근무",
     latlng: "36.070662, 129.380494",
     solo: true,
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Northern District Health Service"
   },
   {
     profile: "-",
@@ -6290,7 +6892,8 @@ var position = [
     address: "바디라인 피트니스 방문",
     latlng: "36.059444, 129.374354",
     solo: true,
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "Visit Bodyline Fitness"
   },
   {
     profile: "(20대.여.한국)",
@@ -6302,7 +6905,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.337327, 127.448069",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "Visit K-Mart"
   },
   {
     profile: "-",
@@ -6312,7 +6916,8 @@ var position = [
     address: "포항의료원 격리",
     latlng: "36.034762, 129.355059",
     solo: true,
-    address_name: "경북 포항시 북구 용흥동"
+    address_name: "경북 포항시 북구 용흥동",
+    address_english: "Pohang Medical Center Isolation"
   },
   {
     profile: "-",
@@ -6324,7 +6929,8 @@ var position = [
     address: "직장 근무",
     latlng: "35.833409, 127.121673",
     solo: true,
-    address_name: "전북 전주시 완산구 서신동"
+    address_name: "전북 전주시 완산구 서신동",
+    address_english: "office work"
   },
   {
     profile: "(20대.여.한국)",
@@ -6336,7 +6942,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.332274, 127.43419",
     solo: true,
-    address_name: "대전 동구 중앙동"
+    address_name: "대전 동구 중앙동",
+    address_english: "Arrival at Daejeon Station"
   },
   {
     profile: "-",
@@ -6348,7 +6955,8 @@ var position = [
     address: "CU 편의점 포항인성점 방문",
     latlng: "36.080567, 129.392345",
     solo: true,
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "CU Convenience Store Visit Pohang Insung Branch"
   },
   {
     profile: "-",
@@ -6360,7 +6968,9 @@ var position = [
     address: "동국대경주병원 선별진료소 방문 후 양성판정",
     latlng: "35.858188, 129.196671",
     solo: true,
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "A positive evaluation after visiting the screening center of Dongguk University Gyeongju Hospital"
   },
   {
     profile: "-",
@@ -6372,7 +6982,8 @@ var position = [
     address: "호텔팰리스 방문",
     latlng: "36.0114, 129.347188",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "Visit the Hotel Palace"
   },
   {
     profile: "-",
@@ -6384,7 +6995,8 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Transfer to Myongji Hospital"
   },
   {
     profile: "-",
@@ -6396,7 +7008,9 @@ var position = [
     address: "장성동 진할인마트 방문(생필품 구입)",
     latlng: "36.079349, 129.39251",
     solo: true,
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english:
+      "Visit Jin discount discount mart in Jangseong-dong (buy daily necessities)"
   },
   {
     profile: "-",
@@ -6408,7 +7022,8 @@ var position = [
     address: "북구보건소 근무",
     latlng: "36.070662, 129.380494",
     solo: true,
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Northern District Health Service"
   },
   {
     profile: "-",
@@ -6420,7 +7035,9 @@ var position = [
     address: "울산대병원 국가지정음압격리치료실로 이송",
     latlng: "35.520046, 129.428956",
     solo: true,
-    address_name: "울산 동구 전하1동"
+    address_name: "울산 동구 전하1동",
+    address_english:
+      "Transfer to the National Assigned Acoustic Pressure Isolation Treatment Center at Ulsan National University Hospital"
   },
   {
     profile: "-",
@@ -6432,7 +7049,9 @@ var position = [
     full: "합천 확진자 B",
     latlng: "35.176216, 128.093848",
     solo: true,
-    address_name: "경남 진주시 천전동"
+    address_name: "경남 진주시 천전동",
+    address_english:
+      "Kyungsang National University Hospital  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -6444,7 +7063,8 @@ var position = [
     address: "홍성철성형외과(오거리) 4층 방문",
     latlng: "36.033023, 129.366457",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "Hongseong Steel Plastic Surgery Visit 4F"
   },
   {
     month: 1,
@@ -6457,7 +7077,8 @@ var position = [
     profile: "-",
     name: "4번째 확진자",
     full: "4번째 확진자",
-    address_name: "경기 평택시 송북동"
+    address_name: "경기 평택시 송북동",
+    address_english: "Pyeongtaek Songtan Terminal"
   },
   {
     month: 1,
@@ -6470,7 +7091,8 @@ var position = [
     profile: "-",
     name: "5번째 확진자",
     full: "5번째 확진자",
-    address_name: "서울 성동구 왕십리2동"
+    address_name: "서울 성동구 왕십리2동",
+    address_english: "Sungdong-gu Stationary Visit"
   },
   {
     month: 1,
@@ -6483,7 +7105,8 @@ var position = [
     profile: "-",
     name: "5번째 확진자",
     full: "5번째 확진자",
-    address_name: "서울 성북구 동선동"
+    address_name: "서울 성북구 동선동",
+    address_english: "Visit CGV at Sungshin Women's University Entrance"
   },
   {
     status: "완치",
@@ -6499,7 +7122,8 @@ var position = [
     solo: true,
     name: "4번째 확진자",
     full: "4번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     month: 1,
@@ -6512,7 +7136,8 @@ var position = [
     profile: "-",
     name: "8번째 확진자",
     full: "8번째 확진자",
-    address_name: "전북 군산시 수송동"
+    address_name: "전북 군산시 수송동",
+    address_english: "Hospital visits to Gunsan-based medical institutions"
   },
   {
     profile: "-",
@@ -6524,7 +7149,8 @@ var position = [
     address: "김밥나라(오거리) 방문",
     latlng: "36.031672, 129.364906",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "Visiting Kimbab Nara (Ogeori)"
   },
   {
     profile: "-",
@@ -6537,7 +7163,9 @@ var position = [
     solo: true,
     name: "34번째 확진자",
     full: "34번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -6550,7 +7178,8 @@ var position = [
     profile: "-",
     name: "5번째 확진자",
     full: "5번째 확진자",
-    address_name: "서울 중랑구 면목본동"
+    address_name: "서울 중랑구 면목본동",
+    address_english: "Visit Jungnangu Restaurant"
   },
   {
     profile: "-",
@@ -6562,7 +7191,8 @@ var position = [
     address: "다솔아동병원&다솜약국 방문",
     latlng: "35.817194, 127.102292",
     solo: true,
-    address_name: "전북 전주시 완산구 효자5동"
+    address_name: "전북 전주시 완산구 효자5동",
+    address_english: "Dassol Children's Hospital"
   },
   {
     month: 1,
@@ -6575,7 +7205,8 @@ var position = [
     profile: "-",
     name: "5번째 확진자",
     full: "5번째 확진자",
-    address_name: "서울 중랑구 면목본동"
+    address_name: "서울 중랑구 면목본동",
+    address_english: "Visit Jungnangu Mart"
   },
   {
     profile: "-",
@@ -6588,7 +7219,9 @@ var position = [
     solo: true,
     name: "38번째 확진자",
     full: "38번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -6603,7 +7236,8 @@ var position = [
     solo: true,
     name: "5번째 확진자",
     full: "5번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     profile: "-",
@@ -6615,7 +7249,8 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Transfer to Myongji Hospital"
   },
   {
     profile: "-",
@@ -6627,7 +7262,8 @@ var position = [
     address: "강릉의료원 이송",
     latlng: "37.749212, 128.888693",
     solo: true,
-    address_name: "강원 강릉시 중앙동"
+    address_name: "강원 강릉시 중앙동",
+    address_english: "Transfer to Gangneung Medical Center"
   },
   {
     solo: true,
@@ -6639,7 +7275,8 @@ var position = [
     full: "구미 확진자",
     address: "GS편의점(인의센타점) 방문",
     latlng: "36.107883, 128.423984",
-    address_name: "경북 구미시 인동동"
+    address_name: "경북 구미시 인동동",
+    address_english: "Visit GS Convenience Store (Incenta Store)"
   },
   {
     solo: true,
@@ -6651,7 +7288,8 @@ var position = [
     full: "구미 확진자",
     address: "GS편의점(인의센타점) 방문",
     latlng: "36.107918, 128.424005",
-    address_name: "경북 구미시 인동동"
+    address_name: "경북 구미시 인동동",
+    address_english: "Visit GS Convenience Store (Incenta Store)"
   },
   {
     profile: "-",
@@ -6663,7 +7301,9 @@ var position = [
     address: "청주시 상당구 석교동 육거리 시장 주차장~떡집골목",
     latlng: "36.62902, 127.488395",
     solo: true,
-    address_name: "충북 청주시 상당구 성안동"
+    address_name: "충북 청주시 상당구 성안동",
+    address_english:
+      "The parking lot of Seokgyo-dong Yukgyo Market in Daejeong-gu, Cheongju~Tteokjip Alley"
   },
   {
     profile: "-",
@@ -6675,7 +7315,8 @@ var position = [
     address: "놀부부대찌개 방문",
     latlng: "37.444197, 129.16345",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit Nolbu Budaejjigae"
   },
   {
     solo: true,
@@ -6687,7 +7328,8 @@ var position = [
     full: "광진구 확진자",
     address: "영 모네중식 방문",
     latlng: "37.558112, 127.079373",
-    address_name: "서울 광진구 중곡1동"
+    address_name: "서울 광진구 중곡1동",
+    address_english: "Young Monet Chinese Visit"
   },
   {
     solo: true,
@@ -6699,7 +7341,8 @@ var position = [
     full: "울산 확진자",
     address: "대명클락해치워트니센터 방문",
     latlng: "35.838913, 128.571015",
-    address_name: "대구 남구 대명6동"
+    address_name: "대구 남구 대명6동",
+    address_english: "Visit Daemyung Clock Hatchwaterney Center"
   },
   {
     solo: true,
@@ -6711,7 +7354,8 @@ var position = [
     full: "진주 확진자",
     address: "진주기계공고 정류장 방문",
     latlng: "35.179495, 128.104776",
-    address_name: "경남 진주시 상대동"
+    address_name: "경남 진주시 상대동",
+    address_english: "Visit Jinju Technical High School Station"
   },
   {
     profile: "-",
@@ -6723,7 +7367,8 @@ var position = [
     address: "만치만치 방문",
     latlng: "37.443602, 129.163701",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a full visit"
   },
   {
     profile: "-",
@@ -6735,7 +7380,9 @@ var position = [
     address: "청주시 상당구 금천동 문구점 방문",
     latlng: "36.628274, 127.507736",
     solo: true,
-    address_name: "충북 청주시 상당구 금천동"
+    address_name: "충북 청주시 상당구 금천동",
+    address_english:
+      "Visit the stationery store in Geumcheon-dong, Daehang-gu, Cheongju"
   },
   {
     solo: true,
@@ -6747,7 +7394,8 @@ var position = [
     full: "부산 확진자",
     address: "온천장지하철역 방문",
     latlng: "35.220285, 129.086445",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Visit the Hot Springs Subway Station"
   },
   {
     profile: "-",
@@ -6759,7 +7407,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.443068, 129.164281",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     solo: true,
@@ -6771,7 +7420,8 @@ var position = [
     full: "울산 확진자",
     address: " 동성로 장도뚝배기 방문",
     latlng: "35.869179, 128.594829",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Dongseongno Jangdokbaegi Visit"
   },
   {
     profile: "-",
@@ -6783,7 +7433,8 @@ var position = [
     address: "양분식 방문",
     latlng: "37.44415, 129.163383",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a bifurcated visit"
   },
   {
     profile: "-",
@@ -6795,7 +7446,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.443068, 129.164281",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     solo: true,
@@ -6807,7 +7459,8 @@ var position = [
     full: "상주 확진자",
     address: "안동 의료원 격리",
     latlng: "36.567971, 128.732347",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Andong Medical Center Isolation"
   },
   {
     profile: "-",
@@ -6819,7 +7472,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.443068, 129.164281",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     solo: true,
@@ -6831,7 +7485,8 @@ var position = [
     full: "춘천 확진자",
     address: "대구 트레이더스 방문(15:00~15:30)",
     latlng: "35.889885, 128.555973",
-    address_name: "대구 서구 비산7동"
+    address_name: "대구 서구 비산7동",
+    address_english: "Visit Daegu Traders (15:00-15:30)"
   },
   {
     solo: true,
@@ -6843,7 +7498,8 @@ var position = [
     full: "대전 확진자",
     address: "칠곡휴계소 방문",
     latlng: "36.012037, 128.430844",
-    address_name: "경북 칠곡군 왜관읍"
+    address_name: "경북 칠곡군 왜관읍",
+    address_english: "Visit Chilgok Recreation Center"
   },
   {
     solo: true,
@@ -6855,7 +7511,8 @@ var position = [
     full: "부산 확진자",
     address: "메리놀병원 방문",
     latlng: "35.107201, 129.032514",
-    address_name: "부산 중구 대청동"
+    address_name: "부산 중구 대청동",
+    address_english: "a visit to Merinol Hospital"
   },
   {
     solo: true,
@@ -6867,7 +7524,8 @@ var position = [
     full: "이천 확진자",
     address: "샘재로밥상 방문",
     latlng: "37.124234, 127.615585",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "a visit to Samjae Japsang."
   },
   {
     solo: true,
@@ -6879,7 +7537,8 @@ var position = [
     full: "구미 확진자",
     address: "호텔 아메리카 방문",
     latlng: "36.110259, 128.419082",
-    address_name: "경북 구미시 인동동"
+    address_name: "경북 구미시 인동동",
+    address_english: "a visit to Hotel"
   },
   {
     solo: true,
@@ -6891,7 +7550,9 @@ var position = [
     full: "영천 확진자",
     address: "영천 시청 오거리 버스정류장 555번 탑승 (13시~14시)",
     latlng: "35.970879, 128.938576",
-    address_name: "경북 영천시 중앙동"
+    address_name: "경북 영천시 중앙동",
+    address_english:
+      "Ride bus stop 555 at Yeongcheon City Hall Intersection (from 13 to 14)"
   },
   {
     solo: true,
@@ -6903,7 +7564,8 @@ var position = [
     full: "김해 확진자",
     address: "김해시보건소 방문",
     latlng: "35.232267, 128.870919",
-    address_name: "경남 김해시 내외동"
+    address_name: "경남 김해시 내외동",
+    address_english: "Visit Gimhae Health Center"
   },
   {
     solo: true,
@@ -6915,7 +7577,9 @@ var position = [
     full: "영천 확진자",
     address: "영남대학교영천병원 응급실(2/16 19:49~19:57)",
     latlng: "35.957297, 128.913191",
-    address_name: "경북 영천시 서부동"
+    address_name: "경북 영천시 서부동",
+    address_english:
+      "Emergency Room of Yeongnam University Yeongcheon Hospital (2/16 19:49-19:57)"
   },
   {
     solo: true,
@@ -6927,7 +7591,8 @@ var position = [
     full: "경산 확진자",
     address: "청해수산 방문",
     latlng: "35.827824, 128.725854",
-    address_name: "경북 경산시 서부2동"
+    address_name: "경북 경산시 서부2동",
+    address_english: "Cheonghae Fisheries Visit"
   },
   {
     solo: true,
@@ -6939,7 +7604,8 @@ var position = [
     full: "부산 확진자",
     address: "중앙지하철역(17:45)",
     latlng: "35.10414, 129.036415",
-    address_name: "부산 중구 중앙동"
+    address_name: "부산 중구 중앙동",
+    address_english: "Central Subway Station (17:45)"
   },
   {
     solo: true,
@@ -6951,7 +7617,8 @@ var position = [
     full: "광주 확진자 C",
     address: "나로우주센터 우주과학관 매점(13:00)",
     latlng: "34.45386, 127.518144",
-    address_name: "전남 고흥군 봉래면"
+    address_name: "전남 고흥군 봉래면",
+    address_english: "Space Science Hall Store at Naro Space Center (13:00)"
   },
   {
     solo: true,
@@ -6963,7 +7630,8 @@ var position = [
     full: "포항 확진자",
     address: "CU포항오천점(23:10)",
     latlng: "35.966525, 129.415593",
-    address_name: "경북 포항시 남구 오천읍"
+    address_name: "경북 포항시 남구 오천읍",
+    address_english: "CUpo Port 5000 Point (23:10)"
   },
   {
     solo: true,
@@ -6975,7 +7643,8 @@ var position = [
     full: "속초 확진자",
     address: "고성 진부령 미술관 방문(13:30)",
     latlng: "38.265251, 128.358809",
-    address_name: "강원 인제군 북면"
+    address_name: "강원 인제군 북면",
+    address_english: "Visit Goseong Jinnyeong Art Museum (13:30)"
   },
   {
     solo: true,
@@ -6987,7 +7656,8 @@ var position = [
     full: "서울 확진자",
     address: "복돼지네 옛날 생돼지김치찌개 방문",
     latlng: "37.477868, 126.987334",
-    address_name: "서울 서초구 방배2동"
+    address_name: "서울 서초구 방배2동",
+    address_english: "Visit the Lucky Pigs' Old Raw Pigs Kimchi Stew"
   },
   {
     solo: true,
@@ -6999,7 +7669,8 @@ var position = [
     full: "부산 확진자",
     address: "트루바두르 부산대점 방문",
     latlng: "35.231002, 129.088153",
-    address_name: "부산 금정구 장전2동"
+    address_name: "부산 금정구 장전2동",
+    address_english: "Visit Truvadur Busan Grand Store"
   },
   {
     solo: true,
@@ -7011,7 +7682,8 @@ var position = [
     full: "문경 확진자",
     address: "달서시장 안 보리밥집에서 식사 (11:40)",
     latlng: "35.8504863, 128.5436292",
-    address_name: "대구 달서구 감삼동"
+    address_name: "대구 달서구 감삼동",
+    address_english: "Dining at a barley restaurant in Dalseo Market (11:40)"
   },
   {
     solo: true,
@@ -7023,7 +7695,8 @@ var position = [
     full: "부산 확진자",
     address: "메리놀병원(08:15)",
     latlng: "35.107914, 129.032607",
-    address_name: "부산 중구 동광동"
+    address_name: "부산 중구 동광동",
+    address_english: "Merinol Hospital (08:15)"
   },
   {
     solo: true,
@@ -7035,7 +7708,9 @@ var position = [
     full: "속초 확진자",
     address: "양양 강현면사무소옆 GS편의점 밖 테라스 방문(5:50)",
     latlng: "38.150126, 128.607381",
-    address_name: "강원 양양군 강현면"
+    address_name: "강원 양양군 강현면",
+    address_english:
+      "Visit Terrace outside GS Convenience Store next to Kanghyun-myeon Office in Yangyang (5:50)"
   },
   {
     solo: true,
@@ -7047,7 +7722,8 @@ var position = [
     full: "송파구 확진자",
     address: "문정 교동짬뽕 방문",
     latlng: "37.487737, 127.119209",
-    address_name: "서울 송파구 문정2동"
+    address_name: "서울 송파구 문정2동",
+    address_english: "Moonjung Gyodong Jjamppong Visit"
   },
   {
     solo: true,
@@ -7059,7 +7735,8 @@ var position = [
     full: "양산 확진자",
     address: "삼산이용원(08:00)",
     latlng: "35.303328, 129.024979",
-    address_name: "경남 양산시 동면"
+    address_name: "경남 양산시 동면",
+    address_english: "Samsan Yongwon (08:00)"
   },
   {
     solo: true,
@@ -7071,7 +7748,8 @@ var position = [
     full: "영주 확진자",
     address: "영주온천 방문(17:30~18:30)",
     latlng: "36.817607, 128.605227",
-    address_name: "경북 영주시 가흥1동"
+    address_name: "경북 영주시 가흥1동",
+    address_english: "Visit Yeongju Oncheon (17:30-18:30)"
   },
   {
     solo: true,
@@ -7083,7 +7761,8 @@ var position = [
     full: "부산 확진자",
     address: "이솝페이블 방문",
     latlng: "35.22959, 129.087132",
-    address_name: "부산 금정구 장전2동"
+    address_name: "부산 금정구 장전2동",
+    address_english: "Visit Aesop Pable"
   },
   {
     solo: true,
@@ -7095,7 +7774,8 @@ var position = [
     full: "부산 확진자",
     address: "동래구보건소(11:30~13:00)",
     latlng: "35.211595, 129.079938",
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "Dongnae District Health Center (11:30-13:00)"
   },
   {
     solo: true,
@@ -7107,7 +7787,8 @@ var position = [
     full: "부산 확진자",
     address: "금정구 보건소",
     latlng: "35.24231, 129.092472",
-    address_name: "부산 금정구 부곡3동"
+    address_name: "부산 금정구 부곡3동",
+    address_english: "Geumjeong-gu Health Center"
   },
   {
     solo: true,
@@ -7119,7 +7800,8 @@ var position = [
     full: "속초 확진자",
     address: "매자식당 방문(18:00)",
     latlng: "38.210327, 128.586505",
-    address_name: "강원 속초시 동명동"
+    address_name: "강원 속초시 동명동",
+    address_english: "Visit the cafeteria (18:00)"
   },
   {
     solo: true,
@@ -7131,7 +7813,9 @@ var position = [
     full: "안동 확진자",
     address: "안동교구청에서 교육(9:00~18:30), 영주 거주자 1명 동승",
     latlng: "36.57973, 128.724522",
-    address_name: "경북 안동시 안기동"
+    address_name: "경북 안동시 안기동",
+    address_english:
+      "Education at Andong Diocese Office (9:00-18:30), accompanied by one permanent resident"
   },
   {
     solo: true,
@@ -7143,7 +7827,8 @@ var position = [
     full: "창원 확진자",
     address: "터치카페 창원중앙점(14:00)",
     latlng: "35.222058, 128.676721",
-    address_name: "경남 창원시 성산구 중앙동"
+    address_name: "경남 창원시 성산구 중앙동",
+    address_english: "Touch cafe Changwon Central Point (14:00)"
   },
   {
     solo: true,
@@ -7155,7 +7840,8 @@ var position = [
     full: "합천 확진자",
     address: "세운건축인테리어 방문",
     latlng: "35.56439, 128.162934",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Sewoon Architecture Interrier"
   },
   {
     solo: true,
@@ -7167,7 +7853,9 @@ var position = [
     full: "영천 확진자",
     address: "영남대학교 영천병원 응급실 (19시 49분~19시 57분)",
     latlng: "35.95736, 128.913157",
-    address_name: "경북 영천시 서부동"
+    address_name: "경북 영천시 서부동",
+    address_english:
+      "Emergency Room of Yeongcheon Hospital at Yeungnam University (19:49-1957)"
   },
   {
     solo: true,
@@ -7179,7 +7867,9 @@ var position = [
     full: "창원 확진자",
     address: "창원병원 앞 세계로약국 결제(14:55)",
     latlng: "35.217171, 128.670463",
-    address_name: "경남 창원시 성산구 중앙동"
+    address_name: "경남 창원시 성산구 중앙동",
+    address_english:
+      "Payment by the World Pharmacy in front of Changwon Hospital (14:55)"
   },
   {
     solo: true,
@@ -7191,7 +7881,8 @@ var position = [
     full: "김해 확진자",
     address: "복있는치과의원",
     latlng: "35.21072481613721, 129.07684012905645",
-    address_name: "부산 동래구 온천2동"
+    address_name: "부산 동래구 온천2동",
+    address_english: "a blessed dentist"
   },
   {
     solo: true,
@@ -7203,7 +7894,8 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원(13:30)",
     latlng: "35.187418, 129.059155",
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center (13:30)"
   },
   {
     solo: true,
@@ -7215,7 +7907,9 @@ var position = [
     full: "양산 확진자",
     address: "대구 퀸벨호텔 9층 결혼식 참석 및 8층 뷔페(11:00~12:30)",
     latlng: "35.882347, 128.662134",
-    address_name: "대구 동구 방촌동"
+    address_name: "대구 동구 방촌동",
+    address_english:
+      "Attend the 9th floor wedding of the Queen Bell Hotel in Daegu and buffet on 8th floor (11:00-12:30)"
   },
   {
     solo: true,
@@ -7227,7 +7921,8 @@ var position = [
     full: "김해 확진자",
     address: "고복 샤브샤브 서면점",
     latlng: "35.15509835931101, 129.0620689933964",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english: "Gobok Shabu Shabu Station"
   },
   {
     solo: true,
@@ -7239,7 +7934,9 @@ var position = [
     full: "포항 확진자",
     address: "BL헬스장 4층에서 운동(18:10~20:00)",
     latlng: "36.032644, 129.366662",
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english:
+      "Exercise on the 4th floor of BL Health Center (18:10-20:00)"
   },
   {
     solo: true,
@@ -7251,7 +7948,8 @@ var position = [
     full: "김해 확진자",
     address: "더선경약국(2/18,20)",
     latlng: "35.23858040200736, 128.91537178443636",
-    address_name: "경남 김해시 삼안동"
+    address_name: "경남 김해시 삼안동",
+    address_english: "The Sun Pharmacy (2/18,20)"
   },
   {
     solo: true,
@@ -7263,7 +7961,8 @@ var position = [
     full: "김해 확진자",
     address: "돈토리",
     latlng: "35.1766241640059, 128.80647609006255",
-    address_name: "경남 김해시 장유3동"
+    address_name: "경남 김해시 장유3동",
+    address_english: "Dontori"
   },
   {
     solo: true,
@@ -7275,7 +7974,8 @@ var position = [
     full: "김해 확진자",
     address: "모던테이블 서면점",
     latlng: "35.15394225075381, 129.0615877432894",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english: "Modern Table Written Point"
   },
   {
     solo: true,
@@ -7287,7 +7987,8 @@ var position = [
     full: "김해 확진자",
     address: "구명역",
     latlng: "35.202809215648784, 128.99955618123315",
-    address_name: "부산 북구 구포2동"
+    address_name: "부산 북구 구포2동",
+    address_english: "Life Station"
   },
   {
     solo: true,
@@ -7299,7 +8000,8 @@ var position = [
     full: "김해 확진자",
     address: "전포역 지하철 탑승",
     latlng: "35.153088142664124, 129.06538457863138",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english: "Take the subway at Jeonpo Station"
   },
   {
     solo: true,
@@ -7311,7 +8013,8 @@ var position = [
     full: "김해 확진자",
     address: "서면역 부산1호선(2/17,18,19)",
     latlng: "35.157939062512, 129.05930088354637",
-    address_name: "부산 부산진구 부전1동"
+    address_name: "부산 부산진구 부전1동",
+    address_english: "Seomyeon Station Busan Line 1 (2/17,18,19)"
   },
   {
     solo: true,
@@ -7323,7 +8026,8 @@ var position = [
     full: "김해 확진자",
     address: "일운면 쌤김밥",
     latlng: "34.829590963483376, 128.70372783123926",
-    address_name: "경남 거제시 일운면"
+    address_name: "경남 거제시 일운면",
+    address_english: "Ilunmyun Sam Gimbap"
   },
   {
     solo: true,
@@ -7335,7 +8039,8 @@ var position = [
     full: "창원 확진자",
     address: "k-1 1호점 PC방(15:00)",
     latlng: "35.217606, 128.68463",
-    address_name: "경남 창원시 성산구 상남동"
+    address_name: "경남 창원시 성산구 상남동",
+    address_english: "k-1 1st store PC room (15:00)"
   },
   {
     solo: true,
@@ -7347,7 +8052,9 @@ var position = [
     full: "부천 확진자",
     address: "가톨릭대학교 부천성모병원 선별진료소",
     latlng: "37.48698266881209, 126.792466925871",
-    address_name: "경기 부천시 심곡동"
+    address_name: "경기 부천시 심곡동",
+    address_english:
+      "Catholic University Puchon St. Mary's Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -7359,7 +8066,8 @@ var position = [
     full: "김포 확진자",
     address: "LS용산타워",
     latlng: "37.5279760820472, 126.96781625386299",
-    address_name: "서울 용산구 한강로동"
+    address_name: "서울 용산구 한강로동",
+    address_english: "LS Yongsan Tower"
   },
   {
     solo: true,
@@ -7371,7 +8079,8 @@ var position = [
     full: "파주 확진자",
     address: "풍작플랜지 식당(2/17~2/21)",
     latlng: "37.893414, 126.8715187",
-    address_name: "경기 파주시 법원읍"
+    address_name: "경기 파주시 법원읍",
+    address_english: "Poongak Flange Restaurant (2/17-2/21)"
   },
   {
     solo: true,
@@ -7383,7 +8092,8 @@ var position = [
     full: "김포 확진자",
     address: "신용산역 4호선",
     latlng: "37.52925914893749, 126.96796503918299",
-    address_name: "서울 용산구 한강로동"
+    address_name: "서울 용산구 한강로동",
+    address_english: "Shin-San Station Line 4"
   },
   {
     solo: true,
@@ -7395,7 +8105,8 @@ var position = [
     full: "부천 확진자",
     address: "가톨릭대학교 부천성모병원",
     latlng: "37.48698266881209, 126.792466925871",
-    address_name: "경기 부천시 심곡동"
+    address_name: "경기 부천시 심곡동",
+    address_english: "Catholic University of Bucheon St. Mary's Hospital"
   },
   {
     solo: true,
@@ -7407,7 +8118,8 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Myeongji Hospital Isolation"
   },
   {
     solo: true,
@@ -7419,7 +8131,8 @@ var position = [
     full: "김해 확진자",
     address: "카페 AWLUK",
     latlng: "35.1553264583912, 129.06814044907745",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english: "Café AWLUK"
   },
   {
     solo: true,
@@ -7431,7 +8144,8 @@ var position = [
     full: "김포 확진자",
     address: "선유도역 9호선",
     latlng: "37.538156854068006, 126.89333386706899",
-    address_name: "서울 영등포구 양평2동"
+    address_name: "서울 영등포구 양평2동",
+    address_english: "Seonyudo Station Line 9"
   },
   {
     solo: true,
@@ -7443,7 +8157,8 @@ var position = [
     full: "부산 확진자",
     address: "우정 서면2호점 방문",
     latlng: "35.1562060048052, 129.0620091722154",
-    address_name: "부산 부산진구 부전2동"
+    address_name: "부산 부산진구 부전2동",
+    address_english: "Friendship Visit 2nd store in Seomyeon"
   },
   {
     solo: true,
@@ -7455,7 +8170,8 @@ var position = [
     full: "김포 확진자",
     address: "코코이비인후과의원",
     latlng: "37.528819096922106, 126.966652883289",
-    address_name: "서울 용산구 한강로동"
+    address_name: "서울 용산구 한강로동",
+    address_english: "Cocoa Narcotics Clinic"
   },
   {
     solo: true,
@@ -7467,7 +8183,8 @@ var position = [
     full: "김해 확진자",
     address: "스카이라인루지 통영",
     latlng: "34.824374746340986, 128.4241464930771",
-    address_name: "경남 통영시 봉평동"
+    address_name: "경남 통영시 봉평동",
+    address_english: "Skyline Luge Tongyeong"
   },
   {
     solo: true,
@@ -7479,7 +8196,8 @@ var position = [
     full: "포천 확진자",
     address: "큰손원조할매순대국 전곡점",
     latlng: "38.02569181414809, 127.06816146129502",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "Big Sowon Halmaedaeguk's Whole Grain"
   },
   {
     solo: true,
@@ -7491,7 +8209,8 @@ var position = [
     full: "부천 확진자",
     address: "메이저리치 빌딩 근무",
     latlng: "37.44846731235319, 126.88405648750621",
-    address_name: "경기 광명시 소하1동"
+    address_name: "경기 광명시 소하1동",
+    address_english: "Major Leach Building Service"
   },
   {
     solo: true,
@@ -7503,7 +8222,8 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기 김포시 사우동"
+    address_name: "경기 김포시 사우동",
+    address_english: "Pung Trading Gimpo Gold Line"
   },
   {
     solo: true,
@@ -7515,7 +8235,8 @@ var position = [
     full: "부산 확진자",
     address: "부산우리들병원 매점 방문 ",
     latlng: "35.22194092440579, 129.08551591412248",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Visiting the canteen at Busan Udeul Hospital"
   },
   {
     solo: true,
@@ -7527,7 +8248,8 @@ var position = [
     full: "포천 확진자",
     address: "전곡시외버스터미널",
     latlng: "38.02528574643019, 127.06772943358702",
-    address_name: "경기 연천군 전곡읍"
+    address_name: "경기 연천군 전곡읍",
+    address_english: "Jeongok Bus Terminal"
   },
   {
     solo: true,
@@ -7539,7 +8261,8 @@ var position = [
     full: "김해 확진자",
     address: "박영진의원(2/18,20)",
     latlng: "35.2385307073672, 128.91555075705287",
-    address_name: "경남 김해시 삼안동"
+    address_name: "경남 김해시 삼안동",
+    address_english: "Park Young-jin (2/18,20)"
   },
   {
     solo: true,
@@ -7551,7 +8274,8 @@ var position = [
     full: "김해 확진자",
     address: "서면 피자집 도우개러지",
     latlng: "35.15734582681171, 129.0647153473864",
-    address_name: "부산 부산진구 전포1동"
+    address_name: "부산 부산진구 전포1동",
+    address_english: "Seomyeon Pizza House's Help Garage"
   },
   {
     solo: true,
@@ -7563,7 +8287,8 @@ var position = [
     full: "평택 확진자",
     address: "평택사랑외과의원",
     latlng: "36.993689570219985, 127.09204772606253",
-    address_name: "경기 평택시 신평동"
+    address_name: "경기 평택시 신평동",
+    address_english: "Pyeongtaek Sarang Medical Center"
   },
   {
     solo: true,
@@ -7575,7 +8300,8 @@ var position = [
     full: "평택 확진자",
     address: "동삭동 현대아파트 거주",
     latlng: "37.01903532652067, 127.09859591275836",
-    address_name: "경기 평택시 비전1동"
+    address_name: "경기 평택시 비전1동",
+    address_english: "Residence of Hyundai Apartment in Dongsak-dong"
   },
   {
     solo: true,
@@ -7587,7 +8313,8 @@ var position = [
     full: "김포 확진자",
     address: "김포공항역 공항철도",
     latlng: "37.56182975642019, 126.80247310798501",
-    address_name: "서울 강서구 방화2동"
+    address_name: "서울 강서구 방화2동",
+    address_english: "Gimpo Airport Station Airport Railway"
   },
   {
     solo: true,
@@ -7599,7 +8326,8 @@ var position = [
     full: "강서구 확진자",
     address: "롤리김밥",
     latlng: "37.549171372268006, 126.850750479918",
-    address_name: "서울특별시 강서구 화곡6동"
+    address_name: "서울특별시 강서구 화곡6동",
+    address_english: "Raleigh Gimbap"
   },
   {
     solo: true,
@@ -7611,7 +8339,8 @@ var position = [
     full: "강서구 확진자",
     address: "강서구보건소",
     latlng: "37.54961750526951, 126.868285554347",
-    address_name: "서울특별시 강서구 염창동"
+    address_name: "서울특별시 강서구 염창동",
+    address_english: "Gangseo District Health Center"
   },
   {
     solo: true,
@@ -7623,7 +8352,8 @@ var position = [
     full: "강서구 확진자",
     address: "GS25 화곡까치점",
     latlng: "37.5516748667775, 126.85260143575998",
-    address_name: "서울특별시 강서구 화곡6동"
+    address_name: "서울특별시 강서구 화곡6동",
+    address_english: "GS25 Hwagok Magpie Shop"
   },
   {
     solo: true,
@@ -7635,7 +8365,8 @@ var position = [
     full: "강서구 확진자",
     address: "롤리김밥",
     latlng: "37.549171372268006, 126.850750479918",
-    address_name: "서울특별시 강서구 화곡6동"
+    address_name: "서울특별시 강서구 화곡6동",
+    address_english: "Raleigh Gimbap"
   },
   {
     solo: true,
@@ -7647,7 +8378,8 @@ var position = [
     full: "강서구 확진자",
     address: "양푼이동태탕 바다장어탕",
     latlng: "37.55027896287321, 126.84883351212",
-    address_name: "서울특별시 강서구 화곡6동"
+    address_name: "서울특별시 강서구 화곡6동",
+    address_english: "Yangpoon-dongtaetang sea eel soup"
   },
   {
     solo: true,
@@ -7659,7 +8391,8 @@ var position = [
     full: "강서구 확진자",
     address: "프렌즈빈",
     latlng: "37.54974388975971, 126.85034194566299",
-    address_name: "서울특별시 강서구 화곡6동"
+    address_name: "서울특별시 강서구 화곡6동",
+    address_english: "Friends Bean"
   },
   {
     solo: true,
@@ -7671,7 +8404,8 @@ var position = [
     full: "김포 확진자",
     address: "김포공항역 9호선",
     latlng: "37.5619657741382, 126.80191588831",
-    address_name: "서울 강서구 방화2동"
+    address_name: "서울 강서구 방화2동",
+    address_english: "Gimpo Airport Station Line 9"
   },
   {
     solo: true,
@@ -7683,7 +8417,8 @@ var position = [
     full: "김포 확진자",
     address: "풍무역 김포골드라인",
     latlng: "37.61266242089956, 126.7323442002163",
-    address_name: "경기 김포시 사우동"
+    address_name: "경기 김포시 사우동",
+    address_english: "Pung Trading Gimpo Gold Line"
   },
   {
     solo: true,
@@ -7695,7 +8430,8 @@ var position = [
     full: "수원 확진자",
     address: "GS25 광교참누리점",
     latlng: "37.291098360098886, 127.07213954282454",
-    address_name: "경기 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동",
+    address_english: "GS25 Gwanggyo Chamnuri Branch"
   },
   {
     solo: true,
@@ -7707,7 +8443,8 @@ var position = [
     full: "김해 확진자",
     address: "부산 구포시장",
     latlng: "35.209249258830205, 129.00357032807014",
-    address_name: "부산 북구 구포1동"
+    address_name: "부산 북구 구포1동",
+    address_english: "Gupo Market in Busan"
   },
   {
     solo: true,
@@ -7719,7 +8456,8 @@ var position = [
     full: "부산 확진자",
     address: "사직자이언츠파크 3pop PC방 방문 ",
     latlng: "35.19616968130391, 129.0611647764842",
-    address_name: "부산 동래구 사직1동"
+    address_name: "부산 동래구 사직1동",
+    address_english: "Visit Sajik Giants Park 3pop PC Room"
   },
   {
     solo: true,
@@ -7731,7 +8469,8 @@ var position = [
     full: "포천 확진자",
     address: "서울역 1호선",
     latlng: "37.555980239632106, 126.972091251236",
-    address_name: "서울 중구 회현동"
+    address_name: "서울 중구 회현동",
+    address_english: "Seoul Station Line 1"
   },
   {
     solo: true,
@@ -7743,7 +8482,8 @@ var position = [
     full: "평택 확진자",
     address: "송탄보건소 출근",
     latlng: "37.06569374577861, 127.066470987295",
-    address_name: "경기 평택시 중앙동"
+    address_name: "경기 평택시 중앙동",
+    address_english: "commuting to Songtan Health Center"
   },
   {
     solo: true,
@@ -7755,7 +8495,8 @@ var position = [
     full: "수원 확진자",
     address: "해운대국밥",
     latlng: "37.2731345422434, 127.01580295485999",
-    address_name: "경기 수원시 팔달구 매교동"
+    address_name: "경기 수원시 팔달구 매교동",
+    address_english: "Haeundae rice soup"
   },
   {
     month: 2,
@@ -7768,7 +8509,8 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 중구 소공동"
+    address_name: "서울특별시 중구 소공동",
+    address_english: "Visit a department store located in Jung-gu, Seoul"
   },
   {
     status: "완치",
@@ -7784,7 +8526,8 @@ var position = [
     solo: true,
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -7799,7 +8542,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english: "Arrival at Dongmyo Station (21:36-21:46)"
   },
   {
     month: 1,
@@ -7812,7 +8556,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english: "Visit Guri City Mart"
   },
   {
     status: "완치",
@@ -7828,7 +8573,8 @@ var position = [
     solo: true,
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "서울특별시 영등포구 문래동"
+    address_name: "서울특별시 영등포구 문래동",
+    address_english: "working for a company in Yeongdeungpo-gu"
   },
   {
     memo:
@@ -7843,7 +8589,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a pharmacy in Jongno-gu (Spring and Drug Administration)"
   },
   {
     memo:
@@ -7858,7 +8606,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english: "Departure from Dongmyo Station"
   },
   {
     month: 2,
@@ -7871,7 +8620,8 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 은행동"
+    address_name: "경기도 시흥시 은행동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     status: "완치",
@@ -7887,7 +8637,8 @@ var position = [
     solo: true,
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 매화동"
+    address_name: "경기도 시흥시 매화동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     profile: "-",
@@ -7902,7 +8653,8 @@ var position = [
     solo: true,
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -7917,7 +8669,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     month: 2,
@@ -7930,7 +8684,9 @@ var position = [
     profile: "-",
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     memo:
@@ -7945,7 +8701,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 의정부시 녹양동"
+    address_name: "경기도 의정부시 녹양동",
+    address_english: "Departure from Nokyang Station (11:41-12:41)"
   },
   {
     month: 2,
@@ -7958,7 +8715,9 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 성남시 분당구 구미동"
+    address_name: "경기도 성남시 분당구 구미동",
+    address_english:
+      "Bundang Seoul National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -7971,7 +8730,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 이화동"
+    address_name: "서울특별시 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     month: 2,
@@ -7984,7 +8745,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락본동"
+    address_name: "서울특별시 송파구 가락본동",
+    address_english: "Visit a restaurant in Songpa-gu, Seoul"
   },
   {
     memo:
@@ -7999,7 +8761,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 동두천시 소요동"
+    address_name: "경기도 동두천시 소요동",
+    address_english: "Jamsan Station Movement"
   },
   {
     month: 2,
@@ -8012,7 +8775,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천광역시 연수구 송도3동"
+    address_name: "인천광역시 연수구 송도3동",
+    address_english: "Visit Songdo Large Shopping Mall"
   },
   {
     month: 2,
@@ -8025,7 +8789,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기도 구리시 교문1동",
+    address_english: "Visit Hanyang University Guri Hospital Screening Clinic"
   },
   {
     month: 2,
@@ -8038,7 +8803,8 @@ var position = [
     profile: "-",
     name: "26번째 확진자",
     full: "26번째 확진자",
-    address_name: "경기도 시흥시 은행동"
+    address_name: "경기도 시흥시 은행동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     profile: "-",
@@ -8051,7 +8817,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 남구 대명10동"
+    address_name: "대구광역시 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -8064,7 +8831,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 수성구 중동"
+    address_name: "대구광역시 수성구 중동",
+    address_english:
+      "Training after testing at a health center in Suseong-gu, Daegu"
   },
   {
     memo:
@@ -8079,7 +8848,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 동대문구 용신동"
+    address_name: "서울특별시 동대문구 용신동",
+    address_english: "Departure from Sinseol-dong Station"
   },
   {
     profile: "-",
@@ -8092,7 +8862,9 @@ var position = [
     solo: true,
     name: "26번째 확진자",
     full: "26번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     memo:
@@ -8107,7 +8879,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english: "Visit the pharmacy in Jongno-gu, Seoul"
   },
   {
     profile: "-",
@@ -8120,7 +8893,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 수성구 범어4동"
+    address_name: "대구광역시 수성구 범어4동",
+    address_english:
+      "Outpatient treatment at Daegu Medical Center (Saeronan Oriental Medicine Hospital)"
   },
   {
     month: 1,
@@ -8133,7 +8908,8 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주광역시 광산구 운남동"
+    address_name: "광주광역시 광산구 운남동",
+    address_english: "Treatment of 21st Century Hospital"
   },
   {
     month: 1,
@@ -8146,7 +8922,8 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 수원시 장안구 율천동"
+    address_name: "경기도 수원시 장안구 율천동",
+    address_english: "home price"
   },
   {
     month: 1,
@@ -8159,7 +8936,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울특별시 강남구 수서동"
+    address_name: "서울특별시 강남구 수서동",
+    address_english: "Arrival at Suseo Station"
   },
   {
     month: 2,
@@ -8172,7 +8950,9 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주광역시 동구 학동"
+    address_name: "광주광역시 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -8185,7 +8965,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 동구 신암4동"
+    address_name: "대구광역시 동구 신암4동",
+    address_english: "Arrival at Dongdaegu Station"
   },
   {
     month: 2,
@@ -8198,7 +8979,9 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 성남시 분당구 서현1동"
+    address_name: "경기도 성남시 분당구 서현1동",
+    address_english:
+      "Armed Forces Capital Hospital  <span style='color:red;'격separation </span>"
   },
   {
     month: 2,
@@ -8211,7 +8994,8 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 수원시 장안구 조원2동"
+    address_name: "경기도 수원시 장안구 조원2동",
+    address_english: "a visit to the Long Eye Health Center"
   },
   {
     status: "완치",
@@ -8227,7 +9011,8 @@ var position = [
     solo: true,
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "전라남도 무안군 망운면"
+    address_name: "전라남도 무안군 망운면",
+    address_english: "Arrival at Muan Airport"
   },
   {
     month: 1,
@@ -8240,7 +9025,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english: "Guri's Restaurant Meal"
   },
   {
     month: 1,
@@ -8253,7 +9039,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 동구동"
+    address_name: "경기도 구리시 동구동",
+    address_english:
+      "Samsung Medical Center Br. Guri City Pharmacy Prescription"
   },
   {
     month: 2,
@@ -8266,7 +9054,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울특별시 광진구 광장동"
+    address_name: "서울특별시 광진구 광장동",
+    address_english:
+      "Use nearby convenience store after arriving at Gwangnaru Station"
   },
   {
     month: 1,
@@ -8279,7 +9069,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기도 구리시 교문1동",
+    address_english:
+      "Hanyang University Emergency Room Visits, Medical Examinations"
   },
   {
     status: "완치",
@@ -8295,7 +9087,8 @@ var position = [
     solo: true,
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     month: 1,
@@ -8308,7 +9101,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락1동"
+    address_name: "서울특별시 송파구 가락1동",
+    address_english: "Visit the bakery in Songpa-gu."
   },
   {
     month: 2,
@@ -8321,7 +9115,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english:
+      "Medical treatment of Asan Medical Center and use of a pharmacy nearby"
   },
   {
     status: "완치",
@@ -8337,7 +9133,8 @@ var position = [
     solo: true,
     name: "18번째 확진자",
     full: "18번째 확진자",
-    address_name: "광주광역시 광산구 운남동"
+    address_name: "광주광역시 광산구 운남동",
+    address_english: "Gwangju 21st Century Hospital Hospital Hospital"
   },
   {
     month: 1,
@@ -8350,7 +9147,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락본동"
+    address_name: "서울특별시 송파구 가락본동",
+    address_english: "Visit a restaurant located in Songpa-gu"
   },
   {
     month: 2,
@@ -8363,7 +9161,9 @@ var position = [
     profile: "-",
     name: "18번째 확진자",
     full: "18번째 확진자",
-    address_name: "광주광역시 동구 학동"
+    address_name: "광주광역시 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 2,
@@ -8376,7 +9176,9 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     month: 2,
@@ -8389,7 +9191,8 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 중구 명동"
+    address_name: "서울특별시 중구 명동",
+    address_english: "Exits from a hotel in Jung-gu, Seoul"
   },
   {
     month: 1,
@@ -8402,7 +9205,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 수성구 범어1동"
+    address_name: "대구광역시 수성구 범어1동",
+    address_english: "Moving to Mercury District's Main House"
   },
   {
     memo:
@@ -8417,7 +9221,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution located in Jongno-gu, Seoul"
   },
   {
     profile: "-",
@@ -8430,7 +9236,9 @@ var position = [
     solo: true,
     name: "33번째 확진자",
     full: "33번째 확진자",
-    address_name: "대구광역시 중구 성내2동"
+    address_name: "대구광역시 중구 성내2동",
+    address_english:
+      "Visit the Daegu branch of Hyundai Department Store at around 1 p.m."
   },
   {
     profile: "-",
@@ -8443,7 +9251,8 @@ var position = [
     solo: true,
     name: "24번째 확진자",
     full: "24번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     status: "완치",
@@ -8459,7 +9268,8 @@ var position = [
     solo: true,
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "전라남도 무안군 망운면"
+    address_name: "전라남도 무안군 망운면",
+    address_english: "Arrival at Muan Airport"
   },
   {
     month: 2,
@@ -8472,7 +9282,9 @@ var position = [
     profile: "-",
     name: "18번째 확진자",
     full: "18번째 확진자",
-    address_name: "광주광역시 동구 학동"
+    address_name: "광주광역시 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -8485,7 +9297,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english: "Visit Guri City Mart"
   },
   {
     status: "완치",
@@ -8501,7 +9314,8 @@ var position = [
     solo: true,
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     month: 2,
@@ -8514,7 +9328,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 강남구 역삼1동"
+    address_name: "서울특별시 강남구 역삼1동",
+    address_english: "Visit a hotel in Gangnam-gu, Seoul"
   },
   {
     month: 2,
@@ -8527,7 +9342,9 @@ var position = [
     profile: "-",
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "경기도 성남시 분당구 서현1동"
+    address_name: "경기도 성남시 분당구 서현1동",
+    address_english:
+      "Armed Forces Capital Hospital  <span style='color:red;'격separation </span>"
   },
   {
     month: 1,
@@ -8540,7 +9357,8 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 수원시 장안구 율천동"
+    address_name: "경기도 수원시 장안구 율천동",
+    address_english: "home price"
   },
   {
     month: 1,
@@ -8553,7 +9371,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락1동"
+    address_name: "서울특별시 송파구 가락1동",
+    address_english: "Visit the bakery in Songpa-gu."
   },
   {
     month: 1,
@@ -8566,7 +9385,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 수성구 범어1동"
+    address_name: "대구광역시 수성구 범어1동",
+    address_english: "Moving to Mercury District's Main House"
   },
   {
     month: 1,
@@ -8579,7 +9399,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울특별시 중구 회현동"
+    address_name: "서울특별시 중구 회현동",
+    address_english: "a meal at a Seoul Station restaurant"
   },
   {
     month: 1,
@@ -8592,7 +9413,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 동구동"
+    address_name: "경기도 구리시 동구동",
+    address_english:
+      "Samsung Medical Center Br. Guri City Pharmacy Prescription"
   },
   {
     month: 2,
@@ -8605,7 +9428,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천광역시 연수구 송도3동"
+    address_name: "인천광역시 연수구 송도3동",
+    address_english: "Visit Songdo Large Shopping Mall"
   },
   {
     month: 1,
@@ -8618,7 +9442,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 동구 신암4동"
+    address_name: "대구광역시 동구 신암4동",
+    address_english: "Arrival at Dongdaegu Station"
   },
   {
     month: 2,
@@ -8631,7 +9456,8 @@ var position = [
     profile: "-",
     name: "21번째 확진자",
     full: "21번째 확진자",
-    address_name: "서울특별시 성북구 월곡2동"
+    address_name: "서울특별시 성북구 월곡2동",
+    address_english: "Visit the Seongbuk District Health Center"
   },
   {
     profile: "-",
@@ -8644,7 +9470,8 @@ var position = [
     solo: true,
     name: "24번째 확진자",
     full: "24번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -8659,7 +9486,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english: "Arrival at Dongmyo Station (21:36-21:46)"
   },
   {
     month: 2,
@@ -8672,7 +9500,9 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 성남시 분당구 서현1동"
+    address_name: "경기도 성남시 분당구 서현1동",
+    address_english:
+      "Armed Forces Capital Hospital  <span style='color:red;'격separation </span>"
   },
   {
     month: 2,
@@ -8685,7 +9515,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기도 구리시 교문1동",
+    address_english: "Visit Hanyang University Guri Hospital Screening Clinic"
   },
   {
     month: 2,
@@ -8698,7 +9529,9 @@ var position = [
     profile: "-",
     name: "21번째 확진자",
     full: "21번째 확진자",
-    address_name: "서울특별시 종로구 이화동"
+    address_name: "서울특별시 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     month: 2,
@@ -8711,7 +9544,9 @@ var position = [
     profile: "-",
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "경기도 수원시 장안구 조원2동"
+    address_name: "경기도 수원시 장안구 조원2동",
+    address_english:
+      "Post-examination after moving to a health center in Jangan-gu, Suwon"
   },
   {
     status: "완치",
@@ -8727,7 +9562,8 @@ var position = [
     solo: true,
     name: "18번째 확진자",
     full: "18번째 확진자",
-    address_name: "광주광역시 광산구 운남동"
+    address_name: "광주광역시 광산구 운남동",
+    address_english: "Gwangju 21st Century Hospital Hospital Hospital"
   },
   {
     month: 2,
@@ -8740,7 +9576,8 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 중구 명동"
+    address_name: "서울특별시 중구 명동",
+    address_english: "Exits from a hotel in Jung-gu, Seoul"
   },
   {
     month: 2,
@@ -8753,7 +9590,9 @@ var position = [
     profile: "-",
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "경기도 안성시 안성3동"
+    address_name: "경기도 안성시 안성3동",
+    address_english:
+      "Gyeonggi Provincial Medical Center Anseong Hospital  <Span style='color:red;'Separate </spanan"
   },
   {
     status: "완치",
@@ -8770,7 +9609,9 @@ var position = [
     solo: true,
     name: "28번째 확진자",
     full: "28번째 확진자",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기도 고양시 덕양구 화정1동",
+    address_english:
+      "Starting January 26, Zaquari brbrbrMyeongji Hospital cSpan style='color:red;'격Division </span>"
   },
   {
     month: 1,
@@ -8783,7 +9624,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기도 성남시 분당구 수내1동"
+    address_name: "경기도 성남시 분당구 수내1동",
+    address_english: "a job in Su-Na-dong, Bundang"
   },
   {
     month: 1,
@@ -8796,7 +9638,8 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주광역시 광산구 운남동"
+    address_name: "광주광역시 광산구 운남동",
+    address_english: "Treatment of 21st Century Hospital"
   },
   {
     memo:
@@ -8811,7 +9654,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english: "Arrival at Dongmyo Station (14:58-16:14)"
   },
   {
     memo:
@@ -8826,7 +9670,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 동두천시 소요동"
+    address_name: "경기도 동두천시 소요동",
+    address_english: "Jamsan Station Movement"
   },
   {
     month: 2,
@@ -8839,7 +9684,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기도 성남시 분당구 수내1동"
+    address_name: "경기도 성남시 분당구 수내1동",
+    address_english: "Visit a restaurant located in Bundang-gu"
   },
   {
     status: "완치",
@@ -8855,7 +9701,8 @@ var position = [
     solo: true,
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "서울특별시 영등포구 문래동"
+    address_name: "서울특별시 영등포구 문래동",
+    address_english: "working for a company in Yeongdeungpo-gu"
   },
   {
     month: 2,
@@ -8868,7 +9715,8 @@ var position = [
     profile: "-",
     name: "26번째 확진자",
     full: "26번째 확진자",
-    address_name: "경기도 시흥시 은행동"
+    address_name: "경기도 시흥시 은행동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     month: 1,
@@ -8881,7 +9729,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울특별시 강남구 수서동"
+    address_name: "서울특별시 강남구 수서동",
+    address_english: "Arrival at Suseo Station"
   },
   {
     profile: "-",
@@ -8894,7 +9743,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 성북구 안암동"
+    address_name: "서울특별시 성북구 안암동",
+    address_english:
+      "Visit Korea University Anam Hospital for the 29th confirmed patient care"
   },
   {
     memo:
@@ -8909,7 +9760,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution located in Jongno-gu, Seoul"
   },
   {
     month: 2,
@@ -8922,7 +9775,9 @@ var position = [
     profile: "-",
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     month: 2,
@@ -8935,7 +9790,9 @@ var position = [
     profile: "-",
     name: "16번째 확진자",
     full: "16번째 확진자",
-    address_name: "광주광역시 동구 학동"
+    address_name: "광주광역시 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 2,
@@ -8948,7 +9805,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락본동"
+    address_name: "서울특별시 송파구 가락본동",
+    address_english: "Visit a restaurant in Songpa-gu, Seoul"
   },
   {
     status: "완치",
@@ -8964,7 +9822,8 @@ var position = [
     solo: true,
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -8979,7 +9838,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english: "Visit the pharmacy in Jongno-gu, Seoul"
   },
   {
     month: 1,
@@ -8992,7 +9852,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 교문1동"
+    address_name: "경기도 구리시 교문1동",
+    address_english:
+      "Hanyang University Emergency Room Visits, Medical Examinations"
   },
   {
     memo:
@@ -9007,7 +9869,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 양주시 회천1동"
+    address_name: "경기도 양주시 회천1동",
+    address_english: "Departure from Deokjeong Station"
   },
   {
     profile: "-",
@@ -9020,7 +9883,9 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 성동구 사근동"
+    address_name: "서울특별시 성동구 사근동",
+    address_english:
+      "Final training at Hanyang University Hospital Selective Care Center"
   },
   {
     memo:
@@ -9035,7 +9900,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     memo:
@@ -9050,7 +9917,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 동대문구 용신동"
+    address_name: "서울특별시 동대문구 용신동",
+    address_english: "Departure from Sinseol-dong Station"
   },
   {
     profile: "-",
@@ -9063,7 +9931,9 @@ var position = [
     solo: true,
     name: "44번째 확진자",
     full: "44번째 확진자",
-    address_name: "대구광역시 중구 삼덕동"
+    address_name: "대구광역시 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     month: 2,
@@ -9076,7 +9946,8 @@ var position = [
     profile: "-",
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "경기도 수원시 장안구 조원2동"
+    address_name: "경기도 수원시 장안구 조원2동",
+    address_english: "a visit to the Long Eye Health Center"
   },
   {
     memo:
@@ -9091,7 +9962,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신3동"
+    address_name: "서울특별시 종로구 창신3동",
+    address_english: "Changshin Station - Bonghwasan Station Round trip"
   },
   {
     profile: "-",
@@ -9104,7 +9976,8 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "인천광역시 중구 용유동"
+    address_name: "인천광역시 중구 용유동",
+    address_english: "Visit Yongyu Island, Jung-gu, Incheon with friends"
   },
   {
     memo:
@@ -9119,7 +9992,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     memo:
@@ -9134,7 +10009,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     memo:
@@ -9149,7 +10026,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a pharmacy in Jongno-gu (Spring and Drug Administration)"
   },
   {
     month: 2,
@@ -9162,7 +10041,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english:
+      "Medical treatment of Asan Medical Center and use of a pharmacy nearby"
   },
   {
     memo:
@@ -9177,7 +10058,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 동대문구 용신동"
+    address_name: "서울특별시 동대문구 용신동",
+    address_english: "Departure from Sinseol-dong Station"
   },
   {
     month: 2,
@@ -9190,7 +10072,9 @@ var position = [
     profile: "-",
     name: "26번째 확진자",
     full: "26번째 확진자",
-    address_name: "경기도 안성시 안성3동"
+    address_name: "경기도 안성시 안성3동",
+    address_english:
+      "Gyeonggi Provincial Medical Center Anseong Hospital  <Span style='color:red;'Separate </spanan"
   },
   {
     month: 1,
@@ -9203,7 +10087,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락본동"
+    address_name: "서울특별시 송파구 가락본동",
+    address_english: "Visit a restaurant located in Songpa-gu"
   },
   {
     memo:
@@ -9218,7 +10103,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution located in Jongno-gu, Seoul"
   },
   {
     profile: "-",
@@ -9233,7 +10120,8 @@ var position = [
     solo: true,
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     profile: "-",
@@ -9246,7 +10134,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 동대문구 휘경2동"
+    address_name: "서울특별시 동대문구 휘경2동",
+    address_english: "Visit to the funeral home of Samyuk Seoul Hospital"
   },
   {
     profile: "-",
@@ -9259,7 +10148,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 성동구 사근동"
+    address_name: "서울특별시 성동구 사근동",
+    address_english: "Hanyang University Hospital Outdoor Visit"
   },
   {
     profile: "-",
@@ -9272,7 +10162,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 이화동"
+    address_name: "서울특별시 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -9285,7 +10177,9 @@ var position = [
     solo: true,
     name: "46번째 확진자",
     full: "46번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -9300,7 +10194,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english: "Visit the pharmacy in Jongno-gu, Seoul"
   },
   {
     profile: "-",
@@ -9313,7 +10208,9 @@ var position = [
     solo: true,
     name: "32번째 확진자",
     full: "32번째 확진자",
-    address_name: "경기도 성남시 분당구 구미동"
+    address_name: "경기도 성남시 분당구 구미동",
+    address_english:
+      "Bundang Seoul National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9326,7 +10223,9 @@ var position = [
     solo: true,
     name: "33번째 확진자",
     full: "33번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -9341,7 +10240,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -9354,7 +10255,9 @@ var position = [
     solo: true,
     name: "47번째 확진자",
     full: "47번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     month: 2,
@@ -9367,7 +10270,8 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 은행동"
+    address_name: "경기도 시흥시 은행동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     profile: "-",
@@ -9380,7 +10284,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 이화동"
+    address_name: "서울특별시 종로구 이화동",
+    address_english:
+      "Seoul National University Hospital  <Span style='color:red;'격separation </span'"
   },
   {
     month: 2,
@@ -9393,7 +10299,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기도 고양시 덕양구 화정1동",
+    address_english:
+      "Myungji Hospital  <span style='color:red;'격separation </span>"
   },
   {
     memo:
@@ -9408,7 +10316,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -9420,7 +10330,9 @@ var position = [
     solo: true,
     name: "39번째 확진자",
     full: "39번째 확진자",
-    address_name: "경상북도 경주시 성건동"
+    address_name: "경상북도 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9433,7 +10345,9 @@ var position = [
     solo: true,
     name: "41번째 확진자",
     full: "41번째 확진자",
-    address_name: "경상북도 경주시 성건동"
+    address_name: "경상북도 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9446,7 +10360,9 @@ var position = [
     solo: true,
     name: "42번째 확진자",
     full: "42번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9459,7 +10375,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 숭인1동"
+    address_name: "서울특별시 종로구 숭인1동",
+    address_english:
+      "Visit Pharmacy (Donggol Onnuri Pharmacy) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -9472,7 +10390,9 @@ var position = [
     solo: true,
     name: "35번째 확진자",
     full: "35번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9485,7 +10405,9 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "대구광역시 중구 삼덕동"
+    address_name: "대구광역시 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9498,7 +10420,9 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 중구 광희동"
+    address_name: "서울특별시 중구 광희동",
+    address_english:
+      "National Medical Center  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -9511,7 +10435,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english:
+      "Visit the café (Dongmyo Station in Starbucks) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -9524,7 +10450,9 @@ var position = [
     solo: true,
     name: "43번째 확진자",
     full: "43번째 확진자",
-    address_name: "대구광역시 달서구 신당동"
+    address_name: "대구광역시 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -9539,7 +10467,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 중랑구 신내2동"
+    address_name: "서울특별시 중랑구 신내2동",
+    address_english: "Changshin Station - Bonghwasan Station Round trip"
   },
   {
     month: 2,
@@ -9552,7 +10481,8 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 중구 소공동"
+    address_name: "서울특별시 중구 소공동",
+    address_english: "Visit a department store located in Jung-gu, Seoul"
   },
   {
     profile: "-",
@@ -9564,7 +10494,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 성동구 사근동"
+    address_name: "서울특별시 성동구 사근동",
+    address_english: "Phobos Enterix Visit Hanyang University"
   },
   {
     profile: "-",
@@ -9577,7 +10508,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -9590,7 +10523,9 @@ var position = [
     solo: true,
     name: "36번째 확진자",
     full: "36번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -9603,7 +10538,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 수성구 중동"
+    address_name: "대구광역시 수성구 중동",
+    address_english:
+      "Training after testing at a health center in Suseong-gu, Daegu"
   },
   {
     profile: "-",
@@ -9616,7 +10553,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 동구 신천4동"
+    address_name: "대구광역시 동구 신천4동",
+    address_english: "Donggu Material C Club Job Report"
   },
   {
     profile: "-",
@@ -9629,7 +10567,9 @@ var position = [
     solo: true,
     name: "33번째 확진자",
     full: "33번째 확진자",
-    address_name: "대구광역시 중구 성내2동"
+    address_name: "대구광역시 중구 성내2동",
+    address_english:
+      "Visit the Daegu branch of Hyundai Department Store at around 1 p.m."
   },
   {
     profile: "-",
@@ -9642,7 +10582,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "Visit a restaurant in Jongno-gu (Seoul Dongmyo branch of Myeongnyunjin-sagalbi)"
   },
   {
     profile: "-",
@@ -9655,7 +10597,9 @@ var position = [
     solo: true,
     name: "38번째 확진자",
     full: "38번째 확진자",
-    address_name: "대구광역시 중구 삼덕동"
+    address_name: "대구광역시 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -9670,7 +10614,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     profile: "-",
@@ -9683,7 +10629,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경상북도 영천시 금호읍"
+    address_name: "경상북도 영천시 금호읍",
+    address_english: "Medical treatment of Kumho Medical Center in Yeongcheon"
   },
   {
     memo:
@@ -9698,7 +10645,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a pharmacy in Jongno-gu (Spring and Drug Administration)"
   },
   {
     status: "완치",
@@ -9714,7 +10663,8 @@ var position = [
     solo: true,
     name: "22번째 확진자",
     full: "22번째 확진자",
-    address_name: "전라남도 나주시 송월동"
+    address_name: "전라남도 나주시 송월동",
+    address_english: "Confirmed judgment of self-price in Naju House"
   },
   {
     memo:
@@ -9728,7 +10678,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "서울특별시 강남구 역삼1동"
+    address_name: "서울특별시 강남구 역삼1동",
+    address_english:
+      "Attending the event held at the C Club headquarters in Daechi-dong, Seoul"
   },
   {
     profile: "-",
@@ -9741,7 +10693,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 숭인1동"
+    address_name: "서울특별시 종로구 숭인1동",
+    address_english:
+      "Visit Pharmacy (Donggol Onnuri Pharmacy) located in Jongno-gu"
   },
   {
     memo:
@@ -9756,7 +10710,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 이화동"
+    address_name: "서울특별시 종로구 이화동",
+    address_english:
+      "Visiting a medical institution located in Jongno-gu, Seoul National University Hospital"
   },
   {
     profile: "-",
@@ -9769,7 +10725,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     month: 1,
@@ -9782,7 +10740,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 북구 침산3동"
+    address_name: "대구광역시 북구 침산3동",
+    address_english: "a visit to the North."
   },
   {
     month: 2,
@@ -9795,7 +10754,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울특별시 광진구 광장동"
+    address_name: "서울특별시 광진구 광장동",
+    address_english:
+      "Use nearby convenience store after arriving at Gwangnaru Station"
   },
   {
     profile: "-",
@@ -9808,7 +10769,9 @@ var position = [
     solo: true,
     name: "26번째 확진자",
     full: "26번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     month: 2,
@@ -9821,7 +10784,9 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 마포구 공덕동"
+    address_name: "서울특별시 마포구 공덕동",
+    address_english:
+      "Visit a large mart located in Mapo-gu (E-mart Mapo Gongdeok store)"
   },
   {
     profile: "-",
@@ -9834,7 +10799,9 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 성북구 안암동"
+    address_name: "서울특별시 성북구 안암동",
+    address_english:
+      "A positive test after examination at Korea University Anam Hospital"
   },
   {
     profile: "-",
@@ -9849,7 +10816,8 @@ var position = [
     solo: true,
     name: "21번째 확진자",
     full: "21번째 확진자",
-    address_name: "서울특별시 종로구 혜화동"
+    address_name: "서울특별시 종로구 혜화동",
+    address_english: "Myeongnyun Church Chapel (Home)"
   },
   {
     memo:
@@ -9864,7 +10832,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 숭인2동"
+    address_name: "서울특별시 종로구 숭인2동",
+    address_english: "Departure from Dongmyo Station"
   },
   {
     month: 2,
@@ -9877,7 +10846,8 @@ var position = [
     profile: "-",
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "경기도 수원시 장안구 율천동"
+    address_name: "경기도 수원시 장안구 율천동",
+    address_english: "Residence in Cheoncheon-dong, Suwon"
   },
   {
     month: 2,
@@ -9890,7 +10860,9 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 성남시 분당구 구미동"
+    address_name: "경기도 성남시 분당구 구미동",
+    address_english:
+      "Bundang Seoul National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     memo:
@@ -9905,7 +10877,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 의정부시 녹양동"
+    address_name: "경기도 의정부시 녹양동",
+    address_english: "Arrival at Nokyang Station (11:41-12:41)"
   },
   {
     month: 2,
@@ -9918,7 +10891,9 @@ var position = [
     profile: "-",
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "서울특별시 중구 광희동"
+    address_name: "서울특별시 중구 광희동",
+    address_english:
+      "National Medical Center  <span style='color:red;'격separation </span'"
   },
   {
     month: 1,
@@ -9931,7 +10906,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기도 구리시 수택3동"
+    address_name: "경기도 구리시 수택3동",
+    address_english: "Guri's Restaurant Meal"
   },
   {
     profile: "-",
@@ -9946,7 +10922,8 @@ var position = [
     solo: true,
     name: "23번째 확진자",
     full: "23번째 확진자",
-    address_name: "인천광역시 중구 운서동"
+    address_name: "인천광역시 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     memo:
@@ -9961,7 +10938,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 의정부시 녹양동"
+    address_name: "경기도 의정부시 녹양동",
+    address_english: "Departure from Nokyang Station (11:41-12:41)"
   },
   {
     month: 2,
@@ -9974,7 +10952,9 @@ var position = [
     profile: "-",
     name: "24번째 확진자",
     full: "24번째 확진자",
-    address_name: "서울특별시 중구 광희동"
+    address_name: "서울특별시 중구 광희동",
+    address_english:
+      "National Medical Center  <span style='color:red;'격separation </span'"
   },
   {
     profile: "-",
@@ -9987,7 +10967,8 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "인천광역시 서구 검암경서동"
+    address_name: "인천광역시 서구 검암경서동",
+    address_english: "Visit Gyeongin-ra-Bat-gil"
   },
   {
     memo:
@@ -10002,7 +10983,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english: "Departure from Dongdaemun Station"
   },
   {
     month: 2,
@@ -10015,7 +10997,9 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 중랑구 신내1동"
+    address_name: "서울특별시 중랑구 신내1동",
+    address_english:
+      "Seoul Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     month: 1,
@@ -10028,7 +11012,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구광역시 동구 신암3동"
+    address_name: "대구광역시 동구 신암3동",
+    address_english: "East Daegu Station Departure"
   },
   {
     memo:
@@ -10043,7 +11028,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "경기도 양주시 회천1동"
+    address_name: "경기도 양주시 회천1동",
+    address_english: "Arrival at Deokjeong Station (14:04-14:53)"
   },
   {
     month: 2,
@@ -10056,7 +11042,9 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     month: 2,
@@ -10069,7 +11057,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울특별시 송파구 가락1동"
+    address_name: "서울특별시 송파구 가락1동",
+    address_english: "Visit the bakery in Songpa-gu."
   },
   {
     status: "완치",
@@ -10085,7 +11074,8 @@ var position = [
     solo: true,
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 매화동"
+    address_name: "경기도 시흥시 매화동",
+    address_english: "Visit the supermarket in Siheung, Gyeonggi-do"
   },
   {
     memo:
@@ -10100,7 +11090,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english: "Arrival at Dongdaemun Station (12:43-13:38)"
   },
   {
     memo:
@@ -10115,7 +11106,8 @@ var position = [
     solo: true,
     name: "29번째 확진자",
     full: "29번째 확진자",
-    address_name: "서울특별시 동대문구 용신동"
+    address_name: "서울특별시 동대문구 용신동",
+    address_english: "Arrival at Sinseol-dong Station (15:53-15:57)"
   },
   {
     month: 2,
@@ -10128,7 +11120,9 @@ var position = [
     profile: "-",
     name: "22번째 확진자",
     full: "22번째 확진자",
-    address_name: "광주광역시 동구 학동"
+    address_name: "광주광역시 동구 학동",
+    address_english:
+      "Chosun University Hospital  <Span style='color:red;'격separation </span>"
   },
   {
     month: 2,
@@ -10141,7 +11135,8 @@ var position = [
     profile: "-",
     name: "27번째 확진자",
     full: "27번째 확진자",
-    address_name: "경기도 시흥시 은행동"
+    address_name: "경기도 시흥시 은행동",
+    address_english: "Visit a restaurant located in Siheung City"
   },
   {
     profile: "-",
@@ -10154,7 +11149,9 @@ var position = [
     solo: true,
     name: "34번째 확진자",
     full: "34번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -10167,7 +11164,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 동구 방촌동"
+    address_name: "대구광역시 동구 방촌동",
+    address_english: "Lunch at the hotel (Queenbell Hotel) buffet in Dong-gu"
   },
   {
     profile: "-",
@@ -10179,7 +11177,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경상북도 영천시 남부동"
+    address_name: "경상북도 영천시 남부동",
+    address_english: "medical treatment of permanent members"
   },
   {
     profile: "-",
@@ -10192,7 +11191,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 수성구 범어4동"
+    address_name: "대구광역시 수성구 범어4동",
+    address_english:
+      "Outpatient treatment at Daegu Medical Center (Saeronan Oriental Medicine Hospital)"
   },
   {
     profile: "-",
@@ -10205,7 +11206,9 @@ var position = [
     solo: true,
     name: "45번째 확진자",
     full: "45번째 확진자",
-    address_name: "대구광역시 서구 상중이동"
+    address_name: "대구광역시 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -10217,7 +11220,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경상북도 영천시 완산동"
+    address_name: "경상북도 영천시 완산동",
+    address_english: "Kim In-hwan Medical Center Rep."
   },
   {
     month: 2,
@@ -10230,7 +11234,9 @@ var position = [
     profile: "-",
     name: "25번째 확진자",
     full: "25번째 확진자",
-    address_name: "경기도 시흥시 대야동"
+    address_name: "경기도 시흥시 대야동",
+    address_english:
+      "Visits to the Medical Center (Shincheon United Hospital) in Siheung City"
   },
   {
     profile: "-",
@@ -10243,7 +11249,9 @@ var position = [
     solo: true,
     name: "30번째 확진자",
     full: "30번째 확진자",
-    address_name: "서울특별시 종로구 창신1동"
+    address_name: "서울특별시 종로구 창신1동",
+    address_english:
+      "A visit to a medical institution (Gangbuk Seoul Medical Center) located in Jongno-gu"
   },
   {
     memo:
@@ -10258,7 +11266,8 @@ var position = [
     solo: true,
     name: "40번째 확진자",
     full: "40번째 확진자",
-    address_name: "서울특별시 성동구 성수2가1동"
+    address_name: "서울특별시 성동구 성수2가1동",
+    address_english: "Visit E-Mart's Seongsu branch"
   },
   {
     profile: "-",
@@ -10271,7 +11280,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 남구 대명10동"
+    address_name: "대구광역시 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -10284,7 +11294,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경상북도 영천시 완산동"
+    address_name: "경상북도 영천시 완산동",
+    address_english: "Kim In-hwan Medical Clinic"
   },
   {
     profile: "-",
@@ -10297,7 +11308,8 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구광역시 남구 대명10동"
+    address_name: "대구광역시 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     solo: true,
@@ -10309,7 +11321,8 @@ var position = [
     full: "파주 확진자",
     address: "기사식당",
     latlng: "37.84876326667472, 126.875299602282",
-    address_name: "경기 파주시 법원읍"
+    address_name: "경기 파주시 법원읍",
+    address_english: "Knight's Restaurant"
   },
   {
     solo: true,
@@ -10321,7 +11334,8 @@ var position = [
     full: "김포 확진자",
     address: "서울역 4호선",
     latlng: "37.55302870046421, 126.972644620034",
-    address_name: "서울 용산구 남영동"
+    address_name: "서울 용산구 남영동",
+    address_english: "Seoul Station Line 4"
   },
   {
     solo: true,
@@ -10333,7 +11347,8 @@ var position = [
     full: "안동 확진자",
     address: "갓파스시 대구점 방문",
     latlng: "35.8680026451754, 128.59640120144624",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "A visit to the Daegu branch of Gatpas City"
   },
   {
     solo: true,
@@ -10345,7 +11360,9 @@ var position = [
     full: "안동 확진자",
     address: "홈플러스 안동점 지하1,1,3층 방문",
     latlng: "36.562539566351695, 128.72956256394738",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english:
+      "Visit the 1st, 1st and 3rd floors of the Andong branch of Homeplus"
   },
   {
     solo: true,
@@ -10357,7 +11374,8 @@ var position = [
     full: "안동 확진자",
     address: "안동월드컵(락)볼링장 방문",
     latlng: "36.56462883300531, 128.70210054625633",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "Visit the Andong World Cup (Rock) Bowling Field"
   },
   {
     solo: true,
@@ -10369,7 +11387,8 @@ var position = [
     full: "부산 확진자",
     address: "속튼튼원내과의원",
     latlng: "35.109655317088624, 129.01731006205262",
-    address_name: "부산 서구 서대신1동"
+    address_name: "부산 서구 서대신1동",
+    address_english: "Sternton Garden Clinic"
   },
   {
     solo: true,
@@ -10381,7 +11400,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 서구보건소 선별진료소 방문",
     latlng: "35.10749653335411, 129.01809577112118",
-    address_name: "부산 서구 부민동"
+    address_name: "부산 서구 부민동",
+    address_english:
+      "Corona19 Visits the Western Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -10393,7 +11414,8 @@ var position = [
     full: "안동 확진자",
     address: "영희식당 점심식사",
     latlng: "36.567366771050494, 128.72910054202598",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Younghee Restaurant Lunch"
   },
   {
     solo: true,
@@ -10405,7 +11427,8 @@ var position = [
     full: "안동 확진자",
     address: "안동터미널 > 동대구터미널 이동",
     latlng: "36.5743962589624, 128.6758885916983",
-    address_name: "경북 안동시 송하동"
+    address_name: "경북 안동시 송하동",
+    address_english: "Andong Terminal > Move Dongdaegu Terminal"
   },
   {
     solo: true,
@@ -10417,7 +11440,8 @@ var position = [
     full: "부산 확진자",
     address: "GS25 달서브리티쉬점 방문",
     latlng: "35.849473066450706, 128.5343153696412",
-    address_name: "대구 달서구 감삼동"
+    address_name: "대구 달서구 감삼동",
+    address_english: "GS25 Visit to Dalsebrity Store"
   },
   {
     solo: true,
@@ -10429,7 +11453,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 수영구보건소 선별진료소",
     latlng: "35.1626441095325, 129.11343165102565",
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -10441,7 +11467,8 @@ var position = [
     full: "경기 확진자",
     address: "아이스빈카페 센트럴점 ",
     latlng: "37.50468314413512, 127.00413142190443",
-    address_name: "서울 서초구 반포4동"
+    address_name: "서울 서초구 반포4동",
+    address_english: "Ice Bean Cafe Central Branch"
   },
   {
     solo: true,
@@ -10453,7 +11480,8 @@ var position = [
     full: "부산 확진자",
     address: "진주상회 방문 회포장",
     latlng: "35.155537755794015, 129.1238297304947",
-    address_name: "부산 수영구 민락동"
+    address_name: "부산 수영구 민락동",
+    address_english: "a package visiting the Jinju Chamber"
   },
   {
     solo: true,
@@ -10465,7 +11493,8 @@ var position = [
     full: "안동 확진자",
     address: "대구서부정류장 방문",
     latlng: "35.83672742182441, 128.5578238398552",
-    address_name: "대구 남구 대명11동"
+    address_name: "대구 남구 대명11동",
+    address_english: "Visit Daegu Western Station"
   },
   {
     solo: true,
@@ -10477,7 +11506,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 사하구보건소 선별진료소 방문",
     latlng: "35.0941572529117, 128.959553446035",
-    address_name: "부산 사하구 신평2동"
+    address_name: "부산 사하구 신평2동",
+    address_english:
+      "Corona19 Visits Saha District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -10489,7 +11520,8 @@ var position = [
     full: "창원 확진자",
     address: "굿모닝약국 방문",
     latlng: "35.21307609293421, 128.70098176809938",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "a visit to the Good Morning Pharmacy"
   },
   {
     solo: true,
@@ -10501,7 +11533,8 @@ var position = [
     full: "경기 확진자",
     address: "압구정역 3호선 지하철 하차",
     latlng: "37.52649217517119, 127.02850865929999",
-    address_name: "서울 강남구 신사동"
+    address_name: "서울 강남구 신사동",
+    address_english: "Exit the subway on Apgujeong Subway Line 3"
   },
   {
     profile: "-",
@@ -10513,7 +11546,8 @@ var position = [
     address: "지리산 한방병원 방문",
     latlng: "35.830807, 127.116256",
     solo: true,
-    address_name: "전북 전주시 완산구 서신동"
+    address_name: "전북 전주시 완산구 서신동",
+    address_english: "Visiting Mt. Jiri Oriental Medicine Hospital"
   },
   {
     profile: "-",
@@ -10525,7 +11559,8 @@ var position = [
     address: "동성로 KB ATM 이용<br>대구 동성로 꽃집 방문",
     latlng: "35.868166, 128.594798",
     solo: true,
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Visit Dongseongno Flower Shop in Dongseongno, Daegu"
   },
   {
     profile: "-",
@@ -10537,7 +11572,8 @@ var position = [
     address: "왕비 세탁소 방문",
     latlng: "35.566544, 128.159809",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "a visit to the Queen's laundromat"
   },
   {
     profile: "-",
@@ -10549,7 +11585,8 @@ var position = [
     address: "해운대보건소 선별진료소 방문",
     latlng: "35.16407, 129.178703",
     solo: true,
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "Visit Haeundae Health Center Screening Care Center"
   },
   {
     profile: "-",
@@ -10561,7 +11598,8 @@ var position = [
     address: "원광대병원 격리",
     latlng: "35.9643, 126.959546",
     solo: true,
-    address_name: "전북 익산시 신동"
+    address_name: "전북 익산시 신동",
+    address_english: "Wonkwang University Hospital Isolation"
   },
   {
     profile: "-",
@@ -10573,7 +11611,8 @@ var position = [
     address: "서경주역 도착",
     latlng: "35.869232, 129.200574",
     solo: true,
-    address_name: "경북 경주시 현곡면"
+    address_name: "경북 경주시 현곡면",
+    address_english: "Arrival at Seokyeongju Station"
   },
   {
     profile: "-",
@@ -10585,7 +11624,8 @@ var position = [
     address: "동대구역 출발",
     latlng: "35.879893, 128.628476",
     solo: true,
-    address_name: "대구 동구 신암4동"
+    address_name: "대구 동구 신암4동",
+    address_english: "East Daegu Station Departure"
   },
   {
     profile: "-",
@@ -10597,7 +11637,8 @@ var position = [
     address: "현곡 준PC방 방문 ",
     latlng: "35.866663, 129.202241",
     solo: true,
-    address_name: "경북 경주시 현곡면"
+    address_name: "경북 경주시 현곡면",
+    address_english: "Visit the Quasi-PC Room of Hyungok"
   },
   {
     profile: "-",
@@ -10609,7 +11650,8 @@ var position = [
     address: "터미널 근처 호텔 팰리스 방문",
     latlng: "36.0114, 129.347188",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "Visit Hotel Palace near Terminal"
   },
   {
     profile: "-",
@@ -10621,7 +11663,8 @@ var position = [
     address: "독일 약국 방문",
     latlng: "36.033032, 129.366868",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "a visit to the German pharmacy"
   },
   {
     profile: "-",
@@ -10633,7 +11676,9 @@ var position = [
     address: "순천향구미병원에서 검체를 채취, 검사를 의뢰",
     latlng: "36.102915, 128.382719",
     solo: true,
-    address_name: "경북 구미시 공단2동"
+    address_name: "경북 구미시 공단2동",
+    address_english:
+      "Samples are taken from Suncheon Hyang Gumi Hospital and requested for examination."
   },
   {
     profile: "-",
@@ -10645,7 +11690,8 @@ var position = [
     address: "대구동성로 음식점(끌리다) 방문",
     latlng: "35.866256, 128.597597",
     solo: true,
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "A visit to a restaurant in Dongseong-ro, Daegu"
   },
   {
     profile: "-",
@@ -10657,7 +11703,8 @@ var position = [
     address: "순천향구미병원으로부터 양성 판정",
     latlng: "36.102915, 128.382719",
     solo: true,
-    address_name: "경북 구미시 공단2동"
+    address_name: "경북 구미시 공단2동",
+    address_english: "A positive evaluation from Suncheonhyang Gumi Hospital"
   },
   {
     profile: "(32.남.한국)",
@@ -10669,7 +11716,8 @@ var position = [
     full: "#세종 확진자 A",
     latlng: "36.463094, 127.280676",
     solo: true,
-    address_name: "세종특별자치시 금남면"
+    address_name: "세종특별자치시 금남면",
+    address_english: "a visit to a mugwort restaurant"
   },
   {
     profile: "-",
@@ -10681,7 +11729,8 @@ var position = [
     address: "전주효자동 홈플러스 방문",
     latlng: "35.80654, 127.114314",
     solo: true,
-    address_name: "전북 전주시 완산구 효자3동"
+    address_name: "전북 전주시 완산구 효자3동",
+    address_english: "Visit Jeonju Hyoja Auto Home Plus"
   },
   {
     profile: "(20대.여.한국)",
@@ -10693,7 +11742,8 @@ var position = [
     full: "대전 확진자 A",
     latlng: "36.335688, 127.449375",
     solo: true,
-    address_name: "대전 동구 자양동"
+    address_name: "대전 동구 자양동",
+    address_english: "A visit to a fireplace (general restaurant)"
   },
   {
     solo: true,
@@ -10705,7 +11755,8 @@ var position = [
     full: "포천 확진자 ",
     address: "포천 보건소 방문",
     latlng: "37.900718, 127.201162",
-    address_name: "경기 포천시 포천동"
+    address_name: "경기 포천시 포천동",
+    address_english: "a visit to Pocheon Health Center"
   },
   {
     profile: "-",
@@ -10717,7 +11768,8 @@ var position = [
     address: "직장(포항우체국) 근무",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "a job (Pohang Post Office)"
   },
   {
     profile: "-",
@@ -10729,7 +11781,8 @@ var position = [
     address: "용암동 롯데마트 방문",
     latlng: "36.620401, 127.516061",
     solo: true,
-    address_name: "충북 청주시 상당구 용암1동"
+    address_name: "충북 청주시 상당구 용암1동",
+    address_english: "Visit Lotte Mart in Yongam-dong"
   },
   {
     profile: "-",
@@ -10741,7 +11794,8 @@ var position = [
     address: "합천 시외버스 터미널 도착",
     latlng: "35.567104, 128.162741",
     solo: true,
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Arrival at Hapcheon Intercity Bus Terminal"
   },
   {
     profile: "-",
@@ -10753,7 +11807,8 @@ var position = [
     address: "만치만치 방문",
     latlng: "37.443602, 129.163701",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a full visit"
   },
   {
     profile: "-",
@@ -10765,7 +11820,8 @@ var position = [
     address: "춘천 버스터미널에서 고속버스를 이용해 대구로 이동",
     latlng: "37.863408, 127.718369",
     solo: true,
-    address_name: "강원 춘천시 강남동"
+    address_name: "강원 춘천시 강남동",
+    address_english: "Go to Daegu by express bus from Chuncheon Bus Terminal"
   },
   {
     profile: "-",
@@ -10777,7 +11833,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.442978, 129.163504",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     solo: true,
@@ -10789,7 +11846,8 @@ var position = [
     full: "부산 확진자",
     address: "양정역 부산1호선",
     latlng: "35.17279452020731, 129.0710939773354",
-    address_name: "부산 부산진구 양정1동"
+    address_name: "부산 부산진구 양정1동",
+    address_english: "Yangjeong Station Line 1"
   },
   {
     solo: true,
@@ -10801,7 +11859,8 @@ var position = [
     full: "부산 확진자",
     address: "도리마리 본점 방문",
     latlng: "35.22109014910189, 129.0846320926265",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "a visit to Dorimari's main office"
   },
   {
     solo: true,
@@ -10813,7 +11872,8 @@ var position = [
     full: "수원 확진자",
     address: "광교2동 행정복지센터",
     latlng: "37.29221866084465, 127.07012301688236",
-    address_name: "경기 수원시 영통구 광교2동"
+    address_name: "경기 수원시 영통구 광교2동",
+    address_english: "Gwanggyo 2-dong Administrative Welfare Center"
   },
   {
     solo: true,
@@ -10825,7 +11885,8 @@ var position = [
     full: "평택 확진자",
     address: "국립경찰병원",
     latlng: "37.496434823485004, 127.123501540716",
-    address_name: "서울 송파구 가락본동"
+    address_name: "서울 송파구 가락본동",
+    address_english: "National Police Hospital"
   },
   {
     solo: true,
@@ -10837,7 +11898,8 @@ var position = [
     full: "부산 확진자",
     address: "카페051 온천역점 방문",
     latlng: "35.22133856446041, 129.08564325739908",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Cafe051 Visit the Hot Spring Station"
   },
   {
     solo: true,
@@ -10849,7 +11911,8 @@ var position = [
     full: "부산 확진자",
     address: "사직동 멕시멈휘트니스 방문",
     latlng: "35.1962705526415, 129.06122111876638",
-    address_name: "부산 동래구 사직1동"
+    address_name: "부산 동래구 사직1동",
+    address_english: "Visit Sajik-dong Mexican Fitness"
   },
   {
     solo: true,
@@ -10861,7 +11924,8 @@ var position = [
     full: "부산 확진자",
     address: "CU 양정현대프라자점",
     latlng: "35.17450835507701, 129.0633977090364",
-    address_name: "부산 부산진구 양정1동"
+    address_name: "부산 부산진구 양정1동",
+    address_english: "CU Yangjeong Modern Plaza"
   },
   {
     solo: true,
@@ -10873,7 +11937,8 @@ var position = [
     full: "부산 확진자",
     address: "부산대학교병원 방문",
     latlng: "35.100824331003814, 129.0187383154012",
-    address_name: "부산 서구 아미동"
+    address_name: "부산 서구 아미동",
+    address_english: "Visit Busan University Hospital"
   },
   {
     solo: true,
@@ -10885,7 +11950,8 @@ var position = [
     full: "부산 확진자",
     address: "텐퍼센트커피 동래롯데점 방문",
     latlng: "35.21492929019946, 129.07696262965726",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Ten percent Coffee Visit Dongrae Lotte Store"
   },
   {
     solo: true,
@@ -10897,7 +11963,8 @@ var position = [
     full: "부산 확진자",
     address: "속튼튼원내과의원",
     latlng: "35.109655317088624, 129.01731006205262",
-    address_name: "부산 서구 서대신1동"
+    address_name: "부산 서구 서대신1동",
+    address_english: "Sternton Garden Clinic"
   },
   {
     solo: true,
@@ -10909,7 +11976,8 @@ var position = [
     full: "부산 확진자",
     address: "연산역 부산1호선 승차",
     latlng: "35.18603790971191, 129.08160336475848",
-    address_name: "부산 연제구 연산5동"
+    address_name: "부산 연제구 연산5동",
+    address_english: "Ride the Busan Line 1 at Yeonsan Station"
   },
   {
     solo: true,
@@ -10921,7 +11989,8 @@ var position = [
     full: "부산 확진자",
     address: "링구아어학원 면접차 방문",
     latlng: "35.20468217210881, 129.0846747365705",
-    address_name: "부산 동래구 복산동"
+    address_name: "부산 동래구 복산동",
+    address_english: "Visiting Lingua Language Institute for Interviews"
   },
   {
     solo: true,
@@ -10933,7 +12002,8 @@ var position = [
     full: "부산 확진자",
     address: "제이앤 제이스타일 헤어 방문",
     latlng: "35.23069433438311, 129.0873127321795",
-    address_name: "부산 금정구 장전2동"
+    address_name: "부산 금정구 장전2동",
+    address_english: "Visit J.N. J.Tail Hair"
   },
   {
     solo: true,
@@ -10945,7 +12015,8 @@ var position = [
     full: "부산 확진자",
     address: "금정회관 방문",
     latlng: "35.235372260576504, 129.08024506220448",
-    address_name: "부산 금정구 장전2동"
+    address_name: "부산 금정구 장전2동",
+    address_english: "a visit to the gilt-bronze center"
   },
   {
     solo: true,
@@ -10957,7 +12028,8 @@ var position = [
     full: "부산 확진자",
     address: "해피케어복지관 방문",
     latlng: "35.30749694510631, 129.11200511786163",
-    address_name: "부산 기장군 철마면"
+    address_name: "부산 기장군 철마면",
+    address_english: "Visit Happy Care Welfare Center"
   },
   {
     solo: true,
@@ -10969,7 +12041,8 @@ var position = [
     full: "창원 확진자",
     address: "최이비인후과의원 방문",
     latlng: "35.21307242741048, 128.70098608411138",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "Visits to the Choi E.N. Clinic"
   },
   {
     solo: true,
@@ -10981,7 +12054,8 @@ var position = [
     full: "부산 확진자",
     address: "장산초등학교 방문",
     latlng: "35.20012157853447, 129.11989614469095",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Jangsan Elementary School"
   },
   {
     profile: "-",
@@ -10993,7 +12067,8 @@ var position = [
     address: "모닝캄 방문",
     latlng: "37.442638, 129.164561",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a morning visit"
   },
   {
     solo: true,
@@ -11005,7 +12080,8 @@ var position = [
     full: "평택 확진자",
     address: "경기의료원 파주병원",
     latlng: "37.754883167701436, 126.779774098725",
-    address_name: "경기 파주시 금촌1동"
+    address_name: "경기 파주시 금촌1동",
+    address_english: "Gyeonggi Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -11017,7 +12093,8 @@ var position = [
     full: "부산 확진자",
     address: "KB국민은행ATM 방문",
     latlng: "35.222024739640396, 129.0846263517915",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Visit KB Kookmin Bank ATM"
   },
   {
     solo: true,
@@ -11029,7 +12106,8 @@ var position = [
     full: "수원 확진자",
     address: "국군수도병원",
     latlng: "37.39170679339027, 127.15176219552485",
-    address_name: "경기 성남시 분당구 서현1동"
+    address_name: "경기 성남시 분당구 서현1동",
+    address_english: "Armed Forces Capital Hospital"
   },
   {
     status: "완치",
@@ -11043,7 +12121,8 @@ var position = [
     solo: true,
     name: "11번째 확진자",
     full: "11번째 확진자",
-    address_name: "경기 고양시 일산동구 백석1동"
+    address_name: "경기 고양시 일산동구 백석1동",
+    address_english: "Visit a hair salon in Goyang City"
   },
   {
     solo: true,
@@ -11055,7 +12134,9 @@ var position = [
     full: "강릉 확진자",
     address: "국군복지단 송정콘도내 WA마트 방문",
     latlng: "37.781137, 128.934176",
-    address_name: "강원 강릉시 송정동"
+    address_name: "강원 강릉시 송정동",
+    address_english:
+      "Armed Forces Welfare Corps Visit WA Mart in Songjeong-Condo"
   },
   {
     solo: true,
@@ -11067,7 +12148,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 좋은강안병원 선별진료소",
     latlng: "35.15015808011672, 129.1107255239496",
-    address_name: "부산 수영구 남천1동"
+    address_name: "부산 수영구 남천1동",
+    address_english: "Corona19 Good Kangan Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -11079,7 +12161,8 @@ var position = [
     full: "마포 확진자",
     address: "톰플러스모텔",
     latlng: "37.61239964217209, 126.927462888182",
-    address_name: "서울 은평구 대조동"
+    address_name: "서울 은평구 대조동",
+    address_english: "Tom Plus Motel"
   },
   {
     solo: true,
@@ -11091,7 +12174,8 @@ var position = [
     full: "부산 확진자",
     address: "쑝쑝돈까스 광안점",
     latlng: "35.1573317919882, 129.11358825946365",
-    address_name: "부산 수영구 광안2동"
+    address_name: "부산 수영구 광안2동",
+    address_english: "쑝쑝 Donkatsu Optical Spot"
   },
   {
     solo: true,
@@ -11103,7 +12187,8 @@ var position = [
     full: "안동 확진자",
     address: "쏭동전노래연습장 방문",
     latlng: "36.5636549712546, 128.70190046265733",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "Visit to Songdongjeon Singing Practice Center"
   },
   {
     solo: true,
@@ -11115,7 +12200,8 @@ var position = [
     full: "안동 확진자",
     address: "휠라 안동(대리)점 방문",
     latlng: "36.56473215924851, 128.7307150168024",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Visit the Fila Andong (Assistant Manager) branch"
   },
   {
     solo: true,
@@ -11127,7 +12213,8 @@ var position = [
     full: "부산 확진자",
     address: "한국교양문화노래교실 (2/21, 22)",
     latlng: "35.168984282537835, 129.11654567764228",
-    address_name: "부산 수영구 수영동"
+    address_name: "부산 수영구 수영동",
+    address_english: "Korean Culture and Singing Classes (2/21, 22)"
   },
   {
     solo: true,
@@ -11139,7 +12226,8 @@ var position = [
     full: "부산 확진자",
     address: "부산사하우체국 방문",
     latlng: "35.1009684893913, 128.97984493803307",
-    address_name: "부산 사하구 당리동"
+    address_name: "부산 사하구 당리동",
+    address_english: "Visit Busan Sahausche Bureau"
   },
   {
     solo: true,
@@ -11151,7 +12239,8 @@ var position = [
     full: "부산 확진자",
     address: "탑마트 반여점 방문",
     latlng: "35.204132615389, 129.11984232336766",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Top Mart Banyeo Store"
   },
   {
     solo: true,
@@ -11163,7 +12252,8 @@ var position = [
     full: "종로 확진자",
     address: "가톨릭대학교 은평성모병원 방문",
     latlng: "37.63339245852019, 126.91655291462801",
-    address_name: "서울 은평구 진관동"
+    address_name: "서울 은평구 진관동",
+    address_english: "Catholic University of Korea Visit Eunpyeong St. Mary's."
   },
   {
     solo: true,
@@ -11175,7 +12265,8 @@ var position = [
     full: "종로 확진자",
     address: "나이비인후과의원 (2/19, 21)",
     latlng: "37.61153564639509, 126.929331356329",
-    address_name: "서울 은평구 불광1동"
+    address_name: "서울 은평구 불광1동",
+    address_english: "Nairobi Clinic (2/19, 21)"
   },
   {
     solo: true,
@@ -11187,7 +12278,8 @@ var position = [
     full: "강릉 확진자",
     address: "부자대게 방문",
     latlng: "37.755015, 128.899837",
-    address_name: "강원 강릉시 중앙동"
+    address_name: "강원 강릉시 중앙동",
+    address_english: "a rich visit"
   },
   {
     solo: true,
@@ -11199,7 +12291,8 @@ var position = [
     full: "삼척 확진자",
     address: "역전할머니맥주 동해천곡점 방문",
     latlng: "37.521108, 129.116418",
-    address_name: "강원 동해시 천곡동"
+    address_name: "강원 동해시 천곡동",
+    address_english: "Inversion donghae meoni to beer Cheongok, a visit."
   },
   {
     solo: true,
@@ -11211,7 +12304,8 @@ var position = [
     full: "경기 확진자",
     address: "숭실대입구역 지하철 탑승",
     latlng: "37.496317281757406, 126.95362196342201",
-    address_name: "서울 동작구 상도1동"
+    address_name: "서울 동작구 상도1동",
+    address_english: "Get on the subway at Soongsil University Station"
   },
   {
     solo: true,
@@ -11223,7 +12317,8 @@ var position = [
     full: "서울 확진자",
     address: "신천지 교육관 식사",
     latlng: "37.42917180424796, 126.99067212437589",
-    address_name: "경기 과천시 중앙동"
+    address_name: "경기 과천시 중앙동",
+    address_english: "Shincheonji Education Center Meal"
   },
   {
     solo: true,
@@ -11235,7 +12330,8 @@ var position = [
     full: "종로 확진자",
     address: "은평지마트",
     latlng: "37.6319251121628, 126.921001156738",
-    address_name: "서울 은평구 진관동"
+    address_name: "서울 은평구 진관동",
+    address_english: "Eunpyeongji Mart"
   },
   {
     solo: true,
@@ -11247,7 +12343,8 @@ var position = [
     full: "영주 확진자",
     address: "강남삼성내과의원 방문",
     latlng: "35.85256943451971, 128.59111949966223",
-    address_name: "대구 남구 대명2동"
+    address_name: "대구 남구 대명2동",
+    address_english: "Visit Samsung Medical Center in Gangnam"
   },
   {
     solo: true,
@@ -11259,7 +12356,8 @@ var position = [
     full: "종로 확진자",
     address: "연세큰숲내과의원",
     latlng: "37.61089027472179, 126.92889252868001",
-    address_name: "서울 은평구 대조동"
+    address_name: "서울 은평구 대조동",
+    address_english: "Yonsei Forest Clinic"
   },
   {
     solo: true,
@@ -11271,7 +12369,9 @@ var position = [
     full: "영주 확진자",
     address: "영주시보건소 선별진료소 진료",
     latlng: "36.80614041100811, 128.62166674234425",
-    address_name: "경북 영주시 휴천2동"
+    address_name: "경북 영주시 휴천2동",
+    address_english:
+      "Clinical treatment of selected medical centers at Yeongju Health Center"
   },
   {
     solo: true,
@@ -11283,7 +12383,8 @@ var position = [
     full: "부산 확진자",
     address: "반여1동주민센터 방문",
     latlng: "35.2011025051349, 129.11894234324268",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit the Banyeo 1dong Community Center"
   },
   {
     solo: true,
@@ -11295,7 +12396,8 @@ var position = [
     full: "영주 확진자",
     address: "영선제일약국 방문",
     latlng: "35.852574269313905, 128.59102661651224",
-    address_name: "대구 남구 대명2동"
+    address_name: "대구 남구 대명2동",
+    address_english: "Visit Youngsun First Pharmacy"
   },
   {
     solo: true,
@@ -11307,7 +12409,8 @@ var position = [
     full: "속초 확진자",
     address: "속초 스타벅스 중앙로점 방문",
     latlng: "38.202647, 128.589511",
-    address_name: "강원 속초시 금호동"
+    address_name: "강원 속초시 금호동",
+    address_english: "Visit the Jungangno branch of Sokcho Starbucks"
   },
   {
     solo: true,
@@ -11319,7 +12422,8 @@ var position = [
     full: "종로 확진자",
     address: "밝은약국",
     latlng: "37.61077129781359, 126.928815627117",
-    address_name: "서울 은평구 대조동"
+    address_name: "서울 은평구 대조동",
+    address_english: "Bright Pharmacy"
   },
   {
     solo: true,
@@ -11331,7 +12435,8 @@ var position = [
     full: "부산 확진자",
     address: "광안자연약국 방문",
     latlng: "35.15766294022044, 129.11278922450208",
-    address_name: "부산 수영구 광안4동"
+    address_name: "부산 수영구 광안4동",
+    address_english: "Visit the Guangan Natural Pharmacy"
   },
   {
     solo: true,
@@ -11343,7 +12448,8 @@ var position = [
     full: "삼척 확진자",
     address: "세븐일레븐 동해중앙점 방문",
     latlng: "37.52118, 129.116321",
-    address_name: "강원 동해시 천곡동"
+    address_name: "강원 동해시 천곡동",
+    address_english: "7-Eleven donghae a visit to the centre."
   },
   {
     solo: true,
@@ -11355,7 +12461,8 @@ var position = [
     full: "서울 확진자",
     address: "행복한밥상",
     latlng: "37.4278420662319, 126.993040370933",
-    address_name: "경기 과천시 별양동"
+    address_name: "경기 과천시 별양동",
+    address_english: "Happy Meal Award"
   },
   {
     solo: true,
@@ -11367,7 +12474,8 @@ var position = [
     full: "부산 확진자",
     address: "GS25 명륜중앙점 방문",
     latlng: "35.212563358669485, 129.07871849540632",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "GS25 Visit Myeongnyun Central Branch"
   },
   {
     solo: true,
@@ -11379,7 +12487,8 @@ var position = [
     full: "부산 확진자",
     address: "다세움교회 방문",
     latlng: "35.06290812166031, 128.97915978972205",
-    address_name: "부산 사하구 다대2동"
+    address_name: "부산 사하구 다대2동",
+    address_english: "Visit Daseum Church"
   },
   {
     solo: true,
@@ -11391,7 +12500,9 @@ var position = [
     full: "인천 확진자",
     address: "부평구 보건소 선별진료소 방문",
     latlng: "37.498984, 126.724246",
-    address_name: "인천 부평구 부평4동"
+    address_name: "인천 부평구 부평4동",
+    address_english:
+      "Visit the Health Center in Bupyeong-gu to select medical centers"
   },
   {
     profile: "-",
@@ -11403,7 +12514,8 @@ var position = [
     address: "양분식 방문",
     latlng: "37.44415, 129.163383",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "a bifurcated visit"
   },
   {
     profile: "-",
@@ -11415,7 +12527,8 @@ var position = [
     address: "놀부부대찌개 방문",
     latlng: "37.444197, 129.16345",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit Nolbu Budaejjigae"
   },
   {
     solo: true,
@@ -11427,7 +12540,8 @@ var position = [
     full: "문경 확진자",
     address: "M컨벤션 앞 (16:15 경)",
     latlng: "36.5875217, 128.1934636",
-    address_name: "경북 문경시 점촌2동"
+    address_name: "경북 문경시 점촌2동",
+    address_english: "Before M Convention (16:15)"
   },
   {
     solo: true,
@@ -11439,7 +12553,8 @@ var position = [
     full: "평택 확진자",
     address: "노걸대 감자탕에서 점심(11:30)",
     latlng: "37.009115, 127.076112",
-    address_name: "경기 평택시 세교동"
+    address_name: "경기 평택시 세교동",
+    address_english: "Lunch at Norgoldae Gamjatang (11:30)"
   },
   {
     solo: true,
@@ -11451,7 +12566,8 @@ var position = [
     full: "문경 확진자",
     address: "산북손짜장 방문 (10:14 경)",
     latlng: "36.6541196, 128.2575626",
-    address_name: "경북 문경시 산북면"
+    address_name: "경북 문경시 산북면",
+    address_english: "Visit Sanbuk Son Jajang (about 10:14)"
   },
   {
     solo: true,
@@ -11463,7 +12579,8 @@ var position = [
     full: "인천 확진자",
     address: "동대구역->서울역 KTX로 도착",
     latlng: "37.553093, 126.972635",
-    address_name: "서울 용산구 남영동"
+    address_name: "서울 용산구 남영동",
+    address_english: "Dongdaegu Station - > Arrived at Seoul Station KTX"
   },
   {
     solo: true,
@@ -11475,7 +12592,8 @@ var position = [
     full: "경산 확진자",
     address: "세명병원 선별진료소 방문",
     latlng: "35.826304, 128.737349",
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english: "Visit the Selective Care Center at the Three-"
   },
   {
     solo: true,
@@ -11487,7 +12605,8 @@ var position = [
     full: "광진구 확진자",
     address: "영 모네중식 방문",
     latlng: "37.558112, 127.079373",
-    address_name: "서울 광진구 중곡1동"
+    address_name: "서울 광진구 중곡1동",
+    address_english: "Young Monet Chinese Visit"
   },
   {
     solo: true,
@@ -11499,7 +12618,8 @@ var position = [
     full: "춘천 확진자",
     address: "새명동 신천지 센터 방문",
     latlng: "37.827495, 127.764597",
-    address_name: "강원 춘천시 동내면"
+    address_name: "강원 춘천시 동내면",
+    address_english: "Visit the Sincheonji Center in Saemyeong-dong"
   },
   {
     solo: true,
@@ -11511,7 +12631,8 @@ var position = [
     full: "울산 확진자",
     address: "신복 로타리 방문",
     latlng: "35.550769, 129.263124",
-    address_name: "울산 남구 삼호동"
+    address_name: "울산 남구 삼호동",
+    address_english: "Visit Sinbok Rotary"
   },
   {
     solo: true,
@@ -11523,7 +12644,8 @@ var position = [
     full: "126 확진자",
     address: "서구보건소 선별진료소 (11:30)",
     latlng: "35.152402, 126.889624",
-    address_name: "광주 서구 농성1동"
+    address_name: "광주 서구 농성1동",
+    address_english: "Western Health Center Screening Care Center (11:30)"
   },
   {
     solo: true,
@@ -11535,7 +12657,8 @@ var position = [
     full: "평택 확진자",
     address: "지제역 방문",
     latlng: "37.019014, 127.070253",
-    address_name: "경기 평택시 세교동"
+    address_name: "경기 평택시 세교동",
+    address_english: "a visit to Jije Station"
   },
   {
     solo: true,
@@ -11547,7 +12670,8 @@ var position = [
     full: "거제 확진자",
     address: "김해공항 입국",
     latlng: "35.173062, 128.946523",
-    address_name: "부산 강서구 대저2동"
+    address_name: "부산 강서구 대저2동",
+    address_english: "Kimhae Airport Arrival"
   },
   {
     solo: true,
@@ -11559,7 +12683,8 @@ var position = [
     full: "문경 확진자",
     address: "점촌터미널도착 (쏘카 대여) (15:40)",
     latlng: "36.5962304, 128.1975181",
-    address_name: "경북 문경시 점촌1동"
+    address_name: "경북 문경시 점촌1동",
+    address_english: "Arrival at Junchon Terminal (Socca rental) (15:40)"
   },
   {
     solo: true,
@@ -11571,7 +12696,8 @@ var position = [
     full: "청도 확진자",
     address: "청도 대남병원",
     latlng: "35.648645, 128.737074",
-    address_name: "경북 청도군 화양읍"
+    address_name: "경북 청도군 화양읍",
+    address_english: "Cheongdo South Korea Hospital"
   },
   {
     solo: true,
@@ -11583,7 +12709,8 @@ var position = [
     full: "경산 확진자",
     address: "포스마트 영남대학점 방문",
     latlng: "35.840582, 128.755491",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visits to Posmart Youngnam University"
   },
   {
     solo: true,
@@ -11595,7 +12722,8 @@ var position = [
     full: "의성 확진자",
     address: "다인중학교 방문",
     latlng: "36.452938, 128.355027",
-    address_name: "경북 의성군 다인면"
+    address_name: "경북 의성군 다인면",
+    address_english: "Visit Dain Middle School"
   },
   {
     solo: true,
@@ -11607,7 +12735,8 @@ var position = [
     full: "영주 확진자",
     address: "영주온천 방문(17:30~18:30)",
     latlng: "36.817607, 128.605227",
-    address_name: "경북 영주시 가흥1동"
+    address_name: "경북 영주시 가흥1동",
+    address_english: "Visit Yeongju Oncheon (17:30-18:30)"
   },
   {
     solo: true,
@@ -11619,7 +12748,9 @@ var position = [
     full: "창원 확진자",
     address: "남창원농협 농수산물종합유통센터",
     latlng: "35.20403010696722, 128.70312961337936",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english:
+      "Namchangwon Agricultural Cooperative Federation General Distribution Center"
   },
   {
     solo: true,
@@ -11631,7 +12762,8 @@ var position = [
     full: "부산 확진자",
     address: "세인약국",
     latlng: "35.0995495296311, 128.98988999044911",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "Sein Pharmacy"
   },
   {
     solo: true,
@@ -11643,7 +12775,8 @@ var position = [
     full: "합천 확진자",
     address: "함안휴게소 화장실(여)",
     latlng: "35.29472855633811, 128.34466059297807",
-    address_name: "경남 함안군 군북면"
+    address_name: "경남 함안군 군북면",
+    address_english: "Haman Rest Area Restroom (Yeo)"
   },
   {
     solo: true,
@@ -11655,7 +12788,8 @@ var position = [
     full: "충주 확진자",
     address: "연수힐스테이트아파트",
     latlng: "36.98531297713321, 127.94402878613687",
-    address_name: "충북 충주시 연수동"
+    address_name: "충북 충주시 연수동",
+    address_english: "Training Hill State Apartments"
   },
   {
     solo: true,
@@ -11667,7 +12801,8 @@ var position = [
     full: "충주 확진자",
     address: "롯데마트 충주점",
     latlng: "36.981404935714, 127.91423542994",
-    address_name: "충북 충주시 칠금.금릉동"
+    address_name: "충북 충주시 칠금.금릉동",
+    address_english: "Chungju branch of Lotte Mart"
   },
   {
     solo: true,
@@ -11679,7 +12814,8 @@ var position = [
     full: "합천 확진자",
     address: "레드버튼 동성로점",
     latlng: "35.8680036309713, 128.59605580106924",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "Red-breasted Dongseongno Branch"
   },
   {
     solo: true,
@@ -11691,7 +12827,8 @@ var position = [
     full: "충주 확진자",
     address: "충주중앙병원",
     latlng: "36.97407955666101, 127.93297420759639",
-    address_name: "충북 충주시 성내.충인동"
+    address_name: "충북 충주시 성내.충인동",
+    address_english: "Chungju Central Hospital"
   },
   {
     solo: true,
@@ -11703,7 +12840,8 @@ var position = [
     full: "천안 확진자",
     address: "얌샘김밥 천안쌍용점",
     latlng: "36.80257964929972, 127.11916009264061",
-    address_name: "충남 천안시 서북구 쌍용3동"
+    address_name: "충남 천안시 서북구 쌍용3동",
+    address_english: "Yamsam Gimbap Cheonan SsangYongjeom"
   },
   {
     solo: true,
@@ -11715,7 +12853,8 @@ var position = [
     full: "창원 확진자",
     address: "유내과",
     latlng: "35.208096781550985, 128.69694245322836",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "a dairy department"
   },
   {
     solo: true,
@@ -11727,7 +12866,8 @@ var position = [
     full: "창원 확진자",
     address: "상지 종합상사",
     latlng: "35.22693205558951, 128.69128951895436",
-    address_name: "경남 창원시 의창구 용지동"
+    address_name: "경남 창원시 의창구 용지동",
+    address_english: "upper branch general co."
   },
   {
     solo: true,
@@ -11739,7 +12879,8 @@ var position = [
     full: "창원 확진자",
     address: "낚시프라자(의창신월동)",
     latlng: "35.226561, 128.694737",
-    address_name: "경남 창원시 의창구 용지동"
+    address_name: "경남 창원시 의창구 용지동",
+    address_english: "Fishing Plaza (Euichang Shinwol-dong)"
   },
   {
     solo: true,
@@ -11751,7 +12892,8 @@ var position = [
     full: "청송 확진자",
     address: "식자재마트진보 방문",
     latlng: "36.52706892009238, 129.04358839412427",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "A Visit to Food and Materials Mart"
   },
   {
     solo: true,
@@ -11763,7 +12905,9 @@ var position = [
     full: "창원 확진자",
     address: "성산가음정시장내 서라벌족발옆 분식집",
     latlng: "35.2078278264611, 128.69812714563537",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english:
+      "Snack Stand next to Seorabal Jokbal in Seongsan Gaumjeong Market"
   },
   {
     solo: true,
@@ -11775,7 +12919,8 @@ var position = [
     full: "김해 확진자",
     address: "한효슈퍼",
     latlng: "35.2387242263462, 128.91681739969584",
-    address_name: "경남 김해시 삼안동"
+    address_name: "경남 김해시 삼안동",
+    address_english: "Hanhyo Super"
   },
   {
     solo: true,
@@ -11787,7 +12932,8 @@ var position = [
     full: "합천 확진자",
     address: "이마트24 RS동대구역점",
     latlng: "35.8774317000986, 128.62732308767028",
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "E-Mart24 RS-Dongdae District Store"
   },
   {
     solo: true,
@@ -11799,7 +12945,8 @@ var position = [
     full: "김해 확진자",
     address: "거제 가덕해양파크",
     latlng: "35.023372412563305, 128.80732632817657",
-    address_name: "부산 강서구 가덕도동"
+    address_name: "부산 강서구 가덕도동",
+    address_english: "Geoje Gadeok Ocean Park"
   },
   {
     solo: true,
@@ -11811,7 +12958,8 @@ var position = [
     full: "양산 확진자",
     address: "본동국밥칼국수",
     latlng: "35.30530081785731, 129.02656822853723",
-    address_name: "경남 양산시 동면"
+    address_name: "경남 양산시 동면",
+    address_english: "Bondong rice soup kalguksu"
   },
   {
     month: 1,
@@ -11824,7 +12972,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "경기 성남시 분당구 수내1동"
+    address_name: "경기 성남시 분당구 수내1동",
+    address_english: "a job in Su-Na-dong, Bundang"
   },
   {
     month: 1,
@@ -11837,7 +12986,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 송파구 가락1동"
+    address_name: "서울 송파구 가락1동",
+    address_english: "Visit the bakery in Songpa-gu."
   },
   {
     month: 2,
@@ -11850,7 +13000,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 송파구 가락본동"
+    address_name: "서울 송파구 가락본동",
+    address_english: "Visit a restaurant in Songpa-gu, Seoul"
   },
   {
     month: 2,
@@ -11863,7 +13014,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english:
+      "Myungji Hospital  <span style='color:red;'격separation </span>"
   },
   {
     month: 2,
@@ -11876,7 +13029,9 @@ var position = [
     profile: "-",
     name: "20번째 확진자",
     full: "20번째 확진자",
-    address_name: "경기 수원시 장안구 조원2동"
+    address_name: "경기 수원시 장안구 조원2동",
+    address_english:
+      "Post-examination after moving to a health center in Jangan-gu, Suwon"
   },
   {
     profile: "-",
@@ -11889,7 +13044,8 @@ var position = [
     solo: true,
     name: "56번째 확진자",
     full: "56번째 확진자",
-    address_name: "서울 종로구 청운효자동"
+    address_name: "서울 종로구 청운효자동",
+    address_english: "Clinical treatment at Jongno Health Center"
   },
   {
     month: 1,
@@ -11902,7 +13058,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 동구동"
+    address_name: "경기 구리시 동구동",
+    address_english:
+      "Samsung Medical Center Br. Guri City Pharmacy Prescription"
   },
   {
     status: "완치",
@@ -11918,7 +13076,8 @@ var position = [
     solo: true,
     name: "18번째 확진자",
     full: "18번째 확진자",
-    address_name: "광주 광산구 운남동"
+    address_name: "광주 광산구 운남동",
+    address_english: "Gwangju 21st Century Hospital Hospital Hospital"
   },
   {
     month: 2,
@@ -11931,7 +13090,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "인천 연수구 송도3동"
+    address_name: "인천 연수구 송도3동",
+    address_english: "Visit Songdo Large Shopping Mall"
   },
   {
     profile: "-",
@@ -11944,7 +13104,9 @@ var position = [
     solo: true,
     name: "35번째 확진자",
     full: "35번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -11954,7 +13116,9 @@ var position = [
     address: "경산시 보건소 선별진료소 방문",
     latlng: "35.824947, 128.743321",
     solo: true,
-    address_name: "경북 경산시 중앙동"
+    address_name: "경북 경산시 중앙동",
+    address_english:
+      "Visit the Health Center Screening Care Center in Gyeongsan City"
   },
   {
     month: 2,
@@ -11967,7 +13131,8 @@ var position = [
     profile: "-",
     name: "19번째 확진자",
     full: "19번째 확진자",
-    address_name: "서울 강남구 역삼1동"
+    address_name: "서울 강남구 역삼1동",
+    address_english: "Visit a hotel in Gangnam-gu, Seoul"
   },
   {
     profile: "-",
@@ -11980,7 +13145,9 @@ var position = [
     solo: true,
     name: "49번째 확진자",
     full: "49번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -11993,7 +13160,9 @@ var position = [
     solo: true,
     name: "41번째 확진자",
     full: "41번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12006,7 +13175,9 @@ var position = [
     solo: true,
     name: "50번째 확진자",
     full: "50번째 확진자",
-    address_name: "대구 남구 대명5동"
+    address_name: "대구 남구 대명5동",
+    address_english:
+      "Yeongnam University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12019,7 +13190,9 @@ var position = [
     solo: true,
     name: "65번째 확진자",
     full: "65번째 확진자",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english:
+      "Kyungpook National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12032,7 +13205,9 @@ var position = [
     solo: true,
     name: "31번째 확진자",
     full: "31번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12044,7 +13219,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 완산동"
+    address_name: "경북 영천시 완산동",
+    address_english: "Kim In-hwan Medical Center Rep."
   },
   {
     solo: true,
@@ -12056,7 +13232,9 @@ var position = [
     full: "춘천 확진자",
     address: "59쌀피자(남춘천점)에서 아르바이트(17:00~23:00)",
     latlng: "37.862064, 127.731061",
-    address_name: "강원 춘천시 퇴계동"
+    address_name: "강원 춘천시 퇴계동",
+    address_english:
+      "Part time job at 59 Rice Pizza (Namchuncheon Branch) (17:00 to 23:00)"
   },
   {
     profile: "-",
@@ -12069,7 +13247,9 @@ var position = [
     solo: true,
     name: "43번째 확진자",
     full: "43번째 확진자",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english:
+      "Keimyung Daedongsan Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12081,7 +13261,8 @@ var position = [
     solo: true,
     name: "37번째 확진자",
     full: "37번째 확진자",
-    address_name: "경북 영천시 남부동"
+    address_name: "경북 영천시 남부동",
+    address_english: "medical treatment of permanent members"
   },
   {
     profile: "(50대.여.한국)",
@@ -12093,7 +13274,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.199116, 129.11915",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Banyeo-dong Jangsanmyeongga (11:00-12:40)"
   },
   {
     profile: "(19.남.한국)",
@@ -12105,7 +13287,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.196488, 129.093137",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english:
+      "Visit to the Welfare Policy of Dongnae District Office (17:00-17:20)"
   },
   {
     profile: "-",
@@ -12117,7 +13301,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.255031, 126.428428",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 중문동"
+    address_name: "제주특별자치도 서귀포시 중문동",
+    address_english: "Visit CU Onet Store"
   },
   {
     profile: "-",
@@ -12129,7 +13314,9 @@ var position = [
     address: "전남대학교병원 <span style='color:red;'>격리</span>",
     latlng: "35.142094, 126.921635",
     solo: true,
-    address_name: "광주 동구 학동"
+    address_name: "광주 동구 학동",
+    address_english:
+      "Chonnam National University Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "-",
@@ -12141,7 +13328,8 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.135462, 126.895629",
     solo: true,
-    address_name: "광주 남구 주월2동"
+    address_name: "광주 남구 주월2동",
+    address_english: "Visiting Back Exercise Restaurant 'Best Park'"
   },
   {
     profile: "(50대.여.한국)",
@@ -12153,7 +13341,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.115164, 129.041825",
     solo: true,
-    address_name: "부산 동구 초량3동"
+    address_name: "부산 동구 초량3동",
+    address_english: "Arrival at Busan Station"
   },
   {
     profile: "-",
@@ -12165,7 +13354,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.490004, 126.485135",
     solo: true,
-    address_name: "제주특별자치도 제주시 연동"
+    address_name: "제주특별자치도 제주시 연동",
+    address_english: "Visit Halla Hospital Selective Care Center"
   },
   {
     profile: "-",
@@ -12177,7 +13367,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.443068, 129.164281",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     profile: "(19.남.한국)",
@@ -12189,7 +13380,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.196415, 129.090618",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english: "GS25 Visit Green Point in Dongnae Dream"
   },
   {
     profile: "-",
@@ -12201,7 +13393,8 @@ var position = [
     solo: true,
     name: "113번째 확진자",
     full: "113번째 확진자",
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Use Dongdaegu Terminal (7:30-10:30)"
   },
   {
     profile: "(19.남.한국)",
@@ -12213,7 +13406,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.204553, 129.079749",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a nearby pharmacy"
   },
   {
     solo: true,
@@ -12225,7 +13419,8 @@ var position = [
     full: "춘천 확진자",
     address: "대구 트레이더스 방문(15:00~15:30)",
     latlng: "35.889885, 128.555973",
-    address_name: "대구 서구 비산7동"
+    address_name: "대구 서구 비산7동",
+    address_english: "Visit Daegu Traders (15:00-15:30)"
   },
   {
     profile: "(19.남.한국)",
@@ -12237,7 +13432,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.211384, 129.079862",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "a visit to a health center in Dongnae-gu"
   },
   {
     profile: "-",
@@ -12249,7 +13445,9 @@ var position = [
     solo: true,
     name: "39번째 확진자",
     full: "39번째 확진자",
-    address_name: "경북 경주시 성건동"
+    address_name: "경북 경주시 성건동",
+    address_english:
+      "Dongguk University Gyeongju Hospital  <Span style='color:red;'Separate </span>"
   },
   {
     profile: "(19.남.한국)",
@@ -12261,7 +13459,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.204439, 129.080164",
     solo: true,
-    address_name: "부산 동래구 명륜동"
+    address_name: "부산 동래구 명륜동",
+    address_english: "Visit the Selective Care Center at Daedong Hospital"
   },
   {
     profile: "-",
@@ -12273,7 +13472,8 @@ var position = [
     address: "수영구 광안동 슈가스팟 건물 방문",
     latlng: "35.160705, 129.115174",
     solo: true,
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english: "Visit the Sugar Pot Building in Gwangan-dong, Suyeong-gu"
   },
   {
     profile: "(19.남.한국)",
@@ -12285,7 +13485,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.19947, 129.098606",
     solo: true,
-    address_name: "부산 동래구 안락1동"
+    address_name: "부산 동래구 안락1동",
+    address_english: "Visit the Dongnae branch of Eolssu Park House"
   },
   {
     profile: "-",
@@ -12297,7 +13498,8 @@ var position = [
     address: "부산 해운대구 음식점 방문",
     latlng: "35.201308, 129.1198",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit restaurants in Haeundae-gu, Busan"
   },
   {
     profile: "-",
@@ -12309,7 +13511,9 @@ var position = [
     full: "광주 확진자 B",
     latlng: "35.126229, 126.911115",
     solo: true,
-    address_name: "광주 남구 봉선2동"
+    address_name: "광주 남구 봉선2동",
+    address_english:
+      "Visit 'Four-Jinmi Charcoal Spicy Dakgalbi' in Bongseon-dong"
   },
   {
     profile: "-",
@@ -12321,7 +13525,8 @@ var position = [
     address: "부산대병원 이송",
     latlng: "35.100713, 129.01869",
     solo: true,
-    address_name: "부산 서구 아미동"
+    address_name: "부산 서구 아미동",
+    address_english: "Busan University Hospital Transfer"
   },
   {
     profile: "(50대.여.한국)",
@@ -12333,7 +13538,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.202708, 129.119949",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Centum Internal Medicine Officer (11:20-11:50)"
   },
   {
     profile: "-",
@@ -12345,7 +13551,8 @@ var position = [
     address: "해운대 좌동 아이스크림점 방문",
     latlng: "35.172759, 129.17636",
     solo: true,
-    address_name: "부산 해운대구 좌1동"
+    address_name: "부산 해운대구 좌1동",
+    address_english: "Visit Haeundae Left-wing Ice Cream Shop"
   },
   {
     profile: "-",
@@ -12357,7 +13564,8 @@ var position = [
     address: "스타벅스 수영강변점 방문",
     latlng: "35.203812, 129.119357",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit the Starbucks swimming riverside."
   },
   {
     profile: "-",
@@ -12369,7 +13577,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.332343, 127.434243",
     solo: true,
-    address_name: "대전 동구 중앙동"
+    address_name: "대전 동구 중앙동",
+    address_english: "Arrival at Daejeon Station"
   },
   {
     profile: "(50대.여.한국)",
@@ -12381,7 +13590,9 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.173544, 129.18191",
     solo: true,
-    address_name: "부산 해운대구 좌4동"
+    address_name: "부산 해운대구 좌4동",
+    address_english:
+      "Residence at Home after Visit to Busan Marine Daebaek Hospital"
   },
   {
     profile: "-",
@@ -12393,7 +13604,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.282695, 127.237831",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "a visit to the Kimbab Heaven"
   },
   {
     profile: "-",
@@ -12405,7 +13617,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.288507, 127.235964",
     solo: true,
-    address_name: "충남 계룡시 엄사면"
+    address_name: "충남 계룡시 엄사면",
+    address_english: "Visit on the way to Han-ri"
   },
   {
     profile: "-",
@@ -12417,7 +13630,8 @@ var position = [
     address: "부산대 병원으로 이송",
     latlng: "35.100739, 129.018796",
     solo: true,
-    address_name: "부산 서구 아미동"
+    address_name: "부산 서구 아미동",
+    address_english: "Transfer to Pusan National University Hospital"
   },
   {
     profile: "-",
@@ -12429,7 +13643,8 @@ var position = [
     address: "동대구시외버스터미널 출발",
     latlng: "35.877488, 128.62906",
     solo: true,
-    address_name: "대구 동구 신천4동"
+    address_name: "대구 동구 신천4동",
+    address_english: "Dongdaegu Bus Terminal Departure"
   },
   {
     profile: "-",
@@ -12441,7 +13656,8 @@ var position = [
     address: "해운대보건소 선별진료소 방문",
     latlng: "35.16407, 129.178703",
     solo: true,
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "Visit Haeundae Health Center Screening Care Center"
   },
   {
     profile: "(19.남.한국)",
@@ -12453,7 +13669,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.219597, 129.081204",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Using the Daeseong-tang (13:00-14:40)"
   },
   {
     profile: "(19.남.한국)",
@@ -12465,7 +13682,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.198369, 129.084146",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english: "Dongnae Mill Main Branch (15:10-16:40)"
   },
   {
     profile: "(19.남.한국)",
@@ -12477,7 +13695,8 @@ var position = [
     full: "진주 확진자A",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -12489,7 +13708,8 @@ var position = [
     address: "해운대구 음식점 방문",
     latlng: "35.186459, 129.203454",
     solo: true,
-    address_name: "부산 해운대구 송정동"
+    address_name: "부산 해운대구 송정동",
+    address_english: "Visit restaurants in Haeundae-gu"
   },
   {
     profile: "-",
@@ -12501,7 +13721,8 @@ var position = [
     address: "부산의료원 격리",
     latlng: "35.18719, 129.059316",
     solo: true,
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center Isolation"
   },
   {
     profile: "(59.여.한국)",
@@ -12513,7 +13734,8 @@ var position = [
     full: "경북 예천군 확진자",
     latlng: "36.657708, 128.452978",
     solo: true,
-    address_name: "경북 예천군 예천읍"
+    address_name: "경북 예천군 예천읍",
+    address_english: "Visit the Yecheon Health Center Screening Care Center"
   },
   {
     profile: "(19.남.한국)",
@@ -12525,7 +13747,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.215191, 129.073803",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Using Electronic Advertising (Sports Field) (11:50:-12:40)"
   },
   {
     profile: "-",
@@ -12537,7 +13761,8 @@ var position = [
     address: " CU반여선수촌점(직원 1명) 방문",
     latlng: "35.203454, 129.123612",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "CU semi-student village (one employee) visit"
   },
   {
     profile: "(19.남.한국)",
@@ -12549,7 +13774,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.216039, 129.077183",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Residence at home after worship on the second floor of the spa church (18:30-21:00)"
   },
   {
     profile: "(50대.여.한국)",
@@ -12561,7 +13788,8 @@ var position = [
     full: "부산 확진자A",
     latlng: "35.187234, 129.059263",
     solo: true,
-    address_name: "부산 연제구 거제2동"
+    address_name: "부산 연제구 거제2동",
+    address_english: "Busan Medical Center Isolation"
   },
   {
     profile: "-",
@@ -12573,7 +13801,8 @@ var position = [
     address: "해운대시외버스터미널 도착",
     latlng: "35.164788, 129.160508",
     solo: true,
-    address_name: "부산 해운대구 우1동"
+    address_name: "부산 해운대구 우1동",
+    address_english: "Arrival at Haeundae Bus Terminal"
   },
   {
     profile: "-",
@@ -12585,7 +13814,8 @@ var position = [
     address: "용봉동 소재 포켓볼하우스 방문",
     latlng: "35.175689, 126.913875",
     solo: true,
-    address_name: "광주 북구 용봉동"
+    address_name: "광주 북구 용봉동",
+    address_english: "Visit the Pokeball House in Yongbong-dong"
   },
   {
     profile: "(19.남.한국)",
@@ -12597,7 +13827,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.216039, 129.077183",
     solo: true,
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Visit the cafe on the first floor of the spa church (10:00-13:00) and stay at home."
   },
   {
     profile: "-",
@@ -12609,7 +13841,8 @@ var position = [
     full: "제주 확진자 B",
     latlng: "33.285128, 126.454557",
     solo: true,
-    address_name: "제주특별자치도 서귀포시 중문동"
+    address_name: "제주특별자치도 서귀포시 중문동",
+    address_english: "Working at Seogwipo Wii Hotel"
   },
   {
     profile: "(19.남.한국)",
@@ -12621,7 +13854,9 @@ var position = [
     full: "진주 확진자A",
     latlng: "35.1988, 128.566457",
     solo: true,
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english:
+      "Masan Medical Center  <span style='color:red;'separation </span'"
   },
   {
     profile: "-",
@@ -12633,7 +13868,9 @@ var position = [
     full: "광주 확진자 C",
     latlng: "34.525682, 127.135891",
     solo: true,
-    address_name: "전남 고흥군 도양읍"
+    address_name: "전남 고흥군 도양읍",
+    address_english:
+      "Visit 'Ttukbaegi Restaurant' of Jeonnam High School Food Center"
   },
   {
     profile: "-",
@@ -12645,7 +13882,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.509302, 126.491663",
     solo: true,
-    address_name: "제주특별자치도 제주시 용담2동"
+    address_name: "제주특별자치도 제주시 용담2동",
+    address_english: "T'way Airlines Flight TW809"
   },
   {
     profile: "(14.남.한국)",
@@ -12657,7 +13895,8 @@ var position = [
     full: "진주 확진자B",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     profile: "-",
@@ -12669,7 +13908,8 @@ var position = [
     address: "반여 선수촌세븐일레븐(직원 1명) 방문",
     latlng: "35.202023, 129.121793",
     solo: true,
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Bannyeo athletes visit 7-Eleven (one employee)"
   },
   {
     profile: "-",
@@ -12681,7 +13921,8 @@ var position = [
     address: "해운대보건소 선별진료소 방문",
     latlng: "35.164081, 129.17865",
     solo: true,
-    address_name: "부산 해운대구 좌2동"
+    address_name: "부산 해운대구 좌2동",
+    address_english: "Visit Haeundae Health Center Screening Care Center"
   },
   {
     profile: "-",
@@ -12693,7 +13934,8 @@ var position = [
     full: "제주 해군 확진자",
     latlng: "33.512939, 126.503016",
     solo: true,
-    address_name: "제주특별자치도 제주시 용담2동"
+    address_name: "제주특별자치도 제주시 용담2동",
+    address_english: "CU Visit Jeju Furniture Store (20:40)"
   },
   {
     profile: "(19.남.한국)",
@@ -12705,7 +13947,9 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.196488, 129.093137",
     solo: true,
-    address_name: "부산 동래구 수민동"
+    address_name: "부산 동래구 수민동",
+    address_english:
+      "Visit to the Welfare Policy of Dongnae District Office (17:00-17:20)"
   },
   {
     profile: "-",
@@ -12717,7 +13961,8 @@ var position = [
     full: "계룡대 공군",
     latlng: "36.273005, 127.265272",
     solo: true,
-    address_name: "충남 계룡시 두마면"
+    address_name: "충남 계룡시 두마면",
+    address_english: "Arrival at Gyeryong Station"
   },
   {
     solo: true,
@@ -12729,7 +13974,8 @@ var position = [
     full: "의성 확진자",
     address: "안계홈마트 방문",
     latlng: "36.388919, 128.43542",
-    address_name: "경북 의성군 안계면"
+    address_name: "경북 의성군 안계면",
+    address_english: "Visit Angye Home Mart"
   },
   {
     profile: "-",
@@ -12741,7 +13987,9 @@ var position = [
     full: "광주 확진자 A",
     latlng: "35.126229, 126.911115",
     solo: true,
-    address_name: "광주 남구 봉선2동"
+    address_name: "광주 남구 봉선2동",
+    address_english:
+      "Visit 'Four-Jinmi Charcoal Spicy Dakgalbi' in Bongseon-dong"
   },
   {
     profile: "(19.남.한국)",
@@ -12753,7 +14001,8 @@ var position = [
     full: "부산 확진자B",
     latlng: "35.154464, 129.119086",
     solo: true,
-    address_name: "부산 수영구 광안2동"
+    address_name: "부산 수영구 광안2동",
+    address_english: "Visit Gwangalli Pizza Mall (1:40-15:00)"
   },
   {
     solo: true,
@@ -12765,7 +14014,8 @@ var position = [
     full: "경산 확진자",
     address: "파티마연합속내과의원 방문",
     latlng: "35.91395, 128.819653",
-    address_name: "경북 경산시 하양읍"
+    address_name: "경북 경산시 하양읍",
+    address_english: "Visit the Patima Union Internal Medicine Center"
   },
   {
     solo: true,
@@ -12777,7 +14027,8 @@ var position = [
     full: "의성 확진자",
     address: "안계하나로마트 방문",
     latlng: "36.38303, 128.439086",
-    address_name: "경북 의성군 안계면"
+    address_name: "경북 의성군 안계면",
+    address_english: "Visit Angye Hanaromart"
   },
   {
     solo: true,
@@ -12789,7 +14040,8 @@ var position = [
     full: "이천 확진자",
     address: "샘재로밥상 방문",
     latlng: "37.124234, 127.615585",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "a visit to Samjae Japsang."
   },
   {
     solo: true,
@@ -12801,7 +14053,8 @@ var position = [
     full: "경산 확진자",
     address: "세븐일레븐영대제일원룸점 방문",
     latlng: "35.838615, 128.759718",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visit 7-Eleven Youngdae CheilOne Room Store"
   },
   {
     solo: true,
@@ -12813,7 +14066,8 @@ var position = [
     full: "군위 확진자",
     address: "부계보건지소 방문(17:00, 자가용)",
     latlng: "36.229856, 128.569574",
-    address_name: "경북 군위군 군위읍"
+    address_name: "경북 군위군 군위읍",
+    address_english: "Visits to the Assistant Health Office (17:00, Private)"
   },
   {
     solo: true,
@@ -12825,7 +14079,8 @@ var position = [
     full: "군위 확진자",
     address: "백학 1리 마을회관 방문(17:00)",
     latlng: "36.079693, 128.702434",
-    address_name: "경북 군위군 산성면"
+    address_name: "경북 군위군 산성면",
+    address_english: "Visit the Village Hall (17:00) at Baekhak 1-ri Village"
   },
   {
     solo: true,
@@ -12837,7 +14092,8 @@ var position = [
     full: "문경 확진자",
     address: "산양면 화수헌 카페 방문 (16:45 경)",
     latlng: "36.639014, 128.2560374",
-    address_name: "경북 문경시 산양면"
+    address_name: "경북 문경시 산양면",
+    address_english: "Visit Hwasuhun Cafe in Sanyang-myeon (16:45)"
   },
   {
     solo: true,
@@ -12849,7 +14105,9 @@ var position = [
     full: "속초 확진자",
     address: "양양 강현면사무소옆 GS편의점 밖 테라스 방문(5:50)",
     latlng: "38.150126, 128.607381",
-    address_name: "강원 양양군 강현면"
+    address_name: "강원 양양군 강현면",
+    address_english:
+      "Visit Terrace outside GS Convenience Store next to Kanghyun-myeon Office in Yangyang (5:50)"
   },
   {
     solo: true,
@@ -12861,7 +14119,8 @@ var position = [
     full: "군위 확진자",
     address: "산성면사무소 방문(9:00)",
     latlng: "36.123518, 128.694888",
-    address_name: "경북 군위군 산성면"
+    address_name: "경북 군위군 산성면",
+    address_english: "Visit Sanshanmyeon Office (9:00)"
   },
   {
     solo: true,
@@ -12873,7 +14132,8 @@ var position = [
     full: "평택 확진자",
     address: "현대향촌마트 방문(18:40)",
     latlng: "37.001363, 127.079635",
-    address_name: "경기 평택시 세교동"
+    address_name: "경기 평택시 세교동",
+    address_english: "Visit Hyundai Hyangchon Mart (18:40)"
   },
   {
     solo: true,
@@ -12885,7 +14145,8 @@ var position = [
     full: "의성 확진자",
     address: "안계성당 방문",
     latlng: "36.386813, 128.438429",
-    address_name: "경북 의성군 안계면"
+    address_name: "경북 의성군 안계면",
+    address_english: "Visit Angye Cathedral"
   },
   {
     profile: "-",
@@ -12897,7 +14158,8 @@ var position = [
     address: "북구보건소 근무",
     latlng: "36.070662, 129.380494",
     solo: true,
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Northern District Health Service"
   },
   {
     solo: true,
@@ -12909,7 +14171,8 @@ var position = [
     full: "광주 확진자 C",
     address: "나로우주센터 우주과학관 매점(13:00)",
     latlng: "34.45386, 127.518144",
-    address_name: "전남 고흥군 봉래면"
+    address_name: "전남 고흥군 봉래면",
+    address_english: "Space Science Hall Store at Naro Space Center (13:00)"
   },
   {
     solo: true,
@@ -12921,7 +14184,8 @@ var position = [
     full: "상주 확진자",
     address: "안동 의료원 격리",
     latlng: "36.567971, 128.732347",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Andong Medical Center Isolation"
   },
   {
     solo: true,
@@ -12933,7 +14197,8 @@ var position = [
     full: "서울 확진자",
     address: "복돼지네 옛날 생돼지김치찌개 방문",
     latlng: "37.477868, 126.987334",
-    address_name: "서울 서초구 방배2동"
+    address_name: "서울 서초구 방배2동",
+    address_english: "Visit the Lucky Pigs' Old Raw Pigs Kimchi Stew"
   },
   {
     profile: "-",
@@ -12945,7 +14210,8 @@ var position = [
     address: "포항 우체국 출근",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "To work at the Pohang Post Office"
   },
   {
     solo: true,
@@ -12957,7 +14223,8 @@ var position = [
     full: "합천 확진자",
     address: "마산의료원 격리치료중",
     latlng: "35.198809, 128.566491",
-    address_name: "경남 창원시 마산합포구 완월동"
+    address_name: "경남 창원시 마산합포구 완월동",
+    address_english: "Masan Medical Center Isolated"
   },
   {
     solo: true,
@@ -12969,7 +14236,8 @@ var position = [
     full: "속초 확진자",
     address: "매자식당 방문(18:00)",
     latlng: "38.210327, 128.586505",
-    address_name: "강원 속초시 동명동"
+    address_name: "강원 속초시 동명동",
+    address_english: "Visit the cafeteria (18:00)"
   },
   {
     solo: true,
@@ -12981,7 +14249,8 @@ var position = [
     full: "속초 확진자",
     address: "가덕국수(동명동)",
     latlng: "38.209944, 128.586603",
-    address_name: "강원 속초시 동명동"
+    address_name: "강원 속초시 동명동",
+    address_english: "Gadeokguksu (Dongmyeong-dong)"
   },
   {
     solo: true,
@@ -12993,7 +14262,8 @@ var position = [
     full: "양산 확진자",
     address: "삼산이용원 방문",
     latlng: "35.305648, 129.025007",
-    address_name: "경남 양산시 동면"
+    address_name: "경남 양산시 동면",
+    address_english: "Visit Samsan Yongwon"
   },
   {
     solo: true,
@@ -13005,7 +14275,8 @@ var position = [
     full: "인천 확진자",
     address: "부평시장 내 상점 그린조이 방문(2/20,21)",
     latlng: "37.494571, 126.725305",
-    address_name: "인천 부평구 부평4동"
+    address_name: "인천 부평구 부평4동",
+    address_english: "Visit Greenjoy at Bupyeong Market (2/20,21)"
   },
   {
     solo: true,
@@ -13017,7 +14288,8 @@ var position = [
     full: "속초 확진자",
     address: "파스쿠찌 영량호점 방문(14:00)",
     latlng: "38.222805, 128.583287",
-    address_name: "강원 속초시 영랑동"
+    address_name: "강원 속초시 영랑동",
+    address_english: "Visit Pascucci Yeongryangho Store (14:00)"
   },
   {
     solo: true,
@@ -13029,7 +14301,8 @@ var position = [
     full: "부산 확진자",
     address: "부산역 (KTX  7호차), 20:40~21:02",
     latlng: "35.115286, 129.042264",
-    address_name: "부산 동구 초량3동"
+    address_name: "부산 동구 초량3동",
+    address_english: "Busan Station (KTX 7), 20:40 to 21:02"
   },
   {
     solo: true,
@@ -13041,7 +14314,9 @@ var position = [
     full: "안동 확진자",
     address: "안동교구청에서 교육(9:00~18:30), 영주 거주자 1명 동승",
     latlng: "36.57973, 128.724522",
-    address_name: "경북 안동시 안기동"
+    address_name: "경북 안동시 안기동",
+    address_english:
+      "Education at Andong Diocese Office (9:00-18:30), accompanied by one permanent resident"
   },
   {
     solo: true,
@@ -13053,7 +14328,8 @@ var position = [
     full: "인천 확진자",
     address: "서울역->부평역 지하철로 이동",
     latlng: "37.490585, 126.723634",
-    address_name: "인천 부평구 부평1동"
+    address_name: "인천 부평구 부평1동",
+    address_english: "Seoul Station->Bupyeong Station Subway Station"
   },
   {
     solo: true,
@@ -13065,7 +14341,8 @@ var position = [
     full: "대구 확진자",
     address: "타이거 슈가 동성로점",
     latlng: "35.867361, 128.594242",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Tiger Sugar Dongseongno Branch"
   },
   {
     solo: true,
@@ -13077,7 +14354,8 @@ var position = [
     full: "울산 확진자",
     address: "울산 닥터리 연합내과",
     latlng: "35.558345, 129.308678",
-    address_name: "울산 중구 우정동"
+    address_name: "울산 중구 우정동",
+    address_english: "Ulsan Doctor Lee Union Internal Medicine"
   },
   {
     solo: true,
@@ -13089,7 +14367,8 @@ var position = [
     full: "합천 확진자",
     address: "황강약국 방문",
     latlng: "35.568437, 128.16249",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "a visit to the Yellow River Pharmacy"
   },
   {
     profile: "-",
@@ -13101,7 +14380,9 @@ var position = [
     address: "청주시 상당구 금천동 문구점 방문",
     latlng: "36.628274, 127.507736",
     solo: true,
-    address_name: "충북 청주시 상당구 금천동"
+    address_name: "충북 청주시 상당구 금천동",
+    address_english:
+      "Visit the stationery store in Geumcheon-dong, Daehang-gu, Cheongju"
   },
   {
     solo: true,
@@ -13113,7 +14394,8 @@ var position = [
     full: "문경 확진자",
     address: "새재 스타벅스 (13시 경)",
     latlng: "36.7593291, 128.0776001",
-    address_name: "경북 문경시 문경읍"
+    address_name: "경북 문경시 문경읍",
+    address_english: "Saejae Starbucks (about 13 o'clock)"
   },
   {
     solo: true,
@@ -13125,7 +14407,8 @@ var position = [
     full: "합천 확진자",
     address: "세운건축인테리어 방문",
     latlng: "35.56439, 128.162934",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Sewoon Architecture Interrier"
   },
   {
     solo: true,
@@ -13137,7 +14420,8 @@ var position = [
     full: "문경 확진자",
     address: "뉴욕제과 방문 (16:50 경)",
     latlng: "36.6539688, 128.2574899",
-    address_name: "경북 문경시 산북면"
+    address_name: "경북 문경시 산북면",
+    address_english: "Visit New York Confectionery (16:50)"
   },
   {
     solo: true,
@@ -13149,7 +14433,8 @@ var position = [
     full: "대구 확진자",
     address: "칠곡면허시험장(15:00~) - 지하철 1,3호선 이용",
     latlng: "35.924896, 128.55203",
-    address_name: "대구 북구 구암동"
+    address_name: "대구 북구 구암동",
+    address_english: "Chilgok License Test Site (15:00~) - Using Subway Line 13"
   },
   {
     profile: "-",
@@ -13161,7 +14446,8 @@ var position = [
     address: "직장(포항우체국) 근무",
     latlng: "36.011127, 129.349145",
     solo: true,
-    address_name: "경북 포항시 남구 상대동"
+    address_name: "경북 포항시 남구 상대동",
+    address_english: "a job (Pohang Post Office)"
   },
   {
     profile: "-",
@@ -13173,7 +14459,8 @@ var position = [
     address: "홍성철성형외과(오거리) 4층 방문",
     latlng: "36.033023, 129.366457",
     solo: true,
-    address_name: "경북 포항시 북구 죽도동"
+    address_name: "경북 포항시 북구 죽도동",
+    address_english: "Hongseong Steel Plastic Surgery Visit 4F"
   },
   {
     solo: true,
@@ -13185,7 +14472,8 @@ var position = [
     full: "평택 확진자",
     address: "한라약국 방문(18:40)",
     latlng: "37.001396, 127.07967",
-    address_name: "경기 평택시 세교동"
+    address_name: "경기 평택시 세교동",
+    address_english: "Visit Halla Pharmacy (18:40)"
   },
   {
     solo: true,
@@ -13197,7 +14485,8 @@ var position = [
     full: "속초 확진자",
     address: "고성 진부령 미술관 방문(13:30)",
     latlng: "38.265251, 128.358809",
-    address_name: "강원 인제군 북면"
+    address_name: "강원 인제군 북면",
+    address_english: "Visit Goseong Jinnyeong Art Museum (13:30)"
   },
   {
     solo: true,
@@ -13209,7 +14498,8 @@ var position = [
     full: "울산 확진자",
     address: "KTX 5호차 8B석으로 울산역 도착",
     latlng: "35.552563, 129.138604",
-    address_name: "울산 울주군 삼남면"
+    address_name: "울산 울주군 삼남면",
+    address_english: "KTX 5 arrives at Ulsan Station with 8B seats"
   },
   {
     solo: true,
@@ -13221,7 +14511,8 @@ var position = [
     full: "울산 확진자",
     address: "이가네 콩나물국밥(구영점)",
     latlng: "35.569954, 129.243638",
-    address_name: "울산 울주군 범서읍"
+    address_name: "울산 울주군 범서읍",
+    address_english: "Igane Bean Sprout Soup (Goo Young Store)"
   },
   {
     solo: true,
@@ -13233,7 +14524,8 @@ var position = [
     full: "속초 확진자",
     address: "102 기갑여단 소형버스로 이동(16:30)",
     latlng: "38.238861, 128.511654",
-    address_name: "강원 고성군 토성면"
+    address_name: "강원 고성군 토성면",
+    address_english: "102 Move to Cavalry Brigade Small Bus (16:30)"
   },
   {
     solo: true,
@@ -13245,7 +14537,9 @@ var position = [
     full: "안동 확진자",
     address: "가톨릭 상지대 구내서점 근무",
     latlng: "36.569455, 128.736081",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english:
+      "Working in the Catholic Sangji University District Bookstore"
   },
   {
     solo: true,
@@ -13257,7 +14551,8 @@ var position = [
     full: "송파구 확진자",
     address: " 문정동 굿모닝이비인후과 방문",
     latlng: "37.48146, 127.12293",
-    address_name: "서울 송파구 문정2동"
+    address_name: "서울 송파구 문정2동",
+    address_english: "Moon Jung-dong Good Morning Non-Prology Visit"
   },
   {
     solo: true,
@@ -13269,7 +14564,8 @@ var position = [
     full: "포항 확진자",
     address: "설악산 막국수 방문",
     latlng: "36.060533, 129.377153",
-    address_name: "경북 포항시 북구 두호동"
+    address_name: "경북 포항시 북구 두호동",
+    address_english: "Visit Mt. Seorak to Makguksu"
   },
   {
     solo: true,
@@ -13281,7 +14577,8 @@ var position = [
     full: "울산 확진자",
     address: "GS25 리버스위트점(10:16~10:20)",
     latlng: "35.554963, 129.308599",
-    address_name: "울산 중구 태화동"
+    address_name: "울산 중구 태화동",
+    address_english: "GS25 Reversewit Point (10:16-10:20)"
   },
   {
     solo: true,
@@ -13293,7 +14590,9 @@ var position = [
     full: "안동 확진자",
     address: "가톨릭 상지대 구내서점 근무",
     latlng: "36.569455, 128.736081",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english:
+      "Working in the Catholic Sangji University District Bookstore"
   },
   {
     solo: true,
@@ -13305,7 +14604,9 @@ var position = [
     full: "평택 확진자",
     address: "평택 성모병원 진료소 방문(증상 미미로 검사 미실시)",
     latlng: "37.008554, 127.074076",
-    address_name: "경기 평택시 세교동"
+    address_name: "경기 평택시 세교동",
+    address_english:
+      "Visit the clinic at Sungmo Hospital in Pyeongtaek (no examination of symptoms Mimi)"
   },
   {
     solo: true,
@@ -13317,7 +14618,8 @@ var position = [
     full: "부산 확진자",
     address: "동백역",
     latlng: "35.161656, 129.147337",
-    address_name: "부산 해운대구 우1동"
+    address_name: "부산 해운대구 우1동",
+    address_english: "Dongbaek Station"
   },
   {
     solo: true,
@@ -13329,7 +14631,8 @@ var position = [
     full: "포항 확진자",
     address: "장성동 진할인마트 방문",
     latlng: "36.079349, 129.392489",
-    address_name: "경북 포항시 북구 장량동"
+    address_name: "경북 포항시 북구 장량동",
+    address_english: "Visit Jangseong-dong Jin Discount Store"
   },
   {
     profile: "-",
@@ -13342,7 +14645,9 @@ var position = [
     solo: true,
     name: "45번째 확진자",
     full: "45번째 확진자",
-    address_name: "대구 서구 상중이동"
+    address_name: "대구 서구 상중이동",
+    address_english:
+      "Daegu Medical Center  <Span style='color:red;'Separate </span>"
   },
   {
     solo: true,
@@ -13354,7 +14659,8 @@ var position = [
     full: "춘천 확진자",
     address: "춘천 고속버스 터미널 방문(14:00)",
     latlng: "37.864705, 127.717515",
-    address_name: "강원 춘천시 강남동"
+    address_name: "강원 춘천시 강남동",
+    address_english: "Visit Chuncheon Express Bus Terminal (14:00)"
   },
   {
     solo: true,
@@ -13366,7 +14672,8 @@ var position = [
     full: "창원 확진자",
     address: "굿모닝약국 (2/20,22)",
     latlng: "35.21307609293421, 128.70098176809938",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "Good Morning Pharmacy (2/20,22)"
   },
   {
     solo: true,
@@ -13378,7 +14685,8 @@ var position = [
     full: "합천 확진자",
     address: "웰크레페 동성로점",
     latlng: "35.866771532163696, 128.59681934329222",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "Welkrepe Dongseongno Branch"
   },
   {
     solo: true,
@@ -13390,7 +14698,8 @@ var position = [
     full: "합천 확진자",
     address: "세븐일레븐 대구계명문화대점",
     latlng: "35.859097425972, 128.49254091575213",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english: "7-Eleven Daegu Keimyung Cultural Center"
   },
   {
     solo: true,
@@ -13402,7 +14711,8 @@ var position = [
     full: "청송 확진자",
     address: "고마담치킨 진보점 방문",
     latlng: "36.52883397872731, 129.04532058930724",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visit the Goma-dam-Chicken Progressive Point"
   },
   {
     solo: true,
@@ -13414,7 +14724,8 @@ var position = [
     full: "합천 확진자",
     address: "계명문화대학교 기숙사",
     latlng: "35.86026006021729, 128.49093317437047",
-    address_name: "대구 달서구 신당동"
+    address_name: "대구 달서구 신당동",
+    address_english: "Keimyung Culture University dormitory"
   },
   {
     solo: true,
@@ -13426,7 +14737,8 @@ var position = [
     full: "천안 확진자",
     address: "천안본정형외과 방문",
     latlng: "36.7997839759622, 127.12569957709401",
-    address_name: "충남 천안시 서북구 쌍용2동"
+    address_name: "충남 천안시 서북구 쌍용2동",
+    address_english: "Visit Cheonan Main Orthopedic Surgery"
   },
   {
     solo: true,
@@ -13438,7 +14750,9 @@ var position = [
     full: "양산 확진자",
     address: "코로나19 양산시보건소 선별진료소",
     latlng: "35.3357394475375, 129.0249747652252",
-    address_name: "경남 양산시 양주동"
+    address_name: "경남 양산시 양주동",
+    address_english:
+      "Corona19 Screening Care Center at Yangsan City Health Center"
   },
   {
     solo: true,
@@ -13450,7 +14764,8 @@ var position = [
     full: "청송 확진자",
     address: "중화요리 용궁식당 방문",
     latlng: "36.52864609069379, 129.04387773693622",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visit Yonggung Restaurant for Chinese cuisine"
   },
   {
     solo: true,
@@ -13462,7 +14777,8 @@ var position = [
     full: "청송 확진자",
     address: "다이소 청송진보점 방문",
     latlng: "36.52809323398159, 129.04333179018923",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visits to the Chengsong Progressive Branch of Daiso"
   },
   {
     solo: true,
@@ -13474,7 +14790,8 @@ var position = [
     full: "이천 확진자",
     address: "청미천 근무",
     latlng: "37.088738121826985, 127.59098921804299",
-    address_name: "경기 이천시 장호원읍"
+    address_name: "경기 이천시 장호원읍",
+    address_english: "Cheongmi Stream Service"
   },
   {
     solo: true,
@@ -13486,7 +14803,8 @@ var position = [
     full: "남양주시 확진자",
     address: "명지병원 격리",
     latlng: "37.64206996516571, 126.83145714476498",
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Myeongji Hospital Isolation"
   },
   {
     solo: true,
@@ -13498,7 +14816,8 @@ var position = [
     full: "청송 확진자",
     address: "제일내과의원 방문",
     latlng: "36.52916792644591, 129.0426589747802",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "Visit First Clinic"
   },
   {
     solo: true,
@@ -13510,7 +14829,8 @@ var position = [
     full: "영주 확진자",
     address: "강남삼성내과의원 방문",
     latlng: "35.85256943451971, 128.59111949966223",
-    address_name: "대구 남구 대명2동"
+    address_name: "대구 남구 대명2동",
+    address_english: "Visit Samsung Medical Center in Gangnam"
   },
   {
     solo: true,
@@ -13522,7 +14842,8 @@ var position = [
     full: "청송 확진자",
     address: "청송군보건의료원 방문",
     latlng: "36.431033413211146, 129.0526518546275",
-    address_name: "경북 청송군 청송읍"
+    address_name: "경북 청송군 청송읍",
+    address_english: "Visiting Cheongsong County Health and Medical Center"
   },
   {
     solo: true,
@@ -13534,7 +14855,8 @@ var position = [
     full: "청송 확진자",
     address: "진보동산약국 방문",
     latlng: "36.528970815602804, 129.0432253812882",
-    address_name: "경북 청송군 진보면"
+    address_name: "경북 청송군 진보면",
+    address_english: "a visit to a progressive pharmacy"
   },
   {
     solo: true,
@@ -13546,7 +14868,8 @@ var position = [
     full: "안양 확진자",
     address: "지리산석유주유소 방문",
     latlng: "37.31803891802031, 127.102076293537",
-    address_name: "경기 용인시 기흥구 보정동"
+    address_name: "경기 용인시 기흥구 보정동",
+    address_english: "Visiting Jiri Mountain Oil Refinery"
   },
   {
     solo: true,
@@ -13558,7 +14881,8 @@ var position = [
     full: "부산 확진자",
     address: "탑마트 반여점 방문",
     latlng: "35.204132615389, 129.11984232336766",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Top Mart Banyeo Store"
   },
   {
     solo: true,
@@ -13570,7 +14894,8 @@ var position = [
     full: "부산 확진자",
     address: "반여1동주민센터 방문",
     latlng: "35.2011025051349, 129.11894234324268",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit the Banyeo 1dong Community Center"
   },
   {
     solo: true,
@@ -13582,7 +14907,8 @@ var position = [
     full: "부산 확진자",
     address: "박찬복내과의원 방문",
     latlng: "35.15766294022044, 129.11278922450208",
-    address_name: "부산 수영구 광안4동"
+    address_name: "부산 수영구 광안4동",
+    address_english: "Visiting Park Chan-bok Internal Medicine Center"
   },
   {
     solo: true,
@@ -13594,7 +14920,8 @@ var position = [
     full: "합천 확진자",
     address: "스파오 동성로2호점",
     latlng: "35.866921270984705, 128.59450186449286",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Spao Dongseongno No. 2"
   },
   {
     solo: true,
@@ -13606,7 +14933,8 @@ var position = [
     full: "창원 확진자",
     address: "인화약국",
     latlng: "35.21370152731169, 128.70085425705238",
-    address_name: "경남 창원시 성산구 가음정동"
+    address_name: "경남 창원시 성산구 가음정동",
+    address_english: "a flammable drugstore"
   },
   {
     solo: true,
@@ -13618,7 +14946,8 @@ var position = [
     full: "영주 확진자",
     address: "영선제일약국 방문",
     latlng: "35.852574269313905, 128.59102661651224",
-    address_name: "대구 남구 대명2동"
+    address_name: "대구 남구 대명2동",
+    address_english: "Visit Youngsun First Pharmacy"
   },
   {
     solo: true,
@@ -13630,7 +14959,8 @@ var position = [
     full: "인천 확진자",
     address: "DH메디컬약국(2/3,8)",
     latlng: "37.468574522421704, 126.665684784172",
-    address_name: "인천 미추홀구 도화2.3동"
+    address_name: "인천 미추홀구 도화2.3동",
+    address_english: "DH Medical Pharmacy (2/3,8)"
   },
   {
     solo: true,
@@ -13642,7 +14972,8 @@ var position = [
     full: "인천 확진자",
     address: "도화역 1호선(2/13,23)",
     latlng: "37.4661175111199, 126.66857593527298",
-    address_name: "인천 미추홀구 도화1동"
+    address_name: "인천 미추홀구 도화1동",
+    address_english: "Tohwa Station Line 1 (2/13,23)"
   },
   {
     solo: true,
@@ -13654,7 +14985,8 @@ var position = [
     full: "인천 확진자",
     address: "인천사랑병원(2/13,23)",
     latlng: "37.46224757386885, 126.68064338641294",
-    address_name: "인천 미추홀구 주안1동"
+    address_name: "인천 미추홀구 주안1동",
+    address_english: "Incheon Sarang Hospital (2/13,23)"
   },
   {
     solo: true,
@@ -13666,20 +14998,9 @@ var position = [
     full: "인천 확진자",
     address: "길병원",
     latlng: "37.4520785236877, 126.709161261907",
-    address_name: "인천 남동구 구월1동"
+    address_name: "인천 남동구 구월1동",
+    address_english: "Gil Hospital"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#부천 확진자",
-  //   month: 2,
-  //   day: 23,
-  //   name: "부천",
-  //   full: "부천 확진자",
-  //   address: "신일해피트리아파트 거주",
-  //   latlng: "37.479595389642746, 126.81019687028662",
-  //   address_name: "경기 부천시 범안동"
-  // },
   {
     solo: true,
     profile: "-",
@@ -13690,7 +15011,8 @@ var position = [
     full: "안양 확진자",
     address: "의왕카페인더뷰",
     latlng: "37.3105116495352, 126.94364704461599",
-    address_name: "경기 의왕시 부곡동"
+    address_name: "경기 의왕시 부곡동",
+    address_english: "Uiwang Cafe The View"
   },
   {
     solo: true,
@@ -13702,7 +15024,9 @@ var position = [
     full: "영주 확진자",
     address: "천주교 안동교구청 방문(영주 동승자 1명)",
     latlng: "36.5793697375327, 128.7244102130934",
-    address_name: "경북 안동시 안기동"
+    address_name: "경북 안동시 안기동",
+    address_english:
+      "Visits to the Catholic Diocese of Andong (one person from Yeongju)"
   },
   {
     solo: true,
@@ -13714,7 +15038,8 @@ var position = [
     full: "부산 확진자",
     address: "GS25 달서브리티쉬점 방문",
     latlng: "35.849473066450706, 128.5343153696412",
-    address_name: "대구 달서구 감삼동"
+    address_name: "대구 달서구 감삼동",
+    address_english: "GS25 Visit to Dalsebrity Store"
   },
   {
     solo: true,
@@ -13726,7 +15051,8 @@ var position = [
     full: "인천 확진자",
     address: "송내과(2/3,8)",
     latlng: "37.468574522421704, 126.665684784172",
-    address_name: "인천 미추홀구 도화2.3동"
+    address_name: "인천 미추홀구 도화2.3동",
+    address_english: "Transmission department (2/3,8)"
   },
   {
     solo: true,
@@ -13738,7 +15064,9 @@ var position = [
     full: "대구 확진자",
     address: "대구 농수산물도매시장(매천시장)",
     latlng: "35.90248556865782, 128.5433439318371",
-    address_name: "대구 북구 관문동"
+    address_name: "대구 북구 관문동",
+    address_english:
+      "Daegu Agricultural and Fishery Marketing (Maecheon Market)"
   },
   {
     solo: true,
@@ -13750,7 +15078,8 @@ var position = [
     full: "부천 확진자",
     address: "365 플러스 의원",
     latlng: "37.4849071119903, 126.81434428836802",
-    address_name: "경기 부천시 범안동"
+    address_name: "경기 부천시 범안동",
+    address_english: "365 Plus Rep."
   },
   {
     solo: true,
@@ -13762,7 +15091,8 @@ var position = [
     full: "부산 확진자",
     address: "장산초등학교 방문",
     latlng: "35.20012157853447, 129.11989614469095",
-    address_name: "부산 해운대구 반여1동"
+    address_name: "부산 해운대구 반여1동",
+    address_english: "Visit Jangsan Elementary School"
   },
   {
     solo: true,
@@ -13774,7 +15104,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 수영구보건소 선별진료소",
     latlng: "35.1626441095325, 129.11343165102565",
-    address_name: "부산 수영구 광안1동"
+    address_name: "부산 수영구 광안1동",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -13786,7 +15118,8 @@ var position = [
     full: "송파구 확진자",
     address: "하나약국 방문",
     latlng: "37.481178, 127.123358",
-    address_name: "서울 송파구 문정2동"
+    address_name: "서울 송파구 문정2동",
+    address_english: "Visit Hana Pharmacy"
   },
   {
     solo: true,
@@ -13798,7 +15131,9 @@ var position = [
     full: "인천 확진자",
     address: "부평시장 내 상점 옥설선식 방문(2/18,19,20,21)",
     latlng: "37.495991, 126.72623",
-    address_name: "인천 부평구 부평4동"
+    address_name: "인천 부평구 부평4동",
+    address_english:
+      "Visit the store's rooftop ceremony in Bupyeong Market (2/18,19,21)"
   },
   {
     profile: "-",
@@ -13810,7 +15145,8 @@ var position = [
     address: "삼척시 PC방 방문",
     latlng: "37.442978, 129.163504",
     solo: true,
-    address_name: "강원 삼척시 남양동"
+    address_name: "강원 삼척시 남양동",
+    address_english: "Visit PC Room in Samcheok"
   },
   {
     solo: true,
@@ -13822,7 +15158,8 @@ var position = [
     full: "안동 확진자",
     address: "안동소방서 방문",
     latlng: "36.560988, 128.73722",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "a visit from Andong Fire Station"
   },
   {
     solo: true,
@@ -13834,7 +15171,8 @@ var position = [
     full: "대구 확진자",
     address: "다원 카페 헤어 (23:40~01:00))",
     latlng: "35.841453, 128.572402",
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Dawon Cafe Hair (23:40~01:00)"
   },
   {
     solo: true,
@@ -13846,7 +15184,9 @@ var position = [
     full: "양산 확진자",
     address: "양산시보건소 선별진료소 방문(10:40)>자택격리 조치",
     latlng: "35.336177, 129.025089",
-    address_name: "경남 양산시 양주동"
+    address_name: "경남 양산시 양주동",
+    address_english:
+      "Visit selected medical centers (10:40) at Yangsan City Health Center >Home isolation measures"
   },
   {
     profile: "-",
@@ -13858,7 +15198,8 @@ var position = [
     address: "대구 동성로 식당'스시라스또' 방문",
     latlng: "35.868512, 128.59823",
     solo: true,
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Visiting Dongseongno Restaurant in Daegu"
   },
   {
     profile: "-",
@@ -13870,7 +15211,8 @@ var position = [
     address: "명지병원으로 이송",
     latlng: "37.6421, 126.831178",
     solo: true,
-    address_name: "경기 고양시 덕양구 화정1동"
+    address_name: "경기 고양시 덕양구 화정1동",
+    address_english: "Transfer to Myongji Hospital"
   },
   {
     solo: true,
@@ -13882,7 +15224,8 @@ var position = [
     full: "합천 확진자",
     address: "합천군 보건소 선별진료소 방문",
     latlng: "35.568028, 128.156549",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Hapcheon County Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -13894,7 +15237,8 @@ var position = [
     full: "합천 확진자",
     address: "합천큰약국 방문",
     latlng: "35.567958, 128.163654",
-    address_name: "경남 합천군 합천읍"
+    address_name: "경남 합천군 합천읍",
+    address_english: "Visit Hapcheon Big Pharmacy"
   },
   {
     solo: true,
@@ -13906,7 +15250,8 @@ var position = [
     full: "대구 확진자",
     address: "동성로 장도 뚝배기",
     latlng: "35.870104, 128.594665",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Dongseongno Jangdo Ttukbaegi"
   },
   {
     solo: true,
@@ -13918,7 +15263,9 @@ var position = [
     full: "부산 확진자",
     address: "온천장역 출발(7:45)>부산역 도착(7:50)",
     latlng: "35.22072, 129.086595",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english:
+      "Departure from Hot Spring Station (7:45))Arrival at Busan Station (7:50)"
   },
   {
     profile: "-",
@@ -13930,7 +15277,8 @@ var position = [
     address: "증평군 증평읍 송원칼국수",
     latlng: "36.778018, 127.568671",
     solo: true,
-    address_name: "충북 증평군 증평읍"
+    address_name: "충북 증평군 증평읍",
+    address_english: "Songwon Kalguksu in Jeungpyeong-eup, Jeungpyeong-gun"
   },
   {
     solo: true,
@@ -13942,7 +15290,8 @@ var position = [
     full: "경산 확진자",
     address: "대학사진관 방문",
     latlng: "35.837139, 128.754148",
-    address_name: "경북 경산시 북부동"
+    address_name: "경북 경산시 북부동",
+    address_english: "Visit the University Photo Gallery"
   },
   {
     solo: true,
@@ -13954,7 +15303,8 @@ var position = [
     full: "부산 확진자",
     address: "메리놀병원 방문",
     latlng: "35.107201, 129.032514",
-    address_name: "부산 중구 대청동"
+    address_name: "부산 중구 대청동",
+    address_english: "a visit to Merinol Hospital"
   },
   {
     solo: true,
@@ -13966,7 +15316,8 @@ var position = [
     full: "대구 확진자",
     address: "고수의 운전 면허 (09:00~11:00)",
     latlng: "35.868216, 128.594148",
-    address_name: "대구 중구 성내1동"
+    address_name: "대구 중구 성내1동",
+    address_english: "Master's driving license (09:00-11:00)"
   },
   {
     profile: "-",
@@ -13978,7 +15329,8 @@ var position = [
     address: "신천지예수교회다대오지성전에서 예배",
     latlng: "35.839821, 128.566553",
     solo: true,
-    address_name: "대구 남구 대명10동"
+    address_name: "대구 남구 대명10동",
+    address_english: "Shinchunji Jesus Church worship at the Daedae Odo Temple"
   },
   {
     solo: true,
@@ -13990,7 +15342,8 @@ var position = [
     full: "울산 확진자",
     address: "울산 닥터리연합내과 방문",
     latlng: "35.557535, 129.308828",
-    address_name: "울산 중구 우정동"
+    address_name: "울산 중구 우정동",
+    address_english: "Visiting Doctor Lee Union Internal Medicine in Ulsan"
   },
   {
     solo: true,
@@ -14002,7 +15355,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 서구보건소 선별진료소",
     latlng: "35.10749653335411, 129.01809577112118",
-    address_name: "부산 서구 부민동"
+    address_name: "부산 서구 부민동",
+    address_english: "Corona19 West Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -14014,7 +15368,8 @@ var position = [
     full: "부산 확진자",
     address: "갓신 괴정점",
     latlng: "35.09866213079249, 128.99256148256515",
-    address_name: "부산 사하구 괴정1동"
+    address_name: "부산 사하구 괴정1동",
+    address_english: "God's necrotic point"
   },
   {
     month: 1,
@@ -14027,7 +15382,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울 강남구 수서동"
+    address_name: "서울 강남구 수서동",
+    address_english: "Arrival at Suseo Station"
   },
   {
     solo: true,
@@ -14039,7 +15395,9 @@ var position = [
     full: "안동 확진자",
     address: "홈플러스 안동점 지하1,1,3층 방문",
     latlng: "36.562539566351695, 128.72956256394738",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english:
+      "Visit the 1st, 1st and 3rd floors of the Andong branch of Homeplus"
   },
   {
     solo: true,
@@ -14051,7 +15409,8 @@ var position = [
     full: "안동 확진자",
     address: "휠라 안동(대리)점 방문",
     latlng: "36.56473215924851, 128.7307150168024",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Visit the Fila Andong (Assistant Manager) branch"
   },
   {
     solo: true,
@@ -14063,7 +15422,8 @@ var position = [
     full: "부산 확진자",
     address: "GS25 명륜중앙점 방문",
     latlng: "35.212563358669485, 129.07871849540632",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "GS25 Visit Myeongnyun Central Branch"
   },
   {
     solo: true,
@@ -14075,7 +15435,8 @@ var position = [
     full: "부산 확진자",
     address: "부산사하우체국 방문",
     latlng: "35.1009684893913, 128.97984493803307",
-    address_name: "부산 사하구 당리동"
+    address_name: "부산 사하구 당리동",
+    address_english: "Visit Busan Sahausche Bureau"
   },
   {
     solo: true,
@@ -14087,7 +15448,8 @@ var position = [
     full: "부산 확진자",
     address: "속튼튼원내과의원",
     latlng: "35.109655317088624, 129.01731006205262",
-    address_name: "부산 서구 서대신1동"
+    address_name: "부산 서구 서대신1동",
+    address_english: "Sternton Garden Clinic"
   },
   {
     solo: true,
@@ -14099,7 +15461,8 @@ var position = [
     full: "안동 확진자",
     address: "안동월드컵(락)볼링장 방문",
     latlng: "36.56462883300531, 128.70210054625633",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "Visit the Andong World Cup (Rock) Bowling Field"
   },
   {
     solo: true,
@@ -14111,7 +15474,8 @@ var position = [
     full: "안동 확진자",
     address: "대구서부정류장 방문",
     latlng: "35.83672742182441, 128.5578238398552",
-    address_name: "대구 남구 대명11동"
+    address_name: "대구 남구 대명11동",
+    address_english: "Visit Daegu Western Station"
   },
   {
     solo: true,
@@ -14123,7 +15487,8 @@ var position = [
     full: "안동 확진자",
     address: "갈비만 안동점 저녁식사",
     latlng: "36.560832507799006, 128.70066801257133",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "Galbi Man's Andong Restaurant Dinner"
   },
   {
     month: 1,
@@ -14136,7 +15501,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 교문1동"
+    address_name: "경기 구리시 교문1동",
+    address_english:
+      "Hanyang University Emergency Room Visits, Medical Examinations"
   },
   {
     month: 1,
@@ -14149,7 +15516,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "경기 구리시 수택3동"
+    address_name: "경기 구리시 수택3동",
+    address_english: "Guri's Restaurant Meal"
   },
   {
     solo: true,
@@ -14161,7 +15529,8 @@ var position = [
     full: "안동 확진자",
     address: "갓파스시 대구점 방문",
     latlng: "35.8680026451754, 128.59640120144624",
-    address_name: "대구 중구 삼덕동"
+    address_name: "대구 중구 삼덕동",
+    address_english: "A visit to the Daegu branch of Gatpas City"
   },
   {
     solo: true,
@@ -14173,7 +15542,8 @@ var position = [
     full: "안동 확진자",
     address: "안동터미널 > 동대구터미널 이동",
     latlng: "36.5743962589624, 128.6758885916983",
-    address_name: "경북 안동시 송하동"
+    address_name: "경북 안동시 송하동",
+    address_english: "Andong Terminal > Move Dongdaegu Terminal"
   },
   {
     solo: true,
@@ -14185,7 +15555,8 @@ var position = [
     full: "안동 확진자",
     address: "쏭동전노래연습장 방문",
     latlng: "36.5636549712546, 128.70190046265733",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "Visit to Songdongjeon Singing Practice Center"
   },
   {
     solo: true,
@@ -14197,7 +15568,8 @@ var position = [
     full: "안동 확진자",
     address: "CU 옥동삼성점 방문",
     latlng: "36.56374078790301, 128.70522640068037",
-    address_name: "경북 안동시 옥동"
+    address_name: "경북 안동시 옥동",
+    address_english: "CU Visit Okdong Samsung Store"
   },
   {
     solo: true,
@@ -14209,7 +15581,8 @@ var position = [
     full: "안동 확진자",
     address: "영희식당 점심식사",
     latlng: "36.567366771050494, 128.72910054202598",
-    address_name: "경북 안동시 중구동"
+    address_name: "경북 안동시 중구동",
+    address_english: "Younghee Restaurant Lunch"
   },
   {
     solo: true,
@@ -14221,7 +15594,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 서구보건소 선별진료소 방문",
     latlng: "35.10749653335411, 129.01809577112118",
-    address_name: "부산 서구 부민동"
+    address_name: "부산 서구 부민동",
+    address_english:
+      "Corona19 Visits the Western Health Center Screening Care Center"
   },
   {
     month: 1,
@@ -14234,7 +15609,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 북구 침산3동"
+    address_name: "대구 북구 침산3동",
+    address_english: "a visit to the North."
   },
   {
     solo: true,
@@ -14246,7 +15622,8 @@ var position = [
     full: "부산 확진자",
     address: "속튼튼원내과의원",
     latlng: "35.109655317088624, 129.01731006205262",
-    address_name: "부산 서구 서대신1동"
+    address_name: "부산 서구 서대신1동",
+    address_english: "Sternton Garden Clinic"
   },
   {
     month: 1,
@@ -14259,7 +15636,8 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "대구 수성구 범어1동"
+    address_name: "대구 수성구 범어1동",
+    address_english: "Moving to Mercury District's Main House"
   },
   {
     solo: true,
@@ -14271,7 +15649,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 사하구보건소 선별진료소 방문",
     latlng: "35.0941572529117, 128.959553446035",
-    address_name: "부산 사하구 신평2동"
+    address_name: "부산 사하구 신평2동",
+    address_english:
+      "Corona19 Visits Saha District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -14283,7 +15663,8 @@ var position = [
     full: "부산 확진자",
     address: "텐퍼센트커피 동래롯데점 방문",
     latlng: "35.21492929019946, 129.07696262965726",
-    address_name: "부산 동래구 온천1동"
+    address_name: "부산 동래구 온천1동",
+    address_english: "Ten percent Coffee Visit Dongrae Lotte Store"
   },
   {
     solo: true,
@@ -14295,7 +15676,8 @@ var position = [
     full: "부산 확진자",
     address: "서부산특약점 방문",
     latlng: "35.10177163833931, 128.97701767203506",
-    address_name: "부산 사하구 당리동"
+    address_name: "부산 사하구 당리동",
+    address_english: "Visit West Mountain Specialist"
   },
   {
     solo: true,
@@ -14307,7 +15689,8 @@ var position = [
     full: "부산 확진자",
     address: "스타벅스 사직구장 방문",
     latlng: "35.1961625651678, 129.06163556088143",
-    address_name: "부산 동래구 사직1동"
+    address_name: "부산 동래구 사직1동",
+    address_english: "Visit Sajik Stadium at Starbucks"
   },
   {
     status: "완치",
@@ -14323,7 +15706,8 @@ var position = [
     solo: true,
     name: "15번째 확진자",
     full: "15번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     solo: true,
@@ -14335,7 +15719,8 @@ var position = [
     full: "강동구 확진자",
     address: "청도대남병원",
     latlng: "35.6486278246685, 128.73680667936102",
-    address_name: "경북 청도군 화양읍"
+    address_name: "경북 청도군 화양읍",
+    address_english: "Cheongdo South Korea Hospital"
   },
   {
     solo: true,
@@ -14347,7 +15732,8 @@ var position = [
     full: "부산 확진자",
     address: "진주상회 방문 회포장",
     latlng: "35.155537755794015, 129.1238297304947",
-    address_name: "부산 수영구 민락동"
+    address_name: "부산 수영구 민락동",
+    address_english: "a package visiting the Jinju Chamber"
   },
   {
     status: "완치",
@@ -14363,7 +15749,8 @@ var position = [
     solo: true,
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "인천 중구 운서동"
+    address_name: "인천 중구 운서동",
+    address_english: "Arrival at Incheon Airport"
   },
   {
     solo: true,
@@ -14375,7 +15762,8 @@ var position = [
     full: "부산 확진자",
     address: "사직고기명가 방문",
     latlng: "35.19553189224099, 129.05882130104337",
-    address_name: "부산 동래구 사직2동"
+    address_name: "부산 동래구 사직2동",
+    address_english: "a visit to a place of resignation"
   },
   {
     month: 1,
@@ -14388,9 +15776,9 @@ var position = [
     profile: "-",
     name: "17번째 확진자",
     full: "17번째 확진자",
-    address_name: "서울 중구 회현동"
+    address_name: "서울 중구 회현동",
+    address_english: "a meal at a Seoul Station restaurant"
   },
-  ////
   {
     solo: true,
     profile: "-",
@@ -14401,7 +15789,8 @@ var position = [
     full: "부산 확진자",
     address: "대한민국 정형외과병원",
     address_name: "부산 동래구 온천동 1248-5",
-    latlng: "35.20535408537831, 129.06762115771457"
+    latlng: "35.20535408537831, 129.06762115771457",
+    address_english: "Korean Orthopedic Hospital"
   },
   {
     solo: true,
@@ -14413,7 +15802,8 @@ var position = [
     full: "부산 확진자",
     address: "미래영상의학과의원",
     address_name: "부산 동래구 수안동 182",
-    latlng: "35.201098422912516, 129.0853472423785"
+    latlng: "35.201098422912516, 129.0853472423785",
+    address_english: "Future Imaging Medical Center"
   },
   {
     solo: true,
@@ -14425,7 +15815,8 @@ var position = [
     full: "부산 확진자",
     address: "대한민국 정형외과병원",
     address_name: "부산 동래구 온천동 1248-5",
-    latlng: "35.20535408537831, 129.06762115771457"
+    latlng: "35.20535408537831, 129.06762115771457",
+    address_english: "Korean Orthopedic Hospital"
   },
   {
     solo: true,
@@ -14437,7 +15828,8 @@ var position = [
     full: "부산 확진자",
     address: "미남정약국",
     address_name: "부산 동래구 온천동 1248-5",
-    latlng: "35.2053292389366, 129.06759856882843"
+    latlng: "35.2053292389366, 129.06759856882843",
+    address_english: "Office of the Beautiful Men"
   },
   {
     solo: true,
@@ -14449,7 +15841,8 @@ var position = [
     full: "부산 확진자",
     address: "고촌보쌈돼지국밥",
     address_name: "부산 동래구 명륜동 533-98",
-    latlng: "35.205839620795714, 129.07899501944547"
+    latlng: "35.205839620795714, 129.07899501944547",
+    address_english: "Gochon bossam pork rice soup"
   },
   {
     solo: true,
@@ -14461,7 +15854,8 @@ var position = [
     full: "부산 확진자",
     address: "문라운지",
     address_name: "부산 부산진구 부전동 220-16",
-    latlng: "35.15359325384319, 129.06133754198038"
+    latlng: "35.15359325384319, 129.06133754198038",
+    address_english: "Moon Lounge"
   },
   {
     solo: true,
@@ -14473,7 +15867,8 @@ var position = [
     full: "부산 확진자",
     address: "갓파스시 서면점",
     address_name: "부산 부산진구 부전동 168-451",
-    latlng: "35.1555408142618, 129.0614876357744"
+    latlng: "35.1555408142618, 129.0614876357744",
+    address_english: "Gatpasi Seomyeon Branch"
   },
   {
     solo: true,
@@ -14485,7 +15880,8 @@ var position = [
     full: "부산 확진자",
     address: "경성코페 서면점",
     address_name: "부산 부산진구 부전동 225-9",
-    latlng: "35.15335143395901, 129.06093204398638"
+    latlng: "35.15335143395901, 129.06093204398638",
+    address_english: "Gyeongseong Corp.'s written point"
   },
   {
     solo: true,
@@ -14497,7 +15893,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -14509,7 +15907,8 @@ var position = [
     full: "부산 확진자",
     address: "박약국",
     address_name: "부산 동래구 명륜동 681-33",
-    latlng: "35.21110006575282, 129.07975723606447"
+    latlng: "35.21110006575282, 129.07975723606447",
+    address_english: "Park Yak-guk"
   },
   {
     solo: true,
@@ -14521,7 +15920,8 @@ var position = [
     full: "부산 확진자",
     address: "우기현내과",
     address_name: "부산 동래구 온천동 473-21",
-    latlng: "35.21243973830978, 129.07836067786445"
+    latlng: "35.21243973830978, 129.07836067786445",
+    address_english: "Stenosis internal medicine"
   },
   {
     solo: true,
@@ -14533,7 +15933,8 @@ var position = [
     full: "부산 확진자",
     address: "참나무숯불구이",
     address_name: "부산 금정구 장전동 342-13",
-    latlng: "35.2270138035983, 129.08565455139652"
+    latlng: "35.2270138035983, 129.08565455139652",
+    address_english: "charcoal-grilled"
   },
   {
     solo: true,
@@ -14545,7 +15946,8 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원",
     address_name: "부산 연제구 거제동 1330",
-    latlng: "35.18729655432529, 129.05922489147238"
+    latlng: "35.18729655432529, 129.05922489147238",
+    address_english: "Busan Medical Center"
   },
   {
     solo: true,
@@ -14557,7 +15959,8 @@ var position = [
     full: "남양주 확진자",
     address: "국군수도병원",
     address_name: "경기 성남시 분당구 율동 산 22",
-    latlng: "37.39170679339027, 127.15176219552485"
+    latlng: "37.39170679339027, 127.15176219552485",
+    address_english: "Armed Forces Capital Hospital"
   },
   {
     solo: true,
@@ -14570,7 +15973,9 @@ var position = [
     address:
       "세광엔리치빌2차아파트 자택에서 식사(남편/51세,딸 2명) (2/23 9:30-10:00)",
     address_name: "충남 천안시 서북구 두정동 603",
-    latlng: "36.829657993196655, 127.12867635804069"
+    latlng: "36.829657993196655, 127.12867635804069",
+    address_english:
+      "Meals at the home of Segwang Enrichville 2 Cha Apartment (husband/51 years old, two daughters) (2/23 9:30-10:00)"
   },
   {
     solo: true,
@@ -14582,7 +15987,8 @@ var position = [
     full: "천안 확진자B",
     address: "VIP 대중사우나 (16:11-17:00)",
     address_name: "충남 천안시 서북구 백석동 54-4",
-    latlng: "36.832236743288455, 127.12720545482794"
+    latlng: "36.832236743288455, 127.12720545482794",
+    address_english: "VIP public sauna (16:11-17:00)"
   },
   {
     solo: true,
@@ -14594,7 +16000,9 @@ var position = [
     full: "천안 확진자B",
     address: "두정역에서 자녀태우고 귀가 (17:00-17:30)",
     address_name: "충남 천안시 서북구 두정동 83-29",
-    latlng: "36.83359903189132, 127.149080841068"
+    latlng: "36.83359903189132, 127.149080841068",
+    address_english:
+      "At Dujeong Station, pick up your children and go home (17:00-17:30)"
   },
   {
     solo: true,
@@ -14607,7 +16015,9 @@ var position = [
     address:
       "다나메디피아의원/ 발열 체크 후 들어가지 못함, 의료진 비노출 (9:02-9:05)",
     address_name: "충남 천안시 서북구 두정동 595",
-    latlng: "36.8302718953668, 127.127610231519"
+    latlng: "36.8302718953668, 127.127610231519",
+    address_english:
+      "DANAMEDIDA MENTAL/ NOT ENTERING CHECKING, NONOUS INDICATION OF MEDICAL STUDY (9:02-9:05)"
   },
   {
     solo: true,
@@ -14619,7 +16029,9 @@ var position = [
     full: "천안 확진자B",
     address: "코로나19 서북구보건소 선별진료소 (09:30-09:40)",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english:
+      "Corona19 West-West Health Center Screening Care Center (09:30-09:40)"
   },
   {
     solo: true,
@@ -14631,7 +16043,9 @@ var position = [
     full: "천안 확진자B",
     address: "단국대학교병원 외부 선별진료소 검사 (9:40-12:00)",
     address_name: "충남 천안시 동남구 안서동 522",
-    latlng: "36.84191990263897, 127.17236829216293"
+    latlng: "36.84191990263897, 127.17236829216293",
+    address_english:
+      "Dankook University Hospital Exterior Screening Care Center Inspection (9:40-12:00)"
   },
   {
     solo: true,
@@ -14643,7 +16057,9 @@ var position = [
     full: "천안 확진자B",
     address: "단국대학교병원 외부 선별진료소 확진 (15:40)",
     address_name: "충남 천안시 동남구 안서동 522",
-    latlng: "36.84191990263897, 127.17236829216293"
+    latlng: "36.84191990263897, 127.17236829216293",
+    address_english:
+      "Dankook University Hospital External Screening Care Center Confirmed (15:40)"
   },
   {
     solo: true,
@@ -14655,7 +16071,8 @@ var position = [
     full: "천안 확진자B",
     address: "동남구보건소 역학조사 (17:00)",
     address_name: "충남 천안시 동남구 문화동 112-14",
-    latlng: "36.80745329108619, 127.151275875625"
+    latlng: "36.80745329108619, 127.151275875625",
+    address_english: "South-East Health Center Epidemiological Survey (17:00)"
   },
   {
     solo: true,
@@ -14667,7 +16084,8 @@ var position = [
     full: "천안 확진자B",
     address: "단국대학교병원 이송 (18:00)",
     address_name: "충남 천안시 동남구 안서동 522",
-    latlng: "36.84191990263897, 127.17236829216293"
+    latlng: "36.84191990263897, 127.17236829216293",
+    address_english: "Transfer to Dankook University Hospital (18:00)"
   },
   {
     solo: true,
@@ -14679,7 +16097,9 @@ var position = [
     full: "천안 확진자B",
     address: "세광엔리치빌2차아파트 자택귀가 (2/24 12:00-12:30)",
     address_name: "충남 천안시 서북구 두정동 603",
-    latlng: "36.829657993196655, 127.12867635804069"
+    latlng: "36.829657993196655, 127.12867635804069",
+    address_english:
+      "Homecoming of Segwang Enrichville 2 Cha Apartment (2/24 12:00-12:30)"
   },
   {
     solo: true,
@@ -14691,7 +16111,8 @@ var position = [
     full: "천안 확진자C",
     address: "뮤즈헤어(쌍용동) 출근 (2/19 12:00-20:15)",
     address_name: "충남 천안시 서북구 쌍용2동 727",
-    latlng: "36.7984624623242, 127.12095099194401"
+    latlng: "36.7984624623242, 127.12095099194401",
+    address_english: "Musehare (Ssangyong-dong) to work (2/19 12:00-20:15)"
   },
   {
     solo: true,
@@ -14703,7 +16124,8 @@ var position = [
     full: "천안 확진자C",
     address: "지웰더샵 피트니스센터 (20:50-22:00)",
     address_name: "충남 천안시 서북구 불당동 1548",
-    latlng: "36.81499858620221, 127.10500312185088"
+    latlng: "36.81499858620221, 127.10500312185088",
+    address_english: "Gwellershop Fitness Center (20:50-22:00)"
   },
   {
     solo: true,
@@ -14715,7 +16137,8 @@ var position = [
     full: "천안 확진자C",
     address: "뮤즈헤어(쌍용동) 출근 (2/20 10:00-19:30)",
     address_name: "충남 천안시 서북구 쌍용2동 727",
-    latlng: "36.7984624623242, 127.12095099194401"
+    latlng: "36.7984624623242, 127.12095099194401",
+    address_english: "Musehare (Ssangyong-dong) to work (2/20 10:00-19:30)"
   },
   {
     solo: true,
@@ -14727,7 +16150,8 @@ var position = [
     full: "천안 확진자C",
     address: "뮤즈헤어(쌍용동) 출근 (2/21 10:00-19:30)",
     address_name: "충남 천안시 서북구 쌍용2동 727",
-    latlng: "36.7984624623242, 127.12095099194401"
+    latlng: "36.7984624623242, 127.12095099194401",
+    address_english: "Musehare (Ssangyong-dong) to work (2/21 10:00-19:30)"
   },
   {
     solo: true,
@@ -14739,7 +16163,8 @@ var position = [
     full: "천안 확진자C",
     address: "뮤즈헤어(쌍용동) 출근 (2/22 10:00-19:30)",
     address_name: "충남 천안시 서북구 쌍용2동 727",
-    latlng: "36.7984624623242, 127.12095099194401"
+    latlng: "36.7984624623242, 127.12095099194401",
+    address_english: "Musehare (Ssangyong-dong) to work (2/22 10:00-19:30)"
   },
   {
     solo: true,
@@ -14751,7 +16176,8 @@ var position = [
     full: "천안 확진자C",
     address: "독립기념관 단풍나무길 (13:30-14:30)",
     address_name: "충남 천안시 동남구 목천읍 남화리",
-    latlng: "36.78328689722089, 127.217736860734"
+    latlng: "36.78328689722089, 127.217736860734",
+    address_english: "Independence Hall maple path (13:30-14:30)"
   },
   {
     solo: true,
@@ -14763,7 +16189,8 @@ var position = [
     full: "천안 확진자C",
     address: "유량동 정상갈비 (15:10-15:35)",
     address_name: "충남 천안시 동남구 유량동 365-21",
-    latlng: "36.807506554312006, 127.17051941019399"
+    latlng: "36.807506554312006, 127.17051941019399",
+    address_english: "Normal Galbi (15:10-15:35)"
   },
   {
     solo: true,
@@ -14775,7 +16202,9 @@ var position = [
     full: "천안 확진자C",
     address: "불당동 지웰더샵 자택 귀가 (2/23 15:35-16:00)",
     address_name: "충남 천안시 서북구 불당동 145-1",
-    latlng: "36.814910296319006, 127.10498170725802"
+    latlng: "36.814910296319006, 127.10498170725802",
+    address_english:
+      "Homecoming from the house of the Buldang-dong Gwellershop (2/23 15:35-16:00)"
   },
   {
     solo: true,
@@ -14787,7 +16216,8 @@ var position = [
     full: "천안 확진자C",
     address: "CU 천안불당더샵점 (18:15-18:30)",
     address_name: "충남 천안시 서북구 불당동 1548",
-    latlng: "36.81522406411948, 127.10477591928661"
+    latlng: "36.81522406411948, 127.10477591928661",
+    address_english: "CU Cheonan Bull Dangdang The Shop (18:15-18:30)"
   },
   {
     solo: true,
@@ -14799,7 +16229,8 @@ var position = [
     full: "천안 확진자C",
     address: "맑은이비인후과의원 (9:30-10:05)",
     address_name: "충남 천안시 서북구 불당동 1542",
-    latlng: "36.814633897418595, 127.107733849897"
+    latlng: "36.814633897418595, 127.107733849897",
+    address_english: "Clear E.N.D. (19:30-10:05)"
   },
   {
     solo: true,
@@ -14811,7 +16242,8 @@ var position = [
     full: "천안 확진자C",
     address: "나눔약국 (10:00-10:10)",
     address_name: "충남 천안시 서북구 불당동 1542",
-    latlng: "36.814633897418595, 127.107733849897"
+    latlng: "36.814633897418595, 127.107733849897",
+    address_english: "Sharing Pharmacy (10:00-10:10)"
   },
   {
     solo: true,
@@ -14823,7 +16255,9 @@ var position = [
     full: "천안 확진자C",
     address: "코로나19 천안충무병원 선별진료소 (2/24 14:30-16:30)",
     address_name: "충남 천안시 서북구 쌍용동 542-3",
-    latlng: "36.7973950743409, 127.131580442199"
+    latlng: "36.7973950743409, 127.131580442199",
+    address_english:
+      "Corona19 Selective Care Center at Cheonan Chungmu Hospital (2/24 14:30-16:30)"
   },
   {
     solo: true,
@@ -14835,7 +16269,9 @@ var position = [
     full: "천안 확진자C",
     address: "불당동 지웰더샵 자택 귀가 (2/24 16:40)",
     address_name: "충남 천안시 서북구 불당동 145-1",
-    latlng: "36.814910296319006, 127.10498170725802"
+    latlng: "36.814910296319006, 127.10498170725802",
+    address_english:
+      "Homecoming to the house of the Buddhist Gwellershop (2/24 16:40)"
   },
   {
     solo: true,
@@ -14847,7 +16283,8 @@ var position = [
     full: "천안 확진자C",
     address: "뮤즈헤어(쌍용동) 출근 (2/25 11:00-16:00)",
     address_name: "충남 천안시 서북구 쌍용2동 727",
-    latlng: "36.7984624623242, 127.12095099194401"
+    latlng: "36.7984624623242, 127.12095099194401",
+    address_english: "Musehare (Ssangyong-dong) to work (2/25 11:00-16:00)"
   },
   {
     solo: true,
@@ -14859,7 +16296,8 @@ var position = [
     full: "천안 확진자C",
     address: "동남구보건소 역학조사 (18:30)",
     address_name: "충남 천안시 동남구 문화동 112-14",
-    latlng: "36.80745329108619, 127.151275875625"
+    latlng: "36.80745329108619, 127.151275875625",
+    address_english: "South-East Health Center Epidemiological Survey (18:30)"
   },
   {
     solo: true,
@@ -14871,7 +16309,8 @@ var position = [
     full: "천안 확진자C",
     address: "단국대학교병원 이송 (20:00)",
     address_name: "충남 천안시 동남구 안서동 522",
-    latlng: "36.84191990263897, 127.17236829216293"
+    latlng: "36.84191990263897, 127.17236829216293",
+    address_english: "Transfer to Dankook University Hospital (20:00)"
   },
   {
     solo: true,
@@ -14883,7 +16322,8 @@ var position = [
     full: "창원 확진자",
     address: "경복궁 창원점",
     address_name: "경남 창원시 성산구 상남동 78-4",
-    latlng: "35.223196891304404, 128.68045780830937"
+    latlng: "35.223196891304404, 128.68045780830937",
+    address_english: "Gyeongbok Palace Changwon Branch"
   },
   {
     solo: true,
@@ -14895,7 +16335,8 @@ var position = [
     full: "창원 확진자",
     address: "노엘골드",
     address_name: "경남 창원시 성산구 상남동 19-1",
-    latlng: "35.221346658063304, 128.68596795654136"
+    latlng: "35.221346658063304, 128.68596795654136",
+    address_english: "Noel Gold"
   },
   {
     solo: true,
@@ -14907,7 +16348,8 @@ var position = [
     full: "창원 확진자",
     address: "경복궁",
     address_name: "경남 김해시 진례면 산본리 142",
-    latlng: "35.22781579584039, 128.76965296718348"
+    latlng: "35.22781579584039, 128.76965296718348",
+    address_english: "Gyeongbokgung Palace"
   },
   {
     solo: true,
@@ -14919,7 +16361,8 @@ var position = [
     full: "창원 확진자",
     address: "STX엔진 (2/21, 24)",
     address_name: "경남 창원시 성산구 성산동 80",
-    latlng: "35.20099242384949, 128.66625804722435"
+    latlng: "35.20099242384949, 128.66625804722435",
+    address_english: "STX Engine (2/21, 24)"
   },
   {
     solo: true,
@@ -14931,7 +16374,8 @@ var position = [
     full: "창원 확진자",
     address: "한영기공",
     address_name: "경남 김해시 진영읍 본산리 313-1",
-    latlng: "35.3138711378155, 128.75519665989145"
+    latlng: "35.3138711378155, 128.75519665989145",
+    address_english: "Han Young Gigong"
   },
   {
     solo: true,
@@ -14943,7 +16387,8 @@ var position = [
     full: "김포 확진자",
     address: "이마트트레이더스 킨텍스점",
     address_name: "경기 고양시 일산서구 대화동 2703",
-    latlng: "37.662241550793496, 126.74405399518555"
+    latlng: "37.662241550793496, 126.74405399518555",
+    address_english: "E-Mart Traders KINTEX Branch"
   },
   {
     month: 1,
@@ -14955,7 +16400,8 @@ var position = [
     profile: "-",
     name: "3번째 확진자",
     full: "3번째 확진자",
-    address_name: "경기도 고양시 일산동구 정발산동"
+    address_name: "경기도 고양시 일산동구 정발산동",
+    address_english: "Use Ilsan Restaurant"
   },
   {
     month: 1,
@@ -14967,7 +16413,8 @@ var position = [
     profile: "-",
     name: "3번째 확진자",
     full: "3번째 확진자",
-    address_name: "경기도 고양시 일산서구 일산2동"
+    address_name: "경기도 고양시 일산서구 일산2동",
+    address_english: "Stay at Ilsan's Mother's House"
   },
   {
     month: 1,
@@ -14979,7 +16426,9 @@ var position = [
     profile: "-",
     name: "3번째 확진자",
     full: "3번째 확진자",
-    address_name: "경기도 고양시 덕양구 화정1동"
+    address_name: "경기도 고양시 덕양구 화정1동",
+    address_english:
+      " <Span style='color:red;>separation </spanan at Ilsan Myungji Hospital"
   },
   {
     month: 1,
@@ -14991,7 +16440,8 @@ var position = [
     profile: "-",
     name: "3번째 확진자",
     full: "3번째 확진자",
-    address_name: "경기도 고양시 일산동구 식사동"
+    address_name: "경기도 고양시 일산동구 식사동",
+    address_english: "Using Ilsan Café"
   },
   {
     solo: true,
@@ -15003,7 +16453,8 @@ var position = [
     full: "김포 확진자",
     address: "연합한강내과의원",
     address_name: "경기 김포시 구래동 6885-3",
-    latlng: "37.64362884294039, 126.62700647144858"
+    latlng: "37.64362884294039, 126.62700647144858",
+    address_english: "Combined Oriental Medicine Clinic"
   },
   {
     solo: true,
@@ -15015,7 +16466,8 @@ var position = [
     full: "김포 확진자",
     address: "김포한강예미지아파트 거주",
     address_name: "경기 김포시 구래동 6893-2",
-    latlng: "37.6380961595251, 126.62452344880401"
+    latlng: "37.6380961595251, 126.62452344880401",
+    address_english: "Kimpo Han River Yemiji Apartment Residence"
   },
   {
     solo: true,
@@ -15027,7 +16479,9 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑(동료차) (2/16 14:55-19:00)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english:
+      "Hyundai Home Shopping (Celebrity Vehicle) (2/16 14:55-19:00)"
   },
   {
     solo: true,
@@ -15039,7 +16493,9 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑(동료차) (2/17 15:00-24:00)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english:
+      "Hyundai Home Shopping (Celebrity Vehicle) (2/17 15:00-24:00)"
   },
   {
     solo: true,
@@ -15051,7 +16507,9 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑(동료차) (2/19 15:00-24:00)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english:
+      "Hyundai Home Shopping (Celebrity Vehicle) (2/19 15:00-24:00)"
   },
   {
     solo: true,
@@ -15063,7 +16521,8 @@ var position = [
     full: "청주 확진자C",
     address: "GS25 분평우성점 (00:50)",
     address_name: "충북 청주시 서원구 분평동 318-5",
-    latlng: "36.60997748090737, 127.48117385895674"
+    latlng: "36.60997748090737, 127.48117385895674",
+    address_english: "GS25 FUNCTIONAL SPECIFICATIONS (00:50)"
   },
   {
     solo: true,
@@ -15075,7 +16534,8 @@ var position = [
     full: "청주 확진자C",
     address: "가경주공6단지아파트 (2/20 01:00)",
     address_name: "충북 청주시 흥덕구 가경동 1693",
-    latlng: "36.616338132527986, 127.4392907878849"
+    latlng: "36.616338132527986, 127.4392907878849",
+    address_english: "Ga Kyung Ju Gong 6 Complex Apartment (2/20 01:00)"
   },
   {
     solo: true,
@@ -15087,7 +16547,9 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑(동료차) (2/20 14:00-24:00)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english:
+      "Hyundai Home Shopping (Celebrity Vehicle) (2/20 14:00-24:00)"
   },
   {
     solo: true,
@@ -15099,7 +16561,9 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑(출근카카오택시, 퇴근 동료차) (2/21 16:56-24:00)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english:
+      "Hyundai Home Shopping (Commercial Kakao Taxi, fellow workers on the way home) (2/21 16:56-24:00)"
   },
   {
     solo: true,
@@ -15111,7 +16575,8 @@ var position = [
     full: "청주 확진자C",
     address: "몽키방방 키즈카페 (13:20-16:00)",
     address_name: "충북 청주시 서원구 분평동 1240",
-    latlng: "36.6099742358821, 127.485528606162"
+    latlng: "36.6099742358821, 127.485528606162",
+    address_english: "Monkeybang Kids Cafe (13:20-16:00)"
   },
   {
     solo: true,
@@ -15123,7 +16588,8 @@ var position = [
     full: "청주 확진자C",
     address: "청일통닭닭발(카카오택시) (20:45-23:40)",
     address_name: "충북 청주시 서원구 성화동 997",
-    latlng: "36.6131136526959, 127.445902172499"
+    latlng: "36.6131136526959, 127.445902172499",
+    address_english: "Cheongil Tongdakbal (Kakao Taxi) (20:45-23:40)"
   },
   {
     solo: true,
@@ -15135,7 +16601,8 @@ var position = [
     full: "청주 확진자C",
     address: "세븐일레븐 청주가경점 (00:02)",
     address_name: "충북 청주시 흥덕구 가경동 1458-9",
-    latlng: "36.623847145205595, 127.43440879855"
+    latlng: "36.623847145205595, 127.43440879855",
+    address_english: "7-Eleven Cheongju branch (00:02)"
   },
   {
     solo: true,
@@ -15147,7 +16614,8 @@ var position = [
     full: "청주 확진자C",
     address: "놀자라이브 (00:05-02:05)",
     address_name: "충북 청주시 흥덕구 가경동 1458-8",
-    latlng: "36.623775724415786, 127.434225053172"
+    latlng: "36.623775724415786, 127.434225053172",
+    address_english: "Nolja Live (00:05-02:05)"
   },
   {
     solo: true,
@@ -15159,7 +16627,8 @@ var position = [
     full: "청주 확진자C",
     address: "쎄시봉노래연습장 (2/23 03:00-05:00)",
     address_name: "충북 청주시 흥덕구 가경동 1462-4",
-    latlng: "36.6234510138556, 127.43430819608601"
+    latlng: "36.6234510138556, 127.43430819608601",
+    address_english: "Ceci-bong Singing Training Center (2/23 03:00-05:00)"
   },
   {
     solo: true,
@@ -15171,7 +16640,8 @@ var position = [
     full: "청주 확진자C",
     address: "세븐일레븐 청주가경점 (05:09)",
     address_name: "충북 청주시 흥덕구 가경동 1458-9",
-    latlng: "36.623847145205595, 127.43440879855"
+    latlng: "36.623847145205595, 127.43440879855",
+    address_english: "Seven Eleven Cheongju Point (05:09)"
   },
   {
     solo: true,
@@ -15183,7 +16653,8 @@ var position = [
     full: "청주 확진자C",
     address: "현대홈쇼핑 출근(카카오택시) (2/23 14:58)",
     address_name: "충북 청주시 상당구 지북동 153",
-    latlng: "36.5968376322772, 127.506715748885"
+    latlng: "36.5968376322772, 127.506715748885",
+    address_english: "Hyundai Home Shopping Office (Kakao Taxi) (2/23 14:58)"
   },
   {
     solo: true,
@@ -15195,7 +16666,8 @@ var position = [
     full: "청주 확진자C",
     address: "가경주공6단지아파트 (2/23 19:10)",
     address_name: "충북 청주시 흥덕구 가경동 1693",
-    latlng: "36.616338132527986, 127.4392907878849"
+    latlng: "36.616338132527986, 127.4392907878849",
+    address_english: "Ga Kyung Ju Gong 6 Complex Apartment (2/23 19:10)"
   },
   {
     solo: true,
@@ -15207,7 +16679,8 @@ var position = [
     full: "청주 확진자C",
     address: "가경동 동네치킨포차 (24:00-02:30)",
     address_name: "충북 청주시 흥덕구 가경동 1458-8",
-    latlng: "36.62304, 127.435435"
+    latlng: "36.62304, 127.435435",
+    address_english: "Gagyeong-dong Neighborhood Chicken Pocha (24:00-02:30)"
   },
   {
     solo: true,
@@ -15219,7 +16692,8 @@ var position = [
     full: "청주 확진자C",
     address: "쎄시봉노래연습장 (2/24 02:45-04:30)",
     address_name: "충북 청주시 흥덕구 가경동 1462-4",
-    latlng: "36.6234510138556, 127.43430819608601"
+    latlng: "36.6234510138556, 127.43430819608601",
+    address_english: "Cecisibong Singing Training Center (2/24 02:45-04:30)"
   },
   {
     solo: true,
@@ -15231,7 +16705,8 @@ var position = [
     full: "청주 확진자C",
     address: "한미르약국(도보) (15:17)",
     address_name: "충북 청주시 서원구 분평동 1229",
-    latlng: "36.61078385082179, 127.484988212101"
+    latlng: "36.61078385082179, 127.484988212101",
+    address_english: "Hanmi Pharmaceutical (walking) (15:17)"
   },
   {
     solo: true,
@@ -15243,7 +16718,8 @@ var position = [
     full: "청주 확진자C",
     address: "배스킨라빈스 청주분평점 (15:21)",
     address_name: "충북 청주시 서원구 분평동 1227",
-    latlng: "36.61101782983339, 127.48506568549799"
+    latlng: "36.61101782983339, 127.48506568549799",
+    address_english: "Baskin Robbins Cheongju Equilibrium Point (15:21)"
   },
   {
     solo: true,
@@ -15255,7 +16731,9 @@ var position = [
     full: "청주 확진자C",
     address: "코로나19 하나병원 선별진료소(카카오택시) (15:21)",
     address_name: "충북 청주시 흥덕구 가경동 566",
-    latlng: "36.623517387462805, 127.430918940237"
+    latlng: "36.623517387462805, 127.430918940237",
+    address_english:
+      "Corona19 Hana Hospital Screening Clinic (Kakao Taxi) (15:21)"
   },
   {
     solo: true,
@@ -15267,7 +16745,8 @@ var position = [
     full: "청주 확진자C",
     address: "장수약국 (17:12)",
     address_name: "충북 청주시 흥덕구 강서동 527",
-    latlng: "36.62407911644227, 127.43107858134692"
+    latlng: "36.62407911644227, 127.43107858134692",
+    address_english: "Long Term Pharmacy (17:12)"
   },
   {
     solo: true,
@@ -15279,7 +16758,8 @@ var position = [
     full: "청주 확진자C",
     address: "하나병원 원무과(카카오택시) (15:19)",
     address_name: "충북 청주시 흥덕구 가경동 566",
-    latlng: "36.623517387462805, 127.430918940237"
+    latlng: "36.623517387462805, 127.430918940237",
+    address_english: "Hana Medical Center's department (Kakao Taxi) (15:19)"
   },
   {
     solo: true,
@@ -15291,7 +16771,8 @@ var position = [
     full: "평택 확진자",
     address: "불꽃주점",
     address_name: "경기 평택시 통복동 91-11",
-    latlng: "36.9970718880135, 127.086519034386"
+    latlng: "36.9970718880135, 127.086519034386",
+    address_english: "a fire bar"
   },
   {
     solo: true,
@@ -15303,7 +16784,8 @@ var position = [
     full: "평택 확진자",
     address: "24시자수정불사우나",
     address_name: "경기 평택시 통복동 88-4",
-    latlng: "36.99574646116769, 127.08642878541501"
+    latlng: "36.99574646116769, 127.08642878541501",
+    address_english: "24 o'clock crystal Buddha Sauna"
   },
   {
     solo: true,
@@ -15315,7 +16797,8 @@ var position = [
     full: "평택 확진자",
     address: "수피아PC존 서정2호점",
     address_name: "경기 평택시 서정동 882-7",
-    latlng: "37.06351520773169, 127.05545462153198"
+    latlng: "37.06351520773169, 127.05545462153198",
+    address_english: "Sufia PC Zone's second lyric store"
   },
   {
     solo: true,
@@ -15327,7 +16810,8 @@ var position = [
     full: "평택 확진자",
     address: "떳다포차",
     address_name: "경기 평택시 세교동 561-10",
-    latlng: "37.000184336883706, 127.07993577017102"
+    latlng: "37.000184336883706, 127.07993577017102",
+    address_english: "Jean Dapocha"
   },
   {
     solo: true,
@@ -15339,7 +16823,8 @@ var position = [
     full: "평택 확진자",
     address: "원샷모텔",
     address_name: "경기 평택시 통복동 107-6",
-    latlng: "36.99513688407559, 127.081975031947"
+    latlng: "36.99513688407559, 127.081975031947",
+    address_english: "one shot motel"
   },
   {
     solo: true,
@@ -15351,7 +16836,8 @@ var position = [
     full: "평택 확진자",
     address: "장돌뱅이옛날치킨 원평점",
     address_name: "경기 평택시 평택동 169-3",
-    latlng: "36.990522232370104, 127.08356068421098"
+    latlng: "36.990522232370104, 127.08356068421098",
+    address_english: "Jangdolbaengi Old Nalchikin Wonpyeong Branch"
   },
   {
     solo: true,
@@ -15363,7 +16849,8 @@ var position = [
     full: "평택 확진자",
     address: "불꽃주점(2/16, 23, 24)",
     address_name: "경기 평택시 통복동 91-11",
-    latlng: "36.997076389328306, 127.08652465651"
+    latlng: "36.997076389328306, 127.08652465651",
+    address_english: "Fireworks (2/16, 23, 24)"
   },
   {
     solo: true,
@@ -15375,7 +16862,8 @@ var position = [
     full: "평택 확진자",
     address: "장은옥",
     address_name: "경기 평택시 합정동 914-13",
-    latlng: "36.98855623307033, 127.10389438459448"
+    latlng: "36.98855623307033, 127.10389438459448",
+    address_english: "Jang Eun-ok"
   },
   {
     solo: true,
@@ -15387,7 +16875,8 @@ var position = [
     full: "평택 확진자",
     address: "GS25 평택팽성점",
     address_name: "경기 평택시 팽성읍 객사리 95-3",
-    latlng: "36.9649351309001, 127.066221585088"
+    latlng: "36.9649351309001, 127.066221585088",
+    address_english: "GS25 Pyeongtaek St."
   },
   {
     solo: true,
@@ -15399,7 +16888,8 @@ var position = [
     full: "안동 확진자",
     address: "굿네이버스 경북북부지부",
     address_name: "경북 안동시 옥동 786-4",
-    latlng: "36.5621115741039, 128.70069605534735"
+    latlng: "36.5621115741039, 128.70069605534735",
+    address_english: "Good Neighbors North Gyeongsang Province Branch"
   },
   {
     solo: true,
@@ -15411,7 +16901,8 @@ var position = [
     full: "김포 확진자",
     address: "스타벅스 대구황금DT",
     address_name: "대구 수성구 지산동 941",
-    latlng: "35.83910201981159, 128.62590222770027"
+    latlng: "35.83910201981159, 128.62590222770027",
+    address_english: "Starbucks Daegu Gold DT"
   },
   {
     solo: true,
@@ -15423,7 +16914,8 @@ var position = [
     full: "안동 확진자",
     address: "스마일 식자재센타",
     address_name: "경북 안동시 옥동 942-3",
-    latlng: "36.5609590784344, 128.6948181535333"
+    latlng: "36.5609590784344, 128.6948181535333",
+    address_english: "Smile Table Material Senta"
   },
   {
     solo: true,
@@ -15435,7 +16927,8 @@ var position = [
     full: "송파 확진자",
     address: "선수촌병원",
     address_name: "서울 송파구 잠실동 175-7",
-    latlng: "37.5115988873876, 127.079229268263"
+    latlng: "37.5115988873876, 127.079229268263",
+    address_english: "Athletes' Village Hospital"
   },
   {
     solo: true,
@@ -15447,7 +16940,8 @@ var position = [
     full: "송파 확진자",
     address: "잠실 다인약국",
     address_name: "서울 송파구 잠실동 175-6",
-    latlng: "37.51155205644441, 127.07919754879501"
+    latlng: "37.51155205644441, 127.07919754879501",
+    address_english: "Jamsil Dain Pharmacy"
   },
   {
     solo: true,
@@ -15459,7 +16953,8 @@ var position = [
     full: "송파 확진자",
     address: "잠실 도노카페",
     address_name: "서울 송파구 잠실동 19-9",
-    latlng: "37.51211045599331, 127.08471327811202"
+    latlng: "37.51211045599331, 127.08471327811202",
+    address_english: "Jamsil Dono Cafe"
   },
   {
     solo: true,
@@ -15471,7 +16966,8 @@ var position = [
     full: "송파 확진자",
     address: "데일리반찬가게 잠실점",
     address_name: "서울 송파구 잠실동 252-11",
-    latlng: "37.50687001509289, 127.08986018975901"
+    latlng: "37.50687001509289, 127.08986018975901",
+    address_english: "Jamsil branch of the daily side dish store"
   },
   {
     solo: true,
@@ -15483,7 +16979,9 @@ var position = [
     full: "송파 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -15495,7 +16993,8 @@ var position = [
     full: "송파 확진자",
     address: "국립경찰병원 근무",
     address_name: "서울 송파구 가락동 58",
-    latlng: "37.496434823485004, 127.123501540716"
+    latlng: "37.496434823485004, 127.123501540716",
+    address_english: "National Police Hospital Service"
   },
   {
     solo: true,
@@ -15507,7 +17006,8 @@ var position = [
     full: "송파 확진자",
     address: "요리하는남자 식당(물건만 두고 옴)",
     address_name: "서울 송파구 잠실동 180-9",
-    latlng: "37.5108149926055, 127.081902263321"
+    latlng: "37.5108149926055, 127.081902263321",
+    address_english: "Cooking men's restaurant (just left the items)"
   },
   {
     solo: true,
@@ -15519,7 +17019,8 @@ var position = [
     full: "송파 확진자",
     address: "스타벅스 잠실새내역점",
     address_name: "서울 송파구 잠실동 181",
-    latlng: "37.5115507453626, 127.081129415271"
+    latlng: "37.5115507453626, 127.081129415271",
+    address_english: "Starbucks Jamsil New History Store"
   },
   {
     solo: true,
@@ -15531,7 +17032,8 @@ var position = [
     full: "송파 확진자",
     address: "샤크VR카페",
     address_name: "서울 송파구 잠실동 182-5",
-    latlng: "37.51092994652771, 127.08244077386598"
+    latlng: "37.51092994652771, 127.08244077386598",
+    address_english: "Shark VR Cafe"
   },
   {
     solo: true,
@@ -15543,7 +17045,8 @@ var position = [
     full: "송파 확진자",
     address: "롯데마트 송파점 1층",
     address_name: "서울 송파구 문정동 150-2",
-    latlng: "37.49173383860761, 127.117749483852"
+    latlng: "37.49173383860761, 127.117749483852",
+    address_english: "1F of Lotte Mart's Songpa branch"
   },
   {
     solo: true,
@@ -15555,7 +17058,8 @@ var position = [
     full: "송파 확진자",
     address: "스타벅스 가락시장역점(2/23, 24)",
     address_name: "서울 송파구 가락동 79",
-    latlng: "37.4944040855798, 127.121639143162"
+    latlng: "37.4944040855798, 127.121639143162",
+    address_english: "Starbucks Garak Market Station (2/23, 24)"
   },
   {
     solo: true,
@@ -15567,7 +17071,8 @@ var position = [
     full: "송파 확진자",
     address: "화포식당 가락점",
     address_name: "서울 송파구 가락동 97-8",
-    latlng: "37.4947531166639, 127.11864530729402"
+    latlng: "37.4947531166639, 127.11864530729402",
+    address_english: "a hwapo restaurant"
   },
   {
     solo: true,
@@ -15579,7 +17084,9 @@ var position = [
     full: "송파 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -15591,7 +17098,8 @@ var position = [
     full: "송파 확진자",
     address: "현대마트",
     address_name: "서울 송파구 방이동 119-1",
-    latlng: "37.51076496742239, 127.115833953589"
+    latlng: "37.51076496742239, 127.115833953589",
+    address_english: "Hyundai Mart"
   },
   {
     solo: true,
@@ -15603,7 +17111,8 @@ var position = [
     full: "송파 확진자",
     address: "인천국제공항",
     address_name: "인천 중구 운서동 2851",
-    latlng: "37.44945028134419, 126.45042670237001"
+    latlng: "37.44945028134419, 126.45042670237001",
+    address_english: "Incheon International Airport"
   },
   {
     solo: true,
@@ -15615,7 +17124,8 @@ var position = [
     full: "송파 확진자",
     address: "잠실 롯데월드 정류장",
     address_name: "서울 송파구 잠실동 40-1",
-    latlng: "37.5102308, 127.0993896"
+    latlng: "37.5102308, 127.0993896",
+    address_english: "Jamsil Lotte World Station"
   },
   {
     solo: true,
@@ -15627,7 +17137,9 @@ var position = [
     full: "송파 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -15639,20 +17151,9 @@ var position = [
     full: "송파 확진자",
     address: "인천국제공항",
     address_name: "인천 중구 운서동 2851",
-    latlng: "37.44945028134419, 126.45042670237001"
+    latlng: "37.44945028134419, 126.45042670237001",
+    address_english: "Incheon International Airport"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#송파 확진자",
-  //   month: 2,
-  //   day: 22,
-  //   name: "송파",
-  //   full: "송파 확진자",
-  //   address: "오금역 공항버스 정류장",
-  //   address_name: "undefined",
-  //   latlng: "37.4980768, 127.1264878"
-  // },
   {
     solo: true,
     profile: "-",
@@ -15663,7 +17164,9 @@ var position = [
     full: "송파 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -15675,7 +17178,8 @@ var position = [
     full: "송파 확진자",
     address: "미아리우동집 문정점",
     address_name: "서울 송파구 문정동 618",
-    latlng: "37.4810591448477, 127.12262601122998"
+    latlng: "37.4810591448477, 127.12262601122998",
+    address_english: "Miariu Dongjip Munjeong Branch"
   },
   {
     solo: true,
@@ -15687,7 +17191,8 @@ var position = [
     full: "송파 확진자",
     address: "계경순대국 문정법조타운점",
     address_name: "서울 송파구 문정동 620",
-    latlng: "37.4808984532051, 127.121181962722"
+    latlng: "37.4808984532051, 127.121181962722",
+    address_english: "Gyegyeong Sundaeguk Munjeongjo Town Branch"
   },
   {
     solo: true,
@@ -15699,7 +17204,9 @@ var position = [
     full: "송파 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -15711,20 +17218,9 @@ var position = [
     full: "송파 확진자",
     address: "서울특별시 서울의료원 격리",
     address_name: "서울 중랑구 신내동 316",
-    latlng: "37.6128675208202, 127.09809248467599"
+    latlng: "37.6128675208202, 127.09809248467599",
+    address_english: "Seoul Medical Center Isolation in Seoul"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#송파 확진자",
-  //   month: 2,
-  //   day: 22,
-  //   name: "송파",
-  //   full: "송파 확진자",
-  //   address: "S153과학전문학원 근무(2/19, 22)",
-  //   address_name: "서울 동대문구 장안동 330-1",
-  //   latlng: "37.5727086838729, 127.073004599879"
-  // },
   {
     solo: true,
     profile: "-",
@@ -15735,7 +17231,8 @@ var position = [
     full: "송파 확진자",
     address: "인천국제공항",
     address_name: "인천 중구 운서동 2851",
-    latlng: "37.44945028134419, 126.45042670237001"
+    latlng: "37.44945028134419, 126.45042670237001",
+    address_english: "Incheon International Airport"
   },
   {
     solo: true,
@@ -15747,7 +17244,8 @@ var position = [
     full: "송파 확진자",
     address: "서울특별시 서울의료원",
     address_name: "서울 중랑구 신내동 316",
-    latlng: "37.6128675208202, 127.09809248467599"
+    latlng: "37.6128675208202, 127.09809248467599",
+    address_english: "Seoul Medical Center in Seoul"
   },
   {
     solo: true,
@@ -15759,9 +17257,9 @@ var position = [
     full: "안동 확진자",
     address: "동아문구센터",
     address_name: "경북 안동시 옥동 942-3",
-    latlng: "36.561818, 128.701147"
+    latlng: "36.561818, 128.701147",
+    address_english: "Donga Stationary Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -15772,7 +17270,8 @@ var position = [
     full: "대전 확진자",
     address: "지족역 대전1호선 방문",
     address_name: "대전 유성구 지족동 836-6",
-    latlng: "36.384107339135504, 127.319497778302"
+    latlng: "36.384107339135504, 127.319497778302",
+    address_english: "Visit to Jijok Station Line 1"
   },
   {
     solo: true,
@@ -15784,7 +17283,8 @@ var position = [
     full: "대전 확진자",
     address: "대전역 방문",
     address_name: "대전 동구 정동 1-1",
-    latlng: "36.33229969089899, 127.43411216191"
+    latlng: "36.33229969089899, 127.43411216191",
+    address_english: "Visit Daejeon Station"
   },
   {
     solo: true,
@@ -15796,7 +17296,8 @@ var position = [
     full: "대전 확진자",
     address: "이화미래내과의원 방문",
     address_name: "대전 유성구 지족동 901-2",
-    latlng: "36.37558847058038, 127.31851792649199"
+    latlng: "36.37558847058038, 127.31851792649199",
+    address_english: "Visit Ewha Future Clinic"
   },
   {
     solo: true,
@@ -15808,7 +17309,8 @@ var position = [
     full: "대전 확진자",
     address: "열매약국 (지족동) 방문",
     address_name: "대전 유성구 지족동 901-2",
-    latlng: "36.37559929642279, 127.318513513042"
+    latlng: "36.37559929642279, 127.318513513042",
+    address_english: "Visit the Fruits and Drug Administration (Jijok-dong)"
   },
   {
     solo: true,
@@ -15820,7 +17322,8 @@ var position = [
     full: "대전 확진자",
     address: "노은역 대전1호선 방문",
     address_name: "대전 유성구 지족동 962",
-    latlng: "36.3741446787189, 127.317883531845"
+    latlng: "36.3741446787189, 127.317883531845",
+    address_english: "Visit Noeun Station, Daejeon Line 1"
   },
   {
     solo: true,
@@ -15832,7 +17335,8 @@ var position = [
     full: "대전 확진자",
     address: "반석역 대전1호선 방문",
     address_name: "대전 유성구 반석동 685",
-    latlng: "36.392266215361175, 127.31452756617207"
+    latlng: "36.392266215361175, 127.31452756617207",
+    address_english: "Visits to Banseok Station, Daejeon Line"
   },
   {
     solo: true,
@@ -15844,7 +17348,8 @@ var position = [
     full: "대전 확진자",
     address: "우리은행 노은지점 (반석동) 방문",
     address_name: "대전 유성구 반석동 639-2",
-    latlng: "36.3914287997365, 127.312554653498"
+    latlng: "36.3914287997365, 127.312554653498",
+    address_english: "Visit the Noeun branch of Woori Bank (Ban Seok-dong)"
   },
   {
     solo: true,
@@ -15856,7 +17361,8 @@ var position = [
     full: "대전 확진자",
     address: "유성구보건소 방문",
     address_name: "대전 유성구 장대동 282-15",
-    latlng: "36.35812073802611, 127.335412978577"
+    latlng: "36.35812073802611, 127.335412978577",
+    address_english: "a visit to the Meteorology and Health Center"
   },
   {
     solo: true,
@@ -15868,7 +17374,8 @@ var position = [
     full: "송파 확진자",
     address: "국립경찰병원 근무",
     address_name: "서울 송파구 가락동 58",
-    latlng: "37.496434823485004, 127.123501540716"
+    latlng: "37.496434823485004, 127.123501540716",
+    address_english: "National Police Hospital Service"
   },
   {
     solo: true,
@@ -15880,7 +17387,8 @@ var position = [
     full: "강동구 확진자",
     address: "명일역 5호선 사거리 ",
     address_name: "서울 강동구 명일동",
-    latlng: "37.55139789582771, 127.14404374473999"
+    latlng: "37.55139789582771, 127.14404374473999",
+    address_english: "Myeongil Station Line 5"
   },
   {
     solo: true,
@@ -15892,7 +17400,9 @@ var position = [
     full: "강동구 확진자",
     address: "교보문고 천호점 지하1층 1시간 정도 머뭄",
     address_name: "서울 강동구 천호동 425-5",
-    latlng: "37.540605199583034, 127.12472284062106"
+    latlng: "37.540605199583034, 127.12472284062106",
+    address_english:
+      "About an hour on the first basement floor of Kyobo Bookstore's Cheonho branch."
   },
   {
     solo: true,
@@ -15904,7 +17414,8 @@ var position = [
     full: "강동구 확진자",
     address: "스타벅스 명일역점 2시간 정도 머뭄",
     address_name: "서울 강동구 명일동 312-28",
-    latlng: "37.5525623017895, 127.14378343387901"
+    latlng: "37.5525623017895, 127.14378343387901",
+    address_english: "Two hours of drought in Starbucks."
   },
   {
     solo: true,
@@ -15916,7 +17427,8 @@ var position = [
     full: "강동구 확진자",
     address: "강동구보건소",
     address_name: "서울 강동구 성내동 541-2",
-    latlng: "37.529268770502796, 127.125614688949"
+    latlng: "37.529268770502796, 127.125614688949",
+    address_english: "Gangdong District Health Center"
   },
   {
     solo: true,
@@ -15928,7 +17440,8 @@ var position = [
     full: "강동구 확진자",
     address: "중앙대학교병원 격리 조치",
     address_name: "서울 동작구 흑석동 224-1",
-    latlng: "37.5070346335871, 126.96077231617"
+    latlng: "37.5070346335871, 126.96077231617",
+    address_english: "Chung-Ang University Hospital Isolation Measures"
   },
   {
     solo: true,
@@ -15940,7 +17453,9 @@ var position = [
     full: "강동구 확진자",
     address: "프라이어팰리스아파트(자택)-14.15.16.17.18.19.20.21.24 방문",
     address_name: "서울 강동구 암사동 413",
-    latlng: "37.55352610318784, 127.13949839212972"
+    latlng: "37.55352610318784, 127.13949839212972",
+    address_english:
+      "Visit the Freer Palace Apartment (14.15.16.17.18.19.20.21.24"
   },
   {
     solo: true,
@@ -15952,20 +17467,9 @@ var position = [
     full: "강동구 확진자",
     address: "명성교회-14.15.16.18.19.20.21일 방문",
     address_name: "서울 강동구 명일동 330-5",
-    latlng: "37.5482753487485, 127.148161374334"
+    latlng: "37.5482753487485, 127.148161374334",
+    address_english: "Visit Myeongseong Church from 14.15.16.18.19.20.21."
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#강동구 확진자",
-  //   month: 2,
-  //   day: 21,
-  //   name: "강동구",
-  //   full: "강동구 확진자",
-  //   address: "수동요양병원 예루살렘성전-16.18.19.20일 방문",
-  //   address_name: "경기 남양주시 수동면 운수리 358-13",
-  //   latlng: "37.7084299472055, 127.320823998166"
-  // },
   {
     solo: true,
     profile: "-",
@@ -15976,7 +17480,8 @@ var position = [
     full: "강동구 확진자",
     address: "자연별곡 잠실웰빙점",
     address_name: "서울 송파구 잠실동 40-1",
-    latlng: "37.51033894048559, 127.09663482417787"
+    latlng: "37.51033894048559, 127.09663482417787",
+    address_english: "Jamsil Well-Bing Point, a natural song"
   },
   {
     solo: true,
@@ -15988,7 +17493,8 @@ var position = [
     full: "강동구 확진자",
     address: "명일역",
     address_name: "서울 강동구 명일동",
-    latlng: "37.55139789582771, 127.14404374473999"
+    latlng: "37.55139789582771, 127.14404374473999",
+    address_english: "Myeongil Station"
   },
   {
     solo: true,
@@ -16000,7 +17506,9 @@ var position = [
     full: "강동구 확진자",
     address: "래미안솔베뉴아파트-심방예배(3가정 중 1)",
     address_name: "서울 강동구 명일동 359",
-    latlng: "37.55320192052776, 127.14532829971319"
+    latlng: "37.55320192052776, 127.14532829971319",
+    address_english:
+      "Ramian Solve New Apartments-Central worship (one of three households)"
   },
   {
     solo: true,
@@ -16012,7 +17520,8 @@ var position = [
     full: "강동구 확진자",
     address: "스시해",
     address_name: "서울 강동구 천호동 30-5",
-    latlng: "37.54856242085311, 127.143332151955"
+    latlng: "37.54856242085311, 127.143332151955",
+    address_english: "Sushihae"
   },
   {
     solo: true,
@@ -16024,7 +17533,8 @@ var position = [
     full: "강동구 확진자",
     address: "굿모닝 이비인후과의원",
     address_name: "서울 강동구 암사3동 414-18",
-    latlng: "37.5552045064776, 127.140388796272"
+    latlng: "37.5552045064776, 127.140388796272",
+    address_english: "Good morning ENT doctor"
   },
   {
     solo: true,
@@ -16036,7 +17546,8 @@ var position = [
     full: "강동구 확진자",
     address: "굿모닝 이비인후과의원",
     address_name: "서울 강동구 암사3동 414-18",
-    latlng: "37.5552045064776, 127.140388796272"
+    latlng: "37.5552045064776, 127.140388796272",
+    address_english: "Good morning ENT doctor"
   },
   {
     solo: true,
@@ -16048,7 +17559,8 @@ var position = [
     full: "강동구 확진자",
     address: "명일LG아파트-18일 방문",
     address_name: "서울 강동구 명일동 332",
-    latlng: "37.54907606137452, 127.14621314991561"
+    latlng: "37.54907606137452, 127.14621314991561",
+    address_english: "Visit Myeong Il LG Apartment on the 18th"
   },
   {
     solo: true,
@@ -16060,7 +17572,9 @@ var position = [
     full: "강동구 확진자",
     address: "우리은행본점빌딩-지하 1층 잡화매장 방문",
     address_name: "서울 중구 회현동2가 86",
-    latlng: "37.559398717176016, 126.981800762985"
+    latlng: "37.559398717176016, 126.981800762985",
+    address_english:
+      "Visit Woori Bank Main Building - General merchandise store on the first floor of the basement"
   },
   {
     solo: true,
@@ -16072,7 +17586,8 @@ var position = [
     full: "강동구 확진자",
     address: "명동삼계탕",
     address_name: "서울 중구 충무로1가 25-9",
-    latlng: "37.5609664994785, 126.982112763153"
+    latlng: "37.5609664994785, 126.982112763153",
+    address_english: "Myeong-dong Samgyetang"
   },
   {
     solo: true,
@@ -16084,7 +17599,9 @@ var position = [
     full: "강동구 확진자",
     address: "명성마트-들어가지않고 입구에서 담소",
     address_name: "서울 강동구 명일동 346-14",
-    latlng: "37.54600191381791, 127.14470326261001"
+    latlng: "37.54600191381791, 127.14470326261001",
+    address_english:
+      "Myeongseong Mart - chatting at the entrance without going in"
   },
   {
     solo: true,
@@ -16096,7 +17613,8 @@ var position = [
     full: "강동구 확진자",
     address: "롯데시네마 건대입구-9관",
     address_name: "서울 광진구 자양동 227-7",
-    latlng: "37.53860688301305, 127.07292268612835"
+    latlng: "37.53860688301305, 127.07292268612835",
+    address_english: "Lotte Cinema Konkuk University Station 9 Hall"
   },
   {
     solo: true,
@@ -16108,7 +17626,8 @@ var position = [
     full: "강동구 확진자",
     address: "명일전통시장",
     address_name: "서울 강동구 명일동 333-2",
-    latlng: "37.5495984231066, 127.14492749082702"
+    latlng: "37.5495984231066, 127.14492749082702",
+    address_english: "Myeongil Traditional Market"
   },
   {
     solo: true,
@@ -16120,7 +17639,8 @@ var position = [
     full: "강동구 확진자",
     address: "강동구보건소",
     address_name: "서울 강동구 성내동 541-2",
-    latlng: "37.529268770502796, 127.125614688949"
+    latlng: "37.529268770502796, 127.125614688949",
+    address_english: "Gangdong District Health Center"
   },
   {
     solo: true,
@@ -16132,7 +17652,8 @@ var position = [
     full: "강동구 확진자",
     address: "한일병원-격리조치",
     address_name: "서울 도봉구 쌍문동 388-1",
-    latlng: "37.646116875386134, 127.0290268239299"
+    latlng: "37.646116875386134, 127.0290268239299",
+    address_english: "Hanil Hospital-Daebul Resort"
   },
   {
     solo: true,
@@ -16144,7 +17665,8 @@ var position = [
     full: "경주 확진자",
     address: "동대구역",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -16156,7 +17678,8 @@ var position = [
     full: "경주 확진자",
     address: "서경주역",
     address_name: "경북 경주시 현곡면 금장리 466-1",
-    latlng: "35.86884598719601, 129.20119698444807"
+    latlng: "35.86884598719601, 129.20119698444807",
+    address_english: "Seokyeongju Station"
   },
   {
     solo: true,
@@ -16168,7 +17691,8 @@ var position = [
     full: "경주 확진자",
     address: "사랑의소아청소년과",
     address_name: "경북 경주시 황성동 277-4",
-    latlng: "35.86742369808473, 129.2169919247322"
+    latlng: "35.86742369808473, 129.2169919247322",
+    address_english: "Love Boy Youth"
   },
   {
     solo: true,
@@ -16180,7 +17704,8 @@ var position = [
     full: "경주 확진자",
     address: "사랑의소아청소년과",
     address_name: "경북 경주시 황성동 277-4",
-    latlng: "35.86742369808473, 129.2169919247322"
+    latlng: "35.86742369808473, 129.2169919247322",
+    address_english: "Love Boy Youth"
   },
   {
     solo: true,
@@ -16192,7 +17717,8 @@ var position = [
     full: "구로구 확진자",
     address: "고고스커피-커피공방",
     address_name: "서울 구로구 개봉동 202-12",
-    latlng: "37.494105089370215, 126.859029073065"
+    latlng: "37.494105089370215, 126.859029073065",
+    address_english: "Go-go-scoffee-coffee workshop"
   },
   {
     solo: true,
@@ -16204,7 +17730,8 @@ var position = [
     full: "구로구 확진자",
     address: "좋은약국",
     address_name: "서울 구로구 개봉동 173-1",
-    latlng: "37.4954131422226, 126.858854728841"
+    latlng: "37.4954131422226, 126.858854728841",
+    address_english: "a good pharmacy"
   },
   {
     solo: true,
@@ -16216,7 +17743,8 @@ var position = [
     full: "구로구 확진자",
     address: "탑피부비뇨기과의원",
     address_name: "서울 구로구 개봉동 173-1",
-    latlng: "37.495400482223275, 126.85881630458462"
+    latlng: "37.495400482223275, 126.85881630458462",
+    address_english: "Top Skin Urinary Clinic"
   },
   {
     solo: true,
@@ -16228,7 +17756,8 @@ var position = [
     full: "구로구 확진자",
     address: "개봉역 1호선",
     address_name: "서울 구로구 개봉동 415",
-    latlng: "37.4946417150651, 126.858715959622"
+    latlng: "37.4946417150651, 126.858715959622",
+    address_english: "Open Station Line 1"
   },
   {
     solo: true,
@@ -16240,7 +17769,8 @@ var position = [
     full: "경주 확진자",
     address: "성호기업",
     address_name: "경북 경주시 천북면 오야리 1381-7",
-    latlng: "35.93767397173969, 129.2679434806146"
+    latlng: "35.93767397173969, 129.2679434806146",
+    address_english: "Seongho Enterprise Co., Ltd"
   },
   {
     solo: true,
@@ -16252,7 +17782,8 @@ var position = [
     full: "경주 확진자",
     address: "동국대학교 경주병원",
     address_name: "경북 경주시 석장동 1090-1",
-    latlng: "35.858400575416816, 129.19669754214908"
+    latlng: "35.858400575416816, 129.19669754214908",
+    address_english: "Dongguk University Gyeongju Hospital"
   },
   {
     solo: true,
@@ -16264,7 +17795,8 @@ var position = [
     full: "경주 확진자",
     address: "경원홈마트",
     address_name: "경북 경주시 현곡면 금장리 354-6",
-    latlng: "35.87171490326681, 129.20492961963913"
+    latlng: "35.87171490326681, 129.20492961963913",
+    address_english: "Kyungwon Home Mart"
   },
   {
     solo: true,
@@ -16276,7 +17808,9 @@ var position = [
     full: "경주 확진자",
     address: "속에천불 청송얼음막걸리 매운고추정구지찌짐 충효점",
     address_name: "경북 경주시 충효동 2992-3",
-    latlng: "35.84304494935091, 129.18612810026698"
+    latlng: "35.84304494935091, 129.18612810026698",
+    address_english:
+      "Chungsong Ice Makgeoli Spicy Red Spicy Chilled Spicy Chilled Spicy Chilled Spicy Chilled Spicy Chilled Spicy Pork Jjigim Chunghyoji Point"
   },
   {
     solo: true,
@@ -16288,7 +17822,8 @@ var position = [
     full: "구로구 확진자",
     address: "국립중앙의료원-선별진료소",
     address_name: "서울 중구 을지로6가 18-79",
-    latlng: "37.56724946361499, 127.005691254159"
+    latlng: "37.56724946361499, 127.005691254159",
+    address_english: "National Medical Center-Selective Care Center"
   },
   {
     solo: true,
@@ -16300,7 +17835,8 @@ var position = [
     full: "경주 확진자",
     address: "강남환경개발",
     address_name: "경북 경주시 황성동 320-2",
-    latlng: "35.86415566219931, 129.2198674501652"
+    latlng: "35.86415566219931, 129.2198674501652",
+    address_english: "Gangnam Environment Development"
   },
   {
     solo: true,
@@ -16312,7 +17848,8 @@ var position = [
     full: "경주 확진자",
     address: "성호기업",
     address_name: "경북 경주시 천북면 오야리 1381-7",
-    latlng: "35.93767397173969, 129.2679434806146"
+    latlng: "35.93767397173969, 129.2679434806146",
+    address_english: "Seongho Enterprise Co., Ltd"
   },
   {
     solo: true,
@@ -16324,7 +17861,8 @@ var position = [
     full: "경주 확진자",
     address: "세븐일레븐 경주천북공단점",
     address_name: "경북 경주시 천북면 오야리 1382",
-    latlng: "35.942074044784576, 129.27139993896714"
+    latlng: "35.942074044784576, 129.27139993896714",
+    address_english: "7-Eleven Gyeongju Cheonbuk Industrial Complex"
   },
   {
     solo: true,
@@ -16336,7 +17874,8 @@ var position = [
     full: "남양주 확진자",
     address: "큐마트",
     address_name: "경기 남양주시 화도읍 묵현리 290-9",
-    latlng: "37.6575449688236, 127.28937178883201"
+    latlng: "37.6575449688236, 127.28937178883201",
+    address_english: "Q Mart"
   },
   {
     solo: true,
@@ -16348,7 +17887,8 @@ var position = [
     full: "남양주 확진자",
     address: "온누리약국",
     address_name: "경기 남양주시 화도읍 묵현리 290-9",
-    latlng: "37.657621918183196, 127.28922249465599"
+    latlng: "37.657621918183196, 127.28922249465599",
+    address_english: "Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -16360,7 +17900,8 @@ var position = [
     full: "서초구 확진자",
     address: "삼성디지털프라자 서초점-2층",
     address_name: "서울 서초구 서초동 1341",
-    latlng: "37.48840128760739, 127.028516791866"
+    latlng: "37.48840128760739, 127.028516791866",
+    address_english: "Samsung Digital Plaza Seocho Branch 2F"
   },
   {
     solo: true,
@@ -16372,7 +17913,8 @@ var position = [
     full: "경주 확진자",
     address: "총각꼬치",
     address_name: "경북 경주시 성건동 680-2",
-    latlng: "35.855018867890315, 129.20560038003512"
+    latlng: "35.855018867890315, 129.20560038003512",
+    address_english: "bachelor skewer"
   },
   {
     solo: true,
@@ -16384,7 +17926,8 @@ var position = [
     full: "경주 확진자",
     address: "경주속시원내과의원",
     address_name: "경북 경주시 성건동 340-44",
-    latlng: "35.84307727452572, 129.20663295261014"
+    latlng: "35.84307727452572, 129.20663295261014",
+    address_english: "Gyeongju Medical Center"
   },
   {
     solo: true,
@@ -16396,7 +17939,8 @@ var position = [
     full: "경주 확진자",
     address: "템트리스",
     address_name: "경북 경주시 황남동 307-1",
-    latlng: "35.83555053694582, 129.21032496633416"
+    latlng: "35.83555053694582, 129.21032496633416",
+    address_english: "Temtrris"
   },
   {
     solo: true,
@@ -16408,7 +17952,8 @@ var position = [
     full: "경주 확진자",
     address: "모임달",
     address_name: "경북 경주시 황남동 293",
-    latlng: "35.83675878911381, 129.20954407127917"
+    latlng: "35.83675878911381, 129.20954407127917",
+    address_english: "meeting month"
   },
   {
     solo: true,
@@ -16420,7 +17965,8 @@ var position = [
     full: "경주 확진자",
     address: "경주실내체육관 경주축구공원5구장",
     address_name: "경북 경주시 황성동 1047-6",
-    latlng: "35.85964358875022, 129.20811940126714"
+    latlng: "35.85964358875022, 129.20811940126714",
+    address_english: "Gyeongju Indoor Stadium 5 Stadium"
   },
   {
     solo: true,
@@ -16432,7 +17978,8 @@ var position = [
     full: "경주 확진자",
     address: "계명대학교 대구동산병원 이비인후과",
     address_name: "대구 중구 동산동 194",
-    latlng: "35.86971320003969, 128.58290625923124"
+    latlng: "35.86971320003969, 128.58290625923124",
+    address_english: "Geimyung University Daegu Dongsan Hospital E.P.D."
   },
   {
     solo: true,
@@ -16444,7 +17991,8 @@ var position = [
     full: "경주 확진자",
     address: "경동약국",
     address_name: "경북 경주시 서부동 157",
-    latlng: "35.845235370536905, 129.20981358301916"
+    latlng: "35.845235370536905, 129.20981358301916",
+    address_english: "Gyeongdong Pharmacy"
   },
   {
     solo: true,
@@ -16456,7 +18004,8 @@ var position = [
     full: "경주 확진자",
     address: "미스터추",
     address_name: "경북 경주시 성건동 682-6",
-    latlng: "35.854980565588015, 129.20631210491112"
+    latlng: "35.854980565588015, 129.20631210491112",
+    address_english: "Mr. Chu"
   },
   {
     solo: true,
@@ -16468,7 +18017,9 @@ var position = [
     full: "경주 확진자",
     address: "코로나19 경주시보건소 선별진료소",
     address_name: "경북 경주시 동천동 987",
-    latlng: "35.85946495320622, 129.22463338704128"
+    latlng: "35.85946495320622, 129.22463338704128",
+    address_english:
+      "Corona19 Gyeongju Municipal Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -16480,7 +18031,8 @@ var position = [
     full: "제주 확진자",
     address: "중문의원-앞 택시 하차",
     address_name: "제주특별자치도 서귀포시 중문동 2027-2",
-    latlng: "33.2514363946207, 126.42545312436"
+    latlng: "33.2514363946207, 126.42545312436",
+    address_english: "Median-Passing Taxis in Front"
   },
   {
     solo: true,
@@ -16492,7 +18044,8 @@ var position = [
     full: "제주 확진자",
     address: "중문신내과의원",
     address_name: "제주특별자치도 서귀포시 중문동 2114-3",
-    latlng: "33.251984076173905, 126.42300718010898"
+    latlng: "33.251984076173905, 126.42300718010898",
+    address_english: "a heavy-duty neurosurgeon"
   },
   {
     solo: true,
@@ -16504,7 +18057,8 @@ var position = [
     full: "경주 확진자",
     address: "건천탕",
     address_name: "경북 경주시 건천읍 건천리 295-1",
-    latlng: "35.848700359504605, 129.10334888974756"
+    latlng: "35.848700359504605, 129.10334888974756",
+    address_english: "a dry bath"
   },
   {
     solo: true,
@@ -16516,7 +18070,8 @@ var position = [
     full: "경주 확진자",
     address: "한국수력원자력 본사",
     address_name: "경북 경주시 양북면 장항리 288",
-    latlng: "35.79417510954681, 129.39110882514368"
+    latlng: "35.79417510954681, 129.39110882514368",
+    address_english: "Korea Hydro & Nuclear Power Headquarters"
   },
   {
     solo: true,
@@ -16528,7 +18083,8 @@ var position = [
     full: "경주 확진자",
     address: "청춘약국",
     address_name: "경북 경주시 황오동 203-59",
-    latlng: "35.844281878971024, 129.2142270428762"
+    latlng: "35.844281878971024, 129.2142270428762",
+    address_english: "Youth Pharmacy"
   },
   {
     solo: true,
@@ -16540,7 +18096,8 @@ var position = [
     full: "경주 확진자",
     address: "한사랑이비인후과의원",
     address_name: "경북 경주시 황성동 640-2",
-    latlng: "35.871324035302415, 129.2140274924202"
+    latlng: "35.871324035302415, 129.2140274924202",
+    address_english: "Han Sarang E. P.D."
   },
   {
     solo: true,
@@ -16552,7 +18109,8 @@ var position = [
     full: "경주 확진자",
     address: "한빛약국",
     address_name: "경북 경주시 황성동 635-1",
-    latlng: "35.871324035302436, 129.2140274924201"
+    latlng: "35.871324035302436, 129.2140274924201",
+    address_english: "Hanbit Pharmacy"
   },
   {
     solo: true,
@@ -16564,7 +18122,8 @@ var position = [
     full: "경주 확진자",
     address: "인제대학교 해운대백병원",
     address_name: "부산 해운대구 좌동 1435",
-    latlng: "35.17333591469751, 129.18218305815617"
+    latlng: "35.17333591469751, 129.18218305815617",
+    address_english: "Inje University Haeundae Hospital"
   },
   {
     solo: true,
@@ -16576,7 +18135,8 @@ var position = [
     full: "안동 확진자",
     address: "월남선생 안동정하점",
     address_name: "경북 안동시 정하동 284-5",
-    latlng: "36.54960661464149, 128.73337943630742"
+    latlng: "36.54960661464149, 128.73337943630742",
+    address_english: "Mr. Wolnam Andongjeongha Point"
   },
   {
     solo: true,
@@ -16588,7 +18148,8 @@ var position = [
     full: "안동 확진자",
     address: "공차 안동옥동점",
     address_name: "경북 안동시 옥동 787-9",
-    latlng: "36.5636549712546, 128.70190046265733"
+    latlng: "36.5636549712546, 128.70190046265733",
+    address_english: "Gongcha Andong Okdong Branch"
   },
   {
     solo: true,
@@ -16600,7 +18161,8 @@ var position = [
     full: "안동 확진자",
     address: "우송예술회관 졸업식",
     address_name: "대전 동구 자양동 155-3",
-    latlng: "36.3364076899463, 127.446226736321"
+    latlng: "36.3364076899463, 127.446226736321",
+    address_english: "Wusong Arts Center Graduation Ceremony"
   },
   {
     solo: true,
@@ -16612,7 +18174,8 @@ var position = [
     full: "안동 확진자",
     address: "1983더그레이 자양점",
     address_name: "대전 동구 자양동 51-3",
-    latlng: "36.33880057580449, 127.44928235800198"
+    latlng: "36.33880057580449, 127.44928235800198",
+    address_english: "1983 Dergrey Nutrition Store"
   },
   {
     solo: true,
@@ -16624,7 +18187,8 @@ var position = [
     full: "안동 확진자",
     address: "레스모아 대전중앙점",
     address_name: "대전 중구 은행동 136-13",
-    latlng: "36.32926539913082, 127.42686497642283"
+    latlng: "36.32926539913082, 127.42686497642283",
+    address_english: "Lesmoa Daejeon Central Branch"
   },
   {
     solo: true,
@@ -16636,7 +18200,8 @@ var position = [
     full: "안동 확진자",
     address: "토마토 옷가게 방문",
     address_name: "대전 중구 은행동 142-4",
-    latlng: "36.32863788611775, 127.42694731024464"
+    latlng: "36.32863788611775, 127.42694731024464",
+    address_english: "a visit to a tomato shop"
   },
   {
     solo: true,
@@ -16648,7 +18213,8 @@ var position = [
     full: "안동 확진자",
     address: "원더플레이스 방문",
     address_name: "대전 중구 은행동 147-1",
-    latlng: "36.328100194441205, 127.427112547923"
+    latlng: "36.328100194441205, 127.427112547923",
+    address_english: "Visit Wonder Place"
   },
   {
     solo: true,
@@ -16660,7 +18226,8 @@ var position = [
     full: "안동 확진자",
     address: "인생네컷 방문",
     address_name: "대전 중구 은행동 168-5",
-    latlng: "36.327682681528294, 127.427943324534"
+    latlng: "36.327682681528294, 127.427943324534",
+    address_english: "a four-cut visit of life"
   },
   {
     solo: true,
@@ -16672,7 +18239,8 @@ var position = [
     full: "안동 확진자",
     address: "에메필 대전3호점",
     address_name: "대전 중구 은행동 166-1",
-    latlng: "36.3275362306008, 127.42756831776201"
+    latlng: "36.3275362306008, 127.42756831776201",
+    address_english: "Emepil Daejeon No. 3"
   },
   {
     solo: true,
@@ -16684,7 +18252,8 @@ var position = [
     full: "안동 확진자",
     address: "섹시쿠키",
     address_name: "대전 중구 은행동 33-1",
-    latlng: "36.3281867084568, 127.428119820645"
+    latlng: "36.3281867084568, 127.428119820645",
+    address_english: "Sexy cookie"
   },
   {
     solo: true,
@@ -16696,7 +18265,9 @@ var position = [
     full: "안동 확진자",
     address: "대전역 - 대구역 이동 (20:14 경산행 7호차 69번 좌석)",
     address_name: "대전 동구 정동 1-1",
-    latlng: "36.33229969089899, 127.43411216191"
+    latlng: "36.33229969089899, 127.43411216191",
+    address_english:
+      "Daejeon Station - Daegu Station (Seats #69 on Train 7:14 to Gyeongsan)"
   },
   {
     solo: true,
@@ -16708,7 +18279,9 @@ var position = [
     full: "안동 확진자",
     address: "대전역 - 대구역 이동 (22:01 경산행 7호차 69번 좌석)",
     address_name: "대구 북구 칠성동2가 302-155",
-    latlng: "35.87594876570239, 128.59627719643822"
+    latlng: "35.87594876570239, 128.59627719643822",
+    address_english:
+      "Daejeon Station - Daegu Station (Seat No. 69 to Gyeongsan 22:01)"
   },
   {
     solo: true,
@@ -16720,7 +18293,8 @@ var position = [
     full: "안동 확진자",
     address: "장미",
     address_name: "대구 중구 동문동 3-10",
-    latlng: "35.87182970082821, 128.59884732789124"
+    latlng: "35.87182970082821, 128.59884732789124",
+    address_english: "rose"
   },
   {
     solo: true,
@@ -16732,7 +18306,8 @@ var position = [
     full: "안동 확진자",
     address: "이마트24 대구교동점",
     address_name: "대구 중구 교동 46-12",
-    latlng: "35.873348, 128.5994"
+    latlng: "35.873348, 128.5994",
+    address_english: "E-Mart24 Daegu Gyodong Branch"
   },
   {
     solo: true,
@@ -16744,7 +18319,8 @@ var position = [
     full: "안동 확진자",
     address: "반월당역 대구2호선 13번출구로 들어감",
     address_name: "대구 중구 덕산동 96-22",
-    latlng: "35.86590517929896, 128.59379289730668"
+    latlng: "35.86590517929896, 128.59379289730668",
+    address_english: "Enter Banwoldang Station Exit 13 of Daegu Line 2"
   },
   {
     solo: true,
@@ -16756,7 +18332,8 @@ var position = [
     full: "안동 확진자",
     address: "영남대역 대구2호선 4번출구 하차",
     address_name: "경북 경산시 대동",
-    latlng: "35.8364468632006, 128.75368943866644"
+    latlng: "35.8364468632006, 128.75368943866644",
+    address_english: "Exit 4 of Daegu Line 2 at Yeongnam University Station"
   },
   {
     solo: true,
@@ -16768,7 +18345,8 @@ var position = [
     full: "안동 확진자",
     address: "파리바게뜨 안동정하점",
     address_name: "경북 안동시 정하동 280-7",
-    latlng: "36.55052044916591, 128.7349767112714"
+    latlng: "36.55052044916591, 128.7349767112714",
+    address_english: "Paris Baguette Andong Jungnha Point"
   },
   {
     solo: true,
@@ -16780,7 +18358,8 @@ var position = [
     full: "안동 확진자",
     address: "다이소 대구반월당역점",
     address_name: "대구 중구 덕산동 107",
-    latlng: "35.865474086038695, 128.59354734833323"
+    latlng: "35.865474086038695, 128.59354734833323",
+    address_english: "Daiso Daegu Banwoldang Station"
   },
   {
     solo: true,
@@ -16792,7 +18371,8 @@ var position = [
     full: "안동 확진자",
     address: "청년다방 대구동성로점",
     address_name: "대구 중구 사일동 55-2",
-    latlng: "35.869776720809796, 128.59499751134624"
+    latlng: "35.869776720809796, 128.59499751134624",
+    address_english: "Youth Dabang Daegu Dongseongno Branch"
   },
   {
     solo: true,
@@ -16804,7 +18384,8 @@ var position = [
     full: "안동 확진자",
     address: "슬로우터틀 방문",
     address_name: "대구 중구 동성로3가 42",
-    latlng: "35.86727793828269, 128.5925461117982"
+    latlng: "35.86727793828269, 128.5925461117982",
+    address_english: "a slow-tuttle visit"
   },
   {
     solo: true,
@@ -16816,7 +18397,9 @@ var position = [
     full: "안동 확진자",
     address: "국채보상운동기념공원 공영주차장",
     address_name: "대구 중구 동인동2가 42",
-    latlng: "35.8688268282589, 128.60028825231421"
+    latlng: "35.8688268282589, 128.60028825231421",
+    address_english:
+      "Public parking lot of the National Debt Compensation Movement Memorial Park"
   },
   {
     solo: true,
@@ -16828,7 +18411,8 @@ var position = [
     full: "안동 확진자",
     address: "KFC 대구문화동점",
     address_name: "대구 중구 문화동 18-1",
-    latlng: "35.87044409432819, 128.59712775997724"
+    latlng: "35.87044409432819, 128.59712775997724",
+    address_english: "KFC Daegu Cultural Center"
   },
   {
     solo: true,
@@ -16840,7 +18424,8 @@ var position = [
     full: "안동 확진자",
     address: "카페자우 대구점",
     address_name: "대구 중구 사일동 35",
-    latlng: "35.870553496499, 128.59486250987223"
+    latlng: "35.870553496499, 128.59486250987223",
+    address_english: "Caféj자u Daegu branch"
   },
   {
     solo: true,
@@ -16852,7 +18437,8 @@ var position = [
     full: "안동 확진자",
     address: "SK엔크린 이마트셀프전용주유소 방문",
     address_name: "경북 안동시 옥동 800-3",
-    latlng: "36.5576053074785, 128.69925702657935"
+    latlng: "36.5576053074785, 128.69925702657935",
+    address_english: "Visit SK Encreen E-Mart Self-Freezing Refinery"
   },
   {
     solo: true,
@@ -16864,7 +18450,9 @@ var position = [
     full: "안동 확진자",
     address: "안동영호초등학교 교직원 회의 참여",
     address_name: "경북 안동시 옥동 923-1",
-    latlng: "36.5605441321921, 128.6918068346043"
+    latlng: "36.5605441321921, 128.6918068346043",
+    address_english:
+      "Participating in the faculty meeting of Andong Youngho Elementary School"
   },
   {
     solo: true,
@@ -16876,7 +18464,8 @@ var position = [
     full: "안동 확진자",
     address: "GS25 옥동주공점",
     address_name: "경북 안동시 옥동 937-5",
-    latlng: "36.56086355858219, 128.69393147064335"
+    latlng: "36.56086355858219, 128.69393147064335",
+    address_english: "GS25 Okdongju-Gongshop"
   },
   {
     solo: true,
@@ -16888,7 +18477,9 @@ var position = [
     full: "안동 확진자",
     address: "현대백화점 대구점 1층 모든 매장 방문, 4층 닥스 매장 방문",
     address_name: "대구 중구 계산동2가 200",
-    latlng: "35.86662835745753, 128.5906311185278"
+    latlng: "35.86662835745753, 128.5906311185278",
+    address_english:
+      "Visit all the stores on the first floor of Hyundai Department Store's Daegu branch and visit the Dachs store on the fourth floor."
   },
   {
     solo: true,
@@ -16900,7 +18491,8 @@ var position = [
     full: "안동 확진자",
     address: "가야숯불구이 안동본점",
     address_name: "경북 안동시 옥동 983-11",
-    latlng: "36.5612002046445, 128.70318690478436"
+    latlng: "36.5612002046445, 128.70318690478436",
+    address_english: "Andong Branch, Charcoal Burning of Gaya"
   },
   {
     solo: true,
@@ -16912,7 +18504,8 @@ var position = [
     full: "안동 확진자",
     address: "크린토피아 안동지사직영점",
     address_name: "경북 안동시 옥동 942-5",
-    latlng: "36.56069415314001, 128.69494639477233"
+    latlng: "36.56069415314001, 128.69494639477233",
+    address_english: "Creentopia Andong Branch Office Branch"
   },
   {
     solo: true,
@@ -16924,7 +18517,8 @@ var position = [
     full: "안동 확진자",
     address: "이마트 안동점 (2/20 1층, 2/22 B1층)",
     address_name: "경북 안동시 옥동 796-1",
-    latlng: "36.5584214973413, 128.69914087852234"
+    latlng: "36.5584214973413, 128.69914087852234",
+    address_english: "E-Mart's Andong branch (2/20 1F, 2/22 B1F)"
   },
   {
     solo: true,
@@ -16936,7 +18530,8 @@ var position = [
     full: "안동 확진자",
     address: "안동영호초등학교 근무 (2/20, 21)",
     address_name: "경북 안동시 옥동 923-1",
-    latlng: "36.5605441321921, 128.6918068346043"
+    latlng: "36.5605441321921, 128.6918068346043",
+    address_english: "Working for Andong Yeongho Elementary School (2/20, 21)"
   },
   {
     solo: true,
@@ -16948,7 +18543,8 @@ var position = [
     full: "김천 확진자",
     address: "김천남면우체국",
     address_name: "경북 김천시 남면 운곡리 372-1",
-    latlng: "36.094945009621206, 128.21954078786916"
+    latlng: "36.094945009621206, 128.21954078786916",
+    address_english: "Gimcheon Nammyun Post Office"
   },
   {
     solo: true,
@@ -16960,7 +18556,8 @@ var position = [
     full: "김천 확진자",
     address: "유앤아이이비인후과 방문",
     address_name: "경북 김천시 율곡동 363",
-    latlng: "36.1213614927456, 128.18196141615186"
+    latlng: "36.1213614927456, 128.18196141615186",
+    address_english: "Visit UNI.V.N."
   },
   {
     solo: true,
@@ -16972,7 +18569,8 @@ var position = [
     full: "김천 확진자",
     address: "드림약국 방문",
     address_name: "경북 김천시 율곡동 363",
-    latlng: "36.1213614927456, 128.18196141615186"
+    latlng: "36.1213614927456, 128.18196141615186",
+    address_english: "Visit Dream Pharmacy"
   },
   {
     solo: true,
@@ -16984,7 +18582,8 @@ var position = [
     full: "김천 확진자",
     address: "민들레소아청소년과의원 (복도)",
     address_name: "경북 김천시 율곡동 780",
-    latlng: "36.1179524902317, 128.18332309780203"
+    latlng: "36.1179524902317, 128.18332309780203",
+    address_english: "Dandelessoa Youth Clinic (A hallway)"
   },
   {
     solo: true,
@@ -16996,9 +18595,9 @@ var position = [
     full: "김천 확진자",
     address: "미니스톱 김천골드점 방문",
     address_name: "경북 김천시 율곡동 409",
-    latlng: "36.118708633436825, 128.17902053149402"
+    latlng: "36.118708633436825, 128.17902053149402",
+    address_english: "Visiting Ministop Gimcheon Gold Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -17009,7 +18608,9 @@ var position = [
     full: "김천 확진자",
     address: "코로나19 김천시보건소 선별진료소",
     address_name: "경북 김천시 신음동 1284",
-    latlng: "36.1395347721546, 128.11286400793801"
+    latlng: "36.1395347721546, 128.11286400793801",
+    address_english:
+      "Corona19 Kimcheon City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -17021,7 +18622,8 @@ var position = [
     full: "충주 확진자",
     address: "충주시티자이아파트 자택귀가(2/22 18:00)",
     address_name: "충북 충주시 중앙탑면 용전리 721",
-    latlng: "37.01805905335643, 127.83228074551596"
+    latlng: "37.01805905335643, 127.83228074551596",
+    address_english: "Homecoming of Chungju City Zhai Apartment (2/22 18:00)"
   },
   {
     solo: true,
@@ -17033,7 +18635,8 @@ var position = [
     full: "충주 확진자",
     address: "롯데마켓999 중앙탑점 방문 (11:00-11:10)",
     address_name: "충북 충주시 중앙탑면 용전리 686",
-    latlng: "37.01776209140349, 127.826035481156"
+    latlng: "37.01776209140349, 127.826035481156",
+    address_english: "Lotte Market 999 Visit the Central Tower (11:00-11:10)"
   },
   {
     solo: true,
@@ -17045,7 +18648,8 @@ var position = [
     full: "충주 확진자",
     address: "이마트에브리데이 서충주점 (11:20-11:40)",
     address_name: "충북 충주시 중앙탑면 용전리 683",
-    latlng: "37.0172244305246, 127.825090273377"
+    latlng: "37.0172244305246, 127.825090273377",
+    address_english: "E-Mart Everyday Seochungju branch (11:20-11:40)"
   },
   {
     solo: true,
@@ -17057,7 +18661,8 @@ var position = [
     full: "충주 확진자",
     address: "충주시티자이아파트 자택귀가(2/23 18:00)",
     address_name: "충북 충주시 중앙탑면 용전리 721",
-    latlng: "37.01805905335643, 127.83228074551596"
+    latlng: "37.01805905335643, 127.83228074551596",
+    address_english: "Homecoming of Chungju City Zhai Apartment (2/23 18:00)"
   },
   {
     solo: true,
@@ -17069,7 +18674,8 @@ var position = [
     full: "충주 확진자",
     address: "엄정약국 (8:50-8:55)",
     address_name: "충북 충주시 엄정면 용산리 467",
-    latlng: "37.08630035463119, 127.91479201840801"
+    latlng: "37.08630035463119, 127.91479201840801",
+    address_english: "Eomjeong Pharmacy (8:50-8:55)"
   },
   {
     solo: true,
@@ -17081,7 +18687,8 @@ var position = [
     full: "울산 확진자",
     address: "울산시외버스터미널",
     address_name: "울산 남구 삼산동 1481-14",
-    latlng: "35.53656232936562, 129.3397285258992"
+    latlng: "35.53656232936562, 129.3397285258992",
+    address_english: "Ulsan Bus Terminal"
   },
   {
     solo: true,
@@ -17093,7 +18700,8 @@ var position = [
     full: "울산 확진자",
     address: "좋은의사들안과병원, 밝은약국",
     address_name: "울산 남구 달동 1360-9",
-    latlng: "35.538302824879494, 129.33039764696744"
+    latlng: "35.538302824879494, 129.33039764696744",
+    address_english: "Good doctors and hospitals, bright pharmacies"
   },
   {
     solo: true,
@@ -17105,7 +18713,8 @@ var position = [
     full: "울산 확진자",
     address: "명륜진사갈비 울산달동점",
     address_name: "울산 남구 달동 191-3",
-    latlng: "35.53350086609292, 129.32359395205006"
+    latlng: "35.53350086609292, 129.32359395205006",
+    address_english: "Myeongnyun Jinxagalbi Ulsan Daldong Branch"
   },
   {
     solo: true,
@@ -17117,7 +18726,8 @@ var position = [
     full: "울산 확진자",
     address: "울산남구보건소",
     address_name: "울산 남구 삼산동 1538-4",
-    latlng: "35.54536124965062, 129.33633274904517"
+    latlng: "35.54536124965062, 129.33633274904517",
+    address_english: "Ulsan Namgu Health Center"
   },
   {
     solo: true,
@@ -17129,7 +18739,8 @@ var position = [
     full: "구미 확진자",
     address: "한촌설렁탕 구미원평점",
     address_name: "경북 구미시 원평동 1029-3",
-    latlng: "36.126008960665594, 128.33906443228105"
+    latlng: "36.126008960665594, 128.33906443228105",
+    address_english: "Hanchon Seolleongtang Gumiwon Plain"
   },
   {
     solo: true,
@@ -17141,7 +18752,8 @@ var position = [
     full: "구미 확진자",
     address: "탐앤탐스 구미원평점",
     address_name: "경북 구미시 원평동 147-9",
-    latlng: "36.1290707916956, 128.33472651117506"
+    latlng: "36.1290707916956, 128.33472651117506",
+    address_english: "Tom and Tom's Gumiwon Plain"
   },
   {
     solo: true,
@@ -17153,7 +18765,8 @@ var position = [
     full: "구미 확진자",
     address: "다이소 구미중앙시장점",
     address_name: "경북 구미시 원평동 120-17",
-    latlng: "36.13086553514341, 128.33086896520206"
+    latlng: "36.13086553514341, 128.33086896520206",
+    address_english: "Gumi Central Market, Daiso."
   },
   {
     solo: true,
@@ -17165,7 +18778,8 @@ var position = [
     full: "구미 확진자",
     address: "스파오 구미문화로점",
     address_name: "경북 구미시 원평동 126-6",
-    latlng: "36.1298536517828, 128.3322381893521"
+    latlng: "36.1298536517828, 128.3322381893521",
+    address_english: "Spao Gumi Cultural Road"
   },
   {
     solo: true,
@@ -17177,7 +18791,8 @@ var position = [
     full: "구미 확진자",
     address: "화로애뼈다귀해장국감자탕",
     address_name: "경북 구미시 원평동 1032-4",
-    latlng: "36.126041968026016, 128.34126876233807"
+    latlng: "36.126041968026016, 128.34126876233807",
+    address_english: "Yellow-eared rib hangover soup potato soup"
   },
   {
     solo: true,
@@ -17189,7 +18804,8 @@ var position = [
     full: "충주 확진자B",
     address: "KRC대한 로봇학원 4층 (10:00)",
     address_name: "충북 충주시 칠금동 616",
-    latlng: "36.98701, 127.921104"
+    latlng: "36.98701, 127.921104",
+    address_english: "4th floor of Robot Academy in KRC (10:00)"
   },
   {
     solo: true,
@@ -17201,7 +18817,9 @@ var position = [
     full: "충주 확진자B",
     address: "롯데마트 2층 롯데리아 및 마트 방문 (12:18-14:15)",
     address_name: "충북 충주시 칠금동 849",
-    latlng: "36.98183421784591, 127.914653882495"
+    latlng: "36.98183421784591, 127.914653882495",
+    address_english:
+      "Visit Lotteria and Mart on the second floor of Lotte Mart (12:18-14:15)"
   },
   {
     solo: true,
@@ -17213,7 +18831,8 @@ var position = [
     full: "충주 확진자B",
     address: "세중참사랑아파트 친구 방문 (2/20 14:00)",
     address_name: "충북 충주시 목행동 508-39",
-    latlng: "37.004197615244266, 127.91894376845002"
+    latlng: "37.004197615244266, 127.91894376845002",
+    address_english: "Visit Friend of the Multi-Family Apartment (2/20 14:00)"
   },
   {
     solo: true,
@@ -17225,7 +18844,8 @@ var position = [
     full: "충주 확진자B",
     address: "세중참사랑아파트 놀이터 (2/20 15:00)",
     address_name: "충북 충주시 목행동 508-39",
-    latlng: "37.004197615244266, 127.91894376845002"
+    latlng: "37.004197615244266, 127.91894376845002",
+    address_english: "Multi-family Housing Playground (2/20 15:00)"
   },
   {
     solo: true,
@@ -17237,7 +18857,8 @@ var position = [
     full: "충주 확진자B",
     address: "세중참사랑아파트 자택 귀가 (2/20 16:00)",
     address_name: "충북 충주시 목행동 508-39",
-    latlng: "37.004197615244266, 127.91894376845002"
+    latlng: "37.004197615244266, 127.91894376845002",
+    address_english: "Homecoming of the Multi-Family Apartment (2/20)"
   },
   {
     solo: true,
@@ -17249,7 +18870,9 @@ var position = [
     full: "충주 확진자B",
     address: "정연무내과의원 진료 및 수액 (11:30-14:00)",
     address_name: "충북 충주시 칠금동 838",
-    latlng: "36.98266005936304, 127.91692804572162"
+    latlng: "36.98266005936304, 127.91692804572162",
+    address_english:
+      "Clinical treatment and fluids of a smoke-free physician (11:30-14:00)"
   },
   {
     solo: true,
@@ -17261,7 +18884,9 @@ var position = [
     full: "충주 확진자B",
     address: "새충주약국 방문 후 자택 귀가 (13:11-14:11)",
     address_name: "충북 충주시 칠금동 858",
-    latlng: "36.982601, 127.916918"
+    latlng: "36.982601, 127.916918",
+    address_english:
+      "Homecoming from Visit to New Chungju Pharmacy (13:11-14:11)"
   },
   {
     solo: true,
@@ -17273,7 +18898,8 @@ var position = [
     full: "충주 확진자B",
     address: "이마트 4층 주차장-엘리베이터-1층 매장 (16:42-18:22)",
     address_name: "충북 충주시 문화동 1024",
-    latlng: "36.97217978702432, 127.92380082965099"
+    latlng: "36.97217978702432, 127.92380082965099",
+    address_english: "E-Mart Parking Lot 4F-Elevator-1F Store (16:42-18:22)"
   },
   {
     solo: true,
@@ -17285,7 +18911,9 @@ var position = [
     full: "충주 확진자B",
     address: "현대연합의원 고열, 심한 두통 진료(15:48-17:03)",
     address_name: "충북 충주시 금릉동 862",
-    latlng: "36.9880844959914, 127.928045760794"
+    latlng: "36.9880844959914, 127.928045760794",
+    address_english:
+      "Hyundai United Rep. High fever and severe headache treatment (15:48-17:03)"
   },
   {
     solo: true,
@@ -17297,7 +18925,8 @@ var position = [
     full: "충주 확진자B",
     address: "이수약국 방문 후 자택 귀가 (16:04-17:05)",
     address_name: "충북 충주시 금릉동 862",
-    latlng: "36.9880369784015, 127.92813054906001"
+    latlng: "36.9880369784015, 127.92813054906001",
+    address_english: "Homecoming from a visit to the pharmacy (16:04-17:05)"
   },
   {
     solo: true,
@@ -17309,7 +18938,9 @@ var position = [
     full: "충주 확진자B",
     address: "코로나19 충주의료원 선별진료소 방문 (15:00)",
     address_name: "충북 충주시 안림동 134",
-    latlng: "36.97957909864061, 127.970350888968"
+    latlng: "36.97957909864061, 127.970350888968",
+    address_english:
+      "Corona19 Visit Chungju Medical Center Screening Care Center (15:00)"
   },
   {
     solo: true,
@@ -17321,7 +18952,8 @@ var position = [
     full: "구미 확진자",
     address: "테이크유어타임카페 (2/17, 18, 19)",
     address_name: "경북 구미시 원평동 126-43",
-    latlng: "36.129870317025116, 128.33187412013208"
+    latlng: "36.129870317025116, 128.33187412013208",
+    address_english: "Take Your Time Cafe (2/17, 18, 19)"
   },
   {
     solo: true,
@@ -17333,7 +18965,8 @@ var position = [
     full: "상주 확진자",
     address: "극락마을(퇴근)",
     address_name: "경북 예천군 풍양면 낙상리 237",
-    latlng: "36.512447010115615, 128.29715649245105"
+    latlng: "36.512447010115615, 128.29715649245105",
+    address_english: "Gukrak Village (retirement)"
   },
   {
     solo: true,
@@ -17345,7 +18978,8 @@ var position = [
     full: "상주 확진자",
     address: "선산김치곱창",
     address_name: "경북 상주시 성동동 629-4",
-    latlng: "36.412994708821, 128.16355481307704"
+    latlng: "36.412994708821, 128.16355481307704",
+    address_english: "Sunsan Kimchi Tripe"
   },
   {
     solo: true,
@@ -17357,7 +18991,8 @@ var position = [
     full: "상주 확진자",
     address: "신화 웰마트 상주점",
     address_name: "경북 상주시 성하동 2-1",
-    latlng: "36.415783404918095, 128.16478267463404"
+    latlng: "36.415783404918095, 128.16478267463404",
+    address_english: "Xinhua Well-Mart Resident Branch"
   },
   {
     solo: true,
@@ -17369,7 +19004,8 @@ var position = [
     full: "상주 확진자",
     address: "푸른문구사",
     address_name: "경북 상주시 남성동 115-36",
-    latlng: "36.4117331219396, 128.15985253141702"
+    latlng: "36.4117331219396, 128.15985253141702",
+    address_english: "a blue phrase"
   },
   {
     solo: true,
@@ -17381,7 +19017,8 @@ var position = [
     full: "구미 확진자",
     address: "새한솔약국",
     address_name: "경북 구미시 원평동 366-6",
-    latlng: "36.12747295422842, 128.3350604617211"
+    latlng: "36.12747295422842, 128.3350604617211",
+    address_english: "Saehan Sol Pharmacy"
   },
   {
     solo: true,
@@ -17393,7 +19030,8 @@ var position = [
     full: "구미 확진자",
     address: "가배공상",
     address_name: "경북 구미시 원평동 1032-5",
-    latlng: "36.12578867997941, 128.34103341305905"
+    latlng: "36.12578867997941, 128.34103341305905",
+    address_english: "Gabae Gongsang"
   },
   {
     solo: true,
@@ -17405,7 +19043,8 @@ var position = [
     full: "구미 확진자",
     address: "웰빙선식견과류",
     address_name: "경북 구미시 원평동 119-20",
-    latlng: "36.129794434836, 128.32962008462607"
+    latlng: "36.129794434836, 128.32962008462607",
+    address_english: "Well-being well-informed tree"
   },
   {
     solo: true,
@@ -17417,7 +19056,8 @@ var position = [
     full: "상주 확진자",
     address: "성모약국",
     address_name: "경북 상주시 성하동 5-4",
-    latlng: "36.41412533928014, 128.162935079698"
+    latlng: "36.41412533928014, 128.162935079698",
+    address_english: "St. Mary's Pharmacy"
   },
   {
     solo: true,
@@ -17429,7 +19069,8 @@ var position = [
     full: "구미 확진자",
     address: "김두한내과의원",
     address_name: "경북 구미시 원평동 361-15",
-    latlng: "36.12728178571676, 128.33547599131634"
+    latlng: "36.12728178571676, 128.33547599131634",
+    address_english: "Kim Doo-hwan Clinic"
   },
   {
     solo: true,
@@ -17441,7 +19082,8 @@ var position = [
     full: "상주 확진자",
     address: "상주농협하나로마트",
     address_name: "경북 상주시 남성동 184",
-    latlng: "36.40928395656528, 128.16151398224898"
+    latlng: "36.40928395656528, 128.16151398224898",
+    address_english: "Resident Agricultural Cooperative Haramart"
   },
   {
     solo: true,
@@ -17453,7 +19095,8 @@ var position = [
     full: "상주 확진자",
     address: "천일약국",
     address_name: "경북 상주시 남성동 88-8",
-    latlng: "36.41325801586181, 128.16242603120304"
+    latlng: "36.41325801586181, 128.16242603120304",
+    address_english: "heaven and earth"
   },
   {
     solo: true,
@@ -17465,7 +19108,8 @@ var position = [
     full: "상주 확진자",
     address: "삼화푸드몰",
     address_name: "경북 상주시 남성동 6-26",
-    latlng: "36.41553794892279, 128.16074751568402"
+    latlng: "36.41553794892279, 128.16074751568402",
+    address_english: "Samhwa Food Mall"
   },
   {
     solo: true,
@@ -17477,7 +19121,8 @@ var position = [
     full: "상주 확진자",
     address: "신흥동물약품(2/21,24)",
     address_name: "경북 상주시 남성동 165-2",
-    latlng: "36.40956818370881, 128.161938500625"
+    latlng: "36.40956818370881, 128.161938500625",
+    address_english: "Emerging animal medicines (2/21,24)"
   },
   {
     solo: true,
@@ -17489,7 +19134,8 @@ var position = [
     full: "상주 확진자",
     address: "함창이안 양계장(2/21,24)",
     address_name: "경북 상주시 함창읍 대조리 717",
-    latlng: "36.5750973691745, 128.16932515703604"
+    latlng: "36.5750973691745, 128.16932515703604",
+    address_english: "Hamchang-Ian poultry farm (2/21,24)"
   },
   {
     solo: true,
@@ -17501,7 +19147,8 @@ var position = [
     full: "상주 확진자",
     address: "경동메디칼약국(2/21,23)",
     address_name: "경북 상주시 남성동 84-49",
-    latlng: "36.41329562327936, 128.15929937477964"
+    latlng: "36.41329562327936, 128.15929937477964",
+    address_english: "Gyeongdong Medical Pharmacy (2/21,23)"
   },
   {
     solo: true,
@@ -17513,7 +19160,8 @@ var position = [
     full: "대전 확진자",
     address: "두찜 대전지족점(포장)",
     address_name: "대전 유성구 지족동 986-1",
-    latlng: "36.38636713616571, 127.31725897467594"
+    latlng: "36.38636713616571, 127.31725897467594",
+    address_english: "Dujim Daejeon Branch (packaged)"
   },
   {
     solo: true,
@@ -17525,7 +19173,8 @@ var position = [
     full: "창원 확진자",
     address: "메디칼큰온누리약국",
     address_name: "경남 창원시 성산구 상남동 2-1",
-    latlng: "35.223802277365806, 128.68591771803437"
+    latlng: "35.223802277365806, 128.68591771803437",
+    address_english: "Medicalken Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -17537,7 +19186,8 @@ var position = [
     full: "거제 확진자",
     address: "옥포 장수굴국밥",
     address_name: "경남 거제시 옥포동 1942",
-    latlng: "34.891231312593796, 128.69540471774337"
+    latlng: "34.891231312593796, 128.69540471774337",
+    address_english: "Okpo Jangguol gull gukbap"
   },
   {
     solo: true,
@@ -17549,7 +19199,9 @@ var position = [
     full: "거제 확진자",
     address: "거제고현시장 공영주차장 1층 주차, 고현 블루진랜드에서 복권 구입",
     address_name: "경남 거제시 고현동 104-2",
-    latlng: "34.88544657533341, 128.62402587699327"
+    latlng: "34.88544657533341, 128.62402587699327",
+    address_english:
+      "Parking on the first floor of the public parking lot of Geoje Kohyeon Market and buying lottery tickets at Gohyeon Bluejin Land"
   },
   {
     solo: true,
@@ -17561,7 +19213,9 @@ var position = [
     full: "거제 확진자",
     address: "신현농협 하나로마트 상문점",
     address_name: "경남 거제시 상동동 224",
-    latlng: "34.868412542665894, 128.63692251590828"
+    latlng: "34.868412542665894, 128.63692251590828",
+    address_english:
+      "Shinhyeon Agricultural Cooperative Federation, Hanarotele-Mart's Upper Gate Store"
   },
   {
     solo: true,
@@ -17573,7 +19227,8 @@ var position = [
     full: "거제 확진자",
     address: "코로나19 거제시보건소 선별진료소",
     address_name: "경남 거제시 양정동 981",
-    latlng: "34.8919453531363, 128.63674609115725"
+    latlng: "34.8919453531363, 128.63674609115725",
+    address_english: "Corona19 Geoje City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -17585,7 +19240,8 @@ var position = [
     full: "거제 확진자",
     address: "경상남도 마산의료원",
     address_name: "경남 창원시 마산합포구 장군동4가 3-6",
-    latlng: "35.19917138155086, 128.565560620545"
+    latlng: "35.19917138155086, 128.565560620545",
+    address_english: "Masan Medical Center, South Gyeongsang Province"
   },
   {
     solo: true,
@@ -17597,7 +19253,8 @@ var position = [
     full: "대전 확진자D",
     address: "당신의약국 방문 (18:30)",
     address_name: "대전 유성구 봉명동 615-2",
-    latlng: "36.35815997398951, 127.344428830497"
+    latlng: "36.35815997398951, 127.344428830497",
+    address_english: "Visit your pharmacy (18:30)"
   },
   {
     solo: true,
@@ -17609,7 +19266,8 @@ var position = [
     full: "대전 확진자D",
     address: "BMK웨딩홀 1층 (11:40)",
     address_name: "대전 중구 문화1동 311-2",
-    latlng: "36.31989338387991, 127.40504521449799"
+    latlng: "36.31989338387991, 127.40504521449799",
+    address_english: "BMK Wedding Hall 1F (11:40)"
   },
   {
     solo: true,
@@ -17621,7 +19279,8 @@ var position = [
     full: "대전 확진자D",
     address: "산림기술연구원 (8:30-18:00)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.358257937455605, 127.38886149132101"
+    latlng: "36.358257937455605, 127.38886149132101",
+    address_english: "Korea Forest Research Institute (8:30-18:00)"
   },
   {
     solo: true,
@@ -17633,7 +19292,9 @@ var position = [
     full: "대전 확진자D",
     address: "D 코로나19 유성선병원 선별진료소 (2/25 8:30)",
     address_name: "대전 유성구 지족동 923",
-    latlng: "36.375174551327405, 127.32497970650898"
+    latlng: "36.375174551327405, 127.32497970650898",
+    address_english:
+      "D Corona19 Selective Care Center of Meteorite Hospital (2/25 8:30)"
   },
   {
     solo: true,
@@ -17645,7 +19306,8 @@ var position = [
     full: "대전 확진자D",
     address: "정문약국 방문 후 자택 귀가 (10:00)",
     address_name: "대전 유성구 지족동 22-5",
-    latlng: "36.3745813461439, 127.32572721827032"
+    latlng: "36.3745813461439, 127.32572721827032",
+    address_english: "Homecoming from Visit to Jungmun Pharmacy (10:00)"
   },
   {
     solo: true,
@@ -17657,7 +19319,9 @@ var position = [
     full: "대전 확진자D",
     address: "D 충남대학교병원 입원 (2/25 23:00)",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english:
+      "D Chungnam National University Hospital Hospital Hospital admission (2/25 23:00)"
   },
   {
     solo: true,
@@ -17669,7 +19333,8 @@ var position = [
     full: "부산 확진자",
     address: "고신대학교 복음병원 이송",
     address_name: "부산 서구 암남동 41-3",
-    latlng: "35.08033041384687, 129.01571829208288"
+    latlng: "35.08033041384687, 129.01571829208288",
+    address_english: "Transfer to Gosin University Evangelical Hospital"
   },
   {
     solo: true,
@@ -17681,7 +19346,8 @@ var position = [
     full: "부산 확진자",
     address: "대일식당",
     address_name: "경북 경주시 양북면 호암리 398-8",
-    latlng: "35.83343669380062, 129.4055954520408"
+    latlng: "35.83343669380062, 129.4055954520408",
+    address_english: "Japanese restaurant"
   },
   {
     solo: true,
@@ -17693,7 +19359,8 @@ var position = [
     full: "부산 확진자",
     address: "탑마트 사직점",
     address_name: "부산 동래구 사직동 28-25",
-    latlng: "35.1987748170233, 129.05831141964936"
+    latlng: "35.1987748170233, 129.05831141964936",
+    address_english: "Top Mart Sajik Branch"
   },
   {
     solo: true,
@@ -17705,7 +19372,8 @@ var position = [
     full: "상주 확진자",
     address: "농협하나로마트(남성동)",
     address_name: "경북 상주시 남성동 184",
-    latlng: "36.40928395656528, 128.16151398224898"
+    latlng: "36.40928395656528, 128.16151398224898",
+    address_english: "NongHyup Haroro Mart (Namseong-dong)"
   },
   {
     solo: true,
@@ -17717,7 +19385,8 @@ var position = [
     full: "상주 확진자",
     address: "올리브영 상주점(남성동)",
     address_name: "경북 상주시 남성동 12-102",
-    latlng: "36.4152323596305, 128.159182107863"
+    latlng: "36.4152323596305, 128.159182107863",
+    address_english: "Olive Young Resident (Male Seong-dong)"
   },
   {
     solo: true,
@@ -17729,7 +19398,8 @@ var position = [
     full: "상주 확진자",
     address: "상주적십자병원(남성동)",
     address_name: "경북 상주시 남성동 33-27",
-    latlng: "36.4146619061945, 128.15556137927004"
+    latlng: "36.4146619061945, 128.15556137927004",
+    address_english: "Resident Red Cross Hospital (Namseong-dong)"
   },
   {
     solo: true,
@@ -17741,7 +19411,8 @@ var position = [
     full: "상주 확진자",
     address: "하나이비인후과의원(남성동)",
     address_name: "경북 상주시 남성동 12-13",
-    latlng: "36.41459738287471, 128.15961416819601"
+    latlng: "36.41459738287471, 128.15961416819601",
+    address_english: "Hana Medical Center (Namseong-dong)"
   },
   {
     solo: true,
@@ -17753,7 +19424,8 @@ var position = [
     full: "상주 확진자",
     address: "상주 종합약국(남성동)",
     address_name: "경상북도 상주시 남성동 12-13",
-    latlng: "36.414523, 128.159641"
+    latlng: "36.414523, 128.159641",
+    address_english: "Resident General Pharmacy (Namseong-dong)"
   },
   {
     solo: true,
@@ -17765,7 +19437,8 @@ var position = [
     full: "상주 확진자",
     address: "에덴영아전담어린이집",
     address_name: "경북 상주시 신봉동 614-6",
-    latlng: "36.3924115437337, 128.15145128987803"
+    latlng: "36.3924115437337, 128.15145128987803",
+    address_english: "Eden Children's House"
   },
   {
     solo: true,
@@ -17777,7 +19450,8 @@ var position = [
     full: "상주 확진자",
     address: "상영초등학교 병설유치원",
     address_name: "경북 상주시 남성동 188",
-    latlng: "36.4092894026342, 128.16058319278903"
+    latlng: "36.4092894026342, 128.16058319278903",
+    address_english: "Screen Elementary School Hospital"
   },
   {
     solo: true,
@@ -17789,7 +19463,8 @@ var position = [
     full: "상주 확진자",
     address: "정소아청소년과의원",
     address_name: "경북 상주시 남성동 7-7",
-    latlng: "36.415550522437805, 128.15982456176803"
+    latlng: "36.415550522437805, 128.15982456176803",
+    address_english: "Jung So-ah Youth Clinic"
   },
   {
     solo: true,
@@ -17801,7 +19476,8 @@ var position = [
     full: "상주 확진자",
     address: "하나약국",
     address_name: "경북 상주시 남성동 7-8",
-    latlng: "36.41555047912371, 128.15982902074302"
+    latlng: "36.41555047912371, 128.15982902074302",
+    address_english: "Hana Pharmacy"
   },
   {
     solo: true,
@@ -17813,7 +19489,8 @@ var position = [
     full: "상주 확진자",
     address: "경북의료기",
     address_name: "경북 상주시 무양동 248",
-    latlng: "36.420479343655096, 128.15892560333302"
+    latlng: "36.420479343655096, 128.15892560333302",
+    address_english: "Gyeongbuk Medical Flag"
   },
   {
     solo: true,
@@ -17825,7 +19502,8 @@ var position = [
     full: "상주 확진자",
     address: "상주성모병원",
     address_name: "경북 상주시 냉림동 350-5",
-    latlng: "36.42028375480191, 128.15976561585003"
+    latlng: "36.42028375480191, 128.15976561585003",
+    address_english: "Sangju St. Mary's Hospital"
   },
   {
     solo: true,
@@ -17837,7 +19515,8 @@ var position = [
     full: "구미 확진자",
     address: "아트앤하트 동물원미술학원 근무",
     address_name: "경북 구미시 송정동 3",
-    latlng: "36.12199059993951, 128.34028904929605"
+    latlng: "36.12199059993951, 128.34028904929605",
+    address_english: "Working for Art & Hart Zoo Art Academy"
   },
   {
     solo: true,
@@ -17849,7 +19528,8 @@ var position = [
     full: "구미 확진자",
     address: "DC 마트 방문",
     address_name: "경북 구미시 송정동 3",
-    latlng: "36.12199059993951, 128.34028904929605"
+    latlng: "36.12199059993951, 128.34028904929605",
+    address_english: "Visit DC Mart"
   },
   {
     solo: true,
@@ -17861,7 +19541,8 @@ var position = [
     full: "구미 확진자",
     address: "이송디자인 근무",
     address_name: "경북 구미시 원평동 1077-8",
-    latlng: "36.1210863059716, 128.35434846664506"
+    latlng: "36.1210863059716, 128.35434846664506",
+    address_english: "Transfer design service"
   },
   {
     solo: true,
@@ -17873,7 +19554,8 @@ var position = [
     full: "구미 확진자",
     address: "매일그대와 카페 방문",
     address_name: "경북 구미시 원평동 434-8",
-    latlng: "36.12569223474131, 128.33158581444405"
+    latlng: "36.12569223474131, 128.33158581444405",
+    address_english: "Visit you and the cafe every day"
   },
   {
     solo: true,
@@ -17885,7 +19567,8 @@ var position = [
     full: "구미 확진자",
     address: "한촌설렁탕 구미원평점 식사",
     address_name: "경북 구미시 원평동 1029-3",
-    latlng: "36.126008960665594, 128.33906443228105"
+    latlng: "36.126008960665594, 128.33906443228105",
+    address_english: "Hanchon seolleongtang Gumiwon-pyeongjeom meal"
   },
   {
     solo: true,
@@ -17897,7 +19580,8 @@ var position = [
     full: "구미 확진자",
     address: "평양면옥 방문",
     address_name: "경북 구미시 신평동 150-75",
-    latlng: "36.1211940737365, 128.36240622459005"
+    latlng: "36.1211940737365, 128.36240622459005",
+    address_english: "Visit Pyongyang Myeonok"
   },
   {
     solo: true,
@@ -17909,7 +19593,8 @@ var position = [
     full: "구미 확진자",
     address: "SS식자재마트 원평점 방문",
     address_name: "경북 구미시 원평동 302",
-    latlng: "36.12875009792269, 128.33600961982407"
+    latlng: "36.12875009792269, 128.33600961982407",
+    address_english: "Visit the One-Pyeong Point of SS-Materials Mart"
   },
   {
     solo: true,
@@ -17921,7 +19606,8 @@ var position = [
     full: "부산 확진자",
     address: "이마트트레이더스 서면점",
     address_name: "부산 부산진구 부암동 93",
-    latlng: "35.1638844259765, 129.05264262138033"
+    latlng: "35.1638844259765, 129.05264262138033",
+    address_english: "E-Mart Traders' Seomyeon Branch"
   },
   {
     solo: true,
@@ -17933,7 +19619,9 @@ var position = [
     full: "구미 확진자",
     address: "본가 구미원평점 방문",
     address_name: "경북 구미시 원평동 1065-7",
-    latlng: "36.12227954951871, 128.3494662637161"
+    latlng: "36.12227954951871, 128.3494662637161",
+    address_english:
+      "A visit to the Gumiwon-pyeong branch of my parent's house."
   },
   {
     solo: true,
@@ -17945,7 +19633,8 @@ var position = [
     full: "구미 확진자",
     address: "명성사진관 방문",
     address_name: "경북 구미시 선산읍 완전리 126-2",
-    latlng: "36.241688949756124, 128.29918632541805"
+    latlng: "36.241688949756124, 128.29918632541805",
+    address_english: "Visit Myeongseong Photo Museum"
   },
   {
     solo: true,
@@ -17957,7 +19646,8 @@ var position = [
     full: "구미 확진자",
     address: "열린연합이비인후과",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.1073799388922, 128.41896637077008"
+    latlng: "36.1073799388922, 128.41896637077008",
+    address_english: "Open United ENT"
   },
   {
     solo: true,
@@ -17969,7 +19659,8 @@ var position = [
     full: "구미 확진자",
     address: "구미시 우정약국 방문",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.1073799388922, 128.41896637077008"
+    latlng: "36.1073799388922, 128.41896637077008",
+    address_english: "Visit the Gumi City Post"
   },
   {
     solo: true,
@@ -17981,8 +19672,8 @@ var position = [
     full: "구미 확진자",
     address: "삼성디지털프라자 광평점",
     address_name: "경북 구미시 공단동 257-16",
-
-    latlng: "36.10344771877789, 128.3866172691851"
+    latlng: "36.10344771877789, 128.3866172691851",
+    address_english: "Samsung Digital Plaza Optical Rating Point"
   },
   {
     solo: true,
@@ -17994,8 +19685,8 @@ var position = [
     full: "구미 확진자",
     address: "유니클로 구미신평점 방문",
     address_name: "경북 구미시 신평동 299-1",
-
-    latlng: "36.113450141788256, 128.36418820033666"
+    latlng: "36.113450141788256, 128.36418820033666",
+    address_english: "Visit Uniqlo Gumi New Balance Point"
   },
   {
     solo: true,
@@ -18007,7 +19698,8 @@ var position = [
     full: "구미 확진자",
     address_name: "경북 구미시 고아읍 원호리 428-5",
     address: "시골여행 원호점 식사",
-    latlng: "36.15247135429501, 128.32923393910207"
+    latlng: "36.15247135429501, 128.32923393910207",
+    address_english: "Country Trip Wonho Restaurant Meals"
   },
   {
     solo: true,
@@ -18019,8 +19711,8 @@ var position = [
     full: "구미 확진자",
     address: "농협하나로마트 원호점 방문",
     address_name: "경북 구미시 고아읍 원호리 428-1",
-
-    latlng: "36.15204809862171, 128.32945235637567"
+    latlng: "36.15204809862171, 128.32945235637567",
+    address_english: "Visit the Wonho branch of Nonghyup Haroro Mart"
   },
   {
     solo: true,
@@ -18032,8 +19724,9 @@ var position = [
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소 진료",
     address_name: "경북 구미시 지산동 853-12",
-
-    latlng: "36.13993541358159, 128.34595355207307"
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english:
+      "Corona19 Screening Care Center Clinic at Gumi Health Center"
   },
   {
     solo: true,
@@ -18045,7 +19738,8 @@ var position = [
     full: "부산 확진자",
     address: "서면바른내과의원",
     address_name: "부산 부산진구 부전동 191-3",
-    latlng: "35.155246222374714, 129.05952267519237"
+    latlng: "35.155246222374714, 129.05952267519237",
+    address_english: "a written physician"
   },
   {
     solo: true,
@@ -18057,7 +19751,8 @@ var position = [
     full: "부산 확진자",
     address: "롯데리아 부산시청DT점",
     address_name: "부산 연제구 연산동 1328-6",
-    latlng: "35.1802417326536, 129.07740317550548"
+    latlng: "35.1802417326536, 129.07740317550548",
+    address_english: "Lotteria Busan City Hall DT branch"
   },
   {
     solo: true,
@@ -18069,7 +19764,8 @@ var position = [
     full: "부산 확진자",
     address: "CU 사직쌍용예가점",
     address_name: "부산 동래구 사직동 42-15",
-    latlng: "35.197163739042104, 129.05777014889335"
+    latlng: "35.197163739042104, 129.05777014889335",
+    address_english: "CU Sajik SsangYong Yeh Store"
   },
   {
     solo: true,
@@ -18081,7 +19777,8 @@ var position = [
     full: "부산 확진자",
     address: "과일특공대 사직점",
     address_name: "부산 동래구 사직동 43-4",
-    latlng: "35.198086320182206, 129.05746407243336"
+    latlng: "35.198086320182206, 129.05746407243336",
+    address_english: "Fruit Special Forces Sajik Branch"
   },
   {
     solo: true,
@@ -18093,7 +19790,8 @@ var position = [
     full: "부산 확진자",
     address: "박인주마취통증의학과의원",
     address_name: "부산 북구 덕천2동 399-6",
-    latlng: "35.21068504447591, 129.00654832855614"
+    latlng: "35.21068504447591, 129.00654832855614",
+    address_english: "Park In-joo, an anesthesiologist"
   },
   {
     solo: true,
@@ -18105,7 +19803,8 @@ var position = [
     full: "부산 확진자",
     address: "롯데마트 엄궁점",
     address_name: "부산 사상구 엄궁동 690",
-    latlng: "35.1275449288285, 128.968417708529"
+    latlng: "35.1275449288285, 128.968417708529",
+    address_english: "Lotte Mart's Eomgung Branch"
   },
   {
     solo: true,
@@ -18117,7 +19816,8 @@ var position = [
     full: "부산 확진자",
     address: "송도해수피아",
     address_name: "부산 서구 남부민동 523-53",
-    latlng: "35.08243264023061, 129.02546350604425"
+    latlng: "35.08243264023061, 129.02546350604425",
+    address_english: "Songdo Seasupia"
   },
   {
     solo: true,
@@ -18129,7 +19829,8 @@ var position = [
     full: "부산 확진자",
     address: "한주의원",
     address_name: "부산 사하구 괴정동 429-10",
-    latlng: "35.10060282406582, 128.99510885495545"
+    latlng: "35.10060282406582, 128.99510885495545",
+    address_english: "a member of the Hanju"
   },
   {
     solo: true,
@@ -18141,7 +19842,8 @@ var position = [
     full: "부산 확진자",
     address: "해운대나눔과행복병원",
     address_name: "부산 해운대구 중동 1766-3",
-    latlng: "35.16588226149276, 129.16881084358434"
+    latlng: "35.16588226149276, 129.16881084358434",
+    address_english: "Haeundae Sharing and Happiness Hospital"
   },
   {
     solo: true,
@@ -18153,7 +19855,8 @@ var position = [
     full: "부산 확진자",
     address: "올리브영 부산장산점",
     address_name: "부산 해운대구 좌동 1481-1",
-    latlng: "35.168913443598235, 129.17786171379998"
+    latlng: "35.168913443598235, 129.17786171379998",
+    address_english: "Olive Young Busan Jangsan Branch"
   },
   {
     solo: true,
@@ -18165,7 +19868,8 @@ var position = [
     full: "부산 확진자",
     address: "샤오시안",
     address_name: "부산 부산진구 부전동 168-96",
-    latlng: "35.155643435520204, 129.0607528579674"
+    latlng: "35.155643435520204, 129.0607528579674",
+    address_english: "Xiaosian"
   },
   {
     solo: true,
@@ -18177,7 +19881,8 @@ var position = [
     full: "부산 확진자",
     address: "롯데시네마 서면",
     address_name: "부산 부산진구 전포동 668-1",
-    latlng: "35.15679067067131, 129.0628139790564"
+    latlng: "35.15679067067131, 129.0628139790564",
+    address_english: "Lotte Cinema Seomyeon"
   },
   {
     solo: true,
@@ -18189,7 +19894,8 @@ var position = [
     full: "부산 확진자",
     address: "쭌돈",
     address_name: "부산 해운대구 좌동 1464-3",
-    latlng: "35.170804671552716, 129.17592139277002"
+    latlng: "35.170804671552716, 129.17592139277002",
+    address_english: "money for money"
   },
   {
     solo: true,
@@ -18201,7 +19907,8 @@ var position = [
     full: "부산 확진자",
     address: "엄마의돼지국밥",
     address_name: "부산 부산진구 양정동 337-10",
-    latlng: "35.172231238584196, 129.07199280183144"
+    latlng: "35.172231238584196, 129.07199280183144",
+    address_english: "Mom's Pork Soup"
   },
   {
     solo: true,
@@ -18213,7 +19920,8 @@ var position = [
     full: "부산 확진자",
     address: "홍유단 해운대점",
     address_name: "부산 해운대구 좌동 998-1",
-    latlng: "35.172520803971516, 129.174496522424"
+    latlng: "35.172520803971516, 129.174496522424",
+    address_english: "Hongyudan Shipping Company Limited"
   },
   {
     solo: true,
@@ -18225,7 +19933,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 해운대구보건소 선별진료소",
     address_name: "부산 해운대구 좌동 1339",
-    latlng: "35.16411220331141, 129.17866201817904"
+    latlng: "35.16411220331141, 129.17866201817904",
+    address_english: "Corona19 Haeundae Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -18237,7 +19946,8 @@ var position = [
     full: "부산 확진자",
     address: "제이엔제이 스타일헤어 부산대점",
     address_name: "부산 금정구 장전동 415-20",
-    latlng: "35.230757998722304, 129.08675643762348"
+    latlng: "35.230757998722304, 129.08675643762348",
+    address_english: "J.N.J. Style Hair Busan Grand Store"
   },
   {
     solo: true,
@@ -18249,7 +19959,8 @@ var position = [
     full: "부산 확진자",
     address: "참사람 약국",
     address_name: "부산 부산진구 양정동 507-5",
-    latlng: "35.174603145796496, 129.0643922701914"
+    latlng: "35.174603145796496, 129.0643922701914",
+    address_english: "Chamman Pharmacy"
   },
   {
     solo: true,
@@ -18261,7 +19972,8 @@ var position = [
     full: "양산 확진자",
     address: "증산역 부산2호선 탑승",
     address_name: "경남 양산시 물금읍 증산리 1818",
-    latlng: "35.3082580738269, 129.01028817554217"
+    latlng: "35.3082580738269, 129.01028817554217",
+    address_english: "Boarding on Busan Line 2 at Jeungsan Station"
   },
   {
     solo: true,
@@ -18273,7 +19985,8 @@ var position = [
     full: "양산 확진자",
     address: "수정역 부산2호선 하차",
     address_name: "부산 북구 화명동 941-1",
-    latlng: "35.223183226444796, 129.00910515495016"
+    latlng: "35.223183226444796, 129.00910515495016",
+    address_english: "Exit from Sujeong Station Busan Line 2"
   },
   {
     solo: true,
@@ -18285,7 +19998,8 @@ var position = [
     full: "안동 확진자",
     address: "내담대구뽈찜 옥동점",
     address_name: "경북 안동시 옥동 784-8",
-    latlng: "36.56072244451289, 128.69903490936335"
+    latlng: "36.56072244451289, 128.69903490936335",
+    address_english: "Naedamdaegujjjim Okdong Branch"
   },
   {
     solo: true,
@@ -18297,7 +20011,8 @@ var position = [
     full: "의성 확진자",
     address: "의성성당",
     address_name: "경북 의성군 의성읍 후죽리 502-1",
-    latlng: "36.354413833558496, 128.69734637245935"
+    latlng: "36.354413833558496, 128.69734637245935",
+    address_english: "Uiseong Cathedral"
   },
   {
     solo: true,
@@ -18309,7 +20024,8 @@ var position = [
     full: "의성 확진자",
     address: "의성안계우체국",
     address_name: "경북 의성군 안계면 용기리 842-7",
-    latlng: "36.3857037049926, 128.43684610445212"
+    latlng: "36.3857037049926, 128.43684610445212",
+    address_english: "Uiseong Angyecheon Post Office"
   },
   {
     solo: true,
@@ -18321,7 +20037,8 @@ var position = [
     full: "의성 확진자",
     address: "안계새우리식당",
     address_name: "경북 의성군 안계면 용기리 842-7",
-    latlng: "36.388361, 128.4335"
+    latlng: "36.388361, 128.4335",
+    address_english: "Angyet Saeuri Restaurant"
   },
   {
     solo: true,
@@ -18333,7 +20050,8 @@ var position = [
     full: "의성 확진자",
     address: "농협 비안지점 (2/17, 2/20)",
     address_name: "경북 의성군 비안면 이두리 350-3",
-    latlng: "36.3369722927971, 128.49157515156713"
+    latlng: "36.3369722927971, 128.49157515156713",
+    address_english: "Nonghyup Bank's Non-An Branch (2/17, 20)"
   },
   {
     solo: true,
@@ -18345,7 +20063,8 @@ var position = [
     full: "의성 확진자",
     address: "안계농협하나로마트 비안점",
     address_name: "경북 의성군 비안면 이두리 350-3",
-    latlng: "36.33733553438951, 128.49135041994714"
+    latlng: "36.33733553438951, 128.49135041994714",
+    address_english: "Angyet Agricultural Cooperative Haramart Non-Sight Store"
   },
   {
     solo: true,
@@ -18357,7 +20076,8 @@ var position = [
     full: "청송 확진자",
     address: "진보버스터미널",
     address_name: "경북 청송군 진보면 진안리 423-27",
-    latlng: "36.52870845116031, 129.04297287296822"
+    latlng: "36.52870845116031, 129.04297287296822",
+    address_english: "Progressive Bus Terminal"
   },
   {
     solo: true,
@@ -18369,7 +20089,8 @@ var position = [
     full: "청송 확진자",
     address: "경북약국 방문",
     address_name: "경북 청송군 진보면 진안리 424-23",
-    latlng: "36.528910883537506, 129.04335777098822"
+    latlng: "36.528910883537506, 129.04335777098822",
+    address_english: "Visit Kyungpook Pharmacy"
   },
   {
     solo: true,
@@ -18381,7 +20102,8 @@ var position = [
     full: "청송 확진자",
     address: "카페아바드 방문",
     address_name: "경북 청송군 진보면 진안리 424-23",
-    latlng: "36.530781, 129.048908"
+    latlng: "36.530781, 129.048908",
+    address_english: "Visit Cafe Abad"
   },
   {
     solo: true,
@@ -18393,7 +20115,8 @@ var position = [
     full: "청송 확진자",
     address: "진보큰정할매순대국",
     address_name: "경북 청송군 진보면 진안리 424-23",
-    latlng: "36.528228, 129.04283"
+    latlng: "36.528228, 129.04283",
+    address_english: "a great and great nation of hawks."
   },
   {
     solo: true,
@@ -18405,7 +20128,8 @@ var position = [
     full: "청송 확진자",
     address: "쟁반노래연습장 방문",
     address_name: "경북 청송군 진보면 진안리 384-24",
-    latlng: "36.52831064066032, 129.04494509804923"
+    latlng: "36.52831064066032, 129.04494509804923",
+    address_english: "Visit to the Trayban Singing Practice Center"
   },
   {
     solo: true,
@@ -18417,7 +20141,8 @@ var position = [
     full: "부산 확진자",
     address: "진양가방",
     address_name: "부산 동구 범일2동 830-24",
-    latlng: "35.140894264902705, 129.06111375394738"
+    latlng: "35.140894264902705, 129.06111375394738",
+    address_english: "a genuine bag"
   },
   {
     solo: true,
@@ -18429,7 +20154,8 @@ var position = [
     full: "부산 확진자",
     address: "화명이비인후과의원",
     address_name: "부산 북구 화명동 2315-7",
-    latlng: "35.22343130432899, 129.00892677439617"
+    latlng: "35.22343130432899, 129.00892677439617",
+    address_english: "Non-Proliferation Clinic"
   },
   {
     solo: true,
@@ -18441,7 +20167,8 @@ var position = [
     full: "부산 확진자",
     address: "구구롤러스케이트 금곡점",
     address_name: "부산 북구 금곡동 1874-3",
-    latlng: "35.25002436515667, 129.01121750083658"
+    latlng: "35.25002436515667, 129.01121750083658",
+    address_english: "Guguroluskate Golden Curve"
   },
   {
     solo: true,
@@ -18453,7 +20180,8 @@ var position = [
     full: "부산 확진자",
     address: "화명일신기독병원 응급실",
     address_name: "부산 북구 화명동 1170-12",
-    latlng: "35.23168521504431, 129.01395848082117"
+    latlng: "35.23168521504431, 129.01395848082117",
+    address_english: "Emergency Room of Hwamyeong Ilshin Christian Hospital"
   },
   {
     solo: true,
@@ -18465,7 +20193,8 @@ var position = [
     full: "대전 확진자E",
     address: "코로나19 유성선병원 선별진료소",
     address_name: "대전 유성구 지족동 923",
-    latlng: "36.375174551327405, 127.32497970650898"
+    latlng: "36.375174551327405, 127.32497970650898",
+    address_english: "Corona19 Yuseong Sun Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -18477,7 +20206,8 @@ var position = [
     full: "대전 확진자E",
     address: "정문약국 (10:00)",
     address_name: "대전 유성구 지족동 22-5",
-    latlng: "36.3745813461439, 127.32572721827032"
+    latlng: "36.3745813461439, 127.32572721827032",
+    address_english: "Jungmun Pharmacy (10:00)"
   },
   {
     solo: true,
@@ -18489,7 +20219,8 @@ var position = [
     full: "대전 확진자E",
     address: "지족역 정류장 (버스119번)",
     address_name: "대전 유성구 지족동 22-5",
-    latlng: "36.384459, 127.320048"
+    latlng: "36.384459, 127.320048",
+    address_english: "Jijok Station Station (Bus 119)"
   },
   {
     solo: true,
@@ -18501,7 +20232,8 @@ var position = [
     full: "대전 확진자E",
     address: "한진오피스텔 정류장 (버스 119)",
     address_name: "대전 유성구 봉명동 551-7",
-    latlng: "36.356444, 127.342205"
+    latlng: "36.356444, 127.342205",
+    address_english: "Hanjin Officetel Station (Bus)"
   },
   {
     solo: true,
@@ -18513,7 +20245,8 @@ var position = [
     full: "대전 확진자E",
     address: "성세병원 야간근무 (2/24 17:40-2/25 09:00)",
     address_name: "대전 유성구 봉명동 629-5",
-    latlng: "36.35772861506771, 127.345260307728"
+    latlng: "36.35772861506771, 127.345260307728",
+    address_english: "Night shift at Sungse Hospital (2/24 17:40-2/25 09:00)"
   },
   {
     solo: true,
@@ -18525,7 +20258,8 @@ var position = [
     full: "대전 확진자E",
     address: "지족역 대전1호선 (2/25 11:00)",
     address_name: "대전 유성구 지족동 836-6",
-    latlng: "36.384107339135504, 127.319497778302"
+    latlng: "36.384107339135504, 127.319497778302",
+    address_english: "Jijok Station Line 1 (2/25 11:00)"
   },
   {
     solo: true,
@@ -18537,7 +20271,8 @@ var position = [
     full: "대전 확진자E",
     address: "유성온천역 대전1호선 (11:00)",
     address_name: "대전 유성구 봉명동 1058",
-    latlng: "36.3537203343187, 127.341445807064"
+    latlng: "36.3537203343187, 127.341445807064",
+    address_english: "Yuseong Oncheon Station Line 1 (11:00)"
   },
   {
     solo: true,
@@ -18549,7 +20284,8 @@ var position = [
     full: "대전 확진자E",
     address: "일등공인중개사사무소 (11:40))",
     address_name: "대전 유성구 궁동 480-6",
-    latlng: "36.3605953091991, 127.343677460579"
+    latlng: "36.3605953091991, 127.343677460579",
+    address_english: "First-class personnel management office (11:40)"
   },
   {
     solo: true,
@@ -18561,7 +20297,8 @@ var position = [
     full: "대전 확진자E",
     address: "두레국시 (11:40)",
     address_name: "대전 유성구 봉명동 606-1",
-    latlng: "36.35837376010271, 127.342789742667"
+    latlng: "36.35837376010271, 127.342789742667",
+    address_english: "Dureguksi (11:40)"
   },
   {
     solo: true,
@@ -18573,7 +20310,8 @@ var position = [
     full: "대전 확진자E",
     address: "지족역 대전1호선 (2/25 16:50)",
     address_name: "대전 유성구 지족동 836-6",
-    latlng: "36.384107339135504, 127.319497778302"
+    latlng: "36.384107339135504, 127.319497778302",
+    address_english: "Jijok Station Line 1 (2/25 16:50)"
   },
   {
     solo: true,
@@ -18585,7 +20323,8 @@ var position = [
     full: "대전 확진자E",
     address: "버거킹 대전유성온천역점 (16:50)",
     address_name: "대전 유성구 봉명동 551-14",
-    latlng: "36.35428339497802, 127.34213677519419"
+    latlng: "36.35428339497802, 127.34213677519419",
+    address_english: "Burger King Daejeon Meteor Heater Station (16:50)"
   },
   {
     solo: true,
@@ -18597,7 +20336,8 @@ var position = [
     full: "대전 확진자E",
     address: "뉴삼성 공인중개사사무소",
     address_name: "대전 유성구 봉명동 536-10",
-    latlng: "36.3566644120058, 127.34304072465"
+    latlng: "36.3566644120058, 127.34304072465",
+    address_english: "New Samsung Accredited Arbitration Office"
   },
   {
     solo: true,
@@ -18609,7 +20349,8 @@ var position = [
     full: "대전 확진자E",
     address: "성세병원 야간근무 (2/25 17:40)",
     address_name: "대전 유성구 봉명동 629-5",
-    latlng: "36.35772861506771, 127.345260307728"
+    latlng: "36.35772861506771, 127.345260307728",
+    address_english: "Night shift at Sungse Hospital (2/25 17:40)"
   },
   {
     solo: true,
@@ -18621,7 +20362,9 @@ var position = [
     full: "대전 확진자E",
     address: "E 충남대학교병원 입원 (2/25 22:00)",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english:
+      "E Chungnam National University Hospital Hospital Hospital Hospital admission (2/25 22:00)"
   },
   {
     solo: true,
@@ -18633,7 +20376,8 @@ var position = [
     full: "부산 확진자",
     address: "터줏집돼지국밥",
     address_name: "부산 금정구 장전동 421-7",
-    latlng: "35.23074409104941, 129.0858906372185"
+    latlng: "35.23074409104941, 129.0858906372185",
+    address_english: "a rice soup with a root."
   },
   {
     solo: true,
@@ -18645,7 +20389,8 @@ var position = [
     full: "부산 확진자",
     address: "스타벅스 부산대점",
     address_name: "부산 금정구 장전동 310-3",
-    latlng: "35.230626883968306, 129.08662567857752"
+    latlng: "35.230626883968306, 129.08662567857752",
+    address_english: "Starbucks Busan Grand Store"
   },
   {
     solo: true,
@@ -18657,7 +20402,8 @@ var position = [
     full: "부산 확진자",
     address: "2층 OX피시방",
     address_name: "부산 동래구 온천동 473-7",
-    latlng: "35.21307423445051, 129.0787754454265"
+    latlng: "35.21307423445051, 129.0787754454265",
+    address_english: "double-decker OX PC Bang"
   },
   {
     solo: true,
@@ -18669,7 +20415,8 @@ var position = [
     full: "부산 확진자",
     address: "동심가마트 온천점",
     address_name: "부산 동래구 온천동 785-15",
-    latlng: "35.21266757651172, 129.07243159186345"
+    latlng: "35.21266757651172, 129.07243159186345",
+    address_english: "Dongshim-Gamart Hot Springs"
   },
   {
     solo: true,
@@ -18681,7 +20428,9 @@ var position = [
     full: "대전 확진자F",
     address: "오정동농수산시장 정류장(버스102번) (17:00)",
     address_name: "대전 대덕구 오정동 45-1",
-    latlng: "36.357461, 127.40755"
+    latlng: "36.357461, 127.40755",
+    address_english:
+      "Ojeong-dong Agricultural and Fisheries Market Stop (Bus No. 102) (17:00)"
   },
   {
     solo: true,
@@ -18693,7 +20442,8 @@ var position = [
     full: "대전 확진자F",
     address: "진달래아파트 정류장 (버스 102번) (17:00)",
     address_name: "대전 서구 월평동 312-1",
-    latlng: "36.358259, 127.366373"
+    latlng: "36.358259, 127.366373",
+    address_english: "Jindalae Apartment Station (Bus No. 102) (17:00)"
   },
   {
     solo: true,
@@ -18705,7 +20455,8 @@ var position = [
     full: "대전 확진자F",
     address: "월평역 야간근무 (2/20 18:00)",
     address_name: "대전 서구 월평동 1503-1",
-    latlng: "36.35825873387051, 127.36459981257099"
+    latlng: "36.35825873387051, 127.36459981257099",
+    address_english: "Night shift at Wolpyeong Station (2/20 18:00)"
   },
   {
     solo: true,
@@ -18717,7 +20468,8 @@ var position = [
     full: "대전 확진자F",
     address: "월평역 (2/21 18:00)",
     address_name: "대전 서구 월평동 1503-1",
-    latlng: "36.35825873387051, 127.36459981257099"
+    latlng: "36.35825873387051, 127.36459981257099",
+    address_english: "Wolpyeong Station (2/21 18:00)"
   },
   {
     solo: true,
@@ -18729,7 +20481,8 @@ var position = [
     full: "대전 확진자F",
     address: "선물같은오늘 청주가경점",
     address_name: "충북 청주시 흥덕구 가경동 1687",
-    latlng: "36.616257730053015, 127.44080948463301"
+    latlng: "36.616257730053015, 127.44080948463301",
+    address_english: "Today, like a gift, Cheongju Street."
   },
   {
     solo: true,
@@ -18741,7 +20494,8 @@ var position = [
     full: "대전 확진자F",
     address: "하나로이비인후과의원 방문",
     address_name: "대전 대덕구 중리동 121-1",
-    latlng: "36.36181588112328, 127.431860461439"
+    latlng: "36.36181588112328, 127.431860461439",
+    address_english: "Visit Hanaroy Biomedical Clinic"
   },
   {
     solo: true,
@@ -18753,7 +20507,8 @@ var position = [
     full: "대전 확진자F",
     address: "한아름약국 방문",
     address_name: "대전 대덕구 중리동 121-1",
-    latlng: "36.361815945556096, 127.431842634655"
+    latlng: "36.361815945556096, 127.431842634655",
+    address_english: "Visit Hanarum Pharmacy"
   },
   {
     solo: true,
@@ -18765,7 +20520,9 @@ var position = [
     full: "대전 확진자F",
     address: "코로나19 근로복지공단대전병원 선별진료소 (2/22 14:30)",
     address_name: "대전 대덕구 법동 285-3",
-    latlng: "36.368575944335085, 127.42850145453939"
+    latlng: "36.368575944335085, 127.42850145453939",
+    address_english:
+      "Corona19 Korea Workers' Compensation and Welfare Service Daejeon Hospital Screening Care Center (2/22 14:30)"
   },
   {
     solo: true,
@@ -18777,7 +20534,8 @@ var position = [
     full: "대전 확진자F",
     address: "월평역 야간근무 (2/22 17:00)",
     address_name: "대전 서구 월평동 1503-1",
-    latlng: "36.35825873387051, 127.36459981257099"
+    latlng: "36.35825873387051, 127.36459981257099",
+    address_english: "Night shift at Wolpyeong Station (2/22 17:00)"
   },
   {
     solo: true,
@@ -18789,7 +20547,8 @@ var position = [
     full: "대전 확진자F",
     address: "코로나19 서구보건소 선별진료소 (13:00)",
     address_name: "대전 서구 만년동 340",
-    latlng: "36.367089204742896, 127.38110106085598"
+    latlng: "36.367089204742896, 127.38110106085598",
+    address_english: "Corona19 West Health Center Screening Care Center (13:00)"
   },
   {
     solo: true,
@@ -18801,7 +20560,8 @@ var position = [
     full: "대전 확진자F",
     address: "우리이비인후과의원 (14:00)",
     address_name: "대전 유성구 봉명동 553-4",
-    latlng: "36.35296494656381, 127.34088547139899"
+    latlng: "36.35296494656381, 127.34088547139899",
+    address_english: "Oursi Clinic (14:00)"
   },
   {
     solo: true,
@@ -18813,7 +20573,9 @@ var position = [
     full: "대전 확진자F",
     address: "코로나19 대덕구보건소 선별진료소 (2/25 16:00)",
     address_name: "대전 대덕구 석봉동 318-1",
-    latlng: "36.444951297958596, 127.42628429303798"
+    latlng: "36.444951297958596, 127.42628429303798",
+    address_english:
+      "Corona19 Daedeok Ward Health Center Screening Care Center (2/25 16:00)"
   },
   {
     solo: true,
@@ -18825,7 +20587,9 @@ var position = [
     full: "대전 확진자F",
     address: "F 충남대학교병원 입원 (2/26 16:00)",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english:
+      "F Chungnam National University Hospital Hospital Hospital admission (2/26 16:00)"
   },
   {
     solo: true,
@@ -18837,7 +20601,8 @@ var position = [
     full: "부산 확진자",
     address: "메가커피 나주혁신도시점",
     address_name: "전남 나주시 빛가람동 205-1",
-    latlng: "35.02192615003869, 126.79179495958898"
+    latlng: "35.02192615003869, 126.79179495958898",
+    address_english: "Mega Coffee Naju Innovation City Branch"
   },
   {
     solo: true,
@@ -18849,7 +20614,9 @@ var position = [
     full: "천안 확진자D",
     address: "스마트교복 옆가게 명찰가게 재방문 (16:00)",
     address_name: "충남 천안시 동남구 봉명동 206-3",
-    latlng: "36.80675080126431, 127.13285602282399"
+    latlng: "36.80675080126431, 127.13285602282399",
+    address_english:
+      "Visit the name tag store next to the smart school uniform (16:00)"
   },
   {
     solo: true,
@@ -18861,7 +20628,8 @@ var position = [
     full: "천안 확진자D",
     address: "스마트 쌍용점 및 옆가게 명찰가게 (11:00)",
     address_name: "충남 천안시 동남구 봉명동 206-3",
-    latlng: "36.80675080126431, 127.13285602282399"
+    latlng: "36.80675080126431, 127.13285602282399",
+    address_english: "Smart Ssangyong and its neighbor's name tag store (11:00)"
   },
   {
     solo: true,
@@ -18873,7 +20641,8 @@ var position = [
     full: "천안 확진자D",
     address: "홍루이젠 천안백석점 (16:10)",
     address_name: "충남 천안시 서북구 백석동 1162",
-    latlng: "36.82689674911669, 127.122076290669"
+    latlng: "36.82689674911669, 127.122076290669",
+    address_english: "Hong Ruizen Cheonan White Stone Point (16:10)"
   },
   {
     solo: true,
@@ -18885,7 +20654,8 @@ var position = [
     full: "천안 확진자D",
     address: "고깃간 직영점 (16:10)",
     address_name: "충남 천안시 서북구 백석동 1151",
-    latlng: "36.82689183520839, 127.123345154679"
+    latlng: "36.82689183520839, 127.123345154679",
+    address_english: "Intra-Meat Point (16:10)"
   },
   {
     solo: true,
@@ -18897,7 +20667,8 @@ var position = [
     full: "천안 확진자D",
     address: "수제빵연구소 (16:10)",
     address_name: "충남 천안시 서북구 백석동 270-6",
-    latlng: "36.82187492802729, 127.11571091864802"
+    latlng: "36.82187492802729, 127.11571091864802",
+    address_english: "Handmade Bread Institute (16:10)"
   },
   {
     solo: true,
@@ -18909,7 +20680,8 @@ var position = [
     full: "천안 확진자D",
     address: "다정약국 (13:10)",
     address_name: "충남 천안시 서북구 불당동 1477",
-    latlng: "36.82224377312519, 127.107727703344"
+    latlng: "36.82224377312519, 127.107727703344",
+    address_english: "Multilateral Pharmacy (13:10)"
   },
   {
     solo: true,
@@ -18921,7 +20693,9 @@ var position = [
     full: "천안 확진자D",
     address: "D 코로나19 순천향대학교부속천안병원 선별진료소 (2/24 9:20-11:00)",
     address_name: "충남 천안시 동남구 봉명동 216-8",
-    latlng: "36.8027211587879, 127.135932840124"
+    latlng: "36.8027211587879, 127.135932840124",
+    address_english:
+      "D Corona19 Sun Chunhyang University Hospital Screening Clinic (2/24 9:20-11:00)"
   },
   {
     solo: true,
@@ -18933,7 +20707,8 @@ var position = [
     full: "거창 확진자",
     address: "오작교",
     address_name: "경남 거창군 거창읍 대동리 666-3",
-    latlng: "35.692234237247014, 127.91784736404037"
+    latlng: "35.692234237247014, 127.91784736404037",
+    address_english: "Ojakgyo Bridge"
   },
   {
     solo: true,
@@ -18945,7 +20720,8 @@ var position = [
     full: "거창 확진자",
     address: "삼성전자서비스 거창센터",
     address_name: "경남 거창군 거창읍 상림리 796-2",
-    latlng: "35.68864026657479, 127.90676338229967"
+    latlng: "35.68864026657479, 127.90676338229967",
+    address_english: "Samsung Electronics Service Geochang Center"
   },
   {
     solo: true,
@@ -18957,7 +20733,8 @@ var position = [
     full: "거창 확진자",
     address: "이우동",
     address_name: "경남 거창군 거창읍 상림리 38-12",
-    latlng: "35.68907115095061, 127.90902190599401"
+    latlng: "35.68907115095061, 127.90902190599401",
+    address_english: "Lee U-dong"
   },
   {
     solo: true,
@@ -18969,7 +20746,8 @@ var position = [
     full: "거창 확진자",
     address: "대한예수교침례회 거창교회",
     address_name: "경남 거창군 거창읍 대동리 88-111",
-    latlng: "35.6882684387683, 127.920722799582"
+    latlng: "35.6882684387683, 127.920722799582",
+    address_english: "Korean Jesus Baptist Church Geochang Church"
   },
   {
     solo: true,
@@ -18981,7 +20759,8 @@ var position = [
     full: "거창 확진자",
     address: "걸작떡볶이치킨 경남거창점",
     address_name: "경남 거창군 거창읍 상림리 39-6",
-    latlng: "35.68899817334461, 127.909138179103"
+    latlng: "35.68899817334461, 127.909138179103",
+    address_english: "Keomjak Tteokbokki Ichikin Gyeongnam Geochang Branch"
   },
   {
     solo: true,
@@ -18993,7 +20772,8 @@ var position = [
     full: "거창 확진자",
     address: "88술집",
     address_name: "경남 거창군 거창읍 중앙리 261-7",
-    latlng: "35.6848250035405, 127.91133772655"
+    latlng: "35.6848250035405, 127.91133772655",
+    address_english: "a drinking house"
   },
   {
     solo: true,
@@ -19005,7 +20785,8 @@ var position = [
     full: "거창 확진자",
     address: "뮤직뱅크 노래방",
     address_name: "경남 거창군 거창읍 중앙리 261-7",
-    latlng: "35.685455, 127.91061"
+    latlng: "35.685455, 127.91061",
+    address_english: "Music Bank Karaoke"
   },
   {
     solo: true,
@@ -19017,7 +20798,8 @@ var position = [
     full: "부산 확진자",
     address: "우돈 식당",
     address_name: "부산 부산진구 부전동 415-24",
-    latlng: "35.159845676293294, 129.05379646127037"
+    latlng: "35.159845676293294, 129.05379646127037",
+    address_english: "a Udon restaurant"
   },
   {
     solo: true,
@@ -19029,7 +20811,9 @@ var position = [
     full: "거창 확진자",
     address: "코로나19 거창군보건소 선별진료소",
     address_name: "경남 거창군 거창읍 송정리 1095",
-    latlng: "35.680998595326706, 127.89859221044101"
+    latlng: "35.680998595326706, 127.89859221044101",
+    address_english:
+      "Corona19 Geochang County Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -19041,7 +20825,8 @@ var position = [
     full: "거창 확진자",
     address: "수세당한약방",
     address_name: "경남 거창군 거창읍 중앙리 483-11",
-    latlng: "35.6846373601513, 127.91136210441"
+    latlng: "35.6846373601513, 127.91136210441",
+    address_english: "a watered-down drugstore"
   },
   {
     solo: true,
@@ -19053,7 +20838,8 @@ var position = [
     full: "거창 확진자",
     address: "서원정형외과의원 (2/21,22,24,25)",
     address_name: "경남 거창군 거창읍 대동리 861-3",
-    latlng: "35.68733533660383, 127.91568346432489"
+    latlng: "35.68733533660383, 127.91568346432489",
+    address_english: "Seowon orthopedic surgeon (2/21,22,24 and 25)"
   },
   {
     solo: true,
@@ -19065,7 +20851,8 @@ var position = [
     full: "거창 확진자",
     address: "기쁨약국 (2/21,24)",
     address_name: "경남 거창군 거창읍 대동리 861-3",
-    latlng: "35.687334527864074, 127.91567130333635"
+    latlng: "35.687334527864074, 127.91567130333635",
+    address_english: "Joy Pharmacy (2/21,24)"
   },
   {
     solo: true,
@@ -19077,7 +20864,8 @@ var position = [
     full: "거창 확진자",
     address: "기아자동차 거창지점",
     address_name: "경남 거창군 거창읍 대동리 71-2",
-    latlng: "35.69013663376691, 127.91955446261018"
+    latlng: "35.69013663376691, 127.91955446261018",
+    address_english: "Kia Motors Corp.'s Geochang Branch"
   },
   {
     solo: true,
@@ -19089,7 +20877,8 @@ var position = [
     full: "거창 확진자",
     address: "르노삼성자동차 거창대리점",
     address_name: "경남 거창군 거창읍 상림리 828-1",
-    latlng: "35.685879988868415, 127.900006819455"
+    latlng: "35.685879988868415, 127.900006819455",
+    address_english: "Renault Samsung Motors Co.'s Geochang agent"
   },
   {
     solo: true,
@@ -19101,7 +20890,8 @@ var position = [
     full: "거창 확진자",
     address: "파리바게뜨 거창아림점",
     address_name: "경남 거창군 거창읍 상림리 797-2",
-    latlng: "35.688466974838, 127.90547994496899"
+    latlng: "35.688466974838, 127.90547994496899",
+    address_english: "Paris Baguette Geochang Arim Branch"
   },
   {
     solo: true,
@@ -19113,7 +20903,9 @@ var position = [
     full: "거창 확진자",
     address: "거창사과원예농협하나로마트",
     address_name: "경남 거창군 거창읍 김천리 255",
-    latlng: "35.67910842650548, 127.91109708811405"
+    latlng: "35.67910842650548, 127.91109708811405",
+    address_english:
+      "Geochang Apple Garden Yeh Agricultural Cooperative Hanarot"
   },
   {
     solo: true,
@@ -19125,7 +20917,8 @@ var position = [
     full: "거창 확진자",
     address: "거창적십자병원",
     address_name: "경남 거창군 거창읍 상림리 74-1",
-    latlng: "35.68680948786542, 127.90872228070099"
+    latlng: "35.68680948786542, 127.90872228070099",
+    address_english: "Geochang Red Cross Hospital"
   },
   {
     solo: true,
@@ -19137,7 +20930,8 @@ var position = [
     full: "거창 확진자",
     address: "대성약국",
     address_name: "경남 거창군 거창읍 상림리 121-16",
-    latlng: "35.6855768929599, 127.90915901106699"
+    latlng: "35.6855768929599, 127.90915901106699",
+    address_english: "a great power"
   },
   {
     solo: true,
@@ -19149,9 +20943,9 @@ var position = [
     full: "거창 확진자",
     address: "담",
     address_name: "경남 거창군 거창읍 상림리 131-31",
-    latlng: "35.685747213658, 127.90951886089701"
+    latlng: "35.685747213658, 127.90951886089701",
+    address_english: "Wall"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19162,7 +20956,9 @@ var position = [
     full: "음성 확진자",
     address: "코로나19 음성군보건소 선별진료소 (15:10)",
     address_name: "충북 음성군 음성읍 읍내리 406-4",
-    latlng: "36.928829989339825, 127.68885891989041"
+    latlng: "36.928829989339825, 127.68885891989041",
+    address_english:
+      "Corona19 Voice Army Health Center Screening Care Center (15:10)"
   },
   {
     solo: true,
@@ -19174,7 +20970,9 @@ var position = [
     full: "청주 확진자",
     address: "육거리종합시장 주차장~농협(떡집골목) (14:00-15:00)",
     address_name: "충북 청주시 상당구 석교동 60-4",
-    latlng: "36.627815155662994, 127.48853390558202"
+    latlng: "36.627815155662994, 127.48853390558202",
+    address_english:
+      "Parking lot of the General Land Street Market~Nonghyup (Tteokjip Alley) (14:00-15:00)"
   },
   {
     solo: true,
@@ -19186,7 +20984,8 @@ var position = [
     full: "청주 확진자",
     address: "한국종합문구 (17:00)",
     address_name: "충북 청주시 상당구 금천동 47-7",
-    latlng: "36.62830795487401, 127.50774455532202"
+    latlng: "36.62830795487401, 127.50774455532202",
+    address_english: "Korean Synopsis (17:00)"
   },
   {
     solo: true,
@@ -19198,7 +20997,8 @@ var position = [
     full: "청주 확진자",
     address: "용암동 롯데마트 상당점 (19:00-20:00)",
     address_name: "충북 청주시 상당구 용암동 2634",
-    latlng: "36.62039956362491, 127.51615297379901"
+    latlng: "36.62039956362491, 127.51615297379901",
+    address_english: "Lotte Mart in Yongam-dong (19:00-20:00)"
   },
   {
     solo: true,
@@ -19210,7 +21010,8 @@ var position = [
     full: "청주 확진자",
     address: "증평 송원칼국수",
     address_name: "충북 증평군 증평읍 초중리 570-1",
-    latlng: "36.778046886278894, 127.56863356006"
+    latlng: "36.778046886278894, 127.56863356006",
+    address_english: "Jeungpyeong Songwon Kalguksu"
   },
   {
     solo: true,
@@ -19222,7 +21023,8 @@ var position = [
     full: "청주 확진자",
     address: "증평 충북 식자재마트 (15:00-15:30)",
     address_name: "충북 증평군 증평읍 장동리 72",
-    latlng: "36.789256, 127.586864"
+    latlng: "36.789256, 127.586864",
+    address_english: "Jeungpyeong Chungbuk Food Jammat (15:00-15:30)"
   },
   {
     solo: true,
@@ -19234,7 +21036,8 @@ var position = [
     full: "청주 확진자",
     address: "서산버드랜드 철새박물관 (10:30-11:00)",
     address_name: "충남 서산시 부석면 창리 259-29",
-    latlng: "36.6309514545366, 126.37846512459299"
+    latlng: "36.6309514545366, 126.37846512459299",
+    address_english: "Seosan Birdland Migratory Bird Museum (10:30-11:00)"
   },
   {
     solo: true,
@@ -19246,7 +21049,8 @@ var position = [
     full: "청주 확진자",
     address: "아산 순천향대 옆 휴게소 (12:00))",
     address_name: "충남 아산시 신창면 읍내리 670-2",
-    latlng: "36.76889380040671, 126.92583362045698"
+    latlng: "36.76889380040671, 126.92583362045698",
+    address_english: "Rest area next to Asan Suncheon Hyangdae (12:00))"
   },
   {
     solo: true,
@@ -19258,7 +21062,9 @@ var position = [
     full: "청주 확진자",
     address: "다담뜰한식뷔페 북청주점 (13:30-14:30)",
     address_name: "충북 청주시 청원구 율량동 102-1",
-    latlng: "36.66379097919204, 127.51062732079099"
+    latlng: "36.66379097919204, 127.51062732079099",
+    address_english:
+      "Dajam Korean Food Buffet Book Cheongju Branch (13:30-14:30)"
   },
   {
     solo: true,
@@ -19270,7 +21076,8 @@ var position = [
     full: "청주 확진자",
     address: "청주회맛집 (17:00-18:00)",
     address_name: "충북 청주시 서원구 수곡로3번길 52",
-    latlng: "36.614772, 127.472311"
+    latlng: "36.614772, 127.472311",
+    address_english: "Cheongju Raw Fish Restaurant (17:00-18:00)"
   },
   {
     solo: true,
@@ -19282,7 +21089,8 @@ var position = [
     full: "청주 확진자",
     address: "초평저수지 산책길, 매점 (14:00)",
     address_name: "충북 진천군 초평면 화산리 137",
-    latlng: "36.8176383072399, 127.51799883624899"
+    latlng: "36.8176383072399, 127.51799883624899",
+    address_english: "Supyeong Reservoir Walkway, Cafeteria (14:00)"
   },
   {
     solo: true,
@@ -19294,7 +21102,8 @@ var position = [
     full: "청주 확진자",
     address: "홍성서부농협하나로마트",
     address_name: "충남 홍성군 서부면 남당리 861",
-    latlng: "36.53941629242108, 126.47007486879077"
+    latlng: "36.53941629242108, 126.47007486879077",
+    address_english: "Hongseong Western Agricultural Cooperative Haramart"
   },
   {
     solo: true,
@@ -19306,7 +21115,8 @@ var position = [
     full: "청주 확진자",
     address: "청포대해수욕장",
     address_name: "충남 태안군 남면 원청리 512-78",
-    latlng: "36.6391315043916, 126.30193485495899"
+    latlng: "36.6391315043916, 126.30193485495899",
+    address_english: "Cheongpo Grand Beach"
   },
   {
     solo: true,
@@ -19318,7 +21128,8 @@ var position = [
     full: "세종 확진자A",
     address: "집밥한상 (2/19 12:00-12:30)",
     address_name: "세종특별자치시 소담동 9-176",
-    latlng: "36.484814305954465, 127.30074195880029"
+    latlng: "36.484814305954465, 127.30074195880029",
+    address_english: "Home-cooked meal table (2/19 12:00-12:30)"
   },
   {
     solo: true,
@@ -19330,7 +21141,8 @@ var position = [
     full: "세종 확진자A",
     address: "수루배마을1단지아파트 (2/19 12:00-16:00)",
     address_name: "세종특별자치시 반곡동 35-5",
-    latlng: "36.49723588087948, 127.30674346365657"
+    latlng: "36.49723588087948, 127.30674346365657",
+    address_english: "Surubae Village 1 Complex Apartment (2/19 12:00-16:00)"
   },
   {
     solo: true,
@@ -19342,7 +21154,8 @@ var position = [
     full: "세종 확진자A",
     address: "쑥티식당 (2/19 18:00-18:30)",
     address_name: "세종특별자치시 금남면 용포리 67-1",
-    latlng: "36.463067550585606, 127.280764824328"
+    latlng: "36.463067550585606, 127.280764824328",
+    address_english: "Ssukti Restaurant (2/19 18:00-18:30)"
   },
   {
     solo: true,
@@ -19354,7 +21167,8 @@ var position = [
     full: "세종 확진자A",
     address: "미소지움아파트 자택 귀가 (2/19 18:00)",
     address_name: "세종특별자치시 금남면 용포리 263",
-    latlng: "36.46497292972835, 127.27831720704506"
+    latlng: "36.46497292972835, 127.27831720704506",
+    address_english: "Smile homecoming of apartment (2/19 18:00)"
   },
   {
     solo: true,
@@ -19366,7 +21180,8 @@ var position = [
     full: "세종 확진자A",
     address: "쑥티식당 아침식사 (2/20 7:25)",
     address_name: "세종특별자치시 금남면 용포리 67-1",
-    latlng: "36.463067550585606, 127.280764824328"
+    latlng: "36.463067550585606, 127.280764824328",
+    address_english: "Ssukti Restaurant Breakfast (2/20 7:25)"
   },
   {
     solo: true,
@@ -19378,7 +21193,9 @@ var position = [
     full: "세종 확진자A",
     address: "모종캐슬아파트 A/S 사무실 작업 (10:00-12:00)",
     address_name: "충남 아산시 모종동 640",
-    latlng: "36.78123402356321, 127.02213047895137"
+    latlng: "36.78123402356321, 127.02213047895137",
+    address_english:
+      "Working in the A/S office of Mojong Castle Apartments (10:00-12:00)"
   },
   {
     solo: true,
@@ -19390,7 +21207,8 @@ var position = [
     full: "세종 확진자A",
     address: "항아리보쌈 아산온양점 점심식사 (12:00-13:00)",
     address_name: "충남 아산시 풍기동 206-15",
-    latlng: "36.778481700786145, 127.0187164172372"
+    latlng: "36.778481700786145, 127.0187164172372",
+    address_english: "Juga Bossam Asan Onyang Restaurant Lunch (12:00-13:00)"
   },
   {
     solo: true,
@@ -19402,7 +21220,8 @@ var position = [
     full: "세종 확진자A",
     address: "쑥티식당 저녁식사 (2/20 18:00-19:00)",
     address_name: "세종특별자치시 금남면 용포리 67-1",
-    latlng: "36.463067550585606, 127.280764824328"
+    latlng: "36.463067550585606, 127.280764824328",
+    address_english: "Ssukti Restaurant Dinner (2/20 18:00-19:00)"
   },
   {
     solo: true,
@@ -19414,7 +21233,8 @@ var position = [
     full: "세종 확진자A",
     address: "백씨네커피가게 (20:00-20:20)",
     address_name: "세종특별자치시 금남면 용포리 66-3",
-    latlng: "36.463305402490604, 127.280787994936"
+    latlng: "36.463305402490604, 127.280787994936",
+    address_english: "Baek Cine Coffee Shop (20:00-20:20)"
   },
   {
     solo: true,
@@ -19426,7 +21246,8 @@ var position = [
     full: "세종 확진자A",
     address: "쑥티식당 아침식사 (2/21 7:40)",
     address_name: "세종특별자치시 금남면 용포리 67-1",
-    latlng: "36.463067550585606, 127.280764824328"
+    latlng: "36.463067550585606, 127.280764824328",
+    address_english: "Ssukti Restaurant Breakfast (2/21 7:40)"
   },
   {
     solo: true,
@@ -19438,7 +21259,8 @@ var position = [
     full: "세종 확진자A",
     address: "수루배마을1단지아파트 (2/21 8:15-8:30)",
     address_name: "세종특별자치시 반곡동 35-5",
-    latlng: "36.49723588087948, 127.30674346365657"
+    latlng: "36.49723588087948, 127.30674346365657",
+    address_english: "Surubae Village 1 Complex Apartment (2/21 8:15-8:30)"
   },
   {
     solo: true,
@@ -19450,7 +21272,8 @@ var position = [
     full: "세종 확진자A",
     address: "새뜸마을3단지 작업 (8:30)",
     address_name: "세종특별자치시 새롬동 329",
-    latlng: "36.485475080365504, 127.24683646033766"
+    latlng: "36.485475080365504, 127.24683646033766",
+    address_english: "Work on Saemdum Village 3rd Complex (8:30)"
   },
   {
     solo: true,
@@ -19462,7 +21285,8 @@ var position = [
     full: "세종 확진자A",
     address: "새뜸마을4단지 작업 (8:30)",
     address_name: "세종특별자치시 새롬동 373",
-    latlng: "36.48784565448508, 127.24658060390931"
+    latlng: "36.48784565448508, 127.24658060390931",
+    address_english: "Work on Saemdum Village 4 Complex (8:30)"
   },
   {
     solo: true,
@@ -19474,7 +21298,8 @@ var position = [
     full: "세종 확진자A",
     address: "집밥한상 (2/21 12:30)",
     address_name: "세종특별자치시 소담동 9-176",
-    latlng: "36.484814305954465, 127.30074195880029"
+    latlng: "36.484814305954465, 127.30074195880029",
+    address_english: "Home-cooked meals (2/21 12:30)"
   },
   {
     solo: true,
@@ -19486,7 +21311,8 @@ var position = [
     full: "세종 확진자A",
     address: "코로나19 세종시보건소 선별진료소",
     address_name: "세종특별자치시 조치원읍 교리 129-1",
-    latlng: "36.6056706472467, 127.296503846054"
+    latlng: "36.6056706472467, 127.296503846054",
+    address_english: "Corona19 Sejong City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -19498,7 +21324,8 @@ var position = [
     full: "송파구 확진자",
     address: "대구가톨릭 대학교병원 장례식장",
     address_name: "대구 남구 대명동 산 238-2",
-    latlng: "35.843087709574505, 128.5684935795622"
+    latlng: "35.843087709574505, 128.5684935795622",
+    address_english: "Daegu Catholic University Hospital funeral home"
   },
   {
     solo: true,
@@ -19510,7 +21337,9 @@ var position = [
     full: "송파구 확진자",
     address: "신한은행 성남공단금융센터-2/18.19.20.21",
     address_name: "경기 성남시 중원구 상대원동 513-15",
-    latlng: "37.43148326678321, 127.169588097316"
+    latlng: "37.43148326678321, 127.169588097316",
+    address_english:
+      "Shinhan Bank Seongnam Industrial Complex Financial Center-2/18.19.20.21"
   },
   {
     solo: true,
@@ -19522,7 +21351,8 @@ var position = [
     full: "송파구 확진자",
     address: "배스킨라빈스 송파하비오점-2/18.19.20 방문",
     address_name: "서울 송파구 문정동 618",
-    latlng: "37.48155825573261, 127.122672051587"
+    latlng: "37.48155825573261, 127.122672051587",
+    address_english: "Visit Songpa Habio Point-2/18.19.20 by Baskin Robbins"
   },
   {
     solo: true,
@@ -19534,7 +21364,8 @@ var position = [
     full: "양천구 확진자",
     address: "이마트 신월점",
     address_name: "서울 양천구 신월동 26",
-    latlng: "37.5397564345599, 126.82855573371"
+    latlng: "37.5397564345599, 126.82855573371",
+    address_english: "a new E-Mart store"
   },
   {
     solo: true,
@@ -19546,7 +21377,8 @@ var position = [
     full: "양천구 확진자",
     address: "금화왕돈까스 신월점",
     address_name: "서울 양천구 신월동 24-7",
-    latlng: "37.5397760452683, 126.83217194809099"
+    latlng: "37.5397760452683, 126.83217194809099",
+    address_english: "New World of Pork Cutlet in Gold Flower"
   },
   {
     solo: true,
@@ -19558,7 +21390,8 @@ var position = [
     full: "군산 확진자",
     address: "동진자동차공업사",
     address_name: "충남 서천군 마서면 송내리 475-6",
-    latlng: "36.0273473827745, 126.710014130125"
+    latlng: "36.0273473827745, 126.710014130125",
+    address_english: "Dongjin Motor Company Limited"
   },
   {
     solo: true,
@@ -19570,7 +21403,8 @@ var position = [
     full: "군산 확진자",
     address: "코로나19 군산시보건소 선별진료소",
     address_name: "전북 군산시 수송동 851-1",
-    latlng: "35.964691785897806, 126.720166432176"
+    latlng: "35.964691785897806, 126.720166432176",
+    address_english: "Corona19 Kunsan City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -19582,9 +21416,9 @@ var position = [
     full: "군산 확진자",
     address: "서천특화시장",
     address_name: "충남 서천군 서천읍 군사리 686-1",
-    latlng: "36.0747370968095, 126.687015825881"
+    latlng: "36.0747370968095, 126.687015825881",
+    address_english: "Seocheon Specialization Market"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19595,9 +21429,9 @@ var position = [
     full: "군산 확진자",
     address: "한사랑약국",
     address_name: "충남 서천군 장항읍 창선1리 183",
-    latlng: "36.01033180166029, 126.69815885129101"
+    latlng: "36.01033180166029, 126.69815885129101",
+    address_english: "Han Sarang Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19608,7 +21442,8 @@ var position = [
     full: "군산 확진자",
     address: "서천특화시장",
     address_name: "충남 서천군 서천읍 군사리 686-1",
-    latlng: "36.0747370968095, 126.687015825881"
+    latlng: "36.0747370968095, 126.687015825881",
+    address_english: "Seocheon Specialization Market"
   },
   {
     solo: true,
@@ -19620,7 +21455,8 @@ var position = [
     full: "광주 확진자",
     address: "창평국밥",
     address_name: "전남 담양군 창평면 창평리 250",
-    latlng: "35.23851058457609, 127.01438325888101"
+    latlng: "35.23851058457609, 127.01438325888101",
+    address_english: "Changpyeong rice soup"
   },
   {
     solo: true,
@@ -19632,9 +21468,9 @@ var position = [
     full: "부산 확진자",
     address: "광주송정역",
     address_name: "광주 광산구 송정동 1003-1",
-    latlng: "35.1376351602507, 126.790864370399"
+    latlng: "35.1376351602507, 126.790864370399",
+    address_english: "Gwangju Songjeong Station"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19645,9 +21481,9 @@ var position = [
     full: "부산 확진자",
     address: "미풍해장국",
     address_name: "전남 나주시 빛가람동 283-1",
-    latlng: "35.020324307803, 126.791216107466"
+    latlng: "35.020324307803, 126.791216107466",
+    address_english: "Mi Poong Haejangguk"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19658,7 +21494,8 @@ var position = [
     full: "부산 확진자",
     address: "한국인터넷진흥원",
     address_name: "전남 나주시 빛가람동 301-2",
-    latlng: "35.01846344368172, 126.79520252378528"
+    latlng: "35.01846344368172, 126.79520252378528",
+    address_english: "Korea Internet & Security Agency"
   },
   {
     solo: true,
@@ -19670,7 +21507,8 @@ var position = [
     full: "광주 확진자",
     address: "고흥실버대학",
     address_name: "전남 고흥군 고흥읍 서문리 245-4",
-    latlng: "34.6104619158584, 127.278688762485"
+    latlng: "34.6104619158584, 127.278688762485",
+    address_english: "Goheung Silver University"
   },
   {
     solo: true,
@@ -19682,7 +21520,8 @@ var position = [
     full: "광주 확진자",
     address: "텐토",
     address_name: "광주 서구 치평동 1223-1",
-    latlng: "35.154655610261806, 126.854322137303"
+    latlng: "35.154655610261806, 126.854322137303",
+    address_english: "Tento"
   },
   {
     solo: true,
@@ -19694,7 +21533,8 @@ var position = [
     full: "광주 확진자",
     address: "양산동 양떼목장",
     address_name: "광주 북구 양산동 93",
-    latlng: "35.209196, 126.878995"
+    latlng: "35.209196, 126.878995",
+    address_english: "Yangsan-dong Lamb Ranch"
   },
   {
     solo: true,
@@ -19706,7 +21546,8 @@ var position = [
     full: "광주 확진자",
     address: "중흥헬스",
     address_name: "광주 북구 중흥3동 280-2",
-    latlng: "35.1732986278818, 126.91392310848802"
+    latlng: "35.1732986278818, 126.91392310848802",
+    address_english: "Jungheung Health"
   },
   {
     solo: true,
@@ -19718,53 +21559,9 @@ var position = [
     full: "광주 확진자",
     address: "뚝배기식당",
     address_name: "전남 고흥군 도양읍 봉암리 2786",
-    latlng: "34.5256261490987, 127.135755821348"
+    latlng: "34.5256261490987, 127.135755821348",
+    address_english: "Ttukbaegi Restaurant"
   },
-
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#고양 확진자",
-  //   month: 2,
-  //   day: 25,
-  //   name: "고양",
-  //   full: "고양 확진자",
-  //   address: "행신SK뷰1차아파트 거주",
-  //   latlng: "37.62072956862662, 126.83295974679233"
-  // },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#고양 확진자",
-  //   month: 2,
-  //   day: 21,
-  //   name: "고양",
-  //   full: "고양 확진자",
-  //   address: "서울가정의학과",
-  //   latlng: "37.6566983050837, 126.773360019902"
-  // },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#고양 확진자",
-  //   month: 2,
-  //   day: 24,
-  //   name: "고양",
-  //   full: "고양 확진자",
-  //   address: "코로나19 강북삼성병원 선별진료소",
-  //   latlng: "37.56850663657661, 126.96792107169"
-  // },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#고양 확진자",
-  //   month: 2,
-  //   day: 25,
-  //   name: "고양",
-  //   full: "고양 확진자",
-  //   address: "웨스턴돔 유니버셜라이센싱 근무",
-  //   latlng: "37.654959837988784, 126.772644563395"
-  // },
   {
     solo: true,
     profile: "-",
@@ -19775,7 +21572,8 @@ var position = [
     full: "광명 확진자",
     address: "광명브라운스톤2차 거주",
     address_name: "경기 광명시 철산동 630",
-    latlng: "37.47188899356597, 126.86446993944945"
+    latlng: "37.47188899356597, 126.86446993944945",
+    address_english: "Gwangmyeong Brownstone 2nd Residence"
   },
   {
     solo: true,
@@ -19787,7 +21585,8 @@ var position = [
     full: "용인 확진자",
     address: "김재한내과의원",
     address_name: "경기 용인시 기흥구 보정동 1208-1",
-    latlng: "37.32072316831987, 127.1138482186981"
+    latlng: "37.32072316831987, 127.1138482186981",
+    address_english: "Kim Jae-han Clinic"
   },
   {
     solo: true,
@@ -19799,7 +21598,8 @@ var position = [
     full: "용인 확진자",
     address: "주연약국",
     address_name: "경기 용인시 기흥구 보정동 1208-1",
-    latlng: "37.32072405089719, 127.11386739949499"
+    latlng: "37.32072405089719, 127.11386739949499",
+    address_english: "a leading drugstore"
   },
   {
     solo: true,
@@ -19811,7 +21611,8 @@ var position = [
     full: "용인 확진자",
     address: "코로나19 수지구보건소 선별진료소",
     address_name: "경기 용인시 수지구 풍덕천동 720",
-    latlng: "37.3221916779058, 127.09683791577301"
+    latlng: "37.3221916779058, 127.09683791577301",
+    address_english: "Corona19 Aquatics Center Screening Care Center"
   },
   {
     solo: true,
@@ -19823,7 +21624,8 @@ var position = [
     full: "용인 확진자",
     address: "열린이비인후과",
     address_name: "경기 성남시 분당구 구미동 185-4",
-    latlng: "37.3386804474259, 127.109371584405"
+    latlng: "37.3386804474259, 127.109371584405",
+    address_english: "Open ENT"
   },
   {
     solo: true,
@@ -19835,7 +21637,8 @@ var position = [
     full: "용인 확진자",
     address: "오렌지약국",
     address_name: "경기 성남시 분당구 구미동 185-3",
-    latlng: "37.33881206129299, 127.10930293831332"
+    latlng: "37.33881206129299, 127.10930293831332",
+    address_english: "Orange Pharmacy"
   },
   {
     solo: true,
@@ -19847,7 +21650,8 @@ var position = [
     full: "용인 확진자",
     address: "이마트에브리데이 죽전점",
     address_name: "경기 용인시 수지구 죽전동 551-1",
-    latlng: "37.3309650862311, 127.11208199601198"
+    latlng: "37.3309650862311, 127.11208199601198",
+    address_english: "E-Mart Everyday Jukjeon Hall"
   },
   {
     solo: true,
@@ -19859,7 +21663,8 @@ var position = [
     full: "용인 확진자",
     address: "오성인테리어",
     address_name: "경기 용인시 수지구 풍덕천동 692",
-    latlng: "37.32630216652179, 127.090019308019"
+    latlng: "37.32630216652179, 127.090019308019",
+    address_english: "Five-starred terrier"
   },
   {
     solo: true,
@@ -19871,7 +21676,8 @@ var position = [
     full: "용인 확진자",
     address: "동성2차아파트",
     address_name: "경기 용인시 수지구 죽전동 1003-64",
-    latlng: "37.32721819417681, 127.10962576052898"
+    latlng: "37.32721819417681, 127.10962576052898",
+    address_english: "same-sex two-lane apartment"
   },
   {
     solo: true,
@@ -19883,7 +21689,8 @@ var position = [
     full: "대구 확진자",
     address: "대지면사무소",
     address_name: "경남 창녕군 대지면 모산리 501-1",
-    latlng: "35.5555840663766, 128.4678579091381"
+    latlng: "35.5555840663766, 128.4678579091381",
+    address_english: "a large-scale office"
   },
   {
     solo: true,
@@ -19895,7 +21702,9 @@ var position = [
     full: "경남 확진자",
     address: "코로나19 창녕군보건소 선별진료소",
     address_name: "경남 창녕군 창녕읍 교리 996-1",
-    latlng: "35.5436236634433, 128.49008663732516"
+    latlng: "35.5436236634433, 128.49008663732516",
+    address_english:
+      "Corona19 Changnyeong County Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -19907,9 +21716,9 @@ var position = [
     full: "밀양 확진자",
     address: "밀양시보건소",
     address_name: "경남 밀양시 삼문동 159-1",
-    latlng: "35.4857132334172, 128.75613196992745"
+    latlng: "35.4857132334172, 128.75613196992745",
+    address_english: "Miryang City Health Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -19920,7 +21729,8 @@ var position = [
     full: "과천 확진자",
     address: "인덕원역 4호선",
     address_name: "경기 안양시 동안구 관양동 1563",
-    latlng: "37.40149417095971, 126.97667985518699"
+    latlng: "37.40149417095971, 126.97667985518699",
+    address_english: "Indeokwon Station Line 4"
   },
   {
     solo: true,
@@ -19932,7 +21742,8 @@ var position = [
     full: "과천 확진자",
     address: "정부과천청사역 4호선",
     address_name: "경기 과천시 중앙동 6-3",
-    latlng: "37.4265047272927, 126.989868044926"
+    latlng: "37.4265047272927, 126.989868044926",
+    address_english: "Gwacheon Government Complex Station Line 4"
   },
   {
     solo: true,
@@ -19944,7 +21755,8 @@ var position = [
     full: "밀양 확진자",
     address: "미르아이병원",
     address_name: "경남 밀양시 삼문동 724-1",
-    latlng: "35.48369000204471, 128.74850765413746"
+    latlng: "35.48369000204471, 128.74850765413746",
+    address_english: "Mirai Hospital"
   },
   {
     solo: true,
@@ -19956,7 +21768,9 @@ var position = [
     full: "밀양 확진자",
     address: "코로나19 밀양시보건소 선별진료소",
     address_name: "경남 밀양시 삼문동 159-1",
-    latlng: "35.4857132334172, 128.75613196992745"
+    latlng: "35.4857132334172, 128.75613196992745",
+    address_english:
+      "Corona19 Miryang Municipal Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -19968,7 +21782,8 @@ var position = [
     full: "밀양 확진자",
     address: "햇살약국 (2/24, 25)",
     address_name: "경남 밀양시 삼문동 512",
-    latlng: "35.483664393982515, 128.74853354223245"
+    latlng: "35.483664393982515, 128.74853354223245",
+    address_english: "Sunlight Drug Administration (2/24, 25)"
   },
   {
     solo: true,
@@ -19980,7 +21795,8 @@ var position = [
     full: "밀양 확진자",
     address: "밀양 삼문동 중앙약국",
     address_name: "경남 밀양시 삼문동 159-1",
-    latlng: "35.485608, 128.756565"
+    latlng: "35.485608, 128.756565",
+    address_english: "Central Pharmacy of Sammun-dong, Miryang"
   },
   {
     solo: true,
@@ -19992,7 +21808,8 @@ var position = [
     full: "김해 확진자",
     address: "키무카츠 신세계백화점김해점",
     address_name: "경남 김해시 외동 1264",
-    latlng: "35.22933971803031, 128.8722426839287"
+    latlng: "35.22933971803031, 128.8722426839287",
+    address_english: "Kimukatsu Shinsegae Department Store Kimhae Branch"
   },
   {
     solo: true,
@@ -20004,7 +21821,8 @@ var position = [
     full: "김해 확진자",
     address: "활천고개",
     address_name: "경남 김해시 삼정동",
-    latlng: "35.233613668226106, 128.89110096834676"
+    latlng: "35.233613668226106, 128.89110096834676",
+    address_english: "an active pass"
   },
   {
     solo: true,
@@ -20016,7 +21834,8 @@ var position = [
     full: "김해 확진자",
     address: "코로나19 김해시보건소 선별진료소",
     address_name: "경남 김해시 외동 1261-3",
-    latlng: "35.23222919863411, 128.87070989801472"
+    latlng: "35.23222919863411, 128.87070989801472",
+    address_english: "Korona19 Gimhae Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -20028,7 +21847,8 @@ var position = [
     full: "창원 확진자",
     address: "코로나19 한마음창원병원 선별진료소",
     address_name: "경남 창원시 성산구 상남동 43-3",
-    latlng: "35.22118263704339, 128.68661471884636"
+    latlng: "35.22118263704339, 128.68661471884636",
+    address_english: "Corona19 Hanmaum Changwon Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -20040,7 +21860,8 @@ var position = [
     full: "광명 확진자",
     address: "미리내어린이집",
     address_name: "경기 광명시 철산동 625",
-    latlng: "37.46994197898321, 126.863745449838"
+    latlng: "37.46994197898321, 126.863745449838",
+    address_english: "a children's house"
   },
   {
     solo: true,
@@ -20052,7 +21873,8 @@ var position = [
     full: "광명 확진자",
     address: "철산역 7호선",
     address_name: "경기 광명시 철산동 526",
-    latlng: "37.476192842453685, 126.868211027014"
+    latlng: "37.476192842453685, 126.868211027014",
+    address_english: "Cheolsan Station Line 7"
   },
   {
     solo: true,
@@ -20064,7 +21886,8 @@ var position = [
     full: "광명 확진자",
     address: "가산디지털단지역 7호선",
     address_name: "서울 금천구 가산동",
-    latlng: "37.48039596609821, 126.882661758356"
+    latlng: "37.48039596609821, 126.882661758356",
+    address_english: "Gasan Digital Group Area Line 7"
   },
   {
     solo: true,
@@ -20076,7 +21899,8 @@ var position = [
     full: "광명 확진자",
     address: "금천구 사무실 근무",
     address_name: "서울 금천구 가산동 481-2",
-    latlng: "37.48585896244501, 126.87838828082998"
+    latlng: "37.48585896244501, 126.87838828082998",
+    address_english: "office work in Geumcheon-gu"
   },
   {
     solo: true,
@@ -20088,7 +21912,8 @@ var position = [
     full: "광명 확진자",
     address: "서울아산이비인후과의원",
     address_name: "경기 광명시 철산동 482",
-    latlng: "37.47533701801807, 126.86592774143179"
+    latlng: "37.47533701801807, 126.86592774143179",
+    address_english: "Asan Medical Center"
   },
   {
     solo: true,
@@ -20100,7 +21925,8 @@ var position = [
     full: "광명 확진자",
     address: "명지옵티마약국",
     address_name: "경기 광명시 철산동 486-18",
-    latlng: "37.4753034971968, 126.86576613649886"
+    latlng: "37.4753034971968, 126.86576613649886",
+    address_english: "Myungji Optima Pharmacy"
   },
   {
     solo: true,
@@ -20112,7 +21938,8 @@ var position = [
     full: "광명 확진자",
     address: "2001아울렛 철산점 지하 슈퍼(2/18, 22)",
     address_name: "경기 광명시 철산동 261",
-    latlng: "37.4750788153997, 126.86706776662622"
+    latlng: "37.4750788153997, 126.86706776662622",
+    address_english: "2001 Outlet Steel Branch Underground Super (2/18, 22)"
   },
   {
     solo: true,
@@ -20124,7 +21951,8 @@ var position = [
     full: "광명 확진자",
     address: "홈플러스익스프레스 광명철산2점",
     address_name: "경기 광명시 철산동 625-2",
-    latlng: "37.4710106848018, 126.86541206673398"
+    latlng: "37.4710106848018, 126.86541206673398",
+    address_english: "Home Plus Express Gwangmyeong Iron & Steel Co., Ltd."
   },
   {
     solo: true,
@@ -20136,7 +21964,8 @@ var position = [
     full: "광명 확진자",
     address: "엔비의원 광명철산점",
     address_name: "경기 광명시 철산동 259",
-    latlng: "37.475999316152, 126.865977432319"
+    latlng: "37.475999316152, 126.865977432319",
+    address_english: "N.B. One's Gwangmyeong Steel"
   },
   {
     solo: true,
@@ -20148,7 +21977,8 @@ var position = [
     full: "광명 확진자",
     address: "광명성애병원",
     address_name: "경기 광명시 철산동 389",
-    latlng: "37.47347856519616, 126.87191025301993"
+    latlng: "37.47347856519616, 126.87191025301993",
+    address_english: "Kwangmyongsung Love Hospital"
   },
   {
     solo: true,
@@ -20160,7 +21990,8 @@ var position = [
     full: "광명 확진자",
     address: "스타벅스 철산로데오점",
     address_name: "경기 광명시 철산동 425",
-    latlng: "37.4739236088593, 126.86939073408199"
+    latlng: "37.4739236088593, 126.86939073408199",
+    address_english: "Starbucks Steel Rodeo Shop"
   },
   {
     solo: true,
@@ -20172,7 +22003,9 @@ var position = [
     full: "광명 확진자",
     address: "코로나19 광명시보건소 선별진료소",
     address_name: "경기 광명시 하안동 230-1",
-    latlng: "37.4566775267623, 126.878851478017"
+    latlng: "37.4566775267623, 126.878851478017",
+    address_english:
+      "Corona19 Gwangmyeong Municipal Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -20184,7 +22017,8 @@ var position = [
     full: "광명 확진자",
     address: "명지병원",
     address_name: "경기 고양시 덕양구 화정동 697-24",
-    latlng: "37.64206996516571, 126.83145714476498"
+    latlng: "37.64206996516571, 126.83145714476498",
+    address_english: "Myungji Hospital"
   },
   {
     solo: true,
@@ -20196,7 +22030,8 @@ var position = [
     full: "고령 확진자",
     address: "앤유 PC방 방문",
     address_name: "대구 달성군 유가읍 봉리 606",
-    latlng: "35.69301985949687, 128.4580670676183"
+    latlng: "35.69301985949687, 128.4580670676183",
+    address_english: "Anne-U's visit to PC Bang"
   },
   {
     solo: true,
@@ -20208,7 +22043,8 @@ var position = [
     full: "과천시 확진자",
     address: "CU 과천여울점 근무(2/24, 25)",
     address_name: "경기 과천시 문원동 143",
-    latlng: "37.4243424420614, 127.00809810052"
+    latlng: "37.4243424420614, 127.00809810052",
+    address_english: "CU Gwacheon Youth Store Work (2/24/25)"
   },
   {
     solo: true,
@@ -20220,7 +22056,8 @@ var position = [
     full: "고령 확진자",
     address: "구지연합내과의원",
     address_name: "대구 달성군 구지면 응암리 1189-3",
-    latlng: "35.65554923979591, 128.41693542231508"
+    latlng: "35.65554923979591, 128.41693542231508",
+    address_english: "District Union Internal Medicine Officer"
   },
   {
     solo: true,
@@ -20232,7 +22069,8 @@ var position = [
     full: "고령 확진자",
     address: "구지봄약국",
     address_name: "대구 달성군 구지면 응암리 1189-3",
-    latlng: "35.655548928004904, 128.41696191766812"
+    latlng: "35.655548928004904, 128.41696191766812",
+    address_english: "Guji-Bom Pharmacy"
   },
   {
     solo: true,
@@ -20244,7 +22082,8 @@ var position = [
     full: "고령 확진자",
     address: "동고령농협 우곡지점",
     address_name: "경북 고령군 우곡면 봉산리 1135",
-    latlng: "35.63757603428241, 128.38342424221108"
+    latlng: "35.63757603428241, 128.38342424221108",
+    address_english: "Donggoryeong Agricultural Cooperative Ugok Branch"
   },
   {
     solo: true,
@@ -20256,7 +22095,8 @@ var position = [
     full: "고령 확진자",
     address: "윤솔공인중개사사무소",
     address_name: "대구 서구 내당동 13-34",
-    latlng: "35.861891302670195, 128.5641923566642"
+    latlng: "35.861891302670195, 128.5641923566642",
+    address_english: "Yoon Sol Public Interim Office"
   },
   {
     solo: true,
@@ -20268,7 +22108,9 @@ var position = [
     full: "성남 확진자",
     address: "충북대학교 졸업식 참석",
     address_name: "충북 청주시 흥덕구 복대동 680",
-    latlng: "36.6320539435727, 127.452988055796"
+    latlng: "36.6320539435727, 127.452988055796",
+    address_english:
+      "Attending the graduation ceremony of Chungbuk National University"
   },
   {
     solo: true,
@@ -20280,7 +22122,8 @@ var position = [
     full: "성남 확진자",
     address: "트리제이더테라스 청주산남점",
     address_name: "충북 청주시 서원구 산남동 1085",
-    latlng: "36.6075774653501, 127.47109947732999"
+    latlng: "36.6075774653501, 127.47109947732999",
+    address_english: "Treesjider Terrace Chongju Mountain Namshop"
   },
   {
     solo: true,
@@ -20292,7 +22135,8 @@ var position = [
     full: "성남 확진자",
     address: "오창휴게소 하남방향",
     address_name: "충북 청주시 청원구 오창읍 화산리 395-17",
-    latlng: "36.75667230837761, 127.482191529916"
+    latlng: "36.75667230837761, 127.482191529916",
+    address_english: "Ochang Rest Area Hanam-Direction"
   },
   {
     solo: true,
@@ -20304,7 +22148,8 @@ var position = [
     full: "구미 확진자",
     address: "터미널호텔사우나 2층",
     address_name: "경북 구미시 선산읍 동부리 327-5",
-    latlng: "36.2402265577043, 128.30439035697106"
+    latlng: "36.2402265577043, 128.30439035697106",
+    address_english: "Terminal Hotel Sauna 2F"
   },
   {
     solo: true,
@@ -20316,7 +22161,8 @@ var position = [
     full: "구미 확진자",
     address: "e편한세상구미교리아파트 방문",
     address_name: "경북 구미시 선산읍 교리 1172",
-    latlng: "36.25230047920839, 128.304992680739"
+    latlng: "36.25230047920839, 128.304992680739",
+    address_english: "e Comfortable World Visit to Gyuri-Pat"
   },
   {
     solo: true,
@@ -20328,7 +22174,8 @@ var position = [
     full: "구미 확진자",
     address: "중앙스포츠볼링장",
     address_name: "경북 구미시 남통동 8",
-    latlng: "36.1294255883706, 128.3245218617891"
+    latlng: "36.1294255883706, 128.3245218617891",
+    address_english: "Central Sports Bowling Ground"
   },
   {
     solo: true,
@@ -20340,7 +22187,8 @@ var position = [
     full: "구미 확진자",
     address: "복권천하명당 방문",
     address_name: "경북 구미시 선산읍 동부리 336",
-    latlng: "36.24105016174811, 128.30389678763305"
+    latlng: "36.24105016174811, 128.30389678763305",
+    address_english: "a visit per lottery ticket"
   },
   {
     solo: true,
@@ -20352,7 +22200,8 @@ var position = [
     full: "구미 확진자",
     address: "미니스톱 구미선산단계점",
     address_name: "경북 구미시 선산읍 노상리 149-2",
-    latlng: "36.242269775377906, 128.29781208866106"
+    latlng: "36.242269775377906, 128.29781208866106",
+    address_english: "Ministop Gumi Sunsan Phase Point"
   },
   {
     solo: true,
@@ -20364,7 +22213,9 @@ var position = [
     full: "용인시 확진자",
     address: "코로나19 기흥구보건소 선별진료소",
     address_name: "경기 용인시 기흥구 신갈동 60-3",
-    latlng: "37.272608430459805, 127.10639859028402"
+    latlng: "37.272608430459805, 127.10639859028402",
+    address_english:
+      "Corona19 Kiheung District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -20376,7 +22227,8 @@ var position = [
     full: "용인시 확진자",
     address: "우리들소아청소년과",
     address_name: "경기 용인시 기흥구 언남동 414-4",
-    latlng: "37.293784362857, 127.119889843822"
+    latlng: "37.293784362857, 127.119889843822",
+    address_english: "our children and adolescents"
   },
   {
     solo: true,
@@ -20388,7 +22240,8 @@ var position = [
     full: "구미 확진자",
     address: "하나은행 구미인동지점 근무 (2/21, 24)",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.107387304231786, 128.4189531773041"
+    latlng: "36.107387304231786, 128.4189531773041",
+    address_english: "Working at the Gumi branch of Hana Bank (2/21, 24)"
   },
   {
     solo: true,
@@ -20400,7 +22253,8 @@ var position = [
     full: "구미 확진자",
     address: "전국제일순대 인동점",
     address_name: "경북 구미시 황상동 313-4",
-    latlng: "36.107469322472305, 128.41933222194908"
+    latlng: "36.107469322472305, 128.41933222194908",
+    address_english: "National First Sundae Indong Branch"
   },
   {
     solo: true,
@@ -20412,7 +22266,8 @@ var position = [
     full: "구미 확진자",
     address: "매스커피 구미인동점",
     address_name: "경북 구미시 황상동 314-20",
-    latlng: "36.1076749470673, 128.41870959951308"
+    latlng: "36.1076749470673, 128.41870959951308",
+    address_english: "Mass coffee nine points"
   },
   {
     solo: true,
@@ -20424,7 +22279,8 @@ var position = [
     full: "구미 확진자",
     address: "제이엠5주유소",
     address_name: "경북 구미시 황상동 382-1",
-    latlng: "36.1108276546153, 128.42003232933013"
+    latlng: "36.1108276546153, 128.42003232933013",
+    address_english: "J.M. 5 Main Oil Station"
   },
   {
     solo: true,
@@ -20436,7 +22292,8 @@ var position = [
     full: "구미 확진자",
     address: "스타벅스 구미인동점",
     address_name: "경북 구미시 황상동 305-26",
-    latlng: "36.1078817815538, 128.4185933852291"
+    latlng: "36.1078817815538, 128.4185933852291",
+    address_english: "Starbucks Gumi Children's Shop"
   },
   {
     solo: true,
@@ -20448,7 +22305,8 @@ var position = [
     full: "용인시 확진자",
     address: "경기의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -20460,7 +22318,8 @@ var position = [
     full: "구미 확진자",
     address: "삼성연합의원",
     address_name: "경북 구미시 황상동 313-2",
-    latlng: "36.10706126897719, 128.41924270326882"
+    latlng: "36.10706126897719, 128.41924270326882",
+    address_english: "Samsung United Rep."
   },
   {
     solo: true,
@@ -20472,7 +22331,8 @@ var position = [
     full: "구미 확진자",
     address: "우정약국",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.10731475554349, 128.41899185009012"
+    latlng: "36.10731475554349, 128.41899185009012",
+    address_english: "friendship and medicine bureau"
   },
   {
     solo: true,
@@ -20484,7 +22344,8 @@ var position = [
     full: "구미 확진자",
     address: "이마트24 비산파라디아점",
     address_name: "경북 구미시 공단동 109",
-    latlng: "36.1207238938898, 128.3719400553911"
+    latlng: "36.1207238938898, 128.3719400553911",
+    address_english: "E-Mart24 Visan Paradia Store"
   },
   {
     solo: true,
@@ -20496,7 +22357,9 @@ var position = [
     full: "용인시 확진자",
     address: "구성역효성해링턴플레이스아파트 거주",
     address_name: "경기 용인시 기흥구 마북동 651",
-    latlng: "37.296923499423336, 127.1163545100717"
+    latlng: "37.296923499423336, 127.1163545100717",
+    address_english:
+      "Composition of the Efficient Harrington Place Apartment Housing"
   },
   {
     solo: true,
@@ -20508,7 +22371,9 @@ var position = [
     full: "용인시 확진자",
     address: "정자동 포스코건설 공사장 근무",
     address_name: "경기 성남시 분당구 정자동 215",
-    latlng: "37.355104092823375, 127.11722408590458"
+    latlng: "37.355104092823375, 127.11722408590458",
+    address_english:
+      "Jeongja-dong, head of POSCO Engineering & Construction Co."
   },
   {
     solo: true,
@@ -20520,7 +22385,8 @@ var position = [
     full: "용인시 확진자",
     address: "GS25 구성효성점(2/22, 23, 26)",
     address_name: "경기 용인시 기흥구 마북동 342-3",
-    latlng: "37.296069902922184, 127.115756570315"
+    latlng: "37.296069902922184, 127.115756570315",
+    address_english: "GS25 Configurative Validity Points (2/22, 23, 26)"
   },
   {
     solo: true,
@@ -20532,7 +22398,8 @@ var position = [
     full: "용인시 확진자",
     address: "마트킹 구성점",
     address_name: "경기 용인시 기흥구 마북동 553",
-    latlng: "37.302857086504474, 127.10650435417789"
+    latlng: "37.302857086504474, 127.10650435417789",
+    address_english: "Matking Configurations Point"
   },
   {
     solo: true,
@@ -20544,7 +22411,8 @@ var position = [
     full: "용인 확진자",
     address: "셀메드주오약국",
     address_name: "경기 용인시 기흥구 언남동 414-4",
-    latlng: "37.29376622099302, 127.12000936194876"
+    latlng: "37.29376622099302, 127.12000936194876",
+    address_english: "Selmedzuo Pharmacy"
   },
   {
     solo: true,
@@ -20556,7 +22424,8 @@ var position = [
     full: "수원 확진자",
     address: "아주대학교병원",
     address_name: "경기 수원시 영통구 원천동 산 26-6",
-    latlng: "37.27958828328031, 127.04761136661999"
+    latlng: "37.27958828328031, 127.04761136661999",
+    address_english: "Ajou University Hospital"
   },
   {
     solo: true,
@@ -20568,7 +22437,9 @@ var position = [
     full: "수원 확진자",
     address: "호반마을광교22단지아파트 거주",
     address_name: "경기 수원시 영통구 하동 1028",
-    latlng: "37.27997030632964, 127.06950500587713"
+    latlng: "37.27997030632964, 127.06950500587713",
+    address_english:
+      "Hovan Village Gwanggyo Bridge 22 Complex Apartment Residence"
   },
   {
     solo: true,
@@ -20580,7 +22451,9 @@ var position = [
     full: "수원 확진자",
     address: "한림대학교 동탄성심병원 코로나19 선별진료소 방문",
     address_name: "경기 화성시 석우동 40",
-    latlng: "37.2166490921101, 127.08000585823602"
+    latlng: "37.2166490921101, 127.08000585823602",
+    address_english:
+      "Visit the Corona19 Screening Clinic at Hallym University Dongtan Seongsim Hospital"
   },
   {
     solo: true,
@@ -20592,7 +22465,8 @@ var position = [
     full: "성남 확진자",
     address: "성남종합버스터미널",
     address_name: "경기 성남시 분당구 야탑동 341",
-    latlng: "37.41311607869241, 127.127200696629"
+    latlng: "37.41311607869241, 127.127200696629",
+    address_english: "Seongnam Bus Terminal"
   },
   {
     solo: true,
@@ -20604,7 +22478,8 @@ var position = [
     full: "성남 확진자",
     address: "파리바게뜨 분당상탑점",
     address_name: "경기 성남시 분당구 야탑동 175-5",
-    latlng: "37.40692430763553, 127.1466243169044"
+    latlng: "37.40692430763553, 127.1466243169044",
+    address_english: "Paris Baguette Bundang Sangtap Branch"
   },
   {
     solo: true,
@@ -20616,7 +22491,8 @@ var position = [
     full: "파주 확진자",
     address: "동대구역",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -20628,7 +22504,8 @@ var position = [
     full: "파주 확진자",
     address: "서울역",
     address_name: "서울 용산구 동자동 43-205",
-    latlng: "37.554678838867396, 126.970606917394"
+    latlng: "37.554678838867396, 126.970606917394",
+    address_english: "Seoul Station"
   },
   {
     solo: true,
@@ -20640,7 +22517,8 @@ var position = [
     full: "파주 확진자",
     address: "늘봄이비인후과의원(2/20, 24)",
     address_name: "경기 파주시 목동동 933",
-    latlng: "37.72867781028519, 126.73639658266"
+    latlng: "37.72867781028519, 126.73639658266",
+    address_english: "Nol-Spring Non-Pain Clinic (2/20, 24)"
   },
   {
     solo: true,
@@ -20652,7 +22530,8 @@ var position = [
     full: "파주 확진자",
     address: "수온누리약국(2/20, 24)",
     address_name: "경기 파주시 목동동 933",
-    latlng: "37.72867781028519, 126.73639658266"
+    latlng: "37.72867781028519, 126.73639658266",
+    address_english: "Water-On Nuri Pharmacy (2/20, 24)"
   },
   {
     solo: true,
@@ -20664,7 +22543,8 @@ var position = [
     full: "파주 확진자",
     address: "롯데몰 은평점",
     address_name: "서울 은평구 진관동 80-25",
-    latlng: "37.63762792633299, 126.91774573633398"
+    latlng: "37.63762792633299, 126.91774573633398",
+    address_english: "Lotte Mall Eunpyeong Branch"
   },
   {
     solo: true,
@@ -20676,7 +22556,8 @@ var position = [
     full: "파주 확진자",
     address: "연세키즈웰 소아청소년과의원",
     address_name: "경기 파주시 목동동 927",
-    latlng: "37.729536336775, 126.736756539342"
+    latlng: "37.729536336775, 126.736756539342",
+    address_english: "Yonsei Kidswell Children's Youth Clinic"
   },
   {
     solo: true,
@@ -20688,7 +22569,8 @@ var position = [
     full: "파주 확진자",
     address: "두리약국",
     address_name: "경기 파주시 목동동 927",
-    latlng: "37.7295687815196, 126.736760961992"
+    latlng: "37.7295687815196, 126.736760961992",
+    address_english: "Duri Pharmacy"
   },
   {
     solo: true,
@@ -20700,7 +22582,8 @@ var position = [
     full: "파주 확진자",
     address: "다이소",
     address_name: "경기 파주시 목동동 927",
-    latlng: "37.7295327227968, 126.73675201463699"
+    latlng: "37.7295327227968, 126.73675201463699",
+    address_english: "Daiso."
   },
   {
     solo: true,
@@ -20712,7 +22595,8 @@ var position = [
     full: "파주 확진자",
     address: "중구보건소",
     address_name: "서울 중구 무학동 50-5",
-    latlng: "37.56458889596116, 127.01509124756984"
+    latlng: "37.56458889596116, 127.01509124756984",
+    address_english: "Jung-gu Health Center"
   },
   {
     solo: true,
@@ -20724,7 +22608,8 @@ var position = [
     full: "파주 확진자",
     address: "코로나19 파주시보건소 선별진료소",
     address_name: "경기 파주시 금촌동 953-1",
-    latlng: "37.756350556560406, 126.77391425919102"
+    latlng: "37.756350556560406, 126.77391425919102",
+    address_english: "Corona19 Paju Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -20736,7 +22621,8 @@ var position = [
     full: "울산 확진자",
     address: "두울원칼국수 다운점",
     address_name: "울산 중구 다운동 776-9",
-    latlng: "35.562711462773414, 129.26768548007058"
+    latlng: "35.562711462773414, 129.26768548007058",
+    address_english: "Doulwon Kalguksu Down Store"
   },
   {
     solo: true,
@@ -20748,7 +22634,8 @@ var position = [
     full: "울산 확진자",
     address: "울산광역시 중구보건소 방문",
     address_name: "울산 중구 남외동 603-2",
-    latlng: "35.56953499455542, 129.35040542542728"
+    latlng: "35.56953499455542, 129.35040542542728",
+    address_english: "Visit Jung-gu Health Center in Ulsan"
   },
   {
     solo: true,
@@ -20760,7 +22647,8 @@ var position = [
     full: "밀양 확진자",
     address: "밀양시보건소",
     address_name: "경남 밀양시 삼문동 159-1",
-    latlng: "35.4857132334172, 128.75613196992745"
+    latlng: "35.4857132334172, 128.75613196992745",
+    address_english: "Miryang City Health Center"
   },
   {
     solo: true,
@@ -20772,7 +22660,8 @@ var position = [
     full: "밀양 확진자",
     address: "미르아이병원",
     address_name: "경남 밀양시 삼문동 724-1",
-    latlng: "35.48369000204471, 128.74850765413746"
+    latlng: "35.48369000204471, 128.74850765413746",
+    address_english: "Mirai Hospital"
   },
   {
     solo: true,
@@ -20784,7 +22673,8 @@ var position = [
     full: "밀양 확진자",
     address: "휴베이스 햇살약국",
     address_name: "경남 밀양시 삼문동 512",
-    latlng: "35.483664393982515, 128.74853354223245"
+    latlng: "35.483664393982515, 128.74853354223245",
+    address_english: "Huibase Sunlight Office"
   },
   {
     solo: true,
@@ -20796,7 +22686,9 @@ var position = [
     full: "밀양 확진자",
     address: "코로나19 밀양시보건소 선별진료소",
     address_name: "경남 밀양시 삼문동 159-1",
-    latlng: "35.4857132334172, 128.75613196992745"
+    latlng: "35.4857132334172, 128.75613196992745",
+    address_english:
+      "Corona19 Miryang Municipal Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -20808,7 +22700,8 @@ var position = [
     full: "밀양 확진자",
     address: "중앙약국",
     address_name: "경남 밀양시 삼문동 161-6",
-    latlng: "35.48571287130291, 128.75665201793447"
+    latlng: "35.48571287130291, 128.75665201793447",
+    address_english: "Central Pharmacy"
   },
   {
     solo: true,
@@ -20820,7 +22713,9 @@ var position = [
     full: "밀양 확진자",
     address: "경상남도 마산의료원 이송",
     address_name: "경남 창원시 마산합포구 장군동4가 3-6",
-    latlng: "35.19917138155086, 128.565560620545"
+    latlng: "35.19917138155086, 128.565560620545",
+    address_english:
+      "Transfer to Masan Medical Center in South Gyeongsang Province"
   },
   {
     solo: true,
@@ -20832,20 +22727,9 @@ var position = [
     full: "파주 확진자",
     address: "식빵연구소",
     address_name: "경기 파주시 문발동 263-22",
-    latlng: "37.725966426629, 126.69934796557298"
+    latlng: "37.725966426629, 126.69934796557298",
+    address_english: "Bread Institute"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#파주 확진자",
-  //   month: 2,
-  //   day: 24,
-  //   name: "파주",
-  //   full: "파주 확진자",
-  //   address: "팜스마트 산내마을점",
-  //   address_name: "경기 파주시 문발동 263-22",
-  //   latlng: "37.6407069,126.7234247"
-  // },
   {
     solo: true,
     profile: "-",
@@ -20856,7 +22740,8 @@ var position = [
     full: "울산 확진자",
     address: "신명횟집",
     address_name: "울산 북구 신명동 126",
-    latlng: "35.645484657150824, 129.44173266479427"
+    latlng: "35.645484657150824, 129.44173266479427",
+    address_english: "a collection of new to life"
   },
   {
     solo: true,
@@ -20868,7 +22753,8 @@ var position = [
     full: "평택 확진자",
     address: "평택역",
     address_name: "경기 평택시 평택동 185-579",
-    latlng: "36.99098235648259, 127.08529109294702"
+    latlng: "36.99098235648259, 127.08529109294702",
+    address_english: "Pyeongtaek Station"
   },
   {
     solo: true,
@@ -20880,7 +22766,8 @@ var position = [
     full: "평택 확진자",
     address: "케이엠제약",
     address_name: "경기 평택시 포승읍 도곡리 1219",
-    latlng: "36.98681017820531, 126.850706087085"
+    latlng: "36.98681017820531, 126.850706087085",
+    address_english: "K.M. Pharmaceuticals"
   },
   {
     solo: true,
@@ -20892,7 +22779,8 @@ var position = [
     full: "평택 확진자",
     address: "지제역",
     address_name: "경기 평택시 지제동 559-4",
-    latlng: "37.01878180904829, 127.06983273837399"
+    latlng: "37.01878180904829, 127.06983273837399",
+    address_english: "Jije Station"
   },
   {
     solo: true,
@@ -20904,7 +22792,8 @@ var position = [
     full: "평택 확진자",
     address: "동대구역",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -20916,7 +22805,8 @@ var position = [
     full: "평택 확진자",
     address: "호박공인중개사사무소",
     address_name: "경기 평택시 포승읍 도곡리 1113",
-    latlng: "36.990661571873495, 126.849409000487"
+    latlng: "36.990661571873495, 126.849409000487",
+    address_english: "Pumpkin Public Interim Office"
   },
   {
     solo: true,
@@ -20928,7 +22818,8 @@ var position = [
     full: "평택 확진자",
     address: "태광공인중개사무소",
     address_name: "경기 평택시 포승읍 도곡리 1144-12",
-    latlng: "36.98681149427661, 126.846091760752"
+    latlng: "36.98681149427661, 126.846091760752",
+    address_english: "Taekwang Public Arbitration Office"
   },
   {
     solo: true,
@@ -20940,7 +22831,8 @@ var position = [
     full: "평택 확진자",
     address: "코로나19 박애병원 선별진료소",
     address_name: "경기 평택시 평택동 41-2",
-    latlng: "36.993084506701805, 127.089076869905"
+    latlng: "36.993084506701805, 127.089076869905",
+    address_english: "Corona19 Paternity Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -20952,7 +22844,8 @@ var position = [
     full: "평택 확진자",
     address: "경기의료원 파주병원",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english: "Gyeonggi Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -20964,7 +22857,8 @@ var position = [
     full: "송파 확진자",
     address: "국립경찰병원 응급실 근무",
     address_name: "서울 송파구 가락동 58",
-    latlng: "37.4964276249056, 127.12349248212799"
+    latlng: "37.4964276249056, 127.12349248212799",
+    address_english: "Emergency Room Service at National Police Hospital"
   },
   {
     solo: true,
@@ -20976,7 +22870,8 @@ var position = [
     full: "부산 확진자",
     address: "대일식육식당",
     address_name: "경북 경주시 산내면 의곡리 174-1",
-    latlng: "35.75760685993621, 129.04435553051528"
+    latlng: "35.75760685993621, 129.04435553051528",
+    address_english: "a Japanese restaurant"
   },
   {
     solo: true,
@@ -20988,7 +22883,8 @@ var position = [
     full: "부산 확진자",
     address: "명성부부치과의원",
     address_name: "부산 부산진구 전포동 192-2",
-    latlng: "35.1599994269324, 129.06616067625043"
+    latlng: "35.1599994269324, 129.06616067625043",
+    address_english: "a reputable nurse"
   },
   {
     solo: true,
@@ -21000,7 +22896,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21012,20 +22910,9 @@ var position = [
     full: "울산 확진자",
     address: "방어동행정복지센터",
     address_name: "울산 동구 방어동 413-1",
-    latlng: "35.48623044176802, 129.42397412950612"
+    latlng: "35.48623044176802, 129.42397412950612",
+    address_english: "Defense East Administrative Welfare Center"
   },
-
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#거제 확진자",
-  //   month: 2,
-  //   day: 20,
-  //   name: "거제",
-  //   full: "거제 확진자",
-  //   address: "다인오피스텔홍보관 (2/20 18:00_19:00)",
-  //   latlng: "35.5368909, 129.3288589"
-  // },
   {
     solo: true,
     profile: "-",
@@ -21036,7 +22923,8 @@ var position = [
     full: "거제 확진자",
     address: "짱이야 본점",
     address_name: "울산 남구 삼산동 1477-11",
-    latlng: "35.537919868247656, 129.33761057863603"
+    latlng: "35.537919868247656, 129.33761057863603",
+    address_english: "It's the best. Head office."
   },
   {
     solo: true,
@@ -21048,7 +22936,8 @@ var position = [
     full: "부산 확진자",
     address: "부산대학교 기계관",
     address_name: "부산 금정구 장전동 483-97",
-    latlng: "35.23062544447391, 129.08084869757647"
+    latlng: "35.23062544447391, 129.08084869757647",
+    address_english: "Busan University Mechanical Museum"
   },
   {
     solo: true,
@@ -21060,7 +22949,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 대동병원 선별진료소",
     address_name: "부산 동래구 명륜동 530-1",
-    latlng: "35.2042360924945, 129.08022333262247"
+    latlng: "35.2042360924945, 129.08022333262247",
+    address_english: "Corona19 Daedong Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -21072,7 +22962,8 @@ var position = [
     full: "부산 확진자",
     address: "금정구보건소",
     address_name: "부산 금정구 부곡동 78",
-    latlng: "35.24205367713832, 129.0924545622475"
+    latlng: "35.24205367713832, 129.0924545622475",
+    address_english: "gilt-bronze health center"
   },
   {
     solo: true,
@@ -21084,7 +22975,9 @@ var position = [
     full: "부산 확진자",
     address: "아시아드요양병원 (24일-검사, 25일-근무&1인실격리)",
     address_name: "부산 연제구 연산동 1143-6",
-    latlng: "35.18681768089162, 129.07859802929644"
+    latlng: "35.18681768089162, 129.07859802929644",
+    address_english:
+      "Asiad Nursing Hospital (24-day Public Prosecutor, 25-day Work)"
   },
   {
     solo: true,
@@ -21096,7 +22989,8 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원 이송(보건소 차량 이용)",
     address_name: "부산 연제구 거제동 1330",
-    latlng: "35.18729655432529, 129.05922489147238"
+    latlng: "35.18729655432529, 129.05922489147238",
+    address_english: "Transfer to Busan Medical Center (Hospital vehicles)"
   },
   {
     solo: true,
@@ -21108,7 +23002,8 @@ var position = [
     full: "부산 확진자",
     address: "아미산(20, 21, 22, 24일에 산행)",
     address_name: "부산 사하구 장림동",
-    latlng: "35.06656277067329, 128.96778942967003"
+    latlng: "35.06656277067329, 128.96778942967003",
+    address_english: "Amisan Mountain (bound on 20, 21, 22 and 24)"
   },
   {
     solo: true,
@@ -21120,7 +23015,8 @@ var position = [
     full: "부산 확진자",
     address: "(주)재경수산 사무실",
     address_name: "부산 서구 남부민동 649-29",
-    latlng: "35.0892442387555, 129.02403124046322"
+    latlng: "35.0892442387555, 129.02403124046322",
+    address_english: "(Note) Jaekyung Fisheries Office"
   },
   {
     solo: true,
@@ -21132,7 +23028,8 @@ var position = [
     full: "부산 확진자",
     address: "서울깍두기",
     address_name: "부산 서구 남부민동 650-6",
-    latlng: "35.08900422981651, 129.02415687475522"
+    latlng: "35.08900422981651, 129.02415687475522",
+    address_english: "Seoul Radish"
   },
   {
     solo: true,
@@ -21144,7 +23041,8 @@ var position = [
     full: "부산 확진자",
     address: "장림 한서병원(21일, 24일 방문)",
     address_name: "부산 사하구 장림2동 380-1",
-    latlng: "35.074124024246586, 128.97696860562806"
+    latlng: "35.074124024246586, 128.97696860562806",
+    address_english: "Jangrim Hanseo Hospital (visits on the 21st and 24th)"
   },
   {
     solo: true,
@@ -21156,7 +23054,8 @@ var position = [
     full: "부산 확진자",
     address: "큰사랑약국(21일, 24일 방문)",
     address_name: "부산 사하구 장림동 380-2",
-    latlng: "35.0740378001734, 128.97672974663004"
+    latlng: "35.0740378001734, 128.97672974663004",
+    address_english: "Big Love Pharmacy (21st, 24th)"
   },
   {
     solo: true,
@@ -21168,7 +23067,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 사하구보건소 선별진료소",
     address_name: "부산 사하구 신평동 647-5",
-    latlng: "35.0941572529117, 128.959553446035"
+    latlng: "35.0941572529117, 128.959553446035",
+    address_english: "Corona19 Sahagu Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21180,7 +23080,8 @@ var position = [
     full: "부산 확진자",
     address: "구포국수",
     address_name: "부산 사상구 괘법동 535",
-    latlng: "35.163965182492696, 128.9839400381481"
+    latlng: "35.163965182492696, 128.9839400381481",
+    address_english: "Gupo noodles"
   },
   {
     solo: true,
@@ -21192,7 +23093,8 @@ var position = [
     full: "부산 확진자",
     address: "커피킹콩",
     address_name: "부산 사상구 괘법동 545-18",
-    latlng: "35.162634700280535, 128.9856657269515"
+    latlng: "35.162634700280535, 128.9856657269515",
+    address_english: "Coffee King Kong"
   },
   {
     solo: true,
@@ -21204,7 +23106,8 @@ var position = [
     full: "부산 확진자",
     address: "더조은 이비인후과의원(20, 22, 25일 방문)",
     address_name: "부산 사상구 괘법동 546-1",
-    latlng: "35.1629607430383, 128.98457736267608"
+    latlng: "35.1629607430383, 128.98457736267608",
+    address_english: "Thezo is an ENT doctor (visits on 20th, 22nd and 25th)"
   },
   {
     solo: true,
@@ -21216,7 +23119,8 @@ var position = [
     full: "부산 확진자",
     address: "사상온누리약국(20일, 22일 방문)",
     address_name: "부산 사상구 괘법동 546-1",
-    latlng: "35.162967661946894, 128.98459508904108"
+    latlng: "35.162967661946894, 128.98459508904108",
+    address_english: "Sasang Onnuri Pharmacy (visits on 20th and 22nd)"
   },
   {
     solo: true,
@@ -21228,7 +23132,8 @@ var position = [
     full: "부산 확진자",
     address: "OX PC방",
     address_name: "부산 사상구 괘법동 546-11",
-    latlng: "35.16269554724891, 128.9847026045051"
+    latlng: "35.16269554724891, 128.9847026045051",
+    address_english: "OX PC Room"
   },
   {
     solo: true,
@@ -21240,7 +23145,8 @@ var position = [
     full: "부산 확진자",
     address: "GS25 사상광장점(20일, 22일 방문)",
     address_name: "부산 사상구 괘법동 548-1",
-    latlng: "35.1617173798652, 128.98632050243907"
+    latlng: "35.1617173798652, 128.98632050243907",
+    address_english: "GS25 Sasang Plaza (visits on 20th and 22nd)"
   },
   {
     solo: true,
@@ -21252,7 +23158,8 @@ var position = [
     full: "부산 확진자",
     address: "봉추찜닭 부산사상점",
     address_name: "부산 사상구 괘법동 545-13",
-    latlng: "35.16308595678012, 128.98573486059462"
+    latlng: "35.16308595678012, 128.98573486059462",
+    address_english: "Bongchujjimdak Busan History Store"
   },
   {
     solo: true,
@@ -21264,7 +23171,8 @@ var position = [
     full: "부산 확진자",
     address: "파리바게뜨 부산사상점",
     address_name: "부산 사상구 괘법동 272-19",
-    latlng: "35.1642670415352, 128.9838321438291"
+    latlng: "35.1642670415352, 128.9838321438291",
+    address_english: "Paris Baguette Busan History Store"
   },
   {
     solo: true,
@@ -21276,7 +23184,8 @@ var position = [
     full: "부산 확진자",
     address: "가야정 본점",
     address_name: "부산 부산진구 가야동 136-46",
-    latlng: "35.153808722497104, 129.02958411120926"
+    latlng: "35.153808722497104, 129.02958411120926",
+    address_english: "the main branch of the gayageum"
   },
   {
     solo: true,
@@ -21288,7 +23197,8 @@ var position = [
     full: "부산 확진자",
     address: "커피젤",
     address_name: "부산 사상구 주례동 411-17",
-    latlng: "35.15101406156981, 129.00589919744314"
+    latlng: "35.15101406156981, 129.00589919744314",
+    address_english: "coffee gel"
   },
   {
     solo: true,
@@ -21300,7 +23210,8 @@ var position = [
     full: "부산 확진자",
     address: "사상 화오뎅",
     address_name: "부산 사상구 괘법동 272-16",
-    latlng: "35.164207385264, 128.98417308531907"
+    latlng: "35.164207385264, 128.98417308531907",
+    address_english: "an ideological hwadeng"
   },
   {
     solo: true,
@@ -21312,7 +23223,8 @@ var position = [
     full: "부산 확진자",
     address: "스타벅스 사상역점",
     address_name: "부산 사상구 괘법동 526-7",
-    latlng: "35.16397494193661, 128.98339925552605"
+    latlng: "35.16397494193661, 128.98339925552605",
+    address_english: "Starbucks Thought Station"
   },
   {
     solo: true,
@@ -21324,7 +23236,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 사상구보건소 선별진료소",
     address_name: "부산 사상구 감전동 138-8",
-    latlng: "35.15244078567301, 128.9921297939431"
+    latlng: "35.15244078567301, 128.9921297939431",
+    address_english: "Corona19 Sasangu Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21336,7 +23249,8 @@ var position = [
     full: "부산 확진자",
     address: "노크 이자카야",
     address_name: "부산 부산진구 부전동 521-22",
-    latlng: "35.15350036439261, 129.0574728963914"
+    latlng: "35.15350036439261, 129.0574728963914",
+    address_english: "Knock Isakaya"
   },
   {
     solo: true,
@@ -21348,7 +23262,8 @@ var position = [
     full: "부산 확진자",
     address: "쓰리제이에듀 부산진구지점",
     address_name: "부산 부산진구 양정동 511-3",
-    latlng: "35.17450835507701, 129.0633977090364"
+    latlng: "35.17450835507701, 129.0633977090364",
+    address_english: "3Jadeu Busanjin-gu Branch"
   },
   {
     solo: true,
@@ -21360,7 +23275,8 @@ var position = [
     full: "부산 확진자",
     address: "선산휴게소 양평방향",
     address_name: "경북 구미시 옥성면 대원리 31-6",
-    latlng: "36.27806165422611, 128.24915052331605"
+    latlng: "36.27806165422611, 128.24915052331605",
+    address_english: "Yangpyeong-Direction of Sunsan Rest Area"
   },
   {
     solo: true,
@@ -21372,7 +23288,8 @@ var position = [
     full: "부산 확진자",
     address: "메종드베르",
     address_name: "경기 성남시 분당구 야탑동 366-1",
-    latlng: "37.411592417228306, 127.129723827723"
+    latlng: "37.411592417228306, 127.129723827723",
+    address_english: "Mezondberg"
   },
   {
     solo: true,
@@ -21384,7 +23301,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21396,7 +23315,8 @@ var position = [
     full: "울산 확진자",
     address: "류마장구본승내과의원",
     address_name: "울산 중구 반구동 54-2",
-    latlng: "35.56407553952055, 129.336551902857"
+    latlng: "35.56407553952055, 129.336551902857",
+    address_english: "Ryu-Majang Gu Bonseung Internal Medicine"
   },
   {
     solo: true,
@@ -21408,7 +23328,8 @@ var position = [
     full: "울산 확진자",
     address: "행복한약국",
     address_name: "울산 중구 반구동 54-2",
-    latlng: "35.564088104445005, 129.3365544733072"
+    latlng: "35.564088104445005, 129.3365544733072",
+    address_english: "Happy Pharmacy"
   },
   {
     solo: true,
@@ -21420,7 +23341,8 @@ var position = [
     full: "울산 확진자",
     address: "선린약국",
     address_name: "울산 중구 반구동 54-2",
-    latlng: "35.5416502,129.4177623"
+    latlng: "35.5416502,129.4177623",
+    address_english: "Sunrin Pharmacy"
   },
   {
     solo: true,
@@ -21432,7 +23354,8 @@ var position = [
     full: "울산 확진자",
     address: "창원시창원보건소",
     address_name: "경남 창원시 의창구 신월동 96-2",
-    latlng: "35.2280471157693, 128.68552228110838"
+    latlng: "35.2280471157693, 128.68552228110838",
+    address_english: "Changwon Municipal Health Center"
   },
   {
     solo: true,
@@ -21444,7 +23367,8 @@ var position = [
     full: "울산 확진자",
     address: "신천지 울산교회",
     address_name: "울산 남구 무거동 947-2",
-    latlng: "35.5399759866827, 129.2520958698045"
+    latlng: "35.5399759866827, 129.2520958698045",
+    address_english: "Shinchunji Ulsan Church"
   },
   {
     solo: true,
@@ -21456,7 +23380,8 @@ var position = [
     full: "울산 확진자",
     address: "투썸플레이스 울산달동목화점",
     address_name: "울산 남구 달동 1266-15",
-    latlng: "35.53693233249522, 129.33160809125712"
+    latlng: "35.53693233249522, 129.33160809125712",
+    address_english: "Twosome Place Ulsan Daldong Mokhwa Shop"
   },
   {
     solo: true,
@@ -21468,20 +23393,9 @@ var position = [
     full: "울산 확진자",
     address: "한울테크",
     address_name: "울산 남구 달동 1266-15",
-    latlng: "35.571673,129.3540191"
+    latlng: "35.571673,129.3540191",
+    address_english: "Hanul Tech Co., Ltd."
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#울산 확진자",
-  //   month: 2,
-  //   day: 16,
-  //   name: "울산",
-  //   full: "울산 확진자",
-  //   address: "꽃마름 울산무거점",
-  //   address_name: "울산 남구 무거동 272-13",
-  //   latlng: "35.55459572406046, 129.26494385239323"
-  // },
   {
     solo: true,
     profile: "-",
@@ -21492,7 +23406,8 @@ var position = [
     full: "울산 확진자",
     address: "은화수식당 울산성남점",
     address_name: "울산 중구 성남동 219-143",
-    latlng: "35.553580214045304, 129.31872219925805"
+    latlng: "35.553580214045304, 129.31872219925805",
+    address_english: "Silver Flower Restaurant Ulsan Sungnam Branch"
   },
   {
     solo: true,
@@ -21504,7 +23419,8 @@ var position = [
     full: "울산 확진자",
     address: "큰애기야시장",
     address_name: "울산 중구 옥교동 275-4",
-    latlng: "35.55518383348842, 129.32229243506305"
+    latlng: "35.55518383348842, 129.32229243506305",
+    address_english: "Big Baby Night Market"
   },
   {
     solo: true,
@@ -21516,7 +23432,8 @@ var position = [
     full: "울산 확진자",
     address: "아마스빈 성남점",
     address_name: "울산 중구 성남동 238-2",
-    latlng: "35.554693447768315, 129.320245031815"
+    latlng: "35.554693447768315, 129.320245031815",
+    address_english: "Amasvin Seongnam branch"
   },
   {
     solo: true,
@@ -21528,7 +23445,8 @@ var position = [
     full: "울산 확진자",
     address: "울산광역시 중구보건소",
     address_name: "울산 중구 남외동 603-2",
-    latlng: "35.56953499455542, 129.35040542542728"
+    latlng: "35.56953499455542, 129.35040542542728",
+    address_english: "Jung-gu Health Center, Ulsan Metropolitan City"
   },
   {
     solo: true,
@@ -21540,7 +23458,8 @@ var position = [
     full: "울산 확진자",
     address: "코로나19 동구보건소 선별진료소",
     address_name: "울산 동구 화정동 222",
-    latlng: "35.50651566280682, 129.417646067224"
+    latlng: "35.50651566280682, 129.417646067224",
+    address_english: "Corona19 East Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21552,7 +23471,8 @@ var position = [
     full: "울산 확진자",
     address: "울산남목교회",
     address_name: "울산 동구 동부동 668-2",
-    latlng: "35.54402374776762, 129.43021547044614"
+    latlng: "35.54402374776762, 129.43021547044614",
+    address_english: "Ulsan Nammok Church"
   },
   {
     solo: true,
@@ -21564,7 +23484,8 @@ var position = [
     full: "울산 확진자",
     address: "현대떡방앗간",
     address_name: "울산 동구 동부동 270-2",
-    latlng: "35.54374479778861, 129.42617207056108"
+    latlng: "35.54374479778861, 129.42617207056108",
+    address_english: "modern rice cake mill"
   },
   {
     solo: true,
@@ -21576,7 +23497,9 @@ var position = [
     full: "울산 확진자",
     address: "방어진농협 남목지점 ATM",
     address_name: "울산 동구 동부동 259-10",
-    latlng: "35.54201741440262, 129.4262214386101"
+    latlng: "35.54201741440262, 129.4262214386101",
+    address_english:
+      "Defense Advanced Agricultural Cooperative Federation Nammok Branch ATM"
   },
   {
     solo: true,
@@ -21588,7 +23511,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 수영구보건소 선별진료소",
     address_name: "부산 수영구 광안동 661-1",
-    latlng: "35.1626441095325, 129.11343165102565"
+    latlng: "35.1626441095325, 129.11343165102565",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21600,7 +23525,8 @@ var position = [
     full: "울산 확진자",
     address: "남목선린약국",
     address_name: "울산 동구 동부동 259-10",
-    latlng: "35.5416505,129.4265171"
+    latlng: "35.5416505,129.4265171",
+    address_english: "Nammok Sunlin Pharmacy"
   },
   {
     solo: true,
@@ -21612,7 +23538,8 @@ var position = [
     full: "울산 확진자",
     address: "울산남목교회",
     address_name: "울산 동구 동부동 668-2",
-    latlng: "35.54402374776762, 129.43021547044614"
+    latlng: "35.54402374776762, 129.43021547044614",
+    address_english: "Ulsan Nammok Church"
   },
   {
     solo: true,
@@ -21624,7 +23551,9 @@ var position = [
     full: "부산 확진자",
     address: "해운대나눔과행복병원(22, 23일 근무)",
     address_name: "부산 해운대구 중동 1766-3",
-    latlng: "35.16588226149276, 129.16881084358434"
+    latlng: "35.16588226149276, 129.16881084358434",
+    address_english:
+      "Haeundae Sharing and Happiness Hospital (working on 22nd and 23rd)"
   },
   {
     solo: true,
@@ -21636,7 +23565,8 @@ var position = [
     full: "부산 확진자",
     address: "이마트 해운대점",
     address_name: "부산 해운대구 중동 1767",
-    latlng: "35.16585516382471, 129.16730451162496"
+    latlng: "35.16585516382471, 129.16730451162496",
+    address_english: "E-Mart's Haeundae branch"
   },
   {
     solo: true,
@@ -21648,7 +23578,8 @@ var position = [
     full: "부산 확진자",
     address: "인제대학교 부산백병원 선별진료소",
     address_name: "부산 부산진구 개금동 633-165",
-    latlng: "35.14632389348339, 129.02083598513693"
+    latlng: "35.14632389348339, 129.02083598513693",
+    address_english: "Inje University Busan Paik Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -21660,7 +23591,8 @@ var position = [
     full: "울산 확진자",
     address: "현대떡방앗간",
     address_name: "울산 동구 동부동 270-2",
-    latlng: "35.54374479778861, 129.42617207056108"
+    latlng: "35.54374479778861, 129.42617207056108",
+    address_english: "modern rice cake mill"
   },
   {
     solo: true,
@@ -21672,7 +23604,8 @@ var position = [
     full: "대구 확진자",
     address: "대구대봉초등학교",
     address_name: "대구 남구 이천동 253-2",
-    latlng: "35.850973161796, 128.60516709579827"
+    latlng: "35.850973161796, 128.60516709579827",
+    address_english: "Daegu Daebong Elementary School"
   },
   {
     solo: true,
@@ -21684,7 +23617,8 @@ var position = [
     full: "울산 확진자",
     address: "수영만요트경기장",
     address_name: "부산 해운대구 우동 1393",
-    latlng: "35.161230880191695, 129.13971789873878"
+    latlng: "35.161230880191695, 129.13971789873878",
+    address_english: "Swimming Bay Yacht Stadium"
   },
   {
     solo: true,
@@ -21696,7 +23630,8 @@ var position = [
     full: "울산 확진자",
     address: "동백역 부산2호선",
     address_name: "부산 해운대구 우동 991-3",
-    latlng: "35.16133675038451, 129.1479901521838"
+    latlng: "35.16133675038451, 129.1479901521838",
+    address_english: "Dongbaek Station Line 2"
   },
   {
     solo: true,
@@ -21708,7 +23643,8 @@ var position = [
     full: "부산 확진자",
     address: "부산상공회의소",
     address_name: "부산 부산진구 범천1동 853-1",
-    latlng: "35.147856758052015, 129.0622724282704"
+    latlng: "35.147856758052015, 129.0622724282704",
+    address_english: "Busan Chamber of Commerce"
   },
   {
     solo: true,
@@ -21720,7 +23656,8 @@ var position = [
     full: "안양 확진자",
     address: "평촌범계약국",
     latlng: "37.3913922574005, 126.953447277579",
-    address_name: "경기도 안양시 동안구 범계동"
+    address_name: "경기도 안양시 동안구 범계동",
+    address_english: "Pyeongchon Criminal Contract Bureau"
   },
   {
     solo: true,
@@ -21732,7 +23669,8 @@ var position = [
     full: "안양 확진자",
     address: "평촌연세내과의원",
     latlng: "37.3913922574005, 126.953447277579",
-    address_name: "경기도 안양시 동안구 범계동"
+    address_name: "경기도 안양시 동안구 범계동",
+    address_english: "Pyeongchon Yonsei Medical Center"
   },
   {
     solo: true,
@@ -21744,7 +23682,8 @@ var position = [
     full: "안양 확진자",
     address: "평촌범계약국",
     latlng: "37.3913922574005, 126.953447277579",
-    address_name: "경기도 안양시 동안구 범계동"
+    address_name: "경기도 안양시 동안구 범계동",
+    address_english: "Pyeongchon Criminal Contract Bureau"
   },
   {
     solo: true,
@@ -21756,7 +23695,8 @@ var position = [
     full: "안양 확진자",
     address: "평촌역 4호선 출퇴근",
     latlng: "37.39423950914369, 126.9638080221341",
-    address_name: "경기도 안양시 동안구 부림동"
+    address_name: "경기도 안양시 동안구 부림동",
+    address_english: "commuting to and from Pyeongchon Station Line 4"
   },
   {
     solo: true,
@@ -21768,7 +23708,8 @@ var position = [
     full: "안양 확진자",
     address: "범계동 우성아파트",
     latlng: "37.38927022235603, 126.95545862043359",
-    address_name: "경기도 안양시 동안구 범계동"
+    address_name: "경기도 안양시 동안구 범계동",
+    address_english: "Pan-gyedong Woosung Apartment"
   },
   {
     solo: true,
@@ -21780,7 +23721,8 @@ var position = [
     full: "부산 확진자",
     address: "토즈모임센터 부산서면점",
     address_name: "부산 부산진구 부전동 233-1",
-    latlng: "35.15336541010001, 129.05820245609337"
+    latlng: "35.15336541010001, 129.05820245609337",
+    address_english: "Busan Seomyeon branch of the Toz Meeting Center"
   },
   {
     solo: true,
@@ -21792,7 +23734,8 @@ var position = [
     full: "부산 확진자",
     address: "스타벅스서면중앙대로R점, 음식점 푸다 방문",
     address_name: "부산 부산진구 부전동 227-2",
-    latlng: "35.15301351239521, 129.05960683342838"
+    latlng: "35.15301351239521, 129.05960683342838",
+    address_english: "Visit Jungang Boulevard R, restaurant Puda in Starbucks"
   },
   {
     solo: true,
@@ -21804,7 +23747,8 @@ var position = [
     full: "부산 확진자",
     address: "교보문고 부산점",
     address_name: "부산 부산진구 부전동 536-3",
-    latlng: "35.151673678812905, 129.05954233375135"
+    latlng: "35.151673678812905, 129.05954233375135",
+    address_english: "Kyobo Bookstore Busan Branch"
   },
   {
     solo: true,
@@ -21816,7 +23760,8 @@ var position = [
     full: "부산 확진자",
     address: "노포 부산종합버스터미널",
     address_name: "부산 금정구 노포동 133",
-    latlng: "35.2847732659778, 129.09547021712456"
+    latlng: "35.2847732659778, 129.09547021712456",
+    address_english: "NoPo Busan Bus Terminal"
   },
   {
     solo: true,
@@ -21828,7 +23773,8 @@ var position = [
     full: "부산 확진자",
     address: "고반식당",
     address_name: "울산 남구 달동 1262-5",
-    latlng: "35.53620382650832, 129.33354040710577"
+    latlng: "35.53620382650832, 129.33354040710577",
+    address_english: "a high-class restaurant"
   },
   {
     solo: true,
@@ -21840,7 +23786,8 @@ var position = [
     full: "부산 확진자",
     address: "울산시외버스터미널",
     address_name: "울산 남구 삼산동 1481-14",
-    latlng: "35.53656232936562, 129.3397285258992"
+    latlng: "35.53656232936562, 129.3397285258992",
+    address_english: "Ulsan Bus Terminal"
   },
   {
     solo: true,
@@ -21852,7 +23799,8 @@ var position = [
     full: "부산 확진자",
     address: "미니스톱 동래명륜점",
     address_name: "부산 동래구 명륜동 681-16",
-    latlng: "35.21109859288891, 129.07942340167648"
+    latlng: "35.21109859288891, 129.07942340167648",
+    address_english: "Ministop Dongnae Myeongnyong Branch"
   },
   {
     solo: true,
@@ -21864,7 +23812,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -21876,7 +23826,8 @@ var position = [
     full: "울산 확진자",
     address: "영남내과외과연합의원",
     address_name: "경북 경산시 조영동 282-4",
-    latlng: "35.838222004706495, 128.75505209950148"
+    latlng: "35.838222004706495, 128.75505209950148",
+    address_english: "a member of the Youngnam Federation of Surgeon"
   },
   {
     solo: true,
@@ -21888,20 +23839,9 @@ var position = [
     full: "울산 확진자",
     address: "CU 영남대서문점",
     address_name: "경북 경산시 계양동 113-5",
-    latlng: "35.831559408334904, 128.74897405530746"
+    latlng: "35.831559408334904, 128.74897405530746",
+    address_english: "CU Yeongnam Seosomun Station"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#울산 확진자",
-  //   month: 2,
-  //   day: 18,
-  //   name: "울산",
-  //   full: "울산 확진자",
-  //   address: "바다약국",
-  //   address_name: "경북 경산시 계양동 113-5",
-  //   latlng: "35.8383296,128.7515073"
-  // },
   {
     solo: true,
     profile: "-",
@@ -21912,7 +23852,8 @@ var position = [
     full: "울산 확진자",
     address: "좋은의사들안과병원",
     address_name: "울산 남구 달동 1360-9",
-    latlng: "35.538302824879494, 129.33039764696744"
+    latlng: "35.538302824879494, 129.33039764696744",
+    address_english: "a good doctor's eye hospital"
   },
   {
     solo: true,
@@ -21924,7 +23865,8 @@ var position = [
     full: "울산 확진자",
     address: "밝은약국",
     address_name: "울산 남구 달동 1360-9",
-    latlng: "35.53831178783053, 129.33040011116313"
+    latlng: "35.53831178783053, 129.33040011116313",
+    address_english: "Bright Pharmacy"
   },
   {
     solo: true,
@@ -21936,7 +23878,8 @@ var position = [
     full: "울산 확진자",
     address: "명륜진사갈비 울산달동점",
     address_name: "울산 남구 달동 191-3",
-    latlng: "35.53350086609292, 129.32359395205006"
+    latlng: "35.53350086609292, 129.32359395205006",
+    address_english: "Myeongnyun Jinxagalbi Ulsan Daldong Branch"
   },
   {
     solo: true,
@@ -21948,7 +23891,8 @@ var position = [
     full: "부산 확진자",
     address: "맛나감자탕 부산대점",
     address_name: "부산 금정구 장전동 413-20",
-    latlng: "35.23139580301661, 129.08864865249254"
+    latlng: "35.23139580301661, 129.08864865249254",
+    address_english: "Busan Grand Store in Matna Gamjatang"
   },
   {
     solo: true,
@@ -21960,7 +23904,8 @@ var position = [
     full: "부산 확진자",
     address: "ZARA 부산대점",
     address_name: "부산 금정구 장전동 292-4",
-    latlng: "35.2302178043053, 129.0879814501315"
+    latlng: "35.2302178043053, 129.0879814501315",
+    address_english: "ZARA Busan Grand Store"
   },
   {
     solo: true,
@@ -21972,7 +23917,8 @@ var position = [
     full: "부산 확진자",
     address: "인제대학교 부산백병원",
     address_name: "부산 부산진구 개금동 633-165",
-    latlng: "35.14632389348339, 129.02083598513693"
+    latlng: "35.14632389348339, 129.02083598513693",
+    address_english: "Inje University Busan Paik Hospital"
   },
   {
     solo: true,
@@ -21984,7 +23930,8 @@ var position = [
     full: "부산 확진자",
     address: "우리마트 만덕점",
     address_name: "부산 북구 만덕동 308",
-    latlng: "35.210665466529406, 129.0374945357873"
+    latlng: "35.210665466529406, 129.0374945357873",
+    address_english: "Woori Mart Mandeok Branch"
   },
   {
     solo: true,
@@ -21996,7 +23943,8 @@ var position = [
     full: "부산 확진자",
     address: "하동돌솥밥",
     address_name: "부산 북구 만덕동 303-3",
-    latlng: "35.211439084092014, 129.03779057529925"
+    latlng: "35.211439084092014, 129.03779057529925",
+    address_english: "Hadong Dolsootbap"
   },
   {
     solo: true,
@@ -22008,7 +23956,8 @@ var position = [
     full: "부산 확진자",
     address: "옵포드",
     address_name: "부산 부산진구 부전동 177",
-    latlng: "35.155212473839, 129.06097680121138"
+    latlng: "35.155212473839, 129.06097680121138",
+    address_english: "Opford"
   },
   {
     solo: true,
@@ -22020,7 +23969,8 @@ var position = [
     full: "부산 확진자",
     address: "기승전골 서면점",
     address_name: "부산 부산진구 부전동 168-342",
-    latlng: "35.1561923265906, 129.06159515219787"
+    latlng: "35.1561923265906, 129.06159515219787",
+    address_english: "a written point on a steamer."
   },
   {
     solo: true,
@@ -22032,7 +23982,8 @@ var position = [
     full: "부산 확진자",
     address: "훈혁",
     address_name: "부산 부산진구 부전동 168-151",
-    latlng: "35.1561218199345, 129.05996610686037"
+    latlng: "35.1561218199345, 129.05996610686037",
+    address_english: "Hoon Hyuk"
   },
   {
     solo: true,
@@ -22044,7 +23995,8 @@ var position = [
     full: "부산 확진자",
     address: "153구포국수 덕천점",
     address_name: "부산 북구 덕천동 401-10",
-    latlng: "35.210010627983806, 129.00722128417317"
+    latlng: "35.210010627983806, 129.00722128417317",
+    address_english: "153 Gupo-guksu Deokcheon Branch"
   },
   {
     solo: true,
@@ -22056,7 +24008,8 @@ var position = [
     full: "부산 확진자",
     address: "공차 부산덕천점",
     address_name: "부산 북구 덕천동 400-9",
-    latlng: "35.20992338817636, 129.00661303096578"
+    latlng: "35.20992338817636, 129.00661303096578",
+    address_english: "Gongcha Busan Deokcheon Branch"
   },
   {
     solo: true,
@@ -22068,7 +24021,8 @@ var position = [
     full: "성주 확진자",
     address: "문양역 대구2호선",
     address_name: "대구 달성군 다사읍 문양리 400",
-    latlng: "35.8641579148789, 128.43700263750412"
+    latlng: "35.8641579148789, 128.43700263750412",
+    address_english: "Munyang Station Daegu Line 2"
   },
   {
     solo: true,
@@ -22080,7 +24034,8 @@ var position = [
     full: "울산 확진자",
     address: "명랑핫도그 대구안지랑점",
     address_name: "대구 남구 대명동 811-2",
-    latlng: "35.8393325667357, 128.5755911894652"
+    latlng: "35.8393325667357, 128.5755911894652",
+    address_english: "Myeongrang Hot Dog Daegu Anjirang Branch"
   },
   {
     solo: true,
@@ -22092,7 +24047,8 @@ var position = [
     full: "대구 확진자",
     address: "아트필미술학원",
     address_name: "대구 수성구 만촌동 342-37",
-    latlng: "35.8745077993982, 128.65087318860031"
+    latlng: "35.8745077993982, 128.65087318860031",
+    address_english: "ArtPhil Arts Academy"
   },
   {
     solo: true,
@@ -22104,7 +24060,8 @@ var position = [
     full: "구로구 확진자",
     address: "GS25 군자역점",
     address_name: "서울 광진구 중곡동 648-15",
-    latlng: "37.55803252905384, 127.07971074370758"
+    latlng: "37.55803252905384, 127.07971074370758",
+    address_english: "GS25 Military Station"
   },
   {
     solo: true,
@@ -22116,7 +24073,8 @@ var position = [
     full: "관악구 확진자",
     address: "대명부동산",
     address_name: "서울 관악구 봉천동 1629-4",
-    latlng: "37.4768728517033, 126.961805579825"
+    latlng: "37.4768728517033, 126.961805579825",
+    address_english: "Daemyung Property"
   },
   {
     solo: true,
@@ -22128,7 +24086,8 @@ var position = [
     full: "관악구 확진자",
     address: "삼일 공인중개사사무소",
     address_name: "서울 관악구 봉천동 1630-8",
-    latlng: "37.4764295447952, 126.961774150289"
+    latlng: "37.4764295447952, 126.961774150289",
+    address_english: "Samil Public Arbitration Office"
   },
   {
     solo: true,
@@ -22140,7 +24099,8 @@ var position = [
     full: "관악구 확진자",
     address: "원당프라자약국",
     address_name: "서울 관악구 봉천동 1637-1",
-    latlng: "37.47538918821613, 126.96572021316796"
+    latlng: "37.47538918821613, 126.96572021316796",
+    address_english: "Wondang Praja Pharmacy"
   },
   {
     solo: true,
@@ -22152,7 +24112,9 @@ var position = [
     full: "서울 확진자",
     address: "가톨릭대학교 은평성모병원",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
   },
   {
     solo: true,
@@ -22164,7 +24126,8 @@ var position = [
     full: "서울 확진자",
     address: "티파니",
     address_name: "서울 은평구 대조동 15-84",
-    latlng: "37.60900510113008, 126.92838920866055"
+    latlng: "37.60900510113008, 126.92838920866055",
+    address_english: "Tiffany"
   },
   {
     solo: true,
@@ -22176,7 +24139,8 @@ var position = [
     full: "서울 확진자",
     address: "톰플러스모텔",
     address_name: "서울 은평구 대조동 2-2",
-    latlng: "37.61239964217209, 126.927462888182"
+    latlng: "37.61239964217209, 126.927462888182",
+    address_english: "Tom Plus Motel"
   },
   {
     solo: true,
@@ -22188,7 +24152,8 @@ var position = [
     full: "서울 확진자",
     address: "온누리 할매순대국 군자역점",
     address_name: "서울 광진구 중곡동 647-15",
-    latlng: "37.55853689870779, 127.07998969888001"
+    latlng: "37.55853689870779, 127.07998969888001",
+    address_english: "Onnuri Grand National Party Military Station"
   },
   {
     solo: true,
@@ -22200,7 +24165,8 @@ var position = [
     full: "서울 확진자",
     address: "군자닭갈비",
     address_name: "서울 광진구 중곡동 649-8",
-    latlng: "37.55785238934061, 127.07962227378"
+    latlng: "37.55785238934061, 127.07962227378",
+    address_english: "Gunja Dakgalbi"
   },
   {
     solo: true,
@@ -22212,7 +24178,8 @@ var position = [
     full: "서울 확진자",
     address: "김재면내과의원",
     address_name: "서울 노원구 상계8동 651-6",
-    latlng: "37.66535332998289, 127.057263910802"
+    latlng: "37.66535332998289, 127.057263910802",
+    address_english: "Kim Jae-myun Internal Medicine Clinic"
   },
   {
     solo: true,
@@ -22224,7 +24191,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 노원구보건소 선별진료소",
     address_name: "서울 노원구 상계동 701-1",
-    latlng: "37.6546642208363, 127.05698372406"
+    latlng: "37.6546642208363, 127.05698372406",
+    address_english:
+      "Corona19 Nowon District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22236,7 +24205,9 @@ var position = [
     full: "은평구 확진자",
     address: "코로나19 은평구보건소 선별진료소",
     address_name: "서울 은평구 녹번동 84",
-    latlng: "37.602456970227585, 126.928823550033"
+    latlng: "37.602456970227585, 126.928823550033",
+    address_english:
+      "Corona19 Eunpyeong District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22248,7 +24219,8 @@ var position = [
     full: "서울 확진자",
     address: "쉬크모텔",
     address_name: "서울 서대문구 창천동 29-65",
-    latlng: "37.5562410168929, 126.937722306731"
+    latlng: "37.5562410168929, 126.937722306731",
+    address_english: "Shikmotel"
   },
   {
     solo: true,
@@ -22260,7 +24232,8 @@ var position = [
     full: "서울 확진자",
     address: "소반",
     address_name: "서울 서대문구 홍은동 400-13",
-    latlng: "37.581440759569105, 126.92641628264701"
+    latlng: "37.581440759569105, 126.92641628264701",
+    address_english: "Soban"
   },
   {
     solo: true,
@@ -22272,7 +24245,8 @@ var position = [
     full: "서울 확진자",
     address: "미니스톱 연대점",
     address_name: "서울 서대문구 창천동 29-111",
-    latlng: "37.55700507422813, 126.93774430599565"
+    latlng: "37.55700507422813, 126.93774430599565",
+    address_english: "Ministop Regiment"
   },
   {
     solo: true,
@@ -22284,7 +24258,8 @@ var position = [
     full: "서울 확진자",
     address: "신천순대국",
     address_name: "서울 은평구 역촌동 45-61",
-    latlng: "37.60685186111261, 126.91499818969599"
+    latlng: "37.60685186111261, 126.91499818969599",
+    address_english: "Shincheon Sundaeguk"
   },
   {
     solo: true,
@@ -22296,7 +24271,8 @@ var position = [
     full: "서울 확진자",
     address: "성내과의원",
     address_name: "서울 금천구 독산1동 145-8",
-    latlng: "37.47594488267859, 126.898093711342"
+    latlng: "37.47594488267859, 126.898093711342",
+    address_english: "a sexual physician"
   },
   {
     solo: true,
@@ -22308,7 +24284,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 한림대학교강남성심병원 선별진료소",
     address_name: "서울 영등포구 대림동 948-1",
-    latlng: "37.49338631914179, 126.90877639591899"
+    latlng: "37.49338631914179, 126.90877639591899",
+    address_english:
+      "Corona19 Hanlim University Gangnam Sungsim Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -22320,7 +24298,8 @@ var position = [
     full: "서울 확진자",
     address: "희명병원",
     address_name: "서울 금천구 시흥동 882-31",
-    latlng: "37.45567063464179, 126.90056251863875"
+    latlng: "37.45567063464179, 126.90056251863875",
+    address_english: "Heemyeong Hospital"
   },
   {
     solo: true,
@@ -22332,7 +24311,8 @@ var position = [
     full: "서울 확진자",
     address: "미션약국",
     address_name: "서울 노원구 상계동 651-6",
-    latlng: "37.6653461441407, 127.05721856928201"
+    latlng: "37.6653461441407, 127.05721856928201",
+    address_english: "Mission Pharmacy"
   },
   {
     solo: true,
@@ -22344,7 +24324,8 @@ var position = [
     full: "서울 확진자",
     address: "인제대학교 상계백병원",
     address_name: "서울 노원구 상계동 761-1",
-    latlng: "37.648581267298596, 127.06311619032103"
+    latlng: "37.648581267298596, 127.06311619032103",
+    address_english: "Inje University Sangyebaek Hospital"
   },
   {
     solo: true,
@@ -22356,7 +24337,9 @@ var position = [
     full: "금천구 확진자",
     address: "코로나19 한림대학교강남성심병원 선별진료소",
     address_name: "서울 영등포구 대림동 948-1",
-    latlng: "37.49338631914179, 126.90877639591899"
+    latlng: "37.49338631914179, 126.90877639591899",
+    address_english:
+      "Corona19 Hanlim University Gangnam Sungsim Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -22368,7 +24351,8 @@ var position = [
     full: "금천구 확진자",
     address: "성내과의원",
     address_name: "서울 금천구 독산1동 145-8",
-    latlng: "37.47594488267859, 126.898093711342"
+    latlng: "37.47594488267859, 126.898093711342",
+    address_english: "a sexual physician"
   },
   {
     solo: true,
@@ -22380,7 +24364,9 @@ var position = [
     full: "금천구 확진자",
     address: "코로나19 금천구보건소 선별진료소",
     address_name: "서울 금천구 시흥동 1020",
-    latlng: "37.4570867261768, 126.89602608378298"
+    latlng: "37.4570867261768, 126.89602608378298",
+    address_english:
+      "Corona19 Geumcheon Ward Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22392,7 +24378,8 @@ var position = [
     full: "금천구 확진자",
     address: "에이스하이엔드타워9차",
     address_name: "서울 금천구 가산동 481-2",
-    latlng: "37.48585896244501, 126.87838828082998"
+    latlng: "37.48585896244501, 126.87838828082998",
+    address_english: "Ace High-End Tower 9th"
   },
   {
     solo: true,
@@ -22404,7 +24391,8 @@ var position = [
     full: "금천구 확진자",
     address: "가산디지털단지역 1호선",
     address_name: "서울 금천구 가산동 468-4",
-    latlng: "37.481531190174906, 126.88261475847898"
+    latlng: "37.481531190174906, 126.88261475847898",
+    address_english: "Gasan Digital Group Area Line 1"
   },
   {
     solo: true,
@@ -22416,7 +24404,8 @@ var position = [
     full: "광명시 확진자",
     address: "철산역 7호선",
     address_name: "경기 광명시 철산동 526",
-    latlng: "37.476192842453685, 126.868211027014"
+    latlng: "37.476192842453685, 126.868211027014",
+    address_english: "Cheolsan Station Line 7"
   },
   {
     solo: true,
@@ -22428,7 +24417,8 @@ var position = [
     full: "광명시 확진자",
     address: "미리내어린이집",
     address_name: "경기 광명시 철산동 625",
-    latlng: "37.46994197898321, 126.863745449838"
+    latlng: "37.46994197898321, 126.863745449838",
+    address_english: "a children's house"
   },
   {
     solo: true,
@@ -22440,7 +24430,8 @@ var position = [
     full: "광명시 확진자",
     address: "서울아산이비인후과의원",
     address_name: "경기 광명시 철산동 482",
-    latlng: "37.47533701801807, 126.86592774143179"
+    latlng: "37.47533701801807, 126.86592774143179",
+    address_english: "Asan Medical Center"
   },
   {
     solo: true,
@@ -22452,7 +24443,8 @@ var position = [
     full: "광명시 확진자",
     address: "명지옵티마약국",
     address_name: "경기 광명시 철산동 486-18",
-    latlng: "37.4753034971968, 126.86576613649886"
+    latlng: "37.4753034971968, 126.86576613649886",
+    address_english: "Myungji Optima Pharmacy"
   },
   {
     solo: true,
@@ -22464,7 +24456,8 @@ var position = [
     full: "광명시 확진자",
     address: "2001아울렛 철산점",
     address_name: "경기 광명시 철산동 261",
-    latlng: "37.4750788153997, 126.86706776662622"
+    latlng: "37.4750788153997, 126.86706776662622",
+    address_english: "2001 Outlet Steel Branch"
   },
   {
     solo: true,
@@ -22476,7 +24469,8 @@ var position = [
     full: "광명시 확진자",
     address: "광명브라운스톤2단지아파트",
     address_name: "경기 광명시 철산동 630",
-    latlng: "37.47188899356597, 126.86446993944945"
+    latlng: "37.47188899356597, 126.86446993944945",
+    address_english: "Gwangmyeong Brownstone 2 Complex Apartment"
   },
   {
     solo: true,
@@ -22488,7 +24482,8 @@ var position = [
     full: "광명시 확진자",
     address: "엔비의원 광명철산점",
     address_name: "경기 광명시 철산동 259",
-    latlng: "37.475999316152, 126.865977432319"
+    latlng: "37.475999316152, 126.865977432319",
+    address_english: "N.B. One's Gwangmyeong Steel"
   },
   {
     solo: true,
@@ -22500,7 +24495,8 @@ var position = [
     full: "광명시 확진자",
     address: "2001아울렛 철산점",
     address_name: "경기 광명시 철산동 261",
-    latlng: "37.4750788153997, 126.86706776662622"
+    latlng: "37.4750788153997, 126.86706776662622",
+    address_english: "2001 Outlet Steel Branch"
   },
   {
     solo: true,
@@ -22512,7 +24508,8 @@ var position = [
     full: "광명시 확진자",
     address: "광명성애병원",
     address_name: "경기 광명시 철산동 389",
-    latlng: "37.47347856519616, 126.87191025301993"
+    latlng: "37.47347856519616, 126.87191025301993",
+    address_english: "Kwangmyongsung Love Hospital"
   },
   {
     solo: true,
@@ -22524,7 +24521,8 @@ var position = [
     full: "광명시 확진자",
     address: "스타벅스 철산로데오점",
     address_name: "경기 광명시 철산동 425",
-    latlng: "37.4739236088593, 126.86939073408199"
+    latlng: "37.4739236088593, 126.86939073408199",
+    address_english: "Starbucks Steel Rodeo Shop"
   },
   {
     solo: true,
@@ -22536,7 +24534,9 @@ var position = [
     full: "광명시 확진자",
     address: "코로나19 광명시보건소 선별진료소",
     address_name: "경기 광명시 하안동 230-1",
-    latlng: "37.4566775267623, 126.878851478017"
+    latlng: "37.4566775267623, 126.878851478017",
+    address_english:
+      "Corona19 Gwangmyeong Municipal Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22548,7 +24548,8 @@ var position = [
     full: "광명시 확진자",
     address: "명지병원",
     address_name: "경기 고양시 덕양구 화정동 697-24",
-    latlng: "37.64206996516571, 126.83145714476498"
+    latlng: "37.64206996516571, 126.83145714476498",
+    address_english: "Myungji Hospital"
   },
   {
     solo: true,
@@ -22560,7 +24561,8 @@ var position = [
     full: "서울 확진자",
     address: "롯데마트 송파점",
     address_name: "서울 송파구 문정동 150-2",
-    latlng: "37.49173383860761, 127.117749483852"
+    latlng: "37.49173383860761, 127.117749483852",
+    address_english: "Lotte Mart Songpa Branch"
   },
   {
     solo: true,
@@ -22572,7 +24574,8 @@ var position = [
     full: "서울 확진자",
     address: "스타벅스 가락시장역점",
     address_name: "서울 송파구 가락동 79",
-    latlng: "37.4944040855798, 127.121639143162"
+    latlng: "37.4944040855798, 127.121639143162",
+    address_english: "Starbucks Garak Market Station"
   },
   {
     solo: true,
@@ -22584,7 +24587,8 @@ var position = [
     full: "서울 확진자",
     address: "화포식당 가락점",
     address_name: "서울 송파구 가락동 97-8",
-    latlng: "37.4947531166639, 127.11864530729402"
+    latlng: "37.4947531166639, 127.11864530729402",
+    address_english: "a hwapo restaurant"
   },
   {
     solo: true,
@@ -22596,7 +24600,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22608,7 +24614,8 @@ var position = [
     full: "서울 확진자",
     address: "자연별곡 잠실웰빙점",
     address_name: "서울 송파구 잠실동 40-1",
-    latlng: "37.51033894048559, 127.09663482417787"
+    latlng: "37.51033894048559, 127.09663482417787",
+    address_english: "Jamsil Well-Bing Point, a natural song"
   },
   {
     solo: true,
@@ -22620,7 +24627,8 @@ var position = [
     full: "서울 확진자",
     address: "명일역 5호선",
     address_name: "서울 강동구 명일동",
-    latlng: "37.55139789582771, 127.14404374473999"
+    latlng: "37.55139789582771, 127.14404374473999",
+    address_english: "Myeongil Station Line 5"
   },
   {
     solo: true,
@@ -22632,7 +24640,8 @@ var position = [
     full: "서울 확진자",
     address: "굿모닝 이비인후과의원",
     address_name: "서울 강동구 암사3동 414-18",
-    latlng: "37.5552045064776, 127.140388796272"
+    latlng: "37.5552045064776, 127.140388796272",
+    address_english: "Good morning ENT doctor"
   },
   {
     solo: true,
@@ -22644,7 +24653,8 @@ var position = [
     full: "서울 확진자",
     address: "조은온누리약국",
     address_name: "서울 강동구 암사동 414-18",
-    latlng: "37.5553126312555, 127.14038447218601"
+    latlng: "37.5553126312555, 127.14038447218601",
+    address_english: "Zoeun Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -22656,7 +24666,8 @@ var position = [
     full: "서울 확진자",
     address: "명일전통시장",
     address_name: "서울 강동구 명일동 333-2",
-    latlng: "37.5495984231066, 127.14492749082702"
+    latlng: "37.5495984231066, 127.14492749082702",
+    address_english: "Myeongil Traditional Market"
   },
   {
     solo: true,
@@ -22668,7 +24679,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 강동구보건소 선별진료소",
     address_name: "서울 강동구 성내동 541-2",
-    latlng: "37.529268770502796, 127.125614688949"
+    latlng: "37.529268770502796, 127.125614688949",
+    address_english:
+      "Corona19 Gangdong District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -22680,7 +24693,8 @@ var position = [
     full: "서울 확진자",
     address: "한일병원 격리",
     address_name: "서울 도봉구 쌍문동 388-1",
-    latlng: "37.646116875386134, 127.0290268239299"
+    latlng: "37.646116875386134, 127.0290268239299",
+    address_english: "Korea-Japan Hospital Isolation"
   },
   {
     solo: true,
@@ -22692,7 +24706,8 @@ var position = [
     full: "서울 확진자",
     address: "교보문고 천호점",
     address_name: "서울 강동구 천호동 425-5",
-    latlng: "37.540605199583034, 127.12472284062106"
+    latlng: "37.540605199583034, 127.12472284062106",
+    address_english: "Kyobo Bookstore's Heavenly Bookstore"
   },
   {
     solo: true,
@@ -22704,7 +24719,8 @@ var position = [
     full: "서울 확진자",
     address: "스타벅스 명일역점",
     address_name: "서울 강동구 명일동 312-28",
-    latlng: "37.5525623017895, 127.14378343387901"
+    latlng: "37.5525623017895, 127.14378343387901",
+    address_english: "Starbucks Myeong-Il Station"
   },
   {
     solo: true,
@@ -22716,7 +24732,8 @@ var position = [
     full: "서울 확진자",
     address: "롯데시네마 건대입구",
     address_name: "서울 광진구 자양동 227-7",
-    latlng: "37.53860688301305, 127.07292268612835"
+    latlng: "37.53860688301305, 127.07292268612835",
+    address_english: "Lotte Cinema Konkuk University Station"
   },
   {
     solo: true,
@@ -22728,7 +24745,8 @@ var position = [
     full: "수원 확진자",
     address: "미소랑치과 서울대입구역점",
     address_name: "서울 관악구 봉천동 856-6",
-    latlng: "37.4793203178658, 126.95273704718402"
+    latlng: "37.4793203178658, 126.95273704718402",
+    address_english: "Seoul National University Station in Misulangchiwa"
   },
   {
     solo: true,
@@ -22740,7 +24758,8 @@ var position = [
     full: "수원 확진자",
     address: "커피빈 서울대입구역점",
     address_name: "서울 관악구 봉천동 863-13",
-    latlng: "37.479702136482594, 126.95221673523798"
+    latlng: "37.479702136482594, 126.95221673523798",
+    address_english: "Coffee Bean Seoul National University Station"
   },
   {
     solo: true,
@@ -22752,7 +24771,8 @@ var position = [
     full: "부산 확진자",
     address: "컴포즈커피 오션시티점",
     address_name: "부산 강서구 명지동 3239-5",
-    latlng: "35.082831913985785, 128.90385227317984"
+    latlng: "35.082831913985785, 128.90385227317984",
+    address_english: "Compose Coffee Ocean City Branch"
   },
   {
     solo: true,
@@ -22764,7 +24784,8 @@ var position = [
     full: "부산 확진자",
     address: "명호고등학교",
     address_name: "부산 강서구 명지동 3236-3",
-    latlng: "35.080375479008, 128.9000458417328"
+    latlng: "35.080375479008, 128.9000458417328",
+    address_english: "Myeongho High School"
   },
   {
     solo: true,
@@ -22776,7 +24797,8 @@ var position = [
     full: "부산 확진자",
     address: "위앤대우리큰내과의원",
     address_name: "부산 강서구 명지동 3238",
-    latlng: "35.0840468369518, 128.9031569221878"
+    latlng: "35.0840468369518, 128.9031569221878",
+    address_english: "We&Dauri's big doctor"
   },
   {
     solo: true,
@@ -22788,7 +24810,8 @@ var position = [
     full: "부산 확진자",
     address: "삼성서울내과",
     address_name: "부산 동래구 사직동 43-1",
-    latlng: "35.198585597593485, 129.057355904131"
+    latlng: "35.198585597593485, 129.057355904131",
+    address_english: "Samsung Medical Center"
   },
   {
     solo: true,
@@ -22800,7 +24823,8 @@ var position = [
     full: "수원 확진자",
     address: "GS25 광교참누리점",
     address_name: "경기 수원시 영통구 하동 994",
-    latlng: "37.291098360098886, 127.07213954282454"
+    latlng: "37.291098360098886, 127.07213954282454",
+    address_english: "GS25 Gwanggyo Chamnuri Branch"
   },
   {
     solo: true,
@@ -22812,7 +24836,8 @@ var position = [
     full: "금천구 확진자",
     address: "희명병원",
     address_name: "서울 금천구 시흥동 882-31",
-    latlng: "37.45567063464179, 126.90056251863875"
+    latlng: "37.45567063464179, 126.90056251863875",
+    address_english: "Heemyeong Hospital"
   },
   {
     solo: true,
@@ -22824,7 +24849,8 @@ var position = [
     full: "금천구 확진자",
     address: "휘트니스FM",
     address_name: "서울 관악구 봉천동 1659-5",
-    latlng: "37.4768912814742, 126.96309439498101"
+    latlng: "37.4768912814742, 126.96309439498101",
+    address_english: "Whitness FM"
   },
   {
     solo: true,
@@ -22836,7 +24862,8 @@ var position = [
     full: "금천구 확진자",
     address: "국립중앙의료원",
     address_name: "서울 중구 을지로6가 18-79",
-    latlng: "37.56724946361499, 127.005691254159"
+    latlng: "37.56724946361499, 127.005691254159",
+    address_english: "National Medical Center"
   },
   {
     solo: true,
@@ -22848,7 +24875,8 @@ var position = [
     full: "양천구 확진자",
     address: "이마트 신월점",
     address_name: "서울 양천구 신월동 26",
-    latlng: "37.5397564345599, 126.82855573371"
+    latlng: "37.5397564345599, 126.82855573371",
+    address_english: "a new E-Mart store"
   },
   {
     solo: true,
@@ -22860,7 +24888,8 @@ var position = [
     full: "양천구 확진자",
     address: "금화왕돈까스 신월점",
     address_name: "서울 양천구 신월동 24-7",
-    latlng: "37.5397760452683, 126.83217194809099"
+    latlng: "37.5397760452683, 126.83217194809099",
+    address_english: "New World of Pork Cutlet in Gold Flower"
   },
   {
     solo: true,
@@ -22872,7 +24901,8 @@ var position = [
     full: "김포 확진자",
     address: "또순이네",
     address_name: "서울 영등포구 양평동4가 81",
-    latlng: "37.535754777781094, 126.89533653489688"
+    latlng: "37.535754777781094, 126.89533653489688",
+    address_english: "It's Ddosoon."
   },
   {
     solo: true,
@@ -22884,7 +24914,8 @@ var position = [
     full: "김포 확진자",
     address: "쏭카페",
     address_name: "서울 영등포구 양평동4가 23-1",
-    latlng: "37.53571798977241, 126.8944959302"
+    latlng: "37.53571798977241, 126.8944959302",
+    address_english: "song cafe"
   },
   {
     solo: true,
@@ -22896,7 +24927,8 @@ var position = [
     full: "양천구 확진자",
     address: "GS25 염창E편한점",
     address_name: "서울 강서구 염창동 277-55",
-    latlng: "37.54828998372751, 126.87041081804502"
+    latlng: "37.54828998372751, 126.87041081804502",
+    address_english: "GS25 Yeomchang E convenience store"
   },
   {
     solo: true,
@@ -22908,7 +24940,8 @@ var position = [
     full: "양천구 확진자",
     address: "GS25 염창E편한점",
     address_name: "서울 강서구 염창동 277-55",
-    latlng: "37.54828998372751, 126.87041081804502"
+    latlng: "37.54828998372751, 126.87041081804502",
+    address_english: "GS25 Yeomchang E convenience store"
   },
   {
     solo: true,
@@ -22920,7 +24953,8 @@ var position = [
     full: "양천구 확진자",
     address: "이마트 신월점",
     address_name: "서울 양천구 신월동 26",
-    latlng: "37.5397564345599, 126.82855573371"
+    latlng: "37.5397564345599, 126.82855573371",
+    address_english: "a new E-Mart store"
   },
   {
     solo: true,
@@ -22932,7 +24966,8 @@ var position = [
     full: "양천구 확진자",
     address: "자마이카휘트니스",
     address_name: "서울 강서구 화곡3동 1065-17",
-    latlng: "37.5416457959911, 126.839427613379"
+    latlng: "37.5416457959911, 126.839427613379",
+    address_english: "Zamikahwitnis"
   },
   {
     solo: true,
@@ -22944,7 +24979,8 @@ var position = [
     full: "양천구 확진자",
     address: "크린토피아 화곡역점",
     address_name: "서울 강서구 화곡동 381-12",
-    latlng: "37.53898484259264, 126.8392047600113"
+    latlng: "37.53898484259264, 126.8392047600113",
+    address_english: "Creentopia Hwagok Station"
   },
   {
     solo: true,
@@ -22956,7 +24992,8 @@ var position = [
     full: "서울 확진자",
     address: "낙성대역 2호선",
     address_name: "서울 관악구 봉천동 1693-39",
-    latlng: "37.47709324099651, 126.96352390500101"
+    latlng: "37.47709324099651, 126.96352390500101",
+    address_english: "Nakseongdae Station Line 2"
   },
   {
     solo: true,
@@ -22968,7 +25005,8 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 여의도성모병원 선별진료소",
     address_name: "서울 영등포구 여의도동 62",
-    latlng: "37.51833004820399, 126.936817216384"
+    latlng: "37.51833004820399, 126.936817216384",
+    address_english: "Corona19 Yeouido St. Mary's Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -22980,7 +25018,8 @@ var position = [
     full: "서울 확진자",
     address: "박선영김밥",
     address_name: "서울 영등포구 여의도동 21-4",
-    latlng: "37.5260284176112, 126.930751541335"
+    latlng: "37.5260284176112, 126.930751541335",
+    address_english: "Park Sun-young Kimbap"
   },
   {
     solo: true,
@@ -22992,7 +25031,8 @@ var position = [
     full: "서울 확진자",
     address: "칠미식당",
     address_name: "서울 영등포구 여의도동 24-5",
-    latlng: "37.524332718096, 126.927721323371"
+    latlng: "37.524332718096, 126.927721323371",
+    address_english: "Chilmi Restaurant"
   },
   {
     solo: true,
@@ -23004,7 +25044,8 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 보라매병원 선별진료소",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Corona19 Boramae Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -23016,7 +25057,8 @@ var position = [
     full: "대구 확진자",
     address: "아트필미술학원",
     address_name: "대구 수성구 만촌동 342-37",
-    latlng: "35.8745077993982, 128.65087318860031"
+    latlng: "35.8745077993982, 128.65087318860031",
+    address_english: "ArtPhil Arts Academy"
   },
   {
     solo: true,
@@ -23028,7 +25070,8 @@ var position = [
     full: "울산 확진자",
     address: "명랑핫도그 대구안지랑점",
     address_name: "대구 남구 대명동 811-2",
-    latlng: "35.8393325667357, 128.5755911894652"
+    latlng: "35.8393325667357, 128.5755911894652",
+    address_english: "Myeongrang Hot Dog Daegu Anjirang Branch"
   },
   {
     solo: true,
@@ -23040,7 +25083,8 @@ var position = [
     full: "성주 확진자",
     address: "대실역 대구2호선",
     address_name: "대구 달성군 다사읍 죽곡리 242-2",
-    latlng: "35.85760585958461, 128.46524999091213"
+    latlng: "35.85760585958461, 128.46524999091213",
+    address_english: "Daesil Station Daegu Line 2"
   },
   {
     solo: true,
@@ -23052,7 +25096,8 @@ var position = [
     full: "성주 확진자",
     address: "신피부과의원",
     address_name: "대구 중구 공평동 87-1",
-    latlng: "35.8698829085551, 128.59975149275922"
+    latlng: "35.8698829085551, 128.59975149275922",
+    address_english: "neoclassical dermatologist"
   },
   {
     solo: true,
@@ -23064,7 +25109,8 @@ var position = [
     full: "김천 확진자",
     address: "참좋은동신교회(16일, 23일 방문)",
     address_name: "대구 달서구 월성동 1265",
-    latlng: "35.82134253405144, 128.5283785401855"
+    latlng: "35.82134253405144, 128.5283785401855",
+    address_english: "Good Neighborhood Church (visits on the 16th and 23rd)"
   },
   {
     solo: true,
@@ -23076,7 +25122,8 @@ var position = [
     full: "김천 확진자",
     address: "김천휴게소 서울방향",
     address_name: "경북 김천시 농소면 신촌리 730",
-    latlng: "36.13096763101381, 128.16394508197502"
+    latlng: "36.13096763101381, 128.16394508197502",
+    address_english: "Towards Seoul of Gimcheon Rest Area"
   },
   {
     solo: true,
@@ -23088,7 +25135,9 @@ var position = [
     full: "김천 확진자",
     address: "장바우숯불촌(17~19, 21, 24일 방문)",
     address_name: "경북 김천시 대항면 복전리 203-4",
-    latlng: "36.13185082130641, 128.02803929418"
+    latlng: "36.13185082130641, 128.02803929418",
+    address_english:
+      "Changbau charcoal fire village (visits from 17th to 19th, 21st and 24th)"
   },
   {
     solo: true,
@@ -23100,7 +25149,8 @@ var position = [
     full: "김천 확진자",
     address: "돈두레",
     address_name: "경북 김천시 부곡동 1438",
-    latlng: "36.124358061937095, 128.092629084697"
+    latlng: "36.124358061937095, 128.092629084697",
+    address_english: "Don Doo-ri"
   },
   {
     solo: true,
@@ -23112,7 +25162,8 @@ var position = [
     full: "김천 확진자",
     address: "미광반점",
     address_name: "경북 김천시 부곡동 1414",
-    latlng: "36.1253131371175, 128.09225132287602"
+    latlng: "36.1253131371175, 128.09225132287602",
+    address_english: "light spot"
   },
   {
     solo: true,
@@ -23124,7 +25175,8 @@ var position = [
     full: "김천 확진자",
     address: "토속정",
     address_name: "경북 김천시 부곡동 1495",
-    latlng: "36.12439486676578, 128.09333605017804"
+    latlng: "36.12439486676578, 128.09333605017804",
+    address_english: "a native boat"
   },
   {
     solo: true,
@@ -23136,7 +25188,8 @@ var position = [
     full: "김천 확진자",
     address: "나의살던 고향은",
     address_name: "경북 김천시 대항면 복전리 30-3",
-    latlng: "36.130479862304604, 128.028176934907"
+    latlng: "36.130479862304604, 128.028176934907",
+    address_english: "My hometown used to be"
   },
   {
     solo: true,
@@ -23148,7 +25201,8 @@ var position = [
     full: "김천 확진자",
     address: "내고향한우촌",
     address_name: "경북 김천시 부곡동 1505",
-    latlng: "36.1241955407115, 128.09345324970502"
+    latlng: "36.1241955407115, 128.09345324970502",
+    address_english: "My Hometown"
   },
   {
     solo: true,
@@ -23160,7 +25214,8 @@ var position = [
     full: "김천 확진자",
     address: "피크닉김밥천국",
     address_name: "경북 김천시 부곡동 1061-2",
-    latlng: "36.122247469890794, 128.08927203133604"
+    latlng: "36.122247469890794, 128.08927203133604",
+    address_english: "picnic gimbap heaven"
   },
   {
     solo: true,
@@ -23172,7 +25227,8 @@ var position = [
     full: "김천 확진자",
     address: "파워마트",
     address_name: "경북 김천시 부곡동 287-2",
-    latlng: "36.12340122107911, 128.10107096310102"
+    latlng: "36.12340122107911, 128.10107096310102",
+    address_english: "Power Mart"
   },
   {
     solo: true,
@@ -23184,7 +25240,8 @@ var position = [
     full: "김천 확진자",
     address: "직지약국",
     address_name: "경북 김천시 대항면 향천리 311-14",
-    latlng: "36.11490358160311, 128.017675855048"
+    latlng: "36.11490358160311, 128.017675855048",
+    address_english: "Jikji Pharmacy"
   },
   {
     solo: true,
@@ -23196,7 +25253,8 @@ var position = [
     full: "김천 확진자",
     address: "현대자동차블루핸즈 상동점",
     address_name: "대구 수성구 상동 619-4",
-    latlng: "35.8270794147239, 128.60993957155824"
+    latlng: "35.8270794147239, 128.60993957155824",
+    address_english: "Hyundai Motor Blue Hands Sangdong Branch"
   },
   {
     solo: true,
@@ -23208,7 +25266,8 @@ var position = [
     full: "김천 확진자",
     address: "현대자동차블루핸즈 평화점",
     address_name: "경북 김천시 평화동 73-11",
-    latlng: "36.12837063124458, 128.1154423512838"
+    latlng: "36.12837063124458, 128.1154423512838",
+    address_english: "Hyundai Motor Blue Hands Peace Point"
   },
   {
     solo: true,
@@ -23220,7 +25279,8 @@ var position = [
     full: "김천 확진자",
     address: "GS25 김천신부곡점",
     address_name: "경북 김천시 부곡동 1492",
-    latlng: "36.12436231156069, 128.09295349091002"
+    latlng: "36.12436231156069, 128.09295349091002",
+    address_english: "GS25 Gimcheon Shinbu Branch"
   },
   {
     solo: true,
@@ -23232,7 +25292,8 @@ var position = [
     full: "김천 확진자",
     address: "일등족발",
     address_name: "경북 김천시 부곡동 1431",
-    latlng: "36.1247585032961, 128.09259353555703"
+    latlng: "36.1247585032961, 128.09259353555703",
+    address_english: "first class jokbal"
   },
   {
     solo: true,
@@ -23244,7 +25305,8 @@ var position = [
     full: "김천 확진자",
     address: "CU 김천직지사점",
     address_name: "경북 김천시 대항면 운수리 15-5",
-    latlng: "36.1138190663059, 128.015706027011"
+    latlng: "36.1138190663059, 128.015706027011",
+    address_english: "CU Gimcheon Branch"
   },
   {
     solo: true,
@@ -23256,7 +25318,8 @@ var position = [
     full: "김천 확진자",
     address: "DC식자재마트 김천점",
     address_name: "경북 김천시 부곡동 1061",
-    latlng: "36.1224149687381, 128.08948316670802"
+    latlng: "36.1224149687381, 128.08948316670802",
+    address_english: "D.C.S.M. Kimcheon Branch"
   },
   {
     solo: true,
@@ -23268,7 +25331,8 @@ var position = [
     full: "대구 확진자",
     address: "반월당 찜질방",
     address_name: "대구 중구 남산동 665",
-    latlng: "35.86343479495331, 128.59212048531123"
+    latlng: "35.86343479495331, 128.59212048531123",
+    address_english: "Banwoljjimjilbang"
   },
   {
     solo: true,
@@ -23280,7 +25344,8 @@ var position = [
     full: "대구 확진자",
     address: "하내과의원",
     address_name: "경북 고령군 대가야읍 헌문리 231-1",
-    latlng: "35.7299528024255, 128.26892106805906"
+    latlng: "35.7299528024255, 128.26892106805906",
+    address_english: "a house physician"
   },
   {
     solo: true,
@@ -23292,7 +25357,8 @@ var position = [
     full: "대구 확진자",
     address: "정통닭칼국수 고령점",
     address_name: "경북 고령군 대가야읍 쾌빈리 492",
-    latlng: "35.72981697649501, 128.26812755502903"
+    latlng: "35.72981697649501, 128.26812755502903",
+    address_english: "the advanced age of chicken noodle soup"
   },
   {
     solo: true,
@@ -23304,7 +25370,8 @@ var position = [
     full: "대구 확진자",
     address: "김경호 내과의원",
     address_name: "경남 합천군 합천읍 합천리 463-15",
-    latlng: "35.56846377292221, 128.16224736887304"
+    latlng: "35.56846377292221, 128.16224736887304",
+    address_english: "Kim Kyung-ho, a physician"
   },
   {
     solo: true,
@@ -23316,7 +25383,8 @@ var position = [
     full: "대구 확진자",
     address: "강약국",
     address_name: "경남 합천군 합천읍 합천리 463-15",
-    latlng: "35.5677974,128.1629388"
+    latlng: "35.5677974,128.1629388",
+    address_english: "a strong and weak country"
   },
   {
     solo: true,
@@ -23328,7 +25396,8 @@ var position = [
     full: "대구 확진자",
     address: "합천속편한내과의원",
     address_name: "경남 합천군 합천읍 합천리 413-15",
-    latlng: "35.5681242621194, 128.16268809208904"
+    latlng: "35.5681242621194, 128.16268809208904",
+    address_english: "Hapcheon Comfort Clinic"
   },
   {
     solo: true,
@@ -23340,7 +25409,8 @@ var position = [
     full: "대구 확진자",
     address: "진주시 포시즌예식장",
     address_name: "경남 진주시 칠암동 496-22",
-    latlng: "35.188386195296005, 128.08778838494803"
+    latlng: "35.188386195296005, 128.08778838494803",
+    address_english: "Jinju Four Season's Wedding Hall"
   },
   {
     solo: true,
@@ -23352,7 +25422,8 @@ var position = [
     full: "대구 확진자",
     address: "합천사랑약국",
     address_name: "경남 합천군 합천읍 합천리 400",
-    latlng: "35.56747533748829, 128.16371887133982"
+    latlng: "35.56747533748829, 128.16371887133982",
+    address_english: "Hapcheon Sarang Pharmacy"
   },
   {
     solo: true,
@@ -23364,7 +25435,8 @@ var position = [
     full: "대구 확진자",
     address: "홈플러스 스페셜 대구점",
     address_name: "대구 북구 칠성동2가 378-21",
-    latlng: "35.8813342308521, 128.59571646617124"
+    latlng: "35.8813342308521, 128.59571646617124",
+    address_english: "Homeplus Special Daegu Branch"
   },
   {
     solo: true,
@@ -23376,7 +25448,8 @@ var position = [
     full: "대구 확진자",
     address: "계명문화대학교 기숙사",
     address_name: "대구 달서구 신당동 700",
-    latlng: "35.86012438915261, 128.48995645242715"
+    latlng: "35.86012438915261, 128.48995645242715",
+    address_english: "Keimyung Culture University dormitory"
   },
   {
     solo: true,
@@ -23388,7 +25461,8 @@ var position = [
     full: "대구 확진자",
     address: "레드버튼 동성로점",
     address_name: "대구 중구 삼덕동1가 5-2",
-    latlng: "35.8680036309713, 128.59605580106924"
+    latlng: "35.8680036309713, 128.59605580106924",
+    address_english: "Red-breasted Dongseongno Branch"
   },
   {
     solo: true,
@@ -23400,7 +25474,8 @@ var position = [
     full: "대구 확진자",
     address: "스파오 동성로2호점",
     address_name: "대구 중구 동성로3가 91-9",
-    latlng: "35.866921270984705, 128.59450186449286"
+    latlng: "35.866921270984705, 128.59450186449286",
+    address_english: "Spao Dongseongno No. 2"
   },
   {
     solo: true,
@@ -23412,7 +25487,8 @@ var position = [
     full: "대구 확진자",
     address: "이마트24 RS동대구역점",
     address_name: "대구 동구 신천동 329-5",
-    latlng: "35.8774317000986, 128.62732308767028"
+    latlng: "35.8774317000986, 128.62732308767028",
+    address_english: "E-Mart24 RS-Dongdae District Store"
   },
   {
     solo: true,
@@ -23424,7 +25500,8 @@ var position = [
     full: "대구 확진자",
     address: "월크레페(동성로)",
     address_name: "대구 동구 신천동 329-5",
-    latlng: "35.8668253,128.5968397"
+    latlng: "35.8668253,128.5968397",
+    address_english: "Worldcreepe (Dongseongro)"
   },
   {
     solo: true,
@@ -23436,7 +25513,8 @@ var position = [
     full: "대구 확진자",
     address: "버거킹 대구문화점",
     address_name: "대구 중구 문화동 19-1",
-    latlng: "35.8702610167752, 128.59707094205723"
+    latlng: "35.8702610167752, 128.59707094205723",
+    address_english: "Burger King Daegu Culture Store"
   },
   {
     solo: true,
@@ -23448,7 +25526,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 대구계명문화대점",
     address_name: "대구 달서구 신당동 1697-1",
-    latlng: "35.859097425972, 128.49254091575213"
+    latlng: "35.859097425972, 128.49254091575213",
+    address_english: "7-Eleven Daegu Keimyung Cultural Center"
   },
   {
     solo: true,
@@ -23460,7 +25539,8 @@ var position = [
     full: "대구 확진자",
     address: "고령영생병원",
     address_name: "경북 고령군 대가야읍 헌문리 201-6",
-    latlng: "35.72995342491374, 128.27209646306602"
+    latlng: "35.72995342491374, 128.27209646306602",
+    address_english: "Aging Young Life Hospital"
   },
   {
     solo: true,
@@ -23472,7 +25552,8 @@ var position = [
     full: "양산 확진자",
     address: "세븐일레븐 물금동진점",
     address_name: "경남 양산시 물금읍 가촌리 1300-1",
-    latlng: "35.3114693936009, 129.00749165745614"
+    latlng: "35.3114693936009, 129.00749165745614",
+    address_english: "7-Eleven Waterfront"
   },
   {
     solo: true,
@@ -23484,7 +25565,8 @@ var position = [
     full: "양산 확진자",
     address: "CU 증산네오스타점",
     address_name: "경남 양산시 물금읍 증산리 1776-4",
-    latlng: "35.30829618531029, 129.0090798382272"
+    latlng: "35.30829618531029, 129.0090798382272",
+    address_english: "CU Jeungsan Neosta branch"
   },
   {
     solo: true,
@@ -23496,7 +25578,8 @@ var position = [
     full: "양산 확진자",
     address: "다이소 양산증산점",
     address_name: "경남 양산시 물금읍 가촌리 1280-8",
-    latlng: "35.316318152859004, 129.00267716470412"
+    latlng: "35.316318152859004, 129.00267716470412",
+    address_english: "Dioxo mass production point"
   },
   {
     solo: true,
@@ -23508,7 +25591,8 @@ var position = [
     full: "양산 확진자",
     address: "세븐일레븐 물금바젤나인점",
     address_name: "경남 양산시 물금읍 가촌리 1298-3",
-    latlng: "35.310333531919724, 129.00751635233914"
+    latlng: "35.310333531919724, 129.00751635233914",
+    address_english: "7-Eleven Mulgeum Basel Nine Point"
   },
   {
     solo: true,
@@ -23520,7 +25604,8 @@ var position = [
     full: "양산 확진자",
     address: "증산역 부산2호선",
     address_name: "경남 양산시 물금읍 증산리 1818",
-    latlng: "35.3082580738269, 129.01028817554217"
+    latlng: "35.3082580738269, 129.01028817554217",
+    address_english: "Jeungsan Station Line 2"
   },
   {
     solo: true,
@@ -23532,7 +25617,8 @@ var position = [
     full: "양산 확진자",
     address: "양산역 부산2호선",
     address_name: "경남 양산시 중부동 721",
-    latlng: "35.3387498687181, 129.02644438738423"
+    latlng: "35.3387498687181, 129.02644438738423",
+    address_english: "Yangsan Station Line 2"
   },
   {
     solo: true,
@@ -23544,7 +25630,8 @@ var position = [
     full: "양산 확진자",
     address: "못난이꽈배기 중부점",
     address_name: "경남 양산시 중부동 685-8",
-    latlng: "35.33782689271241, 129.0264565269642"
+    latlng: "35.33782689271241, 129.0264565269642",
+    address_english: "Central Branch of Ugly Twisted Banner"
   },
   {
     solo: true,
@@ -23556,7 +25643,8 @@ var position = [
     full: "양산 확진자",
     address: "유얼스디저트카페",
     address_name: "경남 양산시 물금읍 가촌리 1299-1",
-    latlng: "35.3107531207089, 129.00699462357716"
+    latlng: "35.3107531207089, 129.00699462357716",
+    address_english: "Ursdizert Cafe"
   },
   {
     solo: true,
@@ -23568,7 +25656,8 @@ var position = [
     full: "양산 확진자",
     address: "서울칼국수",
     address_name: "경남 양산시 물금읍 가촌리 1298-3",
-    latlng: "35.3102600561452, 129.00738261147814"
+    latlng: "35.3102600561452, 129.00738261147814",
+    address_english: "Seoul Kalguksu"
   },
   {
     solo: true,
@@ -23580,7 +25669,8 @@ var position = [
     full: "양산 확진자",
     address: "CU 물금나래점(21, 22일 방문)",
     address_name: "경남 양산시 물금읍 가촌리 1297",
-    latlng: "35.31109353918091, 129.00668201541916"
+    latlng: "35.31109353918091, 129.00668201541916",
+    address_english: "CU Logistics Barrier (21st and 22nd)"
   },
   {
     solo: true,
@@ -23592,7 +25682,8 @@ var position = [
     full: "양산 확진자",
     address: "더리터 양산증산역점(22, 23일 방문)",
     address_name: "경남 양산시 물금읍 증산리 1776-4",
-    latlng: "35.30829618531029, 129.0090798382272"
+    latlng: "35.30829618531029, 129.0090798382272",
+    address_english: "Doliter Yangsan Station (visited on the 22nd and 23rd)"
   },
   {
     solo: true,
@@ -23604,7 +25695,8 @@ var position = [
     full: "양산 확진자",
     address: "델리랩 물금점",
     address_name: "경남 양산시 물금읍 가촌리 1297",
-    latlng: "35.31058198455879, 129.0062296253563"
+    latlng: "35.31058198455879, 129.0062296253563",
+    address_english: "Deli Lab's Billing Point"
   },
   {
     solo: true,
@@ -23616,7 +25708,8 @@ var position = [
     full: "양산 확진자",
     address: "김영희강남동태찜 증산점",
     address_name: "경남 양산시 물금읍 가촌리 1294-1",
-    latlng: "35.30961310362968, 129.00792070174313"
+    latlng: "35.30961310362968, 129.00792070174313",
+    address_english: "Kim Young-hee Gangnam Dongtae Jjim Jeungsan Branch"
   },
   {
     solo: true,
@@ -23628,7 +25721,8 @@ var position = [
     full: "양산 확진자",
     address: "양산부산대학교병원",
     address_name: "경남 양산시 물금읍 범어리 2762-1",
-    latlng: "35.32782130499471, 129.00588591265415"
+    latlng: "35.32782130499471, 129.00588591265415",
+    address_english: "Yangsan Pusan National University Hospital"
   },
   {
     solo: true,
@@ -23640,7 +25734,8 @@ var position = [
     full: "대구 확진자",
     address: "CU 파랑새네오빌점",
     address_name: "대구 달서구 장기동 814-1",
-    latlng: "35.8466026426308, 128.5264823783892"
+    latlng: "35.8466026426308, 128.5264823783892",
+    address_english: "CU Blue Bird's Ovil Branch"
   },
   {
     solo: true,
@@ -23652,7 +25747,8 @@ var position = [
     full: "대구 확진자",
     address: "롯데백화점 상인점",
     address_name: "대구 달서구 상인동 1503",
-    latlng: "35.81879043423178, 128.53890166350544"
+    latlng: "35.81879043423178, 128.53890166350544",
+    address_english: "Lotte Department Store Merchants"
   },
   {
     solo: true,
@@ -23664,7 +25760,8 @@ var position = [
     full: "대구 확진자",
     address: "장터돼지국밥",
     address_name: "경북 청송군 진보면 진안리 384-4",
-    latlng: "36.528324747431206, 129.04517321106124"
+    latlng: "36.528324747431206, 129.04517321106124",
+    address_english: "market pork and rice soup"
   },
   {
     solo: true,
@@ -23676,7 +25773,8 @@ var position = [
     full: "대구 확진자",
     address: "제일내과의원",
     address_name: "경북 청송군 진보면 진안리 465-7",
-    latlng: "36.52916792644591, 129.0426589747802"
+    latlng: "36.52916792644591, 129.0426589747802",
+    address_english: "a first physician"
   },
   {
     solo: true,
@@ -23688,7 +25786,8 @@ var position = [
     full: "대구 확진자",
     address: "진보동산약국",
     address_name: "경북 청송군 진보면 진안리 423-7",
-    latlng: "36.528970815602804, 129.0432253812882"
+    latlng: "36.528970815602804, 129.0432253812882",
+    address_english: "a progressive pharmacy"
   },
   {
     solo: true,
@@ -23700,7 +25799,8 @@ var position = [
     full: "대구 확진자",
     address: "동산내과의원",
     address_name: "대구 중구 남산동 94-22",
-    latlng: "35.86420026881331, 128.58165411184723"
+    latlng: "35.86420026881331, 128.58165411184723",
+    address_english: "a dongsan physician"
   },
   {
     solo: true,
@@ -23712,7 +25812,8 @@ var position = [
     full: "대구 확진자",
     address: "수성메트로병원 응급실",
     address_name: "대구 수성구 만촌동 1037-9",
-    latlng: "35.859417889341806, 128.64597723618027"
+    latlng: "35.859417889341806, 128.64597723618027",
+    address_english: "Mercury Metro Hospital Emergency Room"
   },
   {
     solo: true,
@@ -23724,7 +25825,8 @@ var position = [
     full: "대구 확진자",
     address: "예일연합 이비인후과의원",
     address_name: "대구 수성구 수성동4가 1186-60",
-    latlng: "35.8600771648127, 128.61386130910125"
+    latlng: "35.8600771648127, 128.61386130910125",
+    address_english: "e-Negye.D."
   },
   {
     solo: true,
@@ -23736,7 +25838,8 @@ var position = [
     full: "대구 확진자",
     address: "스마일약국",
     address_name: "대구 수성구 수성동4가 1186-60",
-    latlng: "35.86012668437013, 128.61386452713967"
+    latlng: "35.86012668437013, 128.61386452713967",
+    address_english: "Smile Pharmacy"
   },
   {
     solo: true,
@@ -23748,7 +25851,8 @@ var position = [
     full: "대구 확진자",
     address: "미래연합의원",
     address_name: "경북 경산시 사동 588-2",
-    latlng: "35.8174224100981, 128.75343457601946"
+    latlng: "35.8174224100981, 128.75343457601946",
+    address_english: "Future United Rep."
   },
   {
     solo: true,
@@ -23760,7 +25864,8 @@ var position = [
     full: "대구 확진자",
     address: "하나로약국",
     address_name: "경북 경산시 사동 588-3",
-    latlng: "35.81758483050788, 128.75317261575344"
+    latlng: "35.81758483050788, 128.75317261575344",
+    address_english: "Hanarotele"
   },
   {
     solo: true,
@@ -23772,7 +25877,8 @@ var position = [
     full: "대구 확진자",
     address: "교보문고 반월당바로드림센터",
     address_name: "대구 중구 계산동2가 200",
-    latlng: "35.866644471154096, 128.59063919029822"
+    latlng: "35.866644471154096, 128.59063919029822",
+    address_english: "Kyobo Book Center Banwol-Dang Barodream Center"
   },
   {
     solo: true,
@@ -23784,7 +25890,8 @@ var position = [
     full: "대구 확진자",
     address: "CGV 대구스타디움점",
     address_name: "대구 수성구 대흥동 504",
-    latlng: "35.8321778021021, 128.68655791325233"
+    latlng: "35.8321778021021, 128.68655791325233",
+    address_english: "CGV Daegu Stadium"
   },
   {
     solo: true,
@@ -23796,7 +25903,8 @@ var position = [
     full: "대구 확진자",
     address: "아틀리에빈 경산옥산점",
     address_name: "경북 경산시 사정동 141-1",
-    latlng: "35.8187438625346, 128.72539192848842"
+    latlng: "35.8187438625346, 128.72539192848842",
+    address_english: "Ateliervin Gyeongsan Oxygen Branch"
   },
   {
     solo: true,
@@ -23808,7 +25916,8 @@ var position = [
     full: "대구 확진자",
     address: "you헤어 경산점",
     address_name: "경북 경산시 옥곡동 822-20",
-    latlng: "35.81486632361789, 128.7310920254401"
+    latlng: "35.81486632361789, 128.7310920254401",
+    address_english: "youhare hard point"
   },
   {
     solo: true,
@@ -23820,7 +25929,8 @@ var position = [
     full: "대구 확진자",
     address: "경산세무서",
     address_name: "경북 경산시 사동 633-2",
-    latlng: "35.817016377254454, 128.75975855325882"
+    latlng: "35.817016377254454, 128.75975855325882",
+    address_english: "Gyeongsan Tax Office"
   },
   {
     solo: true,
@@ -23832,7 +25942,8 @@ var position = [
     full: "대구 확진자",
     address: "경산시청",
     address_name: "경북 경산시 중방동 701-17",
-    latlng: "35.825088792243406, 128.74131674650943"
+    latlng: "35.825088792243406, 128.74131674650943",
+    address_english: "Gyeongsan City Hall"
   },
   {
     solo: true,
@@ -23844,7 +25955,8 @@ var position = [
     full: "대구 확진자",
     address: "경산시 남매공원",
     address_name: "경북 경산시 계양동 466",
-    latlng: "35.826413825050786, 128.74340380968144"
+    latlng: "35.826413825050786, 128.74340380968144",
+    address_english: "Gyeongsan City Nammae Park"
   },
   {
     solo: true,
@@ -23856,7 +25968,8 @@ var position = [
     full: "대구 확진자",
     address: "김동희내과의원",
     address_name: "대구 달서구 두류1.2동 135-10",
-    latlng: "35.858956273800906, 128.5620446728852"
+    latlng: "35.858956273800906, 128.5620446728852",
+    address_english: "Kim Dong Hee Medical Center"
   },
   {
     solo: true,
@@ -23868,7 +25981,9 @@ var position = [
     full: "대구 확진자",
     address: "촌순두부청국장전문",
     address_name: "경북 경산시 중방동 845-23",
-    latlng: "35.826324414009505, 128.73813043837544"
+    latlng: "35.826324414009505, 128.73813043837544",
+    address_english:
+      "Specialized in the Director of the Rural Soft Tofu Administration"
   },
   {
     solo: true,
@@ -23880,7 +25995,8 @@ var position = [
     full: "대구 확진자",
     address: "스타벅스 경산중방DT점",
     address_name: "경북 경산시 중방동 847-6",
-    latlng: "35.82742803276955, 128.7368399561941"
+    latlng: "35.82742803276955, 128.7368399561941",
+    address_english: "Starbucks Gyeongsan Middle East DT Store"
   },
   {
     solo: true,
@@ -23892,7 +26008,8 @@ var position = [
     full: "대구 확진자",
     address: "변재연한우",
     address_name: "대구 수성구 황금동 765-6",
-    latlng: "35.84645906105029, 128.61734845247724"
+    latlng: "35.84645906105029, 128.61734845247724",
+    address_english: "Byun Jae Yeon Woo"
   },
   {
     solo: true,
@@ -23904,7 +26021,8 @@ var position = [
     full: "대구 확진자",
     address: "롤링핀 경산점",
     address_name: "경북 경산시 중방동 837-12",
-    latlng: "35.8291520701115, 128.73614167734223"
+    latlng: "35.8291520701115, 128.73614167734223",
+    address_english: "rolling pin hard point"
   },
   {
     solo: true,
@@ -23916,7 +26034,8 @@ var position = [
     full: "대구 확진자",
     address: "경대연합 용한속내과의원",
     address_name: "경북 경산시 중방동 863-9",
-    latlng: "35.82549156905601, 128.73714740660543"
+    latlng: "35.82549156905601, 128.73714740660543",
+    address_english: "Yonghan Accompany Clinic of the Kyungdae Alliance"
   },
   {
     solo: true,
@@ -23928,7 +26047,8 @@ var position = [
     full: "대구 확진자",
     address: "참조은약국",
     address_name: "경북 경산시 중방동 863-9",
-    latlng: "35.82549510846821, 128.73715190975344"
+    latlng: "35.82549510846821, 128.73715190975344",
+    address_english: "a reference agency"
   },
   {
     solo: true,
@@ -23940,7 +26060,8 @@ var position = [
     full: "대구 확진자",
     address: "자인초등학교",
     address_name: "경북 경산시 자인면 교촌리 303",
-    latlng: "35.8212290604591, 128.8243564139486"
+    latlng: "35.8212290604591, 128.8243564139486",
+    address_english: "Jain Elementary School"
   },
   {
     solo: true,
@@ -23952,7 +26073,8 @@ var position = [
     full: "대구 확진자",
     address: "자인농협 본점",
     address_name: "경북 경산시 자인면 동부리 26",
-    latlng: "35.8202924067565, 128.8238481548606"
+    latlng: "35.8202924067565, 128.8238481548606",
+    address_english: "a self-inflicted farmhouse"
   },
   {
     solo: true,
@@ -23964,7 +26086,8 @@ var position = [
     full: "대구 확진자",
     address: "포도나무치과의원",
     address_name: "대구 수성구 시지동 254-5",
-    latlng: "35.84264006002041, 128.69564225419737"
+    latlng: "35.84264006002041, 128.69564225419737",
+    address_english: "a vine dentist"
   },
   {
     solo: true,
@@ -23976,7 +26099,8 @@ var position = [
     full: "대구 확진자",
     address: "상쾌한이비인후과의원",
     address_name: "경북 영천시 야사동 131-6",
-    latlng: "35.975197056927506, 128.9476981681344"
+    latlng: "35.975197056927506, 128.9476981681344",
+    address_english: "a refreshing ENT doctor"
   },
   {
     solo: true,
@@ -23988,7 +26112,8 @@ var position = [
     full: "대구 확진자",
     address: "현약국",
     address_name: "경북 영천시 야사동 131-6",
-    latlng: "35.97517475496483, 128.94768431747332"
+    latlng: "35.97517475496483, 128.94768431747332",
+    address_english: "a present-day"
   },
   {
     solo: true,
@@ -24000,7 +26125,8 @@ var position = [
     full: "대구 확진자",
     address: "파리바게뜨 시지아레나점",
     address_name: "대구 수성구 신매동 567",
-    latlng: "35.840316496684714, 128.70516031667842"
+    latlng: "35.840316496684714, 128.70516031667842",
+    address_english: "Paris Baguette Shijiarena branch"
   },
   {
     solo: true,
@@ -24012,7 +26138,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 영대제일원룸점",
     address_name: "경북 경산시 조영동 373",
-    latlng: "35.838535018086695, 128.75977343998645"
+    latlng: "35.838535018086695, 128.75977343998645",
+    address_english: "7-Eleven Yeongdae Jeil One Room Shop"
   },
   {
     solo: true,
@@ -24024,7 +26151,8 @@ var position = [
     full: "대구 확진자",
     address: "이서이비인후과",
     address_name: "경북 경산시 조영동 373",
-    latlng: "35.8402471,128.7073244"
+    latlng: "35.8402471,128.7073244",
+    address_english: "Iseobyphthalmology"
   },
   {
     solo: true,
@@ -24036,7 +26164,8 @@ var position = [
     full: "대구 확진자",
     address: "메디빌약국",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.839942743398595, 128.7069219386234"
+    latlng: "35.839942743398595, 128.7069219386234",
+    address_english: "Mediville Pharmacy"
   },
   {
     solo: true,
@@ -24048,7 +26177,8 @@ var position = [
     full: "대구 확진자",
     address: "시레나커피 본점",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.8398624,128.7051717"
+    latlng: "35.8398624,128.7051717",
+    address_english: "the main office of Syrenafi."
   },
   {
     solo: true,
@@ -24060,19 +26190,8 @@ var position = [
     full: "대구 확진자",
     address: "미니스톱 달구벌대로점",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.8543912,128.6190485"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#대구 확진자",
-    month: 2,
-    day: 13,
-    name: "대구",
-    full: "대구 확진자",
-    address: "아틀리에빈 담티점",
-    address_name: "대구 수성구 만촌동 861-8",
-    latlng: "35.854028767261404, 128.6549203513433"
+    latlng: "35.8543912,128.6190485",
+    address_english: "Ministop Dalgubal Boulevard"
   },
   {
     solo: true,
@@ -24084,19 +26203,8 @@ var position = [
     full: "대구 확진자",
     address: "포스마트 영남대학점",
     address_name: "경북 경산시 조영동 311-13",
-    latlng: "35.83831665878071, 128.75634456717447"
-  },
-  {
-    solo: true,
-    profile: "-",
-    tag: "#대구 확진자",
-    month: 2,
-    day: 15,
-    name: "대구",
-    full: "대구 확진자",
-    address: "아틀리에빈 담티점",
-    address_name: "대구 수성구 만촌동 861-8",
-    latlng: "35.854028767261404, 128.6549203513433"
+    latlng: "35.83831665878071, 128.75634456717447",
+    address_english: "Posmart Youngnam University"
   },
   {
     solo: true,
@@ -24108,7 +26216,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 대구신매역점",
     address_name: "대구 수성구 신매동 567-55",
-    latlng: "35.839310438591106, 128.7047436890194"
+    latlng: "35.839310438591106, 128.7047436890194",
+    address_english: "7-Eleven Daegu New Store"
   },
   {
     solo: true,
@@ -24120,7 +26229,8 @@ var position = [
     full: "대구 확진자",
     address: "이서이비인후과",
     address_name: "대구 수성구 신매동 567-55",
-    latlng: "35.8402471,128.7073244"
+    latlng: "35.8402471,128.7073244",
+    address_english: "Iseobyphthalmology"
   },
   {
     solo: true,
@@ -24132,7 +26242,8 @@ var position = [
     full: "대구 확진자",
     address: "메디빌약국",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.839942743398595, 128.7069219386234"
+    latlng: "35.839942743398595, 128.7069219386234",
+    address_english: "Mediville Pharmacy"
   },
   {
     solo: true,
@@ -24144,7 +26255,8 @@ var position = [
     full: "대구 확진자",
     address: "매스커피 영남대점",
     address_name: "경북 경산시 대동 164-1",
-    latlng: "35.836632403649595, 128.75307822506144"
+    latlng: "35.836632403649595, 128.75307822506144",
+    address_english: "Mass Coffee Yeongnam Grand Store"
   },
   {
     solo: true,
@@ -24156,7 +26268,8 @@ var position = [
     full: "대구 확진자",
     address: "CU 영대경산점",
     address_name: "경북 경산시 조영동 324",
-    latlng: "35.83838300826918, 128.75642903073853"
+    latlng: "35.83838300826918, 128.75642903073853",
+    address_english: "CU Zero-Grade Scatter"
   },
   {
     solo: true,
@@ -24168,7 +26281,8 @@ var position = [
     full: "대구 확진자",
     address: "신천지예수교회 다대오지성전",
     address_name: "대구 남구 대명동 1623-12",
-    latlng: "35.83969584889191, 128.5665542079752"
+    latlng: "35.83969584889191, 128.5665542079752",
+    address_english: "Shinchunji Jesus Church's Dadaeoji Temple"
   },
   {
     solo: true,
@@ -24180,7 +26294,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 영대제일원룸점",
     address_name: "경북 경산시 조영동 373",
-    latlng: "35.838535018086695, 128.75977343998645"
+    latlng: "35.838535018086695, 128.75977343998645",
+    address_english: "7-Eleven Yeongdae Jeil One Room Shop"
   },
   {
     solo: true,
@@ -24192,7 +26307,8 @@ var position = [
     full: "대구 확진자",
     address: "시지광장약국",
     address_name: "대구 수성구 신매동 567-10",
-    latlng: "35.8401652779424, 128.7062272672914"
+    latlng: "35.8401652779424, 128.7062272672914",
+    address_english: "Xiji Guangjiang Pharmacy"
   },
   {
     solo: true,
@@ -24204,7 +26320,8 @@ var position = [
     full: "대구 확진자",
     address: "김준홍이비인후과의원",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.839946409700886, 128.70691759036538"
+    latlng: "35.839946409700886, 128.70691759036538",
+    address_english: "Kim Joon-hong, an ENT doctor"
   },
   {
     solo: true,
@@ -24216,7 +26333,8 @@ var position = [
     full: "대구 확진자",
     address: "메디빌약국",
     address_name: "대구 수성구 신매동 567-60",
-    latlng: "35.839942743398595, 128.7069219386234"
+    latlng: "35.839942743398595, 128.7069219386234",
+    address_english: "Mediville Pharmacy"
   },
   {
     solo: true,
@@ -24228,7 +26346,8 @@ var position = [
     full: "대구 확진자",
     address: "로제피부과의원 중앙점",
     address_name: "대구 중구 봉산동 127-3",
-    latlng: "35.864600040207414, 128.59585026286123"
+    latlng: "35.864600040207414, 128.59585026286123",
+    address_english: "center point of roje skin clinic"
   },
   {
     solo: true,
@@ -24240,7 +26359,8 @@ var position = [
     full: "대구 확진자",
     address: "홍스떡볶이 반월당점",
     address_name: "대구 중구 남산동 930-1",
-    latlng: "35.864420692602394, 128.59334026849024"
+    latlng: "35.864420692602394, 128.59334026849024",
+    address_english: "Hongs Tteokbokki Banwoldang Store"
   },
   {
     solo: true,
@@ -24252,7 +26372,8 @@ var position = [
     full: "대구 확진자",
     address: "CU 영대경산점",
     address_name: "경북 경산시 조영동 324",
-    latlng: "35.83838300826918, 128.75642903073853"
+    latlng: "35.83838300826918, 128.75642903073853",
+    address_english: "CU Zero-Grade Scatter"
   },
   {
     solo: true,
@@ -24264,7 +26385,8 @@ var position = [
     full: "대구 확진자",
     address: "경산시보건소",
     address_name: "경북 경산시 중방동 708-5",
-    latlng: "35.825055355925606, 128.74337409184045"
+    latlng: "35.825055355925606, 128.74337409184045",
+    address_english: "Gyeongsan City Health Center"
   },
   {
     solo: true,
@@ -24276,7 +26398,8 @@ var position = [
     full: "대구 확진자",
     address: "매스커피 영남대점",
     address_name: "경북 경산시 대동 164-1",
-    latlng: "35.836632403649595, 128.75307822506144"
+    latlng: "35.836632403649595, 128.75307822506144",
+    address_english: "Mass Coffee Yeongnam Grand Store"
   },
   {
     solo: true,
@@ -24288,7 +26411,8 @@ var position = [
     full: "대구 확진자",
     address: "이삭토스트 경산영남대역점",
     address_name: "경북 경산시 대동 170-7",
-    latlng: "35.83678739904915, 128.7533250997408"
+    latlng: "35.83678739904915, 128.7533250997408",
+    address_english: "Isak Toast Gyeongsan Yeongnam Station"
   },
   {
     solo: true,
@@ -24300,7 +26424,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 경산영남대역점",
     address_name: "경북 경산시 대동 201-1",
-    latlng: "35.835831410561795, 128.75214430021146"
+    latlng: "35.835831410561795, 128.75214430021146",
+    address_english: "7-Eleven Gyeongsan Yeongnam Station"
   },
   {
     solo: true,
@@ -24312,7 +26437,8 @@ var position = [
     full: "대구 확진자",
     address: "세븐일레븐 영대제일원룸점",
     address_name: "경북 경산시 조영동 373",
-    latlng: "35.838535018086695, 128.75977343998645"
+    latlng: "35.838535018086695, 128.75977343998645",
+    address_english: "7-Eleven Yeongdae Jeil One Room Shop"
   },
   {
     solo: true,
@@ -24324,7 +26450,8 @@ var position = [
     full: "대구 확진자",
     address: "KB국민은행 황금네거리지점",
     address_name: "대구 수성구 두산동 113",
-    latlng: "35.83959815057181, 128.62306588135226"
+    latlng: "35.83959815057181, 128.62306588135226",
+    address_english: "KB Kookmin Bank's Golden Neighborhood Branch"
   },
   {
     solo: true,
@@ -24336,7 +26463,8 @@ var position = [
     full: "대구 확진자",
     address: "더감동정신건강의학과의원",
     address_name: "대구 달성군 다사읍 죽곡리 807-6",
-    latlng: "35.857487864322415, 128.46487587016813"
+    latlng: "35.857487864322415, 128.46487587016813",
+    address_english: "The Emotional Mental Health Medical Center"
   },
   {
     solo: true,
@@ -24348,7 +26476,8 @@ var position = [
     full: "대구 확진자",
     address: "대구 가톨릭대학교병원",
     address_name: "대구 남구 대명동 3056-6",
-    latlng: "35.8439073399087, 128.5681112780272"
+    latlng: "35.8439073399087, 128.5681112780272",
+    address_english: "Daegu Catholic University Hospital"
   },
   {
     solo: true,
@@ -24360,7 +26489,8 @@ var position = [
     full: "대구 확진자",
     address: "혜화연합의원",
     address_name: "경북 경산시 옥곡동 823-16",
-    latlng: "35.8129520359569, 128.7326125953524"
+    latlng: "35.8129520359569, 128.7326125953524",
+    address_english: "Hyehwa United Congressman"
   },
   {
     solo: true,
@@ -24372,7 +26502,8 @@ var position = [
     full: "대구 확진자",
     address: "초원애 한식뷔페",
     address_name: "경북 경산시 진량읍 신상리 702-14",
-    latlng: "35.874804212482005, 128.81397674261657"
+    latlng: "35.874804212482005, 128.81397674261657",
+    address_english: "Cho Won-ae Korean Food Buffet"
   },
   {
     solo: true,
@@ -24384,7 +26515,8 @@ var position = [
     full: "대구 확진자",
     address: "파티마연합속내과의원",
     address_name: "경북 경산시 하양읍 금락리 135-130",
-    latlng: "35.913883170318506, 128.81970945831"
+    latlng: "35.913883170318506, 128.81970945831",
+    address_english: "Patima Union Internal Medicine Clinic"
   },
   {
     solo: true,
@@ -24396,7 +26528,8 @@ var position = [
     full: "대구 확진자",
     address: "바른약국",
     address_name: "경북 경산시 하양읍 금락리 135-27",
-    latlng: "35.91402295533126, 128.81958305772713"
+    latlng: "35.91402295533126, 128.81958305772713",
+    address_english: "a good pharmacy"
   },
   {
     solo: true,
@@ -24408,7 +26541,8 @@ var position = [
     full: "대구 확진자",
     address: "세명병원",
     address_name: "경북 경산시 중방동 848-4",
-    latlng: "35.826219536360895, 128.73740670679547"
+    latlng: "35.826219536360895, 128.73740670679547",
+    address_english: "a three-person hospital"
   },
   {
     solo: true,
@@ -24420,7 +26554,8 @@ var position = [
     full: "대구 확진자",
     address: "이마트 칠성점",
     address_name: "대구 북구 칠성동2가 20-1",
-    latlng: "35.88519623174237, 128.5898275233398"
+    latlng: "35.88519623174237, 128.5898275233398",
+    address_english: "E-Mart Chilsung Branch"
   },
   {
     solo: true,
@@ -24432,7 +26567,8 @@ var position = [
     full: "대구 확진자",
     address: "KB국민은행 침산동지점",
     address_name: "대구 북구 침산동 117-10",
-    latlng: "35.8872764689284, 128.59502952732024"
+    latlng: "35.8872764689284, 128.59502952732024",
+    address_english: "KB Kookmin Bank's Chimsan-dong Branch"
   },
   {
     solo: true,
@@ -24444,7 +26580,8 @@ var position = [
     full: "대구 확진자",
     address: "마리아병원 대구점",
     address_name: "대구 동구 신천동 285-1",
-    latlng: "35.876223841894394, 128.62681562823826"
+    latlng: "35.876223841894394, 128.62681562823826",
+    address_english: "Mary's Hospital Daegu Branch"
   },
   {
     solo: true,
@@ -24456,7 +26593,8 @@ var position = [
     full: "서울 확진자",
     address: "서울특별시서북병원 검사",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.604234501517695, 126.90441935029999"
+    latlng: "37.604234501517695, 126.90441935029999",
+    address_english: "Examination of Seoul Seobuk Hospital"
   },
   {
     solo: true,
@@ -24468,7 +26606,8 @@ var position = [
     full: "대구 확진자",
     address: "신세계백화점 대구점",
     address_name: "대구 동구 신천동 1506",
-    latlng: "35.8778023364337, 128.62896496649327"
+    latlng: "35.8778023364337, 128.62896496649327",
+    address_english: "Shinsegae Department Store Daegu Branch"
   },
   {
     solo: true,
@@ -24480,7 +26619,8 @@ var position = [
     full: "고성 확진자",
     address: "탑마트 고성점",
     address_name: "경남 고성군 고성읍 교사리 87-1",
-    latlng: "34.97634810428009, 128.31255022217408"
+    latlng: "34.97634810428009, 128.31255022217408",
+    address_english: "Top Mart Goseong Point"
   },
   {
     solo: true,
@@ -24492,7 +26632,8 @@ var position = [
     full: "서울 확진자",
     address: "백년옥 본관 식사",
     address_name: "서울 서초구 서초동 1450-6",
-    latlng: "37.48118324440562, 127.01377538343166"
+    latlng: "37.48118324440562, 127.01377538343166",
+    address_english: "a centenary-house meal"
   },
   {
     solo: true,
@@ -24504,7 +26645,8 @@ var position = [
     full: "서울 확진자",
     address: "인제대학교 상계백병원 방문",
     address_name: "서울 노원구 상계동 761-1",
-    latlng: "37.648581267298596, 127.06311619032103"
+    latlng: "37.648581267298596, 127.06311619032103",
+    address_english: "Visit Inje University Sangyebaek Hospital"
   },
   {
     solo: true,
@@ -24516,7 +26658,8 @@ var position = [
     full: "서울 확진자",
     address: "삼일부동산 방문",
     address_name: "서울 관악구 봉천동 1630-8",
-    latlng: "37.4764295447952, 126.961774150289"
+    latlng: "37.4764295447952, 126.961774150289",
+    address_english: "a visit to Samjyeoksan"
   },
   {
     solo: true,
@@ -24528,7 +26671,8 @@ var position = [
     full: "거제 확진자",
     address: "대우병원",
     address_name: "경남 거제시 두모동 363",
-    latlng: "34.8722024609245, 128.7221736545624"
+    latlng: "34.8722024609245, 128.7221736545624",
+    address_english: "Daewoo Hospital"
   },
   {
     solo: true,
@@ -24540,7 +26684,8 @@ var position = [
     full: "구미 확진자",
     address: "이마트 구미점",
     address_name: "경북 구미시 광평동 65-1",
-    latlng: "36.10943919529019, 128.36489842020305"
+    latlng: "36.10943919529019, 128.36489842020305",
+    address_english: "E-Mart Gumi branch"
   },
   {
     solo: true,
@@ -24552,7 +26697,8 @@ var position = [
     full: "구미 확진자",
     address: "황가정의학과의원",
     address_name: "경북 구미시 형곡동 168-1",
-    latlng: "36.11066084651599, 128.33550324200007"
+    latlng: "36.11066084651599, 128.33550324200007",
+    address_english: "Hwang Family Justice Medical Center"
   },
   {
     solo: true,
@@ -24564,7 +26710,8 @@ var position = [
     full: "서울 확진자",
     address: "GS25 화곡까치점 방문",
     address_name: "서울 강서구 화곡동 1121-20",
-    latlng: "37.5516748667775, 126.85260143575998"
+    latlng: "37.5516748667775, 126.85260143575998",
+    address_english: "GS25 Visit Hwagok Magpie Shop"
   },
   {
     solo: true,
@@ -24576,7 +26723,8 @@ var position = [
     full: "서울 확진자",
     address: "롤리김밥 방문(2/17,18,19 도 방문)",
     address_name: "서울 강서구 화곡동 977-3",
-    latlng: "37.549171372268006, 126.850750479918"
+    latlng: "37.549171372268006, 126.850750479918",
+    address_english: "Visit Lollie Gimbap (2/17,18 and 19)"
   },
   {
     solo: true,
@@ -24588,7 +26736,8 @@ var position = [
     full: "서울 확진자",
     address: "프렌즈빈 방문(2/18도 방문)",
     address_name: "서울 강서구 화곡동 980-13",
-    latlng: "37.54974388975971, 126.85034194566299"
+    latlng: "37.54974388975971, 126.85034194566299",
+    address_english: "Visit Friendsbin (2/18 Degree)"
   },
   {
     solo: true,
@@ -24600,7 +26749,8 @@ var position = [
     full: "서울 확진자",
     address: "양푼이동태탕 바다장어탕 방문",
     address_name: "서울 강서구 화곡동 981-1",
-    latlng: "37.55027896287321, 126.84883351212"
+    latlng: "37.55027896287321, 126.84883351212",
+    address_english: "Yangpoon-dong Taetang (Taetang) Visit to Sea Eel Soup"
   },
   {
     solo: true,
@@ -24612,7 +26762,8 @@ var position = [
     full: "서울 확진자",
     address: "강서구보건소 방문",
     address_name: "서울 강서구 염창동 275-12",
-    latlng: "37.54961750526951, 126.868285554347"
+    latlng: "37.54961750526951, 126.868285554347",
+    address_english: "a visit to Gangseo Health Center"
   },
   {
     solo: true,
@@ -24624,7 +26775,9 @@ var position = [
     full: "서울 확진자",
     address: "GS25 염창E편한점 방문(2/19,20,24도 방문)",
     address_name: "서울 강서구 염창동 277-55",
-    latlng: "37.54828998372751, 126.87041081804502"
+    latlng: "37.54828998372751, 126.87041081804502",
+    address_english:
+      "GS25 Yumchang E convenience store visit (2/19,20, 24 degrees)"
   },
   {
     solo: true,
@@ -24636,7 +26789,8 @@ var position = [
     full: "서울 확진자",
     address: "자마이카휘트니스 방문",
     address_name: "서울 강서구 화곡3동 1065-17",
-    latlng: "37.5416457959911, 126.839427613379"
+    latlng: "37.5416457959911, 126.839427613379",
+    address_english: "Visiting Zamaicahwitnis"
   },
   {
     solo: true,
@@ -24648,7 +26802,8 @@ var position = [
     full: "서울 확진자",
     address: "크린토피아 화곡역점 방문",
     address_name: "서울 강서구 화곡동 381-12",
-    latlng: "37.53898484259264, 126.8392047600113"
+    latlng: "37.53898484259264, 126.8392047600113",
+    address_english: "Visit to the Crintopia Hwagok Station"
   },
   {
     solo: true,
@@ -24660,9 +26815,9 @@ var position = [
     full: "경산 확진자",
     address: "옹심이칼국수와촌점",
     address_name: "경북 경산시 와촌면 동강리 129-5",
-    latlng: "35.954196381834194, 128.8338113098236"
+    latlng: "35.954196381834194, 128.8338113098236",
+    address_english: "Ongshimi Kalguksu and Village Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24673,7 +26828,8 @@ var position = [
     full: "경산 확진자",
     address: "GS25 하양공단점",
     address_name: "경북 경산시 하양읍 대학리 1156",
-    latlng: "35.93309150990431, 128.82703470652746"
+    latlng: "35.93309150990431, 128.82703470652746",
+    address_english: "GS25 Hayang Industrial Complex"
   },
   {
     solo: true,
@@ -24685,9 +26841,9 @@ var position = [
     full: "경산 확진자",
     address: "대동반점",
     address_name: "경북 경산시 와촌면 덕촌리 220",
-    latlng: "35.945095105216105, 128.83594577162262"
+    latlng: "35.945095105216105, 128.83594577162262",
+    address_english: "a companion point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24698,7 +26854,8 @@ var position = [
     full: "경산 확진자",
     address: "옵티마 제일약국",
     address_name: "경북 경산시 중방동 517-2",
-    latlng: "35.82339477513689, 128.7355792009344"
+    latlng: "35.82339477513689, 128.7355792009344",
+    address_english: "Optima First Pharmacy"
   },
   {
     solo: true,
@@ -24710,9 +26867,9 @@ var position = [
     full: "경산 확진자",
     address: "드림마트 백천점",
     address_name: "경북 경산시 백천동 산 23",
-    latlng: "35.802955529870594, 128.74142190242645"
+    latlng: "35.802955529870594, 128.74142190242645",
+    address_english: "DreamMart 10000"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24723,7 +26880,8 @@ var position = [
     full: "경산 확진자",
     address: "하양보건지소",
     address_name: "경북 경산시 하양읍 금락리 123-10",
-    latlng: "35.9123755462805, 128.81238850708456"
+    latlng: "35.9123755462805, 128.81238850708456",
+    address_english: "Hayang Health Branch"
   },
   {
     solo: true,
@@ -24735,7 +26893,8 @@ var position = [
     full: "경산 확진자",
     address: "앤유PC 신대점",
     address_name: "경북 경산시 압량읍 신대리 376",
-    latlng: "35.843173700179996, 128.76495365577046"
+    latlng: "35.843173700179996, 128.76495365577046",
+    address_english: "Anne-UPC New Grand Store"
   },
   {
     solo: true,
@@ -24747,7 +26906,8 @@ var position = [
     full: "경산 확진자",
     address: "CU 하양센트럴파크점(2/20,22)",
     address_name: "경북 경산시 하양읍 금락리 131-71",
-    latlng: "35.91161313598379, 128.81537515289753"
+    latlng: "35.91161313598379, 128.81537515289753",
+    address_english: "CU Hayang Central Park Store (2/20,22)"
   },
   {
     solo: true,
@@ -24759,9 +26919,9 @@ var position = [
     full: "경산 확진자",
     address: "파리바게뜨 신대부적점",
     address_name: "경북 경산시 압량읍 신대리 474",
-    latlng: "35.8414183459639, 128.76421531272047"
+    latlng: "35.8414183459639, 128.76421531272047",
+    address_english: "Paris Baguette New Adjacent Point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24772,9 +26932,9 @@ var position = [
     full: "경산 확진자",
     address: "류&강 이비인후과의원",
     address_name: "경북 경산시 정평동 214-2",
-    latlng: "35.832033351988116, 128.7276759589824"
+    latlng: "35.832033351988116, 128.7276759589824",
+    address_english: "style"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24785,7 +26945,8 @@ var position = [
     full: "경산 확진자",
     address: "정다운약국",
     address_name: "경북 경산시 정평동 214",
-    latlng: "35.832048508833786, 128.72749923286324"
+    latlng: "35.832048508833786, 128.72749923286324",
+    address_english: "a soft-hearted drugstore"
   },
   {
     solo: true,
@@ -24797,7 +26958,8 @@ var position = [
     full: "경산 확진자",
     address: "노브랜드 경산사동점",
     address_name: "경북 경산시 사동 37",
-    latlng: "35.812073960209204, 128.75536583627445"
+    latlng: "35.812073960209204, 128.75536583627445",
+    address_english: "Norbrand Gyeongsan Sutdong Branch"
   },
   {
     solo: true,
@@ -24809,9 +26971,9 @@ var position = [
     full: "경산 확진자",
     address: "통큰뒷고기막창(2/12,13,14,22)",
     address_name: "경북 경산시 옥산동 825-11",
-    latlng: "35.82507203190689, 128.72278702240942"
+    latlng: "35.82507203190689, 128.72278702240942",
+    address_english: "Tiny back-meat entrails (2/12,13,14,22)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24822,7 +26984,8 @@ var position = [
     full: "경산 확진자",
     address: "마디신통의원(2/17,20)",
     address_name: "경북 경산시 사동 589",
-    latlng: "35.81743615624281, 128.75249223871845"
+    latlng: "35.81743615624281, 128.75249223871845",
+    address_english: "Mardi's Clinic (2/17,20)"
   },
   {
     solo: true,
@@ -24834,9 +26997,9 @@ var position = [
     full: "경산 확진자",
     address: "감초당약국(2/17,20)",
     address_name: "경북 경산시 사동 588-10",
-    latlng: "35.81763349946583, 128.75261606688147"
+    latlng: "35.81763349946583, 128.75261606688147",
+    address_english: "licorice-sugar bureau(2/17,20)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24847,9 +27010,9 @@ var position = [
     full: "경산 확진자",
     address: "유스파",
     address_name: "경북 경산시 백천동 115-10",
-    latlng: "35.80570054880091, 128.74302612642745"
+    latlng: "35.80570054880091, 128.74302612642745",
+    address_english: "Youthpa"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24860,7 +27023,8 @@ var position = [
     full: "경산 확진자",
     address: "피자마루 경산옥곡점",
     address_name: "경북 경산시 옥곡동 829-1",
-    latlng: "35.812110858623114, 128.73495297843442"
+    latlng: "35.812110858623114, 128.73495297843442",
+    address_english: "Pizza Maru Gyeongsan Okgok Branch"
   },
   {
     solo: true,
@@ -24872,7 +27036,8 @@ var position = [
     full: "경산 확진자",
     address: "파리바게뜨 경산서부점",
     address_name: "경북 경산시 옥곡동 823-16",
-    latlng: "35.81297662191051, 128.7326573826724"
+    latlng: "35.81297662191051, 128.7326573826724",
+    address_english: "Paris Baguette Gyeongsan Western Branch"
   },
   {
     solo: true,
@@ -24884,7 +27049,8 @@ var position = [
     full: "경산 확진자",
     address: "GS25 옥곡동화점",
     address_name: "경북 경산시 옥곡동 830",
-    latlng: "35.812647978907, 128.7329511605234"
+    latlng: "35.812647978907, 128.7329511605234",
+    address_english: "GS25 Okgok Fairytale Store"
   },
   {
     solo: true,
@@ -24896,7 +27062,8 @@ var position = [
     full: "경산 확진자",
     address: "미니스톱 경산옥곡대로점",
     address_name: "경북 경산시 옥곡동 828",
-    latlng: "35.81375680474011, 128.73254600203543"
+    latlng: "35.81375680474011, 128.73254600203543",
+    address_english: "Ministop Gyeongsan Okgok Boulevard"
   },
   {
     solo: true,
@@ -24908,9 +27075,9 @@ var position = [
     full: "경산 확진자",
     address: "코로나19 경산시보건소 선별진료소",
     address_name: "경북 경산시 중방동 708-5",
-    latlng: "35.825055355925606, 128.74337409184045"
+    latlng: "35.825055355925606, 128.74337409184045",
+    address_english: "Corona19 Gyeongsan Health Center Screening Care Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24921,7 +27088,8 @@ var position = [
     full: "경산 확진자",
     address: "혈통샵(2/14,15)",
     address_name: "경북 경산시 중방동 519-1",
-    latlng: "35.8231684781836, 128.7350254652264"
+    latlng: "35.8231684781836, 128.7350254652264",
+    address_english: "pedigree shop (2/14,15)"
   },
   {
     solo: true,
@@ -24933,7 +27101,8 @@ var position = [
     full: "경산 확진자",
     address: "청호목욕탕",
     address_name: "대구 동구 효목동 200-4",
-    latlng: "35.8784043833921, 128.6474551422133"
+    latlng: "35.8784043833921, 128.6474551422133",
+    address_english: "a blue bath"
   },
   {
     solo: true,
@@ -24945,7 +27114,8 @@ var position = [
     full: "경산 확진자",
     address: "신천지예수교회 다대오지성전",
     address_name: "대구 남구 대명동 1623-12",
-    latlng: "35.83969584889191, 128.5665542079752"
+    latlng: "35.83969584889191, 128.5665542079752",
+    address_english: "Shinchunji Jesus Church's Dadaeoji Temple"
   },
   {
     solo: true,
@@ -24957,7 +27127,8 @@ var position = [
     full: "경산 확진자",
     address: "연세속시원연합내과의원",
     address_name: "경북 경산시 정평동 255-99",
-    latlng: "35.834396438241804, 128.73053360275443"
+    latlng: "35.834396438241804, 128.73053360275443",
+    address_english: "Yonsei University Medical Center"
   },
   {
     solo: true,
@@ -24969,7 +27140,8 @@ var position = [
     full: "경산 확진자",
     address: "봉현이네봉평메밀 본점",
     address_name: "경북 경산시 옥산동 161-1",
-    latlng: "35.82426683751531, 128.72633692390778"
+    latlng: "35.82426683751531, 128.72633692390778",
+    address_english: "Bonghyeon Nebongpyeong Memil Main Store"
   },
   {
     solo: true,
@@ -24981,9 +27153,9 @@ var position = [
     full: "경산 확진자",
     address: "하스커피",
     address_name: "경북 경산시 옥산동 363-3",
-    latlng: "35.82000920101619, 128.7175813939274"
+    latlng: "35.82000920101619, 128.7175813939274",
+    address_english: "Has Coffee"
   },
-
   {
     solo: true,
     profile: "-",
@@ -24994,7 +27166,8 @@ var position = [
     full: "경산 확진자",
     address: "봄여름가을겨울",
     address_name: "경북 경산시 옥산동 산 36-1",
-    latlng: "35.82424732206679, 128.7156190860644"
+    latlng: "35.82424732206679, 128.7156190860644",
+    address_english: "Spring, summer, autumn, winter."
   },
   {
     solo: true,
@@ -25006,7 +27179,8 @@ var position = [
     full: "경산 확진자",
     address: "우즈베이커리포레스트",
     address_name: "경북 경산시 사동 312",
-    latlng: "35.80464286253108, 128.75896779443747"
+    latlng: "35.80464286253108, 128.75896779443747",
+    address_english: "Uzbakery-Forest"
   },
   {
     solo: true,
@@ -25018,7 +27192,8 @@ var position = [
     full: "경산 확진자",
     address: "아이토이",
     address_name: "경북 경산시 갑제동 686-7",
-    latlng: "35.81638247167439, 128.76856452468047"
+    latlng: "35.81638247167439, 128.76856452468047",
+    address_english: "Itoi"
   },
   {
     solo: true,
@@ -25030,7 +27205,8 @@ var position = [
     full: "경산 확진자",
     address: "한우촌",
     address_name: "경북 경산시 하양읍 금락리 469",
-    latlng: "35.915973723465896, 128.82089832875394"
+    latlng: "35.915973723465896, 128.82089832875394",
+    address_english: "Hanwoo Village"
   },
   {
     solo: true,
@@ -25042,21 +27218,9 @@ var position = [
     full: "경산 확진자",
     address: "정이비인후과의원",
     address_name: "경북 경산시 사동 39",
-    latlng: "35.81140859652731, 128.75477148692144"
+    latlng: "35.81140859652731, 128.75477148692144",
+    address_english: "Chung E.N.P.D."
   },
-
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#경산 확진자",
-  //   month: 2,
-  //   day: 21,
-  //   name: "경산",
-  //   full: "경산 확진자",
-  //   address: "밝은약국",
-  //   address_name: "광주 동구 계림동 522-36",
-  //   latlng: "35.16014253610398, 126.92496978913199"
-  // },
   {
     solo: true,
     profile: "-",
@@ -25067,7 +27231,8 @@ var position = [
     full: "경산 확진자",
     address: "대백마트 사동점",
     address_name: "경북 경산시 사동 38",
-    latlng: "35.811699291084295, 128.75510535049546"
+    latlng: "35.811699291084295, 128.75510535049546",
+    address_english: "Daebaek Mart Sa-dong Branch"
   },
   {
     solo: true,
@@ -25079,9 +27244,9 @@ var position = [
     full: "경산 확진자",
     address: "백천 평안 내과의원",
     address_name: "경북 경산시 백천동 574-2",
-    latlng: "35.8041312609657, 128.73863781917646"
+    latlng: "35.8041312609657, 128.73863781917646",
+    address_english: "a white-eye clinic"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25092,7 +27257,8 @@ var position = [
     full: "경산 확진자",
     address: "세라젬나비엘 경산갤러리(2/12,13,15)",
     address_name: "경북 경산시 중방동 610-1",
-    latlng: "35.8239402176639, 128.73674624177846"
+    latlng: "35.8239402176639, 128.73674624177846",
+    address_english: "Sera Gemnaviel Gyeongsan Gallery (2/12,13,15)"
   },
   {
     solo: true,
@@ -25104,7 +27270,8 @@ var position = [
     full: "경산 확진자",
     address: "백천 평안 내과의원",
     address_name: "경북 경산시 백천동 574-2",
-    latlng: "35.8041312609657, 128.73863781917646"
+    latlng: "35.8041312609657, 128.73863781917646",
+    address_english: "a white-eye clinic"
   },
   {
     solo: true,
@@ -25116,7 +27283,8 @@ var position = [
     full: "경산 확진자",
     address: "푸른솔약국",
     address_name: "경북 경산시 백천동 574-2",
-    latlng: "35.804102753796585, 128.73861507370842"
+    latlng: "35.804102753796585, 128.73861507370842",
+    address_english: "Blue Sol Pharmacy"
   },
   {
     solo: true,
@@ -25128,9 +27296,9 @@ var position = [
     full: "경산 확진자",
     address: "드림마트 백천점",
     address_name: "경북 경산시 백천동 산 23",
-    latlng: "35.802955529870594, 128.74142190242645"
+    latlng: "35.802955529870594, 128.74142190242645",
+    address_english: "DreamMart 10000"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25141,7 +27309,8 @@ var position = [
     full: "경산 확진자",
     address: "백천 평안 내과의원",
     address_name: "경북 경산시 백천동 574-2",
-    latlng: "35.8041312609657, 128.73863781917646"
+    latlng: "35.8041312609657, 128.73863781917646",
+    address_english: "a white-eye clinic"
   },
   {
     solo: true,
@@ -25153,7 +27322,8 @@ var position = [
     full: "경산 확진자",
     address: "윤종수내과",
     address_name: "경북 경산시 옥산동 849-3",
-    latlng: "35.822917257612, 128.7216671731634"
+    latlng: "35.822917257612, 128.7216671731634",
+    address_english: "Yoon Jong Soo Internal Medicine"
   },
   {
     solo: true,
@@ -25165,7 +27335,8 @@ var position = [
     full: "경산 확진자",
     address: "명보온누리약국",
     address_name: "경북 경산시 옥산동 849-3",
-    latlng: "35.82299931191259, 128.72172648194044"
+    latlng: "35.82299931191259, 128.72172648194044",
+    address_english: "Myungbo Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -25177,7 +27348,8 @@ var position = [
     full: "경산 확진자",
     address: "경북신경외과의원(2/19,20)",
     address_name: "경북 경산시 중방동 508",
-    latlng: "35.8237526045583, 128.7362597302204"
+    latlng: "35.8237526045583, 128.7362597302204",
+    address_english: "Gyeongbuk National Neurology Institute(2/19,20)"
   },
   {
     solo: true,
@@ -25189,7 +27361,8 @@ var position = [
     full: "경산 확진자",
     address: "경산중앙약국",
     address_name: "경북 경산시 중방동 516-4",
-    latlng: "35.82352085403419, 128.73583422213244"
+    latlng: "35.82352085403419, 128.73583422213244",
+    address_english: "Gyeongsan Central Pharmacy"
   },
   {
     solo: true,
@@ -25201,7 +27374,9 @@ var position = [
     full: "경산 확진자",
     address: "대경영상의학과의원 건강증진센터 제니스점",
     address_name: "대구 수성구 범어동 179",
-    latlng: "35.859226170915214, 128.6289057526129"
+    latlng: "35.859226170915214, 128.6289057526129",
+    address_english:
+      "Zenith branch of the Health Promotion Center of the Grand Management Clinic"
   },
   {
     solo: true,
@@ -25213,9 +27388,9 @@ var position = [
     full: "경산 확진자",
     address: "통큰뒷고기막창(2/12,13,14,22)",
     address_name: "경북 경산시 옥산동 825-11",
-    latlng: "35.82507203190689, 128.72278702240942"
+    latlng: "35.82507203190689, 128.72278702240942",
+    address_english: "Tiny back-meat entrails (2/12,13,14,22)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25226,7 +27401,8 @@ var position = [
     full: "경산 확진자",
     address: "마디신통의원(2/17,20)",
     address_name: "경북 경산시 사동 589",
-    latlng: "35.81743615624281, 128.75249223871845"
+    latlng: "35.81743615624281, 128.75249223871845",
+    address_english: "Mardi's Clinic (2/17,20)"
   },
   {
     solo: true,
@@ -25238,9 +27414,9 @@ var position = [
     full: "경산 확진자",
     address: "감초당약국(2/17,20)",
     address_name: "경북 경산시 사동 588-10",
-    latlng: "35.81763349946583, 128.75261606688147"
+    latlng: "35.81763349946583, 128.75261606688147",
+    address_english: "licorice-sugar bureau(2/17,20)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25251,9 +27427,9 @@ var position = [
     full: "경산 확진자",
     address: "유스파",
     address_name: "경북 경산시 백천동 115-10",
-    latlng: "35.80570054880091, 128.74302612642745"
+    latlng: "35.80570054880091, 128.74302612642745",
+    address_english: "Youthpa"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25264,7 +27440,8 @@ var position = [
     full: "경산 확진자",
     address: "피자마루 경산옥곡점",
     address_name: "경북 경산시 옥곡동 829-1",
-    latlng: "35.812110858623114, 128.73495297843442"
+    latlng: "35.812110858623114, 128.73495297843442",
+    address_english: "Pizza Maru Gyeongsan Okgok Branch"
   },
   {
     solo: true,
@@ -25276,7 +27453,8 @@ var position = [
     full: "경산 확진자",
     address: "파리바게뜨 경산서부점",
     address_name: "경북 경산시 옥곡동 823-16",
-    latlng: "35.81297662191051, 128.7326573826724"
+    latlng: "35.81297662191051, 128.7326573826724",
+    address_english: "Paris Baguette Gyeongsan Western Branch"
   },
   {
     solo: true,
@@ -25288,7 +27466,8 @@ var position = [
     full: "경산 확진자",
     address: "GS25 옥곡동화점",
     address_name: "경북 경산시 옥곡동 830",
-    latlng: "35.812647978907, 128.7329511605234"
+    latlng: "35.812647978907, 128.7329511605234",
+    address_english: "GS25 Okgok Fairytale Store"
   },
   {
     solo: true,
@@ -25300,7 +27479,8 @@ var position = [
     full: "경산 확진자",
     address: "미니스톱 경산옥곡대로점",
     address_name: "경북 경산시 옥곡동 828",
-    latlng: "35.81375680474011, 128.73254600203543"
+    latlng: "35.81375680474011, 128.73254600203543",
+    address_english: "Ministop Gyeongsan Okgok Boulevard"
   },
   {
     solo: true,
@@ -25312,9 +27492,9 @@ var position = [
     full: "경산 확진자",
     address: "코로나19 경산시보건소 선별진료소",
     address_name: "경북 경산시 중방동 708-5",
-    latlng: "35.825055355925606, 128.74337409184045"
+    latlng: "35.825055355925606, 128.74337409184045",
+    address_english: "Corona19 Gyeongsan Health Center Screening Care Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25325,7 +27505,8 @@ var position = [
     full: "경산 확진자",
     address: "혈통샵(2/14,15)",
     address_name: "경북 경산시 중방동 519-1",
-    latlng: "35.8231684781836, 128.7350254652264"
+    latlng: "35.8231684781836, 128.7350254652264",
+    address_english: "pedigree shop (2/14,15)"
   },
   {
     solo: true,
@@ -25337,7 +27518,8 @@ var position = [
     full: "경산 확진자",
     address: "청호목욕탕",
     address_name: "대구 동구 효목동 200-4",
-    latlng: "35.8784043833921, 128.6474551422133"
+    latlng: "35.8784043833921, 128.6474551422133",
+    address_english: "a blue bath"
   },
   {
     solo: true,
@@ -25349,7 +27531,8 @@ var position = [
     full: "경산 확진자",
     address: "신천지예수교회 다대오지성전",
     address_name: "대구 남구 대명동 1623-12",
-    latlng: "35.83969584889191, 128.5665542079752"
+    latlng: "35.83969584889191, 128.5665542079752",
+    address_english: "Shinchunji Jesus Church's Dadaeoji Temple"
   },
   {
     solo: true,
@@ -25361,7 +27544,8 @@ var position = [
     full: "경산 확진자",
     address: "연세속시원연합내과의원",
     address_name: "경북 경산시 정평동 255-99",
-    latlng: "35.834396438241804, 128.73053360275443"
+    latlng: "35.834396438241804, 128.73053360275443",
+    address_english: "Yonsei University Medical Center"
   },
   {
     solo: true,
@@ -25373,7 +27557,8 @@ var position = [
     full: "경산 확진자",
     address: "봉현이네봉평메밀 본점",
     address_name: "경북 경산시 옥산동 161-1",
-    latlng: "35.82426683751531, 128.72633692390778"
+    latlng: "35.82426683751531, 128.72633692390778",
+    address_english: "Bonghyeon Nebongpyeong Memil Main Store"
   },
   {
     solo: true,
@@ -25385,9 +27570,9 @@ var position = [
     full: "경산 확진자",
     address: "하스커피",
     address_name: "경북 경산시 옥산동 363-3",
-    latlng: "35.82000920101619, 128.7175813939274"
+    latlng: "35.82000920101619, 128.7175813939274",
+    address_english: "Has Coffee"
   },
-
   {
     solo: true,
     profile: "-",
@@ -25398,7 +27583,8 @@ var position = [
     full: "경산 확진자",
     address: "봄여름가을겨울",
     address_name: "경북 경산시 옥산동 산 36-1",
-    latlng: "35.82424732206679, 128.7156190860644"
+    latlng: "35.82424732206679, 128.7156190860644",
+    address_english: "Spring, summer, autumn, winter."
   },
   {
     solo: true,
@@ -25410,7 +27596,8 @@ var position = [
     full: "경산 확진자",
     address: "우즈베이커리포레스트",
     address_name: "경북 경산시 사동 312",
-    latlng: "35.80464286253108, 128.75896779443747"
+    latlng: "35.80464286253108, 128.75896779443747",
+    address_english: "Uzbakery-Forest"
   },
   {
     solo: true,
@@ -25422,7 +27609,8 @@ var position = [
     full: "경산 확진자",
     address: "아이토이",
     address_name: "경북 경산시 갑제동 686-7",
-    latlng: "35.81638247167439, 128.76856452468047"
+    latlng: "35.81638247167439, 128.76856452468047",
+    address_english: "Itoi"
   },
   {
     solo: true,
@@ -25434,7 +27622,8 @@ var position = [
     full: "경산 확진자",
     address: "한우촌",
     address_name: "경북 경산시 하양읍 금락리 469",
-    latlng: "35.915973723465896, 128.82089832875394"
+    latlng: "35.915973723465896, 128.82089832875394",
+    address_english: "Hanwoo Village"
   },
   {
     solo: true,
@@ -25446,21 +27635,9 @@ var position = [
     full: "경산 확진자",
     address: "정이비인후과의원",
     address_name: "경북 경산시 사동 39",
-    latlng: "35.81140859652731, 128.75477148692144"
+    latlng: "35.81140859652731, 128.75477148692144",
+    address_english: "Chung E.N.P.D."
   },
-
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#경산 확진자",
-  //   month: 2,
-  //   day: 21,
-  //   name: "경산",
-  //   full: "경산 확진자",
-  //   address: "밝은약국",
-  //   address_name: "광주 동구 계림동 522-36",
-  //   latlng: "35.16014253610398, 126.92496978913199"
-  // },
   {
     solo: true,
     profile: "-",
@@ -25471,7 +27648,8 @@ var position = [
     full: "경산 확진자",
     address: "대백마트 사동점",
     address_name: "경북 경산시 사동 38",
-    latlng: "35.811699291084295, 128.75510535049546"
+    latlng: "35.811699291084295, 128.75510535049546",
+    address_english: "Daebaek Mart Sa-dong Branch"
   },
   {
     solo: true,
@@ -25483,7 +27661,8 @@ var position = [
     full: "경산 확진자",
     address: "백천 평안 내과의원",
     address_name: "경북 경산시 백천동 574-2",
-    latlng: "35.8041312609657, 128.73863781917646"
+    latlng: "35.8041312609657, 128.73863781917646",
+    address_english: "a white-eye clinic"
   },
   {
     solo: true,
@@ -25495,7 +27674,8 @@ var position = [
     full: "용인 확진자",
     address: "홈플러스 상갈점 방문",
     address_name: "경기 용인시 기흥구 상갈동 474-1",
-    latlng: "37.266265518788195, 127.105934199648"
+    latlng: "37.266265518788195, 127.105934199648",
+    address_english: "Visit the Home Plus Sangal Branch"
   },
   {
     solo: true,
@@ -25507,7 +27687,8 @@ var position = [
     full: "용인 확진자",
     address: "롯데마트 신갈점 방문",
     address_name: "경기 용인시 기흥구 신갈동 63",
-    latlng: "37.272202795354175, 127.10856729001851"
+    latlng: "37.272202795354175, 127.10856729001851",
+    address_english: "Visit Lotte Mart's Singal Store"
   },
   {
     solo: true,
@@ -25519,7 +27700,8 @@ var position = [
     full: "용인 확진자",
     address: "우리들소아청소년과 방문",
     address_name: "경기 용인시 기흥구 언남동 414-4",
-    latlng: "37.293784362857, 127.119889843822"
+    latlng: "37.293784362857, 127.119889843822",
+    address_english: "A visit with our children."
   },
   {
     solo: true,
@@ -25531,7 +27713,8 @@ var position = [
     full: "천안 확진자",
     address: "천안시 무지개식당에서 식사",
     address_name: "충남 천안시 동남구 목천읍 운전리 561",
-    latlng: "36.7634531354371, 127.228428163352"
+    latlng: "36.7634531354371, 127.228428163352",
+    address_english: "Dinner at the Rainbow Restaurant in Cheonan City"
   },
   {
     solo: true,
@@ -25543,7 +27726,8 @@ var position = [
     full: "서울 확진자",
     address: "조은온누리약국 방문",
     address_name: "서울 강동구 암사동 414-18",
-    latlng: "37.5553126312555, 127.14038447218601"
+    latlng: "37.5553126312555, 127.14038447218601",
+    address_english: "Visit Cho-eun Onnuri Pharmacy"
   },
   {
     solo: true,
@@ -25555,7 +27739,8 @@ var position = [
     full: "안동 확진자",
     address: "천주교 안동교구청 근무",
     address_name: "경북 안동시 안기동 35",
-    latlng: "36.5793697375327, 128.7244102130934"
+    latlng: "36.5793697375327, 128.7244102130934",
+    address_english: "Catholic Diocese of Andong"
   },
   {
     solo: true,
@@ -25567,7 +27752,8 @@ var position = [
     full: "안동 확진자",
     address: "복주여자중학교에서 귀가",
     address_name: "경북 안동시 당북동 333-1",
-    latlng: "36.5625981267751, 128.7180371102664"
+    latlng: "36.5625981267751, 128.7180371102664",
+    address_english: "Going home from Bokjoo Girls' Middle School"
   },
   {
     solo: true,
@@ -25579,7 +27765,9 @@ var position = [
     full: "노원구 확진자",
     address: "백채김치찌개 왕십리역점 방문(방역완료)",
     address_name: "서울 성동구 행당동 286-43",
-    latlng: "37.561265944759306, 127.03311709943401"
+    latlng: "37.561265944759306, 127.03311709943401",
+    address_english:
+      "Baekchae Kimchi Stew Wangsimni Station (Complete quarantine)"
   },
   {
     solo: true,
@@ -25591,7 +27779,9 @@ var position = [
     full: "은평구 확진자",
     address: "서울재활병원-2/20.21.24(마스크착용)방문",
     address_name: "서울 은평구 구산동 191-1",
-    latlng: "37.605249717218804, 126.907561836035"
+    latlng: "37.605249717218804, 126.907561836035",
+    address_english:
+      "Visit Seoul Rehabilitation Hospital-2/20.21.24 (for mask wear)"
   },
   {
     solo: true,
@@ -25603,7 +27793,8 @@ var position = [
     full: "안동 확진자",
     address: "목성동 영희식당에서 식사",
     address_name: "경북 안동시 목성동 36-3",
-    latlng: "36.567366771050494, 128.72910054202598"
+    latlng: "36.567366771050494, 128.72910054202598",
+    address_english: "Dinner at Younghee Restaurant in Mokseong-dong"
   },
   {
     solo: true,
@@ -25615,7 +27806,8 @@ var position = [
     full: "은평구 확진자",
     address: "별난제과점 본점-마스크착용",
     address_name: "서울 은평구 갈현동 431-9",
-    latlng: "37.619763790745694, 126.917341788631"
+    latlng: "37.619763790745694, 126.917341788631",
+    address_english: "Main branch of Byeolnan Confectionary Store-For mask wear"
   },
   {
     solo: true,
@@ -25627,7 +27819,8 @@ var position = [
     full: "은평구 확진자",
     address: "홈플러스익스프레스 구산점-마스크착용",
     address_name: "서울 은평구 구산동 1-33",
-    latlng: "37.611285785268336, 126.91647908698266"
+    latlng: "37.611285785268336, 126.91647908698266",
+    address_english: "Home Plus Express Distribution Point-Mask Access"
   },
   {
     solo: true,
@@ -25639,7 +27832,8 @@ var position = [
     full: "서울 확진자",
     address: "김재면내과의원 방문",
     address_name: "서울 노원구 상계8동 651-6",
-    latlng: "37.66535332998289, 127.057263910802"
+    latlng: "37.66535332998289, 127.057263910802",
+    address_english: "Visiting Kim Jae-myun Clinic"
   },
   {
     solo: true,
@@ -25651,7 +27845,8 @@ var position = [
     full: "안동 확진자",
     address: "착한낙지 옥동점에서 식사",
     address_name: "경북 안동시 옥동 789-5",
-    latlng: "36.5608597965669, 128.70027098982138"
+    latlng: "36.5608597965669, 128.70027098982138",
+    address_english: "Dining at Okdong Branch of Good Octopus"
   },
   {
     solo: true,
@@ -25663,7 +27858,8 @@ var position = [
     full: "은평구 확진자",
     address: "메디팜새경약국",
     address_name: "서울 은평구 역촌동 54-24",
-    latlng: "37.6057348205304, 126.910378882463"
+    latlng: "37.6057348205304, 126.910378882463",
+    address_english: "Medipharm Bird Pharmacy"
   },
   {
     solo: true,
@@ -25675,7 +27871,8 @@ var position = [
     full: "서울 확진자",
     address: "미션약국 방문",
     address_name: "서울 노원구 상계동 651-6",
-    latlng: "37.6653461441407, 127.05721856928201"
+    latlng: "37.6653461441407, 127.05721856928201",
+    address_english: "Mission Pharmacy Visit"
   },
   {
     solo: true,
@@ -25687,7 +27884,9 @@ var position = [
     full: "서울 확진자",
     address: "노원구보건소 선별진료소 진료",
     address_name: "서울 노원구 상계동 701-1",
-    latlng: "37.6546642208363, 127.05698372406"
+    latlng: "37.6546642208363, 127.05698372406",
+    address_english:
+      "Clinical treatment of select medical centers in Nowon District Health Center"
   },
   {
     solo: true,
@@ -25699,7 +27898,8 @@ var position = [
     full: "은평구 확진자",
     address: "코로나19 서울특별시립서북병원 선별진료소",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.6041003320851, 126.90451578190299"
+    latlng: "37.6041003320851, 126.90451578190299",
+    address_english: "Corona19 Seoul Municipal Seobuk Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -25711,7 +27911,8 @@ var position = [
     full: "서울 확진자",
     address: "서울특별시 보라매병원 입원",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Boramae Hospital in Seoul"
   },
   {
     solo: true,
@@ -25723,7 +27924,8 @@ var position = [
     full: "서울 확진자",
     address: "인제대학교 상계백병원(2/17,20,23도 방문)",
     address_name: "서울 노원구 상계동 761-1",
-    latlng: "37.648581267298596, 127.06311619032103"
+    latlng: "37.648581267298596, 127.06311619032103",
+    address_english: "Inje University Sangyebaek Hospital (2/17,20, 23 degrees)"
   },
   {
     solo: true,
@@ -25735,7 +27937,8 @@ var position = [
     full: "서울 확진자",
     address: "광진구보건소 선별진료소 진료",
     address_name: "서울 광진구 자양동 777",
-    latlng: "37.53854422826241, 127.08190995329798"
+    latlng: "37.53854422826241, 127.08190995329798",
+    address_english: "Selective Care Center Clinic at Gwangjin-gu Health Center"
   },
   {
     solo: true,
@@ -25747,7 +27950,9 @@ var position = [
     full: "고양시 확진자",
     address: "IBK기업은행 일산웨스턴돔지점-2/18방문",
     address_name: "경기 고양시 일산동구 장항동 867",
-    latlng: "37.65614050071996, 126.77237351452402"
+    latlng: "37.65614050071996, 126.77237351452402",
+    address_english:
+      "Visit Ilsan Western Dome Branch of IBK Industrial Bank of Korea-2/18"
   },
   {
     solo: true,
@@ -25759,7 +27964,8 @@ var position = [
     full: "서울 확진자",
     address: "우리은행 부평금융센터 방문",
     address_name: "인천 부평구 부평동 199-36",
-    latlng: "37.49261844867859, 126.72341933842698"
+    latlng: "37.49261844867859, 126.72341933842698",
+    address_english: "Visit Woori Bank Bupyeong Financial Center"
   },
   {
     solo: true,
@@ -25771,7 +27977,8 @@ var position = [
     full: "고양시 확진자",
     address: "은약국-2/17방문",
     address_name: "서울 금천구 시흥동 883-11",
-    latlng: "37.45387282736139, 126.90129500852412"
+    latlng: "37.45387282736139, 126.90129500852412",
+    address_english: "Visit Eun Pharmacy-2/17"
   },
   {
     solo: true,
@@ -25783,7 +27990,8 @@ var position = [
     full: "대전 확진자",
     address: "월평역 근무 (2/22, 24)",
     address_name: "대전 서구 월평동 1503-1",
-    latlng: "36.35825873387051, 127.36459981257099"
+    latlng: "36.35825873387051, 127.36459981257099",
+    address_english: "Work at Wolpyeong Station (2/22, 24)"
   },
   {
     solo: true,
@@ -25795,7 +28003,8 @@ var position = [
     full: "대전 확진자",
     address: "충남대학교병원",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english: "Chungnam National University Hospital"
   },
   {
     solo: true,
@@ -25807,7 +28016,9 @@ var position = [
     full: "고양시 확진자",
     address: "국민건강보험공단 동대문지사",
     address_name: "서울 동대문구 용두동 26-18",
-    latlng: "37.57696322260159, 127.03860774437702"
+    latlng: "37.57696322260159, 127.03860774437702",
+    address_english:
+      "Dongdaemun Branch of the National Health Insurance Corporation"
   },
   {
     solo: true,
@@ -25819,7 +28030,8 @@ var position = [
     full: "고양시 확진자",
     address: "서울특별시 보라매병원",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Boramae Hospital in Seoul"
   },
   {
     solo: true,
@@ -25831,7 +28043,8 @@ var position = [
     full: "창원 확진자",
     address: "칠성그린아파트",
     address_name: "경남 창원시 의창구 동읍 신방리 478",
-    latlng: "35.2933135578573, 128.67640572067634"
+    latlng: "35.2933135578573, 128.67640572067634",
+    address_english: "Chilsung Green Apartment"
   },
   {
     solo: true,
@@ -25843,7 +28056,8 @@ var position = [
     full: "창원 확진자",
     address: "마산시외버스터미널",
     address_name: "경남 창원시 마산회원구 합성동 267",
-    latlng: "35.239170258665176, 128.58348652746344"
+    latlng: "35.239170258665176, 128.58348652746344",
+    address_english: "Masan Intercity Bus Terminal"
   },
   {
     solo: true,
@@ -25855,7 +28069,8 @@ var position = [
     full: "창원 확진자",
     address: "현대소아청소년과의원",
     address_name: "경남 창원시 의창구 동읍 용잠리 416-9",
-    latlng: "35.2773941460303, 128.68447824167234"
+    latlng: "35.2773941460303, 128.68447824167234",
+    address_english: "a modern juvenile surgeon"
   },
   {
     solo: true,
@@ -25867,7 +28082,9 @@ var position = [
     full: "충주 확진자C",
     address: "산척초등학교(자가용) (2/20 8:00-12:00)",
     address_name: "충북 충주시 산척면 송강리 1282-1",
-    latlng: "37.079786472559995, 127.95785274523402"
+    latlng: "37.079786472559995, 127.95785274523402",
+    address_english:
+      "Sancheok Elementary School (for home use) (2/20 8:00-12:00)"
   },
   {
     solo: true,
@@ -25879,7 +28096,8 @@ var position = [
     full: "충주 확진자C",
     address: "도봉식당 (12:00-13:00)",
     address_name: "충북 충주시 산척면 송강리 1574-3",
-    latlng: "37.0800184632311, 127.956348720769"
+    latlng: "37.0800184632311, 127.956348720769",
+    address_english: "Dobong Restaurant (1:00-13:00)"
   },
   {
     solo: true,
@@ -25891,7 +28109,9 @@ var position = [
     full: "충주 확진자C",
     address: "산척초등학교(자가용) (2/21 8:00-12:00)",
     address_name: "충북 충주시 산척면 송강리 1282-1",
-    latlng: "37.079786472559995, 127.95785274523402"
+    latlng: "37.079786472559995, 127.95785274523402",
+    address_english:
+      "Sancheok Elementary School (for home use) (2/21 8:00-12:00)"
   },
   {
     solo: true,
@@ -25903,7 +28123,8 @@ var position = [
     full: "충주 확진자C",
     address: "현주웃어밥 (12:00-13:00)",
     address_name: "충북 충주시 산척면 송강리 1254-10",
-    latlng: "37.0802541564249, 127.95751225634699"
+    latlng: "37.0802541564249, 127.95751225634699",
+    address_english: "Hyunjoo's Smile Rice (12:00-13:00)"
   },
   {
     solo: true,
@@ -25915,7 +28136,8 @@ var position = [
     full: "충주 확진자C",
     address: "청풍명월 (17:30-20:00)",
     address_name: "충북 충주시 연수동 1651",
-    latlng: "36.981474214129804, 127.945423457103"
+    latlng: "36.981474214129804, 127.945423457103",
+    address_english: "Cheongpungmyeongwol (17:30-20:00)"
   },
   {
     solo: true,
@@ -25927,7 +28149,8 @@ var position = [
     full: "충주 확진자C",
     address: "에피소드 (21:30-22:30)",
     address_name: "충북 충주시 연수동 1551",
-    latlng: "36.98417844196319, 127.941660596023"
+    latlng: "36.98417844196319, 127.941660596023",
+    address_english: "Episode (21:30-22:30)"
   },
   {
     solo: true,
@@ -25939,7 +28162,8 @@ var position = [
     full: "충주 확진자C",
     address: "C 정연무배창범 내과의원 (9:30-11:30)",
     address_name: "충북 충주시 칠금동 838",
-    latlng: "36.98266005936304, 127.91692804572162"
+    latlng: "36.98266005936304, 127.91692804572162",
+    address_english: "C Jeongyeon Radiologist (9:30-11:30)"
   },
   {
     solo: true,
@@ -25951,7 +28175,9 @@ var position = [
     full: "충주 확진자C",
     address: "C 새충주약국 방문 후 자택 귀가 (11:30-11:35)",
     address_name: "충북 충주시 칠금동 858",
-    latlng: "36.982601, 127.916918"
+    latlng: "36.982601, 127.916918",
+    address_english:
+      "C Homecoming from Visit to New Chungju Pharmacy (11:30-11:35)"
   },
   {
     solo: true,
@@ -25963,7 +28189,8 @@ var position = [
     full: "충주 확진자C",
     address: "제일큰마트 (15:10-15:30)",
     address_name: "충북 충주시 목행동 526-29",
-    latlng: "37.0049178672748, 127.92319919332802"
+    latlng: "37.0049178672748, 127.92319919332802",
+    address_english: "Largest mart (15:10-15:30)"
   },
   {
     solo: true,
@@ -25975,7 +28202,9 @@ var position = [
     full: "충주 확진자C",
     address: "코로나19 건국대학교충주병원 선별진료소 (13:40-14:20)",
     address_name: "충북 충주시 교현동 620-5",
-    latlng: "36.9789756520406, 127.92863593355601"
+    latlng: "36.9789756520406, 127.92863593355601",
+    address_english:
+      "Corona19 Konkuk University Chungju Hospital Screening Clinic (13:40-14:20)"
   },
   {
     solo: true,
@@ -25987,7 +28216,8 @@ var position = [
     full: "은평구 확진자",
     address: "홈마트-마스크 착용",
     address_name: "서울 은평구 역촌동 45-17",
-    latlng: "37.60665000698519, 126.91495311905399"
+    latlng: "37.60665000698519, 126.91495311905399",
+    address_english: "Wear Home Mart-Mask"
   },
   {
     solo: true,
@@ -25999,7 +28229,8 @@ var position = [
     full: "청주 확진자",
     address: "수성못(대구 수성구) 자차",
     address_name: "대구 수성구 두산동",
-    latlng: "35.82744825519459, 128.61870646191826"
+    latlng: "35.82744825519459, 128.61870646191826",
+    address_english: "aqueous nail (aqueous mouth) wagon"
   },
   {
     solo: true,
@@ -26011,7 +28242,8 @@ var position = [
     full: "창원 확진자",
     address: "믿음약국",
     address_name: "경남 창원시 의창구 동읍 용잠리 419-10",
-    latlng: "35.277618377686096, 128.68442573803136"
+    latlng: "35.277618377686096, 128.68442573803136",
+    address_english: "a faith drugstore"
   },
   {
     solo: true,
@@ -26023,7 +28255,8 @@ var position = [
     full: "은평구 확진자",
     address: "토프레소 구산점",
     address_name: "서울 은평구 구산동 191-17",
-    latlng: "37.60531861336219, 126.908100815232"
+    latlng: "37.60531861336219, 126.908100815232",
+    address_english: "Topresso Oral Point"
   },
   {
     solo: true,
@@ -26035,7 +28268,8 @@ var position = [
     full: "창원 확진자",
     address: "창원쇼핑타운",
     address_name: "경남 창원시 의창구 동읍 신방리 478",
-    latlng: "35.292757169292, 128.6764953723293"
+    latlng: "35.292757169292, 128.6764953723293",
+    address_english: "Changwon Shopping Town"
   },
   {
     solo: true,
@@ -26047,7 +28281,8 @@ var position = [
     full: "창원 확진자",
     address: "메소드헤어 도계점",
     address_name: "경남 창원시 의창구 도계동 326-16",
-    latlng: "35.259442133295394, 128.63787090662004"
+    latlng: "35.259442133295394, 128.63787090662004",
+    address_english: "method-hair drawing point"
   },
   {
     solo: true,
@@ -26059,7 +28294,8 @@ var position = [
     full: "은평구 확진자",
     address: "코로나19 서울특별시립서북병원 선별진료소",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.6041003320851, 126.90451578190299"
+    latlng: "37.6041003320851, 126.90451578190299",
+    address_english: "Corona19 Seoul Municipal Seobuk Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -26071,7 +28307,8 @@ var position = [
     full: "청주 확진자",
     address: "동대구역: 버스이용",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station: Bus Use"
   },
   {
     solo: true,
@@ -26083,7 +28320,8 @@ var position = [
     full: "창원 확진자",
     address: "창원역",
     address_name: "경남 창원시 의창구 동정동 708-76",
-    latlng: "35.2575062903909, 128.60655308415426"
+    latlng: "35.2575062903909, 128.60655308415426",
+    address_english: "Changwon Station"
   },
   {
     solo: true,
@@ -26095,7 +28333,8 @@ var position = [
     full: "서울 확진자",
     address: "크리드PC 방문",
     address_name: "경기 과천시 별양동 1-20",
-    latlng: "37.4266571018351, 126.99114581926099"
+    latlng: "37.4266571018351, 126.99114581926099",
+    address_english: "Visit CreedPC"
   },
   {
     solo: true,
@@ -26107,7 +28346,8 @@ var position = [
     full: "은평구 확진자",
     address: "모아가정의학과의원",
     address_name: "서울 은평구 대조동 89-270",
-    latlng: "37.61126514037589, 126.92185432809589"
+    latlng: "37.61126514037589, 126.92185432809589",
+    address_english: "Moogah Justice Medical Center"
   },
   {
     solo: true,
@@ -26119,7 +28359,8 @@ var position = [
     full: "서울 확진자",
     address: "CU 과천여울점 알바(2/24)",
     address_name: "경기 과천시 문원동 143",
-    latlng: "37.4243424420614, 127.00809810052"
+    latlng: "37.4243424420614, 127.00809810052",
+    address_english: "Working part-time at CU Gwacheon Yeoul Branch (2/24)"
   },
   {
     solo: true,
@@ -26131,7 +28372,8 @@ var position = [
     full: "청주 확진자",
     address: "오근장역 하차",
     address_name: "충북 청주시 청원구 외남동 241-1",
-    latlng: "36.700153155782694, 127.47857106935462"
+    latlng: "36.700153155782694, 127.47857106935462",
+    address_english: "Get off at Ogunjang Station"
   },
   {
     solo: true,
@@ -26143,7 +28385,9 @@ var position = [
     full: "은평구 확진자",
     address: "가톨릭대학교 은평성모병원-비뇨기과 내원 후 입원(2/8.9~17입원)",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital-Inpatient after visiting the urology department (2/8.9-17 admissions)"
   },
   {
     solo: true,
@@ -26155,7 +28399,8 @@ var position = [
     full: "칠곡 확진자",
     address: "로얄아파트 (2/19 ~ 2/26)",
     address_name: "경북 칠곡군 북삼읍 인평리 675-1",
-    latlng: "36.06892237078372, 128.33979652856675"
+    latlng: "36.06892237078372, 128.33979652856675",
+    address_english: "Royal Apartment (2/19-2/26)"
   },
   {
     solo: true,
@@ -26167,7 +28412,8 @@ var position = [
     full: "청주 확진자",
     address: "청주 껍데기 택시이용",
     address_name: "충북 청주시 청원구 율량동 2198",
-    latlng: "36.66448800899306, 127.50054157442388"
+    latlng: "36.66448800899306, 127.50054157442388",
+    address_english: "Use Cheongju Shell Taxi Service"
   },
   {
     solo: true,
@@ -26179,7 +28425,8 @@ var position = [
     full: "은평구 확진자",
     address: "은평구보건소",
     address_name: "서울 은평구 녹번동 84",
-    latlng: "37.602456970227585, 126.928823550033"
+    latlng: "37.602456970227585, 126.928823550033",
+    address_english: "Eunpyeong District Health Center"
   },
   {
     solo: true,
@@ -26191,7 +28438,8 @@ var position = [
     full: "청주 확진자",
     address: "엄지노래연습장 택시이용",
     address_name: "충북 청주시 청원구 율량동 2060",
-    latlng: "36.665238965983505, 127.49766952315399"
+    latlng: "36.665238965983505, 127.49766952315399",
+    address_english: "Taxi use at Umjinolae Training Center"
   },
   {
     solo: true,
@@ -26203,7 +28451,8 @@ var position = [
     full: "청주 확진자",
     address: "반도프라임 볼링타운",
     address_name: "충북 청주시 청원구 오창읍 양청리 785-3",
-    latlng: "36.716912023273, 127.42835968223298"
+    latlng: "36.716912023273, 127.42835968223298",
+    address_english: "Bandopraim Bowling Town"
   },
   {
     solo: true,
@@ -26215,7 +28464,8 @@ var position = [
     full: "은평구 확진자",
     address: "소망한의원-2/17.19방문",
     address_name: "서울 은평구 진관동 105",
-    latlng: "37.6339147385889, 126.92412818186773"
+    latlng: "37.6339147385889, 126.92412818186773",
+    address_english: "Somanghan Medical Center 2/17.19 Visit"
   },
   {
     solo: true,
@@ -26227,7 +28477,8 @@ var position = [
     full: "칠곡 확진자",
     address: "오성무도장 (구미중앙로 42길 6)",
     address_name: "경북 구미시 송정동 442-3",
-    latlng: "36.120508508132204, 128.3518905783341"
+    latlng: "36.120508508132204, 128.3518905783341",
+    address_english: "Oh Seong-moo Paint (Central Road 42 Road 6th, Gumi-ro"
   },
   {
     solo: true,
@@ -26239,7 +28490,8 @@ var position = [
     full: "칠곡 확진자",
     address: "한데만데이",
     address_name: "경북 구미시 송정동 497-10",
-    latlng: "36.1144709231959, 128.35284436736904"
+    latlng: "36.1144709231959, 128.35284436736904",
+    address_english: "but day"
   },
   {
     solo: true,
@@ -26251,7 +28503,8 @@ var position = [
     full: "은평구 확진자",
     address: "초록마을 불광점",
     address_name: "서울 은평구 불광동 645",
-    latlng: "37.612640221092825, 126.9323418932562"
+    latlng: "37.612640221092825, 126.9323418932562",
+    address_english: "Green Village Bulgwang Branch"
   },
   {
     solo: true,
@@ -26263,7 +28516,8 @@ var position = [
     full: "청주 확진자",
     address: "돈탑",
     address_name: "충북 청주시 상당구 용암동 1759",
-    latlng: "36.60596963549321, 127.503757701568"
+    latlng: "36.60596963549321, 127.503757701568",
+    address_english: "a money tower"
   },
   {
     solo: true,
@@ -26275,7 +28529,8 @@ var position = [
     full: "칠곡 확진자",
     address: "북삼경대연합속내과",
     address_name: "경북 칠곡군 북삼읍 인평리 192-2",
-    latlng: "36.0684482997443, 128.34607529929107"
+    latlng: "36.0684482997443, 128.34607529929107",
+    address_english: "Northern Samgyongdae Union Internal Medicine"
   },
   {
     solo: true,
@@ -26287,7 +28542,8 @@ var position = [
     full: "칠곡 확진자",
     address: "건강한약국",
     address_name: "강원 삼척시 남양동 32-18",
-    latlng: "37.44413321743144, 129.1646133082437"
+    latlng: "37.44413321743144, 129.1646133082437",
+    address_english: "Healthy Pharmacy"
   },
   {
     solo: true,
@@ -26299,7 +28555,8 @@ var position = [
     full: "은평구 확진자",
     address: "장수플란트치과의원",
     address_name: "서울 은평구 불광동 484-319",
-    latlng: "37.620691228276804, 126.92043082628997"
+    latlng: "37.620691228276804, 126.92043082628997",
+    address_english: "Long Life Plant Dental Clinic"
   },
   {
     solo: true,
@@ -26311,7 +28568,8 @@ var position = [
     full: "청주 확진자",
     address: "우리스크린골프",
     address_name: "충북 청주시 청원구 율량동 2052",
-    latlng: "36.66473483039021, 127.498413464844"
+    latlng: "36.66473483039021, 127.498413464844",
+    address_english: "Woori Screen Golf"
   },
   {
     solo: true,
@@ -26323,7 +28581,8 @@ var position = [
     full: "칠곡 확진자",
     address: "북삼농협하나로마트 지점",
     address_name: "경북 칠곡군 북삼읍 인평리 318",
-    latlng: "36.06535631655499, 128.34166841521773"
+    latlng: "36.06535631655499, 128.34166841521773",
+    address_english: "Northern Samnonghyup Hanarot Co., Ltd."
   },
   {
     solo: true,
@@ -26336,7 +28595,9 @@ var position = [
     address:
       "가톨릭대학교 은평성모병원 비뇨기과-2/12~13입원,14일 퇴원,20일 종양,비뇨기과 방문",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea's Eunpyeong St. Mary's Hospital urology-2/12-13, discharge from hospital on 14th, visit tumor and urology on 20th"
   },
   {
     solo: true,
@@ -26348,7 +28609,9 @@ var position = [
     full: "은평구 확진자",
     address: "은평메트로프라자-1층 중국음식점 방문",
     address_name: "서울 은평구 진관동 68-7",
-    latlng: "37.63867398923969, 126.919076984678"
+    latlng: "37.63867398923969, 126.919076984678",
+    address_english:
+      "Visit Chinese Restaurant on the 1st floor of Eunpyeong Metro Plaza"
   },
   {
     solo: true,
@@ -26360,9 +28623,9 @@ var position = [
     full: "대전 확진자G",
     address: "둔산알리앙스뷔페 (12:00)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.3582651322234, 127.3888659837"
+    latlng: "36.3582651322234, 127.3888659837",
+    address_english: "Dunshan Aliens Buffet (12:00)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -26373,7 +28636,8 @@ var position = [
     full: "대전 확진자G",
     address: "G 산림기술연구원 (2/25 8:30-18:00)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.358257937455605, 127.38886149132101"
+    latlng: "36.358257937455605, 127.38886149132101",
+    address_english: "G Forest Technology Research Institute (2/25 8:30-18:00)"
   },
   {
     solo: true,
@@ -26385,7 +28649,8 @@ var position = [
     full: "은평구 확진자",
     address: "수유리우동집 구파발역점",
     address_name: "서울 은평구 진관동 87-13",
-    latlng: "37.63479282168699, 126.91947998715901"
+    latlng: "37.63479282168699, 126.91947998715901",
+    address_english: "Suyu-riu-dongjip Gupa Station"
   },
   {
     solo: true,
@@ -26397,7 +28662,8 @@ var position = [
     full: "대전 확진자G",
     address: "G 산림기술연구원 (2/26 8:30-10:15)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.358257937455605, 127.38886149132101"
+    latlng: "36.358257937455605, 127.38886149132101",
+    address_english: "G Forest Technology Research Institute (2/26 8:30-10:15)"
   },
   {
     solo: true,
@@ -26409,7 +28675,8 @@ var position = [
     full: "인천 확진자",
     address: "파크원 건설현장 근무(2/20,21)",
     address_name: "서울 영등포구 여의도동 22",
-    latlng: "37.526037763356, 126.928294373138"
+    latlng: "37.526037763356, 126.928294373138",
+    address_english: "Parkwon Construction Site Work (2/20,21)"
   },
   {
     solo: true,
@@ -26421,7 +28688,8 @@ var position = [
     full: "은평구 확진자",
     address: "하나내과",
     address_name: "서울 은평구 진관동 74",
-    latlng: "37.63485415972579, 126.91958415113298"
+    latlng: "37.63485415972579, 126.91958415113298",
+    address_english: "Hana Internal Medicine"
   },
   {
     solo: true,
@@ -26433,7 +28701,8 @@ var position = [
     full: "은평구 확진자",
     address: "하나내과",
     address_name: "서울 은평구 진관동 74",
-    latlng: "37.63485415972579, 126.91958415113298"
+    latlng: "37.63485415972579, 126.91958415113298",
+    address_english: "Hana Internal Medicine"
   },
   {
     solo: true,
@@ -26445,7 +28714,8 @@ var position = [
     full: "은평구 확진자",
     address: "코로나19 서울특별시립서북병원 선별진료소",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.6041003320851, 126.90451578190299"
+    latlng: "37.6041003320851, 126.90451578190299",
+    address_english: "Corona19 Seoul Municipal Seobuk Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -26457,7 +28727,8 @@ var position = [
     full: "인천 확진자",
     address: "박선영김밥 식사(2/20)",
     address_name: "서울 영등포구 여의도동 21-4",
-    latlng: "37.5260284176112, 126.930751541335"
+    latlng: "37.5260284176112, 126.930751541335",
+    address_english: "Park Sun-young Kimbap Meal (2/20)"
   },
   {
     solo: true,
@@ -26469,7 +28740,8 @@ var position = [
     full: "인천 확진자",
     address: "칠미식당 식사",
     address_name: "서울 영등포구 여의도동 24-5",
-    latlng: "37.524332718096, 126.927721323371"
+    latlng: "37.524332718096, 126.927721323371",
+    address_english: "a seven-course meal"
   },
   {
     solo: true,
@@ -26481,7 +28753,9 @@ var position = [
     full: "은평구 확진자",
     address: "롯데몰 은평점-4층 엔젤리너스커피 방문",
     address_name: "서울 은평구 진관동 80-25",
-    latlng: "37.63762792633299, 126.91774573633398"
+    latlng: "37.63762792633299, 126.91774573633398",
+    address_english:
+      "Visit Angelinus Coffee on the 4th floor of Eunpyeong branch of Lotte Mall"
   },
   {
     solo: true,
@@ -26493,7 +28767,8 @@ var position = [
     full: "은평구 확진자",
     address: "닥터정 이비인후과의원",
     address_name: "서울 은평구 진관동 170-4",
-    latlng: "37.634315904439696, 126.923087745721"
+    latlng: "37.634315904439696, 126.923087745721",
+    address_english: "Dr. Chung ENT doctor"
   },
   {
     solo: true,
@@ -26505,7 +28780,9 @@ var position = [
     full: "대전 확진자G",
     address: "코로나19 서구보건소 선별진료소 (2/26 10:15)",
     address_name: "대전 서구 만년동 340",
-    latlng: "36.367089204742896, 127.38110106085598"
+    latlng: "36.367089204742896, 127.38110106085598",
+    address_english:
+      "Corona19 West Health Center Screening Care Center (2/26 10:15)"
   },
   {
     solo: true,
@@ -26517,7 +28794,8 @@ var position = [
     full: "인천 확진자",
     address: "서울상가 왕산 식사",
     address_name: "서울 영등포구 여의도동 21-3",
-    latlng: "37.5261736984718, 126.93112699565295"
+    latlng: "37.5261736984718, 126.93112699565295",
+    address_english: "Wangsan Dining in Seoul Shopping Center"
   },
   {
     solo: true,
@@ -26529,9 +28807,9 @@ var position = [
     full: "은평구 확진자",
     address: "건강한약국",
     address_name: "서울 은평구 진관동 170-4",
-    latlng: "37.634333980230906, 126.923173829669"
+    latlng: "37.634333980230906, 126.923173829669",
+    address_english: "Healthy Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -26542,7 +28820,9 @@ var position = [
     full: "대전 확진자G",
     address: "G 충남대학교병원 입원 (2/26 22:00)",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english:
+      "G Chungnam National University Hospital Hospital Hospital admission (2/26 22:00)"
   },
   {
     solo: true,
@@ -26554,7 +28834,9 @@ var position = [
     full: "인천 확진자",
     address: "여의도성모병원 선별진료소 진료",
     address_name: "서울 영등포구 여의도동 62",
-    latlng: "37.51833004820399, 126.936817216384"
+    latlng: "37.51833004820399, 126.936817216384",
+    address_english:
+      "Clinical treatment of select medical centers at Yeouido St. Mary's Hospital"
   },
   {
     solo: true,
@@ -26566,7 +28848,8 @@ var position = [
     full: "은평구 확진자",
     address: "퀸즈필라테스 은평뉴타운점-2/12 방문",
     address_name: "서울 은평구 진관동 60-33",
-    latlng: "37.6394626951037, 126.91826942859"
+    latlng: "37.6394626951037, 126.91826942859",
+    address_english: "Queen's Pilates Visit Eunpyeong New Town Branch-2/12"
   },
   {
     solo: true,
@@ -26578,7 +28861,8 @@ var position = [
     full: "대전 확진자H",
     address: "H 둔산알리앙스뷔페 (2/21 12:00)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.3582651322234, 127.3888659837"
+    latlng: "36.3582651322234, 127.3888659837",
+    address_english: "H Dunshan Aliens Buffet (2/21 12:00)"
   },
   {
     solo: true,
@@ -26590,7 +28874,9 @@ var position = [
     full: "은평구 확진자",
     address: "가톨릭대학교 은평성모병원",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
   },
   {
     solo: true,
@@ -26602,7 +28888,8 @@ var position = [
     full: "은평구 확진자",
     address: "골프존파크 진관뉴타운점",
     address_name: "서울 은평구 진관동 67-1",
-    latlng: "37.640213782240096, 126.92041680775698"
+    latlng: "37.640213782240096, 126.92041680775698",
+    address_english: "Jinkwan New Town Branch of Golf Zone Park"
   },
   {
     solo: true,
@@ -26614,7 +28901,8 @@ var position = [
     full: "대전 확진자H",
     address: "H 산림기술연구원 (2/21,24,25,26)",
     address_name: "대전 서구 둔산동 929",
-    latlng: "36.358257937455605, 127.38886149132101"
+    latlng: "36.358257937455605, 127.38886149132101",
+    address_english: "H Forest Technology Research Institute (2/21, 24, 25,26)"
   },
   {
     solo: true,
@@ -26626,9 +28914,9 @@ var position = [
     full: "은평구 확진자",
     address: "닥터정 이비인후과의원-2/15 방문",
     address_name: "서울 은평구 진관동 170-4",
-    latlng: "37.634315904439696, 126.923087745721"
+    latlng: "37.634315904439696, 126.923087745721",
+    address_english: "Dr. Chung is visiting ENT doctor-2/15"
   },
-
   {
     solo: true,
     profile: "-",
@@ -26639,7 +28927,9 @@ var position = [
     full: "대전 확진자H",
     address: "H 충남대학교병원 입원 (2/27 01:00)",
     address_name: "대전 중구 대사동 640",
-    latlng: "36.316968473863284, 127.41545633021512"
+    latlng: "36.316968473863284, 127.41545633021512",
+    address_english:
+      "H Chungnam National University Hospital Hospital Hospital admission (2/27 01:00)"
   },
   {
     solo: true,
@@ -26651,7 +28941,8 @@ var position = [
     full: "은평구 확진자",
     address: "맑은약국-2/15방문",
     address_name: "서울 은평구 진관동 81",
-    latlng: "37.634344650210565, 126.92295629634968"
+    latlng: "37.634344650210565, 126.92295629634968",
+    address_english: "Visit Clear Pharmacy-2/15"
   },
   {
     solo: true,
@@ -26663,7 +28954,8 @@ var position = [
     full: "은평구 확진자",
     address: "태후사랑 상림마을점",
     address_name: "서울 은평구 진관동 4-24",
-    latlng: "37.648866525348694, 126.931408190141"
+    latlng: "37.648866525348694, 126.931408190141",
+    address_english: "Taehoo Sarang Sanglim Village Branch"
   },
   {
     solo: true,
@@ -26675,7 +28967,9 @@ var position = [
     full: "대전 확진자I",
     address: "을지대학교병원 응급센터(지인차에서 건물외 대기) (08:30)",
     address_name: "대전 서구 둔산동 1306",
-    latlng: "36.355299024627705, 127.381988341247"
+    latlng: "36.355299024627705, 127.381988341247",
+    address_english:
+      "Emergency Center of Eulji University Hospital (External Building Waiting in an Inji Car) (08:30)"
   },
   {
     solo: true,
@@ -26687,7 +28981,8 @@ var position = [
     full: "은평구 확진자",
     address: "그린마트",
     address_name: "서울 은평구 진관동 90-24",
-    latlng: "37.633808480567595, 126.918801296899"
+    latlng: "37.633808480567595, 126.918801296899",
+    address_english: "Green Mart"
   },
   {
     solo: true,
@@ -26699,7 +28994,8 @@ var position = [
     full: "은평구 확진자",
     address: "미니스톱 은평우물골점",
     address_name: "서울 은평구 진관동 81",
-    latlng: "37.63445947243666, 126.92356682737736"
+    latlng: "37.63445947243666, 126.92356682737736",
+    address_english: "Ministop Eunpyeong Water Goal"
   },
   {
     solo: true,
@@ -26711,7 +29007,8 @@ var position = [
     full: "은평구 확진자",
     address: "장수플란트치과의원",
     address_name: "서울 은평구 불광동 484-319",
-    latlng: "37.620691228276804, 126.92043082628997"
+    latlng: "37.620691228276804, 126.92043082628997",
+    address_english: "Long Life Plant Dental Clinic"
   },
   {
     solo: true,
@@ -26723,7 +29020,8 @@ var position = [
     full: "대전 확진자I",
     address: "정부청사역 대전1호선 (9:00)",
     address_name: "대전 서구 둔산동 1375",
-    latlng: "36.35747135206151, 127.38126808231802"
+    latlng: "36.35747135206151, 127.38126808231802",
+    address_english: "Government Building Station Line 1 (9:00)"
   },
   {
     solo: true,
@@ -26735,7 +29033,8 @@ var position = [
     full: "대전 확진자I",
     address: "구암역 대전1호선",
     address_name: "대전 유성구 구암동 96-16",
-    latlng: "36.356695510517994, 127.330731986244"
+    latlng: "36.356695510517994, 127.330731986244",
+    address_english: "Guam Station Daejeon Line 1"
   },
   {
     solo: true,
@@ -26747,7 +29046,8 @@ var position = [
     full: "은평구 확진자",
     address: "북한산-오전에 등산",
     address_name: "경기 고양시 덕양구 북한동",
-    latlng: "37.65870511701391, 126.97795959813598"
+    latlng: "37.65870511701391, 126.97795959813598",
+    address_english: "Bukhansan Mountain - Mountain Climbing in the morning"
   },
   {
     solo: true,
@@ -26759,7 +29059,8 @@ var position = [
     full: "은평구 확진자",
     address: "내고향농축산물",
     address_name: "서울 은평구 진관동 195",
-    latlng: "37.6340338401027, 126.92726172889799"
+    latlng: "37.6340338401027, 126.92726172889799",
+    address_english: "Nae-hyang agricultural products"
   },
   {
     solo: true,
@@ -26771,7 +29072,8 @@ var position = [
     full: "은평구 확진자",
     address: "초록마을 은평점",
     address_name: "서울 은평구 진관동 83",
-    latlng: "37.6342987811192, 126.92589629222316"
+    latlng: "37.6342987811192, 126.92589629222316",
+    address_english: "Green Village Eunpyeong Branch"
   },
   {
     solo: true,
@@ -26783,7 +29085,8 @@ var position = [
     full: "대전 확진자I",
     address: "유성시외버스정류소 -> 시외버스",
     address_name: "대전 유성구 봉명동 561-13",
-    latlng: "36.35561030620731, 127.335968176456"
+    latlng: "36.35561030620731, 127.335968176456",
+    address_english: "a meteoric intercity bus stop"
   },
   {
     solo: true,
@@ -26795,7 +29098,8 @@ var position = [
     full: "대전 확진자I",
     address: "공주산성정류소",
     address_name: "충남 공주시 금성동 200-4",
-    latlng: "36.4619028300142, 127.12350980301501"
+    latlng: "36.4619028300142, 127.12350980301501",
+    address_english: "Gongju Sanseong Station"
   },
   {
     solo: true,
@@ -26807,7 +29111,8 @@ var position = [
     full: "대전 확진자I",
     address: "공주의료원 입원 (2/20-2/25)",
     address_name: "충남 공주시 웅진동 266",
-    latlng: "36.459054668516195, 127.109216751522"
+    latlng: "36.459054668516195, 127.109216751522",
+    address_english: "Princess Hospital Hospital Hospital (2/20-2/25)"
   },
   {
     solo: true,
@@ -26819,7 +29124,9 @@ var position = [
     full: "대전 확진자I",
     address: "코로나19 을지대학교병원 선별진료소 후 을지대병원 입원",
     address_name: "대전 서구 둔산동 1306",
-    latlng: "36.35506832763849, 127.38198721407"
+    latlng: "36.35506832763849, 127.38198721407",
+    address_english:
+      "Corona19 Eulji University Hospital Hospital Hospital Hospital admission after screening hospital"
   },
   {
     solo: true,
@@ -26831,7 +29138,8 @@ var position = [
     full: "관악구 확진자",
     address: "대명부동산-2/19.20.21.22",
     address_name: "서울 관악구 봉천동 1629-4",
-    latlng: "37.4768728517033, 126.961805579825"
+    latlng: "37.4768728517033, 126.961805579825",
+    address_english: "Daemyung Property-2/19.20.21.22"
   },
   {
     solo: true,
@@ -26843,7 +29151,8 @@ var position = [
     full: "군포 확진자",
     address: "더건강한내과의원에서 진료",
     address_name: "경기 군포시 산본동 1134",
-    latlng: "37.35966763201931, 126.93206959366267"
+    latlng: "37.35966763201931, 126.93206959366267",
+    address_english: "Clinical treatment at a healthier medical clinic"
   },
   {
     solo: true,
@@ -26855,7 +29164,9 @@ var position = [
     full: "안동 확진자",
     address: "가톨릭상지대학교 구내서점 근무",
     address_name: "경북 안동시 율세동 산 104",
-    latlng: "36.569420413582804, 128.73596692257644"
+    latlng: "36.569420413582804, 128.73596692257644",
+    address_english:
+      "Working for the Catholic School of Commerce in the District Bookstore"
   },
   {
     solo: true,
@@ -26867,7 +29178,8 @@ var position = [
     full: "안동 확진자",
     address: "안동곱창 본점 (18:00-20:00)",
     address_name: "경북 안동시 옥동 770-1",
-    latlng: "36.56237904659902, 128.69988432339633"
+    latlng: "36.56237904659902, 128.69988432339633",
+    address_english: "Andong Tripe Main Store (18:00-20:00)"
   },
   {
     solo: true,
@@ -26879,7 +29191,8 @@ var position = [
     full: "송파 확진자",
     address: "단대오거리역 8호선(마스크착용)",
     address_name: "경기 성남시 수정구 신흥동",
-    latlng: "37.44502338696031, 127.156772052175"
+    latlng: "37.44502338696031, 127.156772052175",
+    address_english: "Dandaeo-geori Station Line 8 (for mask wear)"
   },
   {
     solo: true,
@@ -26892,7 +29205,9 @@ var position = [
     address:
       "장모님콩밭(마스크착용, 식사동안 벗고 나와서 다시 착용, 직원들 4명 모두 마스크 착용)",
     address_name: "경기 성남시 중원구 상대원1동 513-22",
-    latlng: "37.4316725826459, 127.168255282312"
+    latlng: "37.4316725826459, 127.168255282312",
+    address_english:
+      "Mother-in-law bean field (for wearing masks, take off during meals and put them back on, all four employees wear masks)"
   },
   {
     solo: true,
@@ -26904,7 +29219,8 @@ var position = [
     full: "안동 확진자",
     address: "하프플로어 (20:00-20:20)",
     address_name: "경북 안동시 옥동 984-32",
-    latlng: "36.5594769432971, 128.70019153732937"
+    latlng: "36.5594769432971, 128.70019153732937",
+    address_english: "Half floor (20:00-20:20)"
   },
   {
     solo: true,
@@ -26916,7 +29232,9 @@ var position = [
     full: "송파 확진자",
     address: "밈스커피(마스크착용, 종업원 마스크 착용, 직원 6명 동행)",
     address_name: "경기 성남시 중원구 상대원동 513-14",
-    latlng: "37.4311231891001, 127.17061206611824"
+    latlng: "37.4311231891001, 127.17061206611824",
+    address_english:
+      "Mimscoffee (for wearing masks, wearing employee masks, accompanied by six employees)"
   },
   {
     solo: true,
@@ -26928,7 +29246,8 @@ var position = [
     full: "송파 확진자",
     address: "단대오거리역 8호선(마스크착용)",
     address_name: "경기 성남시 수정구 신흥동",
-    latlng: "37.44502338696031, 127.156772052175"
+    latlng: "37.44502338696031, 127.156772052175",
+    address_english: "Dandaeo-geori Station Line 8 (for mask wear)"
   },
   {
     solo: true,
@@ -26941,7 +29260,9 @@ var position = [
     address:
       "청담추어정 분당점(마스크착용, 종업원 마스크와 장갑 착용, 직원들 6명 동행 /4명 직원들 분당구 거주자 모두 음성)",
     address_name: "경기 성남시 분당구 야탑동 599-4",
-    latlng: "37.40723076647322, 127.13439921223635"
+    latlng: "37.40723076647322, 127.13439921223635",
+    address_english:
+      "Cheongdam-choo Jung Bundang branch (for mask wear, employee mask and gloves, accompanied by 6 employees /4 employees, all residents of Bundang-gu negative)"
   },
   {
     solo: true,
@@ -26953,7 +29274,9 @@ var position = [
     full: "송파 확진자",
     address: "본알레(마스크착용, 셀프서빙하지 않았음, 직원 5명 동행)",
     address_name: "경기 성남시 분당구 야탑동 602",
-    latlng: "37.40636421663065, 127.13498725629958"
+    latlng: "37.40636421663065, 127.13498725629958",
+    address_english:
+      "Bon Alle (mask-on, not self-subscribed, accompanied by 5 employees)"
   },
   {
     solo: true,
@@ -26965,7 +29288,8 @@ var position = [
     full: "대전 확진자I",
     address: "유구제일의원 (16:00-17:00)",
     address_name: "충남 공주시 유구읍 백교리 25-3",
-    latlng: "36.54748748866, 126.95137618150402"
+    latlng: "36.54748748866, 126.95137618150402",
+    address_english: "Rep. Yoo (16:00-17:00)"
   },
   {
     solo: true,
@@ -26978,7 +29302,8 @@ var position = [
     address:
       "불당메디칼의원(마스크 착용, 의사접촉)진료 후 코끼리 약국에서 약 구입 (9:30)",
     address_name: "충남 천안시 서북구 불당동 734",
-    latlng: "36.809728966226, 127.11087827707702"
+    latlng: "36.809728966226, 127.11087827707702",
+    address_english: "Buy medicine at elephant pharmacy after treatment (9:30)"
   },
   {
     solo: true,
@@ -26990,7 +29315,8 @@ var position = [
     full: "천안 확진자E",
     address: "오레시피 천안불당아이파크점 반찬 구입 (10:44)",
     address_name: "충남 천안시 서북구 불당동 733",
-    latlng: "36.8097221286382, 127.11047931179802"
+    latlng: "36.8097221286382, 127.11047931179802",
+    address_english: "Orecipe: Buy side dishes at Chonan Buldang I-Park (10:44)"
   },
   {
     solo: true,
@@ -27002,7 +29328,8 @@ var position = [
     full: "천안 확진자E",
     address: "롯데슈퍼 천안불당가맹점 장 봄 (10:53)",
     address_name: "충남 천안시 서북구 불당동 750",
-    latlng: "36.8086015008116, 127.11364184271591"
+    latlng: "36.8086015008116, 127.11364184271591",
+    address_english: "Lotte Super Tian'an Bulgarian Market in Spring (10:53)"
   },
   {
     solo: true,
@@ -27014,7 +29341,8 @@ var position = [
     full: "천안 확진자E",
     address: "구성동 다짐 피트니스센터",
     address_name: "충남 천안시 동남구 구성동 294-1",
-    latlng: "36.794126, 127.161296"
+    latlng: "36.794126, 127.161296",
+    address_english: "Organizational-dong Appointment Fitness Center"
   },
   {
     solo: true,
@@ -27027,7 +29355,9 @@ var position = [
     address:
       "짐필라테스 수업 참석, 카페몽상가인에서 빵 구입 후 귀가 (12:00 13:07))",
     address_name: "충남 천안시 서북구 불당동 906",
-    latlng: "36.805322, 127.107673"
+    latlng: "36.805322, 127.107673",
+    address_english:
+      "Attend Jim Pilates class, buy bread from cafe dreamer and return home at 12:00 13:07)"
   },
   {
     solo: true,
@@ -27039,7 +29369,8 @@ var position = [
     full: "천안 확진자E",
     address: "휘트니스휴(운동시 제외하고 마스크 착용) (19:00)",
     address_name: "충남 천안시 서북구 불당동 1489",
-    latlng: "36.819578549498, 127.10941974581999"
+    latlng: "36.819578549498, 127.10941974581999",
+    address_english: "Whitnesshue (Except for exercise wear mask) (19:00)"
   },
   {
     solo: true,
@@ -27051,7 +29382,9 @@ var position = [
     full: "천안 확진자E",
     address: "불당아이파크 수업 갔으나 1명만 있어 취소 (20:00)",
     address_name: "충남 천안시 서북구 불당동 757",
-    latlng: "36.808540970216946, 127.10928973202542"
+    latlng: "36.808540970216946, 127.10928973202542",
+    address_english:
+      "I went to the Bulgang I-Park class, but there was only one person, so I cancelled it at 20:00)"
   },
   {
     solo: true,
@@ -27063,7 +29396,8 @@ var position = [
     full: "천안 확진자E",
     address: "미댄스 (9:30)",
     address_name: "충남 천안시 서북구 불당25로 142 607호",
-    latlng: "36.81378875860826, 127.10762059352734"
+    latlng: "36.81378875860826, 127.10762059352734",
+    address_english: "Mid-dance (9:30)"
   },
   {
     solo: true,
@@ -27076,7 +29410,9 @@ var position = [
     address:
       "김종훈내과의원 진료(마스크 착용) 후 서진약국 방문(마스크 착용)후 귀가 (11:10)",
     address_name: "충남 천안시 서북구 성정2동 1229",
-    latlng: "36.82829031767301, 127.133395432429"
+    latlng: "36.82829031767301, 127.133395432429",
+    address_english:
+      "Kim Jong-hoon, medical doctor, visits Seojin Pharmacy after wearing the mask (11:10)"
   },
   {
     solo: true,
@@ -27088,7 +29424,9 @@ var position = [
     full: "천안 확진자E",
     address: "E 코로나19 서북구보건소 선별진료소 검사 실시 (2/26 10:00)",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english:
+      "E Corona19 Conducts a screening center examination at a northwest health center (2/26 10:00)"
   },
   {
     solo: true,
@@ -27100,7 +29438,8 @@ var position = [
     full: "천안 확진자F",
     address: "도솔도서관 방문 (17:17-17:24)",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.815064294386, 127.11389403545101"
+    latlng: "36.815064294386, 127.11389403545101",
+    address_english: "Visit the Dosol Library (17:17:24)"
   },
   {
     solo: true,
@@ -27112,7 +29451,9 @@ var position = [
     full: "천안 확진자F",
     address: "F 코로나19 순천향대학교부속천안병원 선별진료소 검사 (2/25 10:00)",
     address_name: "충남 천안시 동남구 봉명동 216-8",
-    latlng: "36.8027211587879, 127.135932840124"
+    latlng: "36.8027211587879, 127.135932840124",
+    address_english:
+      "F Corona19 Screening Clinic Examination of Sun Chunhyang University Subsidiary Chunan Hospital (2/25 10:00:00)"
   },
   {
     solo: true,
@@ -27124,7 +29465,8 @@ var position = [
     full: "천안 확진자F",
     address: "파리바게뜨 출입 (11:06-11:09)",
     address_name: "충남 천안시 동남구 봉명동 223-1",
-    latlng: "36.80193412823569, 127.13545857812"
+    latlng: "36.80193412823569, 127.13545857812",
+    address_english: "Access to Paris Baguette (11:06-11:09)"
   },
   {
     solo: true,
@@ -27136,7 +29478,8 @@ var position = [
     full: "천안 확진자H",
     address: "천안한들초등학교",
     address_name: "충남 천안시 서북구 백석동 345-1",
-    latlng: "36.825704540180084, 127.11764910640001"
+    latlng: "36.825704540180084, 127.11764910640001",
+    address_english: "Cheonan Handle Elementary School"
   },
   {
     solo: true,
@@ -27148,7 +29491,8 @@ var position = [
     full: "천안 확진자H",
     address: "스타벅스 천안불당DT점",
     address_name: "충남 천안시 서북구 불당동 1844",
-    latlng: "36.805384, 127.106278"
+    latlng: "36.805384, 127.106278",
+    address_english: "Starbucks Cheonan Buldang DT Store"
   },
   {
     solo: true,
@@ -27160,7 +29504,8 @@ var position = [
     full: "천안 확진자H",
     address: "옵션AV",
     address_name: "충남 천안시 서북구 성성동 482-9",
-    latlng: "36.84720435778511, 127.118242642876"
+    latlng: "36.84720435778511, 127.118242642876",
+    address_english: "Option AV"
   },
   {
     solo: true,
@@ -27172,7 +29517,8 @@ var position = [
     full: "천안 확진자H",
     address: "EJ식자재마트",
     address_name: "충남 천안시 서북구 불당동 1853",
-    latlng: "36.80273070751193, 127.10311839822991"
+    latlng: "36.80273070751193, 127.10311839822991",
+    address_english: "EJ-style Jammoth"
   },
   {
     solo: true,
@@ -27184,7 +29530,8 @@ var position = [
     full: "천안 확진자H",
     address: "쥬스킹 천안불당점",
     address_name: "충남 천안시 서북구 불당동 1830",
-    latlng: "36.805372982417495, 127.104932827377"
+    latlng: "36.805372982417495, 127.104932827377",
+    address_english: "Jusking Tiananmen Square"
   },
   {
     solo: true,
@@ -27196,7 +29543,8 @@ var position = [
     full: "천안 확진자H",
     address: "스시린",
     address_name: "충남 천안시 서북구 불당동 1652",
-    latlng: "36.80998947221051, 127.10584014193898"
+    latlng: "36.80998947221051, 127.10584014193898",
+    address_english: "Scyrin"
   },
   {
     solo: true,
@@ -27208,7 +29556,8 @@ var position = [
     full: "천안 확진자H",
     address: "범약국",
     address_name: "충남 천안시 서북구 불당동 1846",
-    latlng: "36.802456833867105, 127.10510365536899"
+    latlng: "36.802456833867105, 127.10510365536899",
+    address_english: "pan-drug country"
   },
   {
     solo: true,
@@ -27220,7 +29569,8 @@ var position = [
     full: "천안 확진자I",
     address: "천안새마을금고 쌍용지점",
     address_name: "충남 천안시 서북구 쌍용동 637",
-    latlng: "36.7969648229301, 127.122701060583"
+    latlng: "36.7969648229301, 127.122701060583",
+    address_english: "Ssangyong branch of Cheonan Saemaeul Geumgo"
   },
   {
     solo: true,
@@ -27232,7 +29582,8 @@ var position = [
     full: "천안 확진자I",
     address: "정약국",
     address_name: "충남 천안시 서북구 쌍용2동 1541",
-    latlng: "36.79869616702089, 127.11794393596598"
+    latlng: "36.79869616702089, 127.11794393596598",
+    address_english: "Jung Yak-guk"
   },
   {
     solo: true,
@@ -27244,7 +29595,8 @@ var position = [
     full: "천안 확진자I",
     address: "815할인마트 천안점",
     address_name: "충남 천안시 서북구 쌍용3동 1949",
-    latlng: "36.8030126830632, 127.119559684123"
+    latlng: "36.8030126830632, 127.119559684123",
+    address_english: "Cheonan branch at 815 discount mart"
   },
   {
     solo: true,
@@ -27256,7 +29608,8 @@ var position = [
     full: "청주 확진자C",
     address: "GS25 분평월드점 (00:33, 19:09)",
     address_name: "충북 청주시 서원구 분평동 276-3",
-    latlng: "36.6114404227226, 127.47861206571798"
+    latlng: "36.6114404227226, 127.47861206571798",
+    address_english: "GS25 Bunpyeong World Store (00:33, 19:09)"
   },
   {
     solo: true,
@@ -27268,7 +29621,8 @@ var position = [
     full: "청주 확진자C",
     address: "푸른주공마트 (00:43)",
     address_name: "충북 청주시 흥덕구 가경동 1693",
-    latlng: "36.61587700785239, 127.439465908643"
+    latlng: "36.61587700785239, 127.439465908643",
+    address_english: "Blue Jugong Mart (00:43)"
   },
   {
     solo: true,
@@ -27280,7 +29634,8 @@ var position = [
     full: "청주 확진자C",
     address: "가경동 동네치킨포차 (01:00-02:45)",
     address_name: "충북 청주시 흥덕구 가경동 1458-8",
-    latlng: "36.62304, 127.435435"
+    latlng: "36.62304, 127.435435",
+    address_english: "Gagyeong-dong Neighborhood Chicken Pocha (01:00-02:45)"
   },
   {
     solo: true,
@@ -27292,7 +29647,8 @@ var position = [
     full: "청주 확진자C",
     address: "와따노래연습장 (00:38-05:50)",
     address_name: "충북 청주시 흥덕구 가경동 1467-4",
-    latlng: "36.6231421721128, 127.434981702714"
+    latlng: "36.6231421721128, 127.434981702714",
+    address_english: "Wata Norae Training Center (00:38-05:50)"
   },
   {
     solo: true,
@@ -27304,7 +29660,8 @@ var position = [
     full: "청주 확진자C",
     address: "안경매니져 가경점 (20:25-20:28)",
     address_name: "충북 청주시 흥덕구 가경동 1701",
-    latlng: "36.6165320779769, 127.44361461412501"
+    latlng: "36.6165320779769, 127.44361461412501",
+    address_english: "Glasses manager points (20:25-20:28)"
   },
   {
     solo: true,
@@ -27316,7 +29673,8 @@ var position = [
     full: "청주 확진자C",
     address: "올리브영 청주가경점 (20:28-21:00)",
     address_name: "충북 청주시 흥덕구 가경동 1703",
-    latlng: "36.61619569394346, 127.44392680151648"
+    latlng: "36.61619569394346, 127.44392680151648",
+    address_english: "Olive Young Cheongju branch (20:28-21:00)"
   },
   {
     solo: true,
@@ -27328,7 +29686,8 @@ var position = [
     full: "청주 확진자C",
     address: "GS25 청주죽림점 (22:18)",
     address_name: "충북 청주시 서원구 죽림동 353",
-    latlng: "36.61262446700451, 127.445626614382"
+    latlng: "36.61262446700451, 127.445626614382",
+    address_english: "GS25 Cheongju Porridge Point (22:18)"
   },
   {
     solo: true,
@@ -27340,7 +29699,8 @@ var position = [
     full: "청주 확진자C",
     address: "CU 청주가경민들레점 (04:57)",
     address_name: "충북 청주시 흥덕구 가경동 1457-10",
-    latlng: "36.6236724007112, 127.433893559409"
+    latlng: "36.6236724007112, 127.433893559409",
+    address_english: "CU Cheongju Dulle Point (04:57)"
   },
   {
     solo: true,
@@ -27352,7 +29712,8 @@ var position = [
     full: "청주 확진자C",
     address: "GS25 청주경덕점(00:50)",
     address_name: "충북 청주시 흥덕구 가경동 1498-2",
-    latlng: "36.6206667743397, 127.436702791315"
+    latlng: "36.6206667743397, 127.436702791315",
+    address_english: "GS25 Cheongju Gyeongdeok Branch (00:50)"
   },
   {
     solo: true,
@@ -27364,7 +29725,8 @@ var position = [
     full: "청주 확진자",
     address: "작두산",
     address_name: "충북 청주시 상당구 문의면 두모리",
-    latlng: "36.523341097255006, 127.47960513996901"
+    latlng: "36.523341097255006, 127.47960513996901",
+    address_english: "Jadusan Mountain"
   },
   {
     solo: true,
@@ -27376,7 +29738,8 @@ var position = [
     full: "청주 확진자",
     address: "빽다방 청주율량중앙점",
     address_name: "충북 청주시 청원구 주성동 338",
-    latlng: "36.672027928853815, 127.497261305908"
+    latlng: "36.672027928853815, 127.497261305908",
+    address_english: "Baikdabang Cheongju Yield Central Point"
   },
   {
     solo: true,
@@ -27388,20 +29751,9 @@ var position = [
     full: "청주 확진자",
     address: "토리헤어 주성점",
     address_name: "충북 청주시 청원구 주성동 339",
-    latlng: "36.67209045492509, 127.496961909879"
+    latlng: "36.67209045492509, 127.496961909879",
+    address_english: "Tori-Hair Main Star"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#청주 확진자",
-  //   month: 2,
-  //   day: 22,
-  //   name: "청주",
-  //   full: "청주 확진자",
-  //   address: "다이소 청주율량점",
-  //   address_name: "충북 청주시 청원구 율량동 1330",
-  //   latlng: "36.667680373566206, 127.48515706773898"
-  // },
   {
     solo: true,
     profile: "-",
@@ -27412,7 +29764,8 @@ var position = [
     full: "성주 확진자",
     address: "화요일돈가스",
     address_name: "경북 성주군 성주읍 경산리 10-1",
-    latlng: "35.91950799823551, 128.28764318578672"
+    latlng: "35.91950799823551, 128.28764318578672",
+    address_english: "Tuesday pork cutlet"
   },
   {
     solo: true,
@@ -27424,7 +29777,8 @@ var position = [
     full: "성주 확진자",
     address: "투썸플레이스 경북성주점",
     address_name: "경북 성주군 성주읍 성산리 2101-4",
-    latlng: "35.91793219814941, 128.29046373118715"
+    latlng: "35.91793219814941, 128.29046373118715",
+    address_english: "Twosome Place Gyeongbuk Fortress Shop"
   },
   {
     solo: true,
@@ -27436,7 +29790,8 @@ var position = [
     full: "성주 확진자",
     address: "할리스커피",
     address_name: "경북 성주군 성주읍 경산리 368-34",
-    latlng: "35.91741797010851, 128.27948653148806"
+    latlng: "35.91741797010851, 128.27948653148806",
+    address_english: "Halis Coffee"
   },
   {
     solo: true,
@@ -27448,7 +29803,9 @@ var position = [
     full: "성주 확진자",
     address: "코로나19 성주군보건소 선별진료소",
     address_name: "경북 성주군 성주읍 경산리 436-1",
-    latlng: "35.917383171061694, 128.27869274848905"
+    latlng: "35.917383171061694, 128.27869274848905",
+    address_english:
+      "Corona19 Seongju County Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -27460,7 +29817,8 @@ var position = [
     full: "성주 확진자",
     address: "사랑채빌라",
     address_name: "경북 성주군 성주읍 예산리 794-7",
-    latlng: "35.920627118778704, 128.29017403772806"
+    latlng: "35.920627118778704, 128.29017403772806",
+    address_english: "Love me."
   },
   {
     solo: true,
@@ -27472,7 +29830,8 @@ var position = [
     full: "성주 확진자",
     address: "솔로몬학원",
     address_name: "경북 성주군 성주읍 경산리 29-13",
-    latlng: "35.918294259454, 128.28586422197804"
+    latlng: "35.918294259454, 128.28586422197804",
+    address_english: "Solomon Academy"
   },
   {
     solo: true,
@@ -27484,7 +29843,9 @@ var position = [
     full: "노원구 확진자",
     address: "건대입구역 2호선-건대역근처에서 숙식후 출퇴근(2/20.21방문)",
     address_name: "서울 광진구 자양동 1-5",
-    latlng: "37.5404084182632, 127.069202917341"
+    latlng: "37.5404084182632, 127.069202917341",
+    address_english:
+      "Konkuk University Station Line 2 - Near Konkuk Station, you can go to and from work (2/20.21 visit)"
   },
   {
     solo: true,
@@ -27496,7 +29857,9 @@ var position = [
     full: "노원구 확진자",
     address: "건대입구역 2호선-건대역근처에서 숙식후 출퇴근(2/20.21방문)",
     address_name: "서울 광진구 자양동 1-5",
-    latlng: "37.5404084182632, 127.069202917341"
+    latlng: "37.5404084182632, 127.069202917341",
+    address_english:
+      "Konkuk University Station Line 2 - Near Konkuk Station, you can go to and from work (2/20.21 visit)"
   },
   {
     solo: true,
@@ -27508,7 +29871,9 @@ var position = [
     full: "노원구 확진자",
     address: "코로나19 인제대학교상계백병원 선별진료소",
     address_name: "서울 노원구 상계동 761-1",
-    latlng: "37.648581267298596, 127.063116190321"
+    latlng: "37.648581267298596, 127.063116190321",
+    address_english:
+      "Corona19 Inje University Sanggye Paik Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -27520,7 +29885,8 @@ var position = [
     full: "노원구 확진자",
     address: "중계역 7호선-2/23.24.25이용",
     address_name: "서울 노원구 중계동 503-3",
-    latlng: "37.6450921230569, 127.06411035896"
+    latlng: "37.6450921230569, 127.06411035896",
+    address_english: "Subway Station Line 7-2/23.24.25"
   },
   {
     solo: true,
@@ -27532,7 +29898,8 @@ var position = [
     full: "강남구 확진자",
     address: "신천지예수교회",
     address_name: "대구 남구 대명동 1623-12",
-    latlng: "35.839724793745404, 128.5665459233862"
+    latlng: "35.839724793745404, 128.5665459233862",
+    address_english: "Shinchunji Jesus Church"
   },
   {
     solo: true,
@@ -27544,7 +29911,8 @@ var position = [
     full: "강남구 확진자",
     address: "선정릉역 분당선-2/20이용",
     address_name: "서울 강남구 삼성동 111-114",
-    latlng: "37.510932638880305, 127.043627289129"
+    latlng: "37.510932638880305, 127.043627289129",
+    address_english: "Use the Bundang Line 2/20 of Seonjeongneung Station"
   },
   {
     solo: true,
@@ -27556,7 +29924,8 @@ var position = [
     full: "강남구 확진자",
     address: "왕십리역 2호선-2/20 이용(분당선포함)",
     address_name: "서울 성동구 행당동 188-1",
-    latlng: "37.56126836402849, 127.03710111245898"
+    latlng: "37.56126836402849, 127.03710111245898",
+    address_english: "Wangsimni Station Line 2-2/20 (including Bundang Line)"
   },
   {
     solo: true,
@@ -27568,7 +29937,8 @@ var position = [
     full: "강남구 확진자",
     address: "을지로4가역 2호선-2/20이용",
     address_name: "서울 중구 을지로4가 267-1",
-    latlng: "37.56664050382679, 126.99763205911302"
+    latlng: "37.56664050382679, 126.99763205911302",
+    address_english: "Euljiro 4-ga Station Line 2-2/20"
   },
   {
     solo: true,
@@ -27580,7 +29950,8 @@ var position = [
     full: "강남구 확진자",
     address: "청계천-2/20 산책",
     address_name: "서울 종로구 서린동 148",
-    latlng: "37.5691469686793, 126.97864706815099"
+    latlng: "37.5691469686793, 126.97864706815099",
+    address_english: "Cheonggyecheon-2/20 Walk"
   },
   {
     solo: true,
@@ -27592,7 +29963,8 @@ var position = [
     full: "강남구 확진자",
     address: "강남구보건소",
     address_name: "서울 강남구 삼성동 8",
-    latlng: "37.51636077923351, 127.042273077358"
+    latlng: "37.51636077923351, 127.042273077358",
+    address_english: "Gangnam District Health Center"
   },
   {
     solo: true,
@@ -27604,7 +29976,8 @@ var position = [
     full: "강남구 확진자",
     address: "서울특별시 서남병원-격리병상입원",
     address_name: "서울 양천구 신정동 1320-7",
-    latlng: "37.51207345721133, 126.83315695581216"
+    latlng: "37.51207345721133, 126.83315695581216",
+    address_english: "Seo Nam Hospital-Department Hospital in Seoul"
   },
   {
     solo: true,
@@ -27616,7 +29989,8 @@ var position = [
     full: "강남구 확진자",
     address: "동대구역",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -27628,7 +30002,8 @@ var position = [
     full: "강남구 확진자",
     address: "서울역-ktx이용",
     address_name: "서울 용산구 동자동 43-205",
-    latlng: "37.554678838867396, 126.970606917394"
+    latlng: "37.554678838867396, 126.970606917394",
+    address_english: "Use Seoul Station-Ktx"
   },
   {
     solo: true,
@@ -27640,7 +30015,8 @@ var position = [
     full: "서대문구 확진자",
     address: "서대문구 가좌보건지소",
     address_name: "서울 서대문구 북가좌동 477",
-    latlng: "37.574210725029204, 126.910135933983"
+    latlng: "37.574210725029204, 126.910135933983",
+    address_english: "Gajwa Health Branch of Seodaemun-gu"
   },
   {
     solo: true,
@@ -27652,7 +30028,8 @@ var position = [
     full: "서대문구 확진자",
     address: "북가좌1동주민센터",
     address_name: "서울 서대문구 북가좌동 477",
-    latlng: "37.57441980379486, 126.91019907588093"
+    latlng: "37.57441980379486, 126.91019907588093",
+    address_english: "North House Idong Community Center"
   },
   {
     solo: true,
@@ -27664,7 +30041,8 @@ var position = [
     full: "서울 확진자",
     address: "박선영김밥-2/20방문",
     address_name: "서울 영등포구 여의도동 21-4",
-    latlng: "37.5260284176112, 126.930751541335"
+    latlng: "37.5260284176112, 126.930751541335",
+    address_english: "Visit Park Sun-young Kimbap-2/20"
   },
   {
     solo: true,
@@ -27676,7 +30054,9 @@ var position = [
     full: "서울 확진자",
     address: "서울상가-1층 통영굴찜에서 식사(2/20방문)",
     address_name: "서울 영등포구 여의도동 21-3",
-    latlng: "37.52623041932001, 126.93105454082799"
+    latlng: "37.52623041932001, 126.93105454082799",
+    address_english:
+      "Dining (2/20 Visit) at Tongyeong Cave Jjim on the 1st floor of Seoul Shopping Center"
   },
   {
     solo: true,
@@ -27688,7 +30068,9 @@ var position = [
     full: "서울 확진자",
     address: "파이낸셜뉴스빌딩-지하1층 칠미식당에서 저녁",
     address_name: "서울 영등포구 여의도동 24-5",
-    latlng: "37.524466107863304, 126.92778907059501"
+    latlng: "37.524466107863304, 126.92778907059501",
+    address_english:
+      "Dinner at Chilmi Restaurant on the first floor of the Financial News Building"
   },
   {
     solo: true,
@@ -27700,7 +30082,8 @@ var position = [
     full: "서울 확진자",
     address: "여의나루역 5호선 이용",
     address_name: "서울 영등포구 여의도동 84-4",
-    latlng: "37.527146948946516, 126.93298596744002"
+    latlng: "37.527146948946516, 126.93298596744002",
+    address_english: "Use of Yeouido Station Line 5"
   },
   {
     solo: true,
@@ -27712,7 +30095,8 @@ var position = [
     full: "서울 확진자",
     address: "왕산",
     address_name: "서울 영등포구 여의도동 21-3",
-    latlng: "37.5261736984718, 126.93112699565295"
+    latlng: "37.5261736984718, 126.93112699565295",
+    address_english: "Wang San"
   },
   {
     solo: true,
@@ -27724,7 +30108,8 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 여의도성모병원 선별진료소",
     address_name: "서울 영등포구 여의도동 62",
-    latlng: "37.51833004820399, 126.936817216384"
+    latlng: "37.51833004820399, 126.936817216384",
+    address_english: "Corona19 Yeouido St. Mary's Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -27736,7 +30121,8 @@ var position = [
     full: "서울 확진자",
     address: "강북삼성병원",
     address_name: "서울 종로구 평동 108",
-    latlng: "37.56850663657661, 126.96792107169"
+    latlng: "37.56850663657661, 126.96792107169",
+    address_english: "Gangbuk Samsung Hospital"
   },
   {
     solo: true,
@@ -27748,7 +30134,8 @@ var position = [
     full: "서울 확진자",
     address: "국립중앙의료원",
     address_name: "서울 중구 을지로6가 18-79",
-    latlng: "37.56724946361499, 127.005691254159"
+    latlng: "37.56724946361499, 127.005691254159",
+    address_english: "National Medical Center"
   },
   {
     solo: true,
@@ -27760,7 +30147,8 @@ var position = [
     full: "서울 확진자",
     address: "서울특별시서북병원",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.604234501517695, 126.90441935029999"
+    latlng: "37.604234501517695, 126.90441935029999",
+    address_english: "Seoul Seobuk Hospital"
   },
   {
     solo: true,
@@ -27772,7 +30160,8 @@ var position = [
     full: "서울 확진자",
     address: "고려대학교구로병원",
     address_name: "서울 구로구 구로동 80",
-    latlng: "37.49225437002535, 126.88473741237897"
+    latlng: "37.49225437002535, 126.88473741237897",
+    address_english: "Korea University Guro Hospital"
   },
   {
     solo: true,
@@ -27784,7 +30173,8 @@ var position = [
     full: "서울 확진자",
     address: "서울특별시서북병원",
     address_name: "서울 은평구 역촌동 산 31-1",
-    latlng: "37.604234501517695, 126.90441935029999"
+    latlng: "37.604234501517695, 126.90441935029999",
+    address_english: "Seoul Seobuk Hospital"
   },
   {
     solo: true,
@@ -27796,7 +30186,8 @@ var position = [
     full: "서울 확진자",
     address: "서울특별시 보라매병원",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Boramae Hospital in Seoul"
   },
   {
     solo: true,
@@ -27808,7 +30199,8 @@ var position = [
     full: "서울 확진자",
     address: "요리하는남자",
     address_name: "서울 송파구 잠실동 180-9",
-    latlng: "37.5108149926055, 127.081902263321"
+    latlng: "37.5108149926055, 127.081902263321",
+    address_english: "cooking man"
   },
   {
     solo: true,
@@ -27820,7 +30212,8 @@ var position = [
     full: "김해 확진자",
     address: "코로나19 김해시보건소 선별진료소",
     address_name: "경남 김해시 외동 1261-3",
-    latlng: "35.23222919863411, 128.87070989801472"
+    latlng: "35.23222919863411, 128.87070989801472",
+    address_english: "Korona19 Gimhae Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -27832,7 +30225,8 @@ var position = [
     full: "김해 확진자",
     address: "경상남도 마산의료원",
     address_name: "경남 창원시 마산합포구 장군동4가 3-6",
-    latlng: "35.19917138155086, 128.565560620545"
+    latlng: "35.19917138155086, 128.565560620545",
+    address_english: "Masan Medical Center, South Gyeongsang Province"
   },
   {
     solo: true,
@@ -27844,7 +30238,8 @@ var position = [
     full: "성동구 확진자",
     address: "고향산천(방역완료)",
     address_name: "서울 성동구 도선동 68",
-    latlng: "37.5624440355812, 127.034557320577"
+    latlng: "37.5624440355812, 127.034557320577",
+    address_english: "Hometown Sancheon (Complete quarantine)"
   },
   {
     solo: true,
@@ -27856,7 +30251,8 @@ var position = [
     full: "성동구 확진자",
     address: "춘향미엔(방역완료)",
     address_name: "서울 성동구 행당동 298-86",
-    latlng: "37.5606389934749, 127.032605242881"
+    latlng: "37.5606389934749, 127.032605242881",
+    address_english: "Chunhyangmien (Complete quarantine)"
   },
   {
     solo: true,
@@ -27868,7 +30264,8 @@ var position = [
     full: "성동구 확진자",
     address: "완쌀국수 포완(방역완료)",
     address_name: "서울 성동구 하왕십리동 966-102",
-    latlng: "37.56159038696322, 127.03281844085735"
+    latlng: "37.56159038696322, 127.03281844085735",
+    address_english: "Whole Rice Noodles Pawan (Reinforced)"
   },
   {
     solo: true,
@@ -27880,7 +30277,8 @@ var position = [
     full: "성동구 확진자",
     address: "셀렉토커피 왕십리점(방역완료)",
     address_name: "서울 성동구 행당동 286-5",
-    latlng: "37.56174223655757, 127.03429214849878"
+    latlng: "37.56174223655757, 127.03429214849878",
+    address_english: "Selector coffee Wangsimni branch (commissioned)"
   },
   {
     solo: true,
@@ -27892,7 +30290,8 @@ var position = [
     full: "평택 확진자",
     address: "프라자 약국",
     address_name: "경기 평택시 합정동 672-33",
-    latlng: "36.9936406569752, 127.09237568654702"
+    latlng: "36.9936406569752, 127.09237568654702",
+    address_english: "Praza Pharmacy"
   },
   {
     solo: true,
@@ -27904,7 +30303,8 @@ var position = [
     full: "평택 확진자",
     address: "평택사랑외과의원",
     address_name: "경기 평택시 합정동 672-38",
-    latlng: "36.993689570219985, 127.09204772606253"
+    latlng: "36.993689570219985, 127.09204772606253",
+    address_english: "Pyeongtaek Sarang Medical Center"
   },
   {
     solo: true,
@@ -27916,7 +30316,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 송파구보건소 선별진료소",
     address_name: "서울 송파구 신천동 29-5",
-    latlng: "37.5145795416534, 127.10655565199299"
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -27928,7 +30330,8 @@ var position = [
     full: "서울 확진자",
     address: "중앙대학교병원",
     address_name: "서울 동작구 흑석동 224-1",
-    latlng: "37.5070346335871, 126.96077231617"
+    latlng: "37.5070346335871, 126.96077231617",
+    address_english: "Chung-Ang University Hospital"
   },
   {
     solo: true,
@@ -27940,7 +30343,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 은평구보건소 선별진료소",
     address_name: "서울 은평구 녹번동 84",
-    latlng: "37.602456970227585, 126.928823550033"
+    latlng: "37.602456970227585, 126.928823550033",
+    address_english:
+      "Corona19 Eunpyeong District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -27952,7 +30357,8 @@ var position = [
     full: "서울 확진자",
     address: "삼육서울병원",
     address_name: "서울 동대문구 휘경동 29-1",
-    latlng: "37.587990429594605, 127.065329444279"
+    latlng: "37.587990429594605, 127.065329444279",
+    address_english: "Samyuk Seoul Hospital"
   },
   {
     solo: true,
@@ -27964,7 +30370,8 @@ var position = [
     full: "서울 확진자",
     address: "애슐리퀸즈 잠실웰빙센터점",
     address_name: "서울 송파구 잠실동 40-1",
-    latlng: "37.51038939481731, 127.09663715132801"
+    latlng: "37.51038939481731, 127.09663715132801",
+    address_english: "Ashley Queen's Jamsil Well-being Center"
   },
   {
     solo: true,
@@ -27976,7 +30383,8 @@ var position = [
     full: "서대문구 확진자",
     address: "서대문구 가좌보건지소",
     address_name: "서울 서대문구 북가좌동 477",
-    latlng: "37.574210725029204, 126.910135933983"
+    latlng: "37.574210725029204, 126.910135933983",
+    address_english: "Gajwa Health Branch of Seodaemun-gu"
   },
   {
     solo: true,
@@ -27988,20 +30396,9 @@ var position = [
     full: "서대문구 확진자",
     address: "북가좌1동주민센터",
     address_name: "서울 서대문구 북가좌동 477",
-    latlng: "37.57441980379486, 126.91019907588093"
+    latlng: "37.57441980379486, 126.91019907588093",
+    address_english: "North House Idong Community Center"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#서울 확진자",
-  //   month: 2,
-  //   day: 26,
-  //   name: "서울",
-  //   full: "서울 확진자",
-  //   address: "대교아파트-2/20.21.24.25 숙소 방문",
-  //   address_name: "서울 영등포구 여의도동 41",
-  //   latlng: "37.52215218606678, 126.93368274796941"
-  // },
   {
     solo: true,
     profile: "-",
@@ -28012,7 +30409,8 @@ var position = [
     full: "서울 확진자",
     address: "박선영김밥-2/20방문",
     address_name: "서울 영등포구 여의도동 21-4",
-    latlng: "37.5260284176112, 126.930751541335"
+    latlng: "37.5260284176112, 126.930751541335",
+    address_english: "Visit Park Sun-young Kimbap-2/20"
   },
   {
     solo: true,
@@ -28024,7 +30422,9 @@ var position = [
     full: "서울 확진자",
     address: "서울상가-1층 통영굴찜에서 식사(2/20방문)",
     address_name: "서울 영등포구 여의도동 21-3",
-    latlng: "37.52623041932001, 126.93105454082799"
+    latlng: "37.52623041932001, 126.93105454082799",
+    address_english:
+      "Dining (2/20 Visit) at Tongyeong Cave Jjim on the 1st floor of Seoul Shopping Center"
   },
   {
     solo: true,
@@ -28036,7 +30436,9 @@ var position = [
     full: "서울 확진자",
     address: "파이낸셜뉴스빌딩-지하1층 칠미식당에서 저녁",
     address_name: "서울 영등포구 여의도동 24-5",
-    latlng: "37.524466107863304, 126.92778907059501"
+    latlng: "37.524466107863304, 126.92778907059501",
+    address_english:
+      "Dinner at Chilmi Restaurant on the first floor of the Financial News Building"
   },
   {
     solo: true,
@@ -28048,7 +30450,8 @@ var position = [
     full: "서울 확진자",
     address: "여의나루역 5호선 이용",
     address_name: "서울 영등포구 여의도동 84-4",
-    latlng: "37.527146948946516, 126.93298596744002"
+    latlng: "37.527146948946516, 126.93298596744002",
+    address_english: "Use of Yeouido Station Line 5"
   },
   {
     solo: true,
@@ -28060,7 +30463,8 @@ var position = [
     full: "서울 확진자",
     address: "간석역 1호선 이용",
     address_name: "인천 남동구 간석동 757",
-    latlng: "37.4647071796968, 126.69351789829199"
+    latlng: "37.4647071796968, 126.69351789829199",
+    address_english: "Kansok Station Line 1"
   },
   {
     solo: true,
@@ -28072,7 +30476,8 @@ var position = [
     full: "서울 확진자",
     address: "왕산",
     address_name: "서울 영등포구 여의도동 21-3",
-    latlng: "37.5261736984718, 126.93112699565295"
+    latlng: "37.5261736984718, 126.93112699565295",
+    address_english: "Wang San"
   },
   {
     solo: true,
@@ -28084,7 +30489,8 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 여의도성모병원 선별진료소",
     address_name: "서울 영등포구 여의도동 62",
-    latlng: "37.51833004820399, 126.936817216384"
+    latlng: "37.51833004820399, 126.936817216384",
+    address_english: "Corona19 Yeouido St. Mary's Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -28096,7 +30502,8 @@ var position = [
     full: "원주 확진자",
     address: "맛찬들삼겹살(무실동 소재) 방문",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "37.336152, 127.931808"
+    latlng: "37.336152, 127.931808",
+    address_english: "Visit to Delicious Pork Belly (Mushil-dong)"
   },
   {
     solo: true,
@@ -28108,7 +30515,8 @@ var position = [
     full: "원주 확진자",
     address: "대구 경북대병원 장례식장 방문",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "35.865428, 128.605547"
+    latlng: "35.865428, 128.605547",
+    address_english: "Visiting Kyungpook National University Hospital in Daegu"
   },
   {
     solo: true,
@@ -28120,7 +30528,9 @@ var position = [
     full: "원주 확진자",
     address: "차신웅 내과 방문",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "37.342051, 127.955074"
+    latlng: "37.342051, 127.955074",
+    address_english:
+      "Cha Shin-woong's visit to the Internal Medicine Department"
   },
   {
     solo: true,
@@ -28132,7 +30542,9 @@ var position = [
     full: "원주 확진자",
     address: "국제빌딩 출근(회사 직원 8명과 접촉)",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "37.566989, 126.982226"
+    latlng: "37.566989, 126.982226",
+    address_english:
+      "To work at the International Building (contacted with eight employees of the company)"
   },
   {
     solo: true,
@@ -28144,7 +30556,8 @@ var position = [
     full: "구미 확진자",
     address: "터미널호텔사우나",
     address_name: "경북 구미시 선산읍 동부리 327-5",
-    latlng: "36.2402265577043, 128.30439035697106"
+    latlng: "36.2402265577043, 128.30439035697106",
+    address_english: "Terminal Hotel Sauna"
   },
   {
     solo: true,
@@ -28156,7 +30569,8 @@ var position = [
     full: "구미 확진자",
     address: "e편한세상구미교리아파트",
     address_name: "경북 구미시 선산읍 교리 1172",
-    latlng: "36.25230047920839, 128.304992680739"
+    latlng: "36.25230047920839, 128.304992680739",
+    address_english: "eComfortable World Gumi-Gyrian Part"
   },
   {
     solo: true,
@@ -28168,7 +30582,8 @@ var position = [
     full: "구미 확진자",
     address: "중앙스포츠볼링장",
     address_name: "경북 구미시 남통동 8",
-    latlng: "36.1294255883706, 128.3245218617891"
+    latlng: "36.1294255883706, 128.3245218617891",
+    address_english: "Central Sports Bowling Ground"
   },
   {
     solo: true,
@@ -28180,7 +30595,8 @@ var position = [
     full: "구미 확진자",
     address: "복권천하명당 선산읍점",
     address_name: "경북 구미시 남통동 8",
-    latlng: "36.2115672,128.2911758,12"
+    latlng: "36.2115672,128.2911758,12",
+    address_english: "Sunsan Town Store per Lottery Man"
   },
   {
     solo: true,
@@ -28192,7 +30608,8 @@ var position = [
     full: "구미 확진자",
     address: "미니스톱 구미선산단계점",
     address_name: "경북 구미시 선산읍 노상리 149-2",
-    latlng: "36.242269775377906, 128.29781208866106"
+    latlng: "36.242269775377906, 128.29781208866106",
+    address_english: "Ministop Gumi Sunsan Phase Point"
   },
   {
     solo: true,
@@ -28204,7 +30621,8 @@ var position = [
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소",
     address_name: "경북 구미시 지산동 853-12",
-    latlng: "36.13993541358159, 128.34595355207307"
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english: "Corona19 Gumi Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -28216,7 +30634,8 @@ var position = [
     full: "구미 확진자",
     address: "엄스",
     address_name: "경북 구미시 원평동 398-3",
-    latlng: "36.127277471090395, 128.32995196303054"
+    latlng: "36.127277471090395, 128.32995196303054",
+    address_english: "Uhms"
   },
   {
     solo: true,
@@ -28228,7 +30647,8 @@ var position = [
     full: "구미 확진자",
     address: "이송디자인인쇄",
     address_name: "경북 구미시 원평동 1077-8",
-    latlng: "36.1210863059716, 128.35434846664506"
+    latlng: "36.1210863059716, 128.35434846664506",
+    address_english: "Transfer design printing"
   },
   {
     solo: true,
@@ -28240,7 +30660,8 @@ var position = [
     full: "구미 확진자",
     address: "평양면옥",
     address_name: "경북 구미시 신평동 150-75",
-    latlng: "36.1211940737365, 128.36240622459005"
+    latlng: "36.1211940737365, 128.36240622459005",
+    address_english: "Pyongyang Myeonok"
   },
   {
     solo: true,
@@ -28252,7 +30673,8 @@ var position = [
     full: "구미 확진자",
     address: "본가 구미원평점",
     address_name: "경북 구미시 원평동 1065-7",
-    latlng: "36.12227954951871, 128.3494662637161"
+    latlng: "36.12227954951871, 128.3494662637161",
+    address_english: "the home of Gumiwon"
   },
   {
     solo: true,
@@ -28264,7 +30686,8 @@ var position = [
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소",
     address_name: "경북 구미시 지산동 853-12",
-    latlng: "36.13993541358159, 128.34595355207307"
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english: "Corona19 Gumi Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -28276,7 +30699,8 @@ var position = [
     full: "대구 확진자",
     address: "하나은행 구미인동지점",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.107387304231786, 128.4189531773041"
+    latlng: "36.107387304231786, 128.4189531773041",
+    address_english: "Hana Bank Gumi Human Resources Branch"
   },
   {
     solo: true,
@@ -28288,7 +30712,8 @@ var position = [
     full: "대구 확진자",
     address: "전국제일순대 인동점",
     address_name: "경북 구미시 황상동 313-4",
-    latlng: "36.107469322472305, 128.41933222194908"
+    latlng: "36.107469322472305, 128.41933222194908",
+    address_english: "National First Sundae Indong Branch"
   },
   {
     solo: true,
@@ -28300,7 +30725,8 @@ var position = [
     full: "대구 확진자",
     address: "매스커피 구미인동점",
     address_name: "경북 구미시 황상동 314-20",
-    latlng: "36.1076749470673, 128.41870959951308"
+    latlng: "36.1076749470673, 128.41870959951308",
+    address_english: "Mass coffee nine points"
   },
   {
     solo: true,
@@ -28312,7 +30738,8 @@ var position = [
     full: "대구 확진자",
     address: "제이엠5주유소",
     address_name: "경북 구미시 황상동 382-1",
-    latlng: "36.1108276546153, 128.42003232933013"
+    latlng: "36.1108276546153, 128.42003232933013",
+    address_english: "J.M. 5 Main Oil Station"
   },
   {
     solo: true,
@@ -28324,7 +30751,8 @@ var position = [
     full: "대구 확진자",
     address: "스타벅스 구미인동점",
     address_name: "경북 구미시 황상동 305-26",
-    latlng: "36.1078817815538, 128.4185933852291"
+    latlng: "36.1078817815538, 128.4185933852291",
+    address_english: "Starbucks Gumi Children's Shop"
   },
   {
     solo: true,
@@ -28336,7 +30764,8 @@ var position = [
     full: "대구 확진자",
     address: "삼성연합의원",
     address_name: "경북 구미시 황상동 313-2",
-    latlng: "36.10706126897719, 128.41924270326882"
+    latlng: "36.10706126897719, 128.41924270326882",
+    address_english: "Samsung United Rep."
   },
   {
     solo: true,
@@ -28348,7 +30777,8 @@ var position = [
     full: "대구 확진자",
     address: "우정약국",
     address_name: "경북 구미시 황상동 314-6",
-    latlng: "36.10731475554349, 128.41899185009012"
+    latlng: "36.10731475554349, 128.41899185009012",
+    address_english: "friendship and medicine bureau"
   },
   {
     solo: true,
@@ -28360,7 +30790,8 @@ var position = [
     full: "대구 확진자",
     address: "이마트 24 강변파라디아점",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12131489443909, 128.37281779598533"
+    latlng: "36.12131489443909, 128.37281779598533",
+    address_english: "E-Mart 24 Riverside Paradia Store"
   },
   {
     solo: true,
@@ -28372,7 +30803,8 @@ var position = [
     full: "대구 확진자",
     address: "강변파라디아아파트",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12131489443909, 128.37281779598533"
+    latlng: "36.12131489443909, 128.37281779598533",
+    address_english: "riverside paradia apartment"
   },
   {
     solo: true,
@@ -28384,7 +30816,9 @@ var position = [
     full: "이천 확진자",
     address: "황제출장부페한식부페(2/18~24)",
     address_name: "경기 이천시 부발읍 가산리 505",
-    latlng: "37.2425312254766, 127.50127317089301"
+    latlng: "37.2425312254766, 127.50127317089301",
+    address_english:
+      "Hwang Submission Book SubmissionPayhan Meal Book (2/18-24)"
   },
   {
     solo: true,
@@ -28396,7 +30830,8 @@ var position = [
     full: "이천 확진자",
     address: "양평해장국 백사점",
     address_name: "경기 이천시 백사면 송말리 95-4",
-    latlng: "37.3365139292931, 127.48704241451766"
+    latlng: "37.3365139292931, 127.48704241451766",
+    address_english: "Yangpyeong Hangover Soup Baeksa Branch"
   },
   {
     solo: true,
@@ -28408,7 +30843,8 @@ var position = [
     full: "이천 확진자",
     address: "본가육개장전문",
     address_name: "경기 이천시 백사면 조읍리 600-3",
-    latlng: "37.3220377488817, 127.472458203033"
+    latlng: "37.3220377488817, 127.472458203033",
+    address_english: "home meat market specialization"
   },
   {
     solo: true,
@@ -28420,7 +30856,8 @@ var position = [
     full: "이천 확진자",
     address: "백사보건지소",
     address_name: "경기 이천시 백사면 현방리 87-13",
-    latlng: "37.3391931742422, 127.490192347068"
+    latlng: "37.3391931742422, 127.490192347068",
+    address_english: "White House of Health"
   },
   {
     solo: true,
@@ -28432,7 +30869,8 @@ var position = [
     full: "이천 확진자",
     address: "백사연합의원(2/21, 22)",
     address_name: "경기 이천시 백사면 현방리 72-26",
-    latlng: "37.3396024279519, 127.492316541277"
+    latlng: "37.3396024279519, 127.492316541277",
+    address_english: "Baeksa Union Congressman (2/21, 22)"
   },
   {
     solo: true,
@@ -28444,7 +30882,8 @@ var position = [
     full: "이천 확진자",
     address: "현방웰빙분식",
     address_name: "경기 이천시 백사면 현방리 67-15",
-    latlng: "37.3402851937896, 127.49279947612199"
+    latlng: "37.3402851937896, 127.49279947612199",
+    address_english: "Current well-being formula"
   },
   {
     solo: true,
@@ -28456,7 +30895,8 @@ var position = [
     full: "이천 확진자",
     address: "코로나19 이천시보건소 선별진료소",
     address_name: "경기 이천시 증포동 152-2",
-    latlng: "37.28896212827189, 127.45234028468802"
+    latlng: "37.28896212827189, 127.45234028468802",
+    address_english: "Corona19 Icheon City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -28468,7 +30908,8 @@ var position = [
     full: "이천 확진자",
     address: "파티마병원(2/23, 24)",
     address_name: "경기 이천시 중리동 467-2",
-    latlng: "37.274777915542785, 127.449071316135"
+    latlng: "37.274777915542785, 127.449071316135",
+    address_english: "Fatima Hospital (2/23, 24)"
   },
   {
     solo: true,
@@ -28480,7 +30921,8 @@ var position = [
     full: "이천 확진자",
     address: "백화점약국",
     address_name: "경기 이천시 중리동 38-13",
-    latlng: "37.273930885388, 127.45003593175198"
+    latlng: "37.273930885388, 127.45003593175198",
+    address_english: "Department Store Pharmacy"
   },
   {
     solo: true,
@@ -28492,7 +30934,8 @@ var position = [
     full: "이천 확진자",
     address: "푸주옥",
     address_name: "경기 이천시 중리동 467-4",
-    latlng: "37.2747290771676, 127.449594189918"
+    latlng: "37.2747290771676, 127.449594189918",
+    address_english: "Pu Ju Ok"
   },
   {
     solo: true,
@@ -28504,7 +30947,8 @@ var position = [
     full: "이천 확진자",
     address: "평원막국수",
     address_name: "경기 이천시 부발읍 가산리 485-5",
-    latlng: "37.24126532091349, 127.504866702579"
+    latlng: "37.24126532091349, 127.504866702579",
+    address_english: "plain makguksu"
   },
   {
     solo: true,
@@ -28516,7 +30960,8 @@ var position = [
     full: "이천 확진자",
     address: "경기도의료원 이천병원",
     address_name: "경기 이천시 관고동 215",
-    latlng: "37.28279555484855, 127.43304347145099"
+    latlng: "37.28279555484855, 127.43304347145099",
+    address_english: "Gyeonggi Provincial Medical Center Icheon Hospital"
   },
   {
     solo: true,
@@ -28528,20 +30973,9 @@ var position = [
     full: "이천 확진자",
     address: "본가육개장전문",
     address_name: "경기 이천시 백사면 조읍리 600-3",
-    latlng: "37.3220377488817, 127.472458203033"
+    latlng: "37.3220377488817, 127.472458203033",
+    address_english: "home meat market specialization"
   },
-  // {
-  //   solo: true,
-  //   profile: "-",
-  //   tag: "#과천 확진자",
-  //   month: 2,
-  //   day: 24,
-  //   name: "과천",
-  //   full: "과천 확진자",
-  //   address: "CU 청계마을 근무",
-  //   address_name: "경기 의왕시 청계동 976",
-  //   latlng: "37.3918122772648, 126.998481133252"
-  // },
   {
     solo: true,
     profile: "-",
@@ -28552,9 +30986,9 @@ var position = [
     full: "구미 확진자",
     address: "스시소담",
     address_name: "경북 구미시 상모동 110-11",
-    latlng: "36.089066279670405, 128.3505791405041"
+    latlng: "36.089066279670405, 128.3505791405041",
+    address_english: "Sushi Sodam"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28565,9 +30999,9 @@ var position = [
     full: "구미 확진자",
     address: "CU 구미임오점",
     address_name: "경북 구미시 임은동 325-8",
-    latlng: "36.088050459100785, 128.36483491881307"
+    latlng: "36.088050459100785, 128.36483491881307",
+    address_english: "CU Gumi-O point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28578,9 +31012,9 @@ var position = [
     full: "구미 확진자",
     address: "DC마트 임은점",
     address_name: "인천 강화군 화도면 동막리 13-3",
-    latlng: "36.0878449,128.3640548,17"
+    latlng: "36.0878449,128.3640548,17",
+    address_english: "DC Mart Im Eun-ji"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28591,9 +31025,9 @@ var position = [
     full: "구미 확진자",
     address: "굿모닝가정의학과의원",
     address_name: "경북 구미시 임은동 822",
-    latlng: "36.086018396179206, 128.3638050435211"
+    latlng: "36.086018396179206, 128.3638050435211",
+    address_english: "Good Morning Family Medical Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28604,9 +31038,9 @@ var position = [
     full: "구미 확진자",
     address: "임은하나약국",
     address_name: "경북 구미시 임은동 822",
-    latlng: "36.08601174433912, 128.36375607964308"
+    latlng: "36.08601174433912, 128.36375607964308",
+    address_english: "Lim Eunha Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28617,9 +31051,10 @@ var position = [
     full: "구미 확진자",
     address: "뼈큰청진동해장국 구미상모점",
     address_name: "경북 구미시 상모동 9-6",
-    latlng: "36.09104812851009, 128.35510744944008"
+    latlng: "36.09104812851009, 128.35510744944008",
+    address_english:
+      "Gumi Sangmo point a large bone with dumplings Chongjin donghae"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28630,9 +31065,9 @@ var position = [
     full: "구미 확진자",
     address: "CU 구미임은중앙점",
     address_name: "경북 구미시 임은동 317-9",
-    latlng: "36.0884201622403, 128.36750143950806"
+    latlng: "36.0884201622403, 128.36750143950806",
+    address_english: "CU Gumiim Center Point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28643,9 +31078,9 @@ var position = [
     full: "구미 확진자",
     address: "이게피씨방이다 임오동",
     address_name: "경북 구미시 임은동 521",
-    latlng: "36.08831992364342, 128.36807258454007"
+    latlng: "36.08831992364342, 128.36807258454007",
+    address_english: "This is the PC room, Im Oh-dong."
   },
-
   {
     solo: true,
     profile: "-",
@@ -28656,9 +31091,9 @@ var position = [
     full: "구미 확진자",
     address: "오케이 포인트마트",
     address_name: "경북 구미시 임은동 326",
-    latlng: "36.08742146608991, 128.36499279759607"
+    latlng: "36.08742146608991, 128.36499279759607",
+    address_english: "Okay, Point Mart"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28669,7 +31104,8 @@ var position = [
     full: "구미 확진자",
     address: "CU 구미임오점",
     address_name: "경북 구미시 임은동 325-8",
-    latlng: "36.088050459100785, 128.36483491881307"
+    latlng: "36.088050459100785, 128.36483491881307",
+    address_english: "CU Gumi-O point"
   },
   {
     solo: true,
@@ -28681,7 +31117,8 @@ var position = [
     full: "칠곡 확진자",
     address: "한데만데이",
     address_name: "경북 구미시 송정동 497-10",
-    latlng: "36.1144709231959, 128.35284436736904"
+    latlng: "36.1144709231959, 128.35284436736904",
+    address_english: "but day"
   },
   {
     solo: true,
@@ -28693,9 +31130,9 @@ var position = [
     full: "김천 확진자",
     address: "365세탁소 평화동",
     address_name: "경북 구미시 송정동 497-10",
-    latlng: "36.1271583,128.113874,17"
+    latlng: "36.1271583,128.113874,17",
+    address_english: "365 Laundry Peace Wing"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28706,9 +31143,9 @@ var position = [
     full: "김천 확진자",
     address: "남원당약방",
     address_name: "경북 김천시 부곡동 1254-4",
-    latlng: "36.12596648665611, 128.10629200520702"
+    latlng: "36.12596648665611, 128.10629200520702",
+    address_english: "Namwon sugar medicine shop"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28719,9 +31156,9 @@ var position = [
     full: "김천 확진자",
     address: "GS25 김천문화점",
     address_name: "경북 김천시 평화동 150-32",
-    latlng: "36.12727413851301, 128.10833204514702"
+    latlng: "36.12727413851301, 128.10833204514702",
+    address_english: "GS25 Gimcheon Culture Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28732,9 +31169,10 @@ var position = [
     full: "김천 확진자",
     address: "코로나19 김천시보건소 선별진료소",
     address_name: "경북 김천시 신음동 1284",
-    latlng: "36.1395347721546, 128.11286400793801"
+    latlng: "36.1395347721546, 128.11286400793801",
+    address_english:
+      "Corona19 Kimcheon City Health Center Screening Care Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -28745,7 +31183,9 @@ var position = [
     full: "김천 확진자",
     address: "코로나19 김천시보건소 선별진료소",
     address_name: "경북 김천시 신음동 1284",
-    latlng: "36.1395347721546, 128.11286400793801"
+    latlng: "36.1395347721546, 128.11286400793801",
+    address_english:
+      "Corona19 Kimcheon City Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -28757,7 +31197,8 @@ var position = [
     full: "칠곡 확진자",
     address: "왜관교회",
     address_name: "경북 칠곡군 왜관읍 왜관리 247-2",
-    latlng: "35.990833887371416, 128.39806958048908"
+    latlng: "35.990833887371416, 128.39806958048908",
+    address_english: "Waegwan Church"
   },
   {
     solo: true,
@@ -28769,7 +31210,8 @@ var position = [
     full: "칠곡 확진자",
     address: "왜관병원",
     address_name: "경북 칠곡군 왜관읍 왜관리 174-54",
-    latlng: "35.9961244038561, 128.40155630535912"
+    latlng: "35.9961244038561, 128.40155630535912",
+    address_english: "Waegwan Hospital"
   },
   {
     solo: true,
@@ -28781,7 +31223,8 @@ var position = [
     full: "칠곡 확진자",
     address: "반계새마을회관",
     address_name: "경북 칠곡군 석적읍 반계리 254-3",
-    latlng: "36.02399217374581, 128.43170424434908"
+    latlng: "36.02399217374581, 128.43170424434908",
+    address_english: "Ban Gyesae Village Hall"
   },
   {
     solo: true,
@@ -28793,7 +31236,8 @@ var position = [
     full: "이천 확진자",
     address: "경기도의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Provincial Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -28805,7 +31249,8 @@ var position = [
     full: "칠곡 확진자",
     address: "북삼경대연합속내과",
     address_name: "경북 칠곡군 북삼읍 인평리 192-2",
-    latlng: "36.0684482997443, 128.34607529929107"
+    latlng: "36.0684482997443, 128.34607529929107",
+    address_english: "Northern Samgyongdae Union Internal Medicine"
   },
   {
     solo: true,
@@ -28817,7 +31262,8 @@ var position = [
     full: "칠곡 확진자",
     address: "북삼건강한약국",
     address_name: "경북 칠곡군 북삼읍 인평리 192-2",
-    latlng: "36.0684482997443, 128.34607529929107"
+    latlng: "36.0684482997443, 128.34607529929107",
+    address_english: "Northern Samgyon Healthy Pharmacy"
   },
   {
     solo: true,
@@ -28829,7 +31275,8 @@ var position = [
     full: "칠곡 확진자",
     address: "북삼농협하나로마트 지점",
     address_name: "경북 칠곡군 북삼읍 인평리 318",
-    latlng: "36.06535631655499, 128.34166841521773"
+    latlng: "36.06535631655499, 128.34166841521773",
+    address_english: "Northern Samnonghyup Hanarot Co., Ltd."
   },
   {
     solo: true,
@@ -28841,7 +31288,8 @@ var position = [
     full: "칠곡 확진자",
     address: "코로나19 구미차병원 선별진료소",
     address_name: "경북 구미시 형곡동 855",
-    latlng: "36.11456529496051, 128.34052267803105"
+    latlng: "36.11456529496051, 128.34052267803105",
+    address_english: "Corona19 Gumi Tea Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -28853,7 +31301,8 @@ var position = [
     full: "칠곡 확진자",
     address: "경상북도 포항의료원",
     address_name: "경북 포항시 북구 용흥동 315",
-    latlng: "36.03501859366064, 129.35512278857325"
+    latlng: "36.03501859366064, 129.35512278857325",
+    address_english: "Pohang Medical Center, North Gyeongsang Province"
   },
   {
     solo: true,
@@ -28865,7 +31314,8 @@ var position = [
     full: "칠곡 확진자",
     address: "경상북도 포항의료원",
     address_name: "경북 포항시 북구 용흥동 315",
-    latlng: "36.03501859366064, 129.35512278857325"
+    latlng: "36.03501859366064, 129.35512278857325",
+    address_english: "Pohang Medical Center, North Gyeongsang Province"
   },
   {
     solo: true,
@@ -28877,7 +31327,8 @@ var position = [
     full: "평택 확진자",
     address: "평택역",
     address_name: "경기 평택시 평택동 185-579",
-    latlng: "36.99098235648259, 127.08529109294702"
+    latlng: "36.99098235648259, 127.08529109294702",
+    address_english: "Pyeongtaek Station"
   },
   {
     solo: true,
@@ -28889,7 +31340,8 @@ var position = [
     full: "평택 확진자",
     address: "케이엠제약",
     address_name: "경기 평택시 포승읍 도곡리 1219",
-    latlng: "36.98681017820531, 126.850706087085"
+    latlng: "36.98681017820531, 126.850706087085",
+    address_english: "K.M. Pharmaceuticals"
   },
   {
     solo: true,
@@ -28901,7 +31353,8 @@ var position = [
     full: "평택 확진자",
     address: "지제역",
     address_name: "경기 평택시 지제동 559-4",
-    latlng: "37.01878180904829, 127.06983273837399"
+    latlng: "37.01878180904829, 127.06983273837399",
+    address_english: "Jije Station"
   },
   {
     solo: true,
@@ -28913,7 +31366,8 @@ var position = [
     full: "평택 확진자",
     address: "동대구역",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu Station"
   },
   {
     solo: true,
@@ -28925,7 +31379,8 @@ var position = [
     full: "화성 확진자",
     address: "동탄보건지소",
     address_name: "경기 화성시 석우동 60",
-    latlng: "37.20701976581681, 127.07836788590825"
+    latlng: "37.20701976581681, 127.07836788590825",
+    address_english: "Dongtan Health Branch"
   },
   {
     solo: true,
@@ -28937,7 +31392,8 @@ var position = [
     full: "안양 확진자",
     address: "지에스테크윈",
     address_name: "경기 화성시 반월동 347-17",
-    latlng: "37.2294780184202, 127.06567694811201"
+    latlng: "37.2294780184202, 127.06567694811201",
+    address_english: "Gestekwin"
   },
   {
     solo: true,
@@ -28949,7 +31405,8 @@ var position = [
     full: "화성 확진자",
     address: "지에스테크윈 근무",
     address_name: "경기 화성시 반월동 347-17",
-    latlng: "37.2294780184202, 127.06567694811201"
+    latlng: "37.2294780184202, 127.06567694811201",
+    address_english: "GESTEKWIN"
   },
   {
     solo: true,
@@ -28961,7 +31418,9 @@ var position = [
     full: "안양 확진자",
     address: "이마트 평촌점 1층 약국",
     address_name: "경기 안양시 동안구 관양동 1608",
-    latlng: "37.39492964284795, 126.96364732748665"
+    latlng: "37.39492964284795, 126.96364732748665",
+    address_english:
+      "a drugstore on the first floor of E-Mart's Pyeongchon branch"
   },
   {
     solo: true,
@@ -28973,7 +31432,8 @@ var position = [
     full: "수원 확진자",
     address: "신세계백화점 경기점 6층",
     address_name: "경기 용인시 수지구 죽전동 1285",
-    latlng: "37.32502994669613, 127.10825624869119"
+    latlng: "37.32502994669613, 127.10825624869119",
+    address_english: "Sixth floor of Shinsegae Department Store"
   },
   {
     solo: true,
@@ -28985,7 +31445,8 @@ var position = [
     full: "경산 확진자",
     address: "참 이비인후과",
     address_name: "경북 경산시 하양읍 금락리 16-1",
-    latlng: "35.913810558912246, 128.81950619095306"
+    latlng: "35.913810558912246, 128.81950619095306",
+    address_english: "True ENT"
   },
   {
     solo: true,
@@ -28997,7 +31458,8 @@ var position = [
     full: "경산 확진자",
     address: "신기한약국",
     address_name: "경북 경산시 하양읍 금락리 16-1",
-    latlng: "35.91381035749199, 128.81951947890659"
+    latlng: "35.91381035749199, 128.81951947890659",
+    address_english: "a new drugstore"
   },
   {
     solo: true,
@@ -29009,7 +31471,8 @@ var position = [
     full: "경산 확진자",
     address: "CU 대구대후문점",
     address_name: "경북 경산시 진량읍 내리리 354",
-    latlng: "35.90516379889498, 128.84159179687458"
+    latlng: "35.90516379889498, 128.84159179687458",
+    address_english: "CU Daegu Post Office"
   },
   {
     solo: true,
@@ -29021,7 +31484,8 @@ var position = [
     full: "경산 확진자",
     address: "CU 경산중방대로점",
     address_name: "경북 경산시 중방동 826-8",
-    latlng: "35.830289411734306, 128.73738036125042"
+    latlng: "35.830289411734306, 128.73738036125042",
+    address_english: "CU Gyeongsan Mid-Road Point"
   },
   {
     solo: true,
@@ -29033,7 +31497,8 @@ var position = [
     full: "경산 확진자",
     address: "그린약국",
     address_name: "경북 경산시 사동 40",
-    latlng: "35.81121286650781, 128.75459902219444"
+    latlng: "35.81121286650781, 128.75459902219444",
+    address_english: "Green Pharmacy"
   },
   {
     solo: true,
@@ -29045,7 +31510,8 @@ var position = [
     full: "경산 확진자",
     address: "서울연합의원",
     address_name: "경북 경산시 조영동 243-15",
-    latlng: "35.83933864843229, 128.7579385987232"
+    latlng: "35.83933864843229, 128.7579385987232",
+    address_english: "Seoul United Rep."
   },
   {
     solo: true,
@@ -29057,7 +31523,9 @@ var position = [
     full: "부산 확진자",
     address: "수영초등학교 병설유치원(21일, 24일 직장 근무)",
     address_name: "부산 수영구 광안동 725",
-    latlng: "35.16546872551779, 129.11185866674066"
+    latlng: "35.16546872551779, 129.11185866674066",
+    address_english:
+      "Sooyoung Elementary School Hospital (working on the 21st and 24th)"
   },
   {
     solo: true,
@@ -29069,7 +31537,8 @@ var position = [
     full: "부산 확진자",
     address: "모리구이집",
     address_name: "부산 해운대구 중동 587",
-    latlng: "35.160678285527624, 129.19177764265112"
+    latlng: "35.160678285527624, 129.19177764265112",
+    address_english: "a roasting house"
   },
   {
     solo: true,
@@ -29081,7 +31550,8 @@ var position = [
     full: "부산 확진자",
     address: "샌디블루",
     address_name: "부산 해운대구 중동 591-1",
-    latlng: "35.16066455924601, 129.19154025545512"
+    latlng: "35.16066455924601, 129.19154025545512",
+    address_english: "Sandy Blue"
   },
   {
     solo: true,
@@ -29093,7 +31563,8 @@ var position = [
     full: "부산 확진자",
     address: "코스트코 부산점",
     address_name: "부산 수영구 망미동 195-1",
-    latlng: "35.17855115878731, 129.11529227479465"
+    latlng: "35.17855115878731, 129.11529227479465",
+    address_english: "Costco Busan Branch"
   },
   {
     solo: true,
@@ -29105,7 +31576,8 @@ var position = [
     full: "부산 확진자",
     address: "안락시장",
     address_name: "부산 동래구 안락동 603-1",
-    latlng: "35.19545247143132, 129.10332978069158"
+    latlng: "35.19545247143132, 129.10332978069158",
+    address_english: "Euthanasia market"
   },
   {
     solo: true,
@@ -29117,7 +31589,8 @@ var position = [
     full: "부산 확진자",
     address: "The월마트 안락점",
     address_name: "부산 동래구 안락동 243-57",
-    latlng: "35.1924269543127, 129.10402458824262"
+    latlng: "35.1924269543127, 129.10402458824262",
+    address_english: "The Wal-Mart Euthanasia"
   },
   {
     solo: true,
@@ -29129,7 +31602,8 @@ var position = [
     full: "부산 확진자",
     address: "식육백화점",
     address_name: "부산 동래구 안락동 630-6",
-    latlng: "35.1928339424661, 129.1032139584016"
+    latlng: "35.1928339424661, 129.1032139584016",
+    address_english: "a meat department store"
   },
   {
     solo: true,
@@ -29141,7 +31615,8 @@ var position = [
     full: "부산 확진자",
     address: "이내과의원",
     address_name: "부산 동래구 안락1동 633-27",
-    latlng: "35.193130717552116, 129.09919938663958"
+    latlng: "35.193130717552116, 129.09919938663958",
+    address_english: "an internist"
   },
   {
     solo: true,
@@ -29153,7 +31628,8 @@ var position = [
     full: "부산 확진자",
     address: "드림약국",
     address_name: "부산 동래구 안락1동 633-27",
-    latlng: "35.1931156966669, 129.0992341286846"
+    latlng: "35.1931156966669, 129.0992341286846",
+    address_english: "Dream Pharmacy"
   },
   {
     solo: true,
@@ -29165,7 +31641,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 해운대백병원 선별진료소",
     address_name: "부산 해운대구 좌동 1435",
-    latlng: "35.17333591469752, 129.18218305815606"
+    latlng: "35.17333591469752, 129.18218305815606",
+    address_english: "Corona19 Haeundae Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -29177,7 +31654,8 @@ var position = [
     full: "부산 확진자",
     address: "코끼리이비인후과의원",
     address_name: "부산 수영구 광안동 50-13",
-    latlng: "35.16769640595531, 129.11722342130267"
+    latlng: "35.16769640595531, 129.11722342130267",
+    address_english: "Elephant ENT Clinic"
   },
   {
     solo: true,
@@ -29189,7 +31667,8 @@ var position = [
     full: "부산 확진자",
     address: "이화 메디컬약국",
     address_name: "부산 수영구 광안동 50-13",
-    latlng: "35.167706524370615, 129.11726319088564"
+    latlng: "35.167706524370615, 129.11726319088564",
+    address_english: "Ewha Medical Pharmacy"
   },
   {
     solo: true,
@@ -29201,7 +31680,9 @@ var position = [
     full: "부산 확진자",
     address: "M컨벤션웨딩홀뷔페(마스크착용, 식사안함)",
     address_name: "경남 양산시 중부동 685-2",
-    latlng: "35.3390146075982, 129.02742318632122"
+    latlng: "35.3390146075982, 129.02742318632122",
+    address_english:
+      "M Convention Wedding Hall Buffet (for mask wear, do not eat)"
   },
   {
     solo: true,
@@ -29213,7 +31694,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 수영구보건소 선별진료소(24, 25일 방문)",
     address_name: "부산 수영구 광안동 661-1",
-    latlng: "35.1626441095325, 129.11343165102565"
+    latlng: "35.1626441095325, 129.11343165102565",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center (visited on the 24th and 25th)"
   },
   {
     solo: true,
@@ -29225,7 +31708,8 @@ var position = [
     full: "부산 확진자",
     address: "이차돌 부산광안점",
     address_name: "부산 수영구 광안동 492-2",
-    latlng: "35.1619713784627, 129.11299395765366"
+    latlng: "35.1619713784627, 129.11299395765366",
+    address_english: "Lee Cha-dol, Busan Optical Branch"
   },
   {
     solo: true,
@@ -29237,7 +31721,8 @@ var position = [
     full: "부산 확진자",
     address: "보민내과의원",
     address_name: "부산 수영구 광안동 1077-13",
-    latlng: "35.16554842881041, 129.11452081159464"
+    latlng: "35.16554842881041, 129.11452081159464",
+    address_english: "a bomin physician"
   },
   {
     solo: true,
@@ -29249,7 +31734,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 BHS한서병원 선별진료소",
     address_name: "부산 수영구 광안동 491-10",
-    latlng: "35.1608998044941, 129.11320654836166"
+    latlng: "35.1608998044941, 129.11320654836166",
+    address_english: "Corona19 BHS Hansuh Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -29261,7 +31747,8 @@ var position = [
     full: "부산 확진자",
     address: "희망오륙도약국",
     address_name: "부산 수영구 광안동 596-10",
-    latlng: "35.16041347891209, 129.11318957537165"
+    latlng: "35.16041347891209, 129.11318957537165",
+    address_english: "Hope Five-Foot Office"
   },
   {
     solo: true,
@@ -29273,7 +31760,8 @@ var position = [
     full: "포항 확진자",
     address: "대구서부정류장에서 포항 출발",
     address_name: "대구 남구 대명동 1135",
-    latlng: "35.83672742182441, 128.5578238398552"
+    latlng: "35.83672742182441, 128.5578238398552",
+    address_english: "Departing from Daegu Western Station to Pohang"
   },
   {
     solo: true,
@@ -29285,9 +31773,9 @@ var position = [
     full: "포항 확진자",
     address: "대구서부정류장에서 포항 출발",
     address_name: "대구 남구 대명동 1135",
-    latlng: "35.83672742182441, 128.5578238398552"
+    latlng: "35.83672742182441, 128.5578238398552",
+    address_english: "Departing from Daegu Western Station to Pohang"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29298,9 +31786,9 @@ var position = [
     full: "포항 확진자",
     address: "대잠아델리아아파트",
     address_name: "경북 포항시 남구 대잠동 970",
-    latlng: "36.01780298220199, 129.34535180558385"
+    latlng: "36.01780298220199, 129.34535180558385",
+    address_english: "Daejam Adelia apartment"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29311,9 +31799,9 @@ var position = [
     full: "포항 확진자",
     address: "대잠아델리아아파트",
     address_name: "경북 포항시 남구 대잠동 970",
-    latlng: "36.01780298220199, 129.34535180558385"
+    latlng: "36.01780298220199, 129.34535180558385",
+    address_english: "Daejam Adelia apartment"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29324,9 +31812,9 @@ var position = [
     full: "포항 확진자",
     address: "대잠아델리아아파트",
     address_name: "경북 포항시 남구 대잠동 970",
-    latlng: "36.01780298220199, 129.34535180558385"
+    latlng: "36.01780298220199, 129.34535180558385",
+    address_english: "Daejam Adelia apartment"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29337,9 +31825,9 @@ var position = [
     full: "포항 확진자",
     address: "코아이비인후과의원",
     address_name: "경북 포항시 남구 대잠동 1005-1",
-    latlng: "36.01808051044017, 129.34203285735617"
+    latlng: "36.01808051044017, 129.34203285735617",
+    address_english: "a nose virology clinic"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29350,9 +31838,10 @@ var position = [
     full: "포항 확진자",
     address: "코로나19 포항세명기독병원 선별진료소",
     address_name: "경북 포항시 남구 대도동 94-18",
-    latlng: "36.018100824564016, 129.36157060515134"
+    latlng: "36.018100824564016, 129.36157060515134",
+    address_english:
+      "Corona19 Pohang Semyung Memorial Hospital Screening Clinic"
   },
-
   {
     solo: true,
     profile: "-",
@@ -29363,7 +31852,8 @@ var position = [
     full: "포항 확진자",
     address: "경상북도 포항의료원",
     address_name: "경북 포항시 북구 용흥동 315",
-    latlng: "36.03501859366064, 129.35512278857325"
+    latlng: "36.03501859366064, 129.35512278857325",
+    address_english: "Pohang Medical Center, North Gyeongsang Province"
   },
   {
     solo: true,
@@ -29375,7 +31865,8 @@ var position = [
     full: "서구 확진자",
     address: "가정중앙시장역 인천2호선",
     address_name: "인천 서구 가정동 529",
-    latlng: "37.51752639313769, 126.676823324228"
+    latlng: "37.51752639313769, 126.676823324228",
+    address_english: "Home Central Market Station Line 2"
   },
   {
     solo: true,
@@ -29387,7 +31878,8 @@ var position = [
     full: "서구 확진자",
     address: "검암역 공항철도",
     address_name: "인천 서구 시천동",
-    latlng: "37.56925282184821, 126.673643340675"
+    latlng: "37.56925282184821, 126.673643340675",
+    address_english: "Geomam Station Airport Railway"
   },
   {
     solo: true,
@@ -29399,7 +31891,8 @@ var position = [
     full: "서구 확진자",
     address: "명동역 4호선",
     address_name: "서울 중구 충무로2가 93-2",
-    latlng: "37.560963467184095, 126.986400086711"
+    latlng: "37.560963467184095, 126.986400086711",
+    address_english: "Myeong-dong Station Line 4"
   },
   {
     solo: true,
@@ -29411,7 +31904,9 @@ var position = [
     full: "서울 확진자",
     address: "코로나19 강남구보건소 선별진료소",
     address_name: "서울 강남구 삼성동 8",
-    latlng: "37.51636077923351, 127.042273077358"
+    latlng: "37.51636077923351, 127.042273077358",
+    address_english:
+      "Corona19 Gangnam District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -29423,7 +31918,8 @@ var position = [
     full: "부산 확진자",
     address: "남산내과신경과병원",
     address_name: "부산 금정구 구서동 184-34",
-    latlng: "35.25552637996191, 129.09106509625153"
+    latlng: "35.25552637996191, 129.09106509625153",
+    address_english: "Namsan Internal Medicine Neurology Hospital"
   },
   {
     solo: true,
@@ -29435,7 +31931,8 @@ var position = [
     full: "부산 확진자",
     address: "삼성빅마트",
     address_name: "부산 동래구 안락동 600-7",
-    latlng: "35.19562179446601, 129.1049940227506"
+    latlng: "35.19562179446601, 129.1049940227506",
+    address_english: "Samsung Big Mart"
   },
   {
     solo: true,
@@ -29447,7 +31944,8 @@ var position = [
     full: "부산 확진자",
     address: "박승철헤어스투디오 센텀2호점",
     address_name: "부산 해운대구 우동 1488",
-    latlng: "35.17096079221906, 129.13158060076813"
+    latlng: "35.17096079221906, 129.13158060076813",
+    address_english: "Park Seung-Chul's HeirsTudio Centum 2nd Store"
   },
   {
     solo: true,
@@ -29459,7 +31957,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 대동병원 선별진료소",
     address_name: "부산 동래구 명륜동 530-1",
-    latlng: "35.2042360924945, 129.08022333262247"
+    latlng: "35.2042360924945, 129.08022333262247",
+    address_english: "Corona19 Daedong Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -29471,7 +31970,8 @@ var position = [
     full: "부산 확진자",
     address: "보민내과의원",
     address_name: "부산 수영구 광안동 1077-13",
-    latlng: "35.16554842881041, 129.11452081159464"
+    latlng: "35.16554842881041, 129.11452081159464",
+    address_english: "a bomin physician"
   },
   {
     solo: true,
@@ -29483,7 +31983,8 @@ var position = [
     full: "부산 확진자",
     address: "GS칼텍스 부산주유소",
     address_name: "부산 수영구 광안동 164-1",
-    latlng: "35.1554665810057, 129.11285530707664"
+    latlng: "35.1554665810057, 129.11285530707664",
+    address_english: "GS Caltex Busan Oil Refinery Co."
   },
   {
     solo: true,
@@ -29495,7 +31996,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 BHS한서병원 선별진료소",
     address_name: "부산 수영구 광안동 491-10",
-    latlng: "35.1608998044941, 129.11320654836166"
+    latlng: "35.1608998044941, 129.11320654836166",
+    address_english: "Corona19 BHS Hansuh Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -29507,7 +32009,8 @@ var position = [
     full: "부산 확진자",
     address: "희망오륙도약국",
     address_name: "부산 수영구 광안동 596-10",
-    latlng: "35.16041347891209, 129.11318957537165"
+    latlng: "35.16041347891209, 129.11318957537165",
+    address_english: "Hope Five-Foot Office"
   },
   {
     solo: true,
@@ -29519,7 +32022,8 @@ var position = [
     full: "부산 확진자",
     address: "수영초등학교 병설유치원",
     address_name: "부산 수영구 광안동 725",
-    latlng: "35.16546872551779, 129.11185866674066"
+    latlng: "35.16546872551779, 129.11185866674066",
+    address_english: "Suyeong Elementary School Hospital"
   },
   {
     solo: true,
@@ -29531,7 +32035,8 @@ var position = [
     full: "부산 확진자",
     address: "모리구이집",
     address_name: "부산 해운대구 중동 587",
-    latlng: "35.160678285527624, 129.19177764265112"
+    latlng: "35.160678285527624, 129.19177764265112",
+    address_english: "a roasting house"
   },
   {
     solo: true,
@@ -29543,7 +32048,8 @@ var position = [
     full: "부산 확진자",
     address: "샌디블루",
     address_name: "부산 해운대구 중동 591-1",
-    latlng: "35.16066455924601, 129.19154025545512"
+    latlng: "35.16066455924601, 129.19154025545512",
+    address_english: "Sandy Blue"
   },
   {
     solo: true,
@@ -29555,7 +32061,8 @@ var position = [
     full: "부산 확진자",
     address: "새벽이슬동신교회",
     address_name: "부산 동래구 안락동 1228-7",
-    latlng: "35.19974035712401, 129.10715112111163"
+    latlng: "35.19974035712401, 129.10715112111163",
+    address_english: "Dawn Isle-dong Church"
   },
   {
     solo: true,
@@ -29567,7 +32074,8 @@ var position = [
     full: "부산 확진자",
     address: "보떼베르떼",
     address_name: "부산 해운대구 우동 1181-12",
-    latlng: "35.1630316027012, 129.14612095010384"
+    latlng: "35.1630316027012, 129.14612095010384",
+    address_english: "Botteverte"
   },
   {
     solo: true,
@@ -29579,7 +32087,8 @@ var position = [
     full: "부산 확진자",
     address: "노크",
     address_name: "부산 부산진구 부전동 521-22",
-    latlng: "35.15350036439261, 129.0574728963914"
+    latlng: "35.15350036439261, 129.0574728963914",
+    address_english: "Knocking"
   },
   {
     solo: true,
@@ -29591,7 +32100,8 @@ var position = [
     full: "부산 확진자",
     address: "쓰리제이에듀 부산진구지점",
     address_name: "부산 부산진구 양정동 511-3",
-    latlng: "35.17450835507701, 129.0633977090364"
+    latlng: "35.17450835507701, 129.0633977090364",
+    address_english: "3Jadeu Busanjin-gu Branch"
   },
   {
     solo: true,
@@ -29603,7 +32113,8 @@ var position = [
     full: "부산 확진자",
     address: "선산휴게소 양평방향",
     address_name: "경북 구미시 옥성면 대원리 31-6",
-    latlng: "36.27806165422611, 128.24915052331605"
+    latlng: "36.27806165422611, 128.24915052331605",
+    address_english: "Yangpyeong-Direction of Sunsan Rest Area"
   },
   {
     solo: true,
@@ -29615,7 +32126,8 @@ var position = [
     full: "부산 확진자",
     address: "메종드베르",
     address_name: "경기 성남시 분당구 야탑동 366-1",
-    latlng: "37.411592417228306, 127.129723827723"
+    latlng: "37.411592417228306, 127.129723827723",
+    address_english: "Mezondberg"
   },
   {
     solo: true,
@@ -29627,7 +32139,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 갑을장유병원 선별진료소",
     address_name: "경남 김해시 부곡동 748-5",
-    latlng: "35.2086581959703, 128.80563951275755"
+    latlng: "35.2086581959703, 128.80563951275755",
+    address_english: "Korona19 Gabul Presbyterian Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -29639,7 +32152,8 @@ var position = [
     full: "동대문구 확진자",
     address: "홈플러스면목점-방역완료",
     address_name: "서울 강남구 개포동 12",
-    latlng: "37.494986633000636, 127.0771377913112"
+    latlng: "37.494986633000636, 127.0771377913112",
+    address_english: "Home Plus Face Point-Variable completion"
   },
   {
     solo: true,
@@ -29651,7 +32165,8 @@ var position = [
     full: "동대문구 확진자",
     address: "바로유한의원 중랑점",
     address_name: "서울 중랑구 면목동 649-3",
-    latlng: "37.57984604888699, 127.086777934706"
+    latlng: "37.57984604888699, 127.086777934706",
+    address_english: "Baro Yuhan Medical Center"
   },
   {
     solo: true,
@@ -29663,7 +32178,9 @@ var position = [
     full: "동대문구 확진자",
     address: "주공1단지아파트-확진자 자택, 단지내에서 운동",
     address_name: "서울 동대문구 휘경동 57",
-    latlng: "37.582887332939436, 127.07133556183088"
+    latlng: "37.582887332939436, 127.07133556183088",
+    address_english:
+      "Residence of Housing Complex 1st Apartment House, Movement in Site"
   },
   {
     solo: true,
@@ -29675,7 +32192,8 @@ var position = [
     full: "동대문구 확진자",
     address: "광진구보건소",
     address_name: "서울 광진구 자양동 777",
-    latlng: "37.53854422826241, 127.08190995329798"
+    latlng: "37.53854422826241, 127.08190995329798",
+    address_english: "Gwangjin District Health Center"
   },
   {
     solo: true,
@@ -29687,7 +32205,9 @@ var position = [
     full: "양천구 확진자",
     address: "대한적십자사 서울중앙혈액원-확진자 근무지(2/19.20.21.24)",
     address_name: "서울 강서구 염창동 280-17",
-    latlng: "37.548059725492905, 126.87077333543098"
+    latlng: "37.548059725492905, 126.87077333543098",
+    address_english:
+      "Seoul Central Blood Source-Resident Workplaces (2/19.20.21.24)"
   },
   {
     solo: true,
@@ -29699,7 +32219,8 @@ var position = [
     full: "양천구 확진자",
     address: "서울영등포경찰서-출장",
     address_name: "서울 영등포구 당산동3가 2-11",
-    latlng: "37.525852207190006, 126.90094457988002"
+    latlng: "37.525852207190006, 126.90094457988002",
+    address_english: "Seoul Yeongdeungpo Police Station-Travel"
   },
   {
     solo: true,
@@ -29711,7 +32232,8 @@ var position = [
     full: "양천구 확진자",
     address: "한국청소년활동진흥원-출장(헌혈버스)",
     address_name: "서울 서대문구 충정로2가 190-3",
-    latlng: "37.56371438493505, 126.96231589924322"
+    latlng: "37.56371438493505, 126.96231589924322",
+    address_english: "Korea Youth Activity Agency-Travel (Blood Bus)"
   },
   {
     solo: true,
@@ -29723,7 +32245,9 @@ var position = [
     full: "양천구 확진자",
     address: "헌혈의집 연신내센터-헌혈버스",
     address_name: "서울 은평구 갈현동 396-12",
-    latlng: "37.6191089652661, 126.92023995396399"
+    latlng: "37.6191089652661, 126.92023995396399",
+    address_english:
+      "Blood donation house Yonsin-nae Center-Bus for blood donation"
   },
   {
     solo: true,
@@ -29735,7 +32259,8 @@ var position = [
     full: "양천구 확진자",
     address: "서울강서경찰서 임시청사",
     address_name: "서울 양천구 신월동 25",
-    latlng: "37.5397837301896, 126.829985881518"
+    latlng: "37.5397837301896, 126.829985881518",
+    address_english: "Seoul Gangseo Police Station Temporary Building"
   },
   {
     solo: true,
@@ -29747,7 +32272,8 @@ var position = [
     full: "양천구 확진자",
     address: "고양경찰서",
     address_name: "경기 고양시 덕양구 화정동 1008",
-    latlng: "37.628642953954184, 126.82982445881017"
+    latlng: "37.628642953954184, 126.82982445881017",
+    address_english: "Goyang Police Station"
   },
   {
     solo: true,
@@ -29759,7 +32285,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 장안구보건소 선별진료소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.30437595313949, 127.01028699688202"
+    latlng: "37.30437595313949, 127.01028699688202",
+    address_english: "Corona19 Long Eyes Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -29771,7 +32298,8 @@ var position = [
     full: "수원 확진자",
     address: "수원SK스카이뷰아파트 거주",
     address_name: "경기 수원시 장안구 정자동 945",
-    latlng: "37.307129012999305, 126.98498404663093"
+    latlng: "37.307129012999305, 126.98498404663093",
+    address_english: "Residence of Suwon SK Skyview Apartment"
   },
   {
     solo: true,
@@ -29783,7 +32311,8 @@ var position = [
     full: "수원 확진자",
     address: "수원전통문화관",
     address_name: "경기 수원시 팔달구 장안동 33-4",
-    latlng: "37.2870936147403, 127.01451127147901"
+    latlng: "37.2870936147403, 127.01451127147901",
+    address_english: "Suwon Traditional Culture Center"
   },
   {
     solo: true,
@@ -29795,7 +32324,8 @@ var position = [
     full: "수원 확진자",
     address: "LH수원센트럴타운1단지아파트 방문",
     address_name: "경기 수원시 권선구 세류동 1260",
-    latlng: "37.264701506972955, 127.00900316240133"
+    latlng: "37.264701506972955, 127.00900316240133",
+    address_english: "A Visit to the Apartment Complex 1 in Suwon Central Town"
   },
   {
     solo: true,
@@ -29807,7 +32337,8 @@ var position = [
     full: "수원 확진자",
     address: "수원역환승센터(2/23, 24)",
     address_name: "경기 수원시 권선구 서둔동 296-86",
-    latlng: "37.2655884692487, 126.99887261858198"
+    latlng: "37.2655884692487, 126.99887261858198",
+    address_english: "Suwon Transit Center (2/23, 24)"
   },
   {
     solo: true,
@@ -29819,7 +32350,8 @@ var position = [
     full: "수원 확진자",
     address: "다솔초등학교",
     address_name: "경기 수원시 장안구 정자동 946",
-    latlng: "37.3086322493786, 126.987659420044"
+    latlng: "37.3086322493786, 126.987659420044",
+    address_english: "Dasol Elementary School"
   },
   {
     solo: true,
@@ -29831,7 +32363,8 @@ var position = [
     full: "수원 확진자",
     address: "수원역",
     address_name: "경기 수원시 팔달구 매산로1가 18",
-    latlng: "37.2657903079673, 127.00009470029198"
+    latlng: "37.2657903079673, 127.00009470029198",
+    address_english: "Suwon Station"
   },
   {
     solo: true,
@@ -29843,7 +32376,8 @@ var position = [
     full: "수원 확진자",
     address: "서정리역",
     address_name: "경기 평택시 서정동 427-53",
-    latlng: "37.05704305314149, 127.05292700791098"
+    latlng: "37.05704305314149, 127.05292700791098",
+    address_english: "Seojeong-ri Station"
   },
   {
     solo: true,
@@ -29855,7 +32389,8 @@ var position = [
     full: "수원 확진자",
     address: "성균관대역 환승주차장 3층",
     address_name: "경기 수원시 장안구 율전동 301-1",
-    latlng: "37.3000468011573, 126.970311534128"
+    latlng: "37.3000468011573, 126.970311534128",
+    address_english: "Seonggyungwan University Station Transfer Parking Lot 3F"
   },
   {
     solo: true,
@@ -29867,7 +32402,8 @@ var position = [
     full: "수원 확진자",
     address: "화서위브하늘채아파트",
     address_name: "경기 수원시 팔달구 화서동 743",
-    latlng: "37.28841001917147, 127.00056386090763"
+    latlng: "37.28841001917147, 127.00056386090763",
+    address_english: "Hwaseo-Wib Sky Chae Apartment"
   },
   {
     solo: true,
@@ -29879,7 +32415,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 장안구보건소 선별진료소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.30437595313949, 127.01028699688202"
+    latlng: "37.30437595313949, 127.01028699688202",
+    address_english: "Corona19 Long Eyes Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -29891,7 +32428,8 @@ var position = [
     full: "수원 확진자",
     address: "성남시의료원",
     address_name: "경기 성남시 수정구 태평동 3309",
-    latlng: "37.445053152463494, 127.138727193654"
+    latlng: "37.445053152463494, 127.138727193654",
+    address_english: "Seongnam Medical Center"
   },
   {
     solo: true,
@@ -29903,7 +32441,8 @@ var position = [
     full: "강남구 확진자",
     address: "슈가링나나왁싱-방역완료",
     address_name: "서울 관악구 신림동 1655-2",
-    latlng: "37.48337670250325, 126.90272378617314"
+    latlng: "37.48337670250325, 126.90272378617314",
+    address_english: "Sugar-Ringana Waxing-Finished"
   },
   {
     solo: true,
@@ -29915,7 +32454,8 @@ var position = [
     full: "수원 확진자",
     address: "동안구보건소",
     address_name: "경기 안양시 동안구 비산동 1111",
-    latlng: "37.3930351643306, 126.95205046262001"
+    latlng: "37.3930351643306, 126.95205046262001",
+    address_english: "a health center"
   },
   {
     solo: true,
@@ -29927,7 +32467,8 @@ var position = [
     full: "수원 확진자",
     address: "영통구보건소",
     address_name: "경기 수원시 영통구 영통동 961-18",
-    latlng: "37.2569433360389, 127.069434244751"
+    latlng: "37.2569433360389, 127.069434244751",
+    address_english: "Yeongtong-gu Health Center"
   },
   {
     solo: true,
@@ -29939,7 +32480,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도의료원 파주병원",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english: "Gyeonggi Provincial Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -29951,7 +32493,8 @@ var position = [
     full: "관악구 확진자",
     address: "삼일 공인중개사사무소",
     address_name: "서울 관악구 봉천동 1630-8",
-    latlng: "37.4764295447952, 126.961774150289"
+    latlng: "37.4764295447952, 126.961774150289",
+    address_english: "Samil Public Arbitration Office"
   },
   {
     solo: true,
@@ -29963,7 +32506,8 @@ var position = [
     full: "수원 확진자",
     address: "한림대학교 동탄성심병원",
     address_name: "경기 화성시 석우동 40",
-    latlng: "37.2166490921101, 127.08000585823602"
+    latlng: "37.2166490921101, 127.08000585823602",
+    address_english: "Hallym University Dongtan Seongsim Hospital"
   },
   {
     solo: true,
@@ -29975,7 +32519,8 @@ var position = [
     full: "수원 확진자",
     address: "꽃뫼노을마을한마루아파트",
     address_name: "경기 수원시 장안구 정자동 881-4",
-    latlng: "37.291289227326246, 126.9889975267487"
+    latlng: "37.291289227326246, 126.9889975267487",
+    address_english: "Flower Monoeul Village Hanmaru Apartment"
   },
   {
     solo: true,
@@ -29987,7 +32532,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도인재개발원",
     address_name: "경기 수원시 장안구 파장동 179",
-    latlng: "37.3150549986616, 126.98944531183001"
+    latlng: "37.3150549986616, 126.98944531183001",
+    address_english: "Gyeonggi Provincial Human Resources Development Institute"
   },
   {
     solo: true,
@@ -29999,7 +32545,8 @@ var position = [
     full: "수원 확진자",
     address: "장안구보건소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.304368744851516, 127.01028699590029"
+    latlng: "37.304368744851516, 127.01028699590029",
+    address_english: "intestinal health center"
   },
   {
     solo: true,
@@ -30011,7 +32558,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도의료원 파주병원",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english: "Gyeonggi Provincial Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -30023,7 +32571,8 @@ var position = [
     full: "강남구 확진자",
     address: "뉴코아아울렛 강남점-방역완료",
     address_name: "서울 서초구 잠원동 70-2",
-    latlng: "37.5092249441617, 127.007510074858"
+    latlng: "37.5092249441617, 127.007510074858",
+    address_english: "Gangnam branch of New Core outlet - Area finished"
   },
   {
     solo: true,
@@ -30035,7 +32584,8 @@ var position = [
     full: "수원 확진자",
     address: "지에스테크윈 근무",
     address_name: "경기 화성시 반월동 347-17",
-    latlng: "37.2294780184202, 127.06567694811201"
+    latlng: "37.2294780184202, 127.06567694811201",
+    address_english: "GESTEKWIN"
   },
   {
     solo: true,
@@ -30047,7 +32597,8 @@ var position = [
     full: "수원 확진자",
     address: "영통구보건소",
     address_name: "경기 수원시 영통구 영통동 961-18",
-    latlng: "37.2569433360389, 127.069434244751"
+    latlng: "37.2569433360389, 127.069434244751",
+    address_english: "Yeongtong-gu Health Center"
   },
   {
     solo: true,
@@ -30059,7 +32610,8 @@ var position = [
     full: "성동구 확진자",
     address: "고향산천",
     address_name: "서울 성동구 도선동 253-1",
-    latlng: "37.5631399011118, 127.033529922295"
+    latlng: "37.5631399011118, 127.033529922295",
+    address_english: "Hometown mountain stream"
   },
   {
     solo: true,
@@ -30071,7 +32623,8 @@ var position = [
     full: "수원 확진자",
     address: "도원테크 근무",
     address_name: "경기 수원시 권선구 권선동 1058-9",
-    latlng: "37.255383038389304, 127.02191784678801"
+    latlng: "37.255383038389304, 127.02191784678801",
+    address_english: "DoWonTech Service"
   },
   {
     solo: true,
@@ -30083,7 +32636,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 권선구보건소 선별진료소",
     address_name: "경기 수원시 권선구 탑동 910",
-    latlng: "37.25874424014351, 126.97112812016601"
+    latlng: "37.25874424014351, 126.97112812016601",
+    address_english: "Corona19 Kwon Seon-gu Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -30095,7 +32649,9 @@ var position = [
     full: "서울 확진자",
     address: "신세계백화점 강남점 -지하 푸드코트 방문",
     address_name: "서울 서초구 반포동 19-3",
-    latlng: "37.505307533885635, 127.00432598423035"
+    latlng: "37.505307533885635, 127.00432598423035",
+    address_english:
+      "Shinsegae Department Store's Gangnam branch - Visit the underground food court"
   },
   {
     solo: true,
@@ -30107,7 +32663,8 @@ var position = [
     full: "노원구 확진자",
     address: "이마트24 태릉입구역점",
     address_name: "서울 노원구 공릉동 684-62",
-    latlng: "37.617779414773594, 127.07374637396701"
+    latlng: "37.617779414773594, 127.07374637396701",
+    address_english: "E-Mart24 Taeneung Station"
   },
   {
     solo: true,
@@ -30119,7 +32676,8 @@ var position = [
     full: "수원 확진자",
     address: "스타벅스 수원법조타운점",
     address_name: "경기 수원시 영통구 하동 989-1",
-    latlng: "37.29178880322592, 127.06712274433269"
+    latlng: "37.29178880322592, 127.06712274433269",
+    address_english: "Starbucks Suwon Beopjo Town Branch"
   },
   {
     solo: true,
@@ -30131,7 +32689,8 @@ var position = [
     full: "수원 확진자",
     address: "투썸플레이스 아주대점",
     address_name: "경기 수원시 영통구 원천동 13-4",
-    latlng: "37.27921843656723, 127.04404232848793"
+    latlng: "37.27921843656723, 127.04404232848793",
+    address_english: "Twosome Place Very Great"
   },
   {
     solo: true,
@@ -30143,7 +32702,8 @@ var position = [
     full: "수원 확진자",
     address: "이마트 광교점",
     address_name: "경기 수원시 영통구 이의동 1240",
-    latlng: "37.296329850611265, 127.04692716674592"
+    latlng: "37.296329850611265, 127.04692716674592",
+    address_english: "E-Mart's Gwanggyo Branch"
   },
   {
     solo: true,
@@ -30155,7 +32715,8 @@ var position = [
     full: "수원 확진자",
     address: "본죽 수원광교역점",
     address_name: "경기 수원시 영통구 이의동 1258",
-    latlng: "37.3002187837255, 127.04444256769847"
+    latlng: "37.3002187837255, 127.04444256769847",
+    address_english: "Bonjuk Suwon Trading Center"
   },
   {
     solo: true,
@@ -30167,7 +32728,8 @@ var position = [
     full: "화성 확진자",
     address: "다람마을LG태안자이아파트 거주",
     address_name: "경기 화성시 진안동 929",
-    latlng: "37.21694468179884, 127.03559785864628"
+    latlng: "37.21694468179884, 127.03559785864628",
+    address_english: "Dharam Village LG.Taean Zhai Apartment Residence"
   },
   {
     solo: true,
@@ -30179,7 +32741,8 @@ var position = [
     full: "화성 확진자",
     address: "코로나19 남양디에스병원 선별진료소",
     address_name: "경기 화성시 남양읍 남양리 2319-2",
-    latlng: "37.19919637591692, 126.825713233965"
+    latlng: "37.19919637591692, 126.825713233965",
+    address_english: "Corona19 Namyang Dies Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -30191,7 +32754,8 @@ var position = [
     full: "화성 확진자",
     address: "연세소아과",
     address_name: "경기 화성시 진안동 914-7",
-    latlng: "37.215438917628795, 127.043974806655"
+    latlng: "37.215438917628795, 127.043974806655",
+    address_english: "Yeonseoidea"
   },
   {
     solo: true,
@@ -30203,7 +32767,8 @@ var position = [
     full: "화성 확진자",
     address: "현대자동차사원아파트 근무",
     address_name: "경기 화성시 남양읍 남양리 1842",
-    latlng: "37.198221222242, 126.823739809843"
+    latlng: "37.198221222242, 126.823739809843",
+    address_english: "Working for Hyundai Motor employee apartments"
   },
   {
     solo: true,
@@ -30215,7 +32780,8 @@ var position = [
     full: "화성 확진자",
     address: "능동 신일해피트리아파트 거주",
     address_name: "경기 화성시 능동 1150",
-    latlng: "37.200401372424174, 127.054590391551"
+    latlng: "37.200401372424174, 127.054590391551",
+    address_english: "Active New Ilhaefitriapart Residence"
   },
   {
     solo: true,
@@ -30227,7 +32793,8 @@ var position = [
     full: "화성 확진자",
     address: "동성식당(2/20, 24)",
     address_name: "경기 화성시 능동 1150",
-    latlng: "37.2291699,127.0635488"
+    latlng: "37.2291699,127.0635488",
+    address_english: "Same-sex restaurants (2/20, 24)"
   },
   {
     solo: true,
@@ -30239,7 +32806,8 @@ var position = [
     full: "화성 확진자",
     address: "도화",
     address_name: "경기 화성시 반월동 111-11",
-    latlng: "37.22897152835128, 127.06902433813875"
+    latlng: "37.22897152835128, 127.06902433813875",
+    address_english: "a drawing"
   },
   {
     solo: true,
@@ -30251,7 +32819,8 @@ var position = [
     full: "화성 확진자",
     address: "미소화로",
     address_name: "경기 화성시 반월동 345-3",
-    latlng: "37.229810065601804, 127.064838860936"
+    latlng: "37.229810065601804, 127.064838860936",
+    address_english: "in a smile"
   },
   {
     solo: true,
@@ -30263,7 +32832,8 @@ var position = [
     full: "화성 확진자",
     address: "상신툴링",
     address_name: "경기 화성시 반월동 347-20",
-    latlng: "37.228764648293804, 127.06520756698302"
+    latlng: "37.228764648293804, 127.06520756698302",
+    address_english: "SangshinTooling"
   },
   {
     solo: true,
@@ -30275,7 +32845,8 @@ var position = [
     full: "화성 확진자",
     address: "알파 신영통점",
     address_name: "경기 화성시 반월동 347-20",
-    latlng: "37.2286313131894, 127.065171393586"
+    latlng: "37.2286313131894, 127.065171393586",
+    address_english: "alpha neoclassic point"
   },
   {
     solo: true,
@@ -30287,7 +32858,8 @@ var position = [
     full: "화성 확진자",
     address: "돈까스클럽 신영통점",
     address_name: "경기 화성시 반월동 110-10",
-    latlng: "37.228837972615494, 127.069367900728"
+    latlng: "37.228837972615494, 127.069367900728",
+    address_english: "Donkatsu Club New Young Tongshop"
   },
   {
     solo: true,
@@ -30299,7 +32871,8 @@ var position = [
     full: "화성 확진자",
     address: "세도축산도매센터",
     address_name: "경기 화성시 반월동 347-42",
-    latlng: "37.229294329622704, 127.06545142066801"
+    latlng: "37.229294329622704, 127.06545142066801",
+    address_english: "Sedo Livestock Wholesale Center"
   },
   {
     solo: true,
@@ -30311,7 +32884,8 @@ var position = [
     full: "화성 확진자",
     address: "두리맛감자탕 신영통점",
     address_name: "경기 화성시 반월동 125-11",
-    latlng: "37.231669631049556, 127.06519541918857"
+    latlng: "37.231669631049556, 127.06519541918857",
+    address_english: "Duri-flavored Gamjatang Shinyoung Tongshop"
   },
   {
     solo: true,
@@ -30323,7 +32897,8 @@ var position = [
     full: "화성 확진자",
     address: "김치찌개미화식당",
     address_name: "경기 화성시 반월동 110-1",
-    latlng: "37.22936805129768, 127.06891764960211"
+    latlng: "37.22936805129768, 127.06891764960211",
+    address_english: "Kimchi stew restaurant"
   },
   {
     solo: true,
@@ -30335,7 +32910,8 @@ var position = [
     full: "화성 확진자",
     address: "원천설렁탕",
     address_name: "경기 화성시 반월동 488-28",
-    latlng: "37.224584832773694, 127.06327944403199"
+    latlng: "37.224584832773694, 127.06327944403199",
+    address_english: "original sugar"
   },
   {
     solo: true,
@@ -30347,7 +32923,8 @@ var position = [
     full: "화성 확진자",
     address: "덕영대로주유소",
     address_name: "경기 수원시 권선구 세류동 1126-6",
-    latlng: "37.2513690380951, 127.015216788478"
+    latlng: "37.2513690380951, 127.015216788478",
+    address_english: "Deokyeongdae Juju Station"
   },
   {
     solo: true,
@@ -30359,7 +32936,8 @@ var position = [
     full: "화성 확진자",
     address: "GS25 화성반월점",
     address_name: "경기 화성시 반월동 345-3",
-    latlng: "37.229712762414906, 127.064820748071"
+    latlng: "37.229712762414906, 127.064820748071",
+    address_english: "GS25 Mars Banwol Branch"
   },
   {
     solo: true,
@@ -30371,7 +32949,8 @@ var position = [
     full: "화성 확진자",
     address: "경기도의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Provincial Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -30383,7 +32962,8 @@ var position = [
     full: "화성 확진자",
     address: "레이크반도유보라 9차 거주",
     address_name: "경기 화성시 장지동 52-6",
-    latlng: "37.163131837586434, 127.11698562541753"
+    latlng: "37.163131837586434, 127.11698562541753",
+    address_english: "9th Residence of Lake Peninsula Yubora"
   },
   {
     solo: true,
@@ -30395,7 +32975,9 @@ var position = [
     full: "화성 확진자",
     address: "코로나19 화성시보건소 동탄보건지소 선별진료소",
     address_name: "경기 화성시 석우동 60",
-    latlng: "37.20701972779511, 127.07842533784334"
+    latlng: "37.20701972779511, 127.07842533784334",
+    address_english:
+      "Corona19 Hwaseong Municipal Health Center Dongtan Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -30407,7 +32989,8 @@ var position = [
     full: "화성 확진자",
     address: "대부도펜션밸리",
     address_name: "경기 안산시 단원구 대부남동 3-480",
-    latlng: "37.222499133319644, 126.60270678862963"
+    latlng: "37.222499133319644, 126.60270678862963",
+    address_english: "Godfather-to-Pension Valley"
   },
   {
     solo: true,
@@ -30419,7 +33002,8 @@ var position = [
     full: "화성 확진자",
     address: "우리밀칼국수",
     address_name: "경기 안산시 단원구 대부북동 1855-42",
-    latlng: "37.27770700744261, 126.56906488967901"
+    latlng: "37.27770700744261, 126.56906488967901",
+    address_english: "Korean Wheat Noodles"
   },
   {
     solo: true,
@@ -30431,7 +33015,8 @@ var position = [
     full: "화성 확진자",
     address: "한림대학교 동탄성심병원",
     address_name: "경기 화성시 석우동 40",
-    latlng: "37.2166490921101, 127.08000585823602"
+    latlng: "37.2166490921101, 127.08000585823602",
+    address_english: "Hallym University Dongtan Seongsim Hospital"
   },
   {
     solo: true,
@@ -30443,7 +33028,8 @@ var position = [
     full: "화성 확진자",
     address: "경기도의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Provincial Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -30455,7 +33041,8 @@ var position = [
     full: "고양 확진자",
     address: "강선마을3단지 거주",
     address_name: "경기 고양시 일산서구 주엽동 43",
-    latlng: "37.67232365134989, 126.77085506935799"
+    latlng: "37.67232365134989, 126.77085506935799",
+    address_english: "Residence of Gangseon Village 3rd Complex"
   },
   {
     solo: true,
@@ -30467,7 +33054,8 @@ var position = [
     full: "고양 확진자",
     address: "롯데백화점 일산점",
     address_name: "경기 고양시 일산동구 장항동 784-1",
-    latlng: "37.66045305997434, 126.77214954949395"
+    latlng: "37.66045305997434, 126.77214954949395",
+    address_english: "Ilsan branch of Lotte Department Store"
   },
   {
     solo: true,
@@ -30479,7 +33067,8 @@ var position = [
     full: "고양 확진자",
     address: "알라딘중고서점 일산점",
     address_name: "경기 고양시 일산동구 장항동 769-2",
-    latlng: "37.659248036787886, 126.77007928397406"
+    latlng: "37.659248036787886, 126.77007928397406",
+    address_english: "Aladdin Jungo Bookstore Ilsan Point"
   },
   {
     solo: true,
@@ -30491,7 +33080,8 @@ var position = [
     full: "고양 확진자",
     address: "일산우리들 소아청소년과",
     address_name: "경기 고양시 일산서구 주엽동 66-1",
-    latlng: "37.6702734220739, 126.761956812374"
+    latlng: "37.6702734220739, 126.761956812374",
+    address_english: "Ilsan Wee Children's Youth"
   },
   {
     solo: true,
@@ -30503,7 +33093,8 @@ var position = [
     full: "고양 확진자",
     address: "튼튼약국",
     address_name: "경기 고양시 일산서구 주엽동 66-1",
-    latlng: "37.67022291272208, 126.76192977038593"
+    latlng: "37.67022291272208, 126.76192977038593",
+    address_english: "a strong and weak country"
   },
   {
     solo: true,
@@ -30515,7 +33106,8 @@ var position = [
     full: "고양 확진자",
     address: "일산동구보건소",
     address_name: "경기 고양시 일산동구 마두동 1010",
-    latlng: "37.655694553150205, 126.776159934729"
+    latlng: "37.655694553150205, 126.776159934729",
+    address_english: "Ilsan Donggu Health Center"
   },
   {
     solo: true,
@@ -30527,7 +33119,9 @@ var position = [
     full: "고양 확진자",
     address: "경기도의료원 파주병원 격리",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english:
+      "Gyeonggi Provincial Medical Center Isolation of Paju Hospital"
   },
   {
     solo: true,
@@ -30539,7 +33133,8 @@ var position = [
     full: "고양 확진자",
     address: "샘터마을3단지아파트 거주",
     address_name: "경기 고양시 덕양구 행신동 1002",
-    latlng: "37.6248912576846, 126.83234779323699"
+    latlng: "37.6248912576846, 126.83234779323699",
+    address_english: "Residence of Samter Village 3 Complex Apartment"
   },
   {
     solo: true,
@@ -30551,7 +33146,8 @@ var position = [
     full: "고양 확진자",
     address: "화정역 3호선(2/24, 25)",
     address_name: "경기 고양시 덕양구 화정동 1098",
-    latlng: "37.634644005875295, 126.83268842236599"
+    latlng: "37.634644005875295, 126.83268842236599",
+    address_english: "Hwajeong Station Line 3 (2/24, 25)"
   },
   {
     solo: true,
@@ -30563,7 +33159,8 @@ var position = [
     full: "고양 확진자",
     address: "구파발역 3호선",
     address_name: "서울 은평구 진관동 222-3",
-    latlng: "37.6364357889145, 126.91885282000898"
+    latlng: "37.6364357889145, 126.91885282000898",
+    address_english: "Gupaval Station Line 3"
   },
   {
     solo: true,
@@ -30575,7 +33172,9 @@ var position = [
     full: "고양 확진자",
     address: "가톨릭대학교 은평성모병원",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
   },
   {
     solo: true,
@@ -30587,7 +33186,8 @@ var position = [
     full: "고양 확진자",
     address: "녹번역 3호선",
     address_name: "서울 은평구 녹번동 55",
-    latlng: "37.600806768182494, 126.935828008217"
+    latlng: "37.600806768182494, 126.935828008217",
+    address_english: "Nokbeon Line 3"
   },
   {
     solo: true,
@@ -30599,7 +33199,8 @@ var position = [
     full: "고양 확진자",
     address: "은평구보건소",
     address_name: "서울 은평구 녹번동 84",
-    latlng: "37.602456970227585, 126.928823550033"
+    latlng: "37.602456970227585, 126.928823550033",
+    address_english: "Eunpyeong District Health Center"
   },
   {
     solo: true,
@@ -30611,7 +33212,8 @@ var position = [
     full: "고양 확진자",
     address: "빅마트 화정점",
     address_name: "경기 고양시 덕양구 화정동 974",
-    latlng: "37.63421074264533, 126.8334031370634"
+    latlng: "37.63421074264533, 126.8334031370634",
+    address_english: "Big Mart Hwajeong Branch"
   },
   {
     solo: true,
@@ -30623,7 +33225,9 @@ var position = [
     full: "고양 확진자",
     address: "경기도의료원 파주병원 격리",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english:
+      "Gyeonggi Provincial Medical Center Isolation of Paju Hospital"
   },
   {
     solo: true,
@@ -30635,7 +33239,8 @@ var position = [
     full: "고양 확진자",
     address: "웨스턴돔 근무",
     address_name: "경기 고양시 일산동구 장항동 868",
-    latlng: "37.654959837988784, 126.772644563395"
+    latlng: "37.654959837988784, 126.772644563395",
+    address_english: "Western Dome Service"
   },
   {
     solo: true,
@@ -30647,7 +33252,9 @@ var position = [
     full: "고양 확진자",
     address: "국민건강보험공단 고양일산지사",
     address_name: "경기 고양시 일산동구 마두동 1010",
-    latlng: "37.6559792441688, 126.77615001404"
+    latlng: "37.6559792441688, 126.77615001404",
+    address_english:
+      "Goyang Ilsan Branch of the National Health Insurance Corporation"
   },
   {
     solo: true,
@@ -30659,7 +33266,8 @@ var position = [
     full: "고양 확진자",
     address: "서울가정의학과의원",
     address_name: "경기 고양시 일산동구 장항동 855",
-    latlng: "37.6567123198761, 126.77315145624799"
+    latlng: "37.6567123198761, 126.77315145624799",
+    address_english: "Seoul Family Medicine Academy"
   },
   {
     solo: true,
@@ -30671,7 +33279,8 @@ var position = [
     full: "고양 확진자",
     address: "코로나19 강북삼성병원 선별진료소",
     address_name: "서울 종로구 평동 108",
-    latlng: "37.56850663657661, 126.96792107169"
+    latlng: "37.56850663657661, 126.96792107169",
+    address_english: "Corona19 Kangbuk Samsung Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -30683,7 +33292,8 @@ var position = [
     full: "고양 확진자",
     address: "서울특별시 보라매병원",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Boramae Hospital in Seoul"
   },
   {
     solo: true,
@@ -30695,7 +33305,8 @@ var position = [
     full: "고양 확진자",
     address: "약국 방문",
     address_name: "경기 고양시 일산동구 장항동 855",
-    latlng: "37.65670873340991, 126.773160533292"
+    latlng: "37.65670873340991, 126.773160533292",
+    address_english: "a visit to a pharmacy"
   },
   {
     solo: true,
@@ -30707,7 +33318,9 @@ var position = [
     full: "강남구 확진자",
     address: "대청아파트-2/16.17.18.19.20.22.23.24.25자택-방역완료)",
     address_name: "서울 강남구 개포동 12",
-    latlng: "37.494986633000636, 127.0771377913112"
+    latlng: "37.494986633000636, 127.0771377913112",
+    address_english:
+      "Daecheong Apartment-2/16.17.18.19.20.22.23.24.25 House-discharge completed)"
   },
   {
     solo: true,
@@ -30719,7 +33332,8 @@ var position = [
     full: "동대문구 확진자",
     address: "홈플러스면목점-방역완료",
     address_name: "서울 강남구 개포동 12",
-    latlng: "37.494986633000636, 127.0771377913112"
+    latlng: "37.494986633000636, 127.0771377913112",
+    address_english: "Home Plus Face Point-Variable completion"
   },
   {
     solo: true,
@@ -30731,7 +33345,8 @@ var position = [
     full: "동대문구 확진자",
     address: "바로유한의원 중랑점",
     address_name: "서울 중랑구 면목동 649-3",
-    latlng: "37.57984604888699, 127.086777934706"
+    latlng: "37.57984604888699, 127.086777934706",
+    address_english: "Baro Yuhan Medical Center"
   },
   {
     solo: true,
@@ -30743,7 +33358,9 @@ var position = [
     full: "동대문구 확진자",
     address: "주공1단지아파트-확진자 자택, 단지내에서 운동",
     address_name: "서울 동대문구 휘경동 57",
-    latlng: "37.582887332939436, 127.07133556183088"
+    latlng: "37.582887332939436, 127.07133556183088",
+    address_english:
+      "Residence of Housing Complex 1st Apartment House, Movement in Site"
   },
   {
     solo: true,
@@ -30755,7 +33372,8 @@ var position = [
     full: "동대문구 확진자",
     address: "광진구보건소",
     address_name: "서울 광진구 자양동 777",
-    latlng: "37.53854422826241, 127.08190995329798"
+    latlng: "37.53854422826241, 127.08190995329798",
+    address_english: "Gwangjin District Health Center"
   },
   {
     solo: true,
@@ -30767,7 +33385,9 @@ var position = [
     full: "양천구 확진자",
     address: "대한적십자사 서울중앙혈액원-확진자 근무지(2/19.20.21.24)",
     address_name: "서울 강서구 염창동 280-17",
-    latlng: "37.548059725492905, 126.87077333543098"
+    latlng: "37.548059725492905, 126.87077333543098",
+    address_english:
+      "Seoul Central Blood Source-Resident Workplaces (2/19.20.21.24)"
   },
   {
     solo: true,
@@ -30779,7 +33399,8 @@ var position = [
     full: "양천구 확진자",
     address: "한국청소년활동진흥원-출장(헌혈버스)",
     address_name: "서울 서대문구 충정로2가 190-3",
-    latlng: "37.56371438493505, 126.96231589924322"
+    latlng: "37.56371438493505, 126.96231589924322",
+    address_english: "Korea Youth Activity Agency-Travel (Blood Bus)"
   },
   {
     solo: true,
@@ -30791,7 +33412,9 @@ var position = [
     full: "양천구 확진자",
     address: "헌혈의집 연신내센터-헌혈버스",
     address_name: "서울 은평구 갈현동 396-12",
-    latlng: "37.6191089652661, 126.92023995396399"
+    latlng: "37.6191089652661, 126.92023995396399",
+    address_english:
+      "Blood donation house Yonsin-nae Center-Bus for blood donation"
   },
   {
     solo: true,
@@ -30803,7 +33426,8 @@ var position = [
     full: "양천구 확진자",
     address: "서울강서경찰서 임시청사",
     address_name: "서울 양천구 신월동 25",
-    latlng: "37.5397837301896, 126.829985881518"
+    latlng: "37.5397837301896, 126.829985881518",
+    address_english: "Seoul Gangseo Police Station Temporary Building"
   },
   {
     solo: true,
@@ -30815,7 +33439,8 @@ var position = [
     full: "양천구 확진자",
     address: "고양경찰서",
     address_name: "경기 고양시 덕양구 화정동 1008",
-    latlng: "37.628642953954184, 126.82982445881017"
+    latlng: "37.628642953954184, 126.82982445881017",
+    address_english: "Goyang Police Station"
   },
   {
     solo: true,
@@ -30827,7 +33452,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 장안구보건소 선별진료소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.30437595313949, 127.01028699688202"
+    latlng: "37.30437595313949, 127.01028699688202",
+    address_english: "Corona19 Long Eyes Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -30839,7 +33465,8 @@ var position = [
     full: "수원 확진자",
     address: "수원SK스카이뷰아파트 거주",
     address_name: "경기 수원시 장안구 정자동 945",
-    latlng: "37.307129012999305, 126.98498404663093"
+    latlng: "37.307129012999305, 126.98498404663093",
+    address_english: "Residence of Suwon SK Skyview Apartment"
   },
   {
     solo: true,
@@ -30851,7 +33478,8 @@ var position = [
     full: "수원 확진자",
     address: "수원전통문화관",
     address_name: "경기 수원시 팔달구 장안동 33-4",
-    latlng: "37.2870936147403, 127.01451127147901"
+    latlng: "37.2870936147403, 127.01451127147901",
+    address_english: "Suwon Traditional Culture Center"
   },
   {
     solo: true,
@@ -30863,7 +33491,8 @@ var position = [
     full: "수원 확진자",
     address: "LH수원센트럴타운1단지아파트 방문",
     address_name: "경기 수원시 권선구 세류동 1260",
-    latlng: "37.264701506972955, 127.00900316240133"
+    latlng: "37.264701506972955, 127.00900316240133",
+    address_english: "A Visit to the Apartment Complex 1 in Suwon Central Town"
   },
   {
     solo: true,
@@ -30875,7 +33504,8 @@ var position = [
     full: "수원 확진자",
     address: "수원역환승센터(2/23, 24)",
     address_name: "경기 수원시 권선구 서둔동 296-86",
-    latlng: "37.2655884692487, 126.99887261858198"
+    latlng: "37.2655884692487, 126.99887261858198",
+    address_english: "Suwon Transit Center (2/23, 24)"
   },
   {
     solo: true,
@@ -30887,7 +33517,8 @@ var position = [
     full: "수원 확진자",
     address: "다솔초등학교",
     address_name: "경기 수원시 장안구 정자동 946",
-    latlng: "37.3086322493786, 126.987659420044"
+    latlng: "37.3086322493786, 126.987659420044",
+    address_english: "Dasol Elementary School"
   },
   {
     solo: true,
@@ -30899,7 +33530,8 @@ var position = [
     full: "수원 확진자",
     address: "수원역",
     address_name: "경기 수원시 팔달구 매산로1가 18",
-    latlng: "37.2657903079673, 127.00009470029198"
+    latlng: "37.2657903079673, 127.00009470029198",
+    address_english: "Suwon Station"
   },
   {
     solo: true,
@@ -30911,7 +33543,8 @@ var position = [
     full: "수원 확진자",
     address: "서정리역",
     address_name: "경기 평택시 서정동 427-53",
-    latlng: "37.05704305314149, 127.05292700791098"
+    latlng: "37.05704305314149, 127.05292700791098",
+    address_english: "Seojeong-ri Station"
   },
   {
     solo: true,
@@ -30923,7 +33556,8 @@ var position = [
     full: "수원 확진자",
     address: "성균관대역 환승주차장 3층",
     address_name: "경기 수원시 장안구 율전동 301-1",
-    latlng: "37.3000468011573, 126.970311534128"
+    latlng: "37.3000468011573, 126.970311534128",
+    address_english: "Seonggyungwan University Station Transfer Parking Lot 3F"
   },
   {
     solo: true,
@@ -30935,7 +33569,8 @@ var position = [
     full: "수원 확진자",
     address: "화서위브하늘채아파트",
     address_name: "경기 수원시 팔달구 화서동 743",
-    latlng: "37.28841001917147, 127.00056386090763"
+    latlng: "37.28841001917147, 127.00056386090763",
+    address_english: "Hwaseo-Wib Sky Chae Apartment"
   },
   {
     solo: true,
@@ -30947,7 +33582,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 장안구보건소 선별진료소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.30437595313949, 127.01028699688202"
+    latlng: "37.30437595313949, 127.01028699688202",
+    address_english: "Corona19 Long Eyes Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -30959,7 +33595,8 @@ var position = [
     full: "수원 확진자",
     address: "성남시의료원",
     address_name: "경기 성남시 수정구 태평동 3309",
-    latlng: "37.445053152463494, 127.138727193654"
+    latlng: "37.445053152463494, 127.138727193654",
+    address_english: "Seongnam Medical Center"
   },
   {
     solo: true,
@@ -30971,7 +33608,8 @@ var position = [
     full: "강남구 확진자",
     address: "슈가링나나왁싱-방역완료",
     address_name: "서울 관악구 신림동 1655-2",
-    latlng: "37.48337670250325, 126.90272378617314"
+    latlng: "37.48337670250325, 126.90272378617314",
+    address_english: "Sugar-Ringana Waxing-Finished"
   },
   {
     solo: true,
@@ -30983,7 +33621,8 @@ var position = [
     full: "수원 확진자",
     address: "동안구보건소",
     address_name: "경기 안양시 동안구 비산동 1111",
-    latlng: "37.3930351643306, 126.95205046262001"
+    latlng: "37.3930351643306, 126.95205046262001",
+    address_english: "a health center"
   },
   {
     solo: true,
@@ -30995,7 +33634,8 @@ var position = [
     full: "수원 확진자",
     address: "영통구보건소",
     address_name: "경기 수원시 영통구 영통동 961-18",
-    latlng: "37.2569433360389, 127.069434244751"
+    latlng: "37.2569433360389, 127.069434244751",
+    address_english: "Yeongtong-gu Health Center"
   },
   {
     solo: true,
@@ -31007,7 +33647,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도의료원 파주병원",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english: "Gyeonggi Provincial Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -31019,7 +33660,8 @@ var position = [
     full: "관악구 확진자",
     address: "삼일 공인중개사사무소",
     address_name: "서울 관악구 봉천동 1630-8",
-    latlng: "37.4764295447952, 126.961774150289"
+    latlng: "37.4764295447952, 126.961774150289",
+    address_english: "Samil Public Arbitration Office"
   },
   {
     solo: true,
@@ -31031,7 +33673,8 @@ var position = [
     full: "수원 확진자",
     address: "한림대학교 동탄성심병원",
     address_name: "경기 화성시 석우동 40",
-    latlng: "37.2166490921101, 127.08000585823602"
+    latlng: "37.2166490921101, 127.08000585823602",
+    address_english: "Hallym University Dongtan Seongsim Hospital"
   },
   {
     solo: true,
@@ -31043,7 +33686,8 @@ var position = [
     full: "수원 확진자",
     address: "꽃뫼노을마을한마루아파트",
     address_name: "경기 수원시 장안구 정자동 881-4",
-    latlng: "37.291289227326246, 126.9889975267487"
+    latlng: "37.291289227326246, 126.9889975267487",
+    address_english: "Flower Monoeul Village Hanmaru Apartment"
   },
   {
     solo: true,
@@ -31055,7 +33699,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도인재개발원",
     address_name: "경기 수원시 장안구 파장동 179",
-    latlng: "37.3150549986616, 126.98944531183001"
+    latlng: "37.3150549986616, 126.98944531183001",
+    address_english: "Gyeonggi Provincial Human Resources Development Institute"
   },
   {
     solo: true,
@@ -31067,7 +33712,8 @@ var position = [
     full: "수원 확진자",
     address: "장안구보건소",
     address_name: "경기 수원시 장안구 조원동 888",
-    latlng: "37.304368744851516, 127.01028699590029"
+    latlng: "37.304368744851516, 127.01028699590029",
+    address_english: "intestinal health center"
   },
   {
     solo: true,
@@ -31079,7 +33725,8 @@ var position = [
     full: "수원 확진자",
     address: "경기도의료원 파주병원",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english: "Gyeonggi Provincial Medical Center Paju Hospital"
   },
   {
     solo: true,
@@ -31091,7 +33738,8 @@ var position = [
     full: "강남구 확진자",
     address: "뉴코아아울렛 강남점-방역완료",
     address_name: "서울 서초구 잠원동 70-2",
-    latlng: "37.5092249441617, 127.007510074858"
+    latlng: "37.5092249441617, 127.007510074858",
+    address_english: "Gangnam branch of New Core outlet - Area finished"
   },
   {
     solo: true,
@@ -31103,7 +33751,8 @@ var position = [
     full: "수원 확진자",
     address: "지에스테크윈 근무",
     address_name: "경기 화성시 반월동 347-17",
-    latlng: "37.2294780184202, 127.06567694811201"
+    latlng: "37.2294780184202, 127.06567694811201",
+    address_english: "GESTEKWIN"
   },
   {
     solo: true,
@@ -31115,7 +33764,8 @@ var position = [
     full: "수원 확진자",
     address: "영통구보건소",
     address_name: "경기 수원시 영통구 영통동 961-18",
-    latlng: "37.2569433360389, 127.069434244751"
+    latlng: "37.2569433360389, 127.069434244751",
+    address_english: "Yeongtong-gu Health Center"
   },
   {
     solo: true,
@@ -31127,7 +33777,8 @@ var position = [
     full: "성동구 확진자",
     address: "고향산천",
     address_name: "서울 성동구 도선동 253-1",
-    latlng: "37.5631399011118, 127.033529922295"
+    latlng: "37.5631399011118, 127.033529922295",
+    address_english: "Hometown mountain stream"
   },
   {
     solo: true,
@@ -31139,7 +33790,8 @@ var position = [
     full: "수원 확진자",
     address: "도원테크 근무",
     address_name: "경기 수원시 권선구 권선동 1058-9",
-    latlng: "37.255383038389304, 127.02191784678801"
+    latlng: "37.255383038389304, 127.02191784678801",
+    address_english: "DoWonTech Service"
   },
   {
     solo: true,
@@ -31151,7 +33803,8 @@ var position = [
     full: "수원 확진자",
     address: "코로나19 권선구보건소 선별진료소",
     address_name: "경기 수원시 권선구 탑동 910",
-    latlng: "37.25874424014351, 126.97112812016601"
+    latlng: "37.25874424014351, 126.97112812016601",
+    address_english: "Corona19 Kwon Seon-gu Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -31163,7 +33816,9 @@ var position = [
     full: "서울 확진자",
     address: "신세계백화점 강남점 -지하 푸드코트 방문",
     address_name: "서울 서초구 반포동 19-3",
-    latlng: "37.505307533885635, 127.00432598423035"
+    latlng: "37.505307533885635, 127.00432598423035",
+    address_english:
+      "Shinsegae Department Store's Gangnam branch - Visit the underground food court"
   },
   {
     solo: true,
@@ -31175,7 +33830,8 @@ var position = [
     full: "노원구 확진자",
     address: "이마트24 태릉입구역점",
     address_name: "서울 노원구 공릉동 684-62",
-    latlng: "37.617779414773594, 127.07374637396701"
+    latlng: "37.617779414773594, 127.07374637396701",
+    address_english: "E-Mart24 Taeneung Station"
   },
   {
     solo: true,
@@ -31187,7 +33843,8 @@ var position = [
     full: "수원 확진자",
     address: "스타벅스 수원법조타운점",
     address_name: "경기 수원시 영통구 하동 989-1",
-    latlng: "37.29178880322592, 127.06712274433269"
+    latlng: "37.29178880322592, 127.06712274433269",
+    address_english: "Starbucks Suwon Beopjo Town Branch"
   },
   {
     solo: true,
@@ -31199,7 +33856,8 @@ var position = [
     full: "수원 확진자",
     address: "투썸플레이스 아주대점",
     address_name: "경기 수원시 영통구 원천동 13-4",
-    latlng: "37.27921843656723, 127.04404232848793"
+    latlng: "37.27921843656723, 127.04404232848793",
+    address_english: "Twosome Place Very Great"
   },
   {
     solo: true,
@@ -31211,7 +33869,8 @@ var position = [
     full: "수원 확진자",
     address: "이마트 광교점",
     address_name: "경기 수원시 영통구 이의동 1240",
-    latlng: "37.296329850611265, 127.04692716674592"
+    latlng: "37.296329850611265, 127.04692716674592",
+    address_english: "E-Mart's Gwanggyo Branch"
   },
   {
     solo: true,
@@ -31223,7 +33882,8 @@ var position = [
     full: "수원 확진자",
     address: "본죽 수원광교역점",
     address_name: "경기 수원시 영통구 이의동 1258",
-    latlng: "37.3002187837255, 127.04444256769847"
+    latlng: "37.3002187837255, 127.04444256769847",
+    address_english: "Bonjuk Suwon Trading Center"
   },
   {
     solo: true,
@@ -31235,7 +33895,8 @@ var position = [
     full: "화성 확진자",
     address: "다람마을LG태안자이아파트 거주",
     address_name: "경기 화성시 진안동 929",
-    latlng: "37.21694468179884, 127.03559785864628"
+    latlng: "37.21694468179884, 127.03559785864628",
+    address_english: "Dharam Village LG.Taean Zhai Apartment Residence"
   },
   {
     solo: true,
@@ -31247,7 +33908,8 @@ var position = [
     full: "화성 확진자",
     address: "코로나19 남양디에스병원 선별진료소",
     address_name: "경기 화성시 남양읍 남양리 2319-2",
-    latlng: "37.19919637591692, 126.825713233965"
+    latlng: "37.19919637591692, 126.825713233965",
+    address_english: "Corona19 Namyang Dies Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -31259,7 +33921,8 @@ var position = [
     full: "화성 확진자",
     address: "연세소아과",
     address_name: "경기 화성시 진안동 914-7",
-    latlng: "37.215438917628795, 127.043974806655"
+    latlng: "37.215438917628795, 127.043974806655",
+    address_english: "Yeonseoidea"
   },
   {
     solo: true,
@@ -31271,7 +33934,8 @@ var position = [
     full: "화성 확진자",
     address: "현대자동차사원아파트 근무",
     address_name: "경기 화성시 남양읍 남양리 1842",
-    latlng: "37.198221222242, 126.823739809843"
+    latlng: "37.198221222242, 126.823739809843",
+    address_english: "Working for Hyundai Motor employee apartments"
   },
   {
     solo: true,
@@ -31283,7 +33947,8 @@ var position = [
     full: "화성 확진자",
     address: "능동 신일해피트리아파트 거주",
     address_name: "경기 화성시 능동 1150",
-    latlng: "37.200401372424174, 127.054590391551"
+    latlng: "37.200401372424174, 127.054590391551",
+    address_english: "Active New Ilhaefitriapart Residence"
   },
   {
     solo: true,
@@ -31295,7 +33960,8 @@ var position = [
     full: "화성 확진자",
     address: "동성식당(2/20, 24)",
     address_name: "경기 화성시 능동 1150",
-    latlng: "37.2291699,127.0635488"
+    latlng: "37.2291699,127.0635488",
+    address_english: "Same-sex restaurants (2/20, 24)"
   },
   {
     solo: true,
@@ -31307,7 +33973,8 @@ var position = [
     full: "화성 확진자",
     address: "도화",
     address_name: "경기 화성시 반월동 111-11",
-    latlng: "37.22897152835128, 127.06902433813875"
+    latlng: "37.22897152835128, 127.06902433813875",
+    address_english: "a drawing"
   },
   {
     solo: true,
@@ -31319,7 +33986,8 @@ var position = [
     full: "화성 확진자",
     address: "미소화로",
     address_name: "경기 화성시 반월동 345-3",
-    latlng: "37.229810065601804, 127.064838860936"
+    latlng: "37.229810065601804, 127.064838860936",
+    address_english: "in a smile"
   },
   {
     solo: true,
@@ -31331,7 +33999,8 @@ var position = [
     full: "화성 확진자",
     address: "상신툴링",
     address_name: "경기 화성시 반월동 347-20",
-    latlng: "37.228764648293804, 127.06520756698302"
+    latlng: "37.228764648293804, 127.06520756698302",
+    address_english: "SangshinTooling"
   },
   {
     solo: true,
@@ -31343,7 +34012,8 @@ var position = [
     full: "화성 확진자",
     address: "알파 신영통점",
     address_name: "경기 화성시 반월동 347-20",
-    latlng: "37.2286313131894, 127.065171393586"
+    latlng: "37.2286313131894, 127.065171393586",
+    address_english: "alpha neoclassic point"
   },
   {
     solo: true,
@@ -31355,7 +34025,8 @@ var position = [
     full: "화성 확진자",
     address: "돈까스클럽 신영통점",
     address_name: "경기 화성시 반월동 110-10",
-    latlng: "37.228837972615494, 127.069367900728"
+    latlng: "37.228837972615494, 127.069367900728",
+    address_english: "Donkatsu Club New Young Tongshop"
   },
   {
     solo: true,
@@ -31367,7 +34038,8 @@ var position = [
     full: "화성 확진자",
     address: "세도축산도매센터",
     address_name: "경기 화성시 반월동 347-42",
-    latlng: "37.229294329622704, 127.06545142066801"
+    latlng: "37.229294329622704, 127.06545142066801",
+    address_english: "Sedo Livestock Wholesale Center"
   },
   {
     solo: true,
@@ -31379,7 +34051,8 @@ var position = [
     full: "화성 확진자",
     address: "두리맛감자탕 신영통점",
     address_name: "경기 화성시 반월동 125-11",
-    latlng: "37.231669631049556, 127.06519541918857"
+    latlng: "37.231669631049556, 127.06519541918857",
+    address_english: "Duri-flavored Gamjatang Shinyoung Tongshop"
   },
   {
     solo: true,
@@ -31391,7 +34064,8 @@ var position = [
     full: "화성 확진자",
     address: "김치찌개미화식당",
     address_name: "경기 화성시 반월동 110-1",
-    latlng: "37.22936805129768, 127.06891764960211"
+    latlng: "37.22936805129768, 127.06891764960211",
+    address_english: "Kimchi stew restaurant"
   },
   {
     solo: true,
@@ -31403,7 +34077,8 @@ var position = [
     full: "화성 확진자",
     address: "원천설렁탕",
     address_name: "경기 화성시 반월동 488-28",
-    latlng: "37.224584832773694, 127.06327944403199"
+    latlng: "37.224584832773694, 127.06327944403199",
+    address_english: "original sugar"
   },
   {
     solo: true,
@@ -31415,7 +34090,8 @@ var position = [
     full: "화성 확진자",
     address: "덕영대로주유소",
     address_name: "경기 수원시 권선구 세류동 1126-6",
-    latlng: "37.2513690380951, 127.015216788478"
+    latlng: "37.2513690380951, 127.015216788478",
+    address_english: "Deokyeongdae Juju Station"
   },
   {
     solo: true,
@@ -31427,7 +34103,8 @@ var position = [
     full: "화성 확진자",
     address: "GS25 화성반월점",
     address_name: "경기 화성시 반월동 345-3",
-    latlng: "37.229712762414906, 127.064820748071"
+    latlng: "37.229712762414906, 127.064820748071",
+    address_english: "GS25 Mars Banwol Branch"
   },
   {
     solo: true,
@@ -31439,7 +34116,8 @@ var position = [
     full: "화성 확진자",
     address: "경기도의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Provincial Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -31451,7 +34129,8 @@ var position = [
     full: "화성 확진자",
     address: "레이크반도유보라 9차 거주",
     address_name: "경기 화성시 장지동 52-6",
-    latlng: "37.163131837586434, 127.11698562541753"
+    latlng: "37.163131837586434, 127.11698562541753",
+    address_english: "9th Residence of Lake Peninsula Yubora"
   },
   {
     solo: true,
@@ -31463,7 +34142,9 @@ var position = [
     full: "화성 확진자",
     address: "코로나19 화성시보건소 동탄보건지소 선별진료소",
     address_name: "경기 화성시 석우동 60",
-    latlng: "37.20701972779511, 127.07842533784334"
+    latlng: "37.20701972779511, 127.07842533784334",
+    address_english:
+      "Corona19 Hwaseong Municipal Health Center Dongtan Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -31475,7 +34156,8 @@ var position = [
     full: "화성 확진자",
     address: "대부도펜션밸리",
     address_name: "경기 안산시 단원구 대부남동 3-480",
-    latlng: "37.222499133319644, 126.60270678862963"
+    latlng: "37.222499133319644, 126.60270678862963",
+    address_english: "Godfather-to-Pension Valley"
   },
   {
     solo: true,
@@ -31487,7 +34169,8 @@ var position = [
     full: "화성 확진자",
     address: "우리밀칼국수",
     address_name: "경기 안산시 단원구 대부북동 1855-42",
-    latlng: "37.27770700744261, 126.56906488967901"
+    latlng: "37.27770700744261, 126.56906488967901",
+    address_english: "Korean Wheat Noodles"
   },
   {
     solo: true,
@@ -31499,7 +34182,8 @@ var position = [
     full: "화성 확진자",
     address: "한림대학교 동탄성심병원",
     address_name: "경기 화성시 석우동 40",
-    latlng: "37.2166490921101, 127.08000585823602"
+    latlng: "37.2166490921101, 127.08000585823602",
+    address_english: "Hallym University Dongtan Seongsim Hospital"
   },
   {
     solo: true,
@@ -31511,7 +34195,8 @@ var position = [
     full: "화성 확진자",
     address: "경기도의료원 수원병원",
     address_name: "경기 수원시 장안구 정자동 886-9",
-    latlng: "37.29185913925371, 126.99637759217902"
+    latlng: "37.29185913925371, 126.99637759217902",
+    address_english: "Gyeonggi Provincial Medical Center Suwon Hospital"
   },
   {
     solo: true,
@@ -31523,7 +34208,8 @@ var position = [
     full: "고양 확진자",
     address: "강선마을3단지 거주",
     address_name: "경기 고양시 일산서구 주엽동 43",
-    latlng: "37.67232365134989, 126.77085506935799"
+    latlng: "37.67232365134989, 126.77085506935799",
+    address_english: "Residence of Gangseon Village 3rd Complex"
   },
   {
     solo: true,
@@ -31535,7 +34221,8 @@ var position = [
     full: "고양 확진자",
     address: "롯데백화점 일산점",
     address_name: "경기 고양시 일산동구 장항동 784-1",
-    latlng: "37.66045305997434, 126.77214954949395"
+    latlng: "37.66045305997434, 126.77214954949395",
+    address_english: "Ilsan branch of Lotte Department Store"
   },
   {
     solo: true,
@@ -31547,7 +34234,8 @@ var position = [
     full: "고양 확진자",
     address: "알라딘중고서점 일산점",
     address_name: "경기 고양시 일산동구 장항동 769-2",
-    latlng: "37.659248036787886, 126.77007928397406"
+    latlng: "37.659248036787886, 126.77007928397406",
+    address_english: "Aladdin Jungo Bookstore Ilsan Point"
   },
   {
     solo: true,
@@ -31559,7 +34247,8 @@ var position = [
     full: "고양 확진자",
     address: "일산우리들 소아청소년과",
     address_name: "경기 고양시 일산서구 주엽동 66-1",
-    latlng: "37.6702734220739, 126.761956812374"
+    latlng: "37.6702734220739, 126.761956812374",
+    address_english: "Ilsan Wee Children's Youth"
   },
   {
     solo: true,
@@ -31571,7 +34260,8 @@ var position = [
     full: "고양 확진자",
     address: "튼튼약국",
     address_name: "경기 고양시 일산서구 주엽동 66-1",
-    latlng: "37.67022291272208, 126.76192977038593"
+    latlng: "37.67022291272208, 126.76192977038593",
+    address_english: "a strong and weak country"
   },
   {
     solo: true,
@@ -31583,7 +34273,8 @@ var position = [
     full: "고양 확진자",
     address: "일산동구보건소",
     address_name: "경기 고양시 일산동구 마두동 1010",
-    latlng: "37.655694553150205, 126.776159934729"
+    latlng: "37.655694553150205, 126.776159934729",
+    address_english: "Ilsan Donggu Health Center"
   },
   {
     solo: true,
@@ -31595,7 +34286,9 @@ var position = [
     full: "고양 확진자",
     address: "경기도의료원 파주병원 격리",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english:
+      "Gyeonggi Provincial Medical Center Isolation of Paju Hospital"
   },
   {
     solo: true,
@@ -31607,7 +34300,8 @@ var position = [
     full: "고양 확진자",
     address: "샘터마을3단지아파트 거주",
     address_name: "경기 고양시 덕양구 행신동 1002",
-    latlng: "37.6248912576846, 126.83234779323699"
+    latlng: "37.6248912576846, 126.83234779323699",
+    address_english: "Residence of Samter Village 3 Complex Apartment"
   },
   {
     solo: true,
@@ -31619,7 +34313,8 @@ var position = [
     full: "고양 확진자",
     address: "화정역 3호선(2/24, 25)",
     address_name: "경기 고양시 덕양구 화정동 1098",
-    latlng: "37.634644005875295, 126.83268842236599"
+    latlng: "37.634644005875295, 126.83268842236599",
+    address_english: "Hwajeong Station Line 3 (2/24, 25)"
   },
   {
     solo: true,
@@ -31631,7 +34326,8 @@ var position = [
     full: "고양 확진자",
     address: "구파발역 3호선",
     address_name: "서울 은평구 진관동 222-3",
-    latlng: "37.6364357889145, 126.91885282000898"
+    latlng: "37.6364357889145, 126.91885282000898",
+    address_english: "Gupaval Station Line 3"
   },
   {
     solo: true,
@@ -31643,7 +34339,9 @@ var position = [
     full: "고양 확진자",
     address: "가톨릭대학교 은평성모병원",
     address_name: "서울 은평구 진관동 93-11",
-    latlng: "37.63359406719202, 126.91625359899413"
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
   },
   {
     solo: true,
@@ -31655,7 +34353,8 @@ var position = [
     full: "고양 확진자",
     address: "녹번역 3호선",
     address_name: "서울 은평구 녹번동 55",
-    latlng: "37.600806768182494, 126.935828008217"
+    latlng: "37.600806768182494, 126.935828008217",
+    address_english: "Nokbeon Line 3"
   },
   {
     solo: true,
@@ -31667,7 +34366,8 @@ var position = [
     full: "고양 확진자",
     address: "은평구보건소",
     address_name: "서울 은평구 녹번동 84",
-    latlng: "37.602456970227585, 126.928823550033"
+    latlng: "37.602456970227585, 126.928823550033",
+    address_english: "Eunpyeong District Health Center"
   },
   {
     solo: true,
@@ -31679,7 +34379,8 @@ var position = [
     full: "고양 확진자",
     address: "빅마트 화정점",
     address_name: "경기 고양시 덕양구 화정동 974",
-    latlng: "37.63421074264533, 126.8334031370634"
+    latlng: "37.63421074264533, 126.8334031370634",
+    address_english: "Big Mart Hwajeong Branch"
   },
   {
     solo: true,
@@ -31691,7 +34392,9 @@ var position = [
     full: "고양 확진자",
     address: "경기도의료원 파주병원 격리",
     address_name: "경기 파주시 금촌동 798",
-    latlng: "37.754883167701436, 126.779774098725"
+    latlng: "37.754883167701436, 126.779774098725",
+    address_english:
+      "Gyeonggi Provincial Medical Center Isolation of Paju Hospital"
   },
   {
     solo: true,
@@ -31703,7 +34406,8 @@ var position = [
     full: "고양 확진자",
     address: "웨스턴돔 근무",
     address_name: "경기 고양시 일산동구 장항동 868",
-    latlng: "37.654959837988784, 126.772644563395"
+    latlng: "37.654959837988784, 126.772644563395",
+    address_english: "Western Dome Service"
   },
   {
     solo: true,
@@ -31715,7 +34419,9 @@ var position = [
     full: "고양 확진자",
     address: "국민건강보험공단 고양일산지사",
     address_name: "경기 고양시 일산동구 마두동 1010",
-    latlng: "37.6559792441688, 126.77615001404"
+    latlng: "37.6559792441688, 126.77615001404",
+    address_english:
+      "Goyang Ilsan Branch of the National Health Insurance Corporation"
   },
   {
     solo: true,
@@ -31727,7 +34433,8 @@ var position = [
     full: "고양 확진자",
     address: "서울가정의학과의원",
     address_name: "경기 고양시 일산동구 장항동 855",
-    latlng: "37.6567123198761, 126.77315145624799"
+    latlng: "37.6567123198761, 126.77315145624799",
+    address_english: "Seoul Family Medicine Academy"
   },
   {
     solo: true,
@@ -31739,7 +34446,8 @@ var position = [
     full: "고양 확진자",
     address: "코로나19 강북삼성병원 선별진료소",
     address_name: "서울 종로구 평동 108",
-    latlng: "37.56850663657661, 126.96792107169"
+    latlng: "37.56850663657661, 126.96792107169",
+    address_english: "Corona19 Kangbuk Samsung Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -31751,7 +34459,8 @@ var position = [
     full: "고양 확진자",
     address: "서울특별시 보라매병원",
     address_name: "서울 동작구 신대방동 425",
-    latlng: "37.49379005514929, 126.924191001255"
+    latlng: "37.49379005514929, 126.924191001255",
+    address_english: "Boramae Hospital in Seoul"
   },
   {
     solo: true,
@@ -31763,7 +34472,8 @@ var position = [
     full: "고양 확진자",
     address: "약국 방문",
     address_name: "경기 고양시 일산동구 장항동 855",
-    latlng: "37.65670873340991, 126.773160533292"
+    latlng: "37.65670873340991, 126.773160533292",
+    address_english: "a visit to a pharmacy"
   },
   {
     solo: true,
@@ -31775,7 +34485,8 @@ var position = [
     full: "대전 확진자K",
     address: "중앙로역 대전1호선 (11:30)",
     address_name: "대전 중구 선화동 383",
-    latlng: "36.32866350680279, 127.42582815714299"
+    latlng: "36.32866350680279, 127.42582815714299",
+    address_english: "Jungangro Station Line 1 (11:30)"
   },
   {
     solo: true,
@@ -31787,7 +34498,8 @@ var position = [
     full: "대전 확진자K",
     address: "대동역 대전1호선 근무 (11:30-18:00)",
     address_name: "대전 동구 대동 407-1",
-    latlng: "36.3295857807756, 127.44283771283702"
+    latlng: "36.3295857807756, 127.44283771283702",
+    address_english: "Daedong Station Line 1 (11:30-18:00)"
   },
   {
     solo: true,
@@ -31799,7 +34511,8 @@ var position = [
     full: "대전 확진자K",
     address: "블루카돈 (11:40)",
     address_name: "대전 동구 신안동 249-30",
-    latlng: "36.330030586443954, 127.4392762522034"
+    latlng: "36.330030586443954, 127.4392762522034",
+    address_english: "Blue Cardon (11:40)"
   },
   {
     solo: true,
@@ -31811,7 +34524,8 @@ var position = [
     full: "대전 확진자K",
     address: "대동역 -> 갈마역 대전1호선",
     address_name: "대전 서구 갈마동 1462",
-    latlng: "36.35758099077031, 127.372796710623"
+    latlng: "36.35758099077031, 127.372796710623",
+    address_english: "Daedong Station -> Galma Station Line 1"
   },
   {
     solo: true,
@@ -31823,7 +34537,8 @@ var position = [
     full: "대전 확진자K",
     address: "KEPCO전력연구원 운동장",
     address_name: "대전 유성구 문지동 103-16",
-    latlng: "36.3907391252727, 127.38794425411298"
+    latlng: "36.3907391252727, 127.38794425411298",
+    address_english: "KEPCO Power Research Institute Stadium"
   },
   {
     solo: true,
@@ -31835,7 +34550,8 @@ var position = [
     full: "대전 확진자L",
     address: "삼성화재 세종시지점",
     address_name: "세종특별자치시 나성동 741",
-    latlng: "36.488509650541744, 127.25648733477068"
+    latlng: "36.488509650541744, 127.25648733477068",
+    address_english: "Sejong Station, Samsung Fire & Marine Insurance"
   },
   {
     solo: true,
@@ -31847,7 +34563,8 @@ var position = [
     full: "대전 확진자L",
     address: "최고당돈가스 세종지점",
     address_name: "세종특별자치시 나성동 716",
-    latlng: "36.4821032215124, 127.260278207942"
+    latlng: "36.4821032215124, 127.260278207942",
+    address_english: "Sejong Station, the highest sugar-free gas station"
   },
   {
     solo: true,
@@ -31859,7 +34576,9 @@ var position = [
     full: "대전 확진자L",
     address: "코로나19 근로복지공단대전병원 선별진료소",
     address_name: "대전 대덕구 법동 285-3",
-    latlng: "36.368575944335085, 127.42850145453939"
+    latlng: "36.368575944335085, 127.42850145453939",
+    address_english:
+      "Corona19 Korea Workers' Compensation and Welfare Service Daejeon Hospital Screening Care Center"
   },
   {
     solo: true,
@@ -31871,7 +34590,9 @@ var position = [
     full: "대전 확진자M",
     address: "코로나19 을지대학교병원 선별진료소 후 을지대병원 입원",
     address_name: "대전 서구 둔산동 1306",
-    latlng: "36.35506832763849, 127.38198721407"
+    latlng: "36.35506832763849, 127.38198721407",
+    address_english:
+      "Corona19 Eulji University Hospital Hospital Hospital Hospital admission after screening hospital"
   },
   {
     solo: true,
@@ -31883,7 +34604,9 @@ var position = [
     full: "아산 확진자1",
     address: "코로나19 충청남도천안의료원 선별진료소",
     address_name: "충남 천안시 동남구 삼룡동 41-13",
-    latlng: "36.7756629533925, 127.17915253143"
+    latlng: "36.7756629533925, 127.17915253143",
+    address_english:
+      "Corona19 Chungnam-cheonan Medical Center Screening Care Center"
   },
   {
     solo: true,
@@ -31895,7 +34618,8 @@ var position = [
     full: "아산 확진자1",
     address: "새싹약국 (10:08-10:11)",
     address_name: "충남 천안시 서북구 불당동 718",
-    latlng: "36.81173474958921, 127.10902530585899"
+    latlng: "36.81173474958921, 127.10902530585899",
+    address_english: "Sprout Pharmacy (10:08-10:11)"
   },
   {
     solo: true,
@@ -31907,7 +34631,8 @@ var position = [
     full: "아산 확진자1",
     address: "맹주석소아과의원 (10:02-10:07)",
     address_name: "충남 천안시 서북구 불당동 718",
-    latlng: "36.8117239403861, 127.109020807769"
+    latlng: "36.8117239403861, 127.109020807769",
+    address_english: "Maengju Stone Pediatric Clinic (10:02-10:07)"
   },
   {
     solo: true,
@@ -31919,7 +34644,8 @@ var position = [
     full: "아산 확진자1",
     address: "불당우미린 2차 피트니스센터 (09:24-09:44)",
     address_name: "충남 천안시 서북구 불당동 1546",
-    latlng: "36.814815259005286, 127.10131116836602"
+    latlng: "36.814815259005286, 127.10131116836602",
+    address_english: "The secondary fitness center (09:24-09:44)"
   },
   {
     solo: true,
@@ -31931,7 +34657,8 @@ var position = [
     full: "아산 확진자1",
     address: "GS25 아산홍익점 (19:27-19:33)",
     address_name: "충남 아산시 탕정면 호산리 497-5",
-    latlng: "36.8090770040962, 127.078660832055"
+    latlng: "36.8090770040962, 127.078660832055",
+    address_english: "GS25 Asan Hongik Branch (19:27-19:33)"
   },
   {
     solo: true,
@@ -31943,7 +34670,8 @@ var position = [
     full: "아산 확진자1",
     address: "월드 J&K피트니스센터",
     address_name: "충남 천안시 서북구 두정동 667",
-    latlng: "36.8305795072624, 127.12979886653099"
+    latlng: "36.8305795072624, 127.12979886653099",
+    address_english: "World J."
   },
   {
     solo: true,
@@ -31955,7 +34683,9 @@ var position = [
     full: "아산 확진자1",
     address: "아산1 코로나19 서북구보건소 선별진료소 검사 실시 (2/25 16:00)",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english:
+      "Asan 1 Corona19 Conducts Screening Care Center Examination (2/25 16:00)"
   },
   {
     solo: true,
@@ -31967,7 +34697,9 @@ var position = [
     full: "아산 확진자2",
     address: "아산2 코로나19 충청남도천안의료원 선별진료소",
     address_name: "충남 천안시 동남구 삼룡동 41-13",
-    latlng: "36.7756629533925, 127.17915253143"
+    latlng: "36.7756629533925, 127.17915253143",
+    address_english:
+      "Asan 2 Corona19 Chungnam-cheonan Medical Center Screening Care Center"
   },
   {
     solo: true,
@@ -31979,7 +34711,8 @@ var position = [
     full: "김해 확진자",
     address: "STX중공업 2공장",
     address_name: "경남 창원시 성산구 신촌동 67-14",
-    latlng: "35.2106041581934, 128.62695798679627"
+    latlng: "35.2106041581934, 128.62695798679627",
+    address_english: "STX Heavy Industries 2nd Plant"
   },
   {
     solo: true,
@@ -31991,7 +34724,8 @@ var position = [
     full: "김해 확진자",
     address: "하나은행 창원지점",
     address_name: "경남 창원시 성산구 상남동 70-1",
-    latlng: "35.2186097627966, 128.67642287935135"
+    latlng: "35.2186097627966, 128.67642287935135",
+    address_english: "Hana Bank Changwon Branch"
   },
   {
     solo: true,
@@ -32003,7 +34737,8 @@ var position = [
     full: "김해 확진자",
     address: "한라IMS 화전2공장",
     address_name: "부산 강서구 화전동 600-9",
-    latlng: "35.099821464547894, 128.87726750784174"
+    latlng: "35.099821464547894, 128.87726750784174",
+    address_english: "Halla IMS Hwajeon 2 Plant"
   },
   {
     solo: true,
@@ -32015,7 +34750,8 @@ var position = [
     full: "김해 확진자",
     address: "약수골삼계탕옻계탕",
     address_name: "부산 강서구 신호산단1로 199",
-    latlng: "35.084788, 128.881754"
+    latlng: "35.084788, 128.881754",
+    address_english: "Yaksu-gol samgyetang and poison ivy-tang"
   },
   {
     solo: true,
@@ -32027,7 +34763,8 @@ var position = [
     full: "아산 확진자2",
     address: "에프엔에스테크 아산공장 (2/21, 24, 25)",
     address_name: "충남 아산시 음봉면 신휴리 763",
-    latlng: "36.900666670784, 127.057248432176"
+    latlng: "36.900666670784, 127.057248432176",
+    address_english: "Fenstek Asan Plant (2/21, 24, 25)"
   },
   {
     solo: true,
@@ -32039,7 +34776,8 @@ var position = [
     full: "아산 확진자3",
     address: "굿마트 (9:00-12:00)",
     address_name: "충남 아산시 신창면 남성리 837-1",
-    latlng: "36.7844385173125, 126.948977349188"
+    latlng: "36.7844385173125, 126.948977349188",
+    address_english: "Good Mart (9:00-12:00)"
   },
   {
     solo: true,
@@ -32052,7 +34790,9 @@ var position = [
     address:
       "아산3 코로나19 서북구보건소 선별진료소 검사 실시 (2/26 14:00-15:00)",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english:
+      "Asan 3 Corona19 Conducts Screening Care Center Inspection (2/26 14:00-15:00)"
   },
   {
     solo: true,
@@ -32065,7 +34805,9 @@ var position = [
     address:
       "수이비인후과의원, 약국(ENT 옆), 농협(약국 건물 1층) (14:00-15:00)",
     address_name: "충남 천안시 서북구 차암동 435",
-    latlng: "36.84101808779391, 127.10397250036861"
+    latlng: "36.84101808779391, 127.10397250036861",
+    address_english:
+      "Sui Bi Clinic, Pharmacy (next to ENT), Nonghyup (First floor of Pharmacy Building) (14:00-15:00)"
   },
   {
     solo: true,
@@ -32077,7 +34819,8 @@ var position = [
     full: "아산 확진자3",
     address: "코스트코 천안점 (10:00-11:30)",
     address_name: "충남 천안시 서북구 차암동 438",
-    latlng: "36.84267491283848, 127.105347021173"
+    latlng: "36.84267491283848, 127.105347021173",
+    address_english: "Costco Cheonan Point (10:00-11:30)"
   },
   {
     solo: true,
@@ -32089,7 +34832,8 @@ var position = [
     full: "천안 확진자10",
     address: "파리바게뜨 아산권곡점(13:30-18:20)",
     address_name: "충남 아산시 권곡동 170-1",
-    latlng: "36.78790769030098, 127.01653627921301"
+    latlng: "36.78790769030098, 127.01653627921301",
+    address_english: "Paris Baguette Asan Ridge (13:30-18:20)"
   },
   {
     solo: true,
@@ -32101,7 +34845,8 @@ var position = [
     full: "천안 확진자10",
     address: "삼성화재 아산지점(2/21, 24, 25, 26)",
     address_name: "충남 아산시 실옥동 20-48",
-    latlng: "36.7889829000305, 126.995971186237"
+    latlng: "36.7889829000305, 126.995971186237",
+    address_english: "Samsung Fire's Asan Branch (2/21, 24, 25, 26)"
   },
   {
     solo: true,
@@ -32113,7 +34858,8 @@ var position = [
     full: "천안 확진자10",
     address: "탐앤탐스 아산점",
     address_name: "충남 아산시 온천동 1737",
-    latlng: "36.78616512295826, 127.00376763197642"
+    latlng: "36.78616512295826, 127.00376763197642",
+    address_english: "Tom and Tom's Asan Branch"
   },
   {
     solo: true,
@@ -32125,7 +34871,8 @@ var position = [
     full: "거제 확진자",
     address: "옥포동 덕산4차 아파트 관리소장",
     address_name: "경남 거제시 옥포동 1279",
-    latlng: "34.900247802496054, 128.68501819725122"
+    latlng: "34.900247802496054, 128.68501819725122",
+    address_english: "Director of Ducksan 4th Apartment Management in Okpo-dong"
   },
   {
     solo: true,
@@ -32137,7 +34884,8 @@ var position = [
     full: "천안 확진자10",
     address: "다인정 (12:00)",
     address_name: "충남 아산시 번영로 124",
-    latlng: "36.786132, 127.004542"
+    latlng: "36.786132, 127.004542",
+    address_english: "Multi-admitment (12:00)"
   },
   {
     solo: true,
@@ -32149,7 +34897,8 @@ var position = [
     full: "부산 확진자",
     address: "새벽이슬동신교회",
     address_name: "부산 동래구 안락동 1228-7",
-    latlng: "35.19974035712401, 129.10715112111163"
+    latlng: "35.19974035712401, 129.10715112111163",
+    address_english: "Dawn Isle-dong Church"
   },
   {
     solo: true,
@@ -32161,7 +34910,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae District Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -32173,7 +34924,8 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원",
     address_name: "부산 연제구 거제동 1330",
-    latlng: "35.18729655432529, 129.05922489147238"
+    latlng: "35.18729655432529, 129.05922489147238",
+    address_english: "Busan Medical Center"
   },
   {
     solo: true,
@@ -32185,7 +34937,8 @@ var position = [
     full: "거제 확진자",
     address: "코로나19 대우병원 선별진료소",
     address_name: "경남 거제시 두모동 363",
-    latlng: "34.8722024609245, 128.7221736545624"
+    latlng: "34.8722024609245, 128.7221736545624",
+    address_english: "Corona19 Selective Care Center at Daewoo Hospital"
   },
   {
     solo: true,
@@ -32197,7 +34950,8 @@ var position = [
     full: "천안 확진자10",
     address: "화이트필의원 (14:30-15:30)",
     address_name: "충남 천안시 동남구 신부동 966",
-    latlng: "36.8191368019667, 127.15290384893501"
+    latlng: "36.8191368019667, 127.15290384893501",
+    address_english: "White-Pill Rep. (14:30-15:30)"
   },
   {
     solo: true,
@@ -32209,7 +34963,8 @@ var position = [
     full: "천안 확진자10",
     address: "천안대중사우나 (18:00-19:30)",
     address_name: "충남 천안시 동남구 목천읍 신계리 332-13",
-    latlng: "36.77083175452529, 127.20658582896"
+    latlng: "36.77083175452529, 127.20658582896",
+    address_english: "Cheonan Grand Saura (18:00-19:30)"
   },
   {
     solo: true,
@@ -32221,7 +34976,8 @@ var position = [
     full: "천안 확진자10",
     address: "부산역 -> 오송역 SRT 352 (16:00)",
     address_name: "충북 청주시 흥덕구 오송읍 봉산리 369-1",
-    latlng: "36.62004696346318, 127.32763666597236"
+    latlng: "36.62004696346318, 127.32763666597236",
+    address_english: "Busan Station -> Osong Station SRT 352 (16:00)"
   },
   {
     solo: true,
@@ -32233,7 +34989,8 @@ var position = [
     full: "천안 확진자10",
     address: "천안침례교회 (11:00-12:00)",
     address_name: "충남 천안시 동남구 원성2동 559-14",
-    latlng: "36.802887708238906, 127.15861777617098"
+    latlng: "36.802887708238906, 127.15861777617098",
+    address_english: "Cheonan Baptist Church (11:00-12:00)"
   },
   {
     solo: true,
@@ -32245,7 +35002,8 @@ var position = [
     full: "부산 확진자",
     address: "늘편한내과의원",
     address_name: "부산 해운대구 반여동 1632",
-    latlng: "35.203462086013204, 129.1233425717837"
+    latlng: "35.203462086013204, 129.1233425717837",
+    address_english: "an inflexible physician"
   },
   {
     solo: true,
@@ -32257,7 +35015,8 @@ var position = [
     full: "부산 확진자",
     address: "동진약국",
     address_name: "부산 해운대구 반여동 1632",
-    latlng: "35.2034705844707, 129.12347454139672"
+    latlng: "35.2034705844707, 129.12347454139672",
+    address_english: "Co-jin Pharmacy"
   },
   {
     solo: true,
@@ -32269,7 +35028,8 @@ var position = [
     full: "부산 확진자",
     address: "수영초등학교 병설유치원(직장)",
     address_name: "부산 수영구 광안동 725",
-    latlng: "35.16546872551779, 129.11185866674066"
+    latlng: "35.16546872551779, 129.11185866674066",
+    address_english: "Suyeong Elementary School Hospital"
   },
   {
     solo: true,
@@ -32281,7 +35041,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 해운대구보건소 선별진료소",
     address_name: "부산 해운대구 좌동 1339",
-    latlng: "35.16411220331141, 129.17866201817904"
+    latlng: "35.16411220331141, 129.17866201817904",
+    address_english: "Corona19 Haeundae Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -32293,7 +35054,8 @@ var position = [
     full: "부산 확진자",
     address: "인제대학교 해운대백병원 이송",
     address_name: "부산 해운대구 좌동 1435",
-    latlng: "35.17333591469751, 129.18218305815617"
+    latlng: "35.17333591469751, 129.18218305815617",
+    address_english: "Transfer of Inje University to Haeundae Hospital"
   },
   {
     solo: true,
@@ -32305,7 +35067,8 @@ var position = [
     full: "천안 확진자10",
     address: "별난버섯집 (12:00)",
     address_name: "충남 아산시 신인동 238",
-    latlng: "36.752630682881595, 126.982987527724"
+    latlng: "36.752630682881595, 126.982987527724",
+    address_english: "House of Unique Mushrooms (12:00)"
   },
   {
     solo: true,
@@ -32317,7 +35080,9 @@ var position = [
     full: "천안 확진자10",
     address: "천안아산역 -> 부산역 KTX 141 (15:38-17:50)",
     address_name: "충남 아산시 배방읍 장재리 305",
-    latlng: "36.7946033734687, 127.104380324936"
+    latlng: "36.7946033734687, 127.104380324936",
+    address_english:
+      "Cheonan Asan Station -> Busan Station KTX 141 (15:38-17:50)"
   },
   {
     solo: true,
@@ -32329,7 +35094,8 @@ var position = [
     full: "부산 확진자",
     address: "동래구 보건소",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english: "Dongnae District Health Center"
   },
   {
     solo: true,
@@ -32341,7 +35107,8 @@ var position = [
     full: "천안 확진자10",
     address: "자갈치시장 (17:50)",
     address_name: "부산 중구 남포동5가 105-1",
-    latlng: "35.096621571635005, 129.03058640622424"
+    latlng: "35.096621571635005, 129.03058640622424",
+    address_english: "Jagalchi Market (17:50)"
   },
   {
     solo: true,
@@ -32353,7 +35120,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 북구보건소 선별진료소",
     address_name: "부산 북구 화명동 1531-4",
-    latlng: "35.23925667006299, 129.0147762004652"
+    latlng: "35.23925667006299, 129.0147762004652",
+    address_english: "Corona19 Northern Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -32365,7 +35133,8 @@ var position = [
     full: "창녕 확진자",
     address: "신창녕 속내과의원 (2/26, 27)",
     address_name: "경남 창녕군 창녕읍 교리 276-2",
-    latlng: "35.543200534162, 128.49463825449416"
+    latlng: "35.543200534162, 128.49463825449416",
+    address_english: "Shin Chang-nyeong Internal Medicine Clinic (2/26, 27)"
   },
   {
     solo: true,
@@ -32377,7 +35146,9 @@ var position = [
     full: "부산 확진자",
     address: "부산의료원(보건소 구급차 이용)",
     address_name: "부산 연제구 거제동 1330",
-    latlng: "35.18729655432529, 129.05922489147238"
+    latlng: "35.18729655432529, 129.05922489147238",
+    address_english:
+      "Busan Medical Center (Using an ambulance at a health center)"
   },
   {
     solo: true,
@@ -32389,7 +35160,8 @@ var position = [
     full: "천안 확진자10",
     address: "신라스테이 해운대 (22:00)",
     address_name: "부산 해운대구 우동 629-6",
-    latlng: "35.159797511678505, 129.15873839164894"
+    latlng: "35.159797511678505, 129.15873839164894",
+    address_english: "Sinrastay Haeundae (22:00)"
   },
   {
     solo: true,
@@ -32401,7 +35173,8 @@ var position = [
     full: "창녕 확진자",
     address: "신경남약국",
     address_name: "경남 창녕군 창녕읍 교리 276-6",
-    latlng: "35.542989539238306, 128.49450202152818"
+    latlng: "35.542989539238306, 128.49450202152818",
+    address_english: "Nervous Men's Pharmacy"
   },
   {
     solo: true,
@@ -32413,7 +35186,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 동래구보건소 선별진료소(보건소 차량 이용)",
     address_name: "부산 동래구 명륜동 702-54",
-    latlng: "35.21141202010109, 129.07985303660647"
+    latlng: "35.21141202010109, 129.07985303660647",
+    address_english:
+      "Corona19 Dongnae Ward Health Center Screening Care Center (Used of Health Center Vehicles)"
   },
   {
     solo: true,
@@ -32425,7 +35200,9 @@ var position = [
     full: "천안 확진자10",
     address: "해운대기와집대구탕 해운대본점 (10:00)",
     address_name: "부산 해운대구 중동 990-3",
-    latlng: "35.15818783163401, 129.17456693488703"
+    latlng: "35.15818783163401, 129.17456693488703",
+    address_english:
+      "Haeundae branch of Haeundae Beach and Jipdaegu-tang at 10:00."
   },
   {
     solo: true,
@@ -32437,7 +35214,8 @@ var position = [
     full: "창녕 확진자",
     address: "원 이비인후과",
     address_name: "경남 창녕군 창녕읍 군청길 18 성동빌딩 5층",
-    latlng: "35.542641323034, 128.49205652173015"
+    latlng: "35.542641323034, 128.49205652173015",
+    address_english: "Won ENT"
   },
   {
     solo: true,
@@ -32449,7 +35227,8 @@ var position = [
     full: "창녕 확진자",
     address: "GS25 창녕점",
     address_name: "경남 창녕군 창녕읍 교리 1035-7",
-    latlng: "35.54304338827501, 128.49248297552614"
+    latlng: "35.54304338827501, 128.49248297552614",
+    address_english: "GS25 Changnyeong branch"
   },
   {
     solo: true,
@@ -32461,7 +35240,8 @@ var position = [
     full: "부산 확진자",
     address: "보민내과의원",
     address_name: "부산 수영구 광안동 1077-13",
-    latlng: "35.16554842881041, 129.11452081159464"
+    latlng: "35.16554842881041, 129.11452081159464",
+    address_english: "a bomin physician"
   },
   {
     solo: true,
@@ -32473,7 +35253,8 @@ var position = [
     full: "부산 확진자",
     address: "GS칼텍스 부산주유소",
     address_name: "부산 수영구 광안동 164-1",
-    latlng: "35.1554665810057, 129.11285530707664"
+    latlng: "35.1554665810057, 129.11285530707664",
+    address_english: "GS Caltex Busan Oil Refinery Co."
   },
   {
     solo: true,
@@ -32485,7 +35266,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 BHS한서병원 선별진료소",
     address_name: "부산 수영구 광안동 491-10",
-    latlng: "35.1608998044941, 129.11320654836166"
+    latlng: "35.1608998044941, 129.11320654836166",
+    address_english: "Corona19 BHS Hansuh Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -32497,7 +35279,8 @@ var position = [
     full: "부산 확진자",
     address: "희망오륙도약국",
     address_name: "부산 수영구 광안동 596-10",
-    latlng: "35.16041347891209, 129.11318957537165"
+    latlng: "35.16041347891209, 129.11318957537165",
+    address_english: "Hope Five-Foot Office"
   },
   {
     solo: true,
@@ -32509,7 +35292,8 @@ var position = [
     full: "부산 확진자",
     address: "맥도날드 부산수영SK DT점",
     address_name: "부산 수영구 수영동 450-9",
-    latlng: "35.16826150051353, 129.11412466588618"
+    latlng: "35.16826150051353, 129.11412466588618",
+    address_english: "McDonald's Busan Swimming SK DT Store"
   },
   {
     solo: true,
@@ -32521,7 +35305,9 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 수영구보건소 선별진료소",
     address_name: "부산 수영구 광안동 661-1",
-    latlng: "35.1626441095325, 129.11343165102565"
+    latlng: "35.1626441095325, 129.11343165102565",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -32533,7 +35319,8 @@ var position = [
     full: "창녕 확진자",
     address: "넥센타이어 창녕공장",
     address_name: "경남 창녕군 대합면 이방리 992",
-    latlng: "35.62515024034621, 128.4379048831411"
+    latlng: "35.62515024034621, 128.4379048831411",
+    address_english: "Nexen Tire Changnyeong Factory"
   },
   {
     solo: true,
@@ -32545,7 +35332,9 @@ var position = [
     full: "부산 확진자",
     address: "남산내과신경과병원(소아과 진료실 없어 접수실만 내원)",
     address_name: "부산 금정구 구서동 184-34",
-    latlng: "35.25552637996191, 129.09106509625153"
+    latlng: "35.25552637996191, 129.09106509625153",
+    address_english:
+      "Namsan Medical Center for Internal Medicine and Neurology (No Pediatric Clinic, only reception rooms are visited)"
   },
   {
     solo: true,
@@ -32557,7 +35346,8 @@ var position = [
     full: "부산 확진자",
     address: "삼성빅마트(입구에만 서 있었음)",
     address_name: "부산 동래구 안락동 600-7",
-    latlng: "35.19562179446601, 129.1049940227506"
+    latlng: "35.19562179446601, 129.1049940227506",
+    address_english: "Samsung Big Mart (only standing at the entrance)"
   },
   {
     solo: true,
@@ -32569,7 +35359,8 @@ var position = [
     full: "부산 확진자",
     address: "박승철헤어스투디오 센텀2호점",
     address_name: "부산 해운대구 우동 1488",
-    latlng: "35.17096079221906, 129.13158060076813"
+    latlng: "35.17096079221906, 129.13158060076813",
+    address_english: "Park Seung-Chul's HeirsTudio Centum 2nd Store"
   },
   {
     solo: true,
@@ -32581,7 +35372,9 @@ var position = [
     full: "부산 확진자",
     address: "동래봉생병원(병원밖 출입구에서 대동병원 선별진료소로 안내받음)",
     address_name: "부산 동래구 안락동 766",
-    latlng: "35.19692486971946, 129.09611335707478"
+    latlng: "35.19692486971946, 129.09611335707478",
+    address_english:
+      "Dongnae Volunteer Hospital (Dae-dong Hospital Screening Clinic) at the entrance outside the hospital)"
   },
   {
     solo: true,
@@ -32593,7 +35386,8 @@ var position = [
     full: "부산 확진자",
     address: "코로나19 대동병원 선별진료소",
     address_name: "부산 동래구 명륜동 530-1",
-    latlng: "35.2042360924945, 129.08022333262247"
+    latlng: "35.2042360924945, 129.08022333262247",
+    address_english: "Corona19 Daedong Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -32605,7 +35399,8 @@ var position = [
     full: "밀양 확진자",
     address: "밀양아리랑대공원",
     address_name: "경남 밀양시 교동 515-2",
-    latlng: "35.504974367075505, 128.7609860614185"
+    latlng: "35.504974367075505, 128.7609860614185",
+    address_english: "Miryang Arirang Grand Park"
   },
   {
     solo: true,
@@ -32617,7 +35412,8 @@ var position = [
     full: "밀양 확진자",
     address: "김밥일번지 밀양점",
     address_name: "경남 밀양시 중앙로 255-1",
-    latlng: "35.486092, 128.756230"
+    latlng: "35.486092, 128.756230",
+    address_english: "Kimbab Ilbunji Milyang Branch"
   },
   {
     solo: true,
@@ -32629,7 +35425,8 @@ var position = [
     full: "부산 확진자",
     address: "헤이메르로스터스",
     address_name: "울산 남구 삼산동 1630-20",
-    latlng: "35.53911303662082, 129.34460695171123"
+    latlng: "35.53911303662082, 129.34460695171123",
+    address_english: "Heymerosters"
   },
   {
     solo: true,
@@ -32641,7 +35438,8 @@ var position = [
     full: "창원 확진자",
     address: "창원대학교 35호관",
     address_name: "경남 밀양시 내이동 1403-11",
-    latlng: "35.4889359804395, 128.74070115395043"
+    latlng: "35.4889359804395, 128.74070115395043",
+    address_english: "Changwon University 35th Hall"
   },
   {
     solo: true,
@@ -32653,7 +35451,8 @@ var position = [
     full: "노원 확진자",
     address: "스타벅스 홍대갤러리점",
     address_name: "서울 마포구 서교동 343-10",
-    latlng: "37.55319894032161, 126.924809884926"
+    latlng: "37.55319894032161, 126.924809884926",
+    address_english: "Starbucks Hongdae Gallery"
   },
   {
     solo: true,
@@ -32665,7 +35464,8 @@ var position = [
     full: "원주 확진자",
     address: "성지 병원",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "37.345531, 127.954213"
+    latlng: "37.345531, 127.954213",
+    address_english: "Holy Land Hospital"
   },
   {
     solo: true,
@@ -32677,7 +35477,9 @@ var position = [
     full: "원주 확진자",
     address: "무실동 수협바다마트(차량 내부 대기, 가족만 마트 출입)",
     address_name: "서울 강남구 역삼동 804",
-    latlng: "37.331219, 127.925595"
+    latlng: "37.331219, 127.925595",
+    address_english:
+      "Suhyup Sea Mart in Musil-dong (Vehicle waiting, Family entering the market only)"
   },
   {
     solo: true,
@@ -32689,7 +35491,8 @@ var position = [
     full: "경산 확진자",
     address: "건강한장 연합내과의원",
     address_name: "경북 경산시 사동 40",
-    latlng: "35.81124175792219, 128.75459523275546"
+    latlng: "35.81124175792219, 128.75459523275546",
+    address_english: "Healthy Presbyterian Union Internal Medicine"
   },
   {
     solo: true,
@@ -32701,7 +35504,8 @@ var position = [
     full: "영천 확진자",
     address: "율리어스",
     address_name: "경북 영천시 문외동 12-16",
-    latlng: "35.9724692275437, 128.9370869890569"
+    latlng: "35.9724692275437, 128.9370869890569",
+    address_english: "Julius"
   },
   {
     solo: true,
@@ -32713,7 +35517,8 @@ var position = [
     full: "영천 확진자",
     address: "트라이얼 영천점",
     address_name: "경북 영천시 조교동 832-1",
-    latlng: "35.97039373507879, 128.95194754032494"
+    latlng: "35.97039373507879, 128.95194754032494",
+    address_english: "Trials zero"
   },
   {
     solo: true,
@@ -32725,7 +35530,8 @@ var position = [
     full: "영천 확진자",
     address: "하양우성엘피지충전소",
     address_name: "경북 경산시 하양읍 동서리 885-1",
-    latlng: "35.9171905496592, 128.8307099612396"
+    latlng: "35.9171905496592, 128.8307099612396",
+    address_english: "Hayang Woosung Elphage Charging Station"
   },
   {
     solo: true,
@@ -32737,7 +35543,8 @@ var position = [
     full: "영천 확진자",
     address: "김신향 소아청소년과의원",
     address_name: "대구 달서구 본리동 110-1",
-    latlng: "35.84140438760079, 128.54456343270417"
+    latlng: "35.84140438760079, 128.54456343270417",
+    address_english: "Kim Shin-hyang, a pediatrician"
   },
   {
     solo: true,
@@ -32749,7 +35556,8 @@ var position = [
     full: "영천 확진자",
     address: "현대내과의원",
     address_name: "대구 달서구 이곡동 1196-8",
-    latlng: "35.8551708394478, 128.50476776588314"
+    latlng: "35.8551708394478, 128.50476776588314",
+    address_english: "a modern physician"
   },
   {
     solo: true,
@@ -32761,7 +35569,8 @@ var position = [
     full: "영천 확진자",
     address: "강내과의원",
     address_name: "경북 영천시 완산동 1070-4",
-    latlng: "35.963637178601644, 128.9359512188057"
+    latlng: "35.963637178601644, 128.9359512188057",
+    address_english: "a river doctor"
   },
   {
     solo: true,
@@ -32773,7 +35582,8 @@ var position = [
     full: "영천 확진자",
     address: "영천농협 남부지점",
     address_name: "경북 영천시 완산동 1100-8",
-    latlng: "35.960574403335706, 128.9333815544217"
+    latlng: "35.960574403335706, 128.9333815544217",
+    address_english: "Yeongcheon Agricultural Cooperative Southern Branch"
   },
   {
     solo: true,
@@ -32785,7 +35595,8 @@ var position = [
     full: "청주 확진자4",
     address: "수성못",
     address_name: "대구 수성구 두산동",
-    latlng: "35.82744825519459, 128.61870646191826"
+    latlng: "35.82744825519459, 128.61870646191826",
+    address_english: "a male nail"
   },
   {
     solo: true,
@@ -32797,7 +35608,8 @@ var position = [
     full: "청주 확진자4",
     address: "마이카츠 칠곡점 (13:00)",
     address_name: "대구 북구 동천동 912-3",
-    latlng: "35.94183109934719, 128.5629916659352"
+    latlng: "35.94183109934719, 128.5629916659352",
+    address_english: "Mikatsu Chilgok Branch (13:00)"
   },
   {
     solo: true,
@@ -32809,7 +35621,8 @@ var position = [
     full: "청주 확진자4",
     address: "동대구역 KTX 274 (20:20)",
     address_name: "대구 동구 신암동 294",
-    latlng: "35.879323993179504, 128.62839377538825"
+    latlng: "35.879323993179504, 128.62839377538825",
+    address_english: "Dongdaegu KTX 274 (20:20)"
   },
   {
     solo: true,
@@ -32821,7 +35634,8 @@ var position = [
     full: "청주 확진자4",
     address: "청주껍데기",
     address_name: "충북 청주시 청원구 율량동 2198",
-    latlng: "36.66448800899306, 127.50054157442388"
+    latlng: "36.66448800899306, 127.50054157442388",
+    address_english: "rice wine shell"
   },
   {
     solo: true,
@@ -32833,7 +35647,8 @@ var position = [
     full: "청주 확진자4",
     address: "프라임 볼링타운 (20:45-22:15)",
     address_name: "충북 청주시 청원구 오창읍 양청리 785-3",
-    latlng: "36.665251, 127.495673"
+    latlng: "36.665251, 127.495673",
+    address_english: "Prime Bowling Town (20:45-22:15)"
   },
   {
     solo: true,
@@ -32845,7 +35660,8 @@ var position = [
     full: "청주 확진자4",
     address: "런던노래방 (22:20-23:50)",
     address_name: "충북 청주시 청원구 오창읍 양청리 785-3",
-    latlng: "36.665084, 127.495603"
+    latlng: "36.665084, 127.495603",
+    address_english: "London Singing Room (22:20-23:50)"
   },
   {
     solo: true,
@@ -32857,7 +35673,8 @@ var position = [
     full: "청주 확진자4",
     address: "세븐일레븐 청주율량진성점 (23:37))",
     address_name: "충북 청주시 청원구 율량동 2217",
-    latlng: "36.6643040715289, 127.49884915422702"
+    latlng: "36.6643040715289, 127.49884915422702",
+    address_english: "7-Eleven Cheongju Yield Vibration Point (23:37))"
   },
   {
     solo: true,
@@ -32869,7 +35686,8 @@ var position = [
     full: "청주 확진자4",
     address: "우리스크린골프 (20:40-23:30)",
     address_name: "충북 청주시 청원구 율량동 2052",
-    latlng: "36.66473483039021, 127.498413464844"
+    latlng: "36.66473483039021, 127.498413464844",
+    address_english: "Woori Screen Golf (20:40-23:30)"
   },
   {
     solo: true,
@@ -32881,7 +35699,8 @@ var position = [
     full: "청주 확진자4",
     address: "돈탑 율량2지구점 (19:00-20:30)",
     address_name: "충북 청주시 청원구 율량동 2189",
-    latlng: "36.66453329149333, 127.50005865789818"
+    latlng: "36.66453329149333, 127.50005865789818",
+    address_english: "Don Top Yield 2 District Point (19:00-20:30)"
   },
   {
     solo: true,
@@ -32893,7 +35712,8 @@ var position = [
     full: "청주 확진자4 ,5",
     address: "작두산감자탕 (14:00-14:28)",
     address_name: "충북 청주시 청원구 내수읍 마산리 164-2",
-    latlng: "36.7250070987435, 127.536943437278"
+    latlng: "36.7250070987435, 127.536943437278",
+    address_english: "Jadusan Gamjatang (14:00-14:28)"
   },
   {
     solo: true,
@@ -32905,7 +35725,9 @@ var position = [
     full: "청주 확진자4, 5",
     address: "빽다방 청주율량중앙점 테이크아웃 (14:48-14:50)",
     address_name: "충북 청주시 청원구 주성동 338",
-    latlng: "36.672027928853815, 127.497261305908"
+    latlng: "36.672027928853815, 127.497261305908",
+    address_english:
+      "Takeout of the central point of the Cheongju rate of the back-dabang (14:48-14:50)"
   },
   {
     solo: true,
@@ -32917,7 +35739,8 @@ var position = [
     full: "청주 확진자4, 5",
     address: "토리헤어 주성점 (14:55-16:30)",
     address_name: "충북 청주시 청원구 주성동 339",
-    latlng: "36.67209045492509, 127.496961909879"
+    latlng: "36.67209045492509, 127.496961909879",
+    address_english: "Tori-Hair Main Star (14:55-16:30)"
   },
   {
     solo: true,
@@ -32929,7 +35752,8 @@ var position = [
     full: "청주 확진자4, 5",
     address: "다이소 청주율량2지구점 (16:40-17:05)",
     address_name: "충북 청주시 청원구 율량동 2016",
-    latlng: "36.66467521163519, 127.49368835335402"
+    latlng: "36.66467521163519, 127.49368835335402",
+    address_english: "Daiso Cheongju Yield 2 Zone (16:40-17:05)"
   },
   {
     solo: true,
@@ -32941,9 +35765,9 @@ var position = [
     full: "안동 확진자",
     address: "안동 대학교 기숙사",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.542221972296, 128.79689835194353"
+    latlng: "36.542221972296, 128.79689835194353",
+    address_english: "Andong University Dormitory"
   },
-
   {
     solo: true,
     profile: "-",
@@ -32954,9 +35778,9 @@ var position = [
     full: "안동 확진자",
     address: "안동 대학교 기숙사",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.542221972296, 128.79689835194353"
+    latlng: "36.542221972296, 128.79689835194353",
+    address_english: "Andong University Dormitory"
   },
-
   {
     solo: true,
     profile: "-",
@@ -32967,9 +35791,9 @@ var position = [
     full: "안동 확진자",
     address: "배스킨라빈스 안동삼산점",
     address_name: "경북 안동시 삼산동 141-3",
-    latlng: "36.56500153697709, 128.7307791101764"
+    latlng: "36.56500153697709, 128.7307791101764",
+    address_english: "Andong Samsan Branch of Baskin Robbins"
   },
-
   {
     solo: true,
     profile: "-",
@@ -32980,7 +35804,8 @@ var position = [
     full: "안동 확진자",
     address: "CU 안동1호점",
     address_name: "경북 안동시 남부동 244-1",
-    latlng: "36.563764097825704, 128.73036726622038"
+    latlng: "36.563764097825704, 128.73036726622038",
+    address_english: "CU Andong 1st Store"
   },
   {
     solo: true,
@@ -32992,7 +35817,8 @@ var position = [
     full: "청주 확진자5",
     address: "CU 내수한마음점",
     address_name: "충북 청주시 청원구 내수읍 은곡리 297-2",
-    latlng: "36.70789198146031, 127.52508203072001"
+    latlng: "36.70789198146031, 127.52508203072001",
+    address_english: "CU Embracing Heart Point"
   },
   {
     solo: true,
@@ -33004,7 +35830,8 @@ var position = [
     full: "청주 확진자5",
     address: "세븐일레븐 충북보건대점",
     address_name: "충북 청주시 청원구 내수읍 덕암리 297",
-    latlng: "36.69981329759451, 127.547721416071"
+    latlng: "36.69981329759451, 127.547721416071",
+    address_english: "7-Eleven Chungbuk Health Center"
   },
   {
     solo: true,
@@ -33016,7 +35843,8 @@ var position = [
     full: "청주 확진자5",
     address: "GS25 내수우창점",
     address_name: "충북 청주시 청원구 내수읍 도원리 56",
-    latlng: "36.70909590710593, 127.53938445348462"
+    latlng: "36.70909590710593, 127.53938445348462",
+    address_english: "GS25 Domestic Postal Service"
   },
   {
     solo: true,
@@ -33028,7 +35856,8 @@ var position = [
     full: "청주 확진자5",
     address: "포시즌마트 청원내수점",
     address_name: "충북 청주시 청원구 내수읍 도원세교로 33-1",
-    latlng: "36.712684, 127.539013"
+    latlng: "36.712684, 127.539013",
+    address_english: "Four Season Mart's Cheongwon Reservoir"
   },
   {
     solo: true,
@@ -33040,7 +35869,8 @@ var position = [
     full: "청주 확진자5",
     address: "세븐일레븐 청주내수주공점",
     address_name: "충북 청주시 청원구 내수읍 청암로 36 1층",
-    latlng: "36.722299, 127.534898"
+    latlng: "36.722299, 127.534898",
+    address_english: "7-Eleven Cheongju Inner Water Supply Co., Ltd."
   },
   {
     solo: true,
@@ -33052,7 +35882,8 @@ var position = [
     full: "청주 확진자5",
     address: "롯데리아 청주내수점",
     address_name: "충북 청주시 청원구 내수읍 마산리 197-83",
-    latlng: "36.722922952113095, 127.536315505651"
+    latlng: "36.722922952113095, 127.536315505651",
+    address_english: "Lotteria Cheongju Nae Water Station"
   },
   {
     solo: true,
@@ -33064,7 +35895,8 @@ var position = [
     full: "청주 확진자5",
     address: "홈마트",
     address_name: "충북 청주시 청원구 내수읍 마산리 156-7",
-    latlng: "36.7234117094631, 127.53663681150401"
+    latlng: "36.7234117094631, 127.53663681150401",
+    address_english: "Home Mart"
   },
   {
     solo: true,
@@ -33076,7 +35908,8 @@ var position = [
     full: "청주 확진자5",
     address: "미니스톱 내수타운점",
     address_name: "충북 청주시 청원구 내수읍 마산리 157-4",
-    latlng: "36.72442797960309, 127.53747672116998"
+    latlng: "36.72442797960309, 127.53747672116998",
+    address_english: "Ministop Domestic Town Branch"
   },
   {
     solo: true,
@@ -33088,7 +35921,8 @@ var position = [
     full: "청주 확진자5",
     address: "세븐일레븐 초정약수점",
     address_name: "충북 청주시 청원구 내수읍 학평리 157-2",
-    latlng: "36.724534658584325, 127.54256405742744"
+    latlng: "36.724534658584325, 127.54256405742744",
+    address_english: "Seven Eleven superfine point"
   },
   {
     solo: true,
@@ -33100,7 +35934,8 @@ var position = [
     full: "청주 확진자5",
     address: "CU 내수다움점",
     address_name: "충북 청주시 청원구 내수읍 내수리 10-13",
-    latlng: "36.725263820544896, 127.53436160439922"
+    latlng: "36.725263820544896, 127.53436160439922",
+    address_english: "CU Domesticity Point"
   },
   {
     solo: true,
@@ -33112,7 +35947,8 @@ var position = [
     full: "청주 확진자5",
     address: "세븐일레븐 청주내수무지개점",
     address_name: "충북 청주시 청원구 내수읍 은곡리 258-1",
-    latlng: "36.718507722323544, 127.52840702459545"
+    latlng: "36.718507722323544, 127.52840702459545",
+    address_english: "7-Eleven Cheongju Waterproofing Point"
   },
   {
     solo: true,
@@ -33124,7 +35960,8 @@ var position = [
     full: "청주 확진자5",
     address: "미니스톱 청주내수점",
     address_name: "충북 청주시 청원구 내수읍 내수리 261-49",
-    latlng: "36.7174695857825, 127.526588875845"
+    latlng: "36.7174695857825, 127.526588875845",
+    address_english: "Ministop Chongju Nae Water Station"
   },
   {
     solo: true,
@@ -33136,9 +35973,9 @@ var position = [
     full: "안동 확진자",
     address: "GS25 안동중앙점",
     address_name: "경북 안동시 삼산동 53-1",
-    latlng: "36.566218593120304, 128.7316015635394"
+    latlng: "36.566218593120304, 128.7316015635394",
+    address_english: "GS25 Andong Central Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33149,9 +35986,9 @@ var position = [
     full: "안동 확진자",
     address: "안동대학교",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.542250794936535, 128.7968990191672"
+    latlng: "36.542250794936535, 128.7968990191672",
+    address_english: "Andong University"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33162,9 +35999,9 @@ var position = [
     full: "안동 확진자",
     address: "안동 대학교 기숙사",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.542221972296, 128.79689835194353"
+    latlng: "36.542221972296, 128.79689835194353",
+    address_english: "Andong University Dormitory"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33175,9 +36012,9 @@ var position = [
     full: "안동 확진자",
     address: "GS25 안동대학로점",
     address_name: "경북 안동시 송천동 363-1",
-    latlng: "36.544719844506304, 128.7949685178255"
+    latlng: "36.544719844506304, 128.7949685178255",
+    address_english: "GS25 Andong University Rooms"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33188,9 +36025,9 @@ var position = [
     full: "안동 확진자",
     address: "CU 안동대원룸점",
     address_name: "경북 안동시 송천동 868",
-    latlng: "36.54344267760201, 128.7926610248605"
+    latlng: "36.54344267760201, 128.7926610248605",
+    address_english: "CU Andong Daewon Room Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33201,9 +36038,9 @@ var position = [
     full: "안동 확진자",
     address: "GS25 안동솔뫼점",
     address_name: "경북 안동시 송천동 885-9",
-    latlng: "36.543191122768604, 128.79357086177552"
+    latlng: "36.543191122768604, 128.79357086177552",
+    address_english: "GS25 Andong Solmoe store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33214,9 +36051,9 @@ var position = [
     full: "안동 확진자",
     address: "국립안동대학교 학생회관",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.54260704280729, 128.7981310960385"
+    latlng: "36.54260704280729, 128.7981310960385",
+    address_english: "National Andong National University Student Council"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33227,7 +36064,8 @@ var position = [
     full: "안동 확진자",
     address: "솔뫼찜닭",
     address_name: "경북 안동시 송천동 352-3",
-    latlng: "36.5449783744122, 128.7950325634795"
+    latlng: "36.5449783744122, 128.7950325634795",
+    address_english: "Braised Chicken in Solmoe"
   },
   {
     solo: true,
@@ -33239,9 +36077,9 @@ var position = [
     full: "안동 확진자",
     address: "큰이모",
     address_name: "경북 안동시 송천동 882",
-    latlng: "36.54366457635561, 128.79276441492252"
+    latlng: "36.54366457635561, 128.79276441492252",
+    address_english: "Auntie the Elder"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33252,9 +36090,9 @@ var position = [
     full: "안동 확진자",
     address: "안동대학교",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.542250794936535, 128.7968990191672"
+    latlng: "36.542250794936535, 128.7968990191672",
+    address_english: "Andong University"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33265,9 +36103,9 @@ var position = [
     full: "안동 확진자",
     address: "삼화마트",
     address_name: "경북 안동시 풍산읍 안교리 122-1",
-    latlng: "36.57966525721406, 128.57243612941582"
+    latlng: "36.57966525721406, 128.57243612941582",
+    address_english: "Samhwa Mart"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33278,9 +36116,9 @@ var position = [
     full: "안동 확진자",
     address: "풍산버스정류장",
     address_name: "경북 안동시 풍산읍 상리리 464",
-    latlng: "36.578023975347506, 128.5777898855162"
+    latlng: "36.578023975347506, 128.5777898855162",
+    address_english: "Poongsan Bus Stop"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33291,7 +36129,8 @@ var position = [
     full: "안동 확진자",
     address: "엉터리생고기 두번째이야기 안동중앙점",
     address_name: "경북 안동시 서부동 98-5",
-    latlng: "36.566167225778806, 128.73017514471343"
+    latlng: "36.566167225778806, 128.73017514471343",
+    address_english: "Andong Central Branch, the Second Story of Cheap Raw Fish"
   },
   {
     solo: true,
@@ -33303,9 +36142,9 @@ var position = [
     full: "안동 확진자",
     address: "건강약국",
     address_name: "경북 안동시 옥동 765-2",
-    latlng: "36.564804317721816, 128.70015863607603"
+    latlng: "36.564804317721816, 128.70015863607603",
+    address_english: "Health and Drug Administration"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33316,9 +36155,9 @@ var position = [
     full: "안동 확진자",
     address: "안동농협파머스마켓",
     address_name: "경북 안동시 당북동 30-9",
-    latlng: "36.5650865748456, 128.72042446559837"
+    latlng: "36.5650865748456, 128.72042446559837",
+    address_english: "Andong Agricultural Cooperative Farmer's Market"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33329,7 +36168,8 @@ var position = [
     full: "안동 확진자",
     address: "그린존 안동대학교 정문주차장C",
     address_name: "경북 안동시 송천동 388",
-    latlng: "36.53967864576461, 128.7951467271715"
+    latlng: "36.53967864576461, 128.7951467271715",
+    address_english: "Green Zone Andong University Jeongmun-Joo-Joo-Joo-Jang C"
   },
   {
     solo: true,
@@ -33341,9 +36181,9 @@ var position = [
     full: "안동 확진자",
     address: "예약국",
     address_name: "경북 안동시 남문동 200-2",
-    latlng: "36.56420771408031, 128.73034588828241"
+    latlng: "36.56420771408031, 128.73034588828241",
+    address_english: "Booking country"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33354,7 +36194,8 @@ var position = [
     full: "안동 확진자",
     address: "CU 안동대원룸점",
     address_name: "경북 안동시 송천동 868",
-    latlng: "36.54344267760201, 128.7926610248605"
+    latlng: "36.54344267760201, 128.7926610248605",
+    address_english: "CU Andong Daewon Room Store"
   },
   {
     solo: true,
@@ -33366,9 +36207,9 @@ var position = [
     full: "안동 확진자",
     address: "영남CNM(24-26)",
     address_name: "경북 안동시 화성동 10",
-    latlng: "36.569681370001504, 128.72718393442636"
+    latlng: "36.569681370001504, 128.72718393442636",
+    address_english: "Yeongnam CNM (24-26)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33379,7 +36220,8 @@ var position = [
     full: "안동 확진자",
     address: "세븐일레븐 안동용상원룸점",
     address_name: "경북 안동시 용상동 1078-19",
-    latlng: "36.5535609111585, 128.75843941813443"
+    latlng: "36.5535609111585, 128.75843941813443",
+    address_english: "Seven Eleven Andong Yong Sangwon Room Store"
   },
   {
     solo: true,
@@ -33391,7 +36233,8 @@ var position = [
     full: "천안 확진자14",
     address: "다사랑약국 (8:48)",
     address_name: "충남 천안시 동남구 봉명동 223-21",
-    latlng: "36.80241958242578, 127.13646120888535"
+    latlng: "36.80241958242578, 127.13646120888535",
+    address_english: "Multisarang Pharmacy (8:48)"
   },
   {
     solo: true,
@@ -33403,7 +36246,9 @@ var position = [
     full: "천안 확진자14",
     address: "순천향대학교부속 천안병원 (08:00-08:50)",
     address_name: "충남 천안시 동남구 봉명동 216-8",
-    latlng: "36.8027211587879, 127.135932840124"
+    latlng: "36.8027211587879, 127.135932840124",
+    address_english:
+      "Cheonan Hospital under Soonchunhyang University (08:00-08:50)"
   },
   {
     solo: true,
@@ -33415,7 +36260,9 @@ var position = [
     full: "천안 확진자14",
     address: "천안농협하나로마트 불당점 (19:30-19:48)",
     address_name: "충남 천안시 서북구 불당동 1488",
-    latlng: "36.81887504248858, 127.10913742489195"
+    latlng: "36.81887504248858, 127.10913742489195",
+    address_english:
+      "Chonan Agricultural Cooperative Hararomart's Buldang Branch (19:30-19:48)"
   },
   {
     solo: true,
@@ -33427,7 +36274,9 @@ var position = [
     full: "천안 확진자14",
     address: "천안종합운동장 보조경기장 걷기 (15:50-17:20)",
     address_name: "충남 천안시 서북구 백석동 272",
-    latlng: "36.8206160573839, 127.116654995583"
+    latlng: "36.8206160573839, 127.116654995583",
+    address_english:
+      "Walking on the Auxiliary Stadium at Cheonan Sports Complex (15:50-17:20)"
   },
   {
     solo: true,
@@ -33439,7 +36288,8 @@ var position = [
     full: "천안 확진자14",
     address: "천안종합운동장 수영장 강습 (17:30-19:15)",
     address_name: "충남 천안시 서북구 백석동 251",
-    latlng: "36.8200355782855, 127.11309441696298"
+    latlng: "36.8200355782855, 127.11309441696298",
+    address_english: "Cheonan Sports Complex Pool Lesson (17:30-19:15)"
   },
   {
     solo: true,
@@ -33451,9 +36301,9 @@ var position = [
     full: "안동 확진자",
     address: "홈플러스 안동점",
     address_name: "경북 안동시 운흥동 247-28",
-    latlng: "36.562539566351695, 128.72956256394738"
+    latlng: "36.562539566351695, 128.72956256394738",
+    address_english: "Home Plus Andong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33464,7 +36314,8 @@ var position = [
     full: "안동 확진자",
     address: "소울프레소",
     address_name: "경북 안동시 북문동 1-10",
-    latlng: "36.5678219577411, 128.7306409922744"
+    latlng: "36.5678219577411, 128.7306409922744",
+    address_english: "Soulpresso"
   },
   {
     solo: true,
@@ -33476,9 +36327,9 @@ var position = [
     full: "안동 확진자",
     address: "소울프레소",
     address_name: "경북 안동시 북문동 1-10",
-    latlng: "36.5678219577411, 128.7306409922744"
+    latlng: "36.5678219577411, 128.7306409922744",
+    address_english: "Soulpresso"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33489,9 +36340,9 @@ var position = [
     full: "안동 확진자",
     address: "중앙약국",
     address_name: "경북 안동시 북문동 26-2",
-    latlng: "36.56754985615581, 128.7316949570354"
+    latlng: "36.56754985615581, 128.7316949570354",
+    address_english: "Central Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33502,9 +36353,9 @@ var position = [
     full: "안동 확진자",
     address: "진성식당",
     address_name: "경북 안동시 북문동 19-17",
-    latlng: "36.5666893795645, 128.7324386487644"
+    latlng: "36.5666893795645, 128.7324386487644",
+    address_english: "Jinseong Restaurant"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33515,7 +36366,8 @@ var position = [
     full: "안동 확진자",
     address: "안동시의회",
     address_name: "경북 안동시 명륜동 344",
-    latlng: "36.56817978033961, 128.7303228096294"
+    latlng: "36.56817978033961, 128.7303228096294",
+    address_english: "Andong City Council"
   },
   {
     solo: true,
@@ -33527,7 +36379,8 @@ var position = [
     full: "천안 확진자14",
     address: "천안불당고등학교 (10:00-12:00)",
     address_name: "충남 천안시 서북구 불당동 1794",
-    latlng: "36.80926015367461, 127.103127153878"
+    latlng: "36.80926015367461, 127.103127153878",
+    address_english: "Cheonan Buldang High School (10:00-12:00)"
   },
   {
     solo: true,
@@ -33539,7 +36392,8 @@ var position = [
     full: "천안 확진자14",
     address: "이화갈비 (12:00-13:00)",
     address_name: "충남 천안시 서북구 불당동 1798",
-    latlng: "36.809239754592014, 127.101701654192"
+    latlng: "36.809239754592014, 127.101701654192",
+    address_english: "Ihwa Galbi (12:00-13:00)"
   },
   {
     solo: true,
@@ -33551,7 +36405,8 @@ var position = [
     full: "안동 확진자",
     address: "태평양약국",
     address_name: "경북 안동시 대석동 259-7",
-    latlng: "36.565381816224296, 128.72468445317537"
+    latlng: "36.565381816224296, 128.72468445317537",
+    address_english: "Pacific Pharmacy"
   },
   {
     solo: true,
@@ -33563,7 +36418,8 @@ var position = [
     full: "천안 확진자15",
     address: "천안21세기병원 근무 (2/26, 27)",
     address_name: "충남 천안시 서북구 두정동 1036",
-    latlng: "36.83655732322382, 127.13791641744798"
+    latlng: "36.83655732322382, 127.13791641744798",
+    address_english: "Working at Cheonan 21st Century Hospital (2/26, 27)"
   },
   {
     solo: true,
@@ -33575,9 +36431,9 @@ var position = [
     full: "안동 확진자",
     address: "김재왕내과의원",
     address_name: "경북 안동시 동부동 74-4",
-    latlng: "36.565164616618, 128.7334456049654"
+    latlng: "36.565164616618, 128.7334456049654",
+    address_english: "King Kim's Internal Medicine Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33588,9 +36444,9 @@ var position = [
     full: "안동 확진자",
     address: "일신약국",
     address_name: "경북 안동시 동부동 125-1",
-    latlng: "36.56490730738539, 128.7333571986647"
+    latlng: "36.56490730738539, 128.7333571986647",
+    address_english: "Ilshin Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33601,9 +36457,9 @@ var position = [
     full: "안동 확진자",
     address: "카페플랜비",
     address_name: "경북 안동시 동부동 73-1",
-    latlng: "36.565099173439904, 128.7339802871404"
+    latlng: "36.565099173439904, 128.7339802871404",
+    address_english: "Cafe Plan B"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33614,9 +36470,9 @@ var position = [
     full: "안동 확진자",
     address: "호키츠네안동",
     address_name: "경북 안동시 옥동 613-7",
-    latlng: "36.564206960656, 128.70261849380833"
+    latlng: "36.564206960656, 128.70261849380833",
+    address_english: "Hokitsunean-dong"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33627,9 +36483,9 @@ var position = [
     full: "안동 확진자",
     address: "스타벅스 안동옥동점",
     address_name: "경북 안동시 옥동 787-10",
-    latlng: "36.56355077079082, 128.70213050222134"
+    latlng: "36.56355077079082, 128.70213050222134",
+    address_english: "Starbucks Andong Okdong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33640,7 +36496,8 @@ var position = [
     full: "안동 확진자",
     address: "노브랜드 안동옥동점",
     address_name: "경북 안동시 옥동 614-3",
-    latlng: "36.56407771723471, 128.70220461579538"
+    latlng: "36.56407771723471, 128.70220461579538",
+    address_english: "No Brand Andong Okdong Branch"
   },
   {
     solo: true,
@@ -33652,7 +36509,8 @@ var position = [
     full: "천안 확진자14",
     address: "두정푸르지오4차아파트(확진자 거주지)",
     address_name: "충남 천안시 서북구 두정동 666",
-    latlng: "36.82964191591056, 127.13020082520342"
+    latlng: "36.82964191591056, 127.13020082520342",
+    address_english: "Dujeong Purjio 4th-Cha Apartments (Confident Residence)"
   },
   {
     solo: true,
@@ -33664,7 +36522,8 @@ var position = [
     full: "천안 확진자16",
     address: "다정약국 (15:22)",
     address_name: "충남 천안시 서북구 불당동 1477",
-    latlng: "36.82224377312519, 127.107727703344"
+    latlng: "36.82224377312519, 127.107727703344",
+    address_english: "General Administration of Contingency (15:22)"
   },
   {
     solo: true,
@@ -33676,7 +36535,9 @@ var position = [
     full: "천안 확진자16",
     address: "천안서울안과 신불당점의원 (09:25)",
     address_name: "충남 천안시 서북구 불당동 1534",
-    latlng: "36.8162366040098, 127.109125833718"
+    latlng: "36.8162366040098, 127.109125833718",
+    address_english:
+      "Chonan Seoulan and Sinbuldang Branch Office worker (09:25)"
   },
   {
     solo: true,
@@ -33688,9 +36549,9 @@ var position = [
     full: "안동 확진자",
     address: "안동학가산온천",
     address_name: "경북 안동시 서후면 명리 423",
-    latlng: "36.58904368678089, 128.6482230006023"
+    latlng: "36.58904368678089, 128.6482230006023",
+    address_english: "Andong Hakgasan Hot Spring"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33701,9 +36562,9 @@ var position = [
     full: "안동 확진자",
     address: "서울삼성정형외과의원",
     address_name: "경북 안동시 안흥동 283-1",
-    latlng: "36.5645341520474, 128.7247326215944"
+    latlng: "36.5645341520474, 128.7247326215944",
+    address_english: "Seoul Samsung Orthopedic Surgeon"
   },
-
   {
     solo: true,
     profile: "-",
@@ -33714,7 +36575,8 @@ var position = [
     full: "안동 확진자",
     address: "안동신시장마트",
     address_name: "경북 안동시 옥야동 292-6",
-    latlng: "36.5645564234225, 128.7221953784134"
+    latlng: "36.5645564234225, 128.7221953784134",
+    address_english: "Andong Shin Market Mart"
   },
   {
     solo: true,
@@ -33726,7 +36588,8 @@ var position = [
     full: "천안 확진자16",
     address: "청춘약국 (09:30)",
     address_name: "충남 천안시 서북구 불당동 1534",
-    latlng: "36.8162366040098, 127.109125833718"
+    latlng: "36.8162366040098, 127.109125833718",
+    address_english: "Youth Pharmacy (09:30)"
   },
   {
     solo: true,
@@ -33738,7 +36601,8 @@ var position = [
     full: "천안 확진자16",
     address: "아침에떡 2호점",
     address_name: "충남 천안시 서북구 불당동 1494",
-    latlng: "36.8197593665306, 127.107781382458"
+    latlng: "36.8197593665306, 127.107781382458",
+    address_english: "Morning rice cake no. 2"
   },
   {
     solo: true,
@@ -33750,7 +36614,8 @@ var position = [
     full: "천안 확진자16",
     address: "천안농협하나로마트 불당점",
     address_name: "충남 천안시 서북구 불당동 1488",
-    latlng: "36.81887504248858, 127.10913742489195"
+    latlng: "36.81887504248858, 127.10913742489195",
+    address_english: "Chonan Agricultural Cooperative Hallo Mart Buldang Branch"
   },
   {
     solo: true,
@@ -33762,7 +36627,9 @@ var position = [
     full: "천안 확진자17",
     address: "두정e편한세상2차아파트(확진자 거주지)",
     address_name: "충남 천안시 서북구 두정동 2055",
-    latlng: "36.83784626977668, 127.12958244626806"
+    latlng: "36.83784626977668, 127.12958244626806",
+    address_english:
+      "Dujeonge Comfortable World 2nd Apartment (Confident Residence)"
   },
   {
     solo: true,
@@ -33774,7 +36641,8 @@ var position = [
     full: "천안 확진자17",
     address: "성성올리브약국 (16:30)",
     address_name: "충남 천안시 서북구 성성동 685",
-    latlng: "36.84029292974649, 127.13026372257302"
+    latlng: "36.84029292974649, 127.13026372257302",
+    address_english: "Sungseong Olive Pharmacy (16:30)"
   },
   {
     solo: true,
@@ -33786,7 +36654,8 @@ var position = [
     full: "천안 확진자17",
     address: "비클린이비인후과의원 (16:00-16:30)",
     address_name: "충남 천안시 서북구 성성동 685",
-    latlng: "36.84029292974649, 127.13026372257302"
+    latlng: "36.84029292974649, 127.13026372257302",
+    address_english: "Non-Clinical Clinic (16:00-16:30)"
   },
   {
     solo: true,
@@ -33798,7 +36667,8 @@ var position = [
     full: "천안 확진자17",
     address: "이마트 천안서북점 (21:00)",
     address_name: "충남 천안시 서북구 백석동 1047",
-    latlng: "36.8384452103302, 127.122202265722"
+    latlng: "36.8384452103302, 127.122202265722",
+    address_english: "E-Mart's Cheonan Seobuk branch (21:00)"
   },
   {
     solo: true,
@@ -33810,7 +36680,8 @@ var position = [
     full: "천안 확진자17",
     address: "롯데마트 문화센터 (9:45-10:40)",
     address_name: "충남 천안시 서북구 성정동 1486",
-    latlng: "36.82624622000419, 127.14000072167201"
+    latlng: "36.82624622000419, 127.14000072167201",
+    address_english: "Lotte Mart Cultural Center (9:45-10:40)"
   },
   {
     solo: true,
@@ -33822,7 +36693,8 @@ var position = [
     full: "천안 확진자17",
     address: "월드JNK휘트니스 천안두정점 (2/21, 24, 25)",
     address_name: "충남 천안시 서북구 두정동 667",
-    latlng: "36.830615615114546, 127.12974063731166"
+    latlng: "36.830615615114546, 127.12974063731166",
+    address_english: "World JNK Fitness Tiananmen Square (2/21, 24, 25)"
   },
   {
     solo: true,
@@ -33834,7 +36706,8 @@ var position = [
     full: "천안 확진자17",
     address: "우리언어학습연구원 (14:40)",
     address_name: "충남 천안시 서북구 불당동 734",
-    latlng: "36.809747030203305, 127.11083347665901"
+    latlng: "36.809747030203305, 127.11083347665901",
+    address_english: "Korean Language Research Institute (14:40)"
   },
   {
     solo: true,
@@ -33846,7 +36719,8 @@ var position = [
     full: "천안 확진자20",
     address: "광명만두 쌍용점 (14:00-14:30)",
     address_name: "충남 천안시 서북구 쌍용동 1497",
-    latlng: "36.79894354619869, 127.11927547419799"
+    latlng: "36.79894354619869, 127.11927547419799",
+    address_english: "Gwangmyeong Dumpling Ssangyong (14:00-14:30)"
   },
   {
     solo: true,
@@ -33858,7 +36732,9 @@ var position = [
     full: "천안 확진자20",
     address: "선영새마을금고 문화센터 성정지점 (5번 확진자의 수업 수강)",
     address_name: "충남 천안시 서북구 성정동 728-1",
-    latlng: "36.8135478664702, 127.139937248839"
+    latlng: "36.8135478664702, 127.139937248839",
+    address_english:
+      "Seongjeong Branch of Seonyeong Saemaeul Geumgo Cultural Center (No. 5 Confirmed Person's Class)"
   },
   {
     solo: true,
@@ -33870,7 +36746,8 @@ var position = [
     full: "천안 확진자20",
     address: "양푼이동태찌개 동태1호점",
     address_name: "충남 천안시 서북구 성정동 722-7",
-    latlng: "36.8140653199265, 127.135074247359"
+    latlng: "36.8140653199265, 127.135074247359",
+    address_english: "Yangpoon Lee Dongtae Taejigae Dongtae 1st store"
   },
   {
     solo: true,
@@ -33882,7 +36759,8 @@ var position = [
     full: "천안 확진자20",
     address: "롯데마트 천안점 (14:30-15:30)",
     address_name: "충남 천안시 서북구 쌍용동 1367",
-    latlng: "36.79974532660789, 127.117676620846"
+    latlng: "36.79974532660789, 127.117676620846",
+    address_english: "Lotte Mart's Cheonan branch (14:30-15:30)"
   },
   {
     solo: true,
@@ -33894,7 +36772,8 @@ var position = [
     full: "천안 확진자20",
     address: "815할인마트 천안점 (15:30-16:30)",
     address_name: "충남 천안시 서북구 쌍용3동 1949",
-    latlng: "36.8030126830632, 127.119559684123"
+    latlng: "36.8030126830632, 127.119559684123",
+    address_english: "815 Discount Mart Cheonan Branch (15:30-16:30)"
   },
   {
     solo: true,
@@ -33906,7 +36785,8 @@ var position = [
     full: "천안 확진자20",
     address: "온누리쭈꾸미 천안성정점 (19:00)",
     address_name: "충남 천안시 서북구 성정동 969",
-    latlng: "36.81922266660359, 127.13240684045098"
+    latlng: "36.81922266660359, 127.13240684045098",
+    address_english: "Onnuri Jukumi Cheonan Castle Peak (19:00)"
   },
   {
     solo: true,
@@ -33918,7 +36798,8 @@ var position = [
     full: "천안 확진자21",
     address: "영성동 펜타폴리스 (확진자 거주지)",
     address_name: "충남 천안시 동남구 영성동 67-2",
-    latlng: "36.799423103294764, 127.15228310796994"
+    latlng: "36.799423103294764, 127.15228310796994",
+    address_english: "Yeongseong-dong Pentapolis (Residental Residence)"
   },
   {
     solo: true,
@@ -33930,7 +36811,8 @@ var position = [
     full: "천안 확진자21",
     address: "동남구보건소 (11:00)",
     address_name: "충남 천안시 동남구 문화동 112-14",
-    latlng: "36.80745329108619, 127.151275875625"
+    latlng: "36.80745329108619, 127.151275875625",
+    address_english: "South-East Health Center (11:00)"
   },
   {
     solo: true,
@@ -33942,7 +36824,8 @@ var position = [
     full: "천안 확진자21",
     address: "미도미용실",
     address_name: "충남 천안시 동남구 대흥동 106-3",
-    latlng: "36.807190473632, 127.14816898916"
+    latlng: "36.807190473632, 127.14816898916",
+    address_english: "a beauty room"
   },
   {
     solo: true,
@@ -33954,7 +36837,9 @@ var position = [
     full: "천안 확진자",
     address: "선영새마을금고 성정지점 줌바댄스",
     address_name: "충남 천안시 서북구 성정동 728-1",
-    latlng: "36.8135478664702, 127.139937248839"
+    latlng: "36.8135478664702, 127.139937248839",
+    address_english:
+      "Zumba Dance at Seongjeong Station in Seonyoung Saemaeul Geumgo"
   },
   {
     solo: true,
@@ -33966,7 +36851,8 @@ var position = [
     full: "천안 확진자23",
     address: "양푼이동태찌개 동태1호점",
     address_name: "충남 천안시 서북구 성정동 722-7",
-    latlng: "36.8140653199265, 127.135074247359"
+    latlng: "36.8140653199265, 127.135074247359",
+    address_english: "Yangpoon Lee Dongtae Taejigae Dongtae 1st store"
   },
   {
     solo: true,
@@ -33978,7 +36864,8 @@ var position = [
     full: "천안 확진자23",
     address: "크레마스토리 본점 5단지 인근",
     address_name: "충남 천안시 서북구 쌍용동 1114",
-    latlng: "36.80295529382991, 127.12961328187401"
+    latlng: "36.80295529382991, 127.12961328187401",
+    address_english: "Near the 5th estate of the Crema Story main store"
   },
   {
     solo: true,
@@ -33990,7 +36877,8 @@ var position = [
     full: "천안 확진자23",
     address: "스카이9스크린골프연습장",
     address_name: "충남 천안시 서북구 성정동 714-3",
-    latlng: "36.81694417534515, 127.14219392972008"
+    latlng: "36.81694417534515, 127.14219392972008",
+    address_english: "Sky9Screen Golf Course"
   },
   {
     solo: true,
@@ -34002,7 +36890,8 @@ var position = [
     full: "천안 확진자23",
     address: "더바른내과",
     address_name: "충남 천안시 서북구 백석동 150-2",
-    latlng: "36.823598354518005, 127.118851931262"
+    latlng: "36.823598354518005, 127.118851931262",
+    address_english: "Durbarn Internal Medicine"
   },
   {
     solo: true,
@@ -34014,7 +36903,8 @@ var position = [
     full: "천안 확진자23",
     address: "튼튼약국",
     address_name: "충남 천안시 서북구 백석동 150-2",
-    latlng: "36.82358398608559, 127.118802591057"
+    latlng: "36.82358398608559, 127.118802591057",
+    address_english: "a strong and weak country"
   },
   {
     solo: true,
@@ -34026,7 +36916,8 @@ var position = [
     full: "천안 확진자23",
     address: "천안우편집중국",
     address_name: "충남 천안시 서북구 백석동 898",
-    latlng: "36.8211532082382, 127.123699092937"
+    latlng: "36.8211532082382, 127.123699092937",
+    address_english: "Tiananmen Square China"
   },
   {
     solo: true,
@@ -34038,7 +36929,8 @@ var position = [
     full: "천안 확진자23",
     address: "코로나19 서북구보건소 선별진료소",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english: "Corona19 Northwest Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -34050,7 +36942,8 @@ var position = [
     full: "천안 확진자25",
     address: "모산중학교",
     address_name: "충남 아산시 배방읍 공수리 322",
-    latlng: "36.76807827720821, 127.05607894003738"
+    latlng: "36.76807827720821, 127.05607894003738",
+    address_english: "Mosan Middle School"
   },
   {
     solo: true,
@@ -34062,7 +36955,8 @@ var position = [
     full: "천안 확진자25",
     address: "서북구보건소",
     address_name: "충남 아산시 배방읍 공수리 322",
-    latlng: "36.76807827720821, 127.05607894003738"
+    latlng: "36.76807827720821, 127.05607894003738",
+    address_english: "northwest health center"
   },
   {
     solo: true,
@@ -34074,9 +36968,9 @@ var position = [
     full: "천안 확진자26",
     address: "메르세데스벤츠 천안서비스센터",
     address_name: "충남 천안시 서북구 성성동 336-52",
-    latlng: "36.8488249112756, 127.123205467157"
+    latlng: "36.8488249112756, 127.123205467157",
+    address_english: "Mercedes-Benz Cheonan Service Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34087,9 +36981,9 @@ var position = [
     full: "천안 확진자26",
     address: "메르세데스벤츠 천안서비스센터",
     address_name: "충남 천안시 서북구 성성동 336-52",
-    latlng: "36.8488249112756, 127.123205467157"
+    latlng: "36.8488249112756, 127.123205467157",
+    address_english: "Mercedes-Benz Cheonan Service Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34100,9 +36994,9 @@ var position = [
     full: "천안 확진자26",
     address: "천안모아동물병원",
     address_name: "충남 천안시 서북구 불당동 1817",
-    latlng: "36.807314265162304, 127.106634345691"
+    latlng: "36.807314265162304, 127.106634345691",
+    address_english: "Tiananmen Moa Animal Hospital"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34113,7 +37007,8 @@ var position = [
     full: "천안 확진자26",
     address: "코로나19 서북구보건소 선별진료소",
     address_name: "충남 천안시 서북구 불당동 234-1",
-    latlng: "36.8150092640432, 127.11489589397799"
+    latlng: "36.8150092640432, 127.11489589397799",
+    address_english: "Corona19 Northwest Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -34125,9 +37020,9 @@ var position = [
     full: "천안 확진자33",
     address: "천안성정초등학교",
     address_name: "충남 천안시 서북구 성정동 716-1",
-    latlng: "36.8156053043605, 127.14052826516999"
+    latlng: "36.8156053043605, 127.14052826516999",
+    address_english: "Chonanseongjung Elementary School"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34138,9 +37033,10 @@ var position = [
     full: "천안 확진자33",
     address: "선영새마을금고 성정지점 줌바댄스",
     address_name: "충남 천안시 서북구 성정동 728-1",
-    latlng: "36.8135478664702, 127.139937248839"
+    latlng: "36.8135478664702, 127.139937248839",
+    address_english:
+      "Zumba Dance at Seongjeong Station in Seonyoung Saemaeul Geumgo"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34151,9 +37047,9 @@ var position = [
     full: "천안 확진자33",
     address: "엘리사헤어살롱",
     address_name: "충남 천안시 서북구 성정동 714-8",
-    latlng: "36.81685905174599, 127.14103265977901"
+    latlng: "36.81685905174599, 127.14103265977901",
+    address_english: "Elisa Hare Salon"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34164,9 +37060,9 @@ var position = [
     full: "천안 확진자33",
     address: "제일유통마트 성정점",
     address_name: "충남 천안시 서북구 성정동 698-1",
-    latlng: "36.817824745423906, 127.13821455142"
+    latlng: "36.817824745423906, 127.13821455142",
+    address_english: "Jeil Distribution Mart's Seongjeong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34177,9 +37073,9 @@ var position = [
     full: "천안 확진자33",
     address: "청포대해수욕장",
     address_name: "충남 태안군 남면 원청리 512-78",
-    latlng: "36.6391315043916, 126.30193485495899"
+    latlng: "36.6391315043916, 126.30193485495899",
+    address_english: "Cheongpo Grand Beach"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34190,9 +37086,9 @@ var position = [
     full: "천안 확진자33",
     address: "코로나19 천안충무병원 선별진료소",
     address_name: "충남 천안시 서북구 쌍용동 542-3",
-    latlng: "36.7973950743409, 127.131580442199"
+    latlng: "36.7973950743409, 127.131580442199",
+    address_english: "Corona19 Chonan Chungmu Hospital Screening Clinic"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34203,9 +37099,9 @@ var position = [
     full: "천안 확진자",
     address: "빽다방 천안성정롯데점",
     address_name: "충남 천안시 서북구 성정동 625-5",
-    latlng: "36.825391066184444, 127.14076585209375"
+    latlng: "36.825391066184444, 127.14076585209375",
+    address_english: "Back-Dabang Cheonan Sungjeong Lotte Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34216,7 +37112,8 @@ var position = [
     full: "천안 확진자",
     address: "해피멀티샵",
     address_name: "충남 천안시 서북구 성정동 630-1",
-    latlng: "36.8253619705016, 127.140985493033"
+    latlng: "36.8253619705016, 127.140985493033",
+    address_english: "Happy Multifunctional Shop"
   },
   {
     solo: true,
@@ -34228,9 +37125,9 @@ var position = [
     full: "구미 확진자",
     address: "하나은행 구미엘지디스플레이출장소",
     address_name: "경북 구미시 진평동 642",
-    latlng: "36.10117953106239, 128.4058719337161"
+    latlng: "36.10117953106239, 128.4058719337161",
+    address_english: "Hana Bank Gumi LG Display Office"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34241,9 +37138,9 @@ var position = [
     full: "구미 확진자",
     address: "구미칠곡축협 한우프라자",
     address_name: "경북 구미시 선기동 458-1",
-    latlng: "36.1394554083825, 128.31058566427205"
+    latlng: "36.1394554083825, 128.31058566427205",
+    address_english: "Gumi Chilgok Federation Hanwoo Plaza"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34254,9 +37151,9 @@ var position = [
     full: "구미 확진자",
     address: "부라더연어 (공단동근처)",
     address_name: "경북 구미시 비산동 455-4",
-    latlng: "36.121360529556995, 128.37528101264908"
+    latlng: "36.121360529556995, 128.37528101264908",
+    address_english: "Burad salmon (near Gongdan-dong)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34267,9 +37164,9 @@ var position = [
     full: "구미 확진자",
     address: "진미분식당",
     address_name: "경북 칠곡군 북삼읍 인평리 1083-1",
-    latlng: "36.0702815104382, 128.3484552664981"
+    latlng: "36.0702815104382, 128.3484552664981",
+    address_english: "a real gourmet restaurant"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34280,9 +37177,9 @@ var position = [
     full: "구미 확진자",
     address: "강동병원 2층 이비인후과",
     address_name: "경북 구미시 진평동 210-2",
-    latlng: "36.0961985641781, 128.42292683559413"
+    latlng: "36.0961985641781, 128.42292683559413",
+    address_english: "Gangdong Hospital E.P. on the 2nd floor"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34293,9 +37190,9 @@ var position = [
     full: "구미 확진자",
     address: "새보령약국",
     address_name: "경북 구미시 진평동 185",
-    latlng: "36.0952747516003, 128.42240831093017"
+    latlng: "36.0952747516003, 128.42240831093017",
+    address_english: "Saeboryeong Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34306,9 +37203,9 @@ var position = [
     full: "구미 확진자",
     address: "본죽&비빔밥cafe 구미신평비산점",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12063938205125, 128.3719230351396"
+    latlng: "36.12063938205125, 128.3719230351396",
+    address_english: "Bonjuk"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34319,9 +37216,9 @@ var position = [
     full: "구미 확진자",
     address: "오즈약국",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12063135588243, 128.3721516976332"
+    latlng: "36.12063135588243, 128.3721516976332",
+    address_english: "Oz Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34332,9 +37229,9 @@ var position = [
     full: "구미 확진자",
     address: "서광경대연합의원",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12069140857684, 128.371943932878"
+    latlng: "36.12069140857684, 128.371943932878",
+    address_english: "Suh Kwang-dae, a member of the federation."
   },
-
   {
     solo: true,
     profile: "-",
@@ -34345,9 +37242,9 @@ var position = [
     full: "구미 확진자",
     address: "우리은행 구미인동지점",
     address_name: "경북 구미시 황상동 318-7",
-    latlng: "36.10639300587029, 128.4198192357011"
+    latlng: "36.10639300587029, 128.4198192357011",
+    address_english: "Gumi-Indong Branch of Woori Bank"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34358,9 +37255,9 @@ var position = [
     full: "구미 확진자",
     address: "메가박스 구미강동",
     address_name: "경북 구미시 진평동 1023-2",
-    latlng: "36.1071765439437, 128.41787887004813"
+    latlng: "36.1071765439437, 128.41787887004813",
+    address_english: "Megabox Gumi Gangdong"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34371,9 +37268,9 @@ var position = [
     full: "구미 확진자",
     address: "파리바게뜨 구미신평점",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.120613773679956, 128.37195591023018"
+    latlng: "36.120613773679956, 128.37195591023018",
+    address_english: "Paris Baguette Gumi New Spot"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34384,9 +37281,9 @@ var position = [
     full: "구미 확진자",
     address: "DC마트 비산2호점",
     address_name: "경북 구미시 봉곡동 131-13",
-    latlng: "36.157105671679716, 128.30641230875304"
+    latlng: "36.157105671679716, 128.30641230875304",
+    address_english: "DC Mart's Bisan 2nd Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34397,9 +37294,9 @@ var position = [
     full: "구미 확진자",
     address: "더샘 구미신평점",
     address_name: "경북 구미시 공단동 109",
-    latlng: "36.1207238938898, 128.3719400553911"
+    latlng: "36.1207238938898, 128.3719400553911",
+    address_english: "The Saem Gumi New Point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34410,7 +37307,8 @@ var position = [
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소",
     address_name: "경북 구미시 지산동 853-12",
-    latlng: "36.13993541358159, 128.34595355207307"
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english: "Corona19 Gumi Health Center Screening Care Center"
   },
   {
     solo: true,
@@ -34422,7 +37320,8 @@ var position = [
     full: "구미 확진자",
     address: "강변파라디아아파트거주",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12131489443909, 128.37281779598533"
+    latlng: "36.12131489443909, 128.37281779598533",
+    address_english: "Gangbyeon Paradia-Aparts Residence"
   },
   {
     solo: true,
@@ -34434,7 +37333,8 @@ var position = [
     full: "구미 확진자",
     address: "형곡삼우타운아파트 거주",
     address_name: "경북 구미시 형곡동 170-1",
-    latlng: "36.11007089916611, 128.33862499317243"
+    latlng: "36.11007089916611, 128.33862499317243",
+    address_english: "Hyeonggok Samu Town Apartment Residence"
   },
   {
     solo: true,
@@ -34446,9 +37346,10 @@ var position = [
     full: "구미 확진자",
     address: "한국폴리텍대학교직원아파트 구미캠퍼스 교직원아파트",
     address_name: "경북 구미시 공단동 113",
-    latlng: "36.1172977114321, 128.3736752404391"
+    latlng: "36.1172977114321, 128.3736752404391",
+    address_english:
+      "Korea Polytechnic University Employee's Apartment Gumi Campus Teaching Apartment"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34459,9 +37360,9 @@ var position = [
     full: "구미 확진자",
     address: "구미역에서 대구 방문",
     address_name: "경북 구미시 원평동 1008-1",
-    latlng: "36.12827222133691, 128.33101623502307"
+    latlng: "36.12827222133691, 128.33101623502307",
+    address_english: "Visit Daegu from Gumi Station"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34472,9 +37373,9 @@ var position = [
     full: "구미 확진자",
     address: "서광경대연합의원",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12069140857684, 128.371943932878"
+    latlng: "36.12069140857684, 128.371943932878",
+    address_english: "Suh Kwang-dae, a member of the federation."
   },
-
   {
     solo: true,
     profile: "-",
@@ -34485,9 +37386,9 @@ var position = [
     full: "구미 확진자",
     address: "오즈약국",
     address_name: "경북 구미시 공단동 759",
-    latlng: "36.12063135588243, 128.3721516976332"
+    latlng: "36.12063135588243, 128.3721516976332",
+    address_english: "Oz Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34498,9 +37399,9 @@ var position = [
     full: "구미 확진자",
     address: "CU 구미공단점",
     address_name: "경북 구미시 공단동 114-4",
-    latlng: "36.1171761586223, 128.37453053780607"
+    latlng: "36.1171761586223, 128.37453053780607",
+    address_english: "CU Gumi Industrial Complex"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34511,7 +37412,8 @@ var position = [
     full: "구미 확진자",
     address: "롯데마트 구미점",
     address_name: "경북 구미시 신평동 465",
-    latlng: "36.11384273784794, 128.36547995045117"
+    latlng: "36.11384273784794, 128.36547995045117",
+    address_english: "the Gumi branch of Lotte Mart"
   },
   {
     solo: true,
@@ -34523,9 +37425,9 @@ var position = [
     full: "구미 확진자",
     address: "스타벅스 구미시청DT점",
     address_name: "경북 구미시 송정동 33-11",
-    latlng: "36.117632368147014, 128.3416055029621"
+    latlng: "36.117632368147014, 128.3416055029621",
+    address_english: "Gumi City Hall, Starbucks"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34536,9 +37438,9 @@ var position = [
     full: "구미 확진자",
     address: "두산맨션 거주",
     address_name: "경북 구미시 원평동 1076-1",
-    latlng: "36.12174994019635, 128.3536756703948"
+    latlng: "36.12174994019635, 128.3536756703948",
+    address_english: "Doosan Mansion Residence"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34549,9 +37451,9 @@ var position = [
     full: "구미 확진자",
     address: "시골여행 송정점",
     address_name: "경북 구미시 송정동 492-4",
-    latlng: "36.113912757342504, 128.3508801393671"
+    latlng: "36.113912757342504, 128.3508801393671",
+    address_english: "Rural Travel Songjeong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34562,9 +37464,9 @@ var position = [
     full: "구미 확진자",
     address: "리버",
     address_name: "경북 구미시 송정동 487-8",
-    latlng: "36.11522150751843, 128.3486146873533"
+    latlng: "36.11522150751843, 128.3486146873533",
+    address_english: "River"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34575,9 +37477,9 @@ var position = [
     full: "구미 확진자",
     address: "파스쿠찌 구미시청점",
     address_name: "경북 구미시 송정동 459",
-    latlng: "36.11762042231629, 128.3445996167661"
+    latlng: "36.11762042231629, 128.3445996167661",
+    address_english: "Pascucci Gumi City Hall"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34588,9 +37490,9 @@ var position = [
     full: "구미 확진자",
     address: "본죽 구미인동점",
     address_name: "경북 구미시 진평동 1023-2",
-    latlng: "36.1073231943428, 128.41797478774708"
+    latlng: "36.1073231943428, 128.41797478774708",
+    address_english: "Bonjuk Nine-Tailed Man-dong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34601,9 +37503,10 @@ var position = [
     full: "구미 확진자",
     address: "할리스커피 구미인동점",
     address_name: "경북 구미시 진평동 1026-4",
-    latlng: "36.106661000082696, 128.4184959176781"
+    latlng: "36.106661000082696, 128.4184959176781",
+    address_english:
+      "Hollys Coffee Nine-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Two-Point"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34614,9 +37517,9 @@ var position = [
     full: "구미 확진자",
     address: "메가박스 인동점",
     address_name: "경북 구미시 진평동 1023-2",
-    latlng: "36.1071765439437, 128.41787887004813"
+    latlng: "36.1071765439437, 128.41787887004813",
+    address_english: "Megabox Indong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34627,9 +37530,9 @@ var position = [
     full: "구미 확진자",
     address: "구미송정유성푸르나임오피스텔",
     address_name: "경북 구미시 송정동 77",
-    latlng: "36.11739737051413, 128.34960927844116"
+    latlng: "36.11739737051413, 128.34960927844116",
+    address_english: "Gumi Songjeong Euseong Purim Opistel"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34640,9 +37543,9 @@ var position = [
     full: "구미 확진자",
     address: "스시소담",
     address_name: "경북 구미시 고아읍 문성리 632-3",
-    latlng: "36.1596127950924, 128.34079588068607"
+    latlng: "36.1596127950924, 128.34079588068607",
+    address_english: "Sushi Sodam"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34653,9 +37556,9 @@ var position = [
     full: "구미 확진자",
     address: "파스쿠찌 구미문성지점",
     address_name: "경북 구미시 고아읍 문성리 632-3",
-    latlng: "36.1596308641076, 128.34079174342605"
+    latlng: "36.1596308641076, 128.34079174342605",
+    address_english: "Pascucci Gumi Munseong Branch"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34666,9 +37569,9 @@ var position = [
     full: "구미 확진자",
     address: "새희망약국",
     address_name: "경북 구미시 원평동 1037-44",
-    latlng: "36.12415395119943, 128.34256731018596"
+    latlng: "36.12415395119943, 128.34256731018596",
+    address_english: "New Hope Pharmacy"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34679,9 +37582,9 @@ var position = [
     full: "구미 확진자",
     address: "코로나19 구미보건소 선별진료소",
     address_name: "경북 구미시 지산동 853-12",
-    latlng: "36.13993541358159, 128.34595355207307"
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english: "Corona19 Gumi Health Center Screening Care Center"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34692,9 +37595,9 @@ var position = [
     full: "구미 확진자",
     address: "하나이비인후과",
     address_name: "경북 구미시 원평동 369-12",
-    latlng: "36.127766761250264, 128.33453170061583"
+    latlng: "36.127766761250264, 128.33453170061583",
+    address_english: "Hana Biophthalmology"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34705,7 +37608,8 @@ var position = [
     full: "구미 확진자",
     address: "싱싱약국",
     address_name: "경북 구미시 원평동 369-12",
-    latlng: "36.12776642832726, 128.33452114241774"
+    latlng: "36.12776642832726, 128.33452114241774",
+    address_english: "Sing Singing Pharmacy"
   },
   {
     solo: true,
@@ -34717,7 +37621,8 @@ var position = [
     full: "순천 확진자",
     address: "한빛산부인과",
     address_name: "전남 순천시 연향동 1336-2",
-    latlng: "34.95097883055129, 127.52010983491898"
+    latlng: "34.95097883055129, 127.52010983491898",
+    address_english: "Hanbit obstetrics and gynecology"
   },
   {
     solo: true,
@@ -34729,7 +37634,8 @@ var position = [
     full: "순천 확진자",
     address: "에뛰드하우스 순천연향점",
     address_name: "전남 순천시 연향동 1343-5",
-    latlng: "34.95119679073375, 127.51972913794619"
+    latlng: "34.95119679073375, 127.51972913794619",
+    address_english: "ETUDE HOUSE SURFACE"
   },
   {
     solo: true,
@@ -34741,7 +37647,8 @@ var position = [
     full: "순천 확진자",
     address: "뱀부스",
     address_name: "전남 순천시 해룡면 상삼리 35-97",
-    latlng: "34.94308750102739, 127.53561291160598"
+    latlng: "34.94308750102739, 127.53561291160598",
+    address_english: "Bambus"
   },
   {
     solo: true,
@@ -34753,7 +37660,8 @@ var position = [
     full: "순천 확진자",
     address: "여수낭만포차거리",
     address_name: "전남 여수시 종화동 300-3",
-    latlng: "34.73648684742071, 127.74915280163137"
+    latlng: "34.73648684742071, 127.74915280163137",
+    address_english: "Yeosu Romantic Pocha Street"
   },
   {
     solo: true,
@@ -34765,7 +37673,8 @@ var position = [
     full: "순천 확진자",
     address: "코로나19 순천한국병원 선별진료소",
     address_name: "전남 순천시 연향동 1235",
-    latlng: "34.94780729721201, 127.512376392326"
+    latlng: "34.94780729721201, 127.512376392326",
+    address_english: "Corona19 Suncheon Korean Hospital Screening Clinic"
   },
   {
     solo: true,
@@ -34777,7 +37686,8 @@ var position = [
     full: "여수 확진자",
     address: "조은이비인후과",
     address_name: "전남 여수시 학동 85-24",
-    latlng: "34.759155212579905, 127.667306173649"
+    latlng: "34.759155212579905, 127.667306173649",
+    address_english: "Zoeun ENT"
   },
   {
     solo: true,
@@ -34789,7 +37699,8 @@ var position = [
     full: "여수 확진자",
     address: "푸른약국",
     address_name: "전남 여수시 학동 85-24",
-    latlng: "34.759155212579905, 127.667306173649"
+    latlng: "34.759155212579905, 127.667306173649",
+    address_english: "Blue Pharmacy"
   },
   {
     solo: true,
@@ -34801,7 +37712,8 @@ var position = [
     full: "여수 확진자",
     address: "이바돔감자탕 여수여천점",
     address_name: "전남 여수시 학동 83-10",
-    latlng: "34.760365024923104, 127.666293579713"
+    latlng: "34.760365024923104, 127.666293579713",
+    address_english: "Yubadom Gamja-tang Yosu-cheon Branch"
   },
   {
     solo: true,
@@ -34813,7 +37725,8 @@ var position = [
     full: "순천 확진자",
     address: "벽오동",
     address_name: "전남 순천시 덕월동 24-2",
-    latlng: "34.920388770742754, 127.48182870459824"
+    latlng: "34.920388770742754, 127.48182870459824",
+    address_english: "walled odong"
   },
   {
     solo: true,
@@ -34825,7 +37738,8 @@ var position = [
     full: "순천 확진자",
     address: "드림내과의원",
     address_name: "전남 순천시 조례동 1588-1",
-    latlng: "34.95460837684188, 127.522909205844"
+    latlng: "34.95460837684188, 127.522909205844",
+    address_english: "Dream Internal Medicine Clinic"
   },
   {
     solo: true,
@@ -34837,9 +37751,9 @@ var position = [
     full: "남양주 확진자",
     address: "건강약국 방문",
     address_name: "경기 남양주시 화도읍 묵현리 290-1",
-    latlng: "37.65756238193154, 127.28961891103634"
+    latlng: "37.65756238193154, 127.28961891103634",
+    address_english: "a visit to the Health and Drug Administration"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34850,9 +37764,9 @@ var position = [
     full: "남양주 확진자",
     address: "맥도날드 평내DT점 방문",
     address_name: "경기 남양주시 평내동 246-21",
-    latlng: "37.6480255687826, 127.23487644051698"
+    latlng: "37.6480255687826, 127.23487644051698",
+    address_english: "Visit McDonald's Plain DT Store"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34863,9 +37777,9 @@ var position = [
     full: "남양주 확진자",
     address: "스타벅스 평내DT 방문(2/25)",
     address_name: "경기 남양주시 평내동 246-2",
-    latlng: "37.6476835407172, 127.234703127793"
+    latlng: "37.6476835407172, 127.234703127793",
+    address_english: "Starbucks Visit to Flat DT (2/25)"
   },
-
   {
     solo: true,
     profile: "-",
@@ -34876,7 +37790,8 @@ var position = [
     full: "남양주 확진자",
     address: "호평첨단주유소 셀프주유",
     address_name: "경기 남양주시 호평동 248-12",
-    latlng: "37.66222942451369, 127.24683949641"
+    latlng: "37.66222942451369, 127.24683949641",
+    address_english: "Hopyeong Advanced Oil Refinery Self-Milk Oil"
   },
   {
     solo: true,
@@ -34888,7 +37803,8 @@ var position = [
     full: "남양주 확진자",
     address: "구리휴게소 화장실 이용",
     address_name: "경기 구리시 사노동 170-13",
-    latlng: "37.6279231758161, 127.1391615311"
+    latlng: "37.6279231758161, 127.1391615311",
+    address_english: "Use the copper rest area bathroom"
   },
   {
     solo: true,
@@ -34900,7 +37816,9 @@ var position = [
     full: "성남 확진자",
     address: "스타필드시티 위례(스무디킹,영풍문고,일렉트로마트)방문",
     address_name: "경기 하남시 학암동 90-33",
-    latlng: "37.48011234504783, 127.14840995776933"
+    latlng: "37.48011234504783, 127.14840995776933",
+    address_english:
+      "Visit Starfield City Warye (Smooth King, Youngpoong Bookstore, Electromart)"
   },
   {
     solo: true,
@@ -34912,7 +37830,8 @@ var position = [
     full: "성남 확진자",
     address: "대박집 식사",
     address_name: "경기 성남시 중원구 여수동 221",
-    latlng: "37.4185711739346, 127.125203628645"
+    latlng: "37.4185711739346, 127.125203628645",
+    address_english: "a big dinner"
   },
   {
     solo: true,
@@ -34924,7 +37843,8 @@ var position = [
     full: "성남 확진자",
     address: "블루핸즈 복정남부점 방문",
     address_name: "경기 성남시 수정구 복정동 696-4",
-    latlng: "37.455147112377034, 127.1276120409837"
+    latlng: "37.455147112377034, 127.1276120409837",
+    address_english: "Blue Hands Visits South Korean Shop"
   },
   {
     solo: true,
@@ -34936,7 +37856,8 @@ var position = [
     full: "오산 확진자",
     address: "수원생명샘교회",
     address_name: "경기 수원시 영통구 망포동 650-103",
-    latlng: "37.236823002428814, 127.051853355415"
+    latlng: "37.236823002428814, 127.051853355415",
+    address_english: "Suwon Life Spring Church"
   },
   {
     solo: true,
@@ -34948,7 +37869,8 @@ var position = [
     full: "오산 확진자",
     address: "세븐일레븐 수원망포자이점 방문",
     address_name: "경기 수원시 영통구 망포동 686",
-    latlng: "37.237401990109305, 127.054711726094"
+    latlng: "37.237401990109305, 127.054711726094",
+    address_english: "Visit Suwon Mangpojaja branch of 7-Eleven"
   },
   {
     solo: true,
@@ -34960,7 +37882,8 @@ var position = [
     full: "오산 확진자",
     address: "명가원설농탕 신영통점 방문",
     address_name: "경기 수원시 영통구 망포동 572-1",
-    latlng: "37.23712965862921, 127.05891733402"
+    latlng: "37.23712965862921, 127.05891733402",
+    address_english: "Visit Myeonggawon Snowpiercer's New Young Tongshop"
   },
   {
     solo: true,
@@ -34972,7 +37895,8 @@ var position = [
     full: "오산 확진자",
     address: "수원탑간호학원 방문(2/25)",
     address_name: "경기 수원시 영통구 매탄동 1267-5",
-    latlng: "37.259135837791696, 127.044550311567"
+    latlng: "37.259135837791696, 127.044550311567",
+    address_english: "Visit Suwon Top Nursing Academy (2/25)"
   },
   {
     solo: true,
@@ -34984,7 +37908,8 @@ var position = [
     full: "오산 확진자",
     address: "다다플러스마트 동탄점(방역 완료)",
     address_name: "경기 오산시 외삼미동 119-51",
-    latlng: "37.1964060892312, 127.06531038288999"
+    latlng: "37.1964060892312, 127.06531038288999",
+    address_english: "Dada PlusMart Dongtan Branch (Release completed)"
   },
   {
     solo: true,
@@ -34996,7 +37921,8 @@ var position = [
     full: "오산 확진자",
     address: "화성 예지간호학원 방문",
     address_name: "경기 화성시 병점동 379-10",
-    latlng: "37.2063552264775, 127.036629263923"
+    latlng: "37.2063552264775, 127.036629263923",
+    address_english: "Visit Mars Yeji Nursing Academy"
   },
   {
     solo: true,
@@ -35008,7 +37934,8 @@ var position = [
     full: "대구 확진자",
     address: "대구 효사랑요양원",
     address_name: "대구 북구 대현동 411-4",
-    latlng: "35.885672948779195, 128.60257171702824"
+    latlng: "35.885672948779195, 128.60257171702824",
+    address_english: "Daegu Hyosarang Nursing House"
   },
   {
     solo: true,
@@ -35020,7 +37947,8 @@ var position = [
     full: "화성 확진자",
     address: "다이소 화성반월점 방문",
     address_name: "경기 화성시 반월동 538-1",
-    latlng: "37.2240788270636, 127.06255789290601"
+    latlng: "37.2240788270636, 127.06255789290601",
+    address_english: "Daiso Visits Hwaseong Banwol Branch"
   },
   {
     solo: true,
@@ -35032,7 +37960,8 @@ var position = [
     full: "화성 확진자",
     address: "꼬꼬떡뽀끼 방문",
     address_name: "경기 수원시 영통구 망포동 698",
-    latlng: "37.237514372316, 127.05524711476777"
+    latlng: "37.237514372316, 127.05524711476777",
+    address_english: "a cackle visit"
   },
   {
     solo: true,
@@ -35044,7 +37973,8 @@ var position = [
     full: "화성 확진자",
     address: "수원 삼성종합주방 방문",
     address_name: "경기 수원시 권선구 권선동 1248-1",
-    latlng: "37.2539251153753, 127.030254251604"
+    latlng: "37.2539251153753, 127.030254251604",
+    address_english: "Visit Suwon Samsung General Kitchen"
   },
   {
     solo: true,
@@ -35056,7 +37986,8 @@ var position = [
     full: "화성 확진자",
     address: "미래로마트 방문",
     address_name: "경기 수원시 영통구 망포동 372",
-    latlng: "37.23977372897999, 127.05430772144801"
+    latlng: "37.23977372897999, 127.05430772144801",
+    address_english: "Visit Mirae-Romart"
   },
   {
     solo: true,
@@ -35068,7 +37999,8 @@ var position = [
     full: "화성 확진자",
     address: "코코앤브레드 방문",
     address_name: "경기 수원시 영통구 망포동 698",
-    latlng: "37.2374738184196, 127.055261735684"
+    latlng: "37.2374738184196, 127.055261735684",
+    address_english: "Visit Coco and Bread"
   },
   {
     solo: true,
@@ -35080,7 +38012,8 @@ var position = [
     full: "화성 확진자",
     address: "수원 스윗스터디 방문",
     address_name: "경기 수원시 영통구 망포동 558",
-    latlng: "37.237925399877895, 127.05683306036"
+    latlng: "37.237925399877895, 127.05683306036",
+    address_english: "Visit Suwon Sweetstudy"
   },
   {
     solo: true,
@@ -35092,7 +38025,8 @@ var position = [
     full: "화성 확진자",
     address: "반월동 그린약국 방문",
     address_name: "경기 화성시 반월동 125-13",
-    latlng: "37.2311361388352, 127.065326803418"
+    latlng: "37.2311361388352, 127.065326803418",
+    address_english: "Visit the Green Pharmacy in Banwol-dong"
   },
   {
     solo: true,
@@ -35104,7 +38038,8 @@ var position = [
     full: "화성 확진자",
     address: "빅마켓 신영통점 방문(2/21)",
     address_name: "경기 화성시 반월동 123-5",
-    latlng: "37.2304435030271, 127.06646207849498"
+    latlng: "37.2304435030271, 127.06646207849498",
+    address_english: "Visit the Big Market New Young Store (2/21)"
   },
   {
     solo: true,
@@ -35116,7 +38051,9 @@ var position = [
     full: "화성 확진자",
     address: "GS25편의점 화성반월점 방문",
     address_name: "경기 화성시 반월동 345-3",
-    latlng: "37.229712762414906, 127.064820748071"
+    latlng: "37.229712762414906, 127.064820748071",
+    address_english:
+      "Visit the Hwaseong Banwol branch of GS25 convenience store"
   },
   {
     solo: true,
@@ -35128,7 +38065,8 @@ var position = [
     full: "화성 확진자",
     address: "진안동 해맑은치과 방문",
     address_name: "경기 화성시 진안동 914-1",
-    latlng: "37.2146251012973, 127.04195542666999"
+    latlng: "37.2146251012973, 127.04195542666999",
+    address_english: "A bright, Jinan-gun, dental visits."
   },
   {
     solo: true,
@@ -35140,7 +38078,8 @@ var position = [
     full: "화성 확진자",
     address: "토매당단골약국 방문",
     address_name: "경기 화성시 진안동 877-4",
-    latlng: "37.21325235123861, 127.040665833668"
+    latlng: "37.21325235123861, 127.040665833668",
+    address_english: "Visit the Tommadang General Pharmacy"
   },
   {
     solo: true,
@@ -35152,7 +38091,8 @@ var position = [
     full: "화성 확진자",
     address: "진안동 연세이비인후과 방문",
     address_name: "경기 화성시 진안동 914-7",
-    latlng: "37.215345210172494, 127.043970245733"
+    latlng: "37.215345210172494, 127.043970245733",
+    address_english: "Visit Yeonsaebi Clinic in Jinan-dong"
   },
   {
     solo: true,
@@ -35164,7 +38104,8 @@ var position = [
     full: "화성 확진자",
     address: "진안동 햇살약국 방문",
     address_name: "경기 화성시 진안동 914-7",
-    latlng: "37.21540648654431, 127.04395676168498"
+    latlng: "37.21540648654431, 127.04395676168498",
+    address_english: "Visit Jinan-dong Sunlight Pharmacy"
   },
   {
     solo: true,
@@ -35176,7 +38117,8 @@ var position = [
     full: "화성 확진자",
     address: "진로그린마트 진안점 방문",
     address_name: "경기 화성시 진안동 913",
-    latlng: "37.21519971242149, 127.04267904203891"
+    latlng: "37.21519971242149, 127.04267904203891",
+    address_english: "Visit Jin-Loglin Mart's Jinan Branch"
   },
   {
     solo: true,
@@ -35188,7 +38130,8 @@ var position = [
     full: "화성 확진자",
     address: "하이웨이마트 병점점(진안동)",
     address_name: "경기 화성시 진안동 431-13",
-    latlng: "37.21490473721771, 127.03549325051699"
+    latlng: "37.21490473721771, 127.03549325051699",
+    address_english: "Hi-Way-Mart's Bottleneck (Jinan-dong)"
   },
   {
     solo: true,
@@ -35200,7 +38143,8 @@ var position = [
     full: "화성 확진자",
     address: "본가김밥 수원고색점 방문",
     address_name: "경기 수원시 권선구 고색동 384-7",
-    latlng: "37.250780831463906, 126.97991399539902"
+    latlng: "37.250780831463906, 126.97991399539902",
+    address_english: "Visit the Suwon Gimbap High Color Store"
   },
   {
     solo: true,
@@ -35212,7 +38156,8 @@ var position = [
     full: "화성 확진자",
     address: "서수원할인마트 방문",
     address_name: "경기 수원시 권선구 고색동 365-6",
-    latlng: "37.2468051419526, 126.97831907489298"
+    latlng: "37.2468051419526, 126.97831907489298",
+    address_english: "Visit the Seosuwon discount mart"
   },
   {
     solo: true,
@@ -35224,7 +38169,3934 @@ var position = [
     full: "화성 확진자",
     address: "남양디에스병원 선별진료소 진료",
     address_name: "경기 화성시 남양읍 남양리 2319-2",
-    latlng: "37.19919637591692, 126.825713233965"
+    latlng: "37.19919637591692, 126.825713233965",
+    address_english: "Namyang Dies Hospital Screening Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 23,
+    name: "영천",
+    full: "영천 확진자",
+    address: "율리어스 방문",
+    address_name: "경북 영천시 문외동 12-16",
+    latlng: "35.9724692275437, 128.9370869890569",
+    address_english: "Visit Julius"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 15,
+    name: "영천",
+    full: "영천 확진자",
+    address: "다담뜰한식뷔페 영천점 식사",
+    address_name: "경북 영천시 조교동 701-1",
+    latlng: "35.9760725300365, 128.95514259014493",
+    address_english: "a fast-paced buffet dinner"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 15,
+    name: "영천",
+    full: "영천 확진자",
+    address: "영천시 농산물도매시장 방문",
+    address_name: "경북 영천시 조교동 838-2",
+    latlng: "35.96947213112739, 128.95453638997694",
+    address_english:
+      "Visit the agricultural wholesale market in Yeongcheon City"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 15,
+    name: "영천",
+    full: "영천 확진자",
+    address: "육군3사관학교 복지마트 방문",
+    address_name: "경북 영천시 고경면 창하리 384",
+    latlng: "35.9855179284685, 128.98876930357406",
+    address_english: "Visit the Welfare Mart of the Korea Military Academy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 16,
+    name: "영천",
+    full: "영천 확진자",
+    address: "신녕버스터미널",
+    address_name: "경북 영천시 신녕면 완전리 847",
+    latlng: "36.04081775487021, 128.78863822769148",
+    address_english: "Shinnyeong Bus Terminal"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 16,
+    name: "영천",
+    full: "영천 확진자",
+    address: "안심역 하차",
+    address_name: "대구 동구 괴전동 536-1",
+    latlng: "35.871213016584896, 128.73376974280342",
+    address_english: "Exit at Ansim Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "금호시외버스정류장 방문",
+    address_name: "경북 영천시 금호읍 덕성리 116-6",
+    latlng: "35.930306104052704, 128.86957748935367",
+    address_english: "Visit Kumho Bus Stop"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "드림식자재마트 방문",
+    address_name: "경북 경산시 하양읍 금락리 390-6",
+    latlng: "35.913016315024116, 128.8252879275886",
+    address_english: "Visit DreamSikJae Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "굳센병원 진료",
+    address_name: "대구 수성구 범어동 1806",
+    latlng: "35.8672340049878, 128.62149044878126",
+    address_english: "a firm hospital treatment"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "영남대학교 영천병원 진료",
+    address_name: "경북 영천시 오수동 307",
+    latlng: "35.95733690339829, 128.9131415063278",
+    address_english: "Yeongcheon Hospital Clinic, Yeungnam University"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "시골여행 점심",
+    address_name: "경북 영천시 야사동 359",
+    latlng: "35.9765907161285, 128.9452181919589",
+    address_english: "country trip lunch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "태화강역 방문",
+    address_name: "울산 남구 삼산동 8-26",
+    latlng: "35.53941763665112, 129.35385074853494",
+    address_english: "Visit Taehwa River Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "울산대학교병원 방문",
+    address_name: "울산 동구 전하동 290-3",
+    latlng: "35.520101913837344, 129.42873869172817",
+    address_english: "Visit Ulsan University Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "새영천약국 방문",
+    address_name: "경북 영천시 완산동 1067-3",
+    latlng: "35.9636391916223, 128.9368313273789",
+    address_english: "a visit to the New England Heavenly Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "영남대혁신태권도 차량 운행",
+    address_name: "경북 영천시 망정동 347-3",
+    latlng: "35.9819514062319, 128.9515847931099",
+    address_english: "Yeongnam Grand Innovation Taekwondo Vehicle Operation"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "강내과의원 진료",
+    address_name: "경북 영천시 완산동 1070-4",
+    latlng: "35.963637178601644, 128.9359512188057",
+    address_english: "Intestinal Clinic Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 17,
+    name: "영천",
+    full: "영천 확진자",
+    address: "현충로 방문",
+    address_name: "대구 남구 대명동 317-1",
+    latlng: "35.847504869668896, 128.58512995569222",
+    address_english: "a visit to the Memorial Road"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 18,
+    name: "영천",
+    full: "영천 확진자",
+    address: "아디다스 영천점 방문",
+    address_name: "경북 영천시 완산동 1074-5",
+    latlng: "35.96320059916855, 128.93508599668982",
+    address_english: "Adidas's visit to the Yeongcheon branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 18,
+    name: "영천",
+    full: "영천 확진자",
+    address: "랜드로바 영천점 방문",
+    address_name: "경북 영천시 완산동 1078-3",
+    latlng: "35.9632543912451, 128.93610812934787",
+    address_english: "Visit the Landlova Youngcheon Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 18,
+    name: "영천",
+    full: "영천 확진자",
+    address: "진이비인후과의원 진료",
+    address_name: "대구 중구 남산1동 910-14",
+    latlng: "35.8649483307564, 128.59378037694023",
+    address_english: "Clinical treatment of the Jini Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 18,
+    name: "영천",
+    full: "영천 확진자",
+    address: "우로지생태공원 산책",
+    address_name: "경북 영천시 망정동",
+    latlng: "35.98406005732299, 128.95622219275594",
+    address_english: "Uroji Ecological Park Walk"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 19,
+    name: "영천",
+    full: "영천 확진자",
+    address: "안심의원 진료",
+    address_name: "경북 영천시 야사동 146",
+    latlng: "35.9763313635004, 128.94476396630887",
+    address_english: "a relief clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 19,
+    name: "영천",
+    full: "영천 확진자",
+    address: "심보성 연합이비인후과의원 방문",
+    address_name: "대구 동구 신서동 530-4",
+    latlng: "35.86629570386789, 128.7250628910034",
+    address_english: "Shimbo-sung United E.P.A. Visits to the Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 20,
+    name: "영천",
+    full: "영천 확진자",
+    address: "대구파티마병원 진료",
+    address_name: "대구 동구 신암동 576-31",
+    latlng: "35.8843885195477, 128.62439145979826",
+    address_english: "Daegu Fatima Hospital Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 21,
+    name: "영천",
+    full: "영천 확진자",
+    address: "대백마트 영천점 방문",
+    address_name: "경북 영천시 완산동 1000-81",
+    latlng: "35.9656157721615, 128.9371899715749",
+    address_english: "Visit the Yeongcheon branch of Daebaek Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 21,
+    name: "영천",
+    full: "영천 확진자",
+    address: "영천곰식자재마트 방문",
+    address_name: "경북 영천시 망정동 209-1",
+    latlng: "35.976301847721196, 128.9514633910339",
+    address_english: "Visit Young-cheon Gom-Sikjamart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 21,
+    name: "영천",
+    full: "영천 확진자",
+    address: "현대내과의원 진료",
+    address_name: "대구 달서구 이곡동 1196-8",
+    latlng: "35.8551708394478, 128.50476776588314",
+    address_english: "Clinical treatment at Hyundai Medical Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 21,
+    name: "영천",
+    full: "영천 확진자",
+    address: "트라이얼 영천점 방문",
+    address_name: "경북 영천시 조교동 832-1",
+    latlng: "35.97039373507879, 128.95194754032494",
+    address_english: "Visit Trials to the Young Heavenly Hall"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 22,
+    name: "영천",
+    full: "영천 확진자",
+    address: "김신향 소아청소년과의원",
+    address_name: "대구 달서구 본리동 110-1",
+    latlng: "35.84140438760079, 128.54456343270417",
+    address_english: "Kim Shin-hyang, a pediatrician"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영천 확진자",
+    month: 2,
+    day: 23,
+    name: "영천",
+    full: "영천 확진자",
+    address: "율리어스 방문",
+    address_name: "경북 영천시 문외동 12-16",
+    latlng: "35.9724692275437, 128.9370869890569",
+    address_english: "Visit Julius"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 27,
+    name: "안양",
+    full: "안양 확진자",
+    address: "한림대학교성심병원 선별진료소에서 검체 채취",
+    address_name: "경기 안양시 동안구 평촌동 896",
+    latlng: "37.3917052792552, 126.962038549409",
+    address_english:
+      "Samples taken at the selected medical center of Hallym University Sungsim Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 20,
+    name: "안양",
+    full: "안양 확진자",
+    address: "이마트 평촌점 1층 약국 방문",
+    address_name: "경기 안양시 동안구 관양동 1608",
+    latlng: "37.39492964284795, 126.96364732748665",
+    address_english:
+      "Visit the pharmacy on the first floor of E-Mart's Pyeongchon branch."
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 24,
+    name: "안양",
+    full: "안양 확진자",
+    address: "오얏봉약국 방문",
+    address_name: "경기 안양시 동안구 관양동 1606",
+    latlng: "37.39275316576636, 126.96203011600447",
+    address_english: "a visit to the Oyat Pact Office"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 25,
+    name: "안양",
+    full: "안양 확진자",
+    address: "한림대학교성심병원 검사",
+    address_name: "경기 안양시 동안구 평촌동 896",
+    latlng: "37.3917052792552, 126.962038549409",
+    address_english: "Examination of Hallym University Sungsim Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 21,
+    name: "경주",
+    full: "경주 확진자",
+    address: "건천우체국 방문",
+    address_name: "경북 경주시 건천읍 천포리 464-2",
+    latlng: "35.8511740501378, 129.1012228179005",
+    address_english: "Visit the Geoncheon Post Office"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 21,
+    name: "경주",
+    full: "경주 확진자",
+    address: "민이비인후과 방문",
+    address_name: "경북 경주시 황성동 472-60",
+    latlng: "35.864830133010116, 129.21398403415318",
+    address_english: "a visit to the Minbyo Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 21,
+    name: "경주",
+    full: "경주 확진자",
+    address: "카페사바하 사촌과 방문",
+    address_name: "경북 경주시 교동 57-16",
+    latlng: "35.829996126889505, 129.21689702978622",
+    address_english: "Visit with Café Sabha's cousin"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 22,
+    name: "경주",
+    full: "경주 확진자",
+    address: "롯데마트 화명점 출근",
+    address_name: "부산 북구 화명동 2273",
+    latlng: "35.235172599189894, 129.01299028866217",
+    address_english: "Work at Lotte Mart's Hwamyeong branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 22,
+    name: "경주",
+    full: "경주 확진자",
+    address: "건강나라 목욕",
+    address_name: "경북 경주시 건천읍 건천리 291-1",
+    latlng: "35.8490449301709, 129.10322518275757",
+    address_english: "a health bath"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 22,
+    name: "경주",
+    full: "경주 확진자",
+    address: "경주파워 식자재도매센타 방문",
+    address_name: "경북 경주시 황오동 127-3",
+    latlng: "35.84275529677101, 129.21668116926722",
+    address_english: "Visit Kyungju Power's Food and Materials Do-Ma-Senta"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 22,
+    name: "경주",
+    full: "경주 확진자",
+    address: "등뼈가 경주1호점",
+    address_name: "경북 경주시 용강동 1174-5",
+    latlng: "35.863286209188324, 129.22127776569223",
+    address_english: "1st store with backbones"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 22,
+    name: "경주",
+    full: "경주 확진자",
+    address: "유로빌펜션 (~23일)",
+    address_name: "경북 경주시 북군동 509-15",
+    latlng: "35.8582010992564, 129.25831262933707",
+    address_english: "Euroville Pension (~23 days)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 23,
+    name: "경주",
+    full: "경주 확진자",
+    address: "보돌미역 경주점 방문",
+    address_name: "경북 경주시 동천동 766-5",
+    latlng: "35.857648424675425, 129.22405132355024",
+    address_english: "Visit the Bodeolmi Station Racing Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 23,
+    name: "경주",
+    full: "경주 확진자",
+    address: "신광약국 방문",
+    address_name: "경북 경주시 건천읍 건천리 220-1",
+    latlng: "35.84954150572896, 129.10347736117606",
+    address_english: "a visit to the New Guanghua Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 24,
+    name: "경주",
+    full: "경주 확진자",
+    address: "베로나 커피 102 사촌과 방문",
+    address_name: "경북 경주시 황성동 496-1",
+    latlng: "35.86884031010172, 129.2152247759812",
+    address_english: "Verona Coffee 102 Visits with Cousin"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 25,
+    name: "경주",
+    full: "경주 확진자",
+    address: "서라벌광장주유소 방문",
+    address_name: "경북 경주시 율동 592-21",
+    latlng: "35.812965129448614, 129.1985245649411",
+    address_english: "a visit to the Surabol Square Oil Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 25,
+    name: "경주",
+    full: "경주 확진자",
+    address: "통도사휴게소주유소 부산방문",
+    address_name: "경남 양산시 하북면 순지리 93-1",
+    latlng: "35.48785024899351, 129.0913572986465",
+    address_english: "Visit Busan for Tongdo Temple Rest Area Gas Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 25,
+    name: "경주",
+    full: "경주 확진자",
+    address: "대구마트 방문",
+    address_name: "경북 경주시 도지동 361-1",
+    latlng: "35.80389626993471, 129.26607808500958",
+    address_english: "Visit Daegu Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 25,
+    name: "경주",
+    full: "경주 확진자",
+    address: "코로나19 경주시보건소 선별진료소 방문",
+    address_name: "경북 경주시 동천동 987",
+    latlng: "35.85946495320622, 129.22463338704128",
+    address_english:
+      "Corona 19 Visit the Screening Care Center at Gyeongju City Health Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#경주 확진자",
+    month: 2,
+    day: 25,
+    name: "경주",
+    full: "경주 확진자",
+    address: "신경주농협하나로마트 방문",
+    address_name: "경북 경주시 건천읍 건천리 269-1",
+    latlng: "35.849497655730445, 129.10268819071544",
+    address_english: "Visit Naju Agricultural Cooperative Federation Hanarot"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안양 확진자",
+    month: 2,
+    day: 23,
+    name: "안양",
+    full: "안양 확진자",
+    address: "우리마트 방문",
+    address_name: "경기 안양시 만안구 석수동 288",
+    latlng: "37.4127665641008, 126.907853110914",
+    address_english: "Visit Our Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 22,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "사상터미널 → 마산합성동터미널",
+    address_name: "부산 사상구 괘법동 533-6",
+    latlng: "35.1632394721581, 128.98252542642308",
+    address_english: "Sasang Terminal → Masan Composite Terminal"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 22,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "사상터미널 → 마산합성동터미널",
+    address_name: "경남 창원시 마산회원구 합성동 267",
+    latlng: "35.239170258665176, 128.58348652746344",
+    address_english: "Sasang Terminal → Masan Composite Terminal"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 22,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "평양냉면",
+    address_name: "경남 창원시 마산회원구 석전동 245-6",
+    latlng: "35.23135158002769, 128.57814244888624",
+    address_english: "Pyeongyang Cold Noodles"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 22,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "투썸플레이스 창원귀산점",
+    address_name: "경남 창원시 성산구 귀곡동 717-1",
+    latlng: "35.16997876612457, 128.59734597807076",
+    address_english: "Twosome Place Changwon Gwisan Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 24,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "창녕중식당 본점",
+    address_name: "경남 창녕군 창녕읍 교하리 139-1",
+    latlng: "35.5411728979416, 128.49848074183615",
+    address_english: "Changnyeong Chinese Restaurant Main Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 24,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "가마치통닭 창녕점",
+    address_name: "경남 창녕군 창녕읍 교하리 224-3",
+    latlng: "35.53746709100787, 128.49710746511187",
+    address_english: "Gamachi Chicken Changnyeong Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 25,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "주방장식당",
+    address_name: "경남 창녕군 창녕읍 송현리 74-6",
+    latlng: "35.54290509960149, 128.50534603973816",
+    address_english: "chef's restaurant"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 25,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "술애빠지다 창녕점",
+    address_name: "경남 창녕군 창녕읍 술정리 41-5",
+    latlng: "35.5419863775766, 128.49734473140614",
+    address_english: "Changnyeong branch is drunk"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 26,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "CU 창녕명덕점",
+    address_name: "경남 창녕군 창녕읍 교리 272-10",
+    latlng: "35.54300944743181, 128.49580351093618",
+    address_english: "CU Changnyeongmyeongdeok Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 26,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "카페봄봄 창녕점",
+    address_name: "경남 창녕군 창녕읍 교하리 250-3",
+    latlng: "35.53449886666049, 128.49896629130413",
+    address_english: "Café-Bom-Bom Changnyeong Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창녕 확진자",
+    month: 2,
+    day: 28,
+    name: "창녕",
+    full: "창녕 확진자",
+    address: "코로나19 창녕군보건소 선별진료소",
+    address_name: "경남 창녕군 창녕읍 교리 996-1",
+    latlng: "35.5436236634433, 128.49008663732516",
+    address_english:
+      "Corona19 Changnyeong County Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#원주 확진자",
+    month: 2,
+    day: 23,
+    name: "원주",
+    full: "원주 확진자",
+    address: "본죽 원주무실점 방문",
+    address_name: "강원 원주시 무실동 1642-2",
+    latlng: "37.336084654235314, 127.92864531646401",
+    address_english: "a visit to Bonjuk Wonjuk."
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#원주 확진자",
+    month: 2,
+    day: 23,
+    name: "원주",
+    full: "원주 확진자",
+    address: "맘스터치 원주흥업점 방문(환자 차량 대기)",
+    address_name: "강원 원주시 흥업면 흥업리 707-7",
+    latlng: "37.303720801235905, 127.91986002857702",
+    address_english:
+      "Visit Momsstitch Wonju Entertainment Shop (Patient Vehicle Waiting)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#원주 확진자",
+    month: 2,
+    day: 23,
+    name: "원주",
+    full: "원주 확진자",
+    address: "가마치통닭 흥업점 방문(환자 차량 대기)",
+    address_name: "강원 원주시 흥업면 흥업리 591-7",
+    latlng: "37.3026155586791, 127.91970670692501",
+    address_english:
+      "Visiting a kamachi chicken hanger (patient vehicle waiting)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자28",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자28",
+    address: "용곡마을아이파크아파트 (확진자 거주지)",
+    address_name: "충남 천안시 동남구 용곡동 334",
+    latlng: "36.794719885291784, 127.14459092548951",
+    address_english: "Yonggok Village I-Park Apartment (Resident Residence)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자28",
+    month: 2,
+    day: 26,
+    name: "천안",
+    full: "천안 확진자28",
+    address: "농가마트 남관점",
+    address_name: "충남 천안시 동남구 풍세면 남관리 146",
+    latlng: "36.7540814684049, 127.127134536119",
+    address_english: "Farmhouse Mart Namgwan Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자28",
+    month: 2,
+    day: 26,
+    name: "천안",
+    full: "천안 확진자",
+    address: "세종메디칼약국28",
+    address_name: "충남 천안시 동남구 청당동 396-12",
+    latlng: "36.78048540866094, 127.14275164222335",
+    address_english: "Sejong Medical Pharmacy 28"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자29",
+    month: 2,
+    day: 24,
+    name: "천안",
+    full: "천안 확진자29",
+    address: "봉명동행정복지센터 (11:00-11:20)",
+    address_name: "충남 천안시 동남구 봉명동 30-10",
+    latlng: "36.80349885459656, 127.13668723787326",
+    address_english:
+      "Bongmyeong-dong Administrative Welfare Center (11:00-11:20)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자29",
+    month: 2,
+    day: 24,
+    name: "천안",
+    full: "천안 확진자29",
+    address: "CNP차앤박피부과 천안시청점 (14:00-16:00)",
+    address_name: "충남 천안시 서북구 불당동 1618",
+    latlng: "36.8123771009268, 127.10819241592",
+    address_english: "CNP Tea & Thin Skin and Cheonan City Hall (14:00-16:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "다이소 울산무거점",
+    address_name: "울산 남구 무거동 466-3",
+    latlng: "35.545770328757214, 129.26140890906558",
+    address_english: "Daiso Ulsan Muji Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "올리브영 울산대점",
+    address_name: "울산 남구 무거동 629-4",
+    latlng: "35.54281054254707, 129.26063727369643",
+    address_english: "Olive Young Ulsan Grand Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "선경마트",
+    address_name: "울산 남구 무거동 577-1",
+    latlng: "35.539385304167105, 129.25457968004454",
+    address_english: "Sunkyung Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 3,
+    day: 1,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산대학교병원",
+    address_name: "울산 동구 전하동 290-3",
+    latlng: "35.520101913837344, 129.42873869172817",
+    address_english: "Ulsan University Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "CU 무거삼호점",
+    address_name: "울산 남구 무거동 1195-9",
+    latlng: "35.5516574530525, 129.27455414634565",
+    address_english: "CU Mugo Samho Shop"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 26,
+    name: "울산",
+    full: "울산 확진자",
+    address: "모노드레스",
+    address_name: "울산 중구 성남동 191-70",
+    latlng: "35.5532187657125, 129.318213405084",
+    address_english: "Monodress"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "코로나19 좋은삼정병원 선별진료소",
+    address_name: "울산 남구 무거동 217-1",
+    latlng: "35.55282542977111, 129.26899908489065",
+    address_english: "Corona19 Good Samjeong Hospital Screening Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "중앙병원",
+    address_name: "울산 남구 신정동 1651-9",
+    latlng: "35.53161978157462, 129.3051794985549",
+    address_english: "a central hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 27,
+    name: "울산",
+    full: "울산 확진자",
+    address: "코로나19 중앙병원 선별진료소",
+    address_name: "울산 남구 신정동 1651-9",
+    latlng: "35.53161978157462, 129.3051794985549",
+    address_english: "Corona19 Central Hospital Screening Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "손가락생삼겹살",
+    address_name: "울산 북구 연암동 299-1",
+    latlng: "35.584500522587994, 129.37027280194178",
+    address_english: "pork belly with fingers"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 20,
+    name: "울산",
+    full: "울산 확진자",
+    address: "메카볼링센터",
+    address_name: "울산 북구 연암동 402-1",
+    latlng: "35.58715177170217, 129.36571590186756",
+    address_english: "Mecca Bowling Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "서동가정의학과의원",
+    address_name: "울산 중구 서동 45-11",
+    latlng: "35.58112535110812, 129.34656169264028",
+    address_english: "Western Family Medicine Academy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "광제약국",
+    address_name: "울산 중구 서동 39-6",
+    latlng: "35.58135503011472, 129.3466125159823",
+    address_english: "photo-pharmaceuticals bureau"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "태원수산산곰장어",
+    address_name: "울산 중구 학산동 9-5",
+    latlng: "35.55384769412881, 129.3276567114281",
+    address_english: "Taewon Sea Bear Eel"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 25,
+    name: "울산",
+    full: "울산 확진자",
+    address: "송채토속음식전문점",
+    address_name: "울산 남구 삼산동 1652-3",
+    latlng: "35.53660337357251, 129.35077112733933",
+    address_english: "Songchae Traditional Food Shop"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 26,
+    name: "울산",
+    full: "울산 확진자",
+    address: "경주박가국밥",
+    address_name: "울산 남구 신정동 157-7",
+    latlng: "35.54101119573663, 129.32289343415505",
+    address_english: "Gyeongju Parkga Rice Soup"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 26,
+    name: "울산",
+    full: "울산 확진자",
+    address: "이마트24 울산무거양지점",
+    address_name: "울산 남구 무거동 567-1",
+    latlng: "35.540200559500605, 129.25357943337548",
+    address_english: "E-Mart24 Ulsan Moorang branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 23,
+    name: "울산",
+    full: "울산 확진자",
+    address: "신동방마트",
+    address_name: "울산 동구 전하동 631-1",
+    latlng: "35.51209160176873, 129.42606524313308",
+    address_english: "Shindongbang Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "자연드림 울산전하점",
+    address_name: "울산 동구 전하동 549",
+    latlng: "35.516188555258225, 129.42665144646512",
+    address_english: "Natural Dream Ulsan Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 25,
+    name: "울산",
+    full: "울산 확진자",
+    address: "합천돼지국밥",
+    address_name: "울산 동구 전하동 631-1",
+    latlng: "35.511980117459835, 129.4260530713001",
+    address_english: "Hapcheon Pork and Rice Soup"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "이손요양병원",
+    address_name: "울산 울주군 삼남면 방기리 156-2",
+    latlng: "35.50655084236291, 129.0904845470195",
+    address_english: "Ison Nursing Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "현대온누리약국",
+    address_name: "울산 남구 야음동 866-3",
+    latlng: "35.530766237673205, 129.32391630092607",
+    address_english: "Hyundai Onnuri Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 24,
+    name: "울산",
+    full: "울산 확진자",
+    address: "연세의원",
+    address_name: "울산 남구 야음동 866-3",
+    latlng: "35.530744964035236, 129.3238980503189",
+    address_english: "a junior member"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 25,
+    name: "울산",
+    full: "울산 확진자",
+    address: "울산남목교회",
+    address_name: "울산 동구 동부동 668-2",
+    latlng: "35.54402374776762, 129.43021547044614",
+    address_english: "Ulsan Nammok Church"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#울산 확진자",
+    month: 2,
+    day: 22,
+    name: "울산",
+    full: "울산 확진자",
+    address: "두울원칼국수 다운점",
+    address_name: "울산 중구 다운동 776-9",
+    latlng: "35.562711462773414, 129.26768548007058",
+    address_english: "Doulwon Kalguksu Down Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 28,
+    name: "부산",
+    full: "부산 확진자",
+    address: "좋은문화병원",
+    address_name: "부산 동구 범일동 899-9",
+    latlng: "35.140723651311504, 129.05906450757038",
+    address_english: "Good Culture Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 29,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 수영구보건소 선별진료소",
+    address_name: "부산 수영구 광안동 661-1",
+    latlng: "35.1626441095325, 129.11343165102565",
+    address_english:
+      "Corona19 Swimming Pool Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "고려의원",
+    address_name: "부산 서구 아미동2가 98-3",
+    latlng: "35.09982831551031, 129.0170733375702",
+    address_english: "a member of the House of Goryeo"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "동명약국",
+    address_name: "부산 서구 아미동2가 111-5",
+    latlng: "35.09989146764531, 129.0169608541142",
+    address_english: "a country of the same name"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 28,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 고신대학교복음병원 선별진료소",
+    address_name: "부산 서구 암남동 41-3",
+    latlng: "35.0802916424849, 129.0157195305902",
+    address_english:
+      "Corona19 Gosin University Gospel Hospital Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "방일해장국",
+    address_name: "울산 남구 달동 1249-7",
+    latlng: "35.536876874883625, 129.32981621302514",
+    address_english: "Japan-Japan hangover soup"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "울산부부한의원",
+    address_name: "울산 남구 신정동 864-24",
+    latlng: "35.528406242396805, 129.31919663323103",
+    address_english: "Ulsan Bubuhan Medical Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 26,
+    name: "부산",
+    full: "부산 확진자",
+    address: "토마토수제돈까스",
+    address_name: "울산 남구 달동 129-5",
+    latlng: "35.53471821350452, 129.32251789805304",
+    address_english: "tomato handmade pork cutlet"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 28,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 해운대구보건소 선별진료소",
+    address_name: "부산 해운대구 좌동 1339",
+    latlng: "35.16411220331141, 129.17866201817904",
+    address_english: "Corona19 Haeundae Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자4",
+    month: 2,
+    day: 22,
+    name: "아산",
+    full: "아산 확진자4",
+    address: "진국이네짜글이 (20:00-21:00)",
+    address_name: "충남 아산시 음봉면 산동리 430-1",
+    latlng: "36.82704037891471, 127.099447511065",
+    address_english: "Jinkooknezzagle (20:00-21:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자4",
+    month: 2,
+    day: 23,
+    name: "아산",
+    full: "아산 확진자4",
+    address: "총각네텔레콤 음봉점",
+    address_name: "충남 아산시 음봉면 산동리 430-13",
+    latlng: "36.8268300281117, 127.099915779575",
+    address_english: "Chonggakne Telecom Mbong Point"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자4",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자4",
+    address: "CU 아산산동점",
+    address_name: "충남 아산시 음봉면 산동리 423-1",
+    latlng: "36.8291769839418, 127.096065022095",
+    address_english: "CU Asan Co. Ltd."
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자4",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자4",
+    address: "음봉약국",
+    address_name: "충남 아산시 음봉면 산동리 423-2",
+    latlng: "36.82908302207661, 127.09636980132",
+    address_english: "a peal-bottomed country"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 21,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "월드JNK휘트니스 천안두정점 (2/21 19:00-20:00)",
+    address_name: "충남 천안시 서북구 두정동 667",
+    latlng: "36.830615615114546, 127.12974063731166",
+    address_english: "World JNK Fitness Tiananmen Square (2/21 19:00-20:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 23,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "아산삼일원앙아파트 (16:00-16:30)",
+    address_name: "충남 아산시 음봉면 산동리 427-1",
+    latlng: "36.828777262360155, 127.0999878097908",
+    address_english: "Asan Samilwonang Apartment (16:00-16:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "코스트코 천안점 (09:40-13:00)",
+    address_name: "충남 천안시 서북구 차암동 438",
+    latlng: "36.84267491283848, 127.105347021173",
+    address_english: "Costco Cheonan Point (09:40-13:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안동 확진자",
+    month: 2,
+    day: 25,
+    name: "안동",
+    full: "안동 확진자",
+    address: "빽다방 안동옥동센터점",
+    address_name: "경북 안동시 옥동 787-18",
+    latlng: "36.56291416390277, 128.70159603711633",
+    address_english: "Back-Dabang Andong Okdong Center Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안동 확진자",
+    month: 2,
+    day: 25,
+    name: "안동",
+    full: "안동 확진자",
+    address: "삼성3차아파트",
+    address_name: "경북 안동시 태화동 877",
+    latlng: "36.56579469966962, 128.7047532776584",
+    address_english: "Samsung 3rd Tea Apartments"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#안동 확진자",
+    month: 2,
+    day: 26,
+    name: "안동",
+    full: "안동 확진자",
+    address: "필마트 안동본점",
+    address_name: "경북 안동시 옥동 617-5",
+    latlng: "36.56416287377541, 128.70545013654734",
+    address_english: "PILMART ANDONG HOUSE"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "다이소 천안불당2호점 (13:00-13:30)",
+    address_name: "충남 천안시 서북구 불당동 1470",
+    latlng: "36.823180474920015, 127.10723023470673",
+    address_english: "Daiso Tianbuldang 2nd Shop (13:00-13:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "아산 삼일공판장 (13:30-13:40)",
+    address_name: "충남 아산시 음봉면 산동리 427-1",
+    latlng: "36.8268778075205, 127.09989118164499",
+    address_english: "Asan Samil Public Market (13:30-13:40)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 25,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "천안백석푸르지오아파트 친구집 방문 (9:30경)",
+    address_name: "충남 천안시 서북구 백석동 979",
+    latlng: "36.82985278271675, 127.12168641097186",
+    address_english:
+      "Visit Friend's House of Cheonan Baekseok Purjio Apartments (9:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 16,
+    name: "수원",
+    full: "수원 확진자",
+    address: "롯데몰 수원점 방문",
+    address_name: "경기 수원시 권선구 서둔동 296-77",
+    latlng: "37.263988193119395, 126.99729885128001",
+    address_english: "Visit the Suwon branch of Lotte Mall"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 16,
+    name: "수원",
+    full: "수원 확진자",
+    address: "성균관대학교 제1공학관 방문",
+    address_name: "경기 수원시 장안구 천천동 300",
+    latlng: "37.2938356568, 126.977092069718",
+    address_english:
+      "Visit the First Engineering Center at Sungkyunkwan University"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자5",
+    month: 2,
+    day: 26,
+    name: "아산",
+    full: "아산 확진자5",
+    address: "GS25 백석센터점 (15:05)",
+    address_name: "충남 천안시 서북구 백석동 985",
+    latlng: "36.8286726818413, 127.123096923306",
+    address_english: "GS25 Baekseok Center Branch (15:05)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 17,
+    name: "수원",
+    full: "수원 확진자",
+    address: "예술상 호프 방문",
+    address_name: "경기 수원시 장안구 율전동 399-17",
+    latlng: "37.2976109035798, 126.968776347399",
+    address_english: "Artistic Hope Visit"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 18,
+    name: "수원",
+    full: "수원 확진자",
+    address: "아라크네PC 성대점 방문",
+    address_name: "경기 수원시 장안구 율전동 433-68",
+    latlng: "37.29666007205171, 126.971402363394",
+    address_english: "Visit the AracnePC vocal cords store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#수원 확진자",
+    month: 2,
+    day: 24,
+    name: "수원",
+    full: "수원 확진자",
+    address: "성균관대역 1호선 이용(2/17,20,21)",
+    address_name: "경기 수원시 장안구 율전동 495",
+    latlng: "37.3003290017027, 126.97102200002199",
+    address_english: "Use of Sungkyunkwan University Line 1 (2/17,20,21)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 25,
+    name: "서울",
+    full: "서울 확진자",
+    address: "긱스타PC방 방문",
+    address_name: "서울 관악구 봉천동 863-2",
+    latlng: "37.4798642759744, 126.952112617476",
+    address_english: "Visit Gigsta PC Room"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자6",
+    month: 2,
+    day: 21,
+    name: "아산",
+    full: "아산 확진자6",
+    address: "월드JNK휘트니스 천안두정점 (19:00-20:00)",
+    address_name: "충남 천안시 서북구 두정동 667",
+    latlng: "36.830615615114546, 127.12974063731166",
+    address_english: "World JNK Fitness Cheonan Doo-Jung Point (19:00-20:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 29,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "호반베르디움센트로포레아파트 (확진자 거주지)",
+    address_name: "충남 천안시 서북구 불당동 1510",
+    latlng: "36.81846643314876, 127.10250625813308",
+    address_english:
+      "Hobanberdium centroforeapart (Probably Resident Residence)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자 6",
+    month: 2,
+    day: 21,
+    name: "아산",
+    full: "아산 확진자6",
+    address: "태헌장미2차아파트(2/21,23, 24,25,26)",
+    address_name: "충남 아산시 음봉면 산동리 420-1",
+    latlng: "36.82947525154506, 127.09717289307036",
+    address_english: "Taeheon Rose II Tea Apartment (2/21,23, 24,25,26)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "신중동역 7호선 약대동->신중동역->가산디지털역",
+    address_name: "경기 부천시 중동 1242-1",
+    latlng: "37.5029525402622, 126.776897204578",
+    address_english:
+      "Yakdae-dong, Shin-Middle East Station, Shin-San Digital Station, Shinjidong Station, Line 7"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "광명역KTX 7B(20:16-20:37)",
+    address_name: "경기 광명시 일직동 276-8",
+    latlng: "37.416451341811104, 126.88480397548899",
+    address_english: "Gwangmyeong Station KTX 7B (20:16-20:37)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "던킨도너츠 광명역사점 (19:40)",
+    address_name: "경기 광명시 일직동 276-1",
+    latlng: "37.41682452895126, 126.88497398012727",
+    address_english: "Dunkin Donuts Gwangmyeong History Point (19:40)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자6",
+    month: 2,
+    day: 22,
+    name: "아산",
+    full: "아산 확진자6",
+    address: "바레안헤어 차암동(16:30)",
+    address_name: "충남 천안시 서북구 차암동 435-1",
+    latlng: "36.84087012809694, 127.1031426744699",
+    address_english: "Barean Hare Chaam-dong (16:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#인천 확진자",
+    month: 2,
+    day: 24,
+    name: "인천",
+    full: "인천 확진자",
+    address: "인천자생한방병원 진료",
+    address_name: "인천 남동구 구월동 1464",
+    latlng: "37.44502431053598, 126.7007797617813",
+    address_english: "Medical treatment at Incheon Natural Medicine Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "천안농협하나로마트 불당점 (10:00)",
+    address_name: "충남 천안시 서북구 불당동 1488",
+    latlng: "36.81887504248858, 127.10913742489195",
+    address_english:
+      "Chonan Agricultural Cooperative Hararomart's Buldang Branch (10:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자6",
+    month: 2,
+    day: 22,
+    name: "아산",
+    full: "아산 확진자6",
+    address: "원마트 (17:50 ~ 18:20)",
+    address_name: "충남 천안시 서북구 백석동 604-19",
+    latlng: "36.824767956462445, 127.10551974398977",
+    address_english: "One Mart (17:50-18:20)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "이마트 천안점 (11:38)",
+    address_name: "충남 천안시 서북구 쌍용1동 191",
+    latlng: "36.7961096575898, 127.12700227376702",
+    address_english: "E-Mart's Cheonan branch (11:38)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "아우어베이커리 천안신불당점 (10:24)",
+    address_name: "충남 천안시 서북구 불당동 1491",
+    latlng: "36.82039561293694, 127.10968318011798",
+    address_english: "Auer Bakery Tianxin Buddha's Shop (10:24)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자 6",
+    month: 2,
+    day: 22,
+    name: "아산",
+    full: "아산 확진자 6",
+    address: "진국이네짜글이 (19:30)",
+    address_name: "충남 아산시 음봉면 산동리 430-1",
+    latlng: "36.82704037891471, 127.099447511065",
+    address_english: "Jinkook Netsagle (19:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자65",
+    month: 2,
+    day: 29,
+    name: "천안",
+    full: "천안 확진자65",
+    address: "봄약국 (9:28)",
+    address_name: "충남 천안시 서북구 불당동 1525",
+    latlng: "36.816530884716606, 127.106566434321",
+    address_english: "Spring Pharmacy (9:28)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자61",
+    month: 2,
+    day: 29,
+    name: "천안",
+    full: "천안 확진자61",
+    address: "백석마을아이파크아파트 (확진자 거주지)",
+    address_name: "충남 천안시 서북구 백석동 941",
+    latlng: "36.83263208766115, 127.12488340734168",
+    address_english: "Baekseok Village I-Park Apartment (Confident Residence)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자61",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자61",
+    address: "광덕산 (9:00)",
+    address_name: "충남 아산시 송악면 마곡리",
+    latlng: "36.68749547631649, 127.027224731018",
+    address_english: "Gwangdeok Mountain (9:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자 6",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자 6",
+    address: "총각네텔레콤 음봉점 (12:00)",
+    address_name: "충남 아산시 음봉면 산동리 430-13",
+    latlng: "36.8268300281117, 127.099915779575",
+    address_english: "Chonggakne Telecom Mbong Point (12:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자61",
+    month: 2,
+    day: 27,
+    name: "천안",
+    full: "천안 확진자61",
+    address: "솔뫼장터 (12:30)",
+    address_name: "충남 아산시 송악면 역촌리 71-1",
+    latlng: "36.7297030511095, 127.012968264362",
+    address_english: "Solmoe Marketplace (12:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자61",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자61",
+    address: "노브랜드 천안백석점 (16:00)",
+    address_name: "충남 천안시 서북구 백석동 946",
+    latlng: "36.83068834735932, 127.12407203085444",
+    address_english: "Nobrand Tiananmen Square (16:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자 6",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자 6",
+    address: "CU 아산산동점 (13:50)",
+    address_name: "충남 아산시 음봉면 산동리 423-1",
+    latlng: "36.8291769839418, 127.096065022095",
+    address_english: "CU Asan Co-operation Point (13:50)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자60",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자60",
+    address: "천안아산 상생협력센터 출근 (2/27, 28 9:00-18:00)",
+    address_name: "충남 천안시 서북구 불당동 1282-1",
+    latlng: "36.7929971101262, 127.098605753616",
+    address_english:
+      "Work at Cheonan Asan Co-existence and Cooperation Center (2/27, 28 9:00-18:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자60",
+    month: 2,
+    day: 28,
+    name: "천안",
+    full: "천안 확진자60",
+    address: "지산흑돈 (12:00-13:00)",
+    address_name: "충남 천안시 서북구 백석동 126-7",
+    latlng: "36.82655711404931, 127.11933177166699",
+    address_english: "Jisan Blackdon (12:00-13:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#아산 확진자 6",
+    month: 2,
+    day: 24,
+    name: "아산",
+    full: "아산 확진자 6",
+    address: "음봉약국 (14:40)",
+    address_name: "충남 아산시 음봉면 산동리 423-2",
+    latlng: "36.82908302207661, 127.09636980132",
+    address_english: "Mbongbong Pharmacy (14:40)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자60",
+    month: 2,
+    day: 29,
+    name: "천안",
+    full: "천안 확진자60",
+    address: "롯데마트 성정점 (10:30-11:30)",
+    address_name: "충남 천안시 서북구 성정동 1486",
+    latlng: "36.82624622000419, 127.14000072167201",
+    address_english: "Lotte Mart Seongjeong Branch (10:30-11:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#인천 확진자",
+    month: 2,
+    day: 21,
+    name: "인천",
+    full: "인천 확진자",
+    address: "상쾌한이비인후과의원 방문",
+    address_name: "경기 김포시 풍무동 194-5",
+    latlng: "37.606709834284196, 126.72499970879699",
+    address_english: "a visit to a refreshing ENT clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자 55",
+    month: 2,
+    day: 22,
+    name: "천안",
+    full: "천안 확진자 55",
+    address: "웰소아청소년과의원 (10:00 ~ 10:15)",
+    address_name: "충남 천안시 서북구 백석동 150-2",
+    latlng: "36.823598354518005, 127.118851931262",
+    address_english: "Wellsoa Youth Clinic (10:00-10:15)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자 55",
+    month: 2,
+    day: 22,
+    name: "천안",
+    full: "천안 확진자 55",
+    address: "튼튼약국 (10:45)",
+    address_name: "충남 천안시 서북구 백석동 150-2",
+    latlng: "36.82358398608559, 127.118802591057",
+    address_english: "Strong Pharmacy (10:45)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 22,
+    name: "천안",
+    full: "천안 확진자",
+    address: "천안백석아이파크2차아파트 (확진자 거주지)",
+    address_name: "충남 천안시 서북구 백석동 1178",
+    latlng: "36.82512785600653, 127.12121264041149",
+    address_english:
+      "Cheonan Baekseok I-Park 2 Cha Apartment (Confident Residence)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 24,
+    name: "천안",
+    full: "천안 확진자",
+    address: "상쾌한이비인후과의원 (11:00~11:30)",
+    address_name: "충남 천안시 서북구 두정동 574",
+    latlng: "36.8307224627675, 127.12759752824",
+    address_english: "Refreshing ENT Clinic (11:00-11:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 24,
+    name: "천안",
+    full: "천안 확진자",
+    address: "롯데슈퍼 두정2점 11:00 ~ 11:30)",
+    address_name: "충남 천안시 서북구 두정동 591",
+    latlng: "36.8306795679389, 127.12826947653623",
+    address_english: "Lotte Super Dojung 2 points from 11:00 to 11:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 24,
+    name: "천안",
+    full: "천안 확진자",
+    address: "굿모닝마트 (11:30 ~ 11:37)",
+    address_name: "충남 천안시 서북구 백석동 1124",
+    latlng: "36.83037657591401, 127.116947811603",
+    address_english: "Good Morning Mart (11:30 to 11:37)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 25,
+    name: "천안",
+    full: "천안 확진자",
+    address: "천안일등식자재마트 (13:00 ~ 13:30)",
+    address_name: "충남 천안시 서북구 성정동 1230",
+    latlng: "36.8276451810222, 127.13334499190101",
+    address_english: "Cheonan Equivalents Market (13:00 to 13:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#천안 확진자",
+    month: 2,
+    day: 26,
+    name: "천안",
+    full: "천안 확진자",
+    address: "이마트트레이더스 천안아산점 (15:30 ~ 16:00)",
+    address_name: "충남 아산시 배방읍 장재리 1760",
+    latlng: "36.79650898662559, 127.10567369057398",
+    address_english: "E-Mart Traders Tiananmen Square (15:30-16:00)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#대전 확진자 14",
+    month: 2,
+    day: 28,
+    name: "대전",
+    full: "대전 확진자 14",
+    address: "24시 타잔휘트니스 (04:30)",
+    address_name: "대전 서구 둔산동 1116",
+    latlng: "36.3501262216443, 127.375180844288",
+    address_english: "24:00 Tarzan Fitness (04:30)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#대전 확진자",
+    month: 2,
+    day: 29,
+    name: "대전",
+    full: "대전 확진자",
+    address: "리소헤어 충남대점 (근무지)",
+    address_name: "대전 유성구 궁동 410-12",
+    latlng: "36.36195386262732, 127.35002992629501",
+    address_english: "Reshare Chungnam Grand Store (working place)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 27,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "GS25 논현보람점-2/23방문",
+    address_name: "서울 강남구 논현동 254-22",
+    latlng: "37.513672624832, 127.04102282406501",
+    address_english: "GS25 Visit Nonhyeon Boram Point-2/23"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 27,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "코로나19 강남구보건소 선별진료소",
+    address_name: "서울 강남구 삼성동 8",
+    latlng: "37.51636077923351, 127.042273077358",
+    address_english:
+      "Corona19 Gangnam District Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 22,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "가톨릭대학교 은평성모병원",
+    address_name: "서울 은평구 진관동 93-11",
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 25,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "돌초밥",
+    address_name: "서울 관악구 봉천동 1687-4",
+    latlng: "37.47743575779901, 126.963957872046",
+    address_english: "stone sushi"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 23,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "스타벅스 홍대갤러리점",
+    address_name: "서울 마포구 서교동 343-10",
+    latlng: "37.55319894032161, 126.924809884926",
+    address_english: "Starbucks Hongdae Gallery"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 24,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "인천국제공항-입국",
+    address_name: "인천 중구 운서동 2851",
+    latlng: "37.44945028134419, 126.45042670237001",
+    address_english: "Incheon International Airport-Entrance"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#송파구 확진자",
+    month: 2,
+    day: 27,
+    name: "송파구",
+    full: "송파구 확진자",
+    address: "코로나19 송파구보건소 선별진료소",
+    address_name: "서울 송파구 신천동 29-5",
+    latlng: "37.5145795416534, 127.10655565199299",
+    address_english:
+      "Corona19 Songpa District Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#송파구 확진자",
+    month: 2,
+    day: 24,
+    name: "송파구",
+    full: "송파구 확진자",
+    address: "GS25 S8몽촌토성역점",
+    address_name: "서울 송파구 신천동 19",
+    latlng: "37.517623092550025, 127.11242844575287",
+    address_english: "GS25 S8 Mongchon Saturn Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#송파구 확진자",
+    month: 2,
+    day: 25,
+    name: "송파구",
+    full: "송파구 확진자",
+    address: "CU 방이인텍점",
+    address_name: "서울 송파구 방이동 40-3",
+    latlng: "37.516919080450094, 127.11182561726342",
+    address_english: "CU RoomIntec Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#송파구 확진자",
+    month: 2,
+    day: 22,
+    name: "송파구",
+    full: "송파구 확진자",
+    address: "현대시티몰 가든파이브점-방역 완료, 임시휴점(3/2까지)",
+    address_name: "서울 송파구 문정동 634",
+    latlng: "37.4780472452671, 127.12504049785139",
+    address_english:
+      "Garden Five branch of Hyundai City Mall-completed quarantine, temporary closure (up to 32nd)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 22,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "수수한헤어살롱",
+    address_name: "서울 마포구 도화동 66",
+    latlng: "37.53796229731311, 126.946599177941",
+    address_english: "a modest hair salon"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 3,
+    day: 1,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "일번지정육식당 장한평직영점-방역완료, 식당영업 일시중단",
+    address_name: "서울 동대문구 장안동 433-19",
+    latlng: "37.56274064893629, 127.065891421041",
+    address_english:
+      "Janghan Pyeongjik branch of No.1 Meat Restaurant-Completed quarantine, temporary suspension of restaurant operations"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#동대문구 확진자",
+    month: 2,
+    day: 25,
+    name: "동대문구",
+    full: "동대문구 확진자",
+    address: "신답역 2호선-지하철 이용",
+    address_name: "서울 성동구 용답동 129-2",
+    latlng: "37.5698386846442, 127.04708011736899",
+    address_english: "Sindap Station Line 2 - Use of Undergrounds"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#동대문구 확진자",
+    month: 2,
+    day: 25,
+    name: "동대문구",
+    full: "동대문구 확진자",
+    address: "성수역 2호선-이용",
+    address_name: "서울 성동구 성수동2가",
+    latlng: "37.5445888153751, 127.056066999327",
+    address_english: "Seongsu Station Line 2-Uyong"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#동대문구 확진자",
+    month: 2,
+    day: 25,
+    name: "동대문구",
+    full: "동대문구 확진자",
+    address: "바로유한의원 중랑점",
+    address_name: "서울 중랑구 면목동 649-3",
+    latlng: "37.57984604888699, 127.086777934706",
+    address_english: "Baro Yuhan Medical Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#동대문구 확진자",
+    month: 2,
+    day: 25,
+    name: "동대문구",
+    full: "동대문구 확진자",
+    address: "홈플러스 면목점",
+    address_name: "서울 중랑구 면목동 168-2",
+    latlng: "37.580527029778814, 127.08197403840602",
+    address_english: "Home Plus Face Shop"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 26,
+    name: "서초구",
+    full: "서초구 확진자",
+    address: "코로나19 서초구보건소 선별진료소",
+    address_name: "서울 서초구 서초동 1376-3",
+    latlng: "37.48359580161091, 127.03350791077199",
+    address_english:
+      "Corona19 Seocho District Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 26,
+    name: "서초구",
+    full: "서초구 확진자",
+    address:
+      "뉴코아아울렛 강남점-지하상가 14번 출구 통해 뉴코아 정문 진입(1관,2관 무빙워크 타고 나감)",
+    address_name: "서울 서초구 잠원동 70-2",
+    latlng: "37.5092249441617, 127.007510074858",
+    address_english:
+      "Entering the main gate of New Core through Exit 14 of Gangnam Branch-Underground Shopping Mall of New Core (Going on a one or two moving walk)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "능동 꿈맞이어린이집-방문대기(실내출입없음)",
+    address_name: "서울 광진구 능동 249-4",
+    latlng: "37.55282039047239, 127.08594535049001",
+    address_english: "Active Dreaming House-Visit waiting (No room entry)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "경원유치원",
+    address_name: "서울 광진구 구의동 16-10",
+    latlng: "37.5548848297152, 127.096133243708",
+    address_english: "Kyungwon Kindergarten"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "바르다김선생 아차산역점",
+    address_name: "서울 광진구 구의동 665",
+    latlng: "37.55123399506327, 127.09042041348579",
+    address_english: "Mr. Barda Kim's Achasan Station"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "코즈이비인후과의원",
+    address_name: "서울 광진구 중곡동 157-7",
+    latlng: "37.55724285893961, 127.08029615444795",
+    address_english: "Cozui Biomedical Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "군자한마음약국",
+    address_name: "서울 광진구 중곡동 157-7",
+    latlng: "37.557246466004216, 127.080291631276",
+    address_english: "Gunjia Hanmaum Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 26,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "능동할인마트",
+    address_name: "서울 광진구 능동 234-1",
+    latlng: "37.554960925579195, 127.081185506025",
+    address_english: "Active discount mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 27,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "유앤장이비인후과의원",
+    address_name: "서울 광진구 중곡동 115-12",
+    latlng: "37.55284286159971, 127.089652805377",
+    address_english: "UNDER CALIFORNIA"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 27,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "디딤온누리약국",
+    address_name: "서울 광진구 중곡동 115-12",
+    latlng: "37.5528464346464, 127.08969355063799",
+    address_english: "Didimonnuri Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 27,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "코로나19 광진구보건소 선별진료소",
+    address_name: "서울 광진구 자양동 777",
+    latlng: "37.53854422826241, 127.08190995329798",
+    address_english:
+      "Corona19 Gwangjin District Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 27,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "대청아파트-거주지",
+    address_name: "서울 강남구 개포동 12",
+    latlng: "37.494986633000636, 127.0771377913112",
+    address_english: "Daecheong Apartment-residential residence"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 27,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "개포시장-방역중",
+    address_name: "서울 강남구 개포동 660-7",
+    latlng: "37.4819791690778, 127.057485472378",
+    address_english: "Gaepo Market During Discharge"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 27,
+    name: "서초구",
+    full: "서초구 확진자",
+    address: "IFC몰-지하3층 사리원 식당에서 식당",
+    address_name: "서울 영등포구 여의도동 23-1",
+    latlng: "37.52506684220809, 126.925955827282",
+    address_english:
+      "IFC Mall-Sariwon Restaurant on the 3rd floor of the underground restaurant"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 27,
+    name: "서초구",
+    full: "서초구 확진자",
+    address: "KB국민은행 서여의도영업부",
+    address_name: "서울 영등포구 여의도동 15-22",
+    latlng: "37.528630001977895, 126.91864845160198",
+    address_english: "KB Kookmin Bank's West Women's Intentional"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 27,
+    name: "서초구",
+    full: "서초구 확진자",
+    address: "여의도역 9호선-이용",
+    address_name: "서울 영등포구 여의도동 3-6",
+    latlng: "37.521170089044496, 126.92466104293001",
+    address_english: "Yoido Station Line 9-U"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서초구 확진자",
+    month: 2,
+    day: 27,
+    name: "서초구",
+    full: "서초구 확진자",
+    address: "고속터미널역 9호선-이용",
+    address_name: "서울 서초구 잠원동 110",
+    latlng: "37.5059814899483, 127.004211793489",
+    address_english: "Express Terminal Station Line 9-Uyong"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 21,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "삼성전자 서울R&D캠퍼스 A,B동-옥외흡연실이용",
+    address_name: "서울 서초구 우면동 689",
+    latlng: "37.4652141461168, 127.022792821779",
+    address_english: "Samsung Electronics Seoul R"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 21,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "한국수 삼성RND점",
+    address_name: "서울 서초구 우면동 687-2",
+    latlng: "37.46581249028579, 127.02241319539898",
+    address_english: "Hankook Soo Samsung RND Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강서구 확진자",
+    month: 2,
+    day: 21,
+    name: "강서구",
+    full: "강서구 확진자",
+    address: "한국수 삼성RND점",
+    address_name: "서울 서초구 우면동 687-2",
+    latlng: "37.46581249028579, 127.02241319539898",
+    address_english: "Hankook Soo Samsung RND Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 20,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "프로간장게장 신사본점",
+    address_name: "서울 서초구 잠원동 27-1",
+    latlng: "37.5145647815267, 127.01916562857899",
+    address_english: "Professional Soy Sauce Marinated Crab Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 15,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "더화이트베일웨딩",
+    address_name: "서울 서초구 서초동 1445-14",
+    latlng: "37.4835883904541, 127.01786425103099",
+    address_english: "The White Bale Wedding"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영등포구 확진자",
+    month: 2,
+    day: 18,
+    name: "영등포구",
+    full: "영등포구 확진자",
+    address: "푸주옥",
+    address_name: "서울 서초구 서초4동 1696-8",
+    latlng: "37.495391958243, 127.015248067527",
+    address_english: "Pu Ju Ok"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영등포구 확진자",
+    month: 2,
+    day: 18,
+    name: "영등포구",
+    full: "영등포구 확진자",
+    address: "동익성봉빌딩 방문",
+    address_name: "서울 서초구 서초동 1692-1",
+    latlng: "37.494332467011795, 127.014510563523",
+    address_english: "Visit Dongik Seongbong Building"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강남구 확진자",
+    month: 2,
+    day: 26,
+    name: "강남구",
+    full: "강남구 확진자",
+    address: "류니끄나인",
+    address_name: "서울 서초구 염곡동 208-2",
+    latlng: "37.45796244616373, 127.0562057105354",
+    address_english: "L 류nik Nine"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 20,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "밀코할인마트",
+    address_name: "서울 광진구 화양동 47-1",
+    latlng: "37.54277279611819, 127.06893805884299",
+    address_english: "Milco discount mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 22,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "이마트24 화양본점",
+    address_name: "서울 광진구 화양동 37-21",
+    latlng: "37.54371473845931, 127.06667581417099",
+    address_english: "E-Mart24 Hwayang Headquarters"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 23,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "그랜드약국",
+    address_name: "서울 광진구 화양동 34-4",
+    latlng: "37.54335661167482, 127.06899291084",
+    address_english: "Grand Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#노원구 확진자",
+    month: 2,
+    day: 24,
+    name: "노원구",
+    full: "노원구 확진자",
+    address: "옹아리벌교참꼬막과찜마을 건대1호점",
+    address_name: "서울 광진구 화양동 45-71",
+    latlng: "37.5422266392215, 127.06604988243501",
+    address_english:
+      "Geondae 1st store in Ongnibal Bridge Chamakgwa-jjim Village"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 25,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "긱스타PC방",
+    address_name: "서울 관악구 봉천동 863-2",
+    latlng: "37.4798642759744, 126.952112617476",
+    address_english: "Gigsta PC Room"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 28,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "코로나19 관악구보건소 선별진료소",
+    address_name: "서울 관악구 봉천동 1570-1",
+    latlng: "37.4784799393239, 126.951168342897",
+    address_english: "Corona19 Gwanak-gu Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 28,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "쉐어원 신림1-확진자 근무지",
+    address_name: "서울 관악구 신림동 103-221",
+    latlng: "37.4716132688527, 126.941120686424",
+    address_english: "Sherwon Sirim 1-Profident Workplaces"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 22,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "가톨릭대학교 은평성모병원",
+    address_name: "서울 은평구 진관동 93-11",
+    latlng: "37.63359406719202, 126.91625359899413",
+    address_english:
+      "Catholic University of Korea Eunpyeong St. Mary's Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 25,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "이훈ALL30000 낙성대점",
+    address_name: "서울 관악구 봉천동 1658-4",
+    latlng: "37.4766140399301, 126.963967311024",
+    address_english: "Lee Hoon ALL30000 Succeeding Point"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 25,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "돌초밥",
+    address_name: "서울 관악구 봉천동 1687-4",
+    latlng: "37.47743575779901, 126.963957872046",
+    address_english: "stone sushi"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 27,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "국수나무 봉천현대시장점",
+    address_name: "서울 관악구 봉천동 498-7",
+    latlng: "37.48710219931446, 126.9461186711589",
+    address_english: "Noodle Tree Bongcheon Modern Market"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 23,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "다이소 신림역1호점",
+    address_name: "서울 관악구 신림동 1424-19",
+    latlng: "37.48599448510709, 126.92994275799302",
+    address_english: "Daiso Sillim Station 1st Shop"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#관악구 확진자",
+    month: 2,
+    day: 25,
+    name: "관악구",
+    full: "관악구 확진자",
+    address: "CU 관악보라매점",
+    address_name: "서울 관악구 봉천동 967-3",
+    latlng: "37.486617250379034, 126.93496585097509",
+    address_english: "CU Gwanak Bora Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "소반",
+    address_name: "서울 서대문구 홍은동 400-13",
+    latlng: "37.581440759569105, 126.92641628264701",
+    address_english: "Soban"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "서대문구 가좌보건지소",
+    address_name: "서울 서대문구 북가좌동 477",
+    latlng: "37.574210725029204, 126.910135933983",
+    address_english: "Gajwa Health Branch of Seodaemun-gu"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "쉬크모텔",
+    address_name: "서울 서대문구 창천동 29-65",
+    latlng: "37.5562410168929, 126.937722306731",
+    address_english: "Shikmotel"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "미니스톱 연대점",
+    address_name: "서울 서대문구 창천동 29-111",
+    latlng: "37.55700507422813, 126.93774430599565",
+    address_english: "Ministop Regiment"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 19,
+    name: "영주",
+    full: "영주 확진자",
+    address: "세븐일레븐 영주가흥대동점",
+    address_name: "경북 영주시 가흥동 1647",
+    latlng: "36.8184573703313, 128.60638975431624",
+    address_english: "Seven Eleven Yeongju Heungdong Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 26,
+    name: "영주",
+    full: "영주 확진자",
+    address: "경북 자동차검사정비공장 직장근무(2/19,20,21,24,25,26)",
+    address_name: "경북 영주시 영주2동 555-7",
+    latlng: "36.82019290339211, 128.62005360360925",
+    address_english:
+      "Working at an automobile inspection and maintenance plant in North Gyeongsang Province (2/19,20, 21, 24, 25,26)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 20,
+    name: "영주",
+    full: "영주 확진자",
+    address: "김내과의원 진료",
+    address_name: "경북 영주시 영주2동 531-4",
+    latlng: "36.8234496127168, 128.62252960736424",
+    address_english: "Kim Internal Medicine Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 20,
+    name: "영주",
+    full: "영주 확진자",
+    address: "보건약국",
+    address_name: "경북 영주시 영주동 531-8",
+    latlng: "36.8233686953652, 128.62264893777026",
+    address_english: "Health and Drug Administration"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 21,
+    name: "영주",
+    full: "영주 확진자",
+    address: "고봉민김밥(포장,가흥점)",
+    address_name: "경북 영주시 가흥동 1719-6",
+    latlng: "36.81529868255091, 128.6048366715909",
+    address_english: "Go Bong Min Gimbap (package, housekeeping)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "# 확진자",
+    month: 2,
+    day: 22,
+    name: "",
+    full: " 확진자",
+    address: "CU 영주가흥부영점(2/22,25)",
+    address_name: "경북 영주시 가흥동 1620",
+    latlng: "36.818654790299966, 128.60297808772765",
+    address_english: "CU Youngjoo Reclamation Points (2/22,25)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#영주 확진자",
+    month: 2,
+    day: 27,
+    name: "영주",
+    full: "영주 확진자",
+    address: "전주명가콩나물국밥(포장, 가흥동)",
+    address_name: "경북 영주시 가흥동 1810",
+    latlng: "36.8140647688032, 128.60553593536224",
+    address_english: "Jeonju Myeongga bean sprout soup (packaged, Gaheung-dong)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 16,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "펀앤펀pc방",
+    address_name: "서울 서대문구 홍제동 137-8",
+    latlng: "37.58706762967626, 126.9468743431636",
+    address_english: "Fun & Fun pc room"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "중앙내과의원",
+    address_name: "서울 서대문구 홍제동 299-12",
+    latlng: "37.59027240509861, 126.94289783071899",
+    address_english: "a central physician"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "기린약국-2/17 방문",
+    address_name: "서울 서대문구 홍제동 299-12",
+    latlng: "37.5902399912929, 126.942943145886",
+    address_english: "Visit Giraffe Pharmacy-2/17"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "북가좌2동주민센터",
+    address_name: "서울 서대문구 북가좌동 324-13",
+    latlng: "37.581505980858296, 126.911204951584",
+    address_english: "North House II East Community Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "서서울새마을금고 본점",
+    address_name: "서울 서대문구 북가좌동 326-2",
+    latlng: "37.5816329626351, 126.912332401758",
+    address_english: "Headquarter of Seowool Saemaeul Geumgo"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "남가좌2동주민센터-1층 방문",
+    address_name: "서울 서대문구 남가좌동 342-7",
+    latlng: "37.57843342685431, 126.92386526715602",
+    address_english: "Visits to Namga Seated 2 East Community Center-1F"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "홍은2동주민센터-1층 방문",
+    address_name: "서울 서대문구 홍은동 273-10",
+    latlng: "37.5801515443579, 126.934229091144",
+    address_english: "Visit Hong Eun 2 East Community Center-1F"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "서서울새마을금고 남가좌지점",
+    address_name: "서울 서대문구 남가좌동 384",
+    latlng: "37.5748949096739, 126.91672917202021",
+    address_english: "Namga Jwa branch of Seowool Saemaeul Geumgo"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서대문구 확진자",
+    month: 2,
+    day: 19,
+    name: "서대문구",
+    full: "서대문구 확진자",
+    address: "고흥군수협 남가좌지점",
+    address_name: "서울 서대문구 남가좌동 244-55",
+    latlng: "37.5740567157537, 126.91634861633202",
+    address_english: "Goheung Military Aquarium Southern Garage Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 27,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "한솥도시락 테크노마트9층점",
+    address_name: "서울 광진구 구의동 546-4",
+    latlng: "37.5357551780933, 127.09569457660683",
+    address_english: "Hansot dosirak Techno Mart 9th floor"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광진구 확진자",
+    month: 2,
+    day: 27,
+    name: "광진구",
+    full: "광진구 확진자",
+    address: "JAJU 아차산역점",
+    address_name: "서울 광진구 구의동 53-6",
+    latlng: "37.551507136581876, 127.0902385440062",
+    address_english: "JAJU Achasan Station"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창원 확진자",
+    month: 2,
+    day: 22,
+    name: "창원",
+    full: "창원 확진자",
+    address: "상남동 성원2단지",
+    address_name: "경남 창원시 성산구 상남동 45-1",
+    latlng: "35.2153623756624, 128.69346977568736",
+    address_english: "Seongwon 2 Complex in Sangnam-dong"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "아트빌리지",
+    address_name: "경북 구미시 원평동 453-1",
+    latlng: "36.1259285238744, 128.33561523693209",
+    address_english: "Art Village"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "GS25 구미중앙로점",
+    address_name: "경북 구미시 원평동 106-15",
+    latlng: "36.130026146354595, 128.3282287928501",
+    address_english: "GS25 Gumi Jungangro Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 19,
+    name: "구미",
+    full: "구미 확진자",
+    address: "스타벅스 구미점",
+    address_name: "경북 구미시 원평동 1008-48",
+    latlng: "36.1281811240487, 128.33272533203905",
+    address_english: "Starbucks Gumi branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 19,
+    name: "구미",
+    full: "구미 확진자",
+    address: "닭튀기는 남자 원평동",
+    address_name: "경북 구미시 원평동 1008-48",
+    latlng: "36.1252427,128.3422519,17",
+    address_english: "Fried chicken is men's Wonpyeong-dong"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 20,
+    name: "구미",
+    full: "구미 확진자",
+    address: "CU 구미역후문점",
+    address_name: "경북 구미시 원평동 90-6",
+    latlng: "36.12761355007151, 128.33092957857104",
+    address_english: "CU Gumi Stationary Stationary Point"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 20,
+    name: "구미",
+    full: "구미 확진자",
+    address: "엉터리생고기 두번째이야기 구미원평점",
+    address_name: "경북 구미시 원평동 141-2",
+    latlng: "36.12920397133289, 128.3334491061061",
+    address_english: "The second story of a fake fish, Gumiwon Pyungji"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 22,
+    name: "구미",
+    full: "구미 확진자",
+    address: "세븐일레븐 구미원평스타",
+    address_name: "경북 구미시 원평동 141-2",
+    latlng: "36.12920397133289, 128.3334491061061",
+    address_english: "Seven Eleven Gumi Wonpyeong Star"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 23,
+    name: "구미",
+    full: "구미 확진자",
+    address: "G7마트",
+    address_name: "경북 구미시 봉곡동 35",
+    latlng: "36.138646180377506, 128.31502490096005",
+    address_english: "G7 Mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 23,
+    name: "구미",
+    full: "구미 확진자",
+    address: "다이소 구미봉곡본점",
+    address_name: "경북 구미시 봉곡동 42-2",
+    latlng: "36.138885959443, 128.31444342931985",
+    address_english: "Daiso Gumibonggok Main Branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "선주원남동주민센터",
+    address_name: "경북 구미시 봉곡동 541-1",
+    latlng: "36.14258845963651, 128.31019338015105",
+    address_english: "Seonjuwon Namdong Community Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 27,
+    name: "구미",
+    full: "구미 확진자",
+    address: "홈플러스 구미점",
+    address_name: "경북 구미시 광평동 792-21",
+    latlng: "36.1028417282496, 128.36373157539106",
+    address_english: "Home Plus Gumi branch"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#창원 확진자",
+    month: 2,
+    day: 29,
+    name: "창원",
+    full: "창원 확진자",
+    address: "코로나19 창원시창원보건소 선별진료소",
+    address_name: "경남 창원시 의창구 신월동 96-2",
+    latlng: "35.2280471157693, 128.68552228110838",
+    address_english: "Corona19 Changwon Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "금마주택 거주",
+    address_name: "경북 구미시 형곡동 117-18",
+    latlng: "36.1156192369976, 128.3343433102941",
+    address_english: "a gilt-bronze residence"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "정성섬유 근무",
+    address_name: "경북 구미시 형곡동 117-18",
+    latlng: "36.1037591,128.3700025,17",
+    address_english: "qualitative fiber service"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 18,
+    name: "구미",
+    full: "구미 확진자",
+    address: "우석빌딩 신천지 교육센터 원평동",
+    address_name: "경북 구미시 원평동 1070-7",
+    latlng: "36.12391487503509, 128.3493276455231",
+    address_english:
+      "Wonpyeong-dong, a training center in Sincheonji, Wooseok Building"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 19,
+    name: "구미",
+    full: "구미 확진자",
+    address: "시티약국",
+    address_name: "경북 구미시 형곡동 132-4",
+    latlng: "36.114984246533105, 128.3321291038611",
+    address_english: "City Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 24,
+    name: "구미",
+    full: "구미 확진자",
+    address: "음양약국",
+    address_name: "경북 구미시 송정동 4-1",
+    latlng: "36.121561266537306, 128.3406460627191",
+    address_english: "Eumyang Pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 27,
+    name: "구미",
+    full: "구미 확진자",
+    address: "드림마트",
+    address_name: "경북 구미시 형곡동 322-6",
+    latlng: "36.10701692515069, 128.33773806780408",
+    address_english: "DreamMart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "코로나19 구미차병원 선별진료소",
+    address_name: "경북 구미시 형곡동 855",
+    latlng: "36.11456529496051, 128.34052267803105",
+    address_english: "Corona19 Gumi Tea Hospital Screening Clinic"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "수약국",
+    address_name: "경북 구미시 송정동 466-3",
+    latlng: "36.11507287590421, 128.34034028028708",
+    address_english: "a pharmacy"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 27,
+    name: "구미",
+    full: "구미 확진자",
+    address: "삼성전자2공장 근무",
+    address_name: "경북 구미시 임수동 94-1",
+    latlng: "36.10736625933599, 128.4172293082251",
+    address_english: "Working at Samsung Electronics' 2nd Plant"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#구미 확진자",
+    month: 2,
+    day: 28,
+    name: "구미",
+    full: "구미 확진자",
+    address: "코로나19 구미보건소 선별진료소",
+    address_name: "경북 구미시 지산동 853-12",
+    latlng: "36.13993541358159, 128.34595355207307",
+    address_english: "Corona19 Gumi Health Center Screening Care Center"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 29,
+    name: "서울",
+    full: "서울 확진자",
+    address: "찌개달인",
+    address_name: "서울 중랑구 중화동 312-2",
+    latlng: "37.60131409157511, 127.077566783498",
+    address_english: "a jigger"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#서울 확진자",
+    month: 2,
+    day: 29,
+    name: "서울",
+    full: "서울 확진자",
+    address: "일번지정육식당 장한평직영점",
+    address_name: "서울 동대문구 장안동 433-19",
+    latlng: "37.56274064893629, 127.065891421041",
+    address_english: "Janghanpyeong restaurant in 1st Street"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#이천 확진자",
+    month: 2,
+    day: 25,
+    name: "이천",
+    full: "이천 확진자",
+    address: "CU 이천현대성우점",
+    address_name: "경기 이천시 부발읍 아미리 1247",
+    latlng: "37.248364113061804, 127.49321913348598",
+    address_english: "CU Icheon Hyundai Star Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#이천 확진자",
+    month: 2,
+    day: 27,
+    name: "이천",
+    full: "이천 확진자",
+    address: "CU 이천현대성우점",
+    address_name: "경기 이천시 부발읍 아미리 1247",
+    latlng: "37.248364113061804, 127.49321913348598",
+    address_english: "CU Icheon Hyundai Star Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 22,
+    name: "상주",
+    full: "상주 확진자",
+    address: "리치마트 상주점",
+    address_name: "경북 상주시 남성동 35-4",
+    latlng: "36.415204848923814, 128.15644350467502",
+    address_english: "Rich Mart Resident Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "상영초등학교 병설유치원",
+    address_name: "경북 상주시 남성동 188",
+    latlng: "36.4092894026342, 128.16058319278903",
+    address_english: "Screen Elementary School Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 29,
+    name: "상주",
+    full: "상주 확진자",
+    address: "상주적십자병원 입원",
+    address_name: "경북 상주시 남성동 33-27",
+    latlng: "36.4146619061945, 128.15556137927004",
+    address_english: "Resident Red Cross Hospital Hospital Hospital"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 18,
+    name: "상주",
+    full: "상주 확진자",
+    address: "남성동성당",
+    address_name: "경북 상주시 남성동 150-7",
+    latlng: "36.41040689765928, 128.16131330917602",
+    address_english: "Male Homosexuality"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 19,
+    name: "상주",
+    full: "상주 확진자",
+    address: "상주농협하나로마트(마스크착용)",
+    address_name: "경북 상주시 남성동 184",
+    latlng: "36.40928395656528, 128.16151398224898",
+    address_english:
+      "Resident Agricultural Cooperative Haramart (for mask wear)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 26,
+    name: "상주",
+    full: "상주 확진자",
+    address: "경상북도 안동의료원 입원",
+    address_name: "경북 안동시 북문동 470",
+    latlng: "36.568268798255296, 128.73213435934042",
+    address_english:
+      "Hospitalization of Andong Medical Center in North Gyeongsang Province"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "문경중학교",
+    address_name: "경북 문경시 흥덕동 705",
+    latlng: "36.605876007718805, 128.20681914839903",
+    address_english: "Mungyeong Middle School"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "문경청과",
+    address_name: "경북 문경시 흥덕동 705",
+    latlng: "36.644083, 128.176356",
+    address_english: "with the Mungyeong Office"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "점촌농협하나로마트",
+    address_name: "경북 문경시 흥덕동 791",
+    latlng: "36.601658945849834, 128.20476975840515",
+    address_english: "Junchon Agricultural Cooperative Haramart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "사벌동아마트",
+    address_name: "경북 상주시 사벌국면 덕담리 386-5",
+    latlng: "36.4671709658196, 128.20945373727503",
+    address_english: "Saval-dong A-mart"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 20,
+    name: "상주",
+    full: "상주 확진자",
+    address: "사벌보건지소(KF94 마스크 착용)",
+    address_name: "경북 상주시 사벌국면 덕담리 386-5",
+    latlng: "36.465096, 128.206910",
+    address_english: "Savage Health Center (KF94 Mask on)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 24,
+    name: "상주",
+    full: "상주 확진자",
+    address: "하나이비인후과의원(KF94 마스크 착용)",
+    address_name: "경북 상주시 남성동 12-13",
+    latlng: "36.41459738287471, 128.15961416819601",
+    address_english: "Hana Medical Center (KF94 Mask on)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#상주 확진자",
+    month: 2,
+    day: 24,
+    name: "상주",
+    full: "상주 확진자",
+    address: "상주종합약국(KF94 마스크 착용)",
+    address_name: "경북 상주시 냉림동 351-6",
+    latlng: "36.414591, 128.159744",
+    address_english: "Resident General Pharmacy (with KF94 Mask)"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#예천 확진자",
+    month: 2,
+    day: 20,
+    name: "예천",
+    full: "예천 확진자",
+    address: "GS25 예천현대점",
+    address_name: "경북 예천군 호명면 산합리 1382",
+    latlng: "36.575791624344795, 128.4873621308706",
+    address_english: "GS25 Yecheon Modern Store"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#예천 확진자",
+    month: 2,
+    day: 24,
+    name: "예천",
+    full: "예천 확진자",
+    address: "투썸플레이스 경북도청점",
+    address_name: "경북 안동시 풍천면 갈전리 1647",
+    latlng: "36.571829982108795, 128.50321045569254",
+    address_english: "Twosome Place Gyeongbuk Provincial Office"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#예천 확진자",
+    month: 2,
+    day: 25,
+    name: "예천",
+    full: "예천 확진자",
+    address: "예천농협하나로마트 수변점",
+    address_name: "경북 예천군 호명면 산합리 1483",
+    latlng: "36.574736930005976, 128.48175616286946",
+    address_english: "Yecheon NongHyup Hanaromart Waterfront"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#강릉 확진자",
+    month: 2,
+    day: 28,
+    name: "강릉",
+    full: "강릉 확진자",
+    address: "CU 가톨릭관동대점 방문",
+    address_name: "강원 강릉시 내곡동 522",
+    latlng: "37.73602669005991, 128.87383498137063",
+    address_english: "Visit CU Catholic Kwandong University"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 28,
+    name: "광주",
+    full: "광주 확진자",
+    address: "롯데백화점 광주점",
+    address_name: "광주 동구 대인동 7-11",
+    latlng: "35.154552723031465, 126.91218246817256"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 3,
+    day: 2,
+    name: "광주",
+    full: "광주 확진자",
+    address: "전남대학교병원",
+    address_name: "광주 동구 학동 8",
+    latlng: "35.141817518067036, 126.92156294390725"
+  },
+
+  {
+    solo: true,
+    profile: "-",
+    tag: "#광주 확진자",
+    month: 2,
+    day: 29,
+    name: "광주",
+    full: "광주 확진자",
+    address: "마트로양림점",
+    address_name: "광주 남구 양림동 99-12",
+    latlng: "35.1371001987042, 126.914189457954"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 26,
+    name: "부산",
+    full: "부산 확진자",
+    address: "부부해장국",
+    address_name: "부산 부산진구 부전동 522-44",
+    latlng: "35.1533190650815, 129.05732349426538"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "부부해장국",
+    address_name: "부산 부산진구 부전동 522-44",
+    latlng: "35.1533190650815, 129.05732349426538"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 26,
+    name: "부산",
+    full: "부산 확진자",
+    address: "그냥식당",
+    address_name: "부산 부산진구 부전2동 521-23",
+    latlng: "35.1535314250847, 129.0573420091834"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 26,
+    name: "부산",
+    full: "부산 확진자",
+    address: "GS25 서면베르빌점",
+    address_name: "부산 부산진구 부전동 525-3",
+    latlng: "35.15369893035469, 129.0553316799304"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "갈비삼대정 서면직영점",
+    address_name: "부산 부산진구 부전동 514-5",
+    latlng: "35.154484380041815, 129.05514076797039"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "한작대기",
+    address_name: "부산 부산진구 부전동 520-31",
+    latlng: "35.154566779940595, 129.05665705972837"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "포토피아슈퍼마켓",
+    address_name: "부산 부산진구 부전동 525-1",
+    latlng: "35.1542465743958, 129.05513478535636"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 29,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 부산진구보건소 선별진료소",
+    address_name: "부산 부산진구 범천동 849-10",
+    latlng: "35.14627770604381, 129.05995489853535"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 24,
+    name: "부산",
+    full: "부산 확진자",
+    address: "홈플러스익스프레스 다대포점",
+    address_name: "부산 사하구 다대동 1548-18",
+    latlng: "35.0503941106287, 128.965867156879"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "홈플러스익스프레스 다대포점",
+    address_name: "부산 사하구 다대동 1548-18",
+    latlng: "35.0503941106287, 128.965867156879"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 27,
+    name: "부산",
+    full: "부산 확진자",
+    address: "롯데슈퍼 다대점",
+    address_name: "부산 사하구 다대동 649",
+    latlng: "35.054849628801286, 128.9701807464995"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 29,
+    name: "부산",
+    full: "부산 확진자",
+    address: "코로나19 사하구보건소 선별진료소",
+    address_name: "부산 사하구 신평동 647-5",
+    latlng: "35.0941572529117, 128.959553446035"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#부산 확진자",
+    month: 2,
+    day: 29,
+    name: "부산",
+    full: "부산 확진자",
+    address: "노브랜드 부산다대점",
+    address_name: "부산 사하구 다대동 43-1",
+    latlng: "35.062895655056536, 128.97931622351823"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#제주 확진자",
+    month: 2,
+    day: 26,
+    name: "제주",
+    full: "제주 확진자",
+    address: "제주그때그집 함덕점",
+    address_name: "제주특별자치도 제주시 조천읍 함덕리 1752-2",
+    latlng: "33.53071304574456, 126.66643744001018"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#제주 확진자",
+    month: 2,
+    day: 26,
+    name: "제주",
+    full: "제주 확진자",
+    address: "오군뮤직타운",
+    address_name: "제주특별자치도 제주시 조천읍 함덕리 1269-1",
+    latlng: "33.5420394007884, 126.66596972441901"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#제주 확진자",
+    month: 2,
+    day: 27,
+    name: "제주",
+    full: "제주 확진자",
+    address: "GS25 함덕코업시티점",
+    address_name: "제주특별자치도 제주시 조천읍 함덕리 1010",
+    latlng: "33.54343867322248, 126.663307055692"
+  },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#제주 확진자",
+    month: 2,
+    day: 29,
+    name: "제주",
+    full: "제주 확진자",
+    address: "대성아귀찜",
+    address_name: "제주특별자치도 제주시 조천읍 함덕리 3219-1",
+    latlng: "33.54430740908299, 126.6578986199"
+  },
+  // {
+  //   solo: true,
+  //   profile: "-",
+  //   tag: "#제주 확진자",
+  //   month: 2,
+  //   day: 29,
+  //   name: "제주",
+  //   full: "제주 확진자",
+  //   address: "피플카페",
+  //   address_name: "제주특별자치도 제주시 조천읍 신촌리 2405-8",
+  //   latlng: "33.537927948571806, 126.613816525149"
+  // },
+  {
+    solo: true,
+    profile: "-",
+    tag: "#제주 확진자",
+    month: 3,
+    day: 1,
+    name: "제주",
+    full: "제주 확진자",
+    address: "한마음병원",
+    address_name: "제주특별자치도 제주시 이도이동 1941-5",
+    latlng: "33.49628689190791, 126.5462368495577"
   }
 ];
 module.exports.position = position;
