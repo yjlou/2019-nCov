@@ -304,6 +304,8 @@
       } else {
         $("#HTML_EXPLAIN_FOUND_RESULTS").show();
       }
+
+      M.Toast.dismissAll();
     }
 
     // The common code for file type and drap&drop handler.
@@ -328,15 +330,22 @@
 
     function onClickLetsCheckButton() {
       let oFiles = document.getElementById("uploadInput").files;
-
       if (oFiles.length === 0) return;
 
-      const blobs = [];
-      for (let oFile of oFiles) {
-        blobs.push(oFile);
-      }
+      // Prompt user this could take longer than they think.
+      M.toast({html: i18n("HTML_CHECKING"),
+               displayLength: 99999 * 1000,  // infinite
+      });
 
-      processBlobs(blobs);
+      // Give the mobile phone UI a chance to show the checking message above.
+      setTimeout(function() {
+        const blobs = [];
+        for (let oFile of oFiles) {
+          blobs.push(oFile);
+        }
+
+        processBlobs(blobs);
+      }, 200);
     }
 
     // Kodus: https://developer.mozilla.org/en-US/docs/Web/API/HTML_Drag_and_Drop_API/File_drag_and_drop
