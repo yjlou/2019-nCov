@@ -26,14 +26,16 @@
     "HTML_DONWLOAD": "下載",
     "HTML_PUNC_PERIOD": "。",
     "HTML_EXPECT_DOWNLOADS": "點擊「下載」後，你應該會看到一些檔案下載。請前往<a href=\"#\" onclick=\"selectTab('step3')\">第三步</a>。",
-    "HTML_ALLOW_POPUP": "* 如果沒有，請「允許」彈跳視窗後，重新再點選「下載」。",
+    "HTML_ALLOW_POPUP": "如果沒有檔案下載，請「允許」彈跳視窗後，重新再點選「下載」。",
 
     "HTML_STEP_3": "第三步",
     "HTML_STEP_3_0": "開啟剛剛下載的歷史軌跡檔",
     "HTML_STEP_3_2": "選擇剛剛下載的 KML/JSON 檔：",
     "HTML_DRAG_DROP_AREA": "或是把 KML/JSON 檔案拖曳到這裡。",
     "HTML_BUTTON_CHECK": "開始比對",
-    "HTML_REMEMBER_CLICK": "* 記得點選「開始比對」按鈕。",
+    "HTML_SELECT_MULTIPLE": "你可以選擇多個檔案，一次做比較。",
+    "HTML_SORTED_TYPE": "檔案瀏覽器可能會重新排序檔案，記得到處點點找到所有的檔案。",
+    "HTML_REMEMBER_CLICK": "記得點選「開始比對」按鈕。",
     "HTML_CHECKING": "檢查中。檔案如果比較多，會花比較久。",
 
     "HTML_STEP_4": "第四步",

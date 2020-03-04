@@ -26,14 +26,16 @@
     "HTML_DONWLOAD": "다운로드",
     "HTML_PUNC_PERIOD": ".",
     "HTML_EXPECT_DOWNLOADS": "다운로드 버튼을 클릭하면 일부 파일이 다운로드 된 것을 볼 수 있습니다. <a href=\"#\" onclick=\"selectTab('step3')\">3 단계</a>로 진행하십시오.",
-    "HTML_ALLOW_POPUP": "* 그렇지 않은 경우 브라우저에서 '팝업'을 허용 한 다음 '다운로드'버튼을 다시 클릭하십시오.",
+    "HTML_ALLOW_POPUP": "그렇지 않은 경우 브라우저에서 '팝업'을 허용 한 다음 '다운로드'버튼을 다시 클릭하십시오.",
 
     "HTML_STEP_3": "3 단계",
     "HTML_STEP_3_0": "방금 다운로드 한 위치 기록 파일 열기",
     "HTML_STEP_3_2": "KML / JSON 파일을 선택하려면 여기를 클릭하십시오: ",
     "HTML_DRAG_DROP_AREA": "또는 KML / JSON 파일을 여기로 끌어다 놓습니다.",
     "HTML_BUTTON_CHECK": "점검 해보자",
-    "HTML_REMEMBER_CLICK": "* 매칭을 시작하려면 '확인'버튼을 클릭해야합니다.",
+    "HTML_SELECT_MULTIPLE": "확인할 여러 파일을 선택할 수 있습니다.",
+    "HTML_SORTED_TYPE": "파일 탐색기는 유형별로 파일을 정렬 할 수 있습니다. 확인할 파일을 모두 선택하십시오.",
+    "HTML_REMEMBER_CLICK": "매칭을 시작하려면 '확인'버튼을 클릭해야합니다.",
     "HTML_CHECKING": "확인 중. 확인할 파일이 많으면 시간이 걸릴 수 있습니다.",
 
     "HTML_STEP_4": "4 단계",
