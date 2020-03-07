@@ -7,7 +7,7 @@
 #
 
 PREFIX="coronavirus-dataset"
-INPUT="${PREFIX}-input.js"
+INPUT="${PREFIX}-input.csv"
 OUTPUT="${PREFIX}-output.json"
 URL="https://raw.githubusercontent.com/jihoo-kim/Coronavirus-Dataset/master/route.csv"
 
