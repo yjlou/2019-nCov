@@ -19,6 +19,7 @@
 // TOOD: link back to the particular record on the coronamap.site.
 
 const fs = require("fs");
+const utils = require("./utils");
 const yargs = require("yargs");
 
 const STDOUT = process.stdout;
@@ -42,13 +43,6 @@ const argv = yargs
     .help()
     .alias('help', 'h')
     .argv;
-
-// Convert Korean date to UTC timestamp (in msecs).
-//
-function KrDateToTimestampMs(month, day) {
-  let ahead_9_hours = 9 * 60 * 60 * 1000;  // GMT+9
-  return (new Date(2020, month - 1, day)).getTime() - ahead_9_hours;
-}
 
 ///// Start of program //////
 
@@ -129,6 +123,9 @@ for(let record of ndata.position) {
     latlng = [parseFloat(latlng[0]), parseFloat(latlng[1])];
   }
 
+  // Year is not specified in data source, should be 2020.
+  const timestamp = utils.KrDateToTimestampMs(2020, record.month, record.day);
+
   out_obj.push({
     placeVisit: {
       location: {
@@ -137,9 +134,8 @@ for(let record of ndata.position) {
         name : record.name,
       },
       duration: {
-        startTimestampMs: KrDateToTimestampMs(record.month, record.day),
-        endTimestampMs: KrDateToTimestampMs(record.month, record.day) +
-                        24 * 60 * 60 * 1000,  // The whole day.
+        startTimestampMs: timestamp,
+        endTimestampMs: timestamp + 24 * 60 * 60 * 1000,  // The whole day.
       },
     }
   });
