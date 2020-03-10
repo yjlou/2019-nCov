@@ -7,6 +7,7 @@
   exports.shuffleFloat = shuffleFloat;
   exports.convKmlDateToTimestamp = convKmlDateToTimestamp;
   exports.getDistanceFromLatLonInMeters = getDistanceFromLatLonInMeters;
+  exports.myJsonParse = myJsonParse;
 }(typeof exports === 'undefined' ? this.utils = {} : exports));
 
 // String.trim(): remove whitespace in string

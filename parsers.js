@@ -6,6 +6,7 @@ if (this.DOMParser == undefined) {
   var utils = require('./utils.js');
   var convKmlDateToTimestamp = utils.convKmlDateToTimestamp;
   var getDistanceFromLatLonInMeters = utils.getDistanceFromLatLonInMeters;
+  var myJsonParse = utils.myJsonParse;
 }
 
 // JS code used in both broswer and nodejs
