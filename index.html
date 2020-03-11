@@ -457,6 +457,10 @@
         $('.tabs').tabs();
 
         alertMobile();
+
+        if (is_staging()) {
+          $('#HTML_ALERT_STAGING').show();
+        }
       });
 
       document.getElementById('download_btn').onclick = download_btn_onclick;
@@ -464,11 +468,6 @@
       // Do not show log field in prod.
       if (is_production()) {
         document.getElementById('logs_title').style.display = 'none';
-      }
-
-      if (is_staging()) {
-        M.toast({html: i18n("HTML_ALERT_STAGING"), displayLength: 15*1000,  // 15 secs
-        });
       }
     }
   </script>
@@ -504,6 +503,9 @@
   <main>
     <div class="container">
       <form name="uploadForm" onsubmit="return false;">
+        <p id="HTML_ALERT_STAGING" class='blinking' style="display: none; background-color: red;">
+            This is the page for developer to test. If you are not developer, please use <a href='https://yjlou.github.io/2019-nCov/'>production page</a> instead.></p>
+
         <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell
           you
           whether you have contacted the confirmed patient or not.</p>
