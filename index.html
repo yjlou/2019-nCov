@@ -60,6 +60,11 @@
       PARAMS = new URLSearchParams(window.location.search);
     }
 
+    // Return true if the code is running on staging.
+    function is_staging() {
+      return window.location.hostname.match("raw.githack.com") != null;
+    }
+
     // Return true if the code is running at production.
     function is_production() {
       return window.location.hostname.match("github.io") != null;
@@ -459,6 +464,11 @@
       // Do not show log field in prod.
       if (is_production()) {
         document.getElementById('logs_title').style.display = 'none';
+      }
+
+      if (is_staging()) {
+        M.toast({html: i18n("HTML_ALERT_STAGING"), displayLength: 15*1000,  // 15 secs
+        });
       }
     }
   </script>
