@@ -14,6 +14,10 @@ html {
   margin-bottom: 0px;
 }
 
+#HTML_ALERT_STAGING a {
+  color: white;
+}
+
 /* Kudos https://html-online.com/articles/blinking-text-css-animation/ */
 .blinking {
   animation:blinkingText 1.2s infinite;
