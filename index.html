@@ -449,7 +449,6 @@
       parseUrlParams();
       load_i18n(function () {
         update_i18n_UI();
-        loadPatientData();
 
         // Initialize Materialize selects after UI components are updated,
         // since Materialize inserts DOM elements based on the state of the
@@ -462,6 +461,12 @@
         if (is_staging()) {
           $('#HTML_ALERT_STAGING').show();
         }
+
+        // Loading patient data can take forever. Give some time for UI to update.
+        // Delay the loading.
+        setTimeout(function() {
+          loadPatientData();
+        }, 200);
       });
 
       document.getElementById('download_btn').onclick = download_btn_onclick;
