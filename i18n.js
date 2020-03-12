@@ -7,6 +7,7 @@ function load_lang(locale, callback, fallback) {
     .done(function(text){
       var data = myJsonParse(text);
       i18n.translator.add(data);
+      HTML_LANG = locale;  // populate the global variable.
       callback();
     })
     .fail(function() {
@@ -63,4 +64,16 @@ function update_i18n_UI() {
   });
 
   window.document.title = i18n("HTML_APP_NAME");
+
+  // Handle Right-to-Left languages
+  let rtl = ['iw'];
+  if (HTML_LANG && rtl.includes(HTML_LANG)) {
+    // RTL
+    $("html").children().css("direction","rtl");
+    $('#nav-mobile').addClass('left');
+  } else {
+    // LTR
+    $("html").children().css("direction","ltr");
+    $('#nav-mobile').addClass('right');
+  }
 }

@@ -52,7 +52,8 @@
   <script>
     // Global variables
     var PARAMS;  // URL parameters. Type: URLSearchParams
-    var PATIENTS = Array();  // TODO: deprecate PATIENTS
+    var HTML_LANG;  // Language code. Will be set in load_lang().
+    var PATIENTS = Array();
     var HASHES = Array();
     var TOTAL_FOUND;  // Number of found overlapped points.
 
@@ -481,7 +482,7 @@
           <div class="row">
             <div class="col s12">
               <a href="#" id="HTML_APP_NAME" class="brand-logo" style="font-size: 100%;">COVID-19</a>
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
+              <ul id="nav-mobile" class="hide-on-med-and-down">
                 <li>
                   <form onsubmit="return false;">
                     <select id="select_lang" onchange="language_changed();">
