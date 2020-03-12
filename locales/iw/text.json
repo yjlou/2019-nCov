@@ -1,0 +1,62 @@
+{
+  "values": {
+    "HTML_SELECT_LANGUAGE": "בחר שפה",
+    "HTML_ALERT_MOBILE": "לחווית משתמש אופטימלית, אנו ממליצים על מחשב נייח או נייד",
+    "HTML_ALERT_STAGING": "זהו דף לבדיקות פיתוח. אם אינך מפתח תוכנה, אנא השתמש ב <a href='https://yjlou.github.io/2019-nCov/'>אתר החיצוני </a> במקום.",
+    "HTML_APP_NAME": "כלי להשוואת היסטורית מיקום עם חולי וירוס הקורונה",
+    "HTML_APP_DESCRIPTION": "על ידי השוואה עם הסטורית המיקום של הטלפון הנייד שלך, תוכנה זו תאתר האם קיים חשד שנמצאת במגע עם חולה קורונה מאומת",
+    "HTML_PROCESS_IN_LOCAL": "למען שמירה על פרטיותך, המידע שלך מעובד מקומית על המחשב שלך ולא מועלה לשום שרת.",
+    "HTML_LOADED_DATA": "מידע להשוואה:",
+    "HTML_WARNING": "זהירות: תוצאות ההשוואה הן רק לידיעתך. בכל מקרה יש להתיחס למידע המפורסם על ידי משרד הבריאות",
+
+    "HTML_STEP_1": "צעד מס׳ 1",
+    "HTML_STEP_1_0": "ודאו כי ׳היסטורית מיקום׳ מופעלת",
+    "HTML_STEP_1_1": "גלשו ל <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a>.  אם מופיעות נקודות אדומות על המפה (כמו בתמונה למטה), סימן שהיסטורית המיקום מופעלת.  Please move to <a href=\"#\" onclick=\"selectTab('step2')\">צעד מס׳ 2</a>.",
+    "IMG_LOCATION_HISTORY_ENABLED": "locales/en-US/LocationHistoryEnabled.jpg",
+    "HTML_ENABLE_HISTORY_LOCATION": "באם לא מופיעות נקודות אדומות על המפה, כנראה שצריך להפעיל את היסטורית המיקומים. לחצו על סמליל גלגל-השיניים בקצה השמאלי-תחתון של המסך וביחרו להפעיל את ׳היסטורית המיקומים׳. הדבר יוביל למסך הסכמה. אשרו להפעיל את היסטורית המיקומים",
+    "IMG_ENABLE_HISTORY_LOCATION": "locales/en-US/EnableLocationHistory.png",
+    "HTML_COME_BACK_AND_CHECK": "Since you just started collecting your location data, there is no data to match. Please come back another day to match again.",
+    "HTML_COME_BACK_AND_CHECK": "מכיון שזה עתה הפעלת את היסטורית המיקומים, אין מידע להצלבה עדיין. חיזרו ביום אחר כדי להצליב את המיקומים החדשים",
+
+    "HTML_STEP_2": "צעד מס׳ 2",
+    "HTML_STEP_2_0": "ביחרו תקופה להורדה:",
+    "HTML_LAST_31_DAYS": "31 ימים אחרונים",
+    "HTML_LAST_14_DAYS": "14 ימים אחרונים",
+    "HTML_LAST_7_DAYS": "7 ימים אחרונים",
+    "HTML_LAST_3_DAYS": "3 ימים אחרונים",
+    "HTML_ONLY_TODAY": "היום",
+    "HTML_DONWLOAD": "הורדה",
+    "HTML_PUNC_PERIOD": ".",
+    "HTML_EXPECT_DOWNLOADS": "לאחר שלחצתם על כפתור ההורדה, תוכלו לראות הורדה של מספר קבצים עיברו ל <a href=\"#\" onclick=\"selectTab('step3')\">צעד מס׳ 3</a>.",
+    "HTML_ALLOW_POPUP": "אם לא, אפשרו בבקשה בדפדפן חונות קופצים (popup windows) וליחצו ׳הורדה׳ שוב.",
+
+    "HTML_STEP_3": "צעד מס׳ 3",
+    "HTML_STEP_3_0": "פיתחו את קובץ (או קובצי) המיקומים שזה עתה הורדתם.",
+    "HTML_STEP_3_2": "ליחצו כאן כדי לבחור קבצי KML/JSON: ",
+    "HTML_DRAG_DROP_AREA": "או גררו קבצי KML / JSON לכאן.",
+    "HTML_BUTTON_CHECK": "הבה נבדוק",
+    "HTML_SELECT_MULTIPLE": "באפשרותכם לבחור מספר קבצים לבדיקה.",
+    "HTML_SORTED_TYPE": "סייר הקבצים יכול למיין קבצים לפי סוג. אז חפשו היטב ובחרו את כל הקבצים לבדיקה.",
+    "HTML_REMEMBER_CLICK": "זיכרו ללחוץ על ׳הבה נבדוק׳ כדי להתחיל בהצלבה.",
+    "HTML_CHECKING": "מצליב נתונים. הפעולה יכולה לארוך מעט זמן אם נבחרו הרבה קבצים..",
+
+    "HTML_STEP_4": "צעד מס׳ 4",
+    "HTML_STEP_4_0": "ראו תוצאות למטה",
+    "HTML_EXPLAIN_FOUND_RESULTS": "התוצאה לעיל מראה ששהית בטווח 100 מנקודה שבה שהה נשא קורונה באותו תחום זמן. נא לוודא את המסלול בעזרת ההודעה הרשמית מהרשויות ",
+    "HTML_EXPLAIN_NOT_FOUND": "התוצאה מראה שכנראה לא שהית בזמן ומקום משותף עם נשא ידוע. למרות זאת, מומלץ לעקוב אחרי ההודעות הרשמיות מטעם הרשויות ולחזור על הבדיקה מידי יום.",
+
+    "HTML_FACEBOOK": "עיקבו אחרינו בפייסבוק",
+    "HTML_SOURCE_CODE": "לינק לקוד מקור",
+    "HTML_CONTACT_US": "צרו קשר ( covid-19@googlegroups.com )",
+    "HTML_README": "פרטים",
+
+    "LOADING_TRACKING": "טוען מסלולים\n",
+    "DONE_LOADING": "טעינה הסתיימה. עכשיו אפשר להשתמש במידע\n",
+    "ANALYZING": "מנתח נתונים %{filename} ...",
+    "DONE_ANALYZE": "מנתח את %{filename}. נמצאו %{contacts_length} כפולים.",
+    "UNSUPPORTED_FILE_TYPE": "קובץ עם סיומת שאינה נתמכת: %{filename}",
+    "FINISH_RESULTS": "הצלבה הסתיימה. נמצאו  Found %{total_found} מקומות מצטלבים.\n\n",
+
+    "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
+  }
+}
