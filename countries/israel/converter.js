@@ -1,4 +1,4 @@
-// Convert data from https://github.com/jihoo-kim/Coronavirus-Dataset/
+// Data from https://services5.arcgis.com/dlrDjz89gx9qyfev/arcgis/rest/services/Corona_Exposure_View/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&outFields=*&maxRecordCountFactor=4&outSR=4326&resultOffset=0&resultRecordCount=8000&cacheHint=true
 //
 
 // TODO(stimim): rename utils files...
