@@ -62,6 +62,19 @@ for(let record of json_obj['features']) {
   const start = attributes.fromTime - time_utils.TIME_OFFSET;
   const end = attributes.toTime - time_utils.TIME_OFFSET;
 
+  if (!start) {
+    console.warn(`Undefined start time for ${attributes.Name} : ${attributes.Comments}. Ignored.`);
+    continue;
+  }
+  if (!end) {
+    console.warn(`Undefined end time for ${attributes.Name} : ${attributes.Comments}. Ignored.`);
+    continue;
+  }
+  if (start > end) {
+    console.warn(`Start time is larger than the end time for ${attributes.Name} : ${attributes.Comments}. Ignored.`);
+    continue;
+  }
+
   out_obj.push({
     placeVisit: {
       location: {
