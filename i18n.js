@@ -66,7 +66,7 @@ function update_i18n_UI() {
   window.document.title = i18n("HTML_APP_NAME");
 
   // Handle Right-to-Left languages
-  let rtl = ['iw'];
+  let rtl = ['he', 'iw'];
   if (HTML_LANG && rtl.includes(HTML_LANG)) {
     // RTL
     $("html").children().css("direction","rtl");
