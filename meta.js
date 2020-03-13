@@ -57,10 +57,12 @@ var DEFAULT_PATIENTS_DATA = [
 function Meta(out_file_path) {
   let out_file_path_ = out_file_path;
   let bounding_box_ = BoundingBox();
+  let num_of_points_ = 0;
 
   return {
     insert_bounding_box: function(lat, lng) {
       bounding_box_.insert(lat, lng);
+      num_of_points_ += 1;
     },
 
     output: function() {
@@ -72,6 +74,7 @@ function Meta(out_file_path) {
 
       let meta_text = JSON.stringify({
         bounding_box: bounding_box_.get(),
+        num_of_points: num_of_points_,
         // TODO: last_updated:
       }, null, 2);
       fs.writeFile(out_file_path_, meta_text, function (err) {
