@@ -63,6 +63,12 @@ function update_i18n_UI() {
     $(this).attr("src", i18n($(this)[0].id));
   });
 
+  $("template").each(function(idx) {
+    $(this.content).find('[id^=HTML_]').each(function(_) {
+      $(this).html(i18n($(this)[0].id));
+    })
+  });
+
   window.document.title = i18n("HTML_APP_NAME");
 
   // Handle Right-to-Left languages

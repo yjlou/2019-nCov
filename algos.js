@@ -83,7 +83,7 @@ function checkContact(user_points, patients) {
         var risk = getRisk(user_point, patient_point);
         if (risk >= 0.8) {
           ret.push({
-            'patient_desc': patient.desc + ":" + patient_point.name,
+            'patient_desc': patient.desc + ": " + patient_point.name,
             'user_desc': user_point.name,
             'lat': user_point.lat,
             'lng': user_point.lng,

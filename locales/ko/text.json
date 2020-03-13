@@ -9,6 +9,11 @@
     "HTML_LOADED_DATA": "로드 된 데이터 목록",
     "HTML_WARNING": "주의! 일치하는 모든 결과는 단지 참고입니다. 정보가 정확하지 않으면 당국이 발표 한 정보를 참조하십시오.",
 
+    "HTML_LABEL_WHEN": "언제",
+    "HTML_LABEL_YOU": "당신",
+    "HTML_LABEL_PATIENT": "환자",
+    "HTML_VIEW_IN_GOOGLE_MAPS": "Google지도보기",
+
     "HTML_STEP_1": "1 단계",
     "HTML_STEP_1_0": "기록 위치 기능이 활성화되어 있는지 확인",
     "HTML_STEP_1_1": "<a href='https://google.com/maps/timeline' target='_blank'>Google지도 타임 라인</a>으로 이동하십시오. 아래 스크린 샷과 같이지도에 빨간색 점이 표시되면 기록 위치 기능이 활성화 된 것입니다. <a href=\"#\" onclick=\"selectTab('step2')\">2 단계</a>로 이동하십시오.",

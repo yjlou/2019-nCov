@@ -205,17 +205,29 @@
         twoDigits(date.getHours()) + ":" + twoDigits(date.getMinutes());
     }
 
+    function createContactInfo(contact) {
+      const template = document.getElementById('matched-info-template');
+      const root = template.content.querySelector('#root');
+
+      const node = document.importNode(root, true);
+      node.querySelector('#user-info').innerText = contact.user_desc;
+      node.querySelector('#case-info').innerText = contact.patient_desc;
+      node.querySelector('#time-info').innerText = (myLocaleTime(contact.begin) +
+          " ~ " + myLocaleTime(contact.end));
+      const link = 'http://maps.google.com/?q=' + contact.lat + "," + contact.lng;
+      node.querySelector('#HTML_VIEW_IN_GOOGLE_MAPS').href = link;
+
+      const container = document.getElementById('fancy-results');
+      container.appendChild(node);
+    }
+
     function showContacts(contacts) {
       // TODO: de-duplicate contacts
 
       console.log(contacts);
       var html = "";
       for (let contact of contacts) {
-        // TODO: show in-page static map to avoid opening a new window.
-        html += "<li>" + myLocaleTime(contact.begin) + " ~ " +
-          myLocaleTime(contact.end) + ": " +
-          " <a target=_blank href='http://maps.google.com/?q=" + contact.lat + "," + contact.lng + "'>" + contact.user_desc + "</a>" +
-          " lat:" + contact.lat + " lng:" + contact.lng;
+        createContactInfo(contact);
       }
       return html || null;
     }
@@ -272,6 +284,7 @@
       $("#results").html("");  // reset result
       $("#HTML_EXPLAIN_NOT_FOUND").hide();
       $("#HTML_EXPLAIN_FOUND_RESULTS").hide();
+      $("#fancy-results").html("");
     }
 
     // Prepend a string in the beginning of the resutls.
@@ -294,7 +307,7 @@
     }
 
     function finishResults() {
-      prependResults(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }));
+      appendResults(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }));
       $("#results").scrollTop(0);
 
       if (TOTAL_FOUND == 0) {
@@ -464,6 +477,24 @@
 </head>
 
 <body onload="onLoad();">
+  <!-- Template won't be shown -->
+  <template id="matched-info-template">
+    <!-- A card to show matched info -->
+    <div id="root" class="card-panel">
+      <div>
+        <label id="HTML_LABEL_WHEN">When</label> <span id='time-info'></span>
+      </div>
+      <div>
+        <label id="HTML_LABEL_YOU">You</label> <span id="user-info"></span>
+      </div>
+      <div>
+        <label id="HTML_LABEL_PATIENT">Patient</label> <span id="case-info"></span>
+      </div>
+      <div>
+      <a id="HTML_VIEW_IN_GOOGLE_MAPS" class="btn" target="_blank">View in Google Maps</a>
+    </div>
+  </template>
+
   <header>
     <div class="container">
       <nav>
@@ -576,6 +607,7 @@
             <h5 id="HTML_STEP_4_0">
               Step 4: See results below.
             </h5>
+            <div id="fancy-results"></div>
             <pre id="results"></pre>
             <h5 id="HTML_EXPLAIN_FOUND_RESULTS" style="display: none;">Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.</h5>
             <h5 id="HTML_EXPLAIN_NOT_FOUND" style="display: none;">The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.</h5>

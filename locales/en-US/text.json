@@ -9,6 +9,11 @@
     "HTML_LOADED_DATA": "Available Data to Compare:",
     "HTML_WARNING": "CAUTION! All the matched results are just FYI. If any information is incorrect, please refer to the information announced by the authority.",
 
+    "HTML_LABEL_WHEN": "When",
+    "HTML_LABEL_YOU": "You",
+    "HTML_LABEL_PATIENT": "Patient",
+    "HTML_VIEW_IN_GOOGLE_MAPS": "View in Google Maps",
+
     "HTML_STEP_1": "Step 1",
     "HTML_STEP_1_0": "Ensure Your History Location Feature Had Been Enabled",
     "HTML_STEP_1_1": "Go to <a href='https://google.com/maps/timeline' target='_blank'>Google Maps Timeline</a>. If you see red dots on the map (as below screenshot), you have enabled the History Location feature. Please move to <a href=\"#\" onclick=\"selectTab('step2')\">step 2</a>.",
