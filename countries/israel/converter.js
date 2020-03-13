@@ -83,6 +83,10 @@ for(let record of json_obj['features']) {
     continue;
   }
 
+  if (!attributes.Name) {
+    console.warn(`Missing Name ${JSON.stringify(record)}`);
+  }
+
   meta_file.insert_bounding_box(lat, lng);
 
   out_obj.push({
@@ -90,7 +94,7 @@ for(let record of json_obj['features']) {
       location: {
         latitudeE7: lat,
         longitudeE7: lng,
-        name : `ID=${attributes.OBJECTID} ${attributes.Name} ${attributes.Comments}`,
+        name: `${attributes.Name} ${attributes.Comments}`,
       },
       duration: {
         startTimestampMs: start,
