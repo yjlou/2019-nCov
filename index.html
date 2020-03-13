@@ -169,7 +169,11 @@
 
         for (let file of load_files) {
           let points = parseFile(file.path, fetchHttpFile(file.path));
-          file.num_points = points.length;
+
+          // parse meta file
+          let meta_file = myJsonParse(fetchHttpFile(file.meta));
+          file.num_points = meta_file.num_of_points;
+
           log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
           PATIENTS.push({
             'desc': file.desc,
