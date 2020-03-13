@@ -4,6 +4,7 @@
 // TODO(stimim): rename utils files...
 const common_utils = require("../../utils.js");
 const fs = require("fs");
+const meta = require("../../meta.js");
 const time_utils = require("./utils");
 const yargs = require("yargs");
 
@@ -14,6 +15,11 @@ const argv = yargs
     .option('input', {
         alias: 'i',
         description: 'Specify the input filename',
+        type: 'string',
+    })
+    .option('meta', {
+        alias: 'm',
+        description: 'Specify the meta filename',
         type: 'string',
     })
     .option('output', {
@@ -35,6 +41,8 @@ const input_filename = (argv.input === undefined) ? '/dev/stdin' : argv.input;
 const input_text = fs.readFileSync(input_filename, 'utf-8');
 const json_obj = common_utils.myJsonParse(input_text);
 
+let meta_file = meta.Meta(argv.meta);
+
 let out_obj = [];
 for(let record of json_obj['features']) {
   // record = {
@@ -55,8 +63,8 @@ for(let record of json_obj['features']) {
   const attributes = record.attributes;
   const geometry = record.geometry;
 
-  const lat = parseFloat(geometry.y);
-  const lng = parseFloat(geometry.x);
+  const lat = Math.round(parseFloat(geometry.y) * 1e7);
+  const lng = Math.round(parseFloat(geometry.x) * 1e7);
 
   // TODO(stimim): Should we add some margin before and after the record day?
   const start = attributes.fromTime - time_utils.TIME_OFFSET;
@@ -75,11 +83,13 @@ for(let record of json_obj['features']) {
     continue;
   }
 
+  meta_file.insert_bounding_box(lat, lng);
+
   out_obj.push({
     placeVisit: {
       location: {
-        latitudeE7: lat * 10000000,
-        longitudeE7: lng * 10000000,
+        latitudeE7: lat,
+        longitudeE7: lng,
         name : `ID=${attributes.OBJECTID} ${attributes.Name} ${attributes.Comments}`,
       },
       duration: {
@@ -103,6 +113,8 @@ if (argv.output != undefined) {
 } else {
   STDOUT.write(out_text);
 }
+
+meta_file.output();
 
 // Show some numbers.
 STDERR.write("OUTPUT: " + out_obj.length + " records, " +
