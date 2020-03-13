@@ -4,8 +4,10 @@
 
 const fs = require("fs");
 const yargs = require("yargs");
-const xml_parser = require('fast-xml-parser');
+
 const kml_parser = require('../parsers.js');
+const meta = require('../meta.js');
+const xml_parser = require('fast-xml-parser');
 
 const STDOUT = process.stdout;
 const STDERR = process.stderr;
@@ -14,6 +16,11 @@ const argv = yargs
     .option('input', {
       alias: 'i',
       description: 'Specify the input filename',
+      type: 'string',
+    })
+    .option('meta', {
+      alias: 'm',
+      description: 'Specify the metadata filename',
       type: 'string',
     })
     .option('output', {
@@ -56,13 +63,19 @@ function main() {
       console.log(p);
     }
   } else {
+    let meta_file = meta.Meta(argv.meta);
+
     let out_obj = [];
     for (let p of ps) {
+      let lat = Math.round(p.lat * 1e7);
+      let lng = Math.round(p.lng * 1e7);
+      meta_file.insert_bounding_box(lat, lng);
+
       out_obj.push({
         placeVisit: {
           location: {
-            latitudeE7: p.lat * 1e7,
-            longitudeE7: p.lng * 1e7,
+            latitudeE7: lat,
+            longitudeE7: lng,
             name: p.name + " " + p.description.split("#!metadata")[0],
           },
           duration: {
@@ -73,6 +86,7 @@ function main() {
       });
     }
 
+    // Output data points
     let space = argv.pretty ? 2 : 0;
     let out_text = JSON.stringify({
       timelineObjects: out_obj,
@@ -80,6 +94,9 @@ function main() {
     fs.writeFile(argv.output, out_text, function (err) {
       if (err) throw err;
     });
+
+    // Output meta data
+    meta_file.output();
   }
 }
 
