@@ -51,6 +51,9 @@ function test() {
   // parsers.js
   testIntrapolateCoords();
 
+  // meta.js
+  testBoundingBox();
+
   if (FAILED) {
     console.error("[FAIL]");
   } else {
