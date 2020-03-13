@@ -7,6 +7,7 @@
 #
 
 INPUT="coronamap.site-input.js"
+META="coronamap.site-meta.json"
 OUTPUT="coronamap.site-output.json"
 
 # Download the data file and manipulate a little bit.
@@ -15,4 +16,5 @@ echo "module.exports.position = position;" >> "${INPUT}"
 
 nodejs coronamap.site-converter.js \
     -i "${INPUT}" \
+    -m "${META}" \
     -o "${OUTPUT}"

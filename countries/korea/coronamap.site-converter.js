@@ -19,8 +19,10 @@
 // TOOD: link back to the particular record on the coronamap.site.
 
 const fs = require("fs");
-const utils = require("./utils");
 const yargs = require("yargs");
+
+const meta = require("../../meta.js");
+const utils = require("./utils");
 
 const STDOUT = process.stdout;
 const STDERR = process.stderr;
@@ -29,6 +31,11 @@ const argv = yargs
     .option('input', {
         alias: 'i',
         description: 'Specify the input filename',
+        type: 'string',
+    })
+    .option('meta', {
+        alias: 'm',
+        description: 'Specify the meta filename',
         type: 'string',
     })
     .option('output', {
@@ -55,6 +62,8 @@ naver.maps.LatLng = function(lat, lng) {
 
 const ndata = require('./' + argv.input);
 // Now data are loaded into 'ndata.position' !!!
+
+let meta_file = meta.Meta(argv.meta);
 
 // An input record is like:
 //   [
@@ -126,11 +135,15 @@ for(let record of ndata.position) {
   // Year is not specified in data source, should be 2020.
   const timestamp = utils.KrDateToTimestampMs(2020, record.month, record.day);
 
+  let lat = Math.round(latlng[0] * 1e7);
+  let lng = Math.round(latlng[1] * 1e7);
+  meta_file.insert_bounding_box(lat, lng);
+
   out_obj.push({
     placeVisit: {
       location: {
-        latitudeE7: latlng[0] * 10000000,
-        longitudeE7: latlng[1] * 10000000,
+        latitudeE7: lat,
+        longitudeE7: lng,
         name : record.name,
       },
       duration: {
@@ -154,6 +167,8 @@ if (argv.output != undefined) {
 } else {
   STDOUT.write(out_text);
 }
+
+meta_file.output();
 
 // Show some numbers.
 STDERR.write("OUTPUT: " + out_obj.length + " records, " +
