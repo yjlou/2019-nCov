@@ -175,19 +175,23 @@
           file.num_points = meta_file.num_of_points;
 
           log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
-          PATIENTS.push({
-            'desc': file.desc,
-            'points': points,
-            'bounding_box': meta_file.bounding_box,
-          });
+          patient = {
+            desc: file.desc,
+            points: points,
+            bounding_box: meta_file.bounding_box,
+            src: file.src,
+            num_points: file.num_points,
+            timestamp: meta_file.timestamp,
+          };
+          PATIENTS.push(patient);
         }
       }
 
-      for (let file of load_files) {
+      for (let patient of PATIENTS) {
         let add_html = "<LI>";
-        if (file.src) { add_html += `<a target='_blank' href='${file.src}'>`; }
-        add_html += file.desc + " (" + file.num_points + ")";
-        if (file.src) { add_html += "</a>"; }
+        if (patient.src) { add_html += `<a target='_blank' href='${patient.src}'>`; }
+        add_html += `${patient.desc} (${patient.num_points}) (${new Date(patient.timestamp).toLocaleString()})`;
+        if (patient.src) { add_html += "</a>"; }
         add_html += "\n";
         load_files_elem.html(load_files_elem.html() + add_html);
       }
