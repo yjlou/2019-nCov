@@ -73,6 +73,7 @@ function Meta(out_file_path) {
       }
 
       let meta_text = JSON.stringify({
+        timestamp: (new Date()).getTime(),
         bounding_box: bounding_box_.get(),
         num_of_points: num_of_points_,
         // TODO: last_updated:
