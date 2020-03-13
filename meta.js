@@ -2,9 +2,14 @@
 //
 "use strict";
 
+if (this.DOMParser == undefined) {
+  // in node.js
+  var fs = require("fs");
+}
+
 // JS code used in both broswer and nodejs
 (function(exports){
-  exports.boundingBox = boundingBox;
+  exports.Meta = Meta;
 }(typeof exports === 'undefined' ? this.meta = {} : exports));
 
 // Global variable
@@ -53,10 +58,41 @@ var DEFAULT_PATIENTS_DATA = [
   },
 ];
 
+// Class Meta
+//
+//  Used in nodejs to output meta file.
+//
+function Meta(out_file_path) {
+  let out_file_path_ = out_file_path;
+  let bounding_box_ = BoundingBox();
+
+  return {
+    insert_bounding_box: function(lat, lng) {
+      bounding_box_.insert(lat, lng);
+    },
+
+    output: function() {
+      if (out_file_path_ === undefined) {
+        console.error("Please specify meta file path");
+        console.error(new Error().stack);
+        return;
+      }
+
+      let meta_text = JSON.stringify({
+        bounding_box: bounding_box_.get(),
+        // TODO: last_updated:
+      }, null, 2);
+      fs.writeFile(out_file_path_, meta_text, function (err) {
+        if (err) throw err;
+      });
+    },
+  };
+}
+
 // Class BoundingBox
 //
 //  Given lat/lng pairs, this class populates a bounding box that contains all points.
-var boundingBox = function() {
+function BoundingBox() {
   let top = undefined;     // lat
   let left = undefined;    // lng
   let right = undefined;   // lng
@@ -82,7 +118,7 @@ var boundingBox = function() {
 };
 
 function testBoundingBox() {
-  let bb = boundingBox();
+  let bb = BoundingBox();
   bb.insert(1, 2);
   bb.insert(-3, -4);
   EXPECT_EQ({
