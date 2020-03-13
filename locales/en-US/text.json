@@ -52,7 +52,7 @@
     "LOADING_TRACKING": "Loading tracking data ...\n",
     "DONE_LOADING": "Done loading. You can start using now.\n",
     "ANALYZING": "Analyzing %{filename} ...",
-    "DONE_ANALYZE": "Analyzed %{filename}. Found %{contacts_length} duplicate(s).",
+    "DONE_ANALYZE": "Analyzed %{filename}. Found %{contacts_length} match(es) in %{num_points} records.",
     "UNSUPPORTED_FILE_TYPE": "Unsupported file extension: %{filename}",
     "FINISH_RESULTS": "Done comparison. Found %{total_found} overlapped place(s).\n\n",
 

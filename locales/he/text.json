@@ -53,7 +53,7 @@
     "LOADING_TRACKING": "טוען מסלולים\n",
     "DONE_LOADING": "טעינה הסתיימה. עכשיו אפשר להשתמש במידע\n",
     "ANALYZING": "מנתח נתונים %{filename} ...",
-    "DONE_ANALYZE": "מנתח את %{filename}. נמצאו %{contacts_length} כפולים.",
+    "DONE_ANALYZE": "מנתח את %{filename}. נמצאו %{contacts_length} כפולים ב- %{num_points} רשומות.",
     "UNSUPPORTED_FILE_TYPE": "קובץ עם סיומת שאינה נתמכת: %{filename}",
     "FINISH_RESULTS": "הצלבה הסתיימה. נמצאו  Found %{total_found} מקומות מצטלבים.\n\n",
 

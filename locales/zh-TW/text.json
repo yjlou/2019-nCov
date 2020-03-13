@@ -52,7 +52,7 @@
     "LOADING_TRACKING": "讀取別人的軌跡中 ...\n",
     "DONE_LOADING": "讀取完畢。請開始使用。\n",
     "ANALYZING": "分析 %{filename} ...",
-    "DONE_ANALYZE": "完成分析 %{filename} ... 發現 %{contacts_length} 個重疊的地方",
+    "DONE_ANALYZE": "完成分析 %{filename} ... 在 %{num_points} 筆資料中，發現 %{contacts_length} 個重疊的地方",
     "UNSUPPORTED_FILE_TYPE": "不支援的副檔名 %{filename}",
     "FINISH_RESULTS": "比對結果，有 %{total_found} 個重疊的地方。\n\n", 
 

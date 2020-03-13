@@ -52,7 +52,7 @@
     "LOADING_TRACKING": "Loading tracking data ...\n",
     "DONE_LOADING": "Done loading. You can start using now.\n",
     "ANALYZING": "Analyzing %{filename} ...",
-    "DONE_ANALYZE": "Analyzed %{filename}. Found %{contacts_length} duplicate(s).",
+    "DONE_ANALYZE": "%{filename} 분석.  %{num_points} 개의 레코드에서 %{contacts_length} 개의 일치 항목을 찾았습니다.",
     "UNSUPPORTED_FILE_TYPE": "지원되지 않는 파일 확장자 : %{filename}",
     "FINISH_RESULTS": "비교를 완료했습니다. 중복 된 장소가 %{total_found} 개 있습니다.\n\n",
 
