@@ -77,6 +77,14 @@ function update_i18n_UI() {
     // RTL
     $("html").children().css("direction","rtl");
     $('#nav-mobile').addClass('left');
+
+    // Reverse the order of tabs.
+    const tabs = $(".tabs")[0];
+    const children = [...tabs.children].reverse();
+    tabs.innerText = "";
+    for (let c of children) {
+      tabs.appendChild(c);
+    }
   } else {
     // LTR
     $("html").children().css("direction","ltr");
