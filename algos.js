@@ -46,10 +46,39 @@ function getRisk(p0, p1) {
 //  }
 //
 function checkContact(user_points, patients) {
-  var ret = Array();
+
+  // Build a bounding box from user's points. Note that in the meta file, the bounding box
+  // is in 1e7 format.
+  //
+  function buildBoundingBox(user_points) {
+    let bounding_box = BoundingBox();
+    user_points.forEach(user_point => bounding_box.insert(user_point.lat * 1e7,
+                                                          user_point.lng * 1e7));
+    return bounding_box;
+  }
+
+  // Returns true if 2 given bounding boxes are overlapped.
+  //
+  function isOverlapped(bb0, bb1) {
+    // Handle the corner case that the bounding box (assuming user's) is just a point.
+    if (bb0.top == bb0.bottom) { bb0.top += 1; }
+    if (bb0.left == bb0.right) { bb0.right += 1; }
+
+    return Math.max(0, Math.min(bb0.top, bb1.top) - Math.max(bb0.bottom, bb1.bottom)) &&
+           Math.max(0, Math.min(bb0.right, bb1.right) - Math.max(bb0.left, bb1.left));
+  }
+
+  let ret = Array();
+
+  let bounding_box = buildBoundingBox(user_points);
 
   for (let user_point of user_points) {
     for(let patient of patients) {
+      if (!isOverlapped(bounding_box.get(), patient.bounding_box)) {
+        console.log(`Out of bounding box of ${patient.desc}. Skipped.`);
+        continue;
+      }
+
       for(let patient_point of patient.points) {
         var risk = getRisk(user_point, patient_point);
         if (risk >= 0.8) {
@@ -70,7 +99,7 @@ function checkContact(user_points, patients) {
 }
 
 function checkHashes(user_points, knwon_hashes) {
-  var ret = Array();
+  let ret = Array();
   if (Object.keys(knwon_hashes).length == 0) { return ret; }
 
   var dedup = {};
