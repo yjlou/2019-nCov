@@ -457,6 +457,9 @@
         M.FormSelect.init(document.querySelectorAll('select'), {});
         $('.tabs').tabs();
 
+        // Must be run after Materialize init.
+        apply_RTL_UI();
+
         alertMobile();
 
         if (is_staging()) {

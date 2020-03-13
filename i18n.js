@@ -70,13 +70,20 @@ function update_i18n_UI() {
   });
 
   window.document.title = i18n("HTML_APP_NAME");
+}
 
+// Handle RTL UI.
+//
+// This must be run after the Materialize init
+//
+function apply_RTL_UI() {
   // Handle Right-to-Left languages
   let rtl = ['he', 'iw'];
   if (HTML_LANG && rtl.includes(HTML_LANG)) {
     // RTL
     $("html").children().css("direction","rtl");
     $('#nav-mobile').addClass('left');
+    $(".select-dropdown").css("text-align", "left");
 
     // Reverse the order of tabs.
     const tabs = $(".tabs")[0];
