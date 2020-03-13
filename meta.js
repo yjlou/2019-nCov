@@ -41,14 +41,6 @@ var DEFAULT_PATIENTS_DATA = [
     src: 'https://coronamap.site',
   },
 
-  // corona
-  {
-    desc: 'Korea data [Coronavirus Dataset]',
-    meta: 'countries/korea/coronavirus-dataset-meta.json',
-    path: 'countries/korea/coronavirus-dataset-output.json',
-    src: 'https://github.com/jihoo-kim/Coronavirus-Dataset/',
-  },
-
   // Israel government GIS
   {
     desc: 'Israel cases',
