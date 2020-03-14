@@ -187,10 +187,20 @@
         }
       }
 
+      function toLocaleDate(date) {
+        let ret;
+        try {
+          ret = date.toLocaleDateString(HTML_LANG, {month: 'short', day: 'numeric'});
+        } catch(err) {
+          ret = date.toLocaleDateString();  // Use default format when failed
+        }
+        return ret;
+      }
+
       for (let patient of PATIENTS) {
         let add_html = "<LI>";
         if (patient.src) { add_html += `<a target='_blank' href='${patient.src}'>`; }
-        add_html += `${patient.desc} (${patient.num_points}) (${new Date(patient.timestamp).toLocaleDateString()})`;
+        add_html += `${patient.desc} (${patient.num_points}) (${toLocaleDate(new Date(patient.timestamp))})`;
         if (patient.src) { add_html += "</a>"; }
         add_html += "\n";
         load_files_elem.html(load_files_elem.html() + add_html);
