@@ -81,9 +81,10 @@ function apply_RTL_UI() {
   let rtl = ['he', 'iw'];
   if (HTML_LANG && rtl.includes(HTML_LANG)) {
     // RTL
-    $("html").children().css("direction","rtl");
+    $('html').children().css('direction', 'rtl');
     $('#nav-mobile').addClass('left');
-    $(".select-dropdown").css("text-align", "left");
+    $('.btn_next_step').addClass('left');
+    $('.select-dropdown').css('text-align', 'left');
 
     // Reverse the order of tabs.
     const tabs = $(".tabs")[0];
@@ -94,7 +95,8 @@ function apply_RTL_UI() {
     }
   } else {
     // LTR
-    $("html").children().css("direction","ltr");
+    $('html').children().css('direction', 'ltr');
     $('#nav-mobile').addClass('right');
+    $('.btn_next_step').addClass('right');
   }
 }
