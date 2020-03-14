@@ -215,8 +215,16 @@
 
     function myLocaleTime(timestamp) {
       var date = new Date(timestamp * 1000);
-      return date.getFullYear() + "/" + twoDigits(date.getMonth() + 1) + "/" + twoDigits(date.getDate()) + " " +
-        twoDigits(date.getHours()) + ":" + twoDigits(date.getMinutes());
+      let ret;
+
+      try {
+        ret = date.toLocaleDateString(HTML_LANG, {month: 'short', day: 'numeric'}) + " " +
+              date.toLocaleTimeString(HTML_LANG, {hour12: true, hour: '2-digit', minute: '2-digit'});;
+      } catch(err) {
+        // Use default format when failed
+        ret = date.toLocaleDateString() + " " + date.toLocaleTimeString();;
+      }
+      return ret;
     }
 
     function createContactInfo(contact) {
