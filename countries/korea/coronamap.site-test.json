@@ -1,0 +1,43 @@
+{
+  "timelineObjects": [
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 375894920,
+          "longitudeE7": 1270609603,
+          "name": "EXPECT MATCH] 동대문"
+        },
+        "duration": {
+          "startTimestampMs": 1581462000000,
+          "endTimestampMs": 1581548400000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 435111650,
+          "longitudeE7": 1064909140,
+          "name": ".SITE wrong location"
+        },
+        "duration": {
+          "startTimestampMs": 1581980400000,
+          "endTimestampMs": 1582066800000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 358170490,
+          "longitudeE7": 1287596880,
+          "name": ".SITE wrong time"
+        },
+        "duration": {
+          "startTimestampMs": 157956120000,
+          "endTimestampMs": 157964760000
+        }
+      }
+    }
+  ]
+}

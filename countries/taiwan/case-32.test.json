@@ -1,0 +1,56 @@
+{
+  "timelineObjects": [
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250489340,
+          "longitudeE7":  1215155770,
+          "name": ">>> 不應該抓到 <<< 台北地下街附近 02/18 15:50"
+        },
+        "duration": {
+          "startTimestampMs": 1582012200000,
+          "endTimestampMs": 1582012260000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250143130,
+          "longitudeE7":  1214638820,
+          "name": "[預期抓到] 板橋車站 02/18 13:10~13:30"
+        },
+        "duration": {
+          "startTimestampMs": 1582002600000,
+          "endTimestampMs":   1582003800000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250489340,
+          "longitudeE7":  1215155770,
+          "name": "[預期抓到] 台北地下街附近 02/17 15:50"
+        },
+        "duration": {
+          "startTimestampMs": 1581925800000,
+          "endTimestampMs":   1581925860000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 249832863.1666667,
+          "longitudeE7":1215412535.9166665,
+          "name":"[預期抓到] 02/16 大坪林到台北車站"
+        },
+        "duration": {
+          "startTimestampMs": 1581847200000,
+          "endTimestampMs": 1581847225116.352
+        }
+      }
+    }
+  ]
+}
