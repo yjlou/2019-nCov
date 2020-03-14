@@ -611,6 +611,7 @@
               <input id="uploadInput" type="file"
                      onchange="checkNumFilesSelected();"
                      multiple accept=".kml,.json,application/xml,text/xml,application/json"/>
+              <a id="HTML_NEXT_STEP" class="btn btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
             </p>
             <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
               <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
