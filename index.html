@@ -219,7 +219,7 @@
 
       try {
         ret = date.toLocaleDateString(HTML_LANG, {month: 'short', day: 'numeric'}) + " " +
-              date.toLocaleTimeString(HTML_LANG, {hour12: true, hour: '2-digit', minute: '2-digit'});;
+              date.toLocaleTimeString(HTML_LANG, {hour12: false, hour: '2-digit', minute: '2-digit'});
       } catch(err) {
         // Use default format when failed
         ret = date.toLocaleDateString() + " " + date.toLocaleTimeString();;
