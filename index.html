@@ -343,6 +343,18 @@
       );
     }
 
+    // If any file is selected for comparison, enable the next step button.
+    // Otherwise, disable the button.
+    //
+    function checkNumFilesSelected() {
+      let oFiles = document.getElementById("uploadInput").files;
+      if (oFiles.length == 0) {
+        $(".btn_check_file").addClass('disabled');
+      } else {
+        $(".btn_check_file").removeClass('disabled');
+      }
+    }
+
     function onClickLetsCheckButton() {
       let oFiles = document.getElementById("uploadInput").files;
       if (oFiles.length === 0) return;
@@ -596,7 +608,9 @@
             </h5>
             <p>
               <span id="HTML_STEP_3_2">Click here to select KML/JSON file(s)</span>
-              <input id="uploadInput" type="file" multiple accept=".kml,.json,application/xml,text/xml,application/json"/>
+              <input id="uploadInput" type="file"
+                     onchange="checkNumFilesSelected();"
+                     multiple accept=".kml,.json,application/xml,text/xml,application/json"/>
             </p>
             <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
               <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
@@ -609,7 +623,7 @@
               <li id="HTML_SORTED_TYPE">* The file explorer could sort files with type. So look around to select all files to check.</li>
               <li id="HTML_REMEMBER_CLICK">* Remember to click the 'Let's Check' button to start matching.</li>
             </p>
-            <a id="HTML_NEXT_STEP" class="btn btn_next_step" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
+            <a id="HTML_NEXT_STEP" class="btn btn_next_step btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
           </div>
 
           <div id="step4" class="col s12">
