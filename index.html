@@ -190,7 +190,7 @@
       for (let patient of PATIENTS) {
         let add_html = "<LI>";
         if (patient.src) { add_html += `<a target='_blank' href='${patient.src}'>`; }
-        add_html += `${patient.desc} (${patient.num_points}) (${new Date(patient.timestamp).toLocaleString()})`;
+        add_html += `${patient.desc} (${patient.num_points}) (${new Date(patient.timestamp).toLocaleDateString()})`;
         if (patient.src) { add_html += "</a>"; }
         add_html += "\n";
         load_files_elem.html(load_files_elem.html() + add_html);
