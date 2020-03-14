@@ -369,13 +369,37 @@
       if (oFiles.length == 0) {
         $(".btn_check_file").addClass('disabled');
       } else {
+        const blobs = [];
+        for (let oFile of oFiles) {
+          blobs.push(oFile);
+        }
+        // Keep blobs in the input element
+        document.getElementById("uploadInput").blobs = blobs;
         $(".btn_check_file").removeClass('disabled');
       }
     }
 
     function onClickLetsCheckButton() {
-      let oFiles = document.getElementById("uploadInput").files;
-      if (oFiles.length === 0) return;
+      // Get the elements blobs
+      let filesBulbs = document.getElementById("uploadInput").blobs;
+      let dropZoneBulbs = document.getElementById("drop_zone").blobs;
+    
+      // Case drag&drop are empty
+      if(!dropZoneBulbs){
+        dropZoneBulbs = [];
+      }
+
+      // Case files input are empty
+      if(!filesBulbs){
+        filesBulbs = [];
+      }
+
+      if (filesBulbs.length === 0 && dropZoneBulbs.length === 0) return;
+
+      // Empty the current selections
+      document.getElementById("uploadInput").blobs = [];
+      document.getElementById("drop_zone").blobs = [];
+      $(".btn_check_file").addClass('disabled');
 
       // Prompt user this could take longer than they think.
       M.toast({html: i18n("HTML_CHECKING"),
@@ -384,12 +408,7 @@
 
       // Give the mobile phone UI a chance to show the checking message above.
       setTimeout(function() {
-        const blobs = [];
-        for (let oFile of oFiles) {
-          blobs.push(oFile);
-        }
-
-        processBlobs(blobs);
+        processBlobs([...filesBulbs, ... dropZoneBulbs]);
       }, 200);
     }
 
@@ -406,7 +425,13 @@
         }
       }
 
-      processBlobs(blobs);
+      if (blobs.length == 0) {
+        $(".btn_check_file").addClass('disabled');
+      } else {
+        // Keep the selected blobs
+        document.getElementById("drop_zone").blobs = blobs;
+        $(".btn_check_file").removeClass('disabled');
+      }
     }
 
     function dragOverHandler(ev) {
