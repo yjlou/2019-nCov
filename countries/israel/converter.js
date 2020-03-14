@@ -70,6 +70,7 @@ for(let record of json_obj['features']) {
   const start = attributes.fromTime - time_utils.TIME_OFFSET;
   const end = attributes.toTime - time_utils.TIME_OFFSET;
 
+  // Sanity checks
   if (!start) {
     console.warn(`Undefined start time for ${attributes.Name} : ${attributes.Comments}. Ignored.`);
     continue;
@@ -86,6 +87,8 @@ for(let record of json_obj['features']) {
   if (!attributes.Name) {
     console.warn(`Missing Name ${JSON.stringify(record)}`);
   }
+  let place = attributes.Place ? attributes.Place : '';
+  let comments = attributes.Comments ? attributes.Comments : '';
 
   meta_file.insert_bounding_box(lat, lng);
 
@@ -94,7 +97,8 @@ for(let record of json_obj['features']) {
       location: {
         latitudeE7: lat,
         longitudeE7: lng,
-        name: `${attributes.Name} ${attributes.Comments}`,
+        name: `${attributes.Name}\n${place}\n${comments}`,
+        // TODO: move ${place} to 'address' field?
       },
       duration: {
         startTimestampMs: start,
