@@ -89,6 +89,7 @@ function checkContact(user_points, patients) {
             'lng': user_point.lng,
             'begin': user_point.begin,
             'end': user_point.end,
+            'meta_info': patient_point.meta_info,
           });
         }
       }

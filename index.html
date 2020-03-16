@@ -177,12 +177,19 @@
           log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
           patient = {
             desc: file.desc,
+            data_src: file.src,
             points: points,
             bounding_box: meta_file.bounding_box,
             src: file.src,
             num_points: file.num_points,
             timestamp: meta_file.timestamp,
           };
+
+          // Have every data point linking back to meta info.
+          for(point of points) {
+            point.meta_info = patient;
+          }
+
           PATIENTS.push(patient);
         }
       }
@@ -238,6 +245,13 @@
           " ~ " + myLocaleTime(contact.end));
       const link = 'http://maps.google.com/?q=' + contact.lat + "," + contact.lng;
       node.querySelector('#HTML_VIEW_IN_GOOGLE_MAPS').href = link;
+
+      if (contact.meta_info && contact.meta_info.data_src) {
+        node.querySelector('#HTML_VIEW_IN_DATA_SOURCE').href = contact.meta_info.data_src;
+      } else {
+        // remove the whole element.
+        node.querySelector('#HTML_VIEW_IN_DATA_SOURCE').outerHTML = '';
+      }
 
       const container = document.getElementById('fancy-results');
       container.appendChild(node);
@@ -529,6 +543,7 @@
       </div>
       <div>
       <a id="HTML_VIEW_IN_GOOGLE_MAPS" class="btn" target="_blank">View in Google Maps</a>
+      <a id="HTML_VIEW_IN_DATA_SOURCE" class="btn" target="_blank">View in Data Source</a>
     </div>
   </template>
 
