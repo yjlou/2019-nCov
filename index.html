@@ -206,7 +206,7 @@
 
       for (let patient of PATIENTS) {
         let add_html = "<LI>";
-        if (patient.src) { add_html += `<a target='_blank' href='${patient.src}'>`; }
+        if (patient.src) { add_html += `<a target='_blank' rel='noreferrer' href='${patient.src}'>`; }
         add_html += `${patient.desc} (${patient.num_points}) (${toLocaleDate(new Date(patient.timestamp))})`;
         if (patient.src) { add_html += "</a>"; }
         add_html += "\n";
@@ -439,6 +439,7 @@
       let anchor = document.createElement('a');
       anchor.href = download_url;
       anchor.target = "_blank";
+      anchor.setAttribute('rel', 'noreferrer');
       const str_month = `0${month + 1}`.slice(-2);
       const str_day = `0${mday}`.slice(-2);
       anchor.download = `history-${year}-${str_month}-${str_day}.kml`;
@@ -603,7 +604,7 @@
           <div id="step1" class="col s12">
             <h5 id="HTML_STEP_1_0">Step 1: Confirm your Location History had been opted-in</h5>
             <p id="HTML_STEP_1_1">
-              Go to <a href="https://google.com/maps/timeline" target="_blank">Google Maps Timeline</a>.
+              Go to <a href="https://google.com/maps/timeline" target="_blank" rel="noreferrer">Google Maps Timeline</a>.
               If you see red dots on the map (as below screenshot), you have enabled the History Location feature.
               Please move to <a href="#" onclick="selectTab('step2')">step 2</a>.
             </p>
@@ -684,12 +685,12 @@
   <footer>
     <div class="container">
       <div class="row">
-        <a id="HTML_FACEBOOK" href="https://fb.me/covid19zhTW" target="_blank">Follow Us On Facebook</a> |
-        <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank">Source Code</a> |
-        <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank">Contact us (
+        <a id="HTML_FACEBOOK" href="https://fb.me/covid19zhTW" target="_blank" rel="noreferrer">Follow Us On Facebook</a> |
+        <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank" rel="noreferrer">Source Code</a> |
+        <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank" rel="noreferrer">Contact us (
           covid-19@googlegroups.com
           )</a> |
-        <a id="HTML_README" href="https://ppt.cc/fgrRBx" target="_blank">Readme</a>
+        <a id="HTML_README" href="https://ppt.cc/fgrRBx" target="_blank" rel="noreferrer">Readme</a>
       </div>
     </div>
   </footer>
