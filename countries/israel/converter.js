@@ -84,9 +84,7 @@ for(let record of json_obj['features']) {
     continue;
   }
 
-  if (!attributes.Name) {
-    console.warn(`Missing Name ${JSON.stringify(record)}`);
-  }
+  let name = attributes.Name ? attributes.Name : '';
   let place = attributes.Place ? attributes.Place : '';
   let comments = attributes.Comments ? attributes.Comments : '';
 
@@ -97,7 +95,7 @@ for(let record of json_obj['features']) {
       location: {
         latitudeE7: lat,
         longitudeE7: lng,
-        name: `${attributes.Name}\n${place}\n${comments}`,
+        name: `${name}\n${place}\n${comments}`,
         // TODO: move ${place} to 'address' field?
       },
       duration: {
