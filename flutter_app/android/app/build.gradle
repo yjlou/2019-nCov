@@ -38,7 +38,7 @@ android {
 
     defaultConfig {
         // TODO: Specify your own unique Application ID (https://developer.android.com/studio/build/application-id.html).
-        applicationId "zone.pandemic.covid19"
+        applicationId "events.pandemic.covid19"
         minSdkVersion 16
         targetSdkVersion 28
         versionCode flutterVersionCode.toInteger()
@@ -53,6 +53,10 @@ android {
             signingConfig signingConfigs.debug
         }
     }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
 }
 
 flutter {
@@ -64,4 +68,18 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+
+    implementation 'com.android.support:support-compat:28.0.0'
+
+    def work_version = "2.3.4"
+    // (Java only)
+    implementation "androidx.work:work-runtime:$work_version"
+    // Kotlin + coroutines
+    implementation "androidx.work:work-runtime-ktx:$work_version"
+    // optional - RxJava2 support
+    // implementation "androidx.work:work-rxjava2:$work_version"
+    // optional - GCMNetworkManager support
+    // implementation "androidx.work:work-gcm:$work_version"
+    // optional - Test helpers
+    // androidTestImplementation "androidx.work:work-testing:$work_version"
 }
