@@ -1,5 +1,6 @@
-import 'package:covid19/background_location.dart';
+import 'package:covid19/location_collector.dart';
 import 'package:flutter/material.dart';
+import 'package:location/location.dart';
 
 void main() {
   runApp(MyApp());
@@ -47,23 +48,37 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _counter = 0;
+  List<LocationData> _locations = [];
 
-  void _incrementCounter() {
-    BackgroundLocation.start();
+  void _startWorker() {
+    LocationCollector().start();
+  }
 
+  void _stopWorker() {
+    LocationCollector().stop();
+  }
+
+  void _updateLocations() {
+    List<LocationData> _newLocation = LocationCollector().get();
     setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
+      _locations = _newLocation;
     });
   }
 
   @override
   Widget build(BuildContext context) {
+    List<Widget> locationWidgets = [];
+
+    for (LocationData location in _locations) {
+      DateTime t = DateTime.fromMillisecondsSinceEpoch(location.time.floor());
+
+      locationWidgets.add(
+        Text(
+          '${t.toLocal()}: ${location.latitude} ${location.longitude}'
+        )
+      );
+    }
+
     // This method is rerun every time setState is called, for instance as done
     // by the _incrementCounter method above.
     //
@@ -96,21 +111,32 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text(
-              'You have pushed the button this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.display1,
+            ...locationWidgets,
+            ButtonBar(
+              children: <Widget>[
+                RaisedButton(
+                  child: Text('Start Service'),
+                  onPressed: _startWorker,
+                ),
+                RaisedButton(
+                  child: Text('Stop Service'),
+                  onPressed: _stopWorker,
+                ),
+                RaisedButton(
+                  child: Text('Show Locations'),
+                  onPressed: _updateLocations,
+                )
+              ],
             ),
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: _incrementCounter,
-        tooltip: 'Increment',
-        child: Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+//      floatingActionButton: FloatingActionButton(
+//        onPressed: _startWorker,
+//        tooltip: 'startWorker',
+//        child: Icon(Icons.add),
+//      ),
+      // This trailing comma makes auto-formatting nicer for build methods.
     );
   }
 }
