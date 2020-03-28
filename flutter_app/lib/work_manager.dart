@@ -34,7 +34,8 @@ class WorkManager {
   }
 
   static WorkManager _instance;
-  static const MethodChannel _channel = MethodChannel('events.pandemic.covid19/location_plugin');
+  static const MethodChannel _channel = MethodChannel(
+      'events.pandemic.covid19/location_plugin');
 
   bool _initialized = false;
 

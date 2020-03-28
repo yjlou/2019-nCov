@@ -9,13 +9,10 @@ class MainApplication : FlutterApplication(), PluginRegistry.PluginRegistrantCal
     override fun onCreate() {
         super.onCreate()
         WorkmanagerPlugin.pluginRegistryCallback = this
-        // LocationPlugin.pluginRegistryCallback = this
-        // WorkmanagerPlugin.setPluginRegistrantCallback(this)
     }
 
     override fun registerWith(@NonNull registry: PluginRegistry) {
         WorkmanagerPlugin.registerWith(registry.registrarFor("be.tramckrijte.workmanager.WorkmanagerPlugin"))
         LocationPlugin.registerWith(registry.registrarFor("events.pandemic.covid19.LocationPlugin"))
-        // com.lyokone.location.LocationPlugin.registerWith(registry.registrarFor("com.lyokone.location.LocationPlugin"))
     }
 }

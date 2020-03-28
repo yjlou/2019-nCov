@@ -10,9 +10,9 @@ import io.flutter.plugins.GeneratedPluginRegistrant
 class MainActivity : FlutterActivity() {
 
     override fun configureFlutterEngine(@NonNull flutterEngine: FlutterEngine) {
-        // BackgroundLocationHandler.registerWith(flutterEngine, this.context)
-        // flutterEngine.getPlugins().add(LocationPlugin())
-        // GeneratedPluginRegistrant.registerWith(flutterEngine)
+        // We already done this
+//        flutterEngine.getPlugins().add(LocationPlugin())
+//        GeneratedPluginRegistrant.registerWith(flutterEngine)
     }
 
 }
