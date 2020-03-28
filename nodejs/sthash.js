@@ -1,4 +1,27 @@
-// Command line tools to generate hashed point data.
+// To protect patient's privacy, we employ a simple hash algorithm called ST hash (SpaceTime hash)
+// to hash (time point, lat, lng) into a 64-bit value. Then, when user wants to compare their
+// historical track, they follow the same hash algorithm. If a conflict happens, it means the user
+// and the patient have had met at a particular spacetime point.
+//
+// The following commands are used to generate the hashed JSON file.
+//
+// ```
+//   # Node.js v12.x:
+//   curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+//   sudo apt-get install -y nodejs
+//   npm install js-sha256 fs yargs fast-xml-parser csv-parse
+//
+//   node nodejs/sthash.js
+//   node nodejs/sthash.js -d "your description" --remove_top 3
+//                         -i INPUT_FILE.{kml|json} -o OUTPUT_FILE-hashed.json
+// ```
+//
+// Once the hashed JSON is generated, host it in somewhere (remember to enable Allow- headers
+// so that it follows the CORS policy), and use hashes= parameter in the URL to load it:
+//
+// ```
+//   https://pandemic.events/?hashes=YOUR_HASHED_FILE_URL
+// ```
 //
 // TODO: --remove-weekdays --timezone
 // TODO: --compress: to use gzip to compress data.
