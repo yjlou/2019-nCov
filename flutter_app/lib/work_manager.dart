@@ -8,11 +8,11 @@ void callbackDispatcher() {
     print(task);
     switch (task) {
       case LocationCollector.TASK_TICK:
-        LocationCollector().tick();
+        await LocationCollector().tick();
         break;
       case LocationCollector.TASK_GET_LOCATION_CALLBACK:
         // print(inputData);
-        LocationCollector().getLocationCallback(inputData);
+        await LocationCollector().getLocationCallback(inputData);
         break;
       case "sync_server":
         break;

@@ -1,5 +1,6 @@
 import 'dart:math';
 
+import 'package:covid19/repository.dart';
 import 'package:covid19/work_manager.dart';
 import 'package:location/location.dart';
 import 'package:workmanager/workmanager.dart';
@@ -85,7 +86,27 @@ class LocationCollector {
     return _location.sublist(start);
   }
 
-  double toDouble(dynamic x) {
+  void getLocationCallback(dynamic location) async {
+    // This function is called in another context (engine), so the _location is not shared with UI thread...
+    try {
+      print("1");
+      LocationData locationData = mapToLocationData(location);
+      print("2");
+      _location.add(locationData);
+      print("3");
+      double dt = locationData.time;
+      print("4");
+      DateTime t = DateTime.fromMillisecondsSinceEpoch(dt.toInt());
+      print("5");
+      print("getLocation: ${t.toLocal()} ${locationData.latitude} ${locationData.longitude}");
+      await RepositoryImpl().saveLocation(locationData);
+      print("6");
+    } catch (error) {
+      print(error);
+    }
+  }
+
+  static double toDouble(dynamic x) {
     if (x is double) {
       return x;
     }
@@ -95,31 +116,17 @@ class LocationCollector {
     return null;
   }
 
-  void getLocationCallback(dynamic location) {
-    // This function is called in another context (engine), so the _location is not shared with UI thread...
-    try {
-      print("1");
-      Map<String, double> m = Map<String, double>();
-      m = {
-        'latitude': toDouble(location['latitude']),
-        'longitude': toDouble(location['longitude']),
-        'altitude': toDouble(location['altitude']),
-        'accuracy': toDouble(location['accuracy']),
-        'speed': toDouble(location['speed']),
-        'time': toDouble(location['time']),
-      };
-      LocationData locationData = LocationData.fromMap(m);
-      print("2");
-      _location.add(locationData);
-      print("3");
-      double dt = m["time"];
-      print("4");
-      DateTime t = DateTime.fromMillisecondsSinceEpoch(dt.toInt());
-      print("5");
-      print("getLocation: ${t
-          .toLocal()} ${location["latitude"]} ${location["longtitude"]}");
-    } catch (error) {
-      print(error);
-    }
+  static LocationData mapToLocationData(Map<String, dynamic> location) {
+    Map<String, double> m = Map<String, double>();
+    m = {
+      'latitude': toDouble(location['latitude']),
+      'longitude': toDouble(location['longitude']),
+      'altitude': toDouble(location['altitude']),
+      'accuracy': toDouble(location['accuracy']),
+      'speed': toDouble(location['speed']),
+      'time': toDouble(location['time']),
+    };
+    LocationData locationData = LocationData.fromMap(m);
+    return locationData;
   }
 }

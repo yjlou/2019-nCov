@@ -22,6 +22,10 @@ dependencies:
 
   location: ^2.5.0
   workmanager: ^0.2.0
+  # flutter_sqlcipher: ^0.4.3
+
+  json_store: ^1.0.2
+  synchronized: ^2.2.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.

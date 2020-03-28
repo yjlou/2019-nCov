@@ -1,4 +1,5 @@
 import 'package:covid19/location_collector.dart';
+import 'package:covid19/repository.dart';
 import 'package:flutter/material.dart';
 import 'package:location/location.dart';
 
@@ -58,11 +59,15 @@ class _MyHomePageState extends State<MyHomePage> {
     LocationCollector().stop();
   }
 
-  void _updateLocations() {
-    List<LocationData> _newLocation = LocationCollector().get();
+  void _updateLocations() async {
+    List<LocationData> _newLocation = await RepositoryImpl().getLocation(beginIndex: -5);
     setState(() {
       _locations = _newLocation;
     });
+  }
+
+  void _deleteLocations() {
+    RepositoryImpl().clear();
   }
 
   @override
@@ -122,9 +127,16 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text('Stop Service'),
                   onPressed: _stopWorker,
                 ),
+              ]),
+            ButtonBar(
+              children: <Widget>[
                 RaisedButton(
                   child: Text('Show Locations'),
                   onPressed: _updateLocations,
+                ),
+                RaisedButton(
+                  child: Text('Delete Locations'),
+                  onPressed: _deleteLocations,
                 )
               ],
             ),

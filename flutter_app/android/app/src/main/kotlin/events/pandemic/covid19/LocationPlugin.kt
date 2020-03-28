@@ -92,7 +92,7 @@ class LocationPluginHandler(private var context: Context, private var messenger:
                     val location = result.lastLocation
                     val retval = HashMap<String, Double>()
                     retval["latitude"] = location.latitude
-                    retval["longtitude"] = location.longitude
+                    retval["longitude"] = location.longitude
                     retval["altitude"] = location.altitude
                     retval["accuracy"] = location.accuracy.toDouble()
                     retval["speed"] = location.speed.toDouble()
