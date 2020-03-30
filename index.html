@@ -156,7 +156,6 @@
         if (PARAMS.get("patient")) {
           load_files.push({
             desc: PARAMS.get("patient"),
-            // TODO: meta:
             path: PARAMS.get("patient"),
             src: PARAMS.get("patient"),
           });
@@ -171,7 +170,14 @@
           let points = parseFile(file.path, fetchHttpFile(file.path));
 
           // parse meta file
-          let meta_file = myJsonParse(fetchHttpFile(file.meta));
+          if (file.meta) {
+            var meta_file = myJsonParse(fetchHttpFile(file.meta));
+          } else {
+            var meta_file = {
+              bounding_box: {top: 90 * 1e7, right: 180 * 1e7, bottom: -90 * 1e7, left: -180 * 1e7},
+              num_of_points: points.length,
+            };
+          }
           file.num_points = meta_file.num_of_points;
 
           log(JSON.stringify(points).split("},{").join("},\n{"));  // one line for each record.
@@ -207,7 +213,8 @@
       for (let patient of PATIENTS) {
         let add_html = "<LI>";
         if (patient.src) { add_html += `<a target='_blank' rel='noreferrer' href='${patient.src}'>`; }
-        add_html += `${patient.desc} (${patient.num_points}) (${toLocaleDate(new Date(patient.timestamp))})`;
+        add_html += `${patient.desc} (${patient.num_points}) `;
+        if (patient.timestamp) add_html += `(${toLocaleDate(new Date(patient.timestamp))})`;
         if (patient.src) { add_html += "</a>"; }
         add_html += "\n";
         load_files_elem.html(load_files_elem.html() + add_html);
