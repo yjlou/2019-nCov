@@ -5,10 +5,26 @@ Check it now! [https://pandemic.events](https://pandemic.events)
 
 # The Web Interface
 
+# Pre-loaded patient data
+
 With a pre-loaded patient historical track data, user can drag/drop in their tracks to compare.
+We collect trustable data from different sources. Please read 'countries' folder for more details.
 
 Note that all comparisons are happening in the local. Nothing is uploaded to server. This can
 ensure the user's privacy is protected.
+
+## Use Your Own Patient Data
+
+This is useful when you want to use your own patient data, but without sharing it with rest of
+the world.  By assigning a 'patient=URL' parameter in URL, you can load your own patient data.
+The file can be either JSON or KML format.
+
+A use case is that a trustable third party (e.g. a government CDC) reads out the history
+location data from patient's phone, but they don't want to publish patient's data to make public
+panic. Instead, they can host the patient data in URL and use 'patient=URL' to load it into this
+tool. Then, they can compare people's history location data (the people can voluntarily provide
+their own data to the trustable third party) in the step 3 of this tool (by dragging and dropping
+tons of data files).
 
 # Contribution
 
