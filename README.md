@@ -5,13 +5,13 @@ Check it now! [https://pandemic.events](https://pandemic.events)
 
 # The Web Interface
 
-# Pre-loaded patient data
+## Patient Data from Trustable Sources
 
-With a pre-loaded patient historical track data, user can drag/drop in their tracks to compare.
-We collect trustable data from different sources. Please read 'countries' folder for more details.
+We integrate trustable data sources into our tool. With the patient historical track data, user
+can drag/drop in their tracks to compare.  Please read 'countries' folder for more details.
 
-Note that all comparisons are happening in the local. Nothing is uploaded to server. This can
-ensure the user's privacy is protected.
+Note that all comparisons are happening on the local device. Nothing is uploaded to server.
+This can ensure the user's privacy is protected.
 
 ## Use Your Own Patient Data
 
@@ -25,6 +25,8 @@ panic. Instead, they can host the patient data in URL and use 'patient=URL' to l
 tool. Then, they can compare people's history location data (the people can voluntarily provide
 their own data to the trustable third party) in the step 3 of this tool (by dragging and dropping
 tons of data files).
+
+Same here.All comparisons are happening on local device. Nothing is uploaded to server.
 
 # Contribution
 
