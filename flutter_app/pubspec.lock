@@ -117,7 +117,7 @@ packages:
     source: hosted
     version: "2.1.4"
   json_store:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: json_store
       url: "https://pub.dartlang.org"
@@ -269,7 +269,7 @@ packages:
     source: hosted
     version: "1.0.5"
   synchronized:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: synchronized
       url: "https://pub.dartlang.org"
@@ -304,7 +304,7 @@ packages:
     source: hosted
     version: "2.0.8"
   workmanager:
-    dependency: "direct main"
+    dependency: transitive
     description:
       name: workmanager
       url: "https://pub.dartlang.org"
