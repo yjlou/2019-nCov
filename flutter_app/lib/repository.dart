@@ -1,12 +1,12 @@
-
-
-import 'dart:convert';
+import 'dart:io';
 import 'dart:math';
 
-import 'package:covid19/location_collector.dart';
 import 'package:json_store/json_store.dart';
 import 'package:location/location.dart';
+import 'package:path_provider/path_provider.dart';
 import 'package:synchronized/synchronized.dart';
+
+import 'location_collector.dart';
 
 abstract class Repository {
   // Save location to repository.
@@ -27,7 +27,8 @@ abstract class Repository {
 
 class RepositoryImpl implements Repository {
   static RepositoryImpl _instance;
-  static String NEXT_INDEX_KEY = "NEXT_INDEX_KEY";
+  static String NEXT_INDEX_KEY = 'NEXT_INDEX_KEY';
+  static String DB_NAME = 'events_pandemic_covid19_location_history';
 
   factory RepositoryImpl() {
     if (_instance == null) {
@@ -41,7 +42,7 @@ class RepositoryImpl implements Repository {
 
   RepositoryImpl.private() {
     _jsonStore = JsonStore(
-        dbName: 'events_pandemic_covid19_location_history',
+        dbName: DB_NAME,
         inMemory: false);
     _lock = new Lock(reentrant: true);
   }
@@ -58,6 +59,11 @@ class RepositoryImpl implements Repository {
     return await _lock.synchronized(() async {
       await _jsonStore.clearDataBase();
     });
+  }
+
+  Future<String> getDatabasePath() async {
+    final Directory path = await getApplicationDocumentsDirectory();
+    return '${path.path}/${DB_NAME}.db';
   }
 
   @override
@@ -100,6 +106,7 @@ class RepositoryImpl implements Repository {
       await _jsonStore.setItem(
         _makeLocationDataKey(locationData, next_index),
         _locationDataToMap(locationData),
+        // encrypt: true,  // turn this on in production.
         batch: batch
       );
 

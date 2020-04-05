@@ -1,7 +1,11 @@
-import 'package:covid19/location_collector.dart';
-import 'package:covid19/repository.dart';
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_share/flutter_share.dart';
 import 'package:location/location.dart';
+import 'package:path_provider/path_provider.dart';
+import 'package:location_collector/location_collector.dart';
+import 'package:location_collector/location_repository.dart';
 
 void main() {
   runApp(MyApp());
@@ -60,14 +64,26 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void _updateLocations() async {
-    List<LocationData> _newLocation = await RepositoryImpl().getLocation(beginIndex: -5);
+    List<LocationData> _newLocation = await SqliteRepository().getLocation(beginIndex: -5);
     setState(() {
       _locations = _newLocation;
     });
   }
 
   void _deleteLocations() {
-    RepositoryImpl().clear();
+    SqliteRepository().clear();
+  }
+
+  Future<void> _getDatabase() async {
+    String dbPath = await SqliteRepository().getDatabasePath();
+    File dbFile = File(dbPath);
+    Directory extDir = await getExternalStorageDirectory();
+    File newFile = dbFile.copySync('${extDir.path}/recorded_location.db');
+    await FlutterShare.shareFile(
+      title: 'RecordedLocation.db',
+      text: 'Recorded location in SQLite',
+      filePath: newFile.path,
+    );
   }
 
   @override
@@ -138,8 +154,14 @@ class _MyHomePageState extends State<MyHomePage> {
                   child: Text('Delete Locations'),
                   onPressed: _deleteLocations,
                 )
-              ],
-            ),
+              ]),
+            ButtonBar(
+              children: <Widget>[
+                RaisedButton(
+                  child: Text('Get DB'),
+                  onPressed: _getDatabase,
+                )
+              ]),
           ],
         ),
       ),

@@ -5,14 +5,17 @@ import 'location_collector.dart';
 
 void callbackDispatcher() {
   Workmanager.executeTask((String task, dynamic inputData) async {
-    print(task);
+    print('task: ${task}');
     switch (task) {
       case LocationCollector.TASK_TICK:
-        await LocationCollector().tick();
+        // await LocationCollector().tick();
+//        lc_plugin.LocationCollector.tick();
+        // print('PlatformVersion: ${await lc_plugin.LocationCollector.platformVersion}');
         break;
       case LocationCollector.TASK_GET_LOCATION_CALLBACK:
         // print(inputData);
-        await LocationCollector().getLocationCallback(inputData);
+//        print('Callback: ${await lc_plugin.LocationCollector.platformVersion}');
+        // await LocationCollector().getLocationCallback(inputData);
         break;
       case "sync_server":
         break;

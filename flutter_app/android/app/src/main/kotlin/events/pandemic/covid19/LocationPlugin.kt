@@ -57,6 +57,7 @@ class LocationPlugin : FlutterPlugin {
 class LocationPluginHandler(private var context: Context) : MethodChannel.MethodCallHandler {
     companion object {
         private val LOG_TAG = "LocationPluginHandler"
+        val WORK_TAG = "events.pandemic.covid19/get_location_callback"
     }
 
     private var client: FusedLocationProviderClient
@@ -104,14 +105,14 @@ class LocationPluginHandler(private var context: Context) : MethodChannel.Method
                 .setInitialDelay(0, TimeUnit.SECONDS)
                 .build()
         WorkManager.getInstance(context).enqueueUniqueWork(
-                "events.pandemic.covid19/get_location_callback",
+                WORK_TAG,
                 ExistingWorkPolicy.REPLACE,
                 workRequest)
     }
 
     private fun buildInputData(location: Map<String, Double>): Data {
         return Data.Builder()
-                .putString(BackgroundWorker.DART_TASK_KEY, "events.pandemic.covid19/get_location_callback")
+                .putString(BackgroundWorker.DART_TASK_KEY, WORK_TAG)
                 .putString(BackgroundWorker.PAYLOAD_KEY, JSONObject(location).toString())
                 .build()
     }

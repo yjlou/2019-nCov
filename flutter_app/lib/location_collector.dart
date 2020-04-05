@@ -1,9 +1,12 @@
 import 'dart:math';
 
-import 'package:covid19/repository.dart';
 import 'package:covid19/work_manager.dart';
 import 'package:location/location.dart';
 import 'package:workmanager/workmanager.dart';
+
+import 'repository.dart';
+
+import 'package:location_collector/location_collector.dart' as lc_plugin;
 
 // Corresponds to BackgroundLocationHandler
 class LocationCollector {
@@ -15,9 +18,9 @@ class LocationCollector {
   }
 
   static LocationCollector _instance;
-  static const String WORKER_TAG = "events.pandemic.covid19/get_location";
   static const String TASK_TICK = "events.pandemic.covid19/get_location";
-  static const String TASK_GET_LOCATION_CALLBACK = "events.pandemic.covid19/get_location_callback";
+  static const String TASK_GET_LOCATION_CALLBACK =
+      "events.pandemic.covid19/get_location_callback";
 
   List<LocationData> _location = [];
 
@@ -28,8 +31,8 @@ class LocationCollector {
   Future<bool> start() async {
     WorkManager().initialize();
 
-    Workmanager.cancelByTag(WORKER_TAG);
-    Workmanager.cancelByTag(TASK_GET_LOCATION_CALLBACK);
+    // Workmanager.cancelByTag(WORKER_TAG);
+    // Workmanager.cancelByTag(TASK_GET_LOCATION_CALLBACK);
 
     // Let's make sure we have permission of location service.
     Location location = new Location();
@@ -50,32 +53,23 @@ class LocationCollector {
     }
 
     // Default duration is 15 minutes. First event should be fired immediately.
-    Workmanager.registerPeriodicTask(
-        WORKER_TAG,
-        TASK_TICK,
+    Workmanager.registerPeriodicTask(TASK_TICK, TASK_TICK,
         existingWorkPolicy: ExistingWorkPolicy.replace);
 
     return true;
   }
 
   Future<bool> tick() async {
-//    Location location = new Location();
-//    LocationData locationData = await location.getLocation();
-//    _location.add(locationData);
-//    double dt = location["time"] as double;
-//    DateTime t = DateTime.fromMillisecondsSinceEpoch(dt.toInt());
-//    print("${t.toLocal()} ${locationData.latitude} ${locationData.longitude}");
-
-    await WorkManager().getLocationChannel().invokeMethod("get_location");
-//    double dt = location["time"] as double;
-//    DateTime t = DateTime.fromMillisecondsSinceEpoch(dt.toInt());
-//    print("getLocation: ${t.toLocal()} ${location["latitude"]} ${location["longtitude"]}");
-
+    try {
+      await WorkManager().getLocationChannel().invokeMethod("get_location");
+    } catch (error) {
+      print(error);
+    }
     return true;
   }
 
   Future<bool> stop() async {
-    Workmanager.cancelByTag(WORKER_TAG);
+    Workmanager.cancelByTag(TASK_TICK);
     Workmanager.cancelByTag(TASK_GET_LOCATION_CALLBACK);
     return true;
   }
@@ -86,7 +80,7 @@ class LocationCollector {
     return _location.sublist(start);
   }
 
-  void getLocationCallback(dynamic location) async {
+  Future<void> getLocationCallback(dynamic location) async {
     // This function is called in another context (engine), so the _location is not shared with UI thread...
     try {
       print("1");
@@ -98,7 +92,8 @@ class LocationCollector {
       print("4");
       DateTime t = DateTime.fromMillisecondsSinceEpoch(dt.toInt());
       print("5");
-      print("getLocation: ${t.toLocal()} ${locationData.latitude} ${locationData.longitude}");
+      print(
+          "getLocation: ${t.toLocal()} ${locationData.latitude} ${locationData.longitude}");
       await RepositoryImpl().saveLocation(locationData);
       print("6");
     } catch (error) {
