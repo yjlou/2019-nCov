@@ -1,0 +1,43 @@
+{
+  "timelineObjects": [
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250489340,
+          "longitudeE7":  1215155770,
+          "name": ">>> 不應該抓到 <<< 台北地下街附近 02/18 15:50"
+        },
+        "duration": {
+          "startTimestampMs": 1582012200000,
+          "endTimestampMs": 1582012260000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 219442680,
+          "longitudeE7":  1208005630,
+          "name": "[預期抓到] 墾丁大街 4/2 凌晨"
+        },
+        "duration": {
+          "startTimestampMs": 1585756860000,
+          "endTimestampMs":   1585756900000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 219442680,
+          "longitudeE7":  1208005630,
+          "name": "[預期抓到] 墾丁大街 4/5 晚上"
+        },
+        "duration": {
+          "startTimestampMs": 1586098860000,
+          "endTimestampMs":   1586098900000
+        }
+      }
+    }
+  ]
+}

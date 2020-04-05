@@ -25,12 +25,12 @@ if (this.DOMParser == undefined) {
 // This structure is used to indicate where data are located. They will be loaded to PATIENT somehow.
 //
 var DEFAULT_PATIENTS_DATA = [
-  // Taiwan case 32
+  // Taiwan ChingMing Days
   {
-    desc: 'Taiwan 台灣 [案32]',
-    meta: "countries/taiwan/case-32.meta.json",
-    path: "countries/taiwan/case-32.output.json",
-    src: 'https://drive.google.com/open?id=1QYAkgHR5yykzsVZnTitfEFkNpNd6Ragn&usp=sharing',
+    desc: 'Taiwan 台灣清明節高風險地區',
+    meta: 'countries/taiwan/ChingMing-meta.json',
+    path: 'countries/taiwan/ChingMing-output.json',
+    src: 'https://drive.google.com/open?id=145ia8C6MEMaI_ZdeezWmF_q-M1beh6RP&usp=sharing',
   },
 
   // coronamap.site
