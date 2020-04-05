@@ -36,7 +36,7 @@ class LocationCollector {
   }
 
   Future<void> start() async {
-    WorkManager().initialize();
+    await WorkManager().initialize();
 
     // Let's make sure we have permission of location service.
     Location location = new Location();
@@ -57,13 +57,13 @@ class LocationCollector {
     }
 
     // Default duration is 15 minutes. First event should be fired immediately.
-    Workmanager.registerPeriodicTask(TASK_TICK, TASK_TICK,
+    await Workmanager.registerPeriodicTask(TASK_TICK, TASK_TICK,
         existingWorkPolicy: ExistingWorkPolicy.replace);
   }
 
   Future<bool> stop() async {
-    Workmanager.cancelByTag(TASK_TICK);
-    Workmanager.cancelByTag(TASK_GET_LOCATION_CALLBACK);
+    await Workmanager.cancelByUniqueName(TASK_TICK);
+    await Workmanager.cancelByUniqueName(TASK_GET_LOCATION_CALLBACK);
     return true;
   }
 
@@ -71,7 +71,7 @@ class LocationCollector {
     try {
       await _channel.invokeMethod("get_location");
     } catch (error) {
-      print(error);
+      print('Failed in tick: ${error}');
     }
     return true;
   }
@@ -93,9 +93,13 @@ class LocationCollector {
       await SqliteRepository().saveLocation(locationData);
       print("6");
     } catch (error) {
-      print(error);
+      print('Failed in getLocationCallback: ${error}');
     }
   }
+
+  //----------------------------
+  // Helper Functions
+  //----------------------------
 
   static double toDouble(dynamic x) {
     if (x is double) {

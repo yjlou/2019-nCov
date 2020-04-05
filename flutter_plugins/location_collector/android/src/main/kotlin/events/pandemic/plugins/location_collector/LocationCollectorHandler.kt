@@ -13,6 +13,7 @@ import com.google.android.gms.location.*
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
 import org.json.JSONObject
+import java.util.concurrent.ExecutionException
 import java.util.concurrent.TimeUnit
 
 class LocationPluginHandler(private var context: Context) : MethodChannel.MethodCallHandler {
@@ -42,15 +43,15 @@ class LocationPluginHandler(private var context: Context) : MethodChannel.Method
 
                 if (getLocationRequestResult != null) {
                     val location = result.lastLocation
-                    val retval = HashMap<String, Double>()
-                    retval["latitude"] = location.latitude
-                    retval["longitude"] = location.longitude
-                    retval["altitude"] = location.altitude
-                    retval["accuracy"] = location.accuracy.toDouble()
-                    retval["speed"] = location.speed.toDouble()
-                    retval["time"] = location.time.toDouble()
+                    val result = HashMap<String, Double>()
+                    result["latitude"] = location.latitude
+                    result["longitude"] = location.longitude
+                    result["altitude"] = location.altitude
+                    result["accuracy"] = location.accuracy.toDouble()
+                    result["speed"] = location.speed.toDouble()
+                    result["time"] = location.time.toDouble()
 
-                    invokeGetLocationCallback(retval)
+                    invokeGetLocationCallback(result)
                     getLocationRequestResult = null
                 }
 
@@ -60,14 +61,15 @@ class LocationPluginHandler(private var context: Context) : MethodChannel.Method
     }
 
     private fun invokeGetLocationCallback(location: Map<String, Double>) {
-        Log.d(LOG_TAG, "add callback task")
+        Log.d(LOG_TAG, "invokeGetLocationCallback")
+
         val workRequest = OneTimeWorkRequestBuilder<BackgroundWorker>()
                 .setInputData(buildInputData(location))
                 .setInitialDelay(0, TimeUnit.SECONDS)
                 .build()
         WorkManager.getInstance(context).enqueueUniqueWork(
                 WORK_TAG,
-                ExistingWorkPolicy.REPLACE,
+                ExistingWorkPolicy.APPEND,
                 workRequest)
     }
 

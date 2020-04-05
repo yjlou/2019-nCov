@@ -9,13 +9,15 @@ void callbackDispatcher() {
     print('task: ${task}');
     switch (task) {
       case LocationCollector.TASK_TICK:
-        await LocationCollector().tick();
-        // print('PlatformVersion: ${await lc_plugin.LocationCollector.platformVersion}');
+        // tick() function makes another MethodChannel call, we cannot await
+        // tick() function, otherwise current evaluation won't be finished.
+        // This is why we got "cancelled" error / warning previously.
+        LocationCollector().tick();
+//        print('Finish tick');
         break;
       case LocationCollector.TASK_GET_LOCATION_CALLBACK:
-//        print(inputData);
-//        print('Callback: ${await LocationCollector().platformVersion}');
         await LocationCollector().getLocationCallback(inputData);
+//        print('Finish get_location_callback');
         break;
       case "sync_server":
         break;
@@ -39,9 +41,9 @@ class WorkManager {
   static WorkManager _instance;
   bool _initialized = false;
 
-  void initialize() async {
+  Future<void> initialize() async {
     if (_initialized) return;
 
-    Workmanager.initialize(callbackDispatcher, isInDebugMode: true);
+    await Workmanager.initialize(callbackDispatcher, isInDebugMode: true);
   }
 }

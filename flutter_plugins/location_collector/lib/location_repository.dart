@@ -32,7 +32,7 @@ class SqliteRepository implements Repository {
 
   factory SqliteRepository() {
     if (_instance == null) {
-      _instance = SqliteRepository.private();
+      _instance = SqliteRepository._make();
     }
     return _instance;
   }
@@ -40,7 +40,7 @@ class SqliteRepository implements Repository {
   JsonStore _jsonStore;
   Lock _lock;
 
-  SqliteRepository.private() {
+  SqliteRepository._make() {
     _jsonStore = JsonStore(
         dbName: DB_NAME,
         inMemory: false);
