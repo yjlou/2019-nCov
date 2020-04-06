@@ -1,5 +1,6 @@
 import 'package:workmanager/workmanager.dart';
 
+import 'sync_service.dart';
 
 // This is the entry point when Workmanager plugin initialize flutter engine in
 // the background.
@@ -7,7 +8,9 @@ void callbackDispatcher() {
   Workmanager.executeTask((String task, dynamic inputData) async {
     print('task: ${task}');
     switch (task) {
-      case "sync_server":
+      case SyncService.TASK_NAME:
+        // Avoid making synchronize call.
+        await SyncService().tick();
         break;
     }
     return Future.value(true);

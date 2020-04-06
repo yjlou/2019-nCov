@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:location_collector/location_collector_provider.dart';
 import 'package:location_collector/location_repository.dart';
+import 'package:location_collector/sync_service.dart';
 import 'package:path_provider/path_provider.dart';
 
 void main() {
@@ -77,12 +78,22 @@ class _MyHomePageState extends State<MyHomePage> {
           updateIsRunning();
         }
     );
+    SyncService().start().then(
+        (bool success) {
+          print('SyncService started');
+        }
+    );
   }
 
   void _stopWorker() {
     LocationCollectorProvider.getInstance().stop().then(
         (bool success) {
           updateIsRunning();
+        }
+    );
+    SyncService().stop().then(
+        (bool success) {
+          print('SyncService stopped');
         }
     );
   }
