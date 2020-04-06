@@ -2,10 +2,9 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_share/flutter_share.dart';
-import 'package:location/location.dart';
-import 'package:path_provider/path_provider.dart';
-import 'package:location_collector/location_collector.dart';
+import 'package:location_collector/location_collector_provider.dart';
 import 'package:location_collector/location_repository.dart';
+import 'package:path_provider/path_provider.dart';
 
 void main() {
   runApp(MyApp());
@@ -53,18 +52,43 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  List<LocationData> _locations = [];
+  List<Location> _locations = [];
+
+  bool isRunning = false;
+
+  @override
+  void initState() {
+    super.initState();
+    updateIsRunning();
+  }
+
+  void updateIsRunning() {
+    LocationCollectorProvider.getInstance().isRunning().then(
+            (isRunning) {
+              setState(() {
+                this.isRunning = isRunning;
+              });
+        });
+  }
 
   void _startWorker() {
-    LocationCollector().start();
+    LocationCollectorProvider.getInstance().start().then(
+        (bool success) {
+          updateIsRunning();
+        }
+    );
   }
 
   void _stopWorker() {
-    LocationCollector().stop();
+    LocationCollectorProvider.getInstance().stop().then(
+        (bool success) {
+          updateIsRunning();
+        }
+    );
   }
 
   void _updateLocations() async {
-    List<LocationData> _newLocation = await SqliteRepository().getLocation(beginIndex: -5);
+    List<Location> _newLocation = await SqliteRepository().getLocation(beginIndex: -5);
     setState(() {
       _locations = _newLocation;
     });
@@ -90,7 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     List<Widget> locationWidgets = [];
 
-    for (LocationData location in _locations) {
+    for (Location location in _locations) {
       DateTime t = DateTime.fromMillisecondsSinceEpoch(location.time.floor());
 
       locationWidgets.add(
@@ -133,6 +157,7 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             ...locationWidgets,
+            Text('IsRunning: ${isRunning}'),
             ButtonBar(
               children: <Widget>[
                 RaisedButton(

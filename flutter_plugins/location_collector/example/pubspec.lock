@@ -29,6 +29,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.4.0"
+  background_locator:
+    dependency: transitive
+    description:
+      path: "../../background_locator"
+      relative: true
+    source: path
+    version: "1.1.2+1"
   boolean_selector:
     dependency: transitive
     description:
@@ -84,7 +91,7 @@ packages:
       name: encrypt
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "3.3.1"
+    version: "4.0.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -119,9 +126,9 @@ packages:
   json_store:
     dependency: transitive
     description:
-      name: json_store
-      url: "https://pub.dartlang.org"
-    source: hosted
+      path: "../../json_store"
+      relative: true
+    source: path
     version: "1.0.2"
   location:
     dependency: transitive
@@ -137,6 +144,13 @@ packages:
       relative: true
     source: path
     version: "0.0.1"
+  location_permissions:
+    dependency: transitive
+    description:
+      name: location_permissions
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "2.0.5"
   matcher:
     dependency: transitive
     description:

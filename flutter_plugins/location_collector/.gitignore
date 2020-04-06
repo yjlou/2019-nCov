@@ -1,6 +1,10 @@
 .DS_Store
 .dart_tool/
 
+# according to https://dart.dev/guides/libraries/private-files,
+# don't commit pubspec.lock
+pubspec.lock
+
 .packages
 .pub/
 

@@ -1,16 +1,16 @@
 import 'dart:io';
 import 'dart:math';
 
+import 'package:background_locator/location_dto.dart';
 import 'package:json_store/json_store.dart';
-import 'package:location/location.dart';
+import 'package:location/location.dart' as lib_location;
 import 'package:path_provider/path_provider.dart';
 import 'package:synchronized/synchronized.dart';
 
-import 'location_collector.dart';
 
 abstract class Repository {
   // Save location to repository.
-  Future<void> saveLocation(LocationData locationData);
+  Future<void> saveLocation(Location locationData);
 
   // Get location records from repository.
   // We use a python-like array indexing, e.g.
@@ -19,7 +19,7 @@ abstract class Repository {
   //   getLocation(lastIndex: 4) ==> get first 4
   //   getLocation(lastIndex: -4) ==> get all, except the last 4
   // Returns elements [beginIndex, lastIndex)
-  Future<List<LocationData>> getLocation({int beginIndex, int lastIndex});
+  Future<List<Location>> getLocation({int beginIndex, int lastIndex});
 
   Future<void> clear();
 }
@@ -67,7 +67,7 @@ class SqliteRepository implements Repository {
   }
 
   @override
-  Future<List<LocationData>> getLocation({int beginIndex, int lastIndex}) async {
+  Future<List<Location>> getLocation({int beginIndex, int lastIndex}) async {
     return await _lock.synchronized(() async {
       int count = await _getNextIndex();
 
@@ -83,7 +83,7 @@ class SqliteRepository implements Repository {
         lastIndex = max(0, lastIndex + count);
       }
 
-      List<LocationData> result = [];
+      List<Location> result = [];
       // TODO improve this...
       for (int index = beginIndex; index < lastIndex; index++) {
         String key = "record-${index}-%";
@@ -92,7 +92,7 @@ class SqliteRepository implements Repository {
           print("Cannot find record with key: ${key}");
           continue;
         }
-        result.add(LocationCollector.mapToLocationData(json));
+        result.add(Location.fromJson(json));
       }
       print("getLocation: return ${result.length} elements");
       return result;
@@ -100,16 +100,21 @@ class SqliteRepository implements Repository {
   }
 
   @override
-  Future<void> saveLocation(LocationData locationData) async {
+  Future<void> saveLocation(Location location) async {
     await _lock.synchronized(() async {
       int next_index = await _getNextIndex();
       var batch = await _jsonStore.startBatch();
-      await _jsonStore.setItem(
-          _makeLocationDataKey(locationData, next_index),
-          _locationDataToMap(locationData),
-          // encrypt: true,  // turn this on in production.
-          batch: batch
-      );
+      try {
+        await _jsonStore.setItem(
+            _makeLocationDataKey(location, next_index),
+            location.toJson(),
+            encrypt: true, // turn this on in production.
+            batch: batch
+        );
+      } catch (error) {
+        print(error);
+        throw error;
+      }
 
       next_index ++;
       await _jsonStore.setItem(
@@ -123,21 +128,78 @@ class SqliteRepository implements Repository {
     });
   }
 
-  String _makeLocationDataKey(LocationData data, int index) {
+  String _makeLocationDataKey(Location data, int index) {
     DateTime dateTime = DateTime.fromMillisecondsSinceEpoch(data.time.toInt());
     var key = "record-${index}-${dateTime.year}-${dateTime.month}-${dateTime.day}";
 //    var key = "record-${index}";
     print("key: ${key}");
     return key;
   }
+}
 
-  Map<String, dynamic> _locationDataToMap(LocationData data) {
+
+class Location {
+  final double latitude;
+  final double longitude;
+  final double accuracy;
+  final double altitude;
+  final double speed;
+  final double speedAccuracy;
+  final double heading;
+  final double time;
+
+  Location._(this.latitude, this.longitude, this.accuracy, this.altitude,
+      this.speed, this.speedAccuracy, this.heading, this.time);
+
+  factory Location.fromJson(Map<dynamic, dynamic> json) {
+    return Location._(
+        toDouble(json['latitude']),
+        toDouble(json['longitude']),
+        toDouble(json['accuracy']),
+        toDouble(json['altitude']),
+        toDouble(json['speed']),
+        toDouble(json['speed_accuracy']),
+        toDouble(json['heading']),
+        toDouble(json['time']));
+  }
+  
+  factory Location.fromLocationDto(LocationDto locationDto) {
+    return Location.fromJson(locationDto.toJson());
+  }
+
+  factory Location.fromLocationData(lib_location.LocationData locationData) {
+    return Location._(
+      locationData.latitude,
+      locationData.longitude,
+      locationData.accuracy,
+      locationData.altitude,
+      locationData.speed,
+      locationData.speedAccuracy,
+      locationData.heading,
+      locationData.time
+    );
+  }
+
+  Map<String, dynamic> toJson() {
     return {
-      'latitude': data.latitude,
-      'longitude': data.longitude,
-      'altitude': data.altitude,
-      'time': data.time,
-      'accurity': data.accuracy,
+      'latitude': this.latitude,
+      'longitude': this.longitude,
+      'accuracy': this.accuracy,
+      'altitude': this.altitude,
+      'speed': this.speed,
+      'speed_accuracy': this.speedAccuracy,
+      'heading': this.heading,
+      'time': this.time,
     };
+  }
+
+  static double toDouble(dynamic x) {
+    if (x is double) {
+      return x;
+    }
+    if (x is int) {
+      return x + 0.0;
+    }
+    return null;
   }
 }
