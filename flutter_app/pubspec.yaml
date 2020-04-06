@@ -21,10 +21,6 @@ dependencies:
     sdk: flutter
 
   location: ^2.5.0
-  # workmanager: ^0.2.0
-
-  # json_store: ^1.0.2
-  # synchronized: ^2.2.0
 
   flutter_share: ^1.0.2+1
   path_provider: ^1.6.5
