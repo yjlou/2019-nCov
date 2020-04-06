@@ -14,11 +14,17 @@ dependencies:
   location: ^2.5.0
   workmanager: ^0.2.0
 
-  json_store: ^1.0.2
+  json_store:
+    path: ../json_store
+
   synchronized: ^2.2.0
 
   flutter_share: ^1.0.2+1
   path_provider: ^1.6.5
+
+  background_locator:
+    path: ../background_locator/
+  location_permissions: ^2.0.5
 
 dev_dependencies:
   flutter_test:
