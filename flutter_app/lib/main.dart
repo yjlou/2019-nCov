@@ -109,15 +109,14 @@ class _MyHomePageState extends State<MyHomePage> {
     SqliteRepository().clear();
   }
 
-  Future<void> _getDatabase() async {
-    String dbPath = await SqliteRepository().getDatabasePath();
-    File dbFile = File(dbPath);
+  Future<void> _exportDatabase() async {
     Directory extDir = await getExternalStorageDirectory();
-    File newFile = dbFile.copySync('${extDir.path}/recorded_location.db');
+    String extFilePath = '${extDir.path}/recorded_location.json';
+    await SqliteRepository().export(extFilePath);
     await FlutterShare.shareFile(
-      title: 'RecordedLocation.db',
-      text: 'Recorded location in SQLite',
-      filePath: newFile.path,
+      title: 'recorded_location.json',
+      text: 'Recorded location in JSON',
+      filePath: extFilePath,
     );
   }
 
@@ -194,8 +193,8 @@ class _MyHomePageState extends State<MyHomePage> {
             ButtonBar(
               children: <Widget>[
                 RaisedButton(
-                  child: Text('Get DB'),
-                  onPressed: _getDatabase,
+                  child: Text('Export DB'),
+                  onPressed: _exportDatabase,
                 )
               ]),
           ],

@@ -1,3 +1,4 @@
+import 'dart:convert';
 import 'dart:io';
 import 'dart:math';
 
@@ -5,6 +6,7 @@ import 'package:background_locator/location_dto.dart';
 import 'package:json_store/json_store.dart';
 import 'package:location/location.dart' as lib_location;
 import 'package:path_provider/path_provider.dart';
+import 'package:sqflite/sqflite.dart';
 import 'package:synchronized/synchronized.dart';
 
 
@@ -66,6 +68,36 @@ class SqliteRepository implements Repository {
     return '${path.path}/${DB_NAME}.db';
   }
 
+  Future<void> export(String filePath) async {
+    var records = await _jsonStore.getListLike('record-%');
+    var outObj = [];
+    for (var i = 0; i < records.length; i++) {
+      final t = records[i]['time'] as double;
+      final dateTime = DateTime.fromMillisecondsSinceEpoch(t.toInt());
+      outObj.add(
+        {
+          'placeVisit': {
+            'location': {
+              'latitudeE7': records[i]['latitude'] * 1e7,
+              'longitudeE7': records[i]['longitude'] * 1e7,
+              'name': dateTime.toIso8601String(),
+            },
+            'duration': {
+              // let's mark a 10 minutes duration.
+              'startTimestampMs': t - 5 * 60 * 1000,
+              'endTimestampMs': t + 5 * 60 * 1000,
+            }
+          }
+        }
+      );
+    }
+    String encoded = json.encode({
+      'timelineObjects': outObj
+    });
+    final file = new File(filePath);
+    await file.writeAsString(encoded);
+  }
+
   @override
   Future<List<Location>> getLocation({int beginIndex, int lastIndex}) async {
     return await _lock.synchronized(() async {
@@ -109,7 +141,8 @@ class SqliteRepository implements Repository {
             _makeLocationDataKey(location, next_index),
             location.toJson(),
             encrypt: true, // turn this on in production.
-            batch: batch
+            batch: batch,
+            timeToLive: Duration(days: 28),  // technically, we only need 14 days.
         );
       } catch (error) {
         print(error);
@@ -131,7 +164,6 @@ class SqliteRepository implements Repository {
   String _makeLocationDataKey(Location data, int index) {
     DateTime dateTime = DateTime.fromMillisecondsSinceEpoch(data.time.toInt());
     var key = "record-${index}-${dateTime.year}-${dateTime.month}-${dateTime.day}";
-//    var key = "record-${index}";
     print("key: ${key}");
     return key;
   }
