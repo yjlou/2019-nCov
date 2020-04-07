@@ -76,7 +76,7 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
         notificationMsg: "covid19 is tracking your location in the background",
         wakeLockTime: 20,  // unit: minutes
         autoStop: false,
-        interval: 60, // unit: seconds
+        interval: 5 * 60, // unit: seconds
       ),
     );
     print('LocationCollector.start: BackgroundLocator registered');
