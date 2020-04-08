@@ -15,40 +15,34 @@ if (this.DOMParser == undefined) {
 // Global variable
 //
 
-// The list of default patients data. Each entry is a dict:
+//---------------------------------------
+// Content of root metadata file should be compatible with following type
+// (using typescript syntax),
 //
-//   desc: The string shown to user
-//   meta: The meta file path. It contains bounding box and last-updated info.
-//   path: The point data path.
-//   src: URL string pointing to the data source.
+// class RootMetadata {
+//   class PatientsData {
+//     // Optional, put whatever you want to describe the data, won't be used.
+//     __comment: string;
 //
-// This structure is used to indicate where data are located. They will be loaded to PATIENT somehow.
+//     // The string shown to user
+//     desc: string;
 //
-var DEFAULT_PATIENTS_DATA = [
-  // Taiwan ChingMing Days
-  {
-    desc: 'Taiwan 台灣清明節高風險地區',
-    meta: 'countries/taiwan/ChingMing-meta.json',
-    path: 'countries/taiwan/ChingMing-output.json',
-    src: 'https://drive.google.com/open?id=145ia8C6MEMaI_ZdeezWmF_q-M1beh6RP&usp=sharing',
-  },
-
-  // coronamap.site
-  {
-    desc: 'Korea data [https://coronamap.site]',
-    meta: "countries/korea/coronamap.site-meta.json",
-    path: "countries/korea/coronamap.site-output.json",
-    src: 'https://coronamap.site',
-  },
-
-  // Israel government GIS
-  {
-    desc: 'Israel cases',
-    meta: "countries/israel/meta.json",
-    path: "countries/israel/output.json",
-    src: 'https://imoh.maps.arcgis.com/apps/webappviewer/index.html?id=20ded58639ff4d47a2e2e36af464c36e&locale=he&/',
-  },
-];
+//     // The meta file path. It contains bounding box and last-updated info.
+//     meta: string;
+//
+//     // The point data path.
+//     path: string;
+//
+//     // URL string pointing to the data source.
+//     src: string;
+//   };
+//
+//   // The list of default patients data.
+//   defaultPatientsData: PatientsData[];
+// };
+//---------------------------------------
+// Path to root metadata file.
+var ROOT_META_PATH = 'meta.json';
 
 // Class Meta
 //

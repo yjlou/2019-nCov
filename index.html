@@ -160,8 +160,12 @@
             src: PARAMS.get("patient"),
           });
         } else {
+
+          // TODO: Make this a global variable when we put more stuff in root
+          //       metadata.
+          let metadata = JSON.parse(fetchHttpFile(ROOT_META_PATH));
           // Load default data.
-          for(let patients of DEFAULT_PATIENTS_DATA) {
+          for(let patients of metadata['defaultPatientsData']) {
             load_files.push(patients);
           }
         }
