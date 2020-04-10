@@ -11,7 +11,6 @@ dependencies:
   flutter:
     sdk: flutter
 
-  location: ^2.5.0
   workmanager: ^0.2.0
 
   json_store:

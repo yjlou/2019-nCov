@@ -4,9 +4,7 @@ import 'dart:math';
 
 import 'package:background_locator/location_dto.dart';
 import 'package:json_store/json_store.dart';
-import 'package:location/location.dart' as lib_location;
 import 'package:path_provider/path_provider.dart';
-import 'package:sqflite/sqflite.dart';
 import 'package:synchronized/synchronized.dart';
 
 
@@ -197,19 +195,6 @@ class Location {
   
   factory Location.fromLocationDto(LocationDto locationDto) {
     return Location.fromJson(locationDto.toJson());
-  }
-
-  factory Location.fromLocationData(lib_location.LocationData locationData) {
-    return Location._(
-      locationData.latitude,
-      locationData.longitude,
-      locationData.accuracy,
-      locationData.altitude,
-      locationData.speed,
-      locationData.speedAccuracy,
-      locationData.heading,
-      locationData.time
-    );
   }
 
   Map<String, dynamic> toJson() {

@@ -20,17 +20,15 @@ dependencies:
   flutter:
     sdk: flutter
 
-  location: ^2.5.0
-
   flutter_share: ^1.0.2+1
   path_provider: ^1.6.5
+
+  location_collector:
+    path: ../flutter_plugins/location_collector/
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^0.1.2
-
-  location_collector:
-    path: ../flutter_plugins/location_collector/
 
 dev_dependencies:
   flutter_test:
@@ -47,10 +45,6 @@ flutter:
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
-
-#  plugin:
-#    androidPackage: events.pandemic.covid19
-#    pluginClass: LocationPlugin
 
   # To add assets to your application, add an assets section, like this:
   # assets:
