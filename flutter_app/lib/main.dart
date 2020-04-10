@@ -111,7 +111,9 @@ class _MyHomePageState extends State<MyHomePage> {
 
   Future<void> _exportDatabase() async {
     Directory extDir = await getExternalStorageDirectory();
-    String extFilePath = '${extDir.path}/recorded_location.json';
+    Directory destDir = new Directory('${extDir.path}/events.pandemic');
+    await destDir.create(recursive: true);
+    String extFilePath = '${destDir.path}/recorded_location.json';
     await SqliteRepository().export(extFilePath);
     await FlutterShare.shareFile(
       title: 'recorded_location.json',
