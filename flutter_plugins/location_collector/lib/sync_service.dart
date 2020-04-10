@@ -1,14 +1,17 @@
 import 'dart:convert';
+import 'dart:io';
 
-import 'package:http/http.dart' as http;
 import 'package:workmanager/workmanager.dart';
 
+import 'http_utils.dart';
+import 'patients_data.dart';
 import 'work_manager.dart';
 
 // Get update from backend service
 class SyncService {
   static const TASK_NAME = 'events.pandemic.plugins.location_collector/sync_service';
-  static const RESOURCE_URL = 'https://raw.githubusercontent.com/yjlou/2019-nCov/master/countries/israel/output.json';
+  static const SERVER_URL = 'https://stimim.github.io/2019-nCov';
+  static const ROOT_META_PATH = 'meta.json';
   static SyncService _instance;
 
   factory SyncService() {
@@ -51,17 +54,24 @@ class SyncService {
   }
 
   Future<void> tick() async {
-    http.Response response = await http.get(RESOURCE_URL);
-    if (response.statusCode == 200) {
-      final obj = json.decode(response.body);
-      final hasKey = obj['timelineObjects'] != null;
-      if (hasKey) {
-        print('Has timelineObjects');
-      } else {
-        print('Does not have timelineObjects');
+    try {
+      final metadata = json.decode(
+          await fetchHttpFile('${SERVER_URL}/${ROOT_META_PATH}'));
+
+      final defaultPatientsData = metadata['defaultPatientsData'] as List;
+      if (defaultPatientsData == null) {
+        return;
       }
-    } else {
-      print('Failed to get server resource ${response.statusCode}');
+
+      List<PatientsData> patientsDataList = [];
+      for (var i = 0; i < defaultPatientsData.length; i++) {
+        final patientsData = PatientsData.fromJson(defaultPatientsData[i]);
+        patientsDataList.add(patientsData);
+      }
+    } on HttpException catch (error) {
+      print(error.message);
+    } catch (error) {
+      print(error);
     }
   }
 }
