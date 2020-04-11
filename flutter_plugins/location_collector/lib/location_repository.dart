@@ -4,6 +4,7 @@ import 'dart:math';
 
 import 'package:background_locator/location_dto.dart';
 import 'package:json_store/json_store.dart';
+import 'package:location_collector/patients_data.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:synchronized/synchronized.dart';
 
@@ -208,6 +209,16 @@ class Location {
       'heading': this.heading,
       'time': this.time,
     };
+  }
+
+  PlaceVisit toPlaceVisit() {
+    return PlaceVisit.fromJson({
+      'name': DateTime.fromMillisecondsSinceEpoch(this.time.toInt()).toIso8601String(),
+      'lat': this.latitude,
+      'lng': this.longitude,
+      'begin': this.time / 1000 - 5 * 60,
+      'end': this.time / 1000 + 5 * 60,
+    });
   }
 
   static double toDouble(dynamic x) {
