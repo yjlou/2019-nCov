@@ -8,7 +8,6 @@ import 'package:location_collector/patients_data.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:synchronized/synchronized.dart';
 
-
 abstract class Repository {
   // Save location to repository.
   Future<void> saveLocation(Location locationData);
@@ -24,7 +23,6 @@ abstract class Repository {
 
   Future<void> clear();
 }
-
 
 class SqliteRepository implements Repository {
   static SqliteRepository _instance;
@@ -42,9 +40,7 @@ class SqliteRepository implements Repository {
   Lock _lock;
 
   SqliteRepository._make() {
-    _jsonStore = JsonStore(
-        dbName: DB_NAME,
-        inMemory: false);
+    _jsonStore = JsonStore(dbName: DB_NAME, inMemory: false);
     _lock = new Lock(reentrant: true);
   }
 
@@ -73,26 +69,22 @@ class SqliteRepository implements Repository {
     for (var i = 0; i < records.length; i++) {
       final t = records[i]['time'] as double;
       final dateTime = DateTime.fromMillisecondsSinceEpoch(t.toInt());
-      outObj.add(
-        {
-          'placeVisit': {
-            'location': {
-              'latitudeE7': records[i]['latitude'] * 1e7,
-              'longitudeE7': records[i]['longitude'] * 1e7,
-              'name': dateTime.toIso8601String(),
-            },
-            'duration': {
-              // let's mark a 10 minutes duration.
-              'startTimestampMs': t - 5 * 60 * 1000,
-              'endTimestampMs': t + 5 * 60 * 1000,
-            }
+      outObj.add({
+        'placeVisit': {
+          'location': {
+            'latitudeE7': records[i]['latitude'] * 1e7,
+            'longitudeE7': records[i]['longitude'] * 1e7,
+            'name': dateTime.toIso8601String(),
+          },
+          'duration': {
+            // let's mark a 10 minutes duration.
+            'startTimestampMs': t - 5 * 60 * 1000,
+            'endTimestampMs': t + 5 * 60 * 1000,
           }
         }
-      );
+      });
     }
-    String encoded = json.encode({
-      'timelineObjects': outObj
-    });
+    String encoded = json.encode({'timelineObjects': outObj});
     final file = new File(filePath);
     await file.writeAsString(encoded);
   }
@@ -133,41 +125,38 @@ class SqliteRepository implements Repository {
   @override
   Future<void> saveLocation(Location location) async {
     await _lock.synchronized(() async {
-      int next_index = await _getNextIndex();
+      int nextIndex = await _getNextIndex();
       var batch = await _jsonStore.startBatch();
       try {
         await _jsonStore.setItem(
-            _makeLocationDataKey(location, next_index),
-            location.toJson(),
-            encrypt: true, // turn this on in production.
-            batch: batch,
-            timeToLive: Duration(days: 28),  // technically, we only need 14 days.
+          _makeLocationDataKey(location, nextIndex),
+          location.toJson(),
+          encrypt: true, // turn this on in production.
+          batch: batch,
+          timeToLive: Duration(days: 28), // technically, we only need 14 days.
         );
       } catch (error) {
         print(error);
         throw error;
       }
 
-      next_index ++;
-      await _jsonStore.setItem(
-          NEXT_INDEX_KEY,
-          { 'value': next_index },
-          batch: batch
-      );
+      nextIndex++;
+      await _jsonStore.setItem(NEXT_INDEX_KEY, {'value': nextIndex},
+          batch: batch);
       await _jsonStore.commitBatch(batch);
 
-      print("saved to database! Next index: ${next_index}");
+      print("saved to database! Next index: ${nextIndex}");
     });
   }
 
   String _makeLocationDataKey(Location data, int index) {
     DateTime dateTime = DateTime.fromMillisecondsSinceEpoch(data.time.toInt());
-    var key = "record-${index}-${dateTime.year}-${dateTime.month}-${dateTime.day}";
+    var key =
+        "record-${index}-${dateTime.year}-${dateTime.month}-${dateTime.day}";
     print("key: ${key}");
     return key;
   }
 }
-
 
 class Location {
   final double latitude;
@@ -193,7 +182,7 @@ class Location {
         toDouble(json['heading']),
         toDouble(json['time']));
   }
-  
+
   factory Location.fromLocationDto(LocationDto locationDto) {
     return Location.fromJson(locationDto.toJson());
   }
@@ -213,7 +202,8 @@ class Location {
 
   PlaceVisit toPlaceVisit() {
     return PlaceVisit.fromJson({
-      'name': DateTime.fromMillisecondsSinceEpoch(this.time.toInt()).toIso8601String(),
+      'name': DateTime.fromMillisecondsSinceEpoch(this.time.toInt())
+          .toIso8601String(),
       'lat': this.latitude,
       'lng': this.longitude,
       'begin': this.time / 1000 - 5 * 60,

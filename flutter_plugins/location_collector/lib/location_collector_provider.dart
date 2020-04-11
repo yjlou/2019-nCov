@@ -3,7 +3,9 @@ import 'package:location_permissions/location_permissions.dart';
 
 abstract class LocationCollector {
   Future<bool> isRunning();
+
   Future<bool> start();
+
   Future<bool> stop();
 
   Future<bool> checkLocationPermission() async {

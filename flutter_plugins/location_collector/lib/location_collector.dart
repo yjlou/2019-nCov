@@ -9,10 +9,9 @@ import 'package:location_collector/location_collector_provider.dart';
 
 import 'location_repository.dart';
 
-
 class BackgroundLocatorLocationCollector extends LocationCollector {
   static BackgroundLocatorLocationCollector _instance;
-  static final _ISOLATE_NAME = 'LocatorIsolate';
+  static const _ISOLATE_NAME = 'LocatorIsolate';
 
   factory BackgroundLocatorLocationCollector() {
     if (_instance == null) {
@@ -64,7 +63,7 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
 
   @override
   Future<bool> start() async {
-      if (!await checkLocationPermission()) {
+    if (!await checkLocationPermission()) {
       return false;
     }
 
@@ -74,9 +73,11 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
       settings: LocationSettings(
         notificationTitle: "covid19 is running...",
         notificationMsg: "covid19 is tracking your location in the background",
-        wakeLockTime: 20,  // unit: minutes
+        // unit: minutes
+        wakeLockTime: 20,
         autoStop: false,
-        interval: 5 * 60, // unit: seconds
+        // unit: seconds
+        interval: 5 * 60,
       ),
     );
     print('LocationCollector.start: BackgroundLocator registered');
@@ -88,5 +89,4 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
     await BackgroundLocator.unRegisterLocationUpdate();
     return true;
   }
-
 }
