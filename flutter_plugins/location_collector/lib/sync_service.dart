@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
@@ -55,62 +56,79 @@ class SyncService {
     return true;
   }
 
-  Future<void> tick() async {
+  Future<void> tick({StreamController stream}) async {
+    void _notify(String message) {
+      if (stream != null) {
+        stream.add(message);
+      }
+      print(message);
+    }
+
     try {
+      _notify('Downloading metadata from server...');
       final metadata =
-          json.decode(await fetchHttpFile('${SERVER_URL}/${ROOT_META_PATH}'));
+      json.decode(await fetchHttpFile('${SERVER_URL}/${ROOT_META_PATH}'));
 
       final defaultPatientsData = metadata['defaultPatientsData'] as List;
       if (defaultPatientsData == null) {
+        _notify('No patients data found, done.');
         return;
       }
 
-      List<PatientsData> patientsDataList = [];
-      for (var i = 0; i < defaultPatientsData.length; i++) {
-        final patientsData = PatientsData.fromJson(defaultPatientsData[i]);
-        patientsDataList.add(patientsData);
-      }
+      final List<PatientsData> patientsDataList = [
+        for (var it in defaultPatientsData) PatientsData.fromJson(it)
+      ];
 
-      final List<Location> locationList =
-          await SqliteRepository().getLocation();
-      print('Loaded ${locationList.length} points from local database');
+      _notify('Loading user data from local database...');
+      final List<Location> locationList = await SqliteRepository()
+          .getLocation();
+      _notify('Loaded ${locationList.length} points from local database');
 
-      final List<PlaceVisit> placeVisitList = locationList.map((it) {
-        return it.toPlaceVisit();
-      });
+      final List<PlaceVisit> placeVisitList = [
+        for (var location in locationList) location.toPlaceVisit()
+      ];
       BoundingBox boundingBox = BoundingBox.fromPlaceVisitList(placeVisitList);
 
-      patientsDataList.forEach((it) async {
+      for (var it in patientsDataList) {
         if (!(await it.fetch())) {
-          print(
-              'Cannot fetch patients data: desc=${it.desc}, path=${it.path}, meta=${it.meta}');
-          return;
+          _notify(
+              'Cannot fetch patients data: desc=${it.desc}, path=${it
+                  .path}, meta=${it.meta}');
+          continue;
         }
 
-        print(
-            'Checking patients data: desc=${it.desc}, size=${it.points.length}');
+        _notify(
+            'Checking patients data: desc=${it.desc}, size=${it.points
+                .length}');
+
         // Compare it with all data points.
         if (!boundingBox.isOverlapped(it.boundingBox)) {
-          return;
+          _notify('Bounding box does not overlap, skip.');
+          continue;
         }
         List<MatchedPoint> ret = [];
-        placeVisitList.forEach((userPlaceVisit) {
-          it.points.forEach((patientPlaceVisit) {
+        for (var userPlaceVisit in placeVisitList) {
+          for (var patientPlaceVisit in it.points) {
             if (userPlaceVisit.isOverlapped(patientPlaceVisit)) {
               ret.add(MatchedPoint.make(userPlaceVisit, patientPlaceVisit));
+              _notify('Found 1 new match...');
             }
-          });
-        });
-        print('Found ${ret.length} matches');
+          }
+        }
+        _notify('Found ${ret.length} matches');
 
         if (ret.length > 0) {
           // TODO: store matched points
         }
-      });
+      }
     } on HttpException catch (error) {
-      print(error.message);
+      _notify(error.message);
     } catch (error) {
-      print(error);
+      _notify(error);
+    } finally {
+      if (stream != null) {
+        stream.close();
+      }
     }
   }
 }

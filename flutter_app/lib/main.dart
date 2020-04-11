@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:io';
 
 import 'package:flutter/material.dart';
@@ -122,6 +123,33 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
+  String _checkerStatus = '';
+
+  void _check() async {
+    StreamController streamController = StreamController();
+    streamController.stream.listen((data) {
+      setState(() {
+        _checkerStatus = data;
+      });
+      print('received data: ${data}');
+    }, onDone: () {
+      print('task done');
+    }, onError: (error) {
+      print('error: ${error}');
+    });
+
+    try {
+      setState(() {
+        _checkerStatus = 'start checking...';
+      });
+      await SyncService().tick(stream: streamController);
+    } catch (error) {
+      print(error);
+    } finally {
+      print('Check completed');
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     List<Widget> locationWidgets = [];
@@ -197,8 +225,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 RaisedButton(
                   child: Text('Export DB'),
                   onPressed: _exportDatabase,
+                ),
+                RaisedButton(
+                  child: Text('Check'),
+                  onPressed: _check,
                 )
               ]),
+            Text(_checkerStatus),
           ],
         ),
       ),

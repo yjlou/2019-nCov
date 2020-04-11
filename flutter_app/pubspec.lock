@@ -143,7 +143,7 @@ packages:
       path: "../flutter_plugins/json_store"
       relative: true
     source: path
-    version: "1.0.2"
+    version: "1.0.3"
   location_collector:
     dependency: "direct main"
     description:

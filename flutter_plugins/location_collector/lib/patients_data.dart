@@ -22,7 +22,7 @@ class PatientsData {
   List<PlaceVisit> points;
   BoundingBox boundingBox;
   int timestamp;
-  bool fetched;
+  bool fetched = false;
 
   PatientsData._(this.desc, this.meta, this.path, this.src);
 
@@ -166,30 +166,34 @@ class PlaceVisit {
 
   factory PlaceVisit.fromJson(json) {
     return PlaceVisit._(
-        json['name'], json['lat'], json['lng'], json['begin'], json['end']);
+        json['name'],
+        json['lat'],
+        json['lng'],
+        json['begin'].toInt(),
+        json['end'].toInt());
   }
 
-  static List<PlaceVisit> parseGoogleTakeoutFormat(json) {
-    List<Map<dynamic, dynamic>> objs = json['timelineObjects'];
-    if (objs == null) {
+  static List<PlaceVisit> parseGoogleTakeoutFormat(Map<dynamic, dynamic> json) {
+    final timelineObjects = json['timelineObjects'];
+    if (timelineObjects == null) {
       print('Cannot find timelineObjects...');
       return null;
     }
 
     List<PlaceVisit> output = [];
-    for (var i = 0; i < objs.length; i++) {
-      var obj = objs[i];
-      Map<dynamic, dynamic> placeVisit = obj['placeVisit'];
+    for (var i = 0; i < timelineObjects.length; i++) {
+      var obj = timelineObjects[i];
+      final placeVisit = obj['placeVisit'];
       if (placeVisit == null) {
         continue;
       }
 
       output.add(PlaceVisit.fromJson({
         'name': placeVisit['location']['name'],
-        'lat': placeVisit['location']['latitudeE7'] / 10000000.0,
-        'lng': placeVisit['location']['longitudeE7'] / 10000000.0,
-        'begin': (placeVisit['duration']['startTimestampMs'] / 1000.0).floor(),
-        'end': (placeVisit['duration']['endTimestampMs'] / 1000.0).floor(),
+        'lat': placeVisit['location']['latitudeE7'] / 1e7,
+        'lng': placeVisit['location']['longitudeE7'] / 1e7,
+        'begin': (placeVisit['duration']['startTimestampMs'] / 1e3).floor(),
+        'end': (placeVisit['duration']['endTimestampMs'] / 1e3).floor(),
       }));
     }
     return output;
