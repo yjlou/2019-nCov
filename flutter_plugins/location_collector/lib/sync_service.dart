@@ -82,8 +82,12 @@ class SyncService {
       _notify('Loading user data from local database...');
       final List<Location> locationList = await SqliteRepository()
           .getLocation();
-      _notify('Loaded ${locationList.length} points from local database');
-
+      if (locationList.length == 0) {
+        _notify('No data found, please enable location recording...');
+        return;
+      } else {
+        _notify('Loaded ${locationList.length} points from local database');
+      }
       final List<PlaceVisit> placeVisitList = [
         for (var location in locationList) location.toPlaceVisit()
       ];

@@ -80,21 +80,19 @@ class PatientsData {
 }
 
 class BoundingBox {
-  // lat * 1e7
+  // lat * 1e7, topE7 <= bottomE7
   final double topE7;
 
-  // lng * 1e7
+  // lat * 1e7
+  final double bottomE7;
+
+  // lng * 1e7, leftE7 <= rightE7
   final double leftE7;
 
   // lng * 1e7
   final double rightE7;
 
-  // lat * 1e7
-  final double bottomE7;
-
-  BoundingBox._(this.topE7, this.leftE7, rightE7, bottomE7)
-      : bottomE7 = (topE7 == bottomE7 ? bottomE7 + 1 : bottomE7),
-        rightE7 = (leftE7 == rightE7 ? rightE7 + 1 : rightE7);
+  BoundingBox._(this.topE7, this.leftE7, this.rightE7, this.bottomE7);
 
   factory BoundingBox.fromJson(Map<dynamic, dynamic> json) {
     return BoundingBox._(
@@ -129,7 +127,7 @@ class BoundingBox {
       }
     });
 
-    return BoundingBox._(top, left, right, bottom);
+    return BoundingBox._(top + 1E6, left - 1E6, right + 1E6, bottom - 1E6);
   }
 }
 

@@ -21,13 +21,15 @@ abstract class Repository {
   // Returns elements [beginIndex, lastIndex)
   Future<List<Location>> getLocation({int beginIndex, int lastIndex});
 
+  Future<List<Location>> getAllLocation();
+
   Future<void> clear();
 }
 
 class SqliteRepository implements Repository {
   static SqliteRepository _instance;
-  static String NEXT_INDEX_KEY = 'NEXT_INDEX_KEY';
-  static String DB_NAME = 'events_pandemic_covid19_location_history';
+  static const NEXT_INDEX_KEY = 'NEXT_INDEX_KEY';
+  static const LOCATION_HISTORY_DB_NAME = 'events_pandemic_covid19_location_history';
 
   factory SqliteRepository() {
     if (_instance == null) {
@@ -40,7 +42,7 @@ class SqliteRepository implements Repository {
   Lock _lock;
 
   SqliteRepository._make() {
-    _jsonStore = JsonStore(dbName: DB_NAME, inMemory: false);
+    _jsonStore = JsonStore(dbName: LOCATION_HISTORY_DB_NAME, inMemory: false);
     _lock = new Lock(reentrant: true);
   }
 
@@ -60,7 +62,7 @@ class SqliteRepository implements Repository {
 
   Future<String> getDatabasePath() async {
     final Directory path = await getApplicationDocumentsDirectory();
-    return '${path.path}/${DB_NAME}.db';
+    return '${path.path}/${LOCATION_HISTORY_DB_NAME}.db';
   }
 
   Future<void> export(String filePath) async {
@@ -90,8 +92,21 @@ class SqliteRepository implements Repository {
   }
 
   @override
+  Future<List<Location>> getAllLocation() async {
+    var records = await _jsonStore.getListLike('record-%');
+    return [
+      for (var record in records) Location.fromJson(record)
+    ];
+  }
+
+  @override
   Future<List<Location>> getLocation({int beginIndex, int lastIndex}) async {
     return await _lock.synchronized(() async {
+      // TODO: This is much faster, maybe we should just get all, and return a subarray?
+      if (beginIndex == null && lastIndex == null) {
+        return await getAllLocation();
+      }
+
       int count = await _getNextIndex();
 
       if (beginIndex == null) {
