@@ -6,6 +6,7 @@ import 'package:workmanager/workmanager.dart';
 
 import 'http_utils.dart';
 import 'location_repository.dart';
+import 'matched_result.dart';
 import 'patients_data.dart';
 import 'work_manager.dart';
 
@@ -92,7 +93,9 @@ class SyncService {
         for (var location in locationList) location.toPlaceVisit()
       ];
       BoundingBox boundingBox = BoundingBox.fromPlaceVisitList(placeVisitList);
+      // TODO: merge placeVisit if the user didn't move?
 
+      List<MatchedPoint> ret = [];
       for (var it in patientsDataList) {
         if (!(await it.fetch())) {
           _notify(
@@ -110,21 +113,19 @@ class SyncService {
           _notify('Bounding box does not overlap, skip.');
           continue;
         }
-        List<MatchedPoint> ret = [];
-        for (var userPlaceVisit in placeVisitList) {
-          for (var patientPlaceVisit in it.points) {
+
+        for (var patientPlaceVisit in it.points) {
+          for (var userPlaceVisit in placeVisitList) {
             if (userPlaceVisit.isOverlapped(patientPlaceVisit)) {
               ret.add(MatchedPoint.make(userPlaceVisit, patientPlaceVisit));
-              _notify('Found 1 new match...');
             }
           }
         }
-        _notify('Found ${ret.length} matches');
-
-        if (ret.length > 0) {
-          // TODO: store matched points
-        }
       }
+      _notify('Found ${ret.length} matches.');
+      _notify('Saving ${ret.length} records to database...');
+      SqliteRepository().saveMatchedResult(ret);
+      _notify('Done.');
     } on HttpException catch (error) {
       _notify(error.message);
     } catch (error) {

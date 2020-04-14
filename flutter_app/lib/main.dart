@@ -8,6 +8,8 @@ import 'package:location_collector/location_repository.dart';
 import 'package:location_collector/sync_service.dart';
 import 'package:path_provider/path_provider.dart';
 
+import 'matched_result_widget.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Location Tracker',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -30,7 +32,11 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => MyHomePage(title: 'Location Tracker'),
+        '/matched_result': (context) => MatchedResultWidget(),
+      },
     );
   }
 }
@@ -106,8 +112,30 @@ class _MyHomePageState extends State<MyHomePage> {
     });
   }
 
-  void _deleteLocations() {
-    SqliteRepository().clear();
+  void _clearLocations() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Press "Confirm" to delete all recorded location'),
+          actions: <Widget>[
+            RaisedButton(
+              child: Text('Confirm'),
+              onPressed: () async {
+                await SqliteRepository().clear();
+                Navigator.of(context).pop();
+              },
+            ),
+            RaisedButton(
+              child: Text('No'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        );
+    });
+
   }
 
   Future<void> _exportDatabase() async {
@@ -121,33 +149,6 @@ class _MyHomePageState extends State<MyHomePage> {
       text: 'Recorded location in JSON',
       filePath: extFilePath,
     );
-  }
-
-  String _checkerStatus = '';
-
-  void _check() async {
-    StreamController streamController = StreamController();
-    streamController.stream.listen((data) {
-      setState(() {
-        _checkerStatus = data;
-      });
-      print('received data: ${data}');
-    }, onDone: () {
-      print('task done');
-    }, onError: (error) {
-      print('error: ${error}');
-    });
-
-    try {
-      setState(() {
-        _checkerStatus = 'start checking...';
-      });
-      await SyncService().tick(stream: streamController);
-    } catch (error) {
-      print(error);
-    } finally {
-      print('Check completed');
-    }
   }
 
   @override
@@ -216,8 +217,8 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: _updateLocations,
                 ),
                 RaisedButton(
-                  child: Text('Delete Locations'),
-                  onPressed: _deleteLocations,
+                  child: Text('Clear Locations'),
+                  onPressed: _clearLocations,
                 )
               ]),
             ButtonBar(
@@ -227,11 +228,12 @@ class _MyHomePageState extends State<MyHomePage> {
                   onPressed: _exportDatabase,
                 ),
                 RaisedButton(
-                  child: Text('Check'),
-                  onPressed: _check,
+                  child: Text('Matched Results'),
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/matched_result');
+                  },
                 )
               ]),
-            Text(_checkerStatus),
           ],
         ),
       ),

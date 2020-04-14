@@ -232,26 +232,6 @@ class PlaceVisit {
   }
 }
 
-class MatchedPoint {
-  final String patientDesc;
-  final String userDesc;
-  final double userLat;
-  final double userLng;
-  final int userBegin;
-  final int userEnd;
-
-  // Link back to PatientsData?
-  // final PatientsData patientsData;
-
-  MatchedPoint._(this.patientDesc, this.userDesc, this.userLat, this.userLng,
-      this.userBegin, this.userEnd);
-
-  factory MatchedPoint.make(PlaceVisit user, PlaceVisit patient) {
-    return MatchedPoint._(
-        patient.name, user.name, user.lat, user.lng, user.begin, user.end);
-  }
-}
-
 double deg2rad(double deg) {
   // 180 deg = pi rad
   return deg * pi / 180.0;

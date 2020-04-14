@@ -8,6 +8,8 @@ import 'package:location_collector/patients_data.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:synchronized/synchronized.dart';
 
+import 'matched_result.dart';
+
 abstract class Repository {
   // Save location to repository.
   Future<void> saveLocation(Location locationData);
@@ -29,7 +31,8 @@ abstract class Repository {
 class SqliteRepository implements Repository {
   static SqliteRepository _instance;
   static const NEXT_INDEX_KEY = 'NEXT_INDEX_KEY';
-  static const LOCATION_HISTORY_DB_NAME = 'events_pandemic_covid19_location_history';
+  static const DB_NAME = 'events_pandemic_covid19_location_history';
+  static const MATCHED_RESULT_KEY = 'matched_points';
 
   factory SqliteRepository() {
     if (_instance == null) {
@@ -42,7 +45,7 @@ class SqliteRepository implements Repository {
   Lock _lock;
 
   SqliteRepository._make() {
-    _jsonStore = JsonStore(dbName: LOCATION_HISTORY_DB_NAME, inMemory: false);
+    _jsonStore = JsonStore(dbName: DB_NAME, inMemory: false);
     _lock = new Lock(reentrant: true);
   }
 
@@ -62,11 +65,14 @@ class SqliteRepository implements Repository {
 
   Future<String> getDatabasePath() async {
     final Directory path = await getApplicationDocumentsDirectory();
-    return '${path.path}/${LOCATION_HISTORY_DB_NAME}.db';
+    return '${path.path}/${DB_NAME}.db';
   }
 
   Future<void> export(String filePath) async {
     var records = await _jsonStore.getListLike('record-%');
+    if (records == null) {
+      return;
+    }
     var outObj = [];
     for (var i = 0; i < records.length; i++) {
       final t = records[i]['time'] as double;
@@ -94,6 +100,9 @@ class SqliteRepository implements Repository {
   @override
   Future<List<Location>> getAllLocation() async {
     var records = await _jsonStore.getListLike('record-%');
+    if (records == null) {
+      return [];
+    }
     return [
       for (var record in records) Location.fromJson(record)
     ];
@@ -139,7 +148,7 @@ class SqliteRepository implements Repository {
 
   @override
   Future<void> saveLocation(Location location) async {
-    await _lock.synchronized(() async {
+    return await _lock.synchronized(() async {
       int nextIndex = await _getNextIndex();
       var batch = await _jsonStore.startBatch();
       try {
@@ -161,6 +170,37 @@ class SqliteRepository implements Repository {
       await _jsonStore.commitBatch(batch);
 
       print("saved to database! Next index: ${nextIndex}");
+    });
+  }
+
+  Future<void> saveMatchedResult(List<MatchedPoint> matchedPointList) async {
+    await _lock.synchronized(() async {
+      final MATCHED_COUNT_KEY = 'matched_count';
+      // Get number of stored entries
+      var json = await _jsonStore.getItem(MATCHED_COUNT_KEY);
+      var matchedCount = (json == null ? 0 : json['count']);
+      for (int i = matchedPointList.length; i < matchedCount; i++) {
+        await _jsonStore.deleteItem('matched-${i}');
+      }
+      for (int i = 0; i < matchedPointList.length; i++) {
+        await _jsonStore.setItem(
+            'matched-${i}',
+            matchedPointList[i].toJson(),
+            encrypt: true);
+      }
+      await _jsonStore.setItem(
+          MATCHED_COUNT_KEY,
+          {'count': matchedPointList.length});
+    });
+  }
+
+  Future<List<MatchedPoint>> loadMatchedResult() async {
+    return await _lock.synchronized(() async {
+      var list = await _jsonStore.getListLike('matched-%');
+      if (list == null) {
+        return [];
+      }
+      return [for (var obj in list) MatchedPoint.fromJson(obj)];
     });
   }
 
