@@ -22,6 +22,7 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
   }
 
   ReceivePort _port = ReceivePort();
+  void Function(Location) _onReceivedLocation;
 
   BackgroundLocatorLocationCollector._make() {
     // pass
@@ -39,14 +40,27 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
     print('notificationCallback');
   }
 
-  Future<bool> init() async {
+  void registerOnReceiveLocation(void Function(Location) callback) {
+    _onReceivedLocation = callback;
+  }
+
+  Future<void> init() async {
     if (IsolateNameServer.lookupPortByName(_ISOLATE_NAME) != null) {
       IsolateNameServer.removePortNameMapping(_ISOLATE_NAME);
     }
     IsolateNameServer.registerPortWithName(_port.sendPort, _ISOLATE_NAME);
     _port.listen((dynamic data) async {
-      print('_port.listen!');
-      // TODO: do something with data?
+      if (data == null) {
+        return;
+      }
+      if (_onReceivedLocation != null) {
+        try {
+          final location = Location.fromLocationDto(data);
+          _onReceivedLocation(location);
+        } catch (error) {
+          print(error);
+        }
+      }
     });
 
     print('Initializing BackgroundLocator...');
@@ -66,8 +80,8 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
     if (!await checkLocationPermission()) {
       return false;
     }
-
-    await BackgroundLocator.registerLocationUpdate(
+    // somehow we cannot await this function call.
+    BackgroundLocator.registerLocationUpdate(
       callback,
       androidNotificationCallback: notificationCallback,
       settings: LocationSettings(
@@ -86,7 +100,8 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
 
   @override
   Future<bool> stop() async {
-    await BackgroundLocator.unRegisterLocationUpdate();
+    // somehow we can't await this function call.
+    BackgroundLocator.unRegisterLocationUpdate();
     return true;
   }
 }

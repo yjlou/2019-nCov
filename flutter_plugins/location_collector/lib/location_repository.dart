@@ -103,9 +103,7 @@ class SqliteRepository implements Repository {
     if (records == null) {
       return [];
     }
-    return [
-      for (var record in records) Location.fromJson(record)
-    ];
+    return [for (var record in records) Location.fromJson(record)];
   }
 
   @override
@@ -173,34 +171,44 @@ class SqliteRepository implements Repository {
     });
   }
 
-  Future<void> saveMatchedResult(List<MatchedPoint> matchedPointList) async {
+  static const MATCHED_META_KEY = 'matched_meta';
+
+  Future<void> setMatchedResult(List<MatchedPoint> matchedPointList) async {
     await _lock.synchronized(() async {
-      final MATCHED_COUNT_KEY = 'matched_count';
       // Get number of stored entries
-      var json = await _jsonStore.getItem(MATCHED_COUNT_KEY);
-      var matchedCount = (json == null ? 0 : json['count']);
+      var matchedCount = (await getMatchedResultMetadata()).count;
       for (int i = matchedPointList.length; i < matchedCount; i++) {
         await _jsonStore.deleteItem('matched-${i}');
       }
       for (int i = 0; i < matchedPointList.length; i++) {
-        await _jsonStore.setItem(
-            'matched-${i}',
-            matchedPointList[i].toJson(),
+        await _jsonStore.setItem('matched-${i}', matchedPointList[i].toJson(),
             encrypt: true);
       }
       await _jsonStore.setItem(
-          MATCHED_COUNT_KEY,
-          {'count': matchedPointList.length});
+          MATCHED_META_KEY,
+          MatchedResultMetadata(matchedPointList.length, DateTime.now())
+              .toJson());
     });
   }
 
-  Future<List<MatchedPoint>> loadMatchedResult() async {
+  Future<List<MatchedPoint>> getMatchedResult() async {
     return await _lock.synchronized(() async {
       var list = await _jsonStore.getListLike('matched-%');
       if (list == null) {
         return [];
       }
       return [for (var obj in list) MatchedPoint.fromJson(obj)];
+    });
+  }
+
+  Future<MatchedResultMetadata> getMatchedResultMetadata() async {
+    return await _lock.synchronized(() async {
+      final json = await _jsonStore.getItem(MATCHED_META_KEY);
+      if (json == null) {
+        return MatchedResultMetadata(0, null);
+      } else {
+        return MatchedResultMetadata.fromJson(json);
+      }
     });
   }
 

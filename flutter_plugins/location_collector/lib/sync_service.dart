@@ -14,7 +14,7 @@ import 'work_manager.dart';
 class SyncService {
   static const TASK_NAME =
       'events.pandemic.plugins.location_collector/sync_service';
-  static const SERVER_URL = 'https://events.pandemic';
+  static const SERVER_URL = 'https://pandemic.events';
   static const ROOT_META_PATH = 'meta.json';
   static SyncService _instance;
 
@@ -124,7 +124,7 @@ class SyncService {
       }
       _notify('Found ${ret.length} matches.');
       _notify('Saving ${ret.length} records to database...');
-      SqliteRepository().saveMatchedResult(ret);
+      SqliteRepository().setMatchedResult(ret);
       _notify('Done.');
     } on HttpException catch (error) {
       _notify(error.message);

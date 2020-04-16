@@ -49,7 +49,8 @@ class _MatchedResultWidgetState extends State<MatchedResultWidget> {
   }
 
   void _loadMatchedResult() {
-    SqliteRepository().loadMatchedResult().then(
+    // warning, should prevent race conditions
+    SqliteRepository().getMatchedResult().then(
       (list) {
         setState(() {
           this._matchedPointList = list;
@@ -58,6 +59,7 @@ class _MatchedResultWidgetState extends State<MatchedResultWidget> {
   }
 
   void _checkNow() async {
+    // warning, should prevent race conditions
     StreamController streamController = StreamController();
     streamController.stream.listen((data) {
       setState(() {

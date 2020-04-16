@@ -47,3 +47,22 @@ class MatchedPoint {
     };
   }
 }
+
+class MatchedResultMetadata {
+  final int count;
+  final DateTime time;
+
+  MatchedResultMetadata(this.count, this.time);
+
+  factory MatchedResultMetadata.fromJson(Map<dynamic, dynamic> json) {
+    return MatchedResultMetadata(
+        json['count'], DateTime.fromMillisecondsSinceEpoch(json['timestamp']));
+  }
+
+  Map<String, dynamic> toJson() {
+    return {
+      'count': count,
+      'timestamp': time.millisecondsSinceEpoch,
+    };
+  }
+}
