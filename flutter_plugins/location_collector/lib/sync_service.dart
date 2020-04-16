@@ -14,7 +14,7 @@ import 'work_manager.dart';
 class SyncService {
   static const TASK_NAME =
       'events.pandemic.plugins.location_collector/sync_service';
-  static const SERVER_URL = 'https://stimim.github.io/2019-nCov';
+  static const SERVER_URL = 'https://events.pandemic';
   static const ROOT_META_PATH = 'meta.json';
   static SyncService _instance;
 
