@@ -57,37 +57,47 @@ class SyncService {
     return true;
   }
 
-  Future<void> tick({StreamController stream}) async {
-    void _notify(String message) {
+  Future<bool> tick({StreamController stream}) async {
+    void info(String message) {
       if (stream != null) {
         stream.add(message);
       }
       print(message);
     }
 
+    void die(String message) {
+      // TODO: abort the function??
+      // Currently this is not an issue because we only call this function in error handler.
+      if (stream != null) {
+        stream.addError(message);
+      }
+      print('ERROR: $message');
+    }
+
     try {
-      _notify('Downloading metadata from server...');
-      final metadata =
-      json.decode(await fetchHttpFile('${SERVER_URL}/${ROOT_META_PATH}'));
+      info('Downloading metadata from server...');
+      final rawMetadata =
+          await fetchHttpFile('${SERVER_URL}/${ROOT_META_PATH}');
+      final metadata = json.decode(rawMetadata);
 
       final defaultPatientsData = metadata['defaultPatientsData'] as List;
       if (defaultPatientsData == null) {
-        _notify('No patients data found, done.');
-        return;
+        info('No patients data found, done.');
+        return true;
       }
 
       final List<PatientsData> patientsDataList = [
         for (var it in defaultPatientsData) PatientsData.fromJson(it)
       ];
 
-      _notify('Loading user data from local database...');
-      final List<Location> locationList = await SqliteRepository()
-          .getLocation();
+      info('Loading user data from local database...');
+      final List<Location> locationList =
+          await SqliteRepository().getLocation();
       if (locationList.length == 0) {
-        _notify('No data found, please enable location recording...');
-        return;
+        info('No data found, please enable location recording...');
+        return true;
       } else {
-        _notify('Loaded ${locationList.length} points from local database');
+        info('Loaded ${locationList.length} points from local database');
       }
       final List<PlaceVisit> placeVisitList = [
         for (var location in locationList) location.toPlaceVisit()
@@ -98,19 +108,17 @@ class SyncService {
       List<MatchedPoint> ret = [];
       for (var it in patientsDataList) {
         if (!(await it.fetch())) {
-          _notify(
-              'Cannot fetch patients data: desc=${it.desc}, path=${it
-                  .path}, meta=${it.meta}');
+          info(
+              'Cannot fetch patients data:\ndesc=${it.desc},\npath=${it.path},\nmeta=${it.meta}');
           continue;
         }
 
-        _notify(
-            'Checking patients data: desc=${it.desc}, size=${it.points
-                .length}');
+        info(
+            'Checking patients data:\ndesc=${it.desc},\nsize=${it.points.length}');
 
         // Compare it with all data points.
         if (!boundingBox.isOverlapped(it.boundingBox)) {
-          _notify('Bounding box does not overlap, skip.');
+          info('Bounding box does not overlap, skip.');
           continue;
         }
 
@@ -122,14 +130,16 @@ class SyncService {
           }
         }
       }
-      _notify('Found ${ret.length} matches.');
-      _notify('Saving ${ret.length} records to database...');
+      info('Found ${ret.length} matches,\nsaving to database...');
       SqliteRepository().setMatchedResult(ret);
-      _notify('Done.');
+      info('Done.');
+      return true;
     } on HttpException catch (error) {
-      _notify(error.message);
+      die(error.message);
+      return false;
     } catch (error) {
-      _notify(error);
+      die(error);
+      return false;
     } finally {
       if (stream != null) {
         stream.close();
