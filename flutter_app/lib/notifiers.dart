@@ -98,16 +98,8 @@ class RecordedLocationCheckerModel extends ChangeNotifier {
   bool _isRunning;
 
   RecordedLocationCheckerModel() {
-    SqliteRepository().getMatchedResultMetadata().then(
-      (metadata) {
-        _metadata = metadata;
-        notifyListeners();
-      },
-    );
-    SqliteRepository().getMatchedResult().then((matchedPointList) {
-      _matchedPointList = matchedPointList;
-      notifyListeners();
-    });
+    _getMatchedResultMetadata();
+    _getMatchedResult();
     SharedPreferences.getInstance().then((instance) {
       _isRunning = instance.getBool(KEY_IS_CHECKER_RUNNING);
       if (_isRunning == null) {
@@ -115,6 +107,23 @@ class RecordedLocationCheckerModel extends ChangeNotifier {
       }
       notifyListeners();
     });
+
+    Timer.periodic(
+      Duration(minutes: 5),
+      (timer) {
+        print('timer called, $timer');
+        SqliteRepository().getMatchedResultMetadata().then(
+          (metadata) {
+            print('${metadata.time}, ${_metadata.time}');
+            if (metadata.time == _metadata.time) {
+              return;
+            }
+            _metadata = metadata;
+            _getMatchedResult();
+          },
+        );
+      },
+    );
   }
 
   int get matchedCount => _metadata.count;
@@ -170,19 +179,27 @@ class RecordedLocationCheckerModel extends ChangeNotifier {
     notifyListeners();
 
     SyncService().tick(stream: streamController).then((unused) {
-      SqliteRepository().getMatchedResultMetadata().then(
-        (metadata) {
-          _metadata = metadata;
-          notifyListeners();
-        },
-      );
-      SqliteRepository().getMatchedResult().then(
-        (matchedPointList) {
-          _matchedPointList = matchedPointList;
-          notifyListeners();
-        },
-      );
+      _getMatchedResultMetadata();
+      _getMatchedResult();
     });
+  }
+
+  void _getMatchedResult() {
+    SqliteRepository().getMatchedResult().then(
+      (matchedPointList) {
+        _matchedPointList = matchedPointList;
+        notifyListeners();
+      },
+    );
+  }
+
+  _getMatchedResultMetadata() {
+    SqliteRepository().getMatchedResultMetadata().then(
+      (metadata) {
+        _metadata = metadata;
+        notifyListeners();
+      },
+    );
   }
 }
 

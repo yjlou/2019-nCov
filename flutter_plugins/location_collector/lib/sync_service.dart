@@ -121,7 +121,7 @@ class SyncService {
           info('Bounding box does not overlap, skip.');
           continue;
         } else {
-          info('M: ${boundingBox.toString()}');
+          info('U: ${boundingBox.toString()}');
           info('P: ${it.boundingBox.toString()}');
         }
 
@@ -134,7 +134,7 @@ class SyncService {
         }
       }
       info('Found ${ret.length} matches,\nsaving to database...');
-      SqliteRepository().setMatchedResult(ret);
+      await SqliteRepository().setMatchedResult(ret);
       info('Done.');
       return true;
     } on HttpException catch (error) {

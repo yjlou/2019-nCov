@@ -24,13 +24,6 @@ class OuterWidgetState extends State<OuterWidget> {
     AppPageEnum.MATCHED_RESULT: (context) => MatchedResultWidget(),
   };
 
-  final _indexToRoute = {
-    0: AppPageEnum.HOME,
-    1: AppPageEnum.RECORDED_LOCATION,
-    2: AppPageEnum.MATCHED_RESULT,
-    3: AppPageEnum.SETTINGS,
-  };
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -50,7 +43,6 @@ class OuterWidgetState extends State<OuterWidget> {
             unselectedItemColor: Colors.black,
             onTap: (int index) {
               final route = AppPageEnum.values[index];
-              // final route = _indexToRoute[index];
               switch (route) {
                 case AppPageEnum.HOME:
                 case AppPageEnum.SETTINGS:
@@ -67,6 +59,8 @@ class OuterWidgetState extends State<OuterWidget> {
                     context,
                     listen: false,
                   ).check();
+                  Provider.of<AppPageModel>(context, listen: false).goto(route);
+                  break;
               }
             },
             items: [

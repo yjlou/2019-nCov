@@ -177,17 +177,31 @@ class SqliteRepository implements Repository {
     await _lock.synchronized(() async {
       // Get number of stored entries
       var matchedCount = (await getMatchedResultMetadata()).count;
+
+      var batch = await _jsonStore.startBatch();
       for (int i = matchedPointList.length; i < matchedCount; i++) {
-        await _jsonStore.deleteItem('matched-${i}');
+        await _jsonStore.deleteItem(
+          'matched-${i}',
+          batch: batch,
+        );
       }
       for (int i = 0; i < matchedPointList.length; i++) {
-        await _jsonStore.setItem('matched-${i}', matchedPointList[i].toJson(),
-            encrypt: true);
+        await _jsonStore.setItem(
+          'matched-${i}',
+          matchedPointList[i].toJson(),
+          encrypt: true,
+          batch: batch,
+        );
       }
+      final newMetadata = MatchedResultMetadata(matchedPointList.length, DateTime.now());
+      print(newMetadata.toJson());
       await _jsonStore.setItem(
-          MATCHED_META_KEY,
-          MatchedResultMetadata(matchedPointList.length, DateTime.now())
-              .toJson());
+        MATCHED_META_KEY,
+        newMetadata.toJson(),
+        encrypt: true,
+        batch: batch,
+      );
+      await _jsonStore.commitBatch(batch);
     });
   }
 
@@ -204,6 +218,7 @@ class SqliteRepository implements Repository {
   Future<MatchedResultMetadata> getMatchedResultMetadata() async {
     return await _lock.synchronized(() async {
       final json = await _jsonStore.getItem(MATCHED_META_KEY);
+      print('loaded metadata: $json');
       if (json == null) {
         return MatchedResultMetadata(0, null);
       } else {
