@@ -9,22 +9,54 @@ import 'package:location_collector/matched_result.dart';
 import 'package:location_collector/sync_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-class AppSettingsModel extends ChangeNotifier {
+class AppLocaleModel extends ChangeNotifier {
+  static const String KEY_LOCALE = 'LOCALE';
   Locale _locale;
 
   get locale => _locale;
 
-  AppSettingsModel() {
-    _locale = window.locale;
-    if (!supportedLocales.contains(_locale)) {
-      _locale = supportedLocales[0];
+  static Future<Locale> loadLocaleFromSharedPreferences() async {
+    final instance = await SharedPreferences.getInstance();
+    final strLocale = instance.getString(KEY_LOCALE);
+    Locale locale;
+    try {
+      final tokens = strLocale.split('_');
+      if (tokens.length == 1) {
+        locale = Locale(tokens[0]);
+      } else {
+        locale = Locale(tokens[0], tokens[1]);
+      }
+      return locale;
+    } catch (error) {
+      // does nothing
     }
+    return null;
+  }
+
+  AppLocaleModel() {
+    loadLocaleFromSharedPreferences().then(
+      (locale) {
+        if (locale == null) {
+          locale = window.locale;
+        }
+        print('${locale.languageCode}_${locale.countryCode}');
+        if (!supportedLocales.contains(locale)) {
+          _locale = supportedLocales[0];
+        } else {
+          _locale = locale;
+        }
+        notifyListeners();
+      },
+    );
   }
 
   void setLocale(BuildContext context, Locale locale) {
-    // FIXME: this won't redraw all widgets.
     _locale = locale;
     FlutterI18n.refresh(context, _locale);
+    SharedPreferences.getInstance().then((instance) {
+      instance.setString(
+          KEY_LOCALE, '${_locale.languageCode}_${_locale.countryCode}');
+    });
     notifyListeners();
   }
 

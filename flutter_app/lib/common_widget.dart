@@ -26,78 +26,114 @@ class OuterWidgetState extends State<OuterWidget> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text(FlutterI18n.translate(context, 'title')),
-      ),
-      body: Consumer<AppPageModel>(
-        builder: (context, model, child) {
-          return _routes[model.currentPage](context);
-        },
-      ),
-      bottomNavigationBar: Consumer<AppPageModel>(
-        builder: (context, model, child) {
-          return BottomNavigationBar(
-            currentIndex: model.currentPage.index,
-            selectedItemColor: Colors.blueAccent,
-            unselectedItemColor: Colors.black,
-            onTap: (int index) {
-              final route = AppPageEnum.values[index];
-              switch (route) {
-                case AppPageEnum.HOME:
-                case AppPageEnum.SETTINGS:
-                  Provider.of<AppPageModel>(context, listen: false).goto(route);
-                  break;
-                case AppPageEnum.RECORDED_LOCATION: // Recording
-                  Provider.of<LocationCollectorModel>(
-                    context,
-                    listen: false,
-                  ).toggleRecordingLocation();
-                  break;
-                case AppPageEnum.MATCHED_RESULT:
-                  Provider.of<RecordedLocationCheckerModel>(
-                    context,
-                    listen: false,
-                  ).check();
-                  Provider.of<AppPageModel>(context, listen: false).goto(route);
-                  break;
-              }
-            },
-            items: [
-              BottomNavigationBarItem(
-                icon: Icon(Icons.home),
-                title: Text(FlutterI18n.translate(context, 'common.home')),
-              ),
-              BottomNavigationBarItem(
-                icon: Consumer<LocationCollectorModel>(
-                  builder: (context, model, child) {
-                    return IconButton(
-                      icon: model.isRecordingLocation == true
-                          ? Icon(
-                              Icons.pause,
-                              color: Colors.black,
-                            )
-                          : Icon(
-                              Icons.fiber_manual_record,
-                              color: Colors.red,
-                            ),
-                    );
+    return Consumer<AppLocaleModel>(
+      builder: (context, model, child) {
+        return Localizations.override(
+          context: context,
+          locale: model.locale,
+          child: Scaffold(
+            appBar: AppBar(
+              title: I18nText('title'),
+            ),
+            body: Consumer<AppPageModel>(
+              builder: (context, model, child) {
+                return _routes[model.currentPage](context);
+              },
+            ),
+            bottomNavigationBar: Consumer<AppPageModel>(
+              builder: (context, model, child) {
+                return BottomNavigationBar(
+                  currentIndex: model.currentPage.index,
+                  selectedItemColor: Colors.blueAccent,
+                  unselectedItemColor: Colors.black,
+                  onTap: (int index) {
+                    final route = AppPageEnum.values[index];
+                    switch (route) {
+                      case AppPageEnum.HOME:
+                      case AppPageEnum.SETTINGS:
+                        Provider.of<AppPageModel>(context, listen: false)
+                            .goto(route);
+                        break;
+                      case AppPageEnum.RECORDED_LOCATION: // Recording
+                        Provider.of<LocationCollectorModel>(
+                          context,
+                          listen: false,
+                        ).toggleRecordingLocation();
+                        break;
+                      case AppPageEnum.MATCHED_RESULT:
+                        Provider.of<AppPageModel>(context, listen: false)
+                            .goto(route);
+                        break;
+                    }
                   },
-                ),
-                title: Text(FlutterI18n.translate(context, 'common.records')),
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.youtube_searched_for),
-                title: Text(FlutterI18n.translate(context, 'common.results')),
-              ),
-              BottomNavigationBarItem(
-                icon: Icon(Icons.settings),
-                title: Text(FlutterI18n.translate(context, 'common.settings')),
-              ),
-            ],
-          );
-        },
-      ),
+                  items: [
+                    BottomNavigationBarItem(
+                      icon: Icon(Icons.home),
+                      title: I18nText('common.home'),
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Consumer<LocationCollectorModel>(
+                        builder: (context, model, child) {
+                          return IconButton(
+                            icon: model.isRecordingLocation == true
+                                ? Icon(
+                                    Icons.pause,
+                                    color: Colors.black,
+                                  )
+                                : Icon(
+                                    Icons.fiber_manual_record,
+                                    color: Colors.red,
+                                  ),
+                          );
+                        },
+                      ),
+                      title: I18nText('common.records'),
+                      // title: Text(FlutterI18n.translate(context, 'common.records')),
+                    ),
+                    BottomNavigationBarItem(
+                      icon: GestureDetector(
+                        child: Icon(Icons.assignment),
+                        onLongPress: () {
+                          showMenu(
+                            context: context,
+                            position: _buttonMenuPosition(context),
+                            items: [
+                              PopupMenuItem<int>(
+                                child: GestureDetector(
+                                  onTap: () {
+                                    // close the popup menu.
+                                    Navigator.of(context).pop();
+                                    Provider.of<RecordedLocationCheckerModel>(
+                                      context,
+                                      listen: false,
+                                    ).check();
+                                  },
+                                  child: Row(
+                                    children: <Widget>[
+                                      Icon(Icons.youtube_searched_for),
+                                      I18nText('matched_result.check_now')
+                                    ],
+                                  ),
+                                ),
+                              ),
+                            ],
+                          );
+                        },
+                      ),
+                      title: I18nText('common.results'),
+                    ),
+                    BottomNavigationBarItem(
+                      icon: Icon(Icons.settings),
+                      title: I18nText('common.settings'),
+                      // title: Text(FlutterI18n.translate(context, 'common.settings')),
+                    ),
+                  ],
+                );
+              },
+            ),
+          ),
+        );
+      },
     );
   }
 }
@@ -156,7 +192,7 @@ Widget makeOptionalCheckerStatusWidget() {
         case RecordedLocationCheckerStatus.CHECKING:
         case RecordedLocationCheckerStatus.FAILED:
           return CardWithLabel(
-            title: Text(FlutterI18n.translate(context, 'common.checking')),
+            title: I18nText('common.checking'),
             child: Text(
               model.lastCheckerMessage,
               textAlign: TextAlign.left,
@@ -171,4 +207,24 @@ Widget makeOptionalCheckerStatusWidget() {
       }
     },
   );
+}
+
+RelativeRect _buttonMenuPosition(BuildContext c) {
+  final RenderBox bar = c.findRenderObject();
+  final RenderBox overlay = Overlay.of(c).context.findRenderObject();
+
+  final topLeft = bar.localToGlobal(
+      bar.size.topLeft(Offset(0, -bar.size.height)),
+      ancestor: overlay);
+  final topRight = bar.localToGlobal(
+      bar.size.topRight(Offset(0, -bar.size.height)),
+      ancestor: overlay);
+  final offset = Offset.lerp(topLeft, topRight, 0.5);
+
+  final RelativeRect position = RelativeRect.fromRect(
+    Rect.fromPoints(offset, offset),
+    Offset.zero & overlay.size,
+  );
+//  print(position);
+  return position;
 }
