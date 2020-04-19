@@ -1,6 +1,14 @@
 {
   "defaultPatientsData": [
     {
+      "__comment": "Taiwan Fleet of Friendship",
+      "desc": "Taiwan 敦睦艦隊",
+      "meta": "countries/taiwan/Fleet_of_Friendship-meta.json",
+      "path": "countries/taiwan/Fleet_of_Friendship-output.json",
+      "src": "https://drive.google.com/open?id=1w-tfnbx8-Hwh_e3Qc95E4RkGEfJmmzvW&usp=sharing"
+    },
+
+    {
       "__comment": "Taiwan ChingMing Days",
       "desc": "Taiwan 台灣清明節高風險地區",
       "meta": "countries/taiwan/ChingMing-meta.json",

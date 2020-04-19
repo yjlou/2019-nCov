@@ -1,0 +1,56 @@
+{
+  "timelineObjects": [
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250489340,
+          "longitudeE7":  1215155770,
+          "name": ">>> 不應該抓到 <<< 台北地下街附近 02/18 15:50"
+        },
+        "duration": {
+          "startTimestampMs": 1582012200000,
+          "endTimestampMs": 1582012260000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226691550,
+          "longitudeE7":  1203022510,
+          "name": "[預期抓到] 漢神巨蛋 4/16 中午12點"
+        },
+        "duration": {
+          "startTimestampMs": 1587009600000,
+          "endTimestampMs":   1587009999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226628190,
+          "longitudeE7":  1203032850,
+          "name": "[預期抓到] 博愛路二段 4/17凌晨0時"
+        },
+        "duration": {
+          "startTimestampMs": 1587081600000,
+          "endTimestampMs":   1587089900000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 241109850,
+          "longitudeE7":  1206156860,
+          "name": "[預期抓到] 台中高鐵接駁公車站 04/15 19:45"
+        },
+        "duration": {
+          "startTimestampMs": 1586950800000,
+          "endTimestampMs":   1586951400000
+        }
+      }
+    }
+  ]
+}
