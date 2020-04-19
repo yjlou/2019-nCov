@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:workmanager/workmanager.dart';
 
 import 'sync_service.dart';
@@ -35,6 +36,6 @@ class WorkManager {
   Future<void> initialize() async {
     if (_initialized) return;
 
-    await Workmanager.initialize(callbackDispatcher, isInDebugMode: true);
+    await Workmanager.initialize(callbackDispatcher, isInDebugMode: kDebugMode);
   }
 }
