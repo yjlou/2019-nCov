@@ -23,8 +23,6 @@ dependencies:
     sdk: flutter
 
   provider: ^4.0.5
-  intl: ^0.16.0
-  intl_translation: ^0.17.9
   shared_preferences: ^0.5.6+3
 
   flutter_i18n: ^0.13.0
