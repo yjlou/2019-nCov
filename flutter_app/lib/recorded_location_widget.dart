@@ -67,14 +67,62 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
     );
   }
 
+  void _clearDatabase() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text('Press "Confirm" to delete all recorded locations'),
+          actions: <Widget>[
+            RaisedButton(
+              child: Text('Confirm'),
+              onPressed: () async {
+                await SqliteRepository().clear();
+                Navigator.of(context).pop();
+              },
+            ),
+            RaisedButton(
+              child: Text('No'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            )
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         Expanded(child: buildLocationList()),
-        RaisedButton(
-          child: Text('Export Recorded Locations'),
-          onPressed: _exportDatabase,
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
+          children: <Widget>[
+            Column(
+              children: <Widget>[
+                IconButton(
+                  icon: Icon(Icons.file_download),
+                  onPressed: _exportDatabase,
+                ),
+                Text('Export'),
+              ],
+            ),
+            Column(
+              children: <Widget>[
+                IconButton(
+                  icon: Icon(Icons.delete),
+                  onPressed: _clearDatabase,
+                ),
+                Text('Clear'),
+              ],
+            ),
+          ],
+        ),
+        Padding(
+          padding: EdgeInsets.only(bottom: 10),
         ),
       ],
     );
