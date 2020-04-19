@@ -96,12 +96,11 @@ class BoundingBox {
 
   factory BoundingBox.fromJson(Map<dynamic, dynamic> json) {
     return BoundingBox._(
-        json['top'], json['left'], json['right'], json['bottom']);
-  }
-
-  bool isOverlapped(BoundingBox other) {
-    return min(topE7, other.topE7) - max(bottomE7, other.bottomE7) > 0 &&
-        min(rightE7, other.rightE7) - max(leftE7, other.leftE7) > 0;
+      toDouble(json['top']),
+      toDouble(json['left']),
+      toDouble(json['right']),
+      toDouble(json['bottom']),
+    );
   }
 
   factory BoundingBox.fromPlaceVisitList(List<PlaceVisit> placeVisitList) {
@@ -128,6 +127,15 @@ class BoundingBox {
     });
 
     return BoundingBox._(top + 1E6, left - 1E6, right + 1E6, bottom - 1E6);
+  }
+
+  bool isOverlapped(BoundingBox other) {
+    return min(topE7, other.topE7) - max(bottomE7, other.bottomE7) > 0 &&
+        min(rightE7, other.rightE7) - max(leftE7, other.leftE7) > 0;
+  }
+
+  String toString() {
+    return 'BoundingBox(${bottomE7}~${topE7}, ${leftE7}~${rightE7})';
   }
 }
 
@@ -163,12 +171,8 @@ class PlaceVisit {
   PlaceVisit._(this.name, this.lat, this.lng, this.begin, this.end);
 
   factory PlaceVisit.fromJson(json) {
-    return PlaceVisit._(
-        json['name'],
-        json['lat'],
-        json['lng'],
-        json['begin'].toInt(),
-        json['end'].toInt());
+    return PlaceVisit._(json['name'], json['lat'], json['lng'],
+        json['begin'].toInt(), json['end'].toInt());
   }
 
   static List<PlaceVisit> parseGoogleTakeoutFormat(Map<dynamic, dynamic> json) {
@@ -235,4 +239,14 @@ class PlaceVisit {
 double deg2rad(double deg) {
   // 180 deg = pi rad
   return deg * pi / 180.0;
+}
+
+double toDouble(dynamic x) {
+  if (x is double) {
+    return x;
+  }
+  if (x is int) {
+    return x + 0.0;
+  }
+  throw Exception('Cannot convert $x (${x.runtimeType}) to double');
 }

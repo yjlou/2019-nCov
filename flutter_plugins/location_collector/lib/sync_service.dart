@@ -109,17 +109,20 @@ class SyncService {
       for (var it in patientsDataList) {
         if (!(await it.fetch())) {
           info(
-              'Cannot fetch patients data:\ndesc=${it.desc},\npath=${it.path},\nmeta=${it.meta}');
+              'Cannot fetch patients data:\ndesc="${it.desc}",\npath="${it.path}",\nmeta="${it.meta}"');
           continue;
         }
 
         info(
-            'Checking patients data:\ndesc=${it.desc},\nsize=${it.points.length}');
+            'Checking patients data:\ndesc="${it.desc}",\nsize="${it.points.length}"');
 
         // Compare it with all data points.
         if (!boundingBox.isOverlapped(it.boundingBox)) {
           info('Bounding box does not overlap, skip.');
           continue;
+        } else {
+          info('M: ${boundingBox.toString()}');
+          info('P: ${it.boundingBox.toString()}');
         }
 
         for (var patientPlaceVisit in it.points) {
