@@ -66,7 +66,7 @@ class OuterWidgetState extends State<OuterWidget> {
             items: [
               BottomNavigationBarItem(
                 icon: Icon(Icons.home),
-                title: Text('Home'),
+                title: Text(FlutterI18n.translate(context, 'common.home')),
               ),
               BottomNavigationBarItem(
                 icon: Consumer<LocationCollectorModel>(
@@ -84,15 +84,15 @@ class OuterWidgetState extends State<OuterWidget> {
                     );
                   },
                 ),
-                title: Text('Records'),
+                title: Text(FlutterI18n.translate(context, 'common.records')),
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.youtube_searched_for),
-                title: Text('Results'),
+                title: Text(FlutterI18n.translate(context, 'common.results')),
               ),
               BottomNavigationBarItem(
                 icon: Icon(Icons.settings),
-                title: Text('Settings'),
+                title: Text(FlutterI18n.translate(context, 'common.settings')),
               ),
             ],
           );
@@ -156,7 +156,7 @@ Widget makeOptionalCheckerStatusWidget() {
         case RecordedLocationCheckerStatus.CHECKING:
         case RecordedLocationCheckerStatus.FAILED:
           return CardWithLabel(
-            title: Text('Checking'),
+            title: Text(FlutterI18n.translate(context, 'common.checking')),
             child: Text(
               model.lastCheckerMessage,
               textAlign: TextAlign.left,

@@ -1,2 +1,40 @@
 title: 'COVID-19 小幫手'
 
+common:
+  checking: '檢查中...'
+  home: '首頁'
+  records: '紀錄'
+  results: '比對結果'
+  settings: '設定'
+
+settings:
+  locale: '語言'
+  periodic_check: '定期檢查'
+
+main:
+  last_checked: '上次檢查時間'
+  last_recorded_location: '最後紀錄位置'
+  loading: '載入中...'
+  match_found-0: '沒有結果！'
+  match_found-1: '發現 {n} 筆結果！'
+  match_found-2: '發現 {n} 筆結果！'
+  never: '從未檢查過'
+  no_recorded_location: '尚未紀錄位置'
+
+recorded_location:
+  clear: '清除'
+  clear_alert: '若要清除所有紀錄位置，請按「確認」。'
+  export: '下載記錄'
+  share_file_text: '已紀錄的位置 (JSON 檔)'
+
+matched_result:
+  check_now: '立即檢查'
+  match_title: '匹配 {index}'
+  message_no_result: "找不到匹配結果。\n按「立即檢查」可以重新檢查一次。"
+  patient_desc: '案例描述'
+  time: '時間'
+  user_desc: '使用者'
+  where: '位置'
+
+confirm: '確認'
+decline: '取消'

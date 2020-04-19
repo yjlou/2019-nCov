@@ -1,1 +1,40 @@
 title: 'COVID-19 Tracker'
+
+common:
+  checking: 'Checking...'
+  home: 'Home'
+  records: 'Records'
+  results: 'Results'
+  settings: 'Settings'
+
+settings:
+  locale: 'Language'
+  periodic_check: 'Periodic Check'
+
+main:
+  last_checked: 'Last Checked'
+  last_recorded_location: 'Last Recorded Location'
+  loading: 'Loading...'
+  match_found-0: 'No matches found!'
+  match_found-1: 'We found {n} match!'
+  match_found-2: 'We found {n} matches!'
+  never: 'Never'
+  no_recorded_location: 'No location recorded...'
+
+recorded_location:
+  clear: 'Clear'
+  clear_alert: 'Press "Confirm" to delete all recorded locations'
+  export: 'Export'
+  share_file_text: 'Recorded location in JSON'
+
+matched_result:
+  check_now: 'Check Now'
+  match_title: 'Match {index}'
+  message_no_result: "No matched results.\nPress \"Check Now\" to check again."
+  patient_desc: 'Patient Description'
+  time: 'Time'
+  user_desc: 'User Description'
+  where: 'Where'
+
+confirm: 'Confirm'
+decline: 'Cancel'

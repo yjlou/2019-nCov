@@ -30,8 +30,8 @@ class AppSettingsModel extends ChangeNotifier {
 
   static final List<Locale> supportedLocales = [
     Locale('en', 'US'), // this is the default value.
-    // TODO: add i18n support
-    // Locale('zh', 'TW'),
+    Locale('zh', 'TW'),
+    // TODO: add more locales
   ];
 }
 
@@ -111,10 +111,10 @@ class RecordedLocationCheckerModel extends ChangeNotifier {
     Timer.periodic(
       Duration(minutes: 5),
       (timer) {
-        print('timer called, $timer');
+        print('Checking if metadata has been updated...');
         SqliteRepository().getMatchedResultMetadata().then(
           (metadata) {
-            print('${metadata.time}, ${_metadata.time}');
+            print('new: ${metadata.time}, old: ${_metadata.time}');
             if (metadata.time == _metadata.time) {
               return;
             }

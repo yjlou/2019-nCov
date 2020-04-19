@@ -1,6 +1,7 @@
 import 'package:covid19/common_widget.dart';
 import 'package:covid19/notifiers.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:intl/intl.dart';
 import 'package:location_collector/matched_result.dart';
 import 'package:provider/provider.dart';
@@ -19,32 +20,47 @@ class _MatchedPointWidget extends StatelessWidget {
     return GestureDetector(
       onTap: null, // TODO: Open Google Maps?
       child: CardWithLabel(
-        title: Text('Match ${index + 1}'),
+        title: Text(
+          FlutterI18n.translate(
+            context,
+            'matched_result.match_title',
+            translationParams: {'index': '${index + 1}'},
+          ),
+        ),
         child: Container(
           alignment: Alignment.centerRight,
-          // margin: EdgeInsets.only(left: 20),
           child: FractionallySizedBox(
             widthFactor: 0.95,
             child: Column(
               children: <Widget>[
                 CardWithLabel(
-                  title: Text('Time'),
+                  title: Text(
+                    FlutterI18n.translate(context, 'matched_result.time'),
+                  ),
                   child:
+                      // TODO: translate this
                       Text('${formatter.format(b)} to ${formatter.format(e)}'),
                   elevation: 0.5,
                 ),
                 CardWithLabel(
-                  title: Text('Patient Description'),
+                  title: Text(
+                    FlutterI18n.translate(
+                        context, 'matched_result.patient_desc'),
+                  ),
                   child: Text(this.point.patientDesc),
                   elevation: 0.5,
                 ),
                 CardWithLabel(
-                  title: Text('User Description'),
+                  title: Text(
+                    FlutterI18n.translate(context, 'matched_result.user_desc'),
+                  ),
                   child: Text(this.point.userDesc),
                   elevation: 0.5,
                 ),
                 CardWithLabel(
-                  title: Text('Where'),
+                  title: Text(
+                    FlutterI18n.translate(context, 'matched_result.where'),
+                  ),
                   child: Text('${this.point.userLat}, ${this.point.userLng}'),
                   elevation: 0.5,
                 ),
@@ -57,19 +73,7 @@ class _MatchedPointWidget extends StatelessWidget {
   }
 }
 
-class MatchedResultWidget extends StatefulWidget {
-  @override
-  State<StatefulWidget> createState() {
-    return _MatchedResultWidgetState();
-  }
-}
-
-class _MatchedResultWidgetState extends State<MatchedResultWidget> {
-  @override
-  initState() {
-    super.initState();
-  }
-
+class MatchedResultWidget extends StatelessWidget {
   Widget _makeMatchedResultWidget() {
     return Consumer<RecordedLocationCheckerModel>(
       builder: (context, model, child) {
@@ -81,7 +85,8 @@ class _MatchedResultWidgetState extends State<MatchedResultWidget> {
                   if (index == 0 && model.matchedPointList.length == 0) {
                     return Card(
                       child: Text(
-                        'No matched results.\nPress "Check Now" to check again.',
+                        FlutterI18n.translate(
+                            context, 'matched_result.message_no_result'),
                         textAlign: TextAlign.center,
                       ),
                     );
@@ -108,11 +113,13 @@ class _MatchedResultWidgetState extends State<MatchedResultWidget> {
       children: <Widget>[
         Expanded(child: _makeMatchedResultWidget()),
         RaisedButton(
-          child: Text('Check Now'),
+          child: Text(
+            FlutterI18n.translate(context, 'matched_result.check_now'),
+          ),
           onPressed: () {
             print('pressed');
             Provider.of<RecordedLocationCheckerModel>(context, listen: false)
-              .check();
+                .check();
           },
         ),
         makeOptionalCheckerStatusWidget(),

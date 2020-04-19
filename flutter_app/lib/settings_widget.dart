@@ -3,6 +3,7 @@ import 'dart:ui';
 import 'package:covid19/notifiers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:provider/provider.dart';
 
 class SettingsWidget extends StatelessWidget {
@@ -15,7 +16,7 @@ class SettingsWidget extends StatelessWidget {
           children: [
             TableRow(children: [
               Text(
-                'Locale',
+                FlutterI18n.translate(context, 'settings.locale'),
                 textAlign: TextAlign.center,
               ),
               DropdownButton<Locale>(
@@ -24,7 +25,7 @@ class SettingsWidget extends StatelessWidget {
                   return DropdownMenuItem(
                     value: locale,
                     child:
-                    Text(locale == null ? 'System' : locale.toString()),
+                    Text(locale.toString()),
                   );
                 }).toList(),
                 onChanged: (Locale locale) {
@@ -34,7 +35,7 @@ class SettingsWidget extends StatelessWidget {
             ]),
             TableRow(children: [
               Text(
-                'Periodic Check',
+                FlutterI18n.translate(context, 'settings.periodic_check'),
                 textAlign: TextAlign.center,
               ),
               Row(

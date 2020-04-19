@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:provider/provider.dart';
 
 import 'common_widget.dart';
@@ -26,14 +27,16 @@ class _MainWidgetState extends State<MainWidget> {
       final metadata = model.metadata;
       if (metadata == null) {
         return CircleAvatar(
-          child: Text('Loading...'),
+          child: Text(FlutterI18n.translate(context, 'main.loading')),
           backgroundColor: Colors.black26,
           foregroundColor: Colors.black,
           radius: 100.0,
         );
       } else if (metadata.count > 0) {
         return CircleAvatar(
-          child: Text('We found ${metadata.count} matches!'),
+          child: Text(
+            FlutterI18n.plural(context, 'main.match_found', metadata.count),
+          ),
           backgroundColor: Colors.redAccent,
           foregroundColor: Colors.white,
           radius: 100.0,
@@ -41,7 +44,7 @@ class _MainWidgetState extends State<MainWidget> {
       } else {
         return CircleAvatar(
           child: Text(
-            'No matches found!',
+            FlutterI18n.plural(context, 'main.match_found', 0),
           ),
           backgroundColor: Colors.green,
           foregroundColor: Colors.white,
@@ -54,12 +57,12 @@ class _MainWidgetState extends State<MainWidget> {
   Widget _makeLastRecordedLocationWidget(BuildContext context) {
     return GestureDetector(
       child: CardWithLabel(
-        title: Text('Last Recorded Location'),
+        title: Text(FlutterI18n.translate(context, 'main.last_recorded_location'),),
         child: Selector<LocationCollectorModel, String>(
           selector: (_, model) {
             final location = model.lastRecordedLocation;
             if (location == null) {
-              return 'No location recorded...';
+              return FlutterI18n.translate(context, 'main.no_recorded_location');
             }
             DateTime dateTime =
                 DateTime.fromMillisecondsSinceEpoch(location.time.toInt());
@@ -78,11 +81,11 @@ class _MainWidgetState extends State<MainWidget> {
   Widget _makeLastCheckTimeWidget(BuildContext context) {
     return Consumer<RecordedLocationCheckerModel>(
       builder: (_, model, child) {
-        String body = 'Loading...';
+        String body = FlutterI18n.translate(context, 'main.loading');
         Color labelColor = Colors.black26;
         if (model.metadata != null) {
           if (model.lastCheckedTime == null) {
-            body = 'Never';
+            body = FlutterI18n.translate(context, 'main.never');
           } else {
             body = model.lastCheckedTime.toIso8601String();
           }
@@ -94,7 +97,7 @@ class _MainWidgetState extends State<MainWidget> {
         }
         return GestureDetector(
           child: CardWithLabel(
-            title: Text('Last Checked'),
+            title: Text(FlutterI18n.translate(context, 'main.last_checked')),
             child: Text(body),
             labelColor: labelColor,
           ),

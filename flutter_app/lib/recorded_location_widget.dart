@@ -3,6 +3,7 @@ import 'dart:io';
 import 'package:covid19/common_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:location_collector/location_repository.dart';
 import 'package:path_provider/path_provider.dart';
@@ -62,7 +63,7 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
     await SqliteRepository().export(extFilePath);
     await FlutterShare.shareFile(
       title: 'recorded_location.json',
-      text: 'Recorded location in JSON',
+      text: FlutterI18n.translate(context, 'recorded_location.share_file_text'),
       filePath: extFilePath,
     );
   }
@@ -72,17 +73,23 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
       context: context,
       builder: (BuildContext context) {
         return AlertDialog(
-          title: Text('Press "Confirm" to delete all recorded locations'),
+          title: Text(
+            FlutterI18n.translate(context, 'recorded_location.clear_alert'),
+          ),
           actions: <Widget>[
             RaisedButton(
-              child: Text('Confirm'),
+              child: Text(
+                FlutterI18n.translate(context, 'confirm'),
+              ),
               onPressed: () async {
                 await SqliteRepository().clear();
                 Navigator.of(context).pop();
               },
             ),
             RaisedButton(
-              child: Text('No'),
+              child: Text(
+                FlutterI18n.translate(context, 'decline'),
+              ),
               onPressed: () {
                 Navigator.of(context).pop();
               },
@@ -107,7 +114,7 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
                   icon: Icon(Icons.file_download),
                   onPressed: _exportDatabase,
                 ),
-                Text('Export'),
+                Text(FlutterI18n.translate(context, 'recorded_location.export'),),
               ],
             ),
             Column(
@@ -116,7 +123,7 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
                   icon: Icon(Icons.delete),
                   onPressed: _clearDatabase,
                 ),
-                Text('Clear'),
+                Text(FlutterI18n.translate(context, 'recorded_location.clear'),),
               ],
             ),
           ],
