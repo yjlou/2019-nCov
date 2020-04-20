@@ -59,9 +59,11 @@ android {
         standalone {
             dimension = 'channel'
             applicationIdSuffix = '.standalone'
+            manifestPlaceholders = [appLabel: "Covid19 APK"]
         }
         playstore {
             dimension = 'channel'
+            manifestPlaceholders = [appLabel: "Covid19"]
         }
     }
 

@@ -14,7 +14,7 @@
     <!-- android:name="io.flutter.app.FlutterApplication" -->
     <application
         android:name=".MainApplication"
-        android:label="covid19"
+        android:label="${appLabel}"
         android:icon="@mipmap/ic_launcher">
         <!-- android:name="io.flutter.embedding.android.FlutterActivity" -->
 
