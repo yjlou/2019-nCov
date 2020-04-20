@@ -26,3 +26,8 @@ samples, guidance on mobile development, and a full API reference.
     - Path: "/path/to/assets/icon/icon.png"
   - Background layer:
     - Use white color
+
+## iOS
+- Run `flutter build ios --debug --simulator` once, then you should be able to
+    build with Xcode
+- Open `ios/Runner.xcodeproj/project.pbxproj` with Xcode
