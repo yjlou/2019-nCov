@@ -87,6 +87,7 @@ class BackgroundLocatorLocationCollector extends LocationCollector {
       settings: LocationSettings(
         notificationTitle: "covid19 is running...",
         notificationMsg: "covid19 is tracking your location in the background",
+        notificationIcon: "ic_notification",
         // unit: minutes
         wakeLockTime: 20,
         autoStop: false,
