@@ -52,6 +52,17 @@ android {
             // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig signingConfigs.debug
         }
+
+    }
+    flavorDimensions 'channel'
+    productFlavors {
+        standalone {
+            dimension = 'channel'
+            applicationIdSuffix = '.standalone'
+        }
+        playstore {
+            dimension = 'channel'
+        }
     }
 
     kotlinOptions {
