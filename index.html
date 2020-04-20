@@ -102,6 +102,11 @@
     //
     function selectTab(tab_id) {
       $('.tabs').tabs('select', tab_id);
+      gtag('event', 'selectTab', {
+        'event_category': 'Silo',
+        'event_label': tab_id,
+        'value': parseInt(tab_id[4])
+      });
     }
 
     // Returns Array of points.
@@ -527,6 +532,11 @@
         setTimeout(function() {
           loadPatientData();
         }, 200);
+
+        // If there is no hashtag in URL, jump to step 1 tab
+        if (!window.location.hash) {
+          selectTab('step1');
+        }
       });
 
       document.getElementById('download_btn').onclick = download_btn_onclick;
