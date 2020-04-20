@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>敦睦艦隊足跡熱點</name>
-    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br>]]></description>
+    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br><br>苗栗縣 https://www.cna.com.tw/news/ahel/202004200055.aspx<br><br><br>桃園市 https://www.cna.com.tw/news/firstnews/202004200031.aspx<br><br>屏東縣 https://news.pchome.com.tw/living/cna/20200420/index-15873455364944018009.html]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -284,6 +284,135 @@
         <Point>
           <coordinates>
             120.198797,22.9867786,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>苗栗縣</name>
+      <Placemark>
+        <name>五花馬水餃館-頭份店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T12:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.9011944,24.6927754,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>全聯福利中心 頭份中央店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T18:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.8917069,24.6945617,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>思夢樂頭份店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T18:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.8913318,24.6943543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>桃園市</name>
+      <Placemark>
+        <name>北投站</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T21:30:00;end:2020-04-15T22:30:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4986418,25.1317795,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>統領廣場Tonlin Plaza</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T16:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.3126418,24.9910108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>左營新光三越</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T15:00:00;end:2020-04-15T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3099245,22.6885043,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高鐵嘉義 838車次 </name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T16:00:00;end:2020-04-16T16:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.322929,23.458656,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高鐵桃園 838 車次</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T17:18:00;end:2020-04-16T18:18:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.214875,25.0130024,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>家樂福八德店 Carrefour Ba De Store</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T15:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.2998582,24.9646268,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>屏東縣</name>
+      <Placemark>
+        <name>屏東市國民運動中心</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T17:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.4980321,22.6775474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新潭頭玄天上帝廟</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T17:30:00;end:2020-04-17T19:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.5273457,22.6743392,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>健身工廠FitnessFactory-潮州廠</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T10:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.536241,22.5493365,0
           </coordinates>
         </Point>
       </Placemark>
