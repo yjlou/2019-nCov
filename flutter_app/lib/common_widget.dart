@@ -5,6 +5,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import 'main_widget.dart';
 import 'notifiers.dart';
@@ -55,10 +56,7 @@ class OuterWidgetState extends State<OuterWidget> {
                             .goto(route);
                         break;
                       case AppPageEnum.RECORDED_LOCATION: // Recording
-                        Provider.of<LocationCollectorModel>(
-                          context,
-                          listen: false,
-                        ).toggleRecordingLocation();
+                        toggleRecordLocation(context);
                         break;
                       case AppPageEnum.MATCHED_RESULT:
                         Provider.of<AppPageModel>(context, listen: false)
@@ -227,4 +225,51 @@ RelativeRect _buttonMenuPosition(BuildContext c) {
   );
 //  print(position);
   return position;
+}
+
+void toggleRecordLocation(BuildContext context) async {
+  const USER_CONSENT_KEY = 'IS_OK_TO_RECORD_LOCATION';
+  final preferences = await SharedPreferences.getInstance();
+  if (preferences.getBool(USER_CONSENT_KEY) != true) {
+    var ok = await showDialog<bool>(
+      context: context,
+      builder: (context) {
+        return Consumer<AppLocaleModel>(
+          builder: (context, model, child) {
+            return Localizations.override(
+              context: context,
+              locale: model.locale,
+              child: AlertDialog(
+                title: I18nText('common.record_location_title'),
+                content: I18nText('common.record_location_message'),
+                actions: <Widget>[
+                  FlatButton(
+                    child: I18nText('confirm'),
+                    onPressed: () {
+                      Navigator.pop(context, true);
+                    },
+                  ),
+                  FlatButton(
+                    child: I18nText('decline'),
+                    onPressed: () {
+                      Navigator.pop(context, false);
+                    },
+                  )
+                ],
+              ),
+            );
+          },
+        );
+      },
+    );
+    if (!ok) {
+      return;
+    }
+    preferences.setBool(USER_CONSENT_KEY, true);
+  }
+
+  Provider.of<LocationCollectorModel>(
+    context,
+    listen: false,
+  ).toggleRecordingLocation();
 }

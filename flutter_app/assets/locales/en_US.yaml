@@ -6,6 +6,8 @@ common:
   records: 'Records'
   results: 'Results'
   settings: 'Settings'
+  record_location_title: 'Agree to record location'
+  record_location_message: 'Your location will be recorded every 5 minutes. The recorded data will only be saved locally. You can export location history in "Recorded Location" tab.'
 
 settings:
   locale: 'Language'

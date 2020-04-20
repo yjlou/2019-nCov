@@ -6,6 +6,8 @@ common:
   records: '紀錄'
   results: '比對結果'
   settings: '設定'
+  record_location_title: '將開始紀錄位置'
+  record_location_message: '您的位置每五分鐘會被記錄一次。所有的紀錄只會儲存在本地端。您可以在位置紀錄頁面中輸出歷史紀錄。'
 
 settings:
   locale: '語言'
