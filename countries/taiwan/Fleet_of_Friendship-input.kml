@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>敦睦艦隊足跡熱點</name>
-    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br><br>苗栗縣 https://www.cna.com.tw/news/ahel/202004200055.aspx<br><br><br>桃園市 https://www.cna.com.tw/news/firstnews/202004200031.aspx<br><br>屏東縣 https://news.pchome.com.tw/living/cna/20200420/index-15873455364944018009.html<br><br>基隆市 https://www.cna.com.tw/news/firstnews/202004200032.aspx]]></description>
+    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br>https://www.cna.com.tw/news/firstnews/202004200078.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br><br>苗栗縣 https://www.cna.com.tw/news/ahel/202004200055.aspx<br><br>桃園市 https://www.cna.com.tw/news/firstnews/202004200031.aspx<br><br>屏東縣 https://news.pchome.com.tw/living/cna/20200420/index-15873455364944018009.html<br><br>基隆市 https://www.cna.com.tw/news/firstnews/202004200032.aspx<br><br>台北市 https://www.cna.com.tw/news/firstnews/202004200044.aspx<br><br>嘉義縣 https://www.cna.com.tw/news/ahel/202004200052.aspx]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -178,6 +178,146 @@
         <Point>
           <coordinates>
             120.3369303,22.5641419,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>中正一路120號5樓之7教室</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T18:00:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.332568,22.62818,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>緣髮百元精緻快速剪</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T15:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3946133,22.5057001,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>麗馨商旅七賢館</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T21:00:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.289179,22.630926,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>天天沙茶火鍋</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T19:00:00;end:2020-04-15T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.2843325,22.6298919,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>玫瑰精品汽車旅館</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T18:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.306799,22.675328,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>赤鬼炙燒牛排 高雄博愛店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T11:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3035193,22.6632087,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>韓咪達 韓式料理 高雄店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T12:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.325292,22.646345,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>卡布Cappu 義式料理</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T18:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3284709,22.727103,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>Mr. 帕</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T19:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.2969493,22.6615331,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>吳媽媽餃子館家常菜</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-14T18:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.2900305,22.6714709,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>澤野燒肉屋</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T18:00:00;end:2020-04-15T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.305478,22.660971,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>新光三越高雄左營店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-15T15:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3103554,22.6888902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[素香庭《蔬食吃到飽》&《便當外帶》高雄店]]></name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T19:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.319048,22.6491642,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>老四川巴蜀麻辣燙 高雄南屏店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T18:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3002356,22.6604814,0
           </coordinates>
         </Point>
       </Placemark>
@@ -446,6 +586,62 @@
         <Point>
           <coordinates>
             121.51861,25.048242,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>台北市</name>
+      <Placemark>
+        <name>爭鮮迴轉壽司 桂林家樂福店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T15:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5061056,25.037725,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>嘉義縣</name>
+      <Placemark>
+        <name>千葉火鍋-嘉義店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-16T11:30:00;end:2020-04-16T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.4611987,23.4750666,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>南紡夢時代火鍋店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T11:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.2336101,22.989882,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>享溫馨中華店</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T13:30:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.234263,22.99737,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>路邊ㄉㄚ仔魯肉飯</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T19:00:00;end:2020-04-17T23:59:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.4466664,23.4887096,0
           </coordinates>
         </Point>
       </Placemark>
