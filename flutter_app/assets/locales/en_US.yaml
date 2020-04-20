@@ -28,6 +28,7 @@ recorded_location:
   clear_alert: 'Press "Confirm" to delete all recorded locations'
   export: 'Export'
   share_file_text: 'Recorded location in JSON'
+  database_exported_message: "Location history has been saved to '{database_path}'. Do you want to share with other applications?"
 
 matched_result:
   check_now: 'Check Now'
@@ -38,5 +39,6 @@ matched_result:
   user_desc: 'User Description'
   where: 'Where'
 
+share: 'Share'
 confirm: 'Confirm'
 decline: 'Cancel'

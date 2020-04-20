@@ -1,12 +1,14 @@
 import 'dart:io';
 
 import 'package:covid19/common_widget.dart';
+import 'package:covid19/notifiers.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
 import 'package:flutter_share/flutter_share.dart';
 import 'package:location_collector/location_repository.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:provider/provider.dart';
 
 class RecordedLocationWidget extends StatefulWidget {
   @override
@@ -61,11 +63,47 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
     await destDir.create(recursive: true);
     String extFilePath = '${destDir.path}/recorded_location.json';
     await SqliteRepository().export(extFilePath);
-    await FlutterShare.shareFile(
-      title: 'recorded_location.json',
-      text: FlutterI18n.translate(context, 'recorded_location.share_file_text'),
-      filePath: extFilePath,
+    final ok = await showDialog<bool>(
+      context: context,
+      builder: (context) {
+        return Consumer<AppLocaleModel>(
+          builder: (context, model, child) {
+            return Localizations.override(
+              context: context,
+              locale: model.locale,
+              child: AlertDialog(
+                content: I18nText(
+                  'recorded_location.database_exported_message',
+                  translationParams: {'database_path': extFilePath},
+                ),
+                actions: <Widget>[
+                  FlatButton(
+                    child: I18nText('share'),
+                    onPressed: () {
+                      Navigator.pop(context, true);
+                    },
+                  ),
+                  FlatButton(
+                    child: I18nText('cancel'),
+                    onPressed: () {
+                      Navigator.pop(context, false);
+                    },
+                  )
+                ],
+              ),
+            );
+          },
+        );
+      },
     );
+    if (ok) {
+      await FlutterShare.shareFile(
+        title: 'recorded_location.json',
+        text:
+            FlutterI18n.translate(context, 'recorded_location.share_file_text'),
+        filePath: extFilePath,
+      );
+    }
   }
 
   void _clearDatabase() {
@@ -114,7 +152,9 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
                   icon: Icon(Icons.file_download),
                   onPressed: _exportDatabase,
                 ),
-                Text(FlutterI18n.translate(context, 'recorded_location.export'),),
+                Text(
+                  FlutterI18n.translate(context, 'recorded_location.export'),
+                ),
               ],
             ),
             Column(
@@ -123,7 +163,9 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
                   icon: Icon(Icons.delete),
                   onPressed: _clearDatabase,
                 ),
-                Text(FlutterI18n.translate(context, 'recorded_location.clear'),),
+                Text(
+                  FlutterI18n.translate(context, 'recorded_location.clear'),
+                ),
               ],
             ),
           ],

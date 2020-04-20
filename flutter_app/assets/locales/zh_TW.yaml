@@ -28,6 +28,7 @@ recorded_location:
   clear_alert: '若要清除所有紀錄位置，請按「確認」。'
   export: '下載記錄'
   share_file_text: '已紀錄的位置 (JSON 檔)'
+  database_exported_message: "歷史紀錄已經儲存到 '{database_path}'。要分享到其他應用程式嗎？"
 
 matched_result:
   check_now: '立即檢查'
@@ -38,5 +39,6 @@ matched_result:
   user_desc: '使用者'
   where: '位置'
 
+share: '分享'
 confirm: '確認'
 decline: '取消'
