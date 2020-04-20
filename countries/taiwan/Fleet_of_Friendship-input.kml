@@ -2,7 +2,7 @@
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
     <name>敦睦艦隊足跡熱點</name>
-    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br><br>苗栗縣 https://www.cna.com.tw/news/ahel/202004200055.aspx<br><br><br>桃園市 https://www.cna.com.tw/news/firstnews/202004200031.aspx<br><br>屏東縣 https://news.pchome.com.tw/living/cna/20200420/index-15873455364944018009.html]]></description>
+    <description><![CDATA[敦睦艦隊8確診高雄足跡公布 百貨夜市等7據點20日封館消毒<br><br>高雄市 https://www.cna.com.tw/news/firstnews/202004195008.aspx<br><br>台中市 https://news.ltn.com.tw/news/life/breakingnews/3139038<br><br>台南市 https://www.tainan.gov.tw/News_Content.aspx?n=13370&sms=9748&s=7657450<br><br>苗栗縣 https://www.cna.com.tw/news/ahel/202004200055.aspx<br><br><br>桃園市 https://www.cna.com.tw/news/firstnews/202004200031.aspx<br><br>屏東縣 https://news.pchome.com.tw/living/cna/20200420/index-15873455364944018009.html<br><br>基隆市 https://www.cna.com.tw/news/firstnews/202004200032.aspx]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -413,6 +413,39 @@
         <Point>
           <coordinates>
             120.536241,22.5493365,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>基隆市</name>
+      <Placemark>
+        <name>國光客運基隆站</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T21:50:00;end:2020-04-17T22:29:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.7394191,25.1323064,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>高鐵左營 0152車次</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T18:25:00;end:2020-04-17T19:29:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.3091251,22.6878495,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>國光客運(台北車站)</name>
+        <description><![CDATA[#!metadata<br>begin:2020-04-17T20:40:00;end:2020-04-17T22:29:59]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.51861,25.048242,0
           </coordinates>
         </Point>
       </Placemark>

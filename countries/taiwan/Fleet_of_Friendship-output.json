@@ -467,6 +467,45 @@
           "endTimestampMs": 1587052799000
         }
       }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 251323064,
+          "longitudeE7": 1217394191,
+          "name": "國光客運基隆站 "
+        },
+        "duration": {
+          "startTimestampMs": 1587131400000,
+          "endTimestampMs": 1587133799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226878495,
+          "longitudeE7": 1203091251,
+          "name": "高鐵左營 0152車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1587119100000,
+          "endTimestampMs": 1587122999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250482420,
+          "longitudeE7": 1215186100,
+          "name": "國光客運(台北車站) "
+        },
+        "duration": {
+          "startTimestampMs": 1587127200000,
+          "endTimestampMs": 1587133799000
+        }
+      }
     }
   ]
 }
