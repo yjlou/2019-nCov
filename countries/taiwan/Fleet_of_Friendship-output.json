@@ -177,7 +177,7 @@
           "name": "小港郵局 "
         },
         "duration": {
-          "startTimestampMs": 1587052800000,
+          "startTimestampMs": 1587101400000,
           "endTimestampMs": 1587139199000
         }
       }
@@ -419,8 +419,8 @@
     {
       "placeVisit": {
         "location": {
-          "latitudeE7": 226878495,
-          "longitudeE7": 1203091251,
+          "latitudeE7": 226875352,
+          "longitudeE7": 1203077759,
           "name": "高鐵左營 0136車次 3車8A "
         },
         "duration": {
@@ -445,8 +445,8 @@
     {
       "placeVisit": {
         "location": {
-          "latitudeE7": 226874408,
-          "longitudeE7": 1203073967,
+          "latitudeE7": 226873344,
+          "longitudeE7": 1203074772,
           "name": "高鐵左營 0580車次 11車9E "
         },
         "duration": {
@@ -653,6 +653,19 @@
     {
       "placeVisit": {
         "location": {
+          "latitudeE7": 226771100,
+          "longitudeE7": 1204978630,
+          "name": "國民運動中心 "
+        },
+        "duration": {
+          "startTimestampMs": 1587108600000,
+          "endTimestampMs": 1587122999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
           "latitudeE7": 251323064,
           "longitudeE7": 1217394191,
           "name": "國光客運基隆站 "
@@ -666,8 +679,8 @@
     {
       "placeVisit": {
         "location": {
-          "latitudeE7": 226878495,
-          "longitudeE7": 1203091251,
+          "latitudeE7": 226876466,
+          "longitudeE7": 1203089239,
           "name": "高鐵左營 0152車次 "
         },
         "duration": {
@@ -751,6 +764,695 @@
         "duration": {
           "startTimestampMs": 1587121200000,
           "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226876619,
+          "longitudeE7": 1203087688,
+          "name": "高鐵左營 0156車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1587122700000,
+          "endTimestampMs": 1587126599000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 234586560,
+          "longitudeE7": 1203229290,
+          "name": "高鐵嘉義 0696車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1586961120000,
+          "endTimestampMs": 1586962559000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226884175,
+          "longitudeE7": 1203097627,
+          "name": "高鐵左營 0696車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1586957400000,
+          "endTimestampMs": 1586960759000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226876010,
+          "longitudeE7": 1203083036,
+          "name": "高鐵左營 0672車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1586943000000,
+          "endTimestampMs": 1586946359000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 241117411,
+          "longitudeE7": 1206157315,
+          "name": "高鐵台中 0672車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1586948400000,
+          "endTimestampMs": 1586950199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226874408,
+          "longitudeE7": 1203073967,
+          "name": "臺鐵新左營站 "
+        },
+        "duration": {
+          "startTimestampMs": 1586948400000,
+          "endTimestampMs": 1586951999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226873199,
+          "longitudeE7": 1203075554,
+          "name": "臺鐵新左營站 "
+        },
+        "duration": {
+          "startTimestampMs": 1587031200000,
+          "endTimestampMs": 1587034799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226689173,
+          "longitudeE7": 1204860729,
+          "name": "屏東車站 "
+        },
+        "duration": {
+          "startTimestampMs": 1586952660000,
+          "endTimestampMs": 1586954399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226769491,
+          "longitudeE7": 1205278970,
+          "name": "長治圓環派出所 "
+        },
+        "duration": {
+          "startTimestampMs": 1587009600000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 227489676,
+          "longitudeE7": 1204468283,
+          "name": "佛光山萬壽園 "
+        },
+        "duration": {
+          "startTimestampMs": 1586934000000,
+          "endTimestampMs": 1586966399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 237115194,
+          "longitudeE7": 1205413635,
+          "name": "斗六火車站122車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1587014580000,
+          "endTimestampMs": 1587018239000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250477020,
+          "longitudeE7": 1215173735,
+          "name": "臺鐵臺北車站 122車次 "
+        },
+        "duration": {
+          "startTimestampMs": 1587027600000,
+          "endTimestampMs": 1587031199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226632195,
+          "longitudeE7": 1203022745,
+          "name": "酷帽子美式餐館 "
+        },
+        "duration": {
+          "startTimestampMs": 1587053700000,
+          "endTimestampMs": 1587077999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226271200,
+          "longitudeE7": 1203516400,
+          "name": "伊麗莎白撞球休閒運動館 "
+        },
+        "duration": {
+          "startTimestampMs": 1587110400000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 230008625,
+          "longitudeE7": 1201935308,
+          "name": "台南Dear House 創意旅宿 "
+        },
+        "duration": {
+          "startTimestampMs": 1587128400000,
+          "endTimestampMs": 1587167999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 229983764,
+          "longitudeE7": 1201969529,
+          "name": "鬍鬚忠牛肉湯 "
+        },
+        "duration": {
+          "startTimestampMs": 1587121200000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226878495,
+          "longitudeE7": 1203091251,
+          "name": "高雄捷運左營站 "
+        },
+        "duration": {
+          "startTimestampMs": 1586854800000,
+          "endTimestampMs": 1586856599000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 227293300,
+          "longitudeE7": 1203210290,
+          "name": "都會公園站 "
+        },
+        "duration": {
+          "startTimestampMs": 1586854800000,
+          "endTimestampMs": 1586856599000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226732667,
+          "longitudeE7": 1204934017,
+          "name": "環球吉野家屏東市 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 227279245,
+          "longitudeE7": 1203300538,
+          "name": "楠梓天后宮 "
+        },
+        "duration": {
+          "startTimestampMs": 1587031200000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226812130,
+          "longitudeE7": 1202808878,
+          "name": "7-ELEVEN 先鋒門市 "
+        },
+        "duration": {
+          "startTimestampMs": 1586854800000,
+          "endTimestampMs": 1586879999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250496496,
+          "longitudeE7": 1215173260,
+          "name": "京站時尚廣場 "
+        },
+        "duration": {
+          "startTimestampMs": 1587015600000,
+          "endTimestampMs": 1587020399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 232859910,
+          "longitudeE7": 1201404810,
+          "name": "南鯤鯓 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 229906648,
+          "longitudeE7": 1201957156,
+          "name": "四安境南廠代天府保安宮 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 232681164,
+          "longitudeE7": 1201236343,
+          "name": "錢來也商店（創始店） "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 232642801,
+          "longitudeE7": 1201226924,
+          "name": "水晶教堂 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 232666996,
+          "longitudeE7": 1201202472,
+          "name": "北門鹽田體驗區 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 232368236,
+          "longitudeE7": 1201834372,
+          "name": "學甲國中 "
+        },
+        "duration": {
+          "startTimestampMs": 1587052800000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 241117411,
+          "longitudeE7": 1206157315,
+          "name": "高鐵台中站 "
+        },
+        "duration": {
+          "startTimestampMs": 1587004500000,
+          "endTimestampMs": 1587009599000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 241830310,
+          "longitudeE7": 1206046370,
+          "name": "臺中榮總(臺灣大道) "
+        },
+        "duration": {
+          "startTimestampMs": 1586952600000,
+          "endTimestampMs": 1586953799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 225652049,
+          "longitudeE7": 1203380293,
+          "name": "高雄市小港區戶政事務所所本部 "
+        },
+        "duration": {
+          "startTimestampMs": 1587018600000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 225651999,
+          "longitudeE7": 1203381151,
+          "name": "高雄市小港區戶政事務所所本部 "
+        },
+        "duration": {
+          "startTimestampMs": 1587103200000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226590572,
+          "longitudeE7": 1203178309,
+          "name": "投幣式自助洗車廠 "
+        },
+        "duration": {
+          "startTimestampMs": 1586966400000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 225515860,
+          "longitudeE7": 1205385464,
+          "name": "斯朵利髮型潮州店 "
+        },
+        "duration": {
+          "startTimestampMs": 1587022200000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 225502060,
+          "longitudeE7": 1205358920,
+          "name": "潮州車站 "
+        },
+        "duration": {
+          "startTimestampMs": 1587027600000,
+          "endTimestampMs": 1587031199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250412460,
+          "longitudeE7": 1213854340,
+          "name": "體育大學站 "
+        },
+        "duration": {
+          "startTimestampMs": 1587043800000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250574514,
+          "longitudeE7": 1213637664,
+          "name": "永和豆漿 "
+        },
+        "duration": {
+          "startTimestampMs": 1587045600000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250518941,
+          "longitudeE7": 1213690024,
+          "name": "北方麵飯館 "
+        },
+        "duration": {
+          "startTimestampMs": 1587117600000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 242700835,
+          "longitudeE7": 1205756920,
+          "name": "手機夢工廠 "
+        },
+        "duration": {
+          "startTimestampMs": 1586926800000,
+          "endTimestampMs": 1586966399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250742170,
+          "longitudeE7": 1214347100,
+          "name": "迪里休斯 "
+        },
+        "duration": {
+          "startTimestampMs": 1586995200000,
+          "endTimestampMs": 1587016799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250839979,
+          "longitudeE7": 1214384759,
+          "name": "小林眼鏡五股店 "
+        },
+        "duration": {
+          "startTimestampMs": 1587031200000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 251375116,
+          "longitudeE7": 1214854519,
+          "name": "復興崗站 "
+        },
+        "duration": {
+          "startTimestampMs": 1586957400000,
+          "endTimestampMs": 1586960999000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 249891959,
+          "longitudeE7": 1213134715,
+          "name": "桃園火車站 區間車2144 "
+        },
+        "duration": {
+          "startTimestampMs": 1587005220000,
+          "endTimestampMs": 1587008819000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250142992,
+          "longitudeE7": 1214640073,
+          "name": "板橋車站 區間車2144 "
+        },
+        "duration": {
+          "startTimestampMs": 1587008640000,
+          "endTimestampMs": 1587012239000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 250084156,
+          "longitudeE7": 1215117271,
+          "name": "樂華夜市 "
+        },
+        "duration": {
+          "startTimestampMs": 1587123900000,
+          "endTimestampMs": 1587133799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 242668279,
+          "longitudeE7": 1205748036,
+          "name": "清水區農會前用餐 "
+        },
+        "duration": {
+          "startTimestampMs": 1587015900000,
+          "endTimestampMs": 1587018599000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 242667692,
+          "longitudeE7": 1205748626,
+          "name": "清水區農會前用餐 "
+        },
+        "duration": {
+          "startTimestampMs": 1587033720000,
+          "endTimestampMs": 1587037319000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 242668279,
+          "longitudeE7": 1205748036,
+          "name": "清水區農會前用餐 "
+        },
+        "duration": {
+          "startTimestampMs": 1587097800000,
+          "endTimestampMs": 1587101399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 242667888,
+          "longitudeE7": 1205746963,
+          "name": "清水區農會前用餐 "
+        },
+        "duration": {
+          "startTimestampMs": 1587121200000,
+          "endTimestampMs": 1587124799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 234883030,
+          "longitudeE7": 1204337460,
+          "name": "7-ELEVEN桃城門市 "
+        },
+        "duration": {
+          "startTimestampMs": 1587013200000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 246841510,
+          "longitudeE7": 1209884543,
+          "name": "雪之湖咖啡 "
+        },
+        "duration": {
+          "startTimestampMs": 1587101400000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226659053,
+          "longitudeE7": 1205048409,
+          "name": "國立屏東大學民生校區 "
+        },
+        "duration": {
+          "startTimestampMs": 1586966400000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226581120,
+          "longitudeE7": 1205115692,
+          "name": "國立屏東大學屏商校區 "
+        },
+        "duration": {
+          "startTimestampMs": 1586966400000,
+          "endTimestampMs": 1587052799000
         }
       }
     }
