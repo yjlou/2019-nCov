@@ -37,7 +37,7 @@ class AppLocaleModel extends ChangeNotifier {
     loadLocaleFromSharedPreferences().then(
       (locale) {
         if (locale == null) {
-          locale = window.locale;
+          locale = window.locale ?? supportedLocales[0];
         }
         print('${locale.languageCode}_${locale.countryCode}');
         if (!supportedLocales.contains(locale)) {
