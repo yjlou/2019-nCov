@@ -58,7 +58,15 @@ class RecordedLocationState extends State<RecordedLocationWidget> {
   }
 
   Future<void> _exportDatabase() async {
-    Directory extDir = await getExternalStorageDirectory();
+    Directory extDir;
+
+    if (Platform.isAndroid) {
+      extDir = await getExternalStorageDirectory();
+    } else if (Platform.isIOS) {
+      extDir = await getApplicationDocumentsDirectory();
+    } else {
+      throw UnsupportedError('We only support "Android" and "iOS"');
+    }
     Directory destDir = new Directory('${extDir.path}/events.pandemic');
     await destDir.create(recursive: true);
     String extFilePath = '${destDir.path}/recorded_location.json';
