@@ -395,7 +395,7 @@
         "location": {
           "latitudeE7": 242678370,
           "longitudeE7": 1205748680,
-          "name": "華得來(清水店) "
+          "name": "華得來清水店 "
         },
         "duration": {
           "startTimestampMs": 1587114000000,
@@ -590,7 +590,7 @@
         "location": {
           "latitudeE7": 250130024,
           "longitudeE7": 1212148750,
-          "name": "高鐵桃園 838 車次 "
+          "name": "高鐵桃園 838車次 "
         },
         "duration": {
           "startTimestampMs": 1587028680000,
@@ -1342,9 +1342,22 @@
     {
       "placeVisit": {
         "location": {
+          "latitudeE7": 250141846,
+          "longitudeE7": 1214637528,
+          "name": "板橋車站 區間車2144 "
+        },
+        "duration": {
+          "startTimestampMs": 1587008640000,
+          "endTimestampMs": 1587012239000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
           "latitudeE7": 250084156,
           "longitudeE7": 1215117271,
-          "name": "樂華夜市 "
+          "name": "新北市永和樂華夜市 "
         },
         "duration": {
           "startTimestampMs": 1587123900000,
@@ -1420,22 +1433,9 @@
     {
       "placeVisit": {
         "location": {
-          "latitudeE7": 246841510,
-          "longitudeE7": 1209884543,
-          "name": "雪之湖咖啡 "
-        },
-        "duration": {
-          "startTimestampMs": 1587101400000,
-          "endTimestampMs": 1587139199000
-        }
-      }
-    },
-    {
-      "placeVisit": {
-        "location": {
           "latitudeE7": 226659053,
           "longitudeE7": 1205048409,
-          "name": "國立屏東大學民生校區 "
+          "name": "[4/21刪除]國立屏東大學民生校區 "
         },
         "duration": {
           "startTimestampMs": 1586966400000,
@@ -1448,11 +1448,128 @@
         "location": {
           "latitudeE7": 226581120,
           "longitudeE7": 1205115692,
-          "name": "國立屏東大學屏商校區 "
+          "name": "[4/21刪除]國立屏東大學屏商校區 "
         },
         "duration": {
           "startTimestampMs": 1586966400000,
           "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 229976461,
+          "longitudeE7": 1201955480,
+          "name": "[4/21新增]劉家汕頭麵 "
+        },
+        "duration": {
+          "startTimestampMs": 1586948400000,
+          "endTimestampMs": 1586950200000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 230093078,
+          "longitudeE7": 1201857449,
+          "name": "[4/21新增]黎明鐵板燒 "
+        },
+        "duration": {
+          "startTimestampMs": 1587036600000,
+          "endTimestampMs": 1587039000000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 229899295,
+          "longitudeE7": 1201874853,
+          "name": "[4/21新增]臺南市永華國民運動中心(啞鈴區、跑步機) "
+        },
+        "duration": {
+          "startTimestampMs": 1587025200000,
+          "endTimestampMs": 1587033000000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 229968592,
+          "longitudeE7": 1202157485,
+          "name": "[4/21新增]成功大學光復籃球場 "
+        },
+        "duration": {
+          "startTimestampMs": 1587105000000,
+          "endTimestampMs": 1587121200000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226856590,
+          "longitudeE7": 1203387235,
+          "name": "[4/21新增]全聯福利中心-仁武八德店 "
+        },
+        "duration": {
+          "startTimestampMs": 1586942400000,
+          "endTimestampMs": 1586944800000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226812903,
+          "longitudeE7": 1202864608,
+          "name": "[4/21新增]海軍左營基地-海軍陸戰隊學校 "
+        },
+        "duration": {
+          "startTimestampMs": 1586880000000,
+          "endTimestampMs": 1586966399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226691240,
+          "longitudeE7": 1205030387,
+          "name": "[4/21新增]國立屏東大學林森校區 "
+        },
+        "duration": {
+          "startTimestampMs": 1586966400000,
+          "endTimestampMs": 1587052799000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 246838029,
+          "longitudeE7": 1209880604,
+          "name": "[4/21新增]新竹峨眉湖吊橋 "
+        },
+        "duration": {
+          "startTimestampMs": 1587101400000,
+          "endTimestampMs": 1587108600000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 246841510,
+          "longitudeE7": 1209884543,
+          "name": "雪之湖咖啡 "
+        },
+        "duration": {
+          "startTimestampMs": 1587101400000,
+          "endTimestampMs": 1587139199000
         }
       }
     }
