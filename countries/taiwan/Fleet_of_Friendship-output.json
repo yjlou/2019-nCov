@@ -1420,6 +1420,19 @@
     {
       "placeVisit": {
         "location": {
+          "latitudeE7": 246841510,
+          "longitudeE7": 1209884543,
+          "name": "雪之湖咖啡 "
+        },
+        "duration": {
+          "startTimestampMs": 1587101400000,
+          "endTimestampMs": 1587139199000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
           "latitudeE7": 234883030,
           "longitudeE7": 1204337460,
           "name": "7-ELEVEN桃城門市 "
@@ -1563,12 +1576,38 @@
     {
       "placeVisit": {
         "location": {
-          "latitudeE7": 246841510,
-          "longitudeE7": 1209884543,
-          "name": "雪之湖咖啡 "
+          "latitudeE7": 226536902,
+          "longitudeE7": 1203040252,
+          "name": "[4/22新增]Masyeo Bistro 瑪秀餐酒館 高雄市鼓山區博愛一路448號<br>"
         },
         "duration": {
-          "startTimestampMs": 1587101400000,
+          "startTimestampMs": 1586964600000,
+          "endTimestampMs": 1586988000000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226346820,
+          "longitudeE7": 1203037500,
+          "name": "[4/22新增]野饌日式燒肉 "
+        },
+        "duration": {
+          "startTimestampMs": 1586952000000,
+          "endTimestampMs": 1586966399000
+        }
+      }
+    },
+    {
+      "placeVisit": {
+        "location": {
+          "latitudeE7": 226633465,
+          "longitudeE7": 1204890579,
+          "name": "[4/22新增]家樂福新屏店 1樓鐵板燒 "
+        },
+        "duration": {
+          "startTimestampMs": 1587117600000,
           "endTimestampMs": 1587139199000
         }
       }
