@@ -13,6 +13,10 @@ void callbackDispatcher() {
         // Avoid making synchronize call.
         await SyncService().tick();
         break;
+      case Workmanager.iOSBackgroundTask:
+        // iOS always run with Workmanager.iOSBackgroundTask.
+        await SyncService().tick();
+        break;
     }
     return Future.value(true);
   });

@@ -4,6 +4,8 @@ import 'package:covid19/settings_widget.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_i18n/flutter_i18n.dart';
+import 'package:flutter_icons/flutter_icons.dart';
+import 'package:material_design_icons_flutter/material_design_icons_flutter.dart';
 import 'package:provider/provider.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -72,21 +74,35 @@ class OuterWidgetState extends State<OuterWidget> {
                     BottomNavigationBarItem(
                       icon: Consumer<LocationCollectorModel>(
                         builder: (context, model, child) {
-                          return IconButton(
-                            icon: model.isRecordingLocation == true
-                                ? Icon(
-                                    Icons.pause,
-                                    color: Colors.black,
-                                  )
-                                : Icon(
-                                    Icons.fiber_manual_record,
-                                    color: Colors.red,
-                                  ),
-                          );
+                          if (model.isRecordingLocation == true) {
+                            return Icon(
+                              MdiIcons.shoePrint,
+                              color: Color.lerp(
+                                Colors.green,
+                                Colors.black,
+                                0.25,
+                              ),
+                              size: 28,
+                            );
+                          } else {
+                            return Stack(
+                              children: <Widget>[
+                                Icon(
+                                  MdiIcons.shoePrint,
+                                  color: Colors.black,
+                                  size: 28,
+                                ),
+                                Icon(
+                                  Icons.block,
+                                  color: Color.fromRGBO(255, 0, 0, 0.5),
+                                  size: 28,
+                                ),
+                              ],
+                            );
+                          }
                         },
                       ),
                       title: I18nText('common.records'),
-                      // title: Text(FlutterI18n.translate(context, 'common.records')),
                     ),
                     BottomNavigationBarItem(
                       icon: GestureDetector(
@@ -123,7 +139,6 @@ class OuterWidgetState extends State<OuterWidget> {
                     BottomNavigationBarItem(
                       icon: Icon(Icons.settings),
                       title: I18nText('common.settings'),
-                      // title: Text(FlutterI18n.translate(context, 'common.settings')),
                     ),
                   ],
                 );

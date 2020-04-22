@@ -53,7 +53,9 @@ class SyncService {
   }
 
   Future<bool> stop() async {
-    await Workmanager.cancelByUniqueName(TASK_NAME);
+    if (Platform.isAndroid) {
+      await Workmanager.cancelByUniqueName(TASK_NAME);
+    }
     return true;
   }
 
