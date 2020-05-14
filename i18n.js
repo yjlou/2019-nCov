@@ -42,6 +42,16 @@ function load_i18n(callback) {
             // en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
             let lang = language.split(",")[0];
             load_lang(lang, callback);
+        },
+        error: function(jqXHR, textStatus, errorThrown) {
+          console.error(jqXHR);
+          console.error(textStatus);
+          console.error(errorThrown);
+          alert("Cannot determine the client language code. See console for debugging.");
+
+          // fallback to en-US locale.
+          let lang = "en-US";
+          load_lang(lang, callback);
         }
     });
   }
