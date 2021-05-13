@@ -1,5 +1,4 @@
 {
-  "values": {
     "HTML_SELECT_LANGUAGE": "選擇語言",
     "HTML_ALERT_MOBILE": "為了達到最好的使用者體驗，建議使用桌上型或筆記型電腦操作。",
     "HTML_ALERT_STAGING": "這是給開發人員測試的網頁。如果你不是開發人員，請前往<a href='https://pandemic.events'>正式網頁</a>。",
@@ -57,11 +56,10 @@
 
     "LOADING_TRACKING": "讀取別人的軌跡中 ...\n",
     "DONE_LOADING": "讀取完畢。請開始使用。\n",
-    "ANALYZING": "分析 %{filename} ...",
-    "DONE_ANALYZE": "完成分析 %{filename} ... 在 %{num_points} 筆資料中，發現 %{contacts_length} 個重疊的地方",
-    "UNSUPPORTED_FILE_TYPE": "不支援的副檔名 %{filename}",
-    "FINISH_RESULTS": "比對結果，有 %{total_found} 個重疊的地方。\n\n", 
+    "ANALYZING": "分析 $1 ...",
+    "DONE_ANALYZE": "完成分析 $1 ... 在 $3 筆資料中，發現 $2 個重疊的地方",
+    "UNSUPPORTED_FILE_TYPE": "不支援的副檔名 $1",
+    "FINISH_RESULTS": "比對結果，有 $1 個重疊的地方。\n\n", 
 
     "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
-  }
 }

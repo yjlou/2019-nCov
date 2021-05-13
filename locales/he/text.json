@@ -1,5 +1,4 @@
 {
-  "values": {
     "HTML_SELECT_LANGUAGE": "בחר שפה",
     "HTML_ALERT_MOBILE": "לחווית משתמש אופטימלית, אנו ממליצים על מחשב נייח או נייד",
     "HTML_ALERT_STAGING": "זהו דף לבדיקות פיתוח. אם אינך מפתח תוכנה, אנא השתמש ב <a href='https://pandemic.events'>אתר החיצוני </a> במקום.",
@@ -57,11 +56,10 @@
 
     "LOADING_TRACKING": "טוען מסלולים\n",
     "DONE_LOADING": "טעינה הסתיימה. עכשיו אפשר להשתמש במידע\n",
-    "ANALYZING": "מנתח נתונים %{filename} ...",
-    "DONE_ANALYZE": "מנתח את %{filename}. נמצאו %{contacts_length} התאמות ב- %{num_points} רשומות.",
-    "UNSUPPORTED_FILE_TYPE": "קובץ עם סיומת שאינה נתמכת: %{filename}",
-    "FINISH_RESULTS": "הצלבה הסתיימה. נמצאו  %{total_found} מקומות מצטלבים.\n\n",
+    "ANALYZING": "מנתח נתונים $1 ...",
+    "DONE_ANALYZE": "מנתח את $1. נמצאו $2 התאמות ב- $3 רשומות.",
+    "UNSUPPORTED_FILE_TYPE": "קובץ עם סיומת שאינה נתמכת: $1",
+    "FINISH_RESULTS": "הצלבה הסתיימה. נמצאו  $1 מקומות מצטלבים.\n\n",
 
     "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
-  }
 }

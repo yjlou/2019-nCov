@@ -1,5 +1,4 @@
 {
-  "values": {
     "HTML_SELECT_LANGUAGE": "언어를 선택하십시오",
     "HTML_ALERT_MOBILE": "최상의 사용자 경험을 얻으려면 랩톱 또는 노트북을 권장합니다.",
     "HTML_ALERT_STAGING": "개발자가 테스트 할 페이지입니다. 개발자가 아닌 경우 <a href='https://pandemic.events'>공식 페이지</a>를 대신 사용하십시오.",
@@ -57,11 +56,10 @@
 
     "LOADING_TRACKING": "Loading tracking data ...\n",
     "DONE_LOADING": "Done loading. You can start using now.\n",
-    "ANALYZING": "Analyzing %{filename} ...",
-    "DONE_ANALYZE": "%{filename} 분석.  %{num_points} 개의 레코드에서 %{contacts_length} 개의 일치 항목을 찾았습니다.",
-    "UNSUPPORTED_FILE_TYPE": "지원되지 않는 파일 확장자 : %{filename}",
-    "FINISH_RESULTS": "비교를 완료했습니다. 중복 된 장소가 %{total_found} 개 있습니다.\n\n",
+    "ANALYZING": "Analyzing $1 ...",
+    "DONE_ANALYZE": "$1 분석.  $3 개의 레코드에서 $2 개의 일치 항목을 찾았습니다.",
+    "UNSUPPORTED_FILE_TYPE": "지원되지 않는 파일 확장자 : $1",
+    "FINISH_RESULTS": "비교를 완료했습니다. 중복 된 장소가 $1 개 있습니다.\n\n",
 
     "--- END OF STUPID JSON FILE ---": "FOR THE STUPID TAILING COMMA"
-  }
 }
