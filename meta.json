@@ -1,35 +1,11 @@
 {
   "defaultPatientsData": [
     {
-      "__comment": "Taiwan Fleet of Friendship",
-      "desc": "Taiwan 敦睦艦隊",
-      "meta": "countries/taiwan/Fleet_of_Friendship-meta.json",
-      "path": "countries/taiwan/Fleet_of_Friendship-output.json",
-      "src": "https://drive.google.com/open?id=1w-tfnbx8-Hwh_e3Qc95E4RkGEfJmmzvW&usp=sharing"
-    },
-
-    {
-      "__comment": "Taiwan ChingMing Days",
-      "desc": "Taiwan 台灣清明節高風險地區",
-      "meta": "countries/taiwan/ChingMing-meta.json",
-      "path": "countries/taiwan/ChingMing-output.json",
-      "src": "https://drive.google.com/open?id=145ia8C6MEMaI_ZdeezWmF_q-M1beh6RP&usp=sharing"
-    },
-
-    {
-      "__comment": "coronamap.site",
-      "desc": "Korea data [https://coronamap.site]",
-      "meta": "countries/korea/coronamap.site-meta.json",
-      "path": "countries/korea/coronamap.site-output.json",
-      "src": "https://coronamap.site"
-    },
-
-    {
-      "__comment": "Israel government GIS",
-      "desc": "Israel cases",
-      "meta": "countries/israel/meta.json",
-      "path": "countries/israel/output.json",
-      "src": "https://imoh.maps.arcgis.com/apps/webappviewer/index.html?id=20ded58639ff4d47a2e2e36af464c36e&locale=he&/"
+      "__comment": "Taiwan 2021 May",
+      "desc": "Taiwan 台灣 2021年五月份",
+      "meta": "countries/taiwan/202105-taiwan-meta.json",
+      "path": "countries/taiwan/202105-taiwan-output.json",
+      "src": "countries/taiwan/202105-taiwan.kml"
     }
   ]
 }
