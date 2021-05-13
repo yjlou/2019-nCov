@@ -16,11 +16,18 @@
   </script>
   <!-- end of GA -->
 
-  <!-- jQuery -->
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" crossorigin="anonymous"></script>
-
-  <!-- Simple i18n: https://i18njs.com/ -->
-  <script src="https://i18njs.com/js/i18n.min.js"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.min.js"
+    integrity="sha512-a0tGMh5o0nCoRDiMVaSmiWgB9s/JqfC+PQZHWANTzIhasvm5eH9NkWTmJ4WloaQWLT8fEzRBjvADgFNDf0WusQ=="
+    crossorigin="anonymous"></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.i18n/1.0.7/jquery.i18n.messagestore.min.js"
+    integrity="sha512-/hv/2tE0W63ywFkKYwtnbYdBwlS+tjEw/TWvGD31awT1bbEliLB0G0akHicAUJVLPSCE6LVEnfdJy0lPkrauvg=="
+    crossorigin="anonymous"></script>
 
   <!-- fake function to bypass the node.js require() code. Must be defined before the local .js files are imported. -->
   <script> function require() { } </script>
@@ -130,7 +137,7 @@
     }
 
     function loadPatientData() {
-      log(i18n("LOADING_TRACKING"));
+      log($.i18n("LOADING_TRACKING"));
 
       let load_files_elem = $("#loadFiles");
       let load_files = [];
@@ -229,7 +236,7 @@
         load_files_elem.html(load_files_elem.html() + add_html);
       }
 
-      log(i18n("DONE_LOADING"));
+      log($.i18n("DONE_LOADING"));
     }
 
     function twoDigits(num) {
@@ -303,8 +310,8 @@
       var filename = file_blob.name;
       const display = $("#results");
       if (filename.endsWith(".kml") || filename.endsWith(".json")) {
-        log(i18n("ANALYZING", { filename: filename }));
-        appendResults(i18n("ANALYZING", { filename: filename }));
+        log($.i18n("ANALYZING", filename));
+        appendResults($.i18n("ANALYZING", filename));
         let file_text = await loadFileContentAsync(file_blob);
         let points = parseFile(filename, file_text);
 
@@ -316,18 +323,18 @@
 
         TOTAL_FOUND += contacts.length;
 
-        log(i18n("DONE_ANALYZE", {
-          filename: filename,
-          num_points: points.length,
-          contacts_length: contacts.length
-        }));
-        appendResults(i18n("DONE_ANALYZE", {
-          filename: filename,
-          num_points: points.length,
-          contacts_length: contacts.length
-        }));
+        log($.i18n("DONE_ANALYZE",
+          filename,
+          contacts.length,
+          points.length
+        ));
+        appendResults($.i18n("DONE_ANALYZE",
+          filename,
+          contacts.length,
+          points.length
+        ));
       } else {
-        alert(i18n("UNSUPPORTED_FILE_TYPE", { filename: filename }));
+        alert($.i18n("UNSUPPORTED_FILE_TYPE", filename));
       }
     }
 
@@ -359,7 +366,7 @@
     }
 
     function finishResults() {
-      appendResults(i18n("FINISH_RESULTS", { total_found: TOTAL_FOUND }));
+      appendResults($.i18n("FINISH_RESULTS", TOTAL_FOUND));
       $("#results").scrollTop(0);
 
       if (TOTAL_FOUND == 0) {
@@ -408,7 +415,7 @@
       if (oFiles.length === 0) return;
 
       // Prompt user this could take longer than they think.
-      M.toast({html: i18n("HTML_CHECKING"),
+      M.toast({html: $.i18n("HTML_CHECKING"),
                displayLength: 99999 * 1000,  // infinite
       });
 
@@ -507,65 +514,67 @@
       return false;
     }
 
-    function onLoad() {
-      parseUrlParams();
-      load_i18n(function () {
-        update_i18n_UI();
+    $( document ).ready(
+      function ($) {
+        parseUrlParams();
+        load_i18n(function () {
+          update_i18n_UI();
 
-        // Initialize Materialize selects after UI components are updated,
-        // since Materialize inserts DOM elements based on the state of the
-        // selects.
-        M.FormSelect.init(document.querySelectorAll('select'), {});
-        $('.tabs').tabs();
+          // Initialize Materialize selects after UI components are updated,
+          // since Materialize inserts DOM elements based on the state of the
+          // selects.
+          M.FormSelect.init(document.querySelectorAll('select'), {});
+          $('.tabs').tabs();
 
-        // Must be run after Materialize init.
-        apply_RTL_UI();
+          // Must be run after Materialize init.
+          apply_RTL_UI();
 
-        alertMobile();
+          alertMobile();
 
-        if (is_staging()) {
-          $('#HTML_ALERT_STAGING').show();
+          if (is_staging()) {
+            $('#HTML_ALERT_STAGING').show();
+          }
+
+          // Loading patient data can take forever. Give some time for UI to update.
+          // Delay the loading.
+          setTimeout(function() {
+            loadPatientData();
+          }, 200);
+
+          // If there is no hashtag in URL, jump to step 1 tab
+          if (!window.location.hash) {
+            selectTab('step1');
+          }
+        });
+
+        document.getElementById('download_btn').onclick = download_btn_onclick;
+
+        // Do not show log field in prod.
+        if (is_production()) {
+          document.getElementById('logs_title').style.display = 'none';
         }
-
-        // Loading patient data can take forever. Give some time for UI to update.
-        // Delay the loading.
-        setTimeout(function() {
-          loadPatientData();
-        }, 200);
-
-        // If there is no hashtag in URL, jump to step 1 tab
-        if (!window.location.hash) {
-          selectTab('step1');
-        }
-      });
-
-      document.getElementById('download_btn').onclick = download_btn_onclick;
-
-      // Do not show log field in prod.
-      if (is_production()) {
-        document.getElementById('logs_title').style.display = 'none';
       }
-    }
+    );
   </script>
 </head>
 
-<body onload="onLoad();">
+<body>
   <!-- Template won't be shown -->
   <template id="matched-info-template">
     <!-- A card to show matched info -->
     <div id="root" class="card-panel">
       <div>
-        <label id="HTML_LABEL_WHEN">When</label> <span id='time-info'></span>
+        <label id="HTML_LABEL_WHEN" data-i18n="HTML_LABEL_WHEN">When</label> <span id='time-info'></span>
       </div>
       <div>
-        <label id="HTML_LABEL_YOU">You</label> <span id="user-info"></span>
+        <label id="HTML_LABEL_YOU" data-i18n="HTML_LABEL_YOU">You</label> <span id="user-info"></span>
       </div>
       <div>
-        <label id="HTML_LABEL_PATIENT">Patient</label> <span id="case-info"></span>
+        <label id="HTML_LABEL_PATIENT" data-i18n="HTML_LABEL_PATIENT">Patient</label> <span id="case-info"></span>
       </div>
       <div>
-      <a id="HTML_VIEW_IN_GOOGLE_MAPS" class="btn" target="_blank" rel="noreferrer">View in Google Maps</a>
-      <a id="HTML_VIEW_IN_DATA_SOURCE" class="btn" target="_blank" rel="noreferrer">View in Data Source</a>
+      <a id="HTML_VIEW_IN_GOOGLE_MAPS" data-i18n="HTML_VIEW_IN_GOOGLE_MAPS" class="btn" target="_blank" rel="noreferrer">View in Google Maps</a>
+      <a id="HTML_VIEW_IN_DATA_SOURCE" data-i18n="HTML_VIEW_IN_DATA_SOURCE" class="btn" target="_blank" rel="noreferrer">View in Data Source</a>
     </div>
   </template>
 
@@ -575,12 +584,12 @@
         <div class="nav-wrapper">
           <div class="row">
             <div class="col s12">
-              <a href="#" id="HTML_APP_NAME" class="brand-logo" style="font-size: 100%;">COVID-19</a>
+              <a href="#" id="HTML_APP_NAME" data-i18n="HTML_APP_NAME" class="brand-logo" style="font-size: 100%;">COVID-19</a>
               <ul id="nav-mobile" class="hide-on-med-and-down">
                 <li>
                   <form onsubmit="return false;">
                     <select id="select_lang" onchange="language_changed();">
-                      <option id="HTML_SELECT_LANGUAGE" disabled selected>Select Language</option>
+                      <option id="HTML_SELECT_LANGUAGE" data-i18n="HTML_SELECT_LANGUAGE" disabled selected>Select Language</option>
                       <option value="en-US">English</option>
                       <option value="zh-TW">繁體中文</option>
                       <option value="ko">한국어</option>
@@ -599,97 +608,97 @@
   <main>
     <div class="container">
       <form name="uploadForm" onsubmit="return false;">
-        <p id="HTML_ALERT_STAGING" class='blinking' style="display: none; background-color: red;">
+        <p id="HTML_ALERT_STAGING" data-i18n="HTML_ALERT_STAGING" class='blinking' style="display: none; background-color: red;">
             This is the page for developer to test. If you are not developer, please use <a href='https://pandemic.events'>production page</a> instead.</p>
 
-        <p id="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell
+        <p id="HTML_APP_DESCRIPTION" data-i18n="HTML_APP_DESCRIPTION">By comparing with your mobile phone historical location data, this program can tell
           you
           whether you have contacted the confirmed patient or not.</p>
-        <p id="HTML_PROCESS_IN_LOCAL">For your privacy, your data are ONLY processed in local and will NOT be uploaded to any server.</p>
-        <p id="HTML_LOADED_DATA">Loaded Data List</p>
+        <p id="HTML_PROCESS_IN_LOCAL" data-i18n="HTML_PROCESS_IN_LOCAL">For your privacy, your data are ONLY processed in local and will NOT be uploaded to any server.</p>
+        <p id="HTML_LOADED_DATA" data-i18n="HTML_LOADED_DATA">Loaded Data List</p>
         <pre id="loadFiles"></pre>
-        <p id="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to
+        <p id="HTML_WARNING" data-i18n="HTML_WARNING">WARNING! All the matched results are just FYI. If any result is incorrect, please refer to
           the information announced by the authority.</p>
         <hr>
 
         <div class="row">
           <div class="col s12">
             <ul class="tabs red lighten-5">
-              <li class="tab col s3"><a id="HTML_STEP_1" href="#step1" class="active">Step 1</a></li>
-              <li class="tab col s3"><a id="HTML_STEP_2" href="#step2">Step 2</a></li>
-              <li class="tab col s3"><a id="HTML_STEP_3" href="#step3">Step 3</a></li>
-              <li class="tab col s3"><a id="HTML_STEP_4" href="#step4">Step 4</a></li>
+              <li class="tab col s3"><a id="HTML_STEP_1" data-i18n="HTML_STEP_1" href="#step1" class="active">Step 1</a></li>
+              <li class="tab col s3"><a id="HTML_STEP_2" data-i18n="HTML_STEP_2" href="#step2">Step 2</a></li>
+              <li class="tab col s3"><a id="HTML_STEP_3" data-i18n="HTML_STEP_3" href="#step3">Step 3</a></li>
+              <li class="tab col s3"><a id="HTML_STEP_4" data-i18n="HTML_STEP_4" href="#step4">Step 4</a></li>
             </ul>
           </div>
 
           <div id="step1" class="col s12">
-            <h5 id="HTML_STEP_1_0">Step 1: Confirm your Location History had been opted-in</h5>
-            <p id="HTML_STEP_1_1">
+            <h5 id="HTML_STEP_1_0" data-i18n="HTML_STEP_1_0">Step 1: Confirm your Location History had been opted-in</h5>
+            <p id="HTML_STEP_1_1" data-i18n="HTML_STEP_1_1">
               Go to <a href="https://google.com/maps/timeline" target="_blank" rel="noreferrer">Google Maps Timeline</a>.
               If you see red dots on the map (as below screenshot), you have enabled the History Location feature.
               Please move to <a href="#" onclick="selectTab('step2')">step 2</a>.
             </p>
             <img id="IMG_LOCATION_HISTORY_ENABLED" src="images/blank-1.png" class="img-center"/>
 
-            <p id="HTML_ENABLE_HISTORY_LOCATION">If you don't see any red dot on the map, you probably need to enable the feature. Click the 'Gear Icon' on the bottom-right of screen. Then opt-in 'Enable Location History'. This will lead you into a concensus page. Enable this feature.</p>
+            <p id="HTML_ENABLE_HISTORY_LOCATION" data-i18n="HTML_ENABLE_HISTORY_LOCATION">If you don't see any red dot on the map, you probably need to enable the feature. Click the 'Gear Icon' on the bottom-right of screen. Then opt-in 'Enable Location History'. This will lead you into a concensus page. Enable this feature.</p>
             <img id="IMG_ENABLE_HISTORY_LOCATION" src="images/blank-1.png" class="img-center"/>
-            <p id="HTML_COME_BACK_AND_CHECK">Since you just started collecting your location data, there is no data to match. Please come back another day to match again.</p>
-            <a id="HTML_NEXT_STEP" class="btn btn_next_step" href="#" onclick="selectTab('step2')">Next Step</a>
+            <p id="HTML_COME_BACK_AND_CHECK" data-i18n="HTML_COME_BACK_AND_CHECK">Since you just started collecting your location data, there is no data to match. Please come back another day to match again.</p>
+            <a id="HTML_NEXT_STEP" data-i18n="HTML_NEXT_STEP" class="btn btn_next_step" href="#" onclick="selectTab('step2')">Next Step</a>
           </div>
 
           <div id="step2" class="col s12">
-            <h5 id="HTML_STEP_2_0">Step 2: Select period to download: </h5>
+            <h5 id="HTML_STEP_2_0" data-i18n="HTML_STEP_2_0">Step 2: Select period to download: </h5>
             <p>
               <span class="input-field inline">
                 <select id="download_period">
-                  <option id="HTML_LAST_31_DAYS" value="-2678400">last 31 days</option>
-                  <option id="HTML_LAST_14_DAYS" value="-1209600" selected>last 14 days</option>
-                  <option id="HTML_LAST_7_DAYS" value="-604800">last 3 days</option>
-                  <option id="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
-                  <option id="HTML_ONLY_TODAY" value="-0">Today</option>
+                  <option id="HTML_LAST_31_DAYS" data-i18n="HTML_LAST_31_DAYS" value="-2678400">last 31 days</option>
+                  <option id="HTML_LAST_14_DAYS" data-i18n="HTML_LAST_14_DAYS" value="-1209600" selected>last 14 days</option>
+                  <option id="HTML_LAST_7_DAYS" data-i18n="HTML_LAST_7_DAYS" value="-604800">last 3 days</option>
+                  <option id="HTML_LAST_3_DAYS" data-i18n="HTML_LAST_3_DAYS" value="-259200">last 3 days</option>
+                  <option id="HTML_ONLY_TODAY" data-i18n="HTML_ONLY_TODAY" value="-0">Today</option>
                 </select>
               </span>
-              <a id="download_btn" class="btn"><span id="HTML_DONWLOAD">Download</span></a>
-              <span id="HTML_PUNC_PERIOD">.</span>
+              <a id="download_btn" class="btn"><span id="HTML_DONWLOAD" data-i18n="HTML_DONWLOAD">Download</span></a>
+              <span id="HTML_PUNC_PERIOD" data-i18n="HTML_PUNC_PERIOD">.</span>
             </p>
-            <p id="HTML_EXPECT_DOWNLOADS">After clicking the Download button, you shall be able to see some files downloaded. Please move forward to <a href=\"#\" onclick=\"selectTab('step3')\">Step 3</a>.</p>
-            <p id="HTML_ALLOW_POPUP">* If not, remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
-            <a id="HTML_NEXT_STEP" class="btn btn_next_step" href="#" onclick="selectTab('step3')">Next Step</a>
+            <p id="HTML_EXPECT_DOWNLOADS" data-i18n="HTML_EXPECT_DOWNLOADS">After clicking the Download button, you shall be able to see some files downloaded. Please move forward to <a href=\"#\" onclick=\"selectTab('step3')\">Step 3</a>.</p>
+            <p id="HTML_ALLOW_POPUP" data-i18n="HTML_ALLOW_POPUP">* If not, remember to allow 'pop-ups' in browser, then click the 'Download' button again.</p>
+            <a id="HTML_NEXT_STEP" data-i18n="HTML_NEXT_STEP" class="btn btn_next_step" href="#" onclick="selectTab('step3')">Next Step</a>
           </div>
 
           <div id="step3" class="col s12">
-            <h5 id="HTML_STEP_3_0">
+            <h5 id="HTML_STEP_3_0" data-i18n="HTML_STEP_3_0">
               Step 3: Open your location history file(s)
             </h5>
             <p>
-              <span id="HTML_STEP_3_2">Click here to select KML/JSON file(s)</span>
+              <span id="HTML_STEP_3_2" data-i18n="HTML_STEP_3_2">Click here to select KML/JSON file(s)</span>
               <input id="uploadInput" type="file"
                      onchange="checkNumFilesSelected();"
                      multiple accept=".kml,.json,application/xml,text/xml,application/json"/>
-              <a id="HTML_NEXT_STEP" class="btn btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
+              <a id="HTML_NEXT_STEP" data-i18n="HTML_NEXT_STEP" class="btn btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
             </p>
             <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
-              <label id="HTML_DRAG_DROP_AREA" for="uploadInput"
+              <label id="HTML_DRAG_DROP_AREA" data-i18n="HTML_DRAG_DROP_AREA" for="uploadInput"
                 style="background: #e0e0e0; padding: 100px; display: inline-block;">
                 Or drag-drop KML/JSON file(s) to here.
               </label>
             </div>
             <p>
-              <li id="HTML_SELECT_MULTIPLE">* You can select multiple files to check.</li>
-              <li id="HTML_SORTED_TYPE">* The file explorer could sort files with type. So look around to select all files to check.</li>
-              <li id="HTML_REMEMBER_CLICK">* Remember to click the 'Let's Check' button to start matching.</li>
+              <li id="HTML_SELECT_MULTIPLE" data-i18n="HTML_SELECT_MULTIPLE">* You can select multiple files to check.</li>
+              <li id="HTML_SORTED_TYPE" data-i18n="HTML_SORTED_TYPE">* The file explorer could sort files with type. So look around to select all files to check.</li>
+              <li id="HTML_REMEMBER_CLICK" data-i18n="HTML_REMEMBER_CLICK">* Remember to click the 'Let's Check' button to start matching.</li>
             </p>
-            <a id="HTML_NEXT_STEP" class="btn btn_next_step btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
+            <a id="HTML_NEXT_STEP" data-i18n="HTML_NEXT_STEP" class="btn btn_next_step btn_check_file disabled" href="#" onclick="onClickLetsCheckButton();">Next Step</a>
           </div>
 
           <div id="step4" class="col s12">
-            <h5 id="HTML_STEP_4_0">
+            <h5 id="HTML_STEP_4_0" data-i18n="HTML_STEP_4_0">
               Step 4: See results below.
             </h5>
             <div id="fancy-results"></div>
             <pre id="results"></pre>
-            <h5 id="HTML_EXPLAIN_FOUND_RESULTS" style="display: none;">Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.</h5>
-            <h5 id="HTML_EXPLAIN_NOT_FOUND" style="display: none;">The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.</h5>
+            <h5 id="HTML_EXPLAIN_FOUND_RESULTS" data-i18n="HTML_EXPLAIN_FOUND_RESULTS" style="display: none;">Above result shows that you probably had been in the hot zone with patient(s) within around 100 meters at the particular time period(s). Please check the official announcement from authority to verify the detailed route.</h5>
+            <h5 id="HTML_EXPLAIN_NOT_FOUND" data-i18n="HTML_EXPLAIN_NOT_FOUND" style="display: none;">The result shows that you probably haven't been in the hot zone with patient. But we still recommend you to pay attention to authority's announcement and come back to check everyday.</h5>
             <hr>
 
             <div id='logs_title'>
@@ -706,13 +715,13 @@
   <footer>
     <div class="container">
       <div class="row">
-        <a id="HTML_FACEBOOK" href="https://fb.me/covid19zhTW" target="_blank" rel="noreferrer">Follow Us On Facebook</a> |
-        <a id="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank" rel="noreferrer">Source Code</a> |
-        <a id="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank" rel="noreferrer">Contact us (
+        <a id="HTML_FACEBOOK" data-i18n="HTML_FACEBOOK" href="https://fb.me/covid19zhTW" target="_blank" rel="noreferrer">Follow Us On Facebook</a> |
+        <a id="HTML_SOURCE_CODE" data-i18n="HTML_SOURCE_CODE" href="https://github.com/yjlou/2019-nCov" target="_blank" rel="noreferrer">Source Code</a> |
+        <a id="HTML_CONTACT_US" data-i18n="HTML_CONTACT_US" href="mailto:covid-19@googlegroups.com" target="_blank" rel="noreferrer">Contact us (
           covid-19@googlegroups.com
           )</a> |
         <!-- "./readme.html" is used so page like "https://raw.githack.com/yjlou/2019-nCov/master" would still work. -->
-        <a id="HTML_README" href="./readme.html" target="_blank" rel="noreferrer">Readme</a>
+        <a id="HTML_README" data-i18n="HTML_README" href="./readme.html" target="_blank" rel="noreferrer">Readme</a>
       </div>
     </div>
   </footer>

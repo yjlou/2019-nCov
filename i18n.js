@@ -1,25 +1,3 @@
-// Load a specific language module.
-//
-// If 'fallback' is true, 
-//
-function load_lang(locale, callback, fallback) {
-  $.ajax(`locales/${locale}/text.json`)
-    .done(function(text){
-      var data = myJsonParse(text);
-      i18n.translator.add(data);
-      HTML_LANG = locale;  // populate the global variable.
-      callback();
-    })
-    .fail(function() {
-      if (fallback == true) {
-        alert("Cannot fallback to en-US. Please try again later.");
-        callback();
-      } else {
-        console.warn(`Unsupported language [${locale}], fallback to en-US.`);
-        load_lang("en-US", callback, true);
-      }
-    });
-}
 
 // Process the i18n initialization.
 //
@@ -29,32 +7,16 @@ function load_lang(locale, callback, fallback) {
 // user agent.
 //
 function load_i18n(callback) {
-  let lang = PARAMS.get("hl");
+  let lang = PARAMS.get("hl") || "en-US";
+  let i18n = $.i18n();
 
-  if (lang) {
-    load_lang(lang, callback);
-  } else {
-    $.ajax({ 
-        url: "https://ajaxhttpheaders.appspot.com", 
-        dataType: 'jsonp', 
-        success: function(headers) {
-            let language = headers['Accept-Language'];
-            // en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7
-            let lang = language.split(",")[0];
-            load_lang(lang, callback);
-        },
-        error: function(jqXHR, textStatus, errorThrown) {
-          console.error(jqXHR);
-          console.error(textStatus);
-          console.error(errorThrown);
-          alert("Cannot determine the client language code. See console for debugging.");
-
-          // fallback to en-US locale.
-          let lang = "en-US";
-          load_lang(lang, callback);
-        }
-    });
-  }
+  HTML_LANG = lang;
+  i18n.locale = lang;
+  i18n.load( `locales/${lang}/text.json`, i18n.locale ).done(
+    () => {
+      callback();
+    }
+  );
 }
 
 // Called after i18n .json file is loaded.
@@ -66,20 +28,20 @@ function load_i18n(callback) {
 //
 function update_i18n_UI() {
   $("[id^=HTML_]").each(function(idx) {
-    $(this).html(i18n($(this)[0].id));
+    $(this).html($.i18n($(this)[0].id));
   });
 
   $("[id^=IMG_]").each(function(idx) {
-    $(this).attr("src", i18n($(this)[0].id));
+    $(this).attr("src", $.i18n($(this)[0].id));
   });
 
   $("template").each(function(idx) {
     $(this.content).find('[id^=HTML_]').each(function(_) {
-      $(this).html(i18n($(this)[0].id));
+      $(this).html($.i18n($(this)[0].id));
     })
   });
 
-  window.document.title = i18n("HTML_APP_NAME");
+  window.document.title = $.i18n("HTML_APP_NAME");
 }
 
 // Handle RTL UI.
