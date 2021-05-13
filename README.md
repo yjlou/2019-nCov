@@ -1,7 +1,7 @@
 # 2019-nCov
 Use Google Maps Timeline data to check whether you had contacted the patient or not.  
 
-Check it now! [https://pandemic.events](https://pandemic.events)
+Check it now! [https://yjlou.github.io/2019-nCov/](https://yjlou.github.io/2019-nCov/)
 
 # The Web Interface
 
@@ -57,7 +57,7 @@ See preview [here](http://raw.githack.com/yjlou/2019-nCov/master/index.html).
 New change may take few minutes to be propagated on the server side.
 
 Note that the preview is only for developer and could be broken anytime. If you are not developer,
-please use the [production page](https://pandemic.events) instead.
+please use the [production page](https://yjlou.github.io/2019-nCov/) instead.
 
 ## Push to production
 
@@ -73,7 +73,7 @@ Ensure your local repo is clean to create a branch.
   $ git branch -D prod
 ```
 
-See production [here](https://pandemic.events). New change may take few minutes to be
+See production [here](https://yjlou.github.io/2019-nCov/). New change may take few minutes to be
 propagated on the server side.
 
 ## Local test
