@@ -7,9 +7,30 @@
 // user agent.
 //
 function load_i18n(callback) {
-  let lang = PARAMS.get("hl") || "en-US";
+  let lang = PARAMS.get("hl");
   let i18n = $.i18n();
 
+  const supportedLanguages = ["en-US", "zh-TW", "ko", "he"];
+  do {
+    if (supportedLanguages.indexOf(lang) !== -1) break;
+    if (supportedLanguages.indexOf(navigator.language) !== -1) {
+      console.log('using navigator.language');
+      lang = navigator.language;
+      break;
+    }
+    for (let l of navigator.languages) {
+      console.log(`checking ${l}`);
+      if (supportedLanguages.indexOf(l) !== -1) {
+        console.log('using navigator.languages');
+        lang = l;
+        break;
+      }
+    }
+    if (lang) break;
+    console.log('fallback to en-US');
+    lang = "en-US";
+  } while (0);
+  console.log(`selected language: ${lang}`);
   HTML_LANG = lang;
   i18n.locale = lang;
   i18n.load( `locales/${lang}/text.json`, i18n.locale ).done(
