@@ -75,3 +75,10 @@ Ensure your local repo is clean to create a branch.
 
 See production [here](https://pandemic.events). New change may take few minutes to be
 propagated on the server side.
+
+## Local test
+To start local server:
+```
+npm install  # or just npm install http-server
+node_modules/http-server/bin/http-server .
+```
