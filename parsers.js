@@ -394,6 +394,62 @@ function tryParseLineString(placemark, metadata) {
   return intrapolateCoords(coords, timespan, name, description);
 }
 
+function getCoordinatesFromBoundary(boundary) {
+  const linear_ring = boundary.LinearRing;
+  if (linear_ring === undefined) return null;
+
+  const coordinates = linear_ring.coordinates;
+  return coordinates;
+}
+
+function tryParsePolygon(placemark, metadata) {
+  const polygon = placemark.Polygon;
+
+  if (polygon === undefined) {
+    // Not a Polygon, does nothing.
+    return null;
+  }
+
+  const outerBoundaryIs = polygon.outerBoundaryIs;
+  if (outerBoundaryIs === undefined) {
+    // This should be required.
+    return null;
+  }
+  // TODO: check innerBoundaryIs?  The area in "innerBoundary" should be
+  // "removed" form the shape.
+
+  let coords_elements = getCoordinatesFromBoundary(outerBoundaryIs);
+  if (coords_elements === undefined) {
+    console.error("Invalid LineString data: ", placemark);
+    return null;
+  }
+
+  const coords = [];
+  for (let coord_string of coords_elements.trim().split(/\s+/)) {
+    // TODO: should we check the optional altitude?
+    const [lng_string, lat_string] = coord_string.split(",");
+    const lng = parseFloat(lng_string.trim());
+    const lat = parseFloat(lat_string.trim());
+    coords.push({lng, lat});
+  }
+
+  const name = tryParseName(placemark);
+  const description = tryParseDescription(placemark);
+  const timespan = tryParseTimeSpan(placemark, metadata);
+  if (timespan === null) {
+    return null;
+  }
+
+  return [{
+    type: "polygon",
+    outer_boundary: coords,
+    name,
+    description,
+    begin: timespan.begin,
+    end: timespan.end,
+  }];
+}
+
 function getPlacemarks(jsonObj) {
   let placemarks;
 
@@ -458,6 +514,12 @@ function parseKml(text) {
       continue;
     }
 
+    retval = tryParsePolygon(placemark, metadata);
+    if (retval !== null) {
+      output.push(...retval);
+      continue;
+    }
+
     // TODO: support 'address' type
   }
 
@@ -515,13 +577,24 @@ function parseJson(json_text) {
     var place_visit = obj.placeVisit;
     if (!place_visit) { continue; }
 
-    output.push({
-      'lat': place_visit.location.latitudeE7 / 10000000,
-      'lng': place_visit.location.longitudeE7 / 10000000,
-      'begin': Math.floor(place_visit.duration.startTimestampMs / 1000),
-      'end': Math.floor(place_visit.duration.endTimestampMs / 1000),
-      'name':place_visit.location.name,
-    });
+    if ('polygon' in place_visit) {
+      let polygon = place_visit.polygon;
+      output.push({
+        type: 'polygon',
+        outer_boundary: polygon.outer_boundary,
+        begin: Math.floor(place_visit.duration.startTimestampMs / 1000),
+        end: Math.floor(place_visit.duration.endTimestampMs / 1000),
+        name: place_visit.polygon.name,
+      });
+    } else {
+      output.push({
+        'lat': place_visit.location.latitudeE7 / 10000000,
+        'lng': place_visit.location.longitudeE7 / 10000000,
+        'begin': Math.floor(place_visit.duration.startTimestampMs / 1000),
+        'end': Math.floor(place_visit.duration.endTimestampMs / 1000),
+        'name':place_visit.location.name,
+      });
+    }
   }
 
   return output;

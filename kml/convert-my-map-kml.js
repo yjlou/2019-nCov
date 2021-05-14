@@ -67,23 +67,44 @@ function main() {
 
     let out_obj = [];
     for (let p of ps) {
-      let lat = Math.round(p.lat * 1e7);
-      let lng = Math.round(p.lng * 1e7);
-      meta_file.insert_bounding_box(lat, lng);
-
-      out_obj.push({
-        placeVisit: {
-          location: {
-            latitudeE7: lat,
-            longitudeE7: lng,
-            name: p.name + " " + p.description.split("#!metadata")[0],
-          },
-          duration: {
-            startTimestampMs: p.begin * 1000,
-            endTimestampMs: p.end * 1000,
-          }
+      if (p.type == 'polygon') {
+        for (let q of p.outer_boundary) {
+          let lat = Math.round(q.lat * 1e7);
+          let lng = Math.round(q.lng * 1e7);
+          meta_file.insert_bounding_box(lat, lng);
         }
-      });
+
+        out_obj.push({
+          placeVisit: {
+            polygon: {
+              outer_boundary: p.outer_boundary,
+              name: p.name,
+            },
+            duration: {
+              startTimestampMs: p.begin * 1000,
+              endTimestampMs: p.end * 1000,
+            }
+          }
+        });
+      } else {
+        let lat = Math.round(p.lat * 1e7);
+        let lng = Math.round(p.lng * 1e7);
+        meta_file.insert_bounding_box(lat, lng);
+
+        out_obj.push({
+          placeVisit: {
+            location: {
+              latitudeE7: lat,
+              longitudeE7: lng,
+              name: p.name + " " + p.description.split("#!metadata")[0],
+            },
+            duration: {
+              startTimestampMs: p.begin * 1000,
+              endTimestampMs: p.end * 1000,
+            }
+          }
+        });
+      }
     }
 
     // Output data points

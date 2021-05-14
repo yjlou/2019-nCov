@@ -21,6 +21,37 @@ function getRisk(p0, p1) {
   return 0.0;
 }
 
+// Reference: https://github.com/substack/point-in-polygon/blob/master/nested.js
+// TODO: The case that polygon is across 180E is not handled.
+function pointInPolygon(point, polygon) {
+  const x = point.lat, y = point.lng;
+  const coords = polygon.outer_boundary;
+  const len = coords.length;
+
+  console.log(`checking if (${x}, ${y}) is in polygon`, polygon);
+  let inside = false;
+  // TODO: handle inner_boundary
+  for (var i = 0, j = len - 1; i < len; j = i++) {
+    const xi = coords[i].lat, yi = coords[i].lng;
+    const xj = coords[j].lat, yj = coords[j].lng;
+    const intersect = ((yi > y) !== (yj > y))
+                       && (x < (xj - xi) * (y - yi) / (yj - yi) + xi);
+    if (intersect) inside = !inside;
+  }
+  return inside;
+}
+
+function getRiskWithPolygon(point, polygon) {
+  var duration = getOverlappedDuration(
+    point.begin, point.end, polygon.begin, polygon.end);
+  if (duration > 0) {
+    if (pointInPolygon(point, polygon)) {
+      return 1.0;
+    }
+  }
+  return 0.0;
+}
+
 // Given the user's point data and known patient data, return the possible contact spots.
 //
 // Args:
@@ -80,7 +111,15 @@ function checkContact(user_points, patients) {
       }
 
       for(let patient_point of patient.points) {
-        var risk = getRisk(user_point, patient_point);
+        let risk = 0;
+        switch (patient_point.type) {
+          case "polygon":
+            risk = getRiskWithPolygon(user_point, patient_point);
+            break;
+          default:  // point
+            risk = getRisk(user_point, patient_point);
+            break;
+        }
         if (risk >= 0.8) {
           ret.push({
             'patient_desc': patient_point.name,

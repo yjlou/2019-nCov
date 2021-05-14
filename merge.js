@@ -45,19 +45,34 @@ function main() {
   // Convert it to Takeout format
   let out_obj = [];
   for (let p of all_points) {
-    out_obj.push({
-      placeVisit: {
-        location: {
-          latitudeE7: p.lat * 1e7,
-          longitudeE7: p.lng * 1e7,
-          name: p.name,
-        },
-        duration: {
-          startTimestampMs: p.begin * 1000,
-          endTimestampMs: p.end * 1000,
+    if (p.type === 'polygon') {
+      out_obj.push({
+        placeVisit: {
+          polygon: {
+            outer_boundary: p.outer_boundary,
+            name: p.name,
+          },
+          duration: {
+            startTimestampMs: p.begin * 1000,
+            endTimestampMs: p.end * 1000,
+          }
         }
-      }
-    });
+      });
+    } else {
+      out_obj.push({
+        placeVisit: {
+          location: {
+            latitudeE7: p.lat * 1e7,
+            longitudeE7: p.lng * 1e7,
+            name: p.name,
+          },
+          duration: {
+            startTimestampMs: p.begin * 1000,
+            endTimestampMs: p.end * 1000,
+          }
+        }
+      });
+    }
   }
 
   // Output to file (or STDOUT)
