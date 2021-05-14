@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>台灣 202105</name>
+    <name>202105-taiwan</name>
     <description><![CDATA[Data source:<br>https://www.cdc.gov.tw/Bulletin/Detail/J3NvQid9xJ6TmwtaXhwi-A?typeid=9<br>https://www.cdc.gov.tw/Bulletin/Detail/PzUh5WsUgcedvUjp-Dg80Q?typeid=9]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
@@ -154,8 +154,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/08 19:00~21:00 阿秋越南小吃店</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-08T19:00:00;end:2021-05-08T21:00:00]]></description>
+        <name>05/08 17:00~19:00 阿秋越南小吃店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-08T17:00:00;end:2021-05-08T19:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -244,8 +244,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/09 二泉湖畔咖啡</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-09T00:00:00;end:2021-05-10T00:00:00]]></description>
+        <name>05/09 12:00~14:00 二泉湖畔咖啡</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T12:00:00;end:2021-05-09T14:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -254,8 +254,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/09 中午 下城老地方酒餐館</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-09T00:00:00;end:2021-05-10T00:00:00]]></description>
+        <name>05/09 12:00~14:30 下城老地方酒餐館</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T12:00:00;end:2021-05-09T14:30:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -264,8 +264,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/09 下午 新竹市城隍廟</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-09T00:00:00;end:2021-05-10T00:00:00]]></description>
+        <name>05/09 17:30 新竹市城隍廟</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T17:00:00;end:2021-05-09T18:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -314,6 +314,16 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>05/09 19:00~21:00 鴻囍宴會館旗艦店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T19:00:00;end:2021-05-09T21:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.43829,25.053309,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>05/10 約 12:00 好市多 Costco 北投店</name>
         <description><![CDATA[#!metadata<br>begin:2021-05-10T11:00:00;end:2021-05-10T14:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
@@ -324,8 +334,8 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/10 中午 英芳飯店海鮮餐廳</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-10T11:00:00;end:2021-05-10T14:00:00]]></description>
+        <name>05/10 12:30~14:00 英芳飯店海鮮餐廳</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-10T12:30:00;end:2021-05-10T14:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
@@ -410,6 +420,49 @@
                 121.3651855,25.0709778,0
                 121.3636835,25.0719496,0
                 121.3623531,25.0705502,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/08 調查中 台北地下街 Y 區</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-08T00:00:00;end:2021-05-08T23:59:59]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                121.5106368,25.0503768,0
+                121.5104008,25.0498714,0
+                121.5117312,25.0495993,0
+                121.5132976,25.0491327,0
+                121.5151215,25.0486079,0
+                121.5185654,25.0481024,0
+                121.5185869,25.0486467,0
+                121.5150786,25.0491716,0
+                121.5132976,25.0497159,0
+                121.5106368,25.0503768,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/09 12:00~14:00 二泉湖畔咖啡</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T12:00:00;end:2021-05-09T14:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.9852749,24.6753868,0
+                120.98557,24.6752406,0
+                120.9858972,24.6756695,0
+                120.9855163,24.6758401,0
+                120.9852749,24.6753868,0
               </coordinates>
             </LinearRing>
           </outerBoundaryIs>
@@ -549,42 +602,22 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>05/02~05/07 11:00~18:00 鴻達茶藝館</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-02T10:00:00;end:2021-05-06T19:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.4981165,25.0361044,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>05/06~05/11 14:00~22:00 美金飲酒店</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-06T13:00:00;end:2021-05-11T23:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.4981758,25.0360985,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>05/04~05/08 11:00~18:00 鴻達茶藝館</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-04T11:00:00;end:2021-05-08T18:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.5007249,25.036193,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>05/07 09:00~10:00 基隆信義市場</name>
         <description><![CDATA[#!metadata<br>begin:2021-05-07T09:00:00;end:2021-05-07T10:00:00]]></description>
         <styleUrl>#icon-1899-0288D1</styleUrl>
         <Point>
           <coordinates>
             121.7527269,25.1295671,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/06 08:00 內壢郵局</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-06T07:00:00;end:2021-05-06T09:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.255718,24.974435,0
           </coordinates>
         </Point>
       </Placemark>
@@ -858,6 +891,36 @@
             </LinearRing>
           </outerBoundaryIs>
         </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/06~05/11 14:00~22:00 美金飲酒店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-06T13:00:00;end:2021-05-11T23:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4981758,25.0360985,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/02~05/08 11:00~18:00 鴻達茶藝館</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-02T10:00:00;end:2021-05-08T19:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.4981165,25.0361044,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/04~05/08 11:00~18:00 鴻達茶藝館</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-04T11:00:00;end:2021-05-08T18:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5007249,25.036193,0
+          </coordinates>
+        </Point>
       </Placemark>
     </Folder>
     <Folder>
