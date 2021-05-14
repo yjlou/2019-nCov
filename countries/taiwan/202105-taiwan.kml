@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>20210511 台灣 1202, 1203</name>
-    <description>Case 1202, 1203</description>
+    <name>台灣 202105</name>
+    <description><![CDATA[Data source:<br>https://www.cdc.gov.tw/Bulletin/Detail/J3NvQid9xJ6TmwtaXhwi-A?typeid=9<br>https://www.cdc.gov.tw/Bulletin/Detail/PzUh5WsUgcedvUjp-Dg80Q?typeid=9]]></description>
     <Style id="icon-1899-0288D1-normal">
       <IconStyle>
         <color>ffd18802</color>
@@ -39,38 +39,40 @@
         <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
       </Pair>
     </StyleMap>
+    <Style id="poly-000000-1200-77-normal">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.2</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <Style id="poly-000000-1200-77-highlight">
+      <LineStyle>
+        <color>ff000000</color>
+        <width>1.8</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>4d000000</color>
+        <fill>1</fill>
+        <outline>1</outline>
+      </PolyStyle>
+    </Style>
+    <StyleMap id="poly-000000-1200-77">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#poly-000000-1200-77-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#poly-000000-1200-77-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
     <Folder>
-      <name>案 1202</name>
-      <Placemark>
-        <name>案 1202 05/07</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-07T00:00:00;end:2021-05-07T08:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.772005,24.6795451,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>案 1202 05/08</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-08T00:00:00;end:2021-05-08T08:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.772,24.67954,0
-          </coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>案 1202 05/09</name>
-        <description><![CDATA[#!metadata<br>begin:2021-05-09T00:00:00;end:2021-05-09T08:00:00]]></description>
-        <styleUrl>#icon-1899-0288D1</styleUrl>
-        <Point>
-          <coordinates>
-            121.772,24.67954,0
-          </coordinates>
-        </Point>
-      </Placemark>
+      <name>案 1203 相關接觸群聚案公共場所活動史</name>
       <Placemark>
         <name>05/04 晚上 (調查中) 晶華亭宴會廳</name>
         <description><![CDATA[#!metadata<br>begin:2021-05-04T19:00:00;end:2021-05-04T23:59:59]]></description>
@@ -361,9 +363,61 @@
           </coordinates>
         </Point>
       </Placemark>
+      <Placemark>
+        <name>05/09 07:00~12:00 基隆八斗子釣魚</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T07:00:00;end:2021-05-09T12:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                121.7910106,25.1485284,0
+                121.7848737,25.1500046,0
+                121.7840583,25.1456536,0
+                121.7884357,25.1424292,0
+                121.8025119,25.1340375,0
+                121.8041427,25.1356304,0
+                121.8046147,25.1380003,0
+                121.8035848,25.1420407,0
+                121.8078334,25.1468191,0
+                121.8068893,25.1486061,0
+                121.7910106,25.1485284,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/08 19:30~21:00 林口三井 Outlet</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-08T19:30:00;end:2021-05-08T21:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                121.3623531,25.0705502,0
+                121.3650139,25.0688398,0
+                121.3638122,25.0669739,0
+                121.3653572,25.0665852,0
+                121.3665588,25.0681012,0
+                121.3677175,25.0684122,0
+                121.367975,25.070317,0
+                121.3672026,25.0711333,0
+                121.3666876,25.0707446,0
+                121.3659151,25.0714443,0
+                121.3651855,25.0709778,0
+                121.3636835,25.0719496,0
+                121.3623531,25.0705502,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
     </Folder>
     <Folder>
-      <name>Untitled layer</name>
+      <name>萬華茶藝館群聚事件公共場所活動史</name>
       <Placemark>
         <name>05/01 07:00 自磅磅仔三府宮出發</name>
         <description><![CDATA[#!metadata<br>begin:2021-05-01T07:00:00;end:2021-05-01T08:00:00]]></description>
@@ -781,6 +835,113 @@
         <Point>
           <coordinates>
             121.429016,24.9949523,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/07 夜宿南鯤鯓</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-07T19:00:00;end:2021-05-08T11:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.1414396,23.2899267,0
+                120.1406564,23.2867633,0
+                120.1380492,23.2847332,0
+                120.1399912,23.2820033,0
+                120.1453663,23.2834619,0
+                120.1463748,23.2849106,0
+                120.1414396,23.2899267,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>遊藝場群聚事件公共場所活動史</name>
+      <Placemark>
+        <name>05/06~05/09 00:00~08:00 銀河百家樂遊藝場</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-06T00:00:00;end:2021-05-09T08:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.772005,24.6795451,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/06 約 18:00 三媽臭臭鍋 羅東中山店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-06T17:00:00;end:2021-05-06T20:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.7785968,24.6742724,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/07 約 01:00~02:00 老將自助餐</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-06T23:00:00;end:2021-05-07T03:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.7644293,24.7986367,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/07 約 17:30~18:30 八方悅鍋物 羅東店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-07T16:30:00;end:2021-05-07T19:30:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.751225,24.671877,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/10 約晚上 久千代海鮮百匯餐廳</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-10T18:00:00;end:2021-05-10T23:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.7459261,24.7495948,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/10 約晚上 全聯 宜蘭嵐峰門市</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-10T18:00:00;end:2021-05-10T23:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.753618,24.742692,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>案1187公共場所活動史</name>
+      <Placemark>
+        <name>05/03 約 18:30~20:00 台北福華大飯店 七賢吧</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-03T17:30:00;end:2021-05-03T21:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.5431545,25.0376486,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/03 約 18:30~19:30 餡老滿 南港店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-03T17:30:00;end:2021-05-03T20:30:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            121.6157681,25.0573875,0
           </coordinates>
         </Point>
       </Placemark>
