@@ -10,7 +10,7 @@ function load_i18n(callback) {
   let lang = PARAMS.get("hl");
   let i18n = $.i18n();
 
-  const supportedLanguages = ["en-US", "zh-TW", "ko", "he"];
+  const supportedLanguages = ["en-US", "zh-TW", "ko", "he", "ja"];
   do {
     if (supportedLanguages.indexOf(lang) !== -1) break;
     if (supportedLanguages.indexOf(navigator.language) !== -1) {
