@@ -122,8 +122,8 @@ function checkContact(user_points, patients) {
         }
         if (risk >= 0.8) {
           ret.push({
-            'patient_desc': patient_point.name,
-            'user_desc': user_point.name,
+            'patient_desc': i18n_get_name(patient_point.name),
+            'user_desc': i18n_get_name(user_point.name),
             'lat': user_point.lat,
             'lng': user_point.lng,
             'begin': user_point.begin,
@@ -150,7 +150,7 @@ function checkHashes(user_points, knwon_hashes) {
       if (found) {
         ret.push({
           patient_desc: found.desc,
-          user_desc: user_point.name,
+          user_desc: i18n_get_name(user_point.name),
           begin: user_point.begin,
           end: user_point.end,
           lat: user_point.lat,

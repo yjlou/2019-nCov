@@ -40,6 +40,16 @@ function load_i18n(callback) {
   );
 }
 
+function i18n_get_name(name) {
+  if (typeof(name) === 'string') {
+    return name;
+  }
+  if (HTML_LANG in name) {
+    return name[HTML_LANG];
+  }
+  return name["en-US"];
+}
+
 // Called after i18n .json file is loaded.
 //
 // This function iterates all elements starting with "HTML_" prefix. Then replace the
