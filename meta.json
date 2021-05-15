@@ -2,10 +2,17 @@
   "defaultPatientsData": [
     {
       "__comment": "Taiwan 2021 May",
-      "desc": "Taiwan 台灣 2021年五月份",
+      "desc": "台灣 2021年五月份 (Taiwan 2021 May)",
       "meta": "countries/taiwan/202105-taiwan-meta.json",
       "path": "countries/taiwan/202105-taiwan-output.json",
       "src": "countries/taiwan/202105-taiwan.kml"
+    },
+    {
+      "__comment": "Taiwan g0v Dataset",
+      "desc": "台灣 g0v 資料集 (Taiwan g0v Dataset)",
+      "meta": "countries/taiwan/taiwan-g0v-dataset-meta.json",
+      "path": "countries/taiwan/taiwan-g0v-dataset-output.json",
+      "src": "https://pse.is/3gprqa"
     }
   ]
 }
