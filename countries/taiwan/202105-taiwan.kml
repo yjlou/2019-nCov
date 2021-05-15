@@ -72,6 +72,127 @@
       </Pair>
     </StyleMap>
     <Folder>
+      <name>案1346公共場所活動史</name>
+      <Placemark>
+        <name>05/09 20:00~22:00 四季精品百貨東海店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T20:00:00;end:2021-05-09T22:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.5901615,24.1808532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/09 20:00~22:00 愛迪達 東海店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T20:00:00;end:2021-05-09T22:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.5915142,24.1813717,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/11 20:30 全聯福利中心 Pxmart 台中東海店</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-11T20:30:00;end:2021-05-11T21:00:00]]></description>
+        <styleUrl>#icon-1899-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            120.5849238,24.1818352,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>05/09 20:00~22:00 東海商圈</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-09T20:00:00;end:2021-05-09T22:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.5946362,24.1834526,0
+                120.5822765,24.1862713,0
+                120.5802166,24.1808688,0
+                120.5827057,24.1804773,0
+                120.5867397,24.1787155,0
+                120.5920612,24.176758,0
+                120.5942928,24.1807122,0
+                120.5946362,24.1834526,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/10 20:30 東海商圈</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-10T20:30:00;end:2021-05-10T21:30:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.5822765,24.1862713,0
+                120.5802166,24.1808688,0
+                120.5827057,24.1804773,0
+                120.5867397,24.1787155,0
+                120.5920612,24.176758,0
+                120.5942928,24.1807122,0
+                120.5946362,24.1834526,0
+                120.5822765,24.1862713,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/12 20:30 東海商圈</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-12T20:30:00;end:2021-05-12T21:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.5822765,24.1862713,0
+                120.5802166,24.1808688,0
+                120.5827057,24.1804773,0
+                120.5865681,24.1787938,0
+                120.5920612,24.176758,0
+                120.5942928,24.1807122,0
+                120.5946362,24.1834526,0
+                120.5822765,24.1862713,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+      <Placemark>
+        <name>05/13 20:30 東海商圈</name>
+        <description><![CDATA[#!metadata<br>begin:2021-05-13T20:30:00;end:2021-05-13T21:00:00]]></description>
+        <styleUrl>#poly-000000-1200-77</styleUrl>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <tessellate>1</tessellate>
+              <coordinates>
+                120.5822765,24.1862713,0
+                120.5802166,24.1808688,0
+                120.5827057,24.1804773,0
+                120.5867397,24.1787155,0
+                120.5920612,24.176758,0
+                120.5942928,24.1807122,0
+                120.5946362,24.1834526,0
+                120.5822765,24.1862713,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Folder>
+    <Folder>
       <name>案1289公共場所活動史</name>
       <Placemark>
         <name>05/09 13:30~17:09 普悠瑪127車次</name>
