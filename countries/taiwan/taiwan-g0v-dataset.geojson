@@ -3,6 +3,72 @@
     {
       "geometry": {
         "coordinates": [
+          120.71661000173378,
+          22.060579993790284
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5c4f\u6771\u7e23\u8eca\u57ce\u9109\u4fdd\u65b0\u8def71\u865f",
+        "address_en": "No. 71, Baoxin Rd., Checheng Township, Pingtung County",
+        "begin": "2021-05-14T01:25:00.000Z",
+        "duration (text)": "5/14 \u7d04 10:25",
+        "end": "2021-05-14T03:25:00.000Z",
+        "investigating": false,
+        "latitude": 22.060579993790284,
+        "longtitude": 120.71661000173378,
+        "name": "7-11\u4fdd\u946b\u9580\u5e02",
+        "name_en": "7-Eleven Baoxin store"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.719526364459,
+          21.9634314568611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5c4f\u6771\u7e23\u6046\u6625\u93ae\u6ab3\u6994\u8def9\u4e4b11\u865f",
+        "address_en": "No. 9-11, Binlang Rd., Hengchun Township, Pingtung County",
+        "begin": "2021-05-14T01:45:00.000Z",
+        "duration (text)": "5/14 \u7d04 10:45~11:20",
+        "end": "2021-05-14T04:20:00.000Z",
+        "investigating": false,
+        "latitude": 21.9634314568611,
+        "longtitude": 120.719526364459,
+        "name": "\u9ad8\u5c71\u5dd6\u798f\u5fb7\u5bae",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.543075684464,
+          22.4832238658154
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5c4f\u6771\u7e23\u5357\u5dde\u9109\u5927\u540c\u8def6\u865f",
+        "address_en": "No. 6, Datong Rd., Nanzhou Township, Pingtung County",
+        "begin": "2021-05-14T03:24:00.000Z",
+        "duration (text)": "5/14 \u7d04 12:24",
+        "end": "2021-05-14T05:24:00.000Z",
+        "investigating": false,
+        "latitude": 22.4832238658154,
+        "longtitude": 120.543075684464,
+        "name": "\u4e2d\u6cb9\u806f\u52dd\u52a0\u6cb9\u7ad9(\u500b\u6848\u672a\u4e0b\u8eca)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.77382003598558,
           24.671740017212812
         ],
@@ -922,6 +988,70 @@
         "longtitude": "",
         "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
         "name_en": "BUS from Lukang Town Office to Luji Hospital)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.555093490675,
+          24.0231586697069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
+        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
+        "begin": "2021-05-08T03:00:00.000Z",
+        "duration (text)": "5\u67088\u65e5 \u4e2d\u5348",
+        "end": "2021-05-08T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.0231586697069,
+        "longtitude": 120.555093490675,
+        "name": "\u5f70\u5316\u82b1\u58c7\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
+        "name_en": "CK Lee Garden"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.55416405200958,
+              24.023324558798414
+            ],
+            [
+              120.55428206920624,
+              24.02235930421065
+            ],
+            [
+              120.55556952953339,
+              24.023167766668074
+            ],
+            [
+              120.55452346801758,
+              24.023721438023664
+            ],
+            [
+              120.55416405200958,
+              24.023324558798414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
+        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
+        "begin": "2021-05-08T03:00:00.000Z",
+        "duration (text)": "5\u67088\u65e5 \u4e2d\u5348",
+        "end": "2021-05-08T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.0231586697069,
+        "longtitude": 120.555093490675,
+        "name": "\u5f70\u5316\u82b1\u58c7\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
+        "name_en": "CK Lee Garden"
       },
       "type": "Feature"
     },
