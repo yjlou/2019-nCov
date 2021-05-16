@@ -3,6 +3,620 @@
     {
       "geometry": {
         "coordinates": [
+          121.040049196319,
+          24.8084971849375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u9ad8\u9435\u4e03\u8def6\u865f",
+        "address_en": "No. 6, Gaotie 7th Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-10T04:30:00.000Z",
+        "duration (text)": "5/10 13:08",
+        "end": "2021-05-10T05:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.8084971849375,
+        "longtitude": 121.040049196319,
+        "name": "\u65b0\u7af9\u9ad8\u9435\u7ad9",
+        "name_en": "Hsinchu High Speed Rail Station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.516262455845,
+          25.0478500602065
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "100\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5317\u5e73\u897f\u8def3\u865f",
+        "address_en": "No. 3, Beiping West Road, Zhongzheng District, Taipei City, 100",
+        "begin": "2021-05-10T05:20:00.000Z",
+        "duration (text)": "5/10 13:39",
+        "end": "2021-05-10T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.0478500602065,
+        "longtitude": 121.516262455845,
+        "name": "\u53f0\u5317\u9ad8\u9435\u7ad9",
+        "name_en": "Taipei High Speed Rail Station"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51195001858844,
+          25.06021998127001
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "103\u53f0\u5317\u5e02\u5927\u540c\u5340\u4fdd\u5b89\u885749\u5df717\u865f",
+        "address_en": "No. 17, Lane 49, Bao'an Street, Datong District, Taipei City, 103",
+        "begin": "2021-05-10T05:40:00.000Z",
+        "duration (text)": "5/10 \u7d0414:00",
+        "end": "2021-05-10T07:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.06021998127001,
+        "longtitude": 121.51195001858844,
+        "name": "\u5927\u7a3b\u57d5\u6148\u8056\u5bae\u5929\u4e0a\u8056\u6bcd(\u9644\u8fd1)",
+        "name_en": "Dadaocheng Cisheng Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.51189640164374,
+              25.060470992522795
+            ],
+            [
+              121.51191651821135,
+              25.06011382475081
+            ],
+            [
+              121.51245161890984,
+              25.06012597333159
+            ],
+            [
+              121.51246100664139,
+              25.060528090675547
+            ],
+            [
+              121.51189640164374,
+              25.060470992522795
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "103\u53f0\u5317\u5e02\u5927\u540c\u5340\u4fdd\u5b89\u885749\u5df717\u865f",
+        "address_en": "No. 17, Lane 49, Bao'an Street, Datong District, Taipei City, 103",
+        "begin": "2021-05-10T05:40:00.000Z",
+        "duration (text)": "5/10 \u7d0414:00",
+        "end": "2021-05-10T07:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.06021998127001,
+        "longtitude": 121.51195001858844,
+        "name": "\u5927\u7a3b\u57d5\u6148\u8056\u5bae\u5929\u4e0a\u8056\u6bcd(\u9644\u8fd1)",
+        "name_en": "Dadaocheng Cisheng Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4999300341587,
+          25.039189995750405
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u842c\u83ef\u5340\u897f\u5712\u8def\u4e00\u6bb575\u865f",
+        "address_en": "No. 75, Section 1, Xiyuan Road, Wanhua District, Taipei City",
+        "begin": "2021-05-10T14:00:00.000Z",
+        "duration (text)": "5/10 22:00~24:00",
+        "end": "2021-05-10T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.039189995750405,
+        "longtitude": 121.4999300341587,
+        "name": "\u5361\u62c9OK",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.49711561692,
+          25.0643597912792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u4e09\u91cd\u5340\u6b63\u7fa9\u5317\u8def68\u865f6\u6a13\u4e4b1",
+        "address_en": "6th Floor-1, No. 68, Zhengyi North Road, Sanchong District, New Taipei City",
+        "begin": "2021-05-10T17:00:00.000Z",
+        "duration (text)": "5/11 01:00~02:00",
+        "end": "2021-05-10T18:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.0643597912792,
+        "longtitude": 121.49711561692,
+        "name": "\u91d1\u7687\u8996\u5ef3\u6b4c\u57ce",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-12T16:00:00.000Z",
+        "duration (text)": "5/13",
+        "end": "2021-05-13T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.0011488199234,
+              24.82379136883937
+            ],
+            [
+              121.00249528884886,
+              24.82311947770654
+            ],
+            [
+              121.00324094295502,
+              24.824263637961657
+            ],
+            [
+              121.00220024585724,
+              24.825704777966163
+            ],
+            [
+              121.00118100643158,
+              24.826040716976106
+            ],
+            [
+              121.00024759769441,
+              24.824180869276557
+            ],
+            [
+              121.0011488199234,
+              24.82379136883937
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-12T16:00:00.000Z",
+        "duration (text)": "5/13",
+        "end": "2021-05-13T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.99253001669075,
+          24.86631999018897
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "304\u65b0\u7af9\u7e23\u65b0\u8c50\u9109\u65b0\u8208\u8def75\u865f",
+        "address_en": "No. 75, Xinxing Road, Xinfeng Township, Hsinchu County, 304",
+        "begin": "2021-05-07T16:00:00.000Z",
+        "duration (text)": "5/8",
+        "end": "2021-05-08T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.86631999018897,
+        "longtitude": 120.99253001669075,
+        "name": "\u65b0\u8c50\u9109\u6c38\u674f\u8a3a\u6240",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.024859569264,
+          24.8669943594932
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "303\u65b0\u7af9\u7e23\u6e56\u53e3\u9109\u5b89\u5b85\u4e5d\u885781\u865f303",
+        "address_en": "303, Hsinchu County, Hukou Township, Anzhai 9th Street, 81\u865f303",
+        "begin": "2021-05-09T16:00:00.000Z",
+        "duration (text)": "5/10",
+        "end": "2021-05-10T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.8669943594932,
+        "longtitude": 121.024859569264,
+        "name": "\u6e56\u53e3\u9109\u80b2\u5275\u8a3a\u6240",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T04:00:00.000Z",
+        "duration (text)": "5/14 \u4e0b\u5348",
+        "end": "2021-05-14T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.0011488199234,
+              24.82379136883937
+            ],
+            [
+              121.00249528884886,
+              24.82311947770654
+            ],
+            [
+              121.00324094295502,
+              24.824263637961657
+            ],
+            [
+              121.00220024585724,
+              24.825704777966163
+            ],
+            [
+              121.00118100643158,
+              24.826040716976106
+            ],
+            [
+              121.00024759769441,
+              24.824180869276557
+            ],
+            [
+              121.0011488199234,
+              24.82379136883937
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T04:00:00.000Z",
+        "duration (text)": "5/14 \u4e0b\u5348",
+        "end": "2021-05-14T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.013743269263,
+          24.8238642097036
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u7e23\u653f\u4e8c\u8def69\u865f",
+        "address_en": "No. 69, Xianzheng 2nd Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T09:00:00.000Z",
+        "duration (text)": "5/14 \u665a\u4e0a",
+        "end": "2021-05-14T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.8238642097036,
+        "longtitude": 121.013743269263,
+        "name": "\u6771\u5143\u91ab\u9662\u5152\u79d1\u9580\u8a3a",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.01372301578522,
+              24.823986119211074
+            ],
+            [
+              121.01335287094116,
+              24.823297188396893
+            ],
+            [
+              121.01401805877684,
+              24.82298558592212
+            ],
+            [
+              121.01438015699385,
+              24.823720771753997
+            ],
+            [
+              121.01372301578522,
+              24.823986119211074
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u7e23\u653f\u4e8c\u8def69\u865f",
+        "address_en": "No. 69, Xianzheng 2nd Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T09:00:00.000Z",
+        "duration (text)": "5/14 \u665a\u4e0a",
+        "end": "2021-05-14T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.8238642097036,
+        "longtitude": 121.013743269263,
+        "name": "\u6771\u5143\u91ab\u9662\u5152\u79d1\u9580\u8a3a",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04373731344,
+          24.8062607012272
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u751f\u91ab\u8def\u4e00\u6bb52\u865f302",
+        "address_en": "302, Hsinchu County, Zhubei City, Section 1, Shengyi Road, 2\u865f302",
+        "begin": "2021-05-09T16:00:00.000Z",
+        "duration (text)": "5/10",
+        "end": "2021-05-10T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.8062607012272,
+        "longtitude": 121.04373731344,
+        "name": "\u7af9\u5317\u5e02\u53f0\u5927\u751f\u91ab",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.08554995392,
+          24.7395716436049
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "310\u65b0\u7af9\u7e23\u7af9\u6771\u93ae\u8208\u8fb2\u88572\u865f",
+        "address_en": "No. 2\u865f, Xingnong Street, Zhudong Township, Hsinchu County, 310",
+        "begin": "2021-05-09T16:00:00.000Z",
+        "duration (text)": "5/10",
+        "end": "2021-05-10T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.7395716436049,
+        "longtitude": 121.08554995392,
+        "name": "\u7af9\u6771\u93ae\u85cd\u9752\u5fa9\u5065\u79d1\u8a3a\u6240",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.015123399858,
+          24.8308031136298
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u5149\u660e\u4e00\u8def238\u865f",
+        "address_en": "No. 238\u865f, Guangming 1st Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-10T16:00:00.000Z",
+        "duration (text)": "5/11",
+        "end": "2021-05-11T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.8308031136298,
+        "longtitude": 121.015123399858,
+        "name": "\u7af9\u5317\u5e02\u4ec1\u548c\u8a3a\u6240",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-11T16:00:00.000Z",
+        "duration (text)": "5/12",
+        "end": "2021-05-12T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.0011488199234,
+              24.82379136883937
+            ],
+            [
+              121.00249528884886,
+              24.82311947770654
+            ],
+            [
+              121.00324094295502,
+              24.824263637961657
+            ],
+            [
+              121.00220024585724,
+              24.825704777966163
+            ],
+            [
+              121.00118100643158,
+              24.826040716976106
+            ],
+            [
+              121.00024759769441,
+              24.824180869276557
+            ],
+            [
+              121.0011488199234,
+              24.82379136883937
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-11T16:00:00.000Z",
+        "duration (text)": "5/12",
+        "end": "2021-05-12T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T16:00:00.000Z",
+        "duration (text)": "5/15",
+        "end": "2021-05-15T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              121.0011488199234,
+              24.82379136883937
+            ],
+            [
+              121.00249528884886,
+              24.82311947770654
+            ],
+            [
+              121.00324094295502,
+              24.824263637961657
+            ],
+            [
+              121.00220024585724,
+              24.825704777966163
+            ],
+            [
+              121.00118100643158,
+              24.826040716976106
+            ],
+            [
+              121.00024759769441,
+              24.824180869276557
+            ],
+            [
+              121.0011488199234,
+              24.82379136883937
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "302\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199\u865f, Section 1, Xinglong Road, Zhubei City, Hsinchu County, 302",
+        "begin": "2021-05-14T16:00:00.000Z",
+        "duration (text)": "5/15",
+        "end": "2021-05-15T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u65b0\u7af9\u9644\u8a2d\u91ab\u9662",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.71661000173378,
           22.060579993790284
         ],
