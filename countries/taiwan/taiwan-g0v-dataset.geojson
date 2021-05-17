@@ -3,6 +3,190 @@
     {
       "geometry": {
         "coordinates": [
+          121.46732996286232,
+          25.02136998578038
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e00\u6bb5280\u865f3\u6a13",
+        "address_en": "3F., No. 280, Sec. 1, Wenhua Rd., Banqiao Dist., New Taipei City",
+        "begin": "2021-05-11T03:20:00.000Z",
+        "duration (text)": "5/11 11:20~16:00",
+        "end": "2021-05-11T06:30:00.000Z",
+        "investigating": false,
+        "latitude": 25.02136998578038,
+        "longtitude": 121.46732996286232,
+        "name": "\u677f\u6a4b\u6587\u5316\u8857\u5409\u7acb\u9910\u5ef3",
+        "name_en": "Ji Li Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.46337999099092,
+          25.030860018465134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb5309\u865f",
+        "address_en": "3F., No. 309, Sec. 3, Sanmin Rd., Banqiao Dist., New Taipei City",
+        "begin": "2021-05-11T06:10:00.000Z",
+        "duration (text)": "5/11 14:10~16:00",
+        "end": "2021-05-11T08:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.030860018465134,
+        "longtitude": 121.46337999099092,
+        "name": "\u677f\u6a4b\u559d\u6876\u6d77",
+        "name_en": "Drinking Barrel Seafood Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.88151000000005,
+          24.701070000000072
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5c71\u4f73\u91cc2\u913053\u865f",
+        "address_en": "No. 53, Shanjia, Zhunan Township, Miaoli County",
+        "begin": "2021-05-08T16:00:00.000Z",
+        "duration (text)": "5/9",
+        "end": "2021-05-09T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.701070000000072,
+        "longtitude": 120.88151000000005,
+        "name": "\u7af9\u5357\u6c34\u8208\u5bae(\u592a\u5b50\u723a)",
+        "name_en": "ShuiXin Temple",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.7955100297907,
+          24.61482999595573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u5149\u83ef\u8def481\u865f",
+        "address_en": "No. 481, Guanghua Rd., Houlong Township, Miaoli County",
+        "begin": "2021-05-12T10:00:00.000Z",
+        "duration (text)": "5/12 18:00~19:00",
+        "end": "2021-05-12T11:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.61482999595573,
+        "longtitude": 120.7955100297907,
+        "name": "\u5f8c\u9f8d1979\u9910\u5ef3",
+        "name_en": "1979 Seafood Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.79319000281077,
+          24.616380019400452
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u4e2d\u83ef\u8def46-33\u865f",
+        "address_en": "No. 46-33, Guanghua Rd., Houlong Township, Miaoli County",
+        "begin": "2021-05-14T04:50:00.000Z",
+        "duration (text)": "5/14 12:50~13:20",
+        "end": "2021-05-14T05:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.616380019400452,
+        "longtitude": 120.79319000281077,
+        "name": "\u5f8c\u9f8d\u5bb6\u9577\u6a02\u63a5\u5f85\u4e2d\u5fc3",
+        "name_en": "Reception of a construction project in HouLong",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.7887599993445,
+          24.616020016659064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u4e2d\u5c71\u8def2\u865f",
+        "address_en": "No. 2, Zhongshan Rd., Houlong Township, Miaoli County",
+        "begin": "2021-05-14T05:30:00.000Z",
+        "duration (text)": "5/14 13:30~14:15",
+        "end": "2021-05-14T06:15:00.000Z",
+        "investigating": false,
+        "latitude": 24.616020016659064,
+        "longtitude": 120.7887599993445,
+        "name": "\u5f8c\u9f8d\u7389\u5c71\u9280\u884c",
+        "name_en": "E.Sun Bank, HouLong Branch",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.78952921904177,
+          24.615021568915683
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u4e2d\u5c71\u8def76\u865f\n",
+        "address_en": "No. 76, Zhongshan Rd., Houlong Township, Miaoli County",
+        "begin": "2021-05-14T06:20:00.000Z",
+        "duration (text)": "5/14 14:20~14:40",
+        "end": "2021-05-14T06:40:00.000Z",
+        "investigating": false,
+        "latitude": 24.615021568915683,
+        "longtitude": 120.78952921904177,
+        "name": "\u4e0a\u5cb3\u5efa\u8a2d\u8fa6\u516c\u5ba4",
+        "name_en": "\u4e0a\u5cb3\u5efa\u8a2d\u8fa6\u516c\u5ba4",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.79601001031511,
+          24.61118998686372
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u5f8c\u9f8d\u93ae\u4e2d\u5c71\u8def328\u865f",
+        "address_en": "No. 328, Zhongshan Rd., Houlong Township, Miaoli County",
+        "begin": "2021-05-14T07:00:00.000Z",
+        "duration (text)": "5/14 15:00~15:30",
+        "end": "2021-05-14T07:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.61118998686372,
+        "longtitude": 120.79601001031511,
+        "name": "\u4fe1\u696d\u5efa\u8a2d\u8fa6\u516c\u5ba4",
+        "name_en": "\u4fe1\u696d\u5efa\u8a2d\u8fa6\u516c\u5ba4",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.73989000811235,
           25.12955001328585
         ],
@@ -18,7 +202,7 @@
         "latitude": 25.12955001328585,
         "longtitude": 121.73989000811235,
         "name": "\u8c93\u8173\u5370\uff08\u5361\u724c\u5e97\uff09",
-        "name_en": "",
+        "name_en": "Cat Foot Print (Keelong)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -41,7 +225,7 @@
         "latitude": 25.130789990132115,
         "longtitude": 121.74475000321155,
         "name": "\u5169\u9910\uff08\u9910\u5ef3\uff09",
-        "name_en": "",
+        "name_en": "Dookki (Korean Restaurant)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -64,7 +248,7 @@
         "latitude": 25.129379986379945,
         "longtitude": 121.74412001936889,
         "name": "\u798f\u52dd\u4ead",
-        "name_en": "",
+        "name_en": "Tonkatsu",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -87,7 +271,7 @@
         "latitude": 25.129400019128525,
         "longtitude": 121.74308996728763,
         "name": "\u521d\u6c90\u98f2\u6599\u5e97",
-        "name_en": "",
+        "name_en": "Qmilk Coffee & Juice Bar",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -110,7 +294,7 @@
         "latitude": 25.139029987686797,
         "longtitude": 121.73896003595507,
         "name": "\u864e\u4ed4\u5c71\u4f11\u9592\u5496\u5561\u9928",
-        "name_en": "",
+        "name_en": "Huzishan Coffee Restaurant",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -133,7 +317,7 @@
         "latitude": 25.130349982124912,
         "longtitude": 121.73844002268203,
         "name": "\u4e09\u59d0\u59b9\u71b1\u7092\u5e97",
-        "name_en": "",
+        "name_en": "Local restaurant",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -156,7 +340,7 @@
         "latitude": 25.128650006432395,
         "longtitude": 121.74481001763826,
         "name": "\u660e\u65e5\u5361\u724c\u5e97",
-        "name_en": "",
+        "name_en": "Ashita Card (game store)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -179,7 +363,7 @@
         "latitude": 25.129370011915157,
         "longtitude": 121.74344997002902,
         "name": "\u9ea5\u7576\u52de",
-        "name_en": "",
+        "name_en": "McDonald's",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -202,7 +386,7 @@
         "latitude": 25.12955001328585,
         "longtitude": 121.73989000811235,
         "name": "\u8c93\u8173\u5370\uff08\u5361\u724c\u5e97\uff09",
-        "name_en": "",
+        "name_en": "Cat Foot Print (Keelong)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -225,7 +409,7 @@
         "latitude": 25.127379980463246,
         "longtitude": 121.74060003913036,
         "name": "\u7f8e\u9999\u9f4b\u9eb5\u5305\u5e97",
-        "name_en": "",
+        "name_en": "Mei Xiang Zhai Bakery",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
       },
       "type": "Feature"
@@ -248,8 +432,31 @@
         "latitude": 25.127379980463246,
         "longtitude": 121.74060003913036,
         "name": "\u7f8e\u9999\u9f4b\u9eb5\u5305\u5e97",
-        "name_en": "",
+        "name_en": "Mei Xiang Zhai Bakery",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.31357995854393,
+          25.011760008061188
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u5bf6\u5c71\u8857298\u865f",
+        "address_en": "No. 298, Baoshan St., Taoyuan Dist., Taoyuan City",
+        "begin": "2021-05-11T08:50:00.000Z",
+        "duration (text)": "5/11 16:50~21:00",
+        "end": "2021-05-11T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.011760008061188,
+        "longtitude": 121.31357995854393,
+        "name": "\u6843\u5712\u91d1\u6c99\u9152\u5e97(\u91d1\u6c99\u6642\u5c1a\u6703\u9928)",
+        "name_en": "JinSha Nightclub",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
       },
       "type": "Feature"
     },
@@ -271,7 +478,7 @@
         "latitude": 24.991119990586824,
         "longtitude": 121.31106999763801,
         "name": "\u8584\u591a\u7fa9\u6843\u5712\u7ad9\u524d\u5e97",
-        "name_en": "",
+        "name_en": "Bite 2 Eat",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -294,7 +501,7 @@
         "latitude": 25.0625982827145,
         "longtitude": 121.36145691685,
         "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u516c\u897f\u7ad9)",
-        "name_en": "",
+        "name_en": "Bus 937 (GongXi Station)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -317,7 +524,7 @@
         "latitude": 25.0715767869477,
         "longtitude": 121.520059766518,
         "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u5713\u5c71\u6377\u904b\u7ad9)",
-        "name_en": "",
+        "name_en": "Bus 937 (YuanShan MRT Station)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -340,7 +547,7 @@
         "latitude": 24.99336001230094,
         "longtitude": 121.33710997241417,
         "name": "\u96de\u86cb\u7cd5-\u5916\u5e36",
-        "name_en": "",
+        "name_en": "Chinese Egg Cake (street food, takeout)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -363,7 +570,7 @@
         "latitude": 24.992879980706093,
         "longtitude": 121.3361299602949,
         "name": "\u4e3c\u7269-\u5916\u5e36",
-        "name_en": "",
+        "name_en": "Japanese Style Restaurant (takeout)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -386,7 +593,7 @@
         "latitude": 24.978000007093883,
         "longtitude": 121.24788997752961,
         "name": "\u5168\u806f\u5167\u58e2\u9577\u6625\u5e97",
-        "name_en": "",
+        "name_en": "PX Mart",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -409,7 +616,7 @@
         "latitude": 24.992360009342605,
         "longtitude": 121.34057999650975,
         "name": "\u57ce\u5e02\u6f22\u5821\u9f9c\u5c71\u6210\u529f\u5e97-\u5916\u5e36",
-        "name_en": "",
+        "name_en": "CityBurger",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -432,7 +639,7 @@
         "latitude": 25.0625982827145,
         "longtitude": 121.36145691685,
         "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u516c\u897f\u7ad9)",
-        "name_en": "",
+        "name_en": "Bus 937 (GongXi Station)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -455,7 +662,7 @@
         "latitude": 25.0715767869477,
         "longtitude": 121.520059766518,
         "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u5713\u5c71\u6377\u904b\u7ad9)",
-        "name_en": "",
+        "name_en": "Bus 937 (YuanShan MRT Station)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -478,7 +685,7 @@
         "latitude": 24.916819992902134,
         "longtitude": 121.24941003567045,
         "name": "\u5e73\u93ae\u5340\u6771\u5b89\u570b\u4e2d\u5916\u505c\u8eca\u5834",
-        "name_en": "",
+        "name_en": "Parking place outside of DongAn Junior High School",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -501,7 +708,7 @@
         "latitude": 24.9158199899438,
         "longtitude": 121.24906998185861,
         "name": "\u5ca1\u5c71\u7f8a\u8089",
-        "name_en": "",
+        "name_en": "GangShan Lambs Restaurant",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -524,7 +731,7 @@
         "latitude": 24.971769989920674,
         "longtitude": 121.25359998142977,
         "name": "\u5bb6\u6a02\u798f\u5167\u58e2\u5e97",
-        "name_en": "",
+        "name_en": "Carrefour",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
       },
       "type": "Feature"
@@ -2639,6 +2846,29 @@
     {
       "geometry": {
         "coordinates": [
+          121.0050300327153,
+          24.203280016874558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u548c\u5e73\u5340\u6771\u95dc\u8def\u4e00\u6bb5132\u865f",
+        "address_en": "No. 132, Sec. 1, Dongguan Rd., Heping Dist., Taichung City",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 18:00~18:50",
+        "end": "2021-05-13T10:50:00.000Z",
+        "investigating": false,
+        "latitude": 24.203280016874558,
+        "longtitude": 121.0050300327153,
+        "name": "\u91d1\u8c37\u9910\u5ef3",
+        "name_en": "Jin Gu Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.66483004049621,
           24.17087997969746
         ],
@@ -2800,6 +3030,144 @@
     {
       "geometry": {
         "coordinates": [
+          120.5264400000001,
+          23.699740000000077
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u96f2\u6797\u7e23\u897f\u87ba\u93ae\u5ef6\u5e73\u8def180\u865f",
+        "address_en": "No. 180, Yanping Road, Xiluo Town, Yunlin County",
+        "begin": "2021-05-07T16:00:00.000Z",
+        "duration (text)": "5/8",
+        "end": "2021-05-08T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.699740000000077,
+        "longtitude": 120.5264400000001,
+        "name": "\u897f\u87ba\u798f\u8208\u5bae \u897f\u87ba\u5abd\u7956\u592a\u5e73\u5abd",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.31226000000004,
+          22.62014000000005
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u516d\u9f9c\u5340\u6587\u6b66\u91cc\u820a\u5e84\u5df783\u4e4b2\u865f",
+        "address_en": "No. 83-2, Jiuzhuang Lane, Wenburi District, Liugui District, Kaohsiung City",
+        "begin": "2021-05-07T16:00:00.000Z",
+        "duration (text)": "5/8",
+        "end": "2021-05-08T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 22.62014000000005,
+        "longtitude": 120.31226000000004,
+        "name": "\u516d\u9f9c\u6fdf\u516c",
+        "name_en": "JiGong Temple",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.26579000999487,
+          23.324130020720943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u9e7d\u6c34\u5340\u6b66\u5edf\u8def87\u865f",
+        "address_en": "No. 87\u865f, Wumiao Road, Yanshui District, Tainan City, 737",
+        "begin": "2021-05-07T16:00:00.000Z",
+        "duration (text)": "5/8",
+        "end": "2021-05-08T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.324130020720943,
+        "longtitude": 120.26579000999487,
+        "name": "\u95dc\u8056\u5e1d\u541b (\u9e7d\u6c34\u6b66\u5edf)",
+        "name_en": "YanShui Guan Yu Temple",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.3618100000001,
+          23.365830000000074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u5f8c\u58c1\u534042\u865f",
+        "address_en": "No. 42, Houbi District, Tainan City",
+        "begin": "2021-05-07T16:00:00.000Z",
+        "duration (text)": "5/8",
+        "end": "2021-05-08T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.365830000000074,
+        "longtitude": 120.3618100000001,
+        "name": "\u6e05\u6c34\u7956\u5e2b\u5edf (\u798f\u5b89\u5bfa)",
+        "name_en": "FuAn Temple",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.399665926872,
+          24.0235252693159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u9ea5\u539d\u885755-2\u865f",
+        "address_en": "No. 55-2, Maicuo Street, Fuxing Township, Changhua County",
+        "begin": "2021-05-08T16:00:00.000Z",
+        "duration (text)": "5/9",
+        "end": "2021-05-09T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.023019980649934,
+        "longtitude": 120.40017999727286,
+        "name": "\u4e5d\u5929\u5a18\u5a18 (\u4e5d\u5929\u5bfa)",
+        "name_en": "JiuTian Temple",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.880081488374,
+          24.7006110995629
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5c71\u4f73\u91cc\u5c71\u4f73\u4e8c\u913053\u865f",
+        "address_en": "No.53, Second Neighborhood, Shanjiali Mountain, Zhunan Township, Miaoli County",
+        "begin": "2021-05-08T16:00:00.000Z",
+        "duration (text)": "5/9",
+        "end": "2021-05-09T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.7006110995629,
+        "longtitude": 120.880081488374,
+        "name": "\u82d7\u6817\u7e23 \u7af9\u5357\u592a\u5b50\u723a(\u6c34\u8208\u5bae)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.65752699971199,
           24.1673575833884
         ],
@@ -2815,7 +3183,7 @@
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -2858,7 +3226,7 @@
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -2874,14 +3242,14 @@
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
         "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
-        "begin": "2021-05-11T23:00:00.000Z",
-        "duration (text)": "5/12 7:00-8:00",
-        "end": "2021-05-12T00:00:00.000Z",
+        "begin": "2021-05-12T23:00:00.000Z",
+        "duration (text)": "5/13 7:00-8:00",
+        "end": "2021-05-13T00:00:00.000Z",
         "investigating": false,
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -2917,14 +3285,14 @@
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
         "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
-        "begin": "2021-05-11T23:00:00.000Z",
-        "duration (text)": "5/12 7:00-8:00",
-        "end": "2021-05-12T00:00:00.000Z",
+        "begin": "2021-05-12T23:00:00.000Z",
+        "duration (text)": "5/13 7:00-8:00",
+        "end": "2021-05-13T00:00:00.000Z",
         "investigating": false,
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -2940,14 +3308,14 @@
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
         "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
-        "begin": "2021-05-11T23:00:00.000Z",
-        "duration (text)": "5/12 7:00-8:00",
-        "end": "2021-05-12T00:00:00.000Z",
+        "begin": "2021-05-13T23:00:00.000Z",
+        "duration (text)": "5/14 7:00-8:00",
+        "end": "2021-05-14T00:00:00.000Z",
         "investigating": false,
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -2983,14 +3351,14 @@
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
         "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
-        "begin": "2021-05-11T23:00:00.000Z",
-        "duration (text)": "5/12 7:00-8:00",
-        "end": "2021-05-12T00:00:00.000Z",
+        "begin": "2021-05-13T23:00:00.000Z",
+        "duration (text)": "5/14 7:00-8:00",
+        "end": "2021-05-14T00:00:00.000Z",
         "investigating": false,
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -3013,7 +3381,7 @@
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -3056,7 +3424,7 @@
         "latitude": 24.1672999850322,
         "longtitude": 120.65752001509884,
         "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": "",
+        "name_en": "Zhongyi Market (with mask)",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
       },
       "type": "Feature"
@@ -3071,7 +3439,7 @@
       },
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
-        "address_en": "",
+        "address_en": "No. 446-452, Daming Road, Dali District, Taichung City",
         "begin": "2021-05-12T02:30:00.000Z",
         "duration (text)": "5/12 11:00",
         "end": "2021-05-12T03:30:00.000Z",
@@ -3079,7 +3447,7 @@
         "latitude": 24.115180011892306,
         "longtitude": 120.67702000992233,
         "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
-        "name_en": "",
+        "name_en": "XiaoYe Breakfast",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
       },
       "type": "Feature"
@@ -3094,7 +3462,7 @@
       },
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u5b78\u5e9c\u8def36\u865f",
-        "address_en": "",
+        "address_en": "No 36, Xuefu Road, South District, Taichung City",
         "begin": "2021-05-12T12:30:00.000Z",
         "duration (text)": "5/12 21:00",
         "end": "2021-05-12T13:30:00.000Z",
@@ -3117,7 +3485,7 @@
       },
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
-        "address_en": "",
+        "address_en": "No. 446-452, Daming Road, Dali District, Taichung City",
         "begin": "2021-05-13T01:00:00.000Z",
         "duration (text)": "5/13 09:00~10:00",
         "end": "2021-05-13T02:00:00.000Z",
@@ -3125,7 +3493,53 @@
         "latitude": 24.115180011892306,
         "longtitude": 120.67702000992233,
         "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
-        "name_en": "",
+        "name_en": "XiaoYe Breakfast",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66618002982165,
+          24.105589983102675
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6587\u5fc3\u5357\u8def1243\u865f",
+        "address_en": "No. 1243, Wenxin South Road, Dali District, Taichung City",
+        "begin": "2021-05-13T03:00:00.000Z",
+        "duration (text)": "5/13 11:00~11:20",
+        "end": "2021-05-13T03:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.105589983102675,
+        "longtitude": 120.66618002982165,
+        "name": "\u946b\u9329\u98df\u54c1\u5ee0(\u6234\u53e3\u7f69)",
+        "name_en": "Xin Chong Food Factory",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.68401001425644,
+          24.112190019391562
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u76ca\u6c11\u8def\u4e8c\u6bb5318\u865f",
+        "address_en": "No. 318, Section 2, Yimin Road, Dali District, Taichung City",
+        "begin": "2021-05-14T13:00:00.000Z",
+        "duration (text)": "5/14 21:00~21:30",
+        "end": "2021-05-14T13:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.112190019391562,
+        "longtitude": 120.68401001425644,
+        "name": "\u7bc9\u4e5f\u65e5\u672c\u6599\u7406(\u5167\u7528)",
+        "name_en": "Tsukiya Japanese cuisine",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
       },
       "type": "Feature"
@@ -3140,15 +3554,84 @@
       },
       "properties": {
         "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
-        "address_en": "",
+        "address_en": "No. 446-452, Daming Road, Dali District, Taichung City",
         "begin": "2021-05-15T01:00:00.000Z",
         "duration (text)": "5/15 09:00~10:00",
         "end": "2021-05-15T02:00:00.000Z",
         "investigating": false,
-        "latitude": "",
-        "longtitude": "",
+        "latitude": 24.115180011892306,
+        "longtitude": 120.67702000992233,
         "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
-        "name_en": "",
+        "name_en": "XiaoYe Breakfast",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69048997978234,
+          24.126600019692717
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u6771\u5340\u5927\u667a\u8def443\u865f",
+        "address_en": "No. 443, Dazhi Road, East District, Taichung City",
+        "begin": "2021-05-15T02:00:00.000Z",
+        "duration (text)": "5/15 10:00~10:05",
+        "end": "2021-05-15T02:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.126600019692717,
+        "longtitude": 120.69048997978234,
+        "name": "\u5143\u9577\u6c34\u96fb\u6750\u6599\u884c(\u672a\u6234\u53e3\u7f69)",
+        "name_en": "YuanChang Plumbing & Electric supply store",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69467003489598,
+          24.157950013949517
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u9032\u5316\u8def498\u865f",
+        "address_en": "No. 498, Evolution Road, North District, Taichung City",
+        "begin": "2021-05-15T02:20:00.000Z",
+        "duration (text)": "5/15 10:20~10:35",
+        "end": "2021-05-15T02:35:00.000Z",
+        "investigating": false,
+        "latitude": 24.157950013949517,
+        "longtitude": 120.69467003489598,
+        "name": "\u6069\u5178\u6c34\u96fb\u6750\u6599\u884c(\u672a\u6234\u53e3\u7f69)",
+        "name_en": "EnDian Plumbing & Electric supply store",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.68394999982974,
+          24.115440018528815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u76ca\u6c11\u8def\u4e8c\u6bb5372\u865f",
+        "address_en": "No. 372, Section 2, Yimin Road, Dali District, Taichung City",
+        "begin": "2021-05-15T13:30:00.000Z",
+        "duration (text)": "5/15 22:00",
+        "end": "2021-05-15T14:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.115440018528815,
+        "longtitude": 120.68394999982974,
+        "name": "\u4fe1\u5143\u85e5\u5c40",
+        "name_en": "XinYuan Pharmacy",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
       },
       "type": "Feature"
@@ -3171,7 +3654,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076301"
       },
       "type": "Feature"
     },
@@ -3184,16 +3668,17 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6771\u5c71\u8def\u4e00\u6bb5216\u865f\u4e4b32",
+        "address_en": "No. 216-32, Section 1, Dongshan Road, Beitun District, Taichung City",
         "begin": "2021-05-08T22:00:00.000Z",
-        "duration (text)": "5/9 6:00-12:00",
-        "end": "2021-05-09T04:00:00.000Z",
+        "duration (text)": "5/9 6:00-13:00",
+        "end": "2021-05-09T05:00:00.000Z",
         "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
+        "latitude": 24.172840003936017,
+        "longtitude": 120.71330996263458,
+        "name": "\u540d\u5bb6\u9999\u4fbf\u7576\u5e97(\u6234\u53e3\u7f69)",
+        "name_en": "Mingjiaxiang",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076302"
       },
       "type": "Feature"
     },
@@ -3212,10 +3697,11 @@
         "duration (text)": "5/9 16:50",
         "end": "2021-05-09T09:50:00.000Z",
         "investigating": false,
-        "latitude": 24.096570007547996,
-        "longtitude": 120.69915996896998,
+        "latitude": 24.096768,
+        "longtitude": 120.699219,
         "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
-        "name_en": "BaiQiao Supermarket (with mask)"
+        "name_en": "BaiQiao Supermarket (with mask)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076303"
       },
       "type": "Feature"
     },
@@ -3237,7 +3723,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076304"
       },
       "type": "Feature"
     },
@@ -3250,16 +3737,17 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6771\u5c71\u8def\u4e00\u6bb5216\u865f\u4e4b32",
+        "address_en": "No. 216-32, Section 1, Dongshan Road, Beitun District, Taichung City",
         "begin": "2021-05-10T00:00:00.000Z",
-        "duration (text)": "5/10 8:00",
-        "end": "2021-05-10T01:00:00.000Z",
+        "duration (text)": "5/10 8:00-8:30",
+        "end": "2021-05-10T00:30:00.000Z",
         "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
+        "latitude": 24.172840003936017,
+        "longtitude": 120.71330996263458,
+        "name": "\u540d\u5bb6\u9999\u4fbf\u7576\u5e97(\u6234\u53e3\u7f69)",
+        "name_en": "Mingjiaxiang Restaurant (with mask)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076305"
       },
       "type": "Feature"
     },
@@ -3281,7 +3769,8 @@
         "latitude": 24.092364154868182,
         "longtitude": 120.70363171938169,
         "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
+        "name_en": "YuanTong Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076306"
       },
       "type": "Feature"
     },
@@ -3303,7 +3792,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076307"
       },
       "type": "Feature"
     },
@@ -3325,7 +3815,8 @@
         "latitude": 24.092364154868182,
         "longtitude": 120.70363171938169,
         "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
+        "name_en": "YuanTong Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076308"
       },
       "type": "Feature"
     },
@@ -3347,7 +3838,8 @@
         "latitude": 24.096494913544205,
         "longtitude": 120.69881143327518,
         "name": "\u4ec1\u5316\u9ec3\u660f\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": ""
+        "name_en": "RenHua traditional market",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076309"
       },
       "type": "Feature"
     },
@@ -3369,7 +3861,8 @@
         "latitude": 24.096570007547996,
         "longtitude": 120.69915996896998,
         "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
-        "name_en": "BaiQiao Supermarket (with mask)"
+        "name_en": "BaiQiao Supermarket (with mask)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076310"
       },
       "type": "Feature"
     },
@@ -3391,7 +3884,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076311"
       },
       "type": "Feature"
     },
@@ -3404,16 +3898,17 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6771\u5c71\u8def\u4e00\u6bb5216\u865f\u4e4b32",
+        "address_en": "No. 216-32, Section 1, Dongshan Road, Beitun District, Taichung City",
         "begin": "2021-05-12T00:00:00.000Z",
-        "duration (text)": "5/12 8:00-12:00",
-        "end": "2021-05-12T04:00:00.000Z",
+        "duration (text)": "5/12 8:00-13:00",
+        "end": "2021-05-12T05:00:00.000Z",
         "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
+        "latitude": 24.172840003936017,
+        "longtitude": 120.71330996263458,
+        "name": "\u540d\u5bb6\u9999\u4fbf\u7576\u5e97(\u6234\u53e3\u7f69)",
+        "name_en": "Mingjiaxiang Restaurant (with mask)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076312"
       },
       "type": "Feature"
     },
@@ -3435,7 +3930,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076313"
       },
       "type": "Feature"
     },
@@ -3448,16 +3944,17 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u6771\u5c71\u8def\u4e00\u6bb5216\u865f\u4e4b32",
+        "address_en": "No. 216-32, Section 1, Dongshan Road, Beitun District, Taichung City",
         "begin": "2021-05-13T00:00:00.000Z",
-        "duration (text)": "5/13 8:00-8:30",
-        "end": "2021-05-13T00:30:00.000Z",
+        "duration (text)": "5/13 8:00-10:00",
+        "end": "2021-05-13T02:00:00.000Z",
         "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
+        "latitude": 24.172840003936017,
+        "longtitude": 120.71330996263458,
+        "name": "\u540d\u5bb6\u9999\u4fbf\u7576\u5e97(\u6234\u53e3\u7f69)",
+        "name_en": "Mingjiaxiang Restaurant (with mask)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076314"
       },
       "type": "Feature"
     },
@@ -3479,7 +3976,8 @@
         "latitude": 24.092364154868182,
         "longtitude": 120.70363171938169,
         "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
+        "name_en": "YuanTong Restaurant (with mask, takeout)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076316"
       },
       "type": "Feature"
     },
@@ -3501,7 +3999,8 @@
         "latitude": 24.092364154868182,
         "longtitude": 120.70363171938169,
         "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
+        "name_en": "YuanTong Restaurant (with mask, takeout)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076317"
       },
       "type": "Feature"
     },
@@ -3523,7 +4022,8 @@
         "latitude": 24.089569986839578,
         "longtitude": 120.69858999955403,
         "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
+        "name_en": "Yonghe Soy Milk (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076318"
       },
       "type": "Feature"
     },
@@ -3545,7 +4045,8 @@
         "latitude": 24.092364154868182,
         "longtitude": 120.70363171938169,
         "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
+        "name_en": "YuanTong Restaurant (with mask, takeout)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/photos/pcb.2922420078077603/2922433098076320"
       },
       "type": "Feature"
     },
@@ -3595,7 +4096,8 @@
         "latitude": "",
         "longtitude": "",
         "name": "\u6771\u6d77\u5546\u5708 (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Donghai Shopping District (with mask, take out)"
+        "name_en": "Donghai Shopping District (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3617,7 +4119,8 @@
         "latitude": 24.18083001122848,
         "longtitude": 120.59013999094725,
         "name": "\u56db\u5b63\u7cbe\u54c1\u767e\u8ca8\u6771\u6d77\u5e97",
-        "name_en": "4 Seasons Department Store"
+        "name_en": "4 Seasons Department Store",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3663,7 +4166,8 @@
         "latitude": 24.181349982591968,
         "longtitude": 120.59138000970307,
         "name": "\u611b\u8fea\u9054 \u6771\u6d77\u5e97",
-        "name_en": "Addidas (Donghai)"
+        "name_en": "Addidas (Donghai)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3713,7 +4217,8 @@
         "latitude": "",
         "longtitude": "",
         "name": "\u6771\u6d77\u5546\u5708 (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Donghai Shopping District (with mask, take out)"
+        "name_en": "Donghai Shopping District (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3759,7 +4264,8 @@
         "latitude": 24.18173001808195,
         "longtitude": 120.5848299714666,
         "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3Pxmart \u53f0\u4e2d\u6771\u6d77\u5e97",
-        "name_en": "PX Mart TaiChung DongHai"
+        "name_en": "PX Mart TaiChung DongHai",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3821,7 +4327,8 @@
         "latitude": "",
         "longtitude": "",
         "name": "\u6771\u6d77\u5546\u5708 (\u7d0410\u5206\u9418) (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Donghai Shopping District (with mask, take out)"
+        "name_en": "Donghai Shopping District (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
       },
       "type": "Feature"
     },
@@ -3883,7 +4390,77 @@
         "latitude": "",
         "longtitude": "",
         "name": "\u6771\u6d77\u5546\u5708 (\u7d0410\u5206\u9418) (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Donghai Shopping District (with mask, take out)"
+        "name_en": "Donghai Shopping District (with mask, take out)",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTaichung/posts/3906293132788775"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199, Sec. 1, Xinglong Rd., Zhubei City, Hsinchu County",
+        "begin": "2021-05-15T01:50:00.000Z",
+        "duration (text)": "5/15 09:50~10:20",
+        "end": "2021-05-15T02:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u9644\u8a2d\u91ab\u9662\u65b0\u7af9\u5206\u9662(\u81ea\u8cbb\u7be9\u6aa2\u9810\u7d04)",
+        "name_en": "China Medical University Hsinchu Hospital",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199, Sec. 1, Xinglong Rd., Zhubei City, Hsinchu County",
+        "begin": "2021-05-16T01:00:00.000Z",
+        "duration (text)": "5/16 09:00~09:30",
+        "end": "2021-05-16T01:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u9644\u8a2d\u91ab\u9662\u65b0\u7af9\u5206\u9662(\u6236\u5916\u7be9\u6aa2)",
+        "name_en": "China Medical University Hsinchu Hospital",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.00170429315749,
+          24.823640956293396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u7af9\u5317\u5e02\u8208\u9686\u8def\u4e00\u6bb5199\u865f",
+        "address_en": "No. 199, Sec. 1, Xinglong Rd., Zhubei City, Hsinchu County",
+        "begin": "2021-05-16T09:10:00.000Z",
+        "duration (text)": "5/16 17:10~17:40",
+        "end": "2021-05-16T09:40:00.000Z",
+        "investigating": false,
+        "latitude": 24.823640956293396,
+        "longtitude": 121.00170429315749,
+        "name": "\u4e2d\u570b\u91ab\u85e5\u5927\u5b78\u9644\u8a2d\u91ab\u9662\u65b0\u7af9\u5206\u9662(\u770b\u5831\u544a)",
+        "name_en": "China Medical University Hsinchu Hospital",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.cna.com.tw/news/ahel/202105170206.aspx"
       },
       "type": "Feature"
     },

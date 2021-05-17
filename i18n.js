@@ -47,7 +47,11 @@ function i18n_get_name(name) {
   if (HTML_LANG in name) {
     return name[HTML_LANG];
   }
-  return name["en-US"];
+  const supportedLanguages = ["en-US", "zh-TW", "ko", "he", "ja"];
+  for (let lang of supportedLanguages) {
+    if (name[lang]) return name[lang];
+  }
+  return 'No Name';
 }
 
 // Called after i18n .json file is loaded.
