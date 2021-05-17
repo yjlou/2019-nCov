@@ -3,6 +3,3893 @@
     {
       "geometry": {
         "coordinates": [
+          121.73989000811235,
+          25.12955001328585
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u5b5d\u4e8c\u8def63\u865f3\u6a13",
+        "address_en": "3rd Floor, No. 63, Xiaoer Road, Renai District, Keelung City",
+        "begin": "2021-05-02T08:00:00.000Z",
+        "duration (text)": "05/02 16:00-18:00",
+        "end": "2021-05-02T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.12955001328585,
+        "longtitude": 121.73989000811235,
+        "name": "\u8c93\u8173\u5370\uff08\u5361\u724c\u5e97\uff09",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74475000321155,
+          25.130789990132115
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4e2d\u6b63\u5340\u4fe1\u4e00\u8def177\u865f6\u6a13",
+        "address_en": "6th Floor, No. 177, Xinyi Road, Zhongzheng District, Keelung City",
+        "begin": "2021-05-02T10:00:00.000Z",
+        "duration (text)": "05/02 18:00-19:30",
+        "end": "2021-05-02T11:30:00.000Z",
+        "investigating": false,
+        "latitude": 25.130789990132115,
+        "longtitude": 121.74475000321155,
+        "name": "\u5169\u9910\uff08\u9910\u5ef3\uff09",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74420327951445,
+          25.129402973825783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u611b\u56db\u8def45\u865f",
+        "address_en": "No. 45, Aisi Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-08T07:00:00.000Z",
+        "duration (text)": "05/08 15:00-17:00",
+        "end": "2021-05-08T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.129379986379945,
+        "longtitude": 121.74412001936889,
+        "name": "\u798f\u52dd\u4ead",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74308996728763,
+          25.129400019128525
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u611b\u4e09\u8def87\u865f1\u6a13",
+        "address_en": "1st Floor, No. 87, Aisan Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-08T09:10:00.000Z",
+        "duration (text)": "05/08 17:10-19:10",
+        "end": "2021-05-08T11:10:00.000Z",
+        "investigating": false,
+        "latitude": 25.129400019128525,
+        "longtitude": 121.74308996728763,
+        "name": "\u521d\u6c90\u98f2\u6599\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.73896003595507,
+          25.139029987686797
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4e2d\u5c71\u5340\u4e2d\u5c71\u4e8c\u8def65\u5df7105\u865f",
+        "address_en": "No. 105, Lane 65, Zhongshan 2nd Road, Zhongshan District, Keelung City",
+        "begin": "2021-05-10T03:30:00.000Z",
+        "duration (text)": "05/10 11:30-13:00",
+        "end": "2021-05-10T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.139029987686797,
+        "longtitude": 121.73896003595507,
+        "name": "\u864e\u4ed4\u5c71\u4f11\u9592\u5496\u5561\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.73844002268203,
+          25.130349982124912
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u5b5d\u56db\u8def7\u865f",
+        "address_en": "No. 7, Xiaosi Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-10T08:00:00.000Z",
+        "duration (text)": "05/10 16:00-18:00",
+        "end": "2021-05-10T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.130349982124912,
+        "longtitude": 121.73844002268203,
+        "name": "\u4e09\u59d0\u59b9\u71b1\u7092\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74481001763826,
+          25.128650006432395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u4ec1\u4e8c\u8def191\u865f4F",
+        "address_en": "4F, No.191, Ren'er Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-13T08:30:00.000Z",
+        "duration (text)": "05/13 16:30-20:00",
+        "end": "2021-05-13T12:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.128650006432395,
+        "longtitude": 121.74481001763826,
+        "name": "\u660e\u65e5\u5361\u724c\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74344997002902,
+          25.129370011915157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u611b\u4e09\u8def116\u865f",
+        "address_en": "No. 116, Aisan Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-14T03:50:00.000Z",
+        "duration (text)": "05/14 11:50-14:00",
+        "end": "2021-05-14T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.129370011915157,
+        "longtitude": 121.74344997002902,
+        "name": "\u9ea5\u7576\u52de",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.73989000811235,
+          25.12955001328585
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u5b5d\u4e8c\u8def63\u865f3\u6a13",
+        "address_en": "3rd Floor, No. 63, Xiaoer Road, Renai District, Keelung City",
+        "begin": "2021-05-14T08:15:00.000Z",
+        "duration (text)": "05/14 16:15-18:15",
+        "end": "2021-05-14T10:15:00.000Z",
+        "investigating": false,
+        "latitude": 25.12955001328585,
+        "longtitude": 121.73989000811235,
+        "name": "\u8c93\u8173\u5370\uff08\u5361\u724c\u5e97\uff09",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74060003913036,
+          25.127379980463246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u4ec1\u4e94\u8def51\u865f",
+        "address_en": "No. 51, Renwu Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-01T00:00:00.000Z",
+        "duration (text)": "05/01-05/09 08:00-20:00",
+        "end": "2021-05-01T12:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.127379980463246,
+        "longtitude": 121.74060003913036,
+        "name": "\u7f8e\u9999\u9f4b\u9eb5\u5305\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.74060003913036,
+          25.127379980463246
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u57fa\u9686\u5e02\u4ec1\u611b\u5340\u4ec1\u4e94\u8def51\u865f",
+        "address_en": "No. 51, Renwu Road, Ren'ai District, Keelung City",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "05/13-05/14 08:00-18:00",
+        "end": "2021-05-14T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 25.127379980463246,
+        "longtitude": 121.74060003913036,
+        "name": "\u7f8e\u9999\u9f4b\u9eb5\u5305\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/klcgamore/posts/2841553376104556"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.31106999763801,
+          24.991119990586824
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u4e2d\u83ef\u8def24\u865f26\u865f",
+        "address_en": "No. 26, No. 24, Zhonghua Road, Taoyuan District, Taoyuan City",
+        "begin": "2021-05-09T05:45:00.000Z",
+        "duration (text)": "5/9 13:45~15:45",
+        "end": "2021-05-09T07:45:00.000Z",
+        "investigating": false,
+        "latitude": 24.991119990586824,
+        "longtitude": 121.31106999763801,
+        "name": "\u8584\u591a\u7fa9\u6843\u5712\u7ad9\u524d\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.36145691685,
+          25.0625982827145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-10T21:30:00.000Z",
+        "duration (text)": "5/11 \u7d04 6:00",
+        "end": "2021-05-10T22:30:00.000Z",
+        "investigating": false,
+        "latitude": 25.0625982827145,
+        "longtitude": 121.36145691685,
+        "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u516c\u897f\u7ad9)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.520059766518,
+          25.0715767869477
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-10T21:30:00.000Z",
+        "duration (text)": "5/11 \u7d04 6:00",
+        "end": "2021-05-10T22:30:00.000Z",
+        "investigating": false,
+        "latitude": 25.0715767869477,
+        "longtitude": 121.520059766518,
+        "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u5713\u5c71\u6377\u904b\u7ad9)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.33710997241417,
+          24.99336001230094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u4e2d\u8208\u8def430\u865f",
+        "address_en": "No. 430, Zhongxing Road, Guishan District, Taoyuan City",
+        "begin": "2021-05-11T10:00:00.000Z",
+        "duration (text)": "5/11 \u508d\u665a",
+        "end": "2021-05-11T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.99336001230094,
+        "longtitude": 121.33710997241417,
+        "name": "\u96de\u86cb\u7cd5-\u5916\u5e36",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.3361299602949,
+          24.992879980706093
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u4e2d\u8208\u8def407\u865f",
+        "address_en": "No 407, Zhongxing Road, Guishan District, Taoyuan City",
+        "begin": "2021-05-11T10:00:00.000Z",
+        "duration (text)": "5/11 \u508d\u665a",
+        "end": "2021-05-11T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.992879980706093,
+        "longtitude": 121.3361299602949,
+        "name": "\u4e3c\u7269-\u5916\u5e36",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.24788997752961,
+          24.978000007093883
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u9577\u6625\u8def119\u865f",
+        "address_en": "No. 119, Changchun Road, Zhongli District, Taoyuan City",
+        "begin": "2021-05-11T10:00:00.000Z",
+        "duration (text)": "5/11 \u665a\u9593",
+        "end": "2021-05-11T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.978000007093883,
+        "longtitude": 121.24788997752961,
+        "name": "\u5168\u806f\u5167\u58e2\u9577\u6625\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.34057999650975,
+          24.992360009342605
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u660e\u5fb7\u8def148\u5df71\u865f",
+        "address_en": "No. 1, Lane 148, Mingde Road, Guishan District, Taoyuan City",
+        "begin": "2021-05-11T23:30:00.000Z",
+        "duration (text)": "5/12 \u7d04 08:00",
+        "end": "2021-05-12T00:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.992360009342605,
+        "longtitude": 121.34057999650975,
+        "name": "\u57ce\u5e02\u6f22\u5821\u9f9c\u5c71\u6210\u529f\u5e97-\u5916\u5e36",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.36145691685,
+          25.0625982827145
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-11T23:50:00.000Z",
+        "duration (text)": "5/12 \u7d04 08:20",
+        "end": "2021-05-12T00:50:00.000Z",
+        "investigating": false,
+        "latitude": 25.0625982827145,
+        "longtitude": 121.36145691685,
+        "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u516c\u897f\u7ad9)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.520059766518,
+          25.0715767869477
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-11T23:50:00.000Z",
+        "duration (text)": "5/12 \u7d04 08:20",
+        "end": "2021-05-12T00:50:00.000Z",
+        "investigating": false,
+        "latitude": 25.0715767869477,
+        "longtitude": 121.520059766518,
+        "name": "\u5927\u90fd\u6703\u516c\u8eca937\u516c\u8eca(\u5713\u5c71\u6377\u904b\u7ad9)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.24941003567045,
+          24.916819992902134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5e73\u6771\u8def168\u865f",
+        "address_en": "No. 168, Pingdong Road, Pingzhen District, Taoyuan City",
+        "begin": "2021-05-13T06:00:00.000Z",
+        "duration (text)": "5/13 \u4e0b\u5348",
+        "end": "2021-05-13T12:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.916819992902134,
+        "longtitude": 121.24941003567045,
+        "name": "\u5e73\u93ae\u5340\u6771\u5b89\u570b\u4e2d\u5916\u505c\u8eca\u5834",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.24906998185861,
+          24.9158199899438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u5e73\u6771\u8def215\u865f\u4e4b1",
+        "address_en": "No. 215-1, Pingdong Road, Pingzhen District, Taoyuan City",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 \u508d\u665a",
+        "end": "2021-05-13T16:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.9158199899438,
+        "longtitude": 121.24906998185861,
+        "name": "\u5ca1\u5c71\u7f8a\u8089",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.25359998142977,
+          24.971769989920674
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u83ef\u8def\u4e00\u6bb5450\u865f",
+        "address_en": "No. 450, Section 1, Zhongli Road, Zhongli District, Taoyuan City",
+        "begin": "2021-05-13T12:30:00.000Z",
+        "duration (text)": "5/13 \u7d04 21:00",
+        "end": "2021-05-13T13:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.971769989920674,
+        "longtitude": 121.25359998142977,
+        "name": "\u5bb6\u6a02\u798f\u5167\u58e2\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chengwentsan/posts/320833006072578"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-06T01:00:00.000Z",
+        "duration (text)": "5/6 09:00~22:00",
+        "end": "2021-05-06T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-07T01:00:00.000Z",
+        "duration (text)": "5/7 09:00~22:00",
+        "end": "2021-05-07T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-08T01:00:00.000Z",
+        "duration (text)": "5/8 09:00~22:00",
+        "end": "2021-05-08T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-09T01:00:00.000Z",
+        "duration (text)": "5/9 09:00~22:00",
+        "end": "2021-05-09T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-10T01:00:00.000Z",
+        "duration (text)": "5/10 09:00~22:00",
+        "end": "2021-05-10T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-11T01:00:00.000Z",
+        "duration (text)": "5/11 09:00~22:00",
+        "end": "2021-05-11T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-12T01:00:00.000Z",
+        "duration (text)": "5/12 09:00~22:00",
+        "end": "2021-05-12T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-13T01:00:00.000Z",
+        "duration (text)": "5/13 09:00~22:00",
+        "end": "2021-05-13T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-14T01:00:00.000Z",
+        "duration (text)": "5/14 09:00~22:00",
+        "end": "2021-05-14T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u9298\u4fe1\u6c7d\u8eca",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-06T00:00:00.000Z",
+        "duration (text)": "5/6 08:00~18:00",
+        "end": "2021-05-06T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-07T00:00:00.000Z",
+        "duration (text)": "5/7 08:00~18:00",
+        "end": "2021-05-07T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-08T00:00:00.000Z",
+        "duration (text)": "5/8 08:00~18:00",
+        "end": "2021-05-08T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-09T00:00:00.000Z",
+        "duration (text)": "5/9 08:00~18:00",
+        "end": "2021-05-09T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-10T00:00:00.000Z",
+        "duration (text)": "5/10 08:00~18:00",
+        "end": "2021-05-10T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-11T00:00:00.000Z",
+        "duration (text)": "5/11 08:00~18:00",
+        "end": "2021-05-11T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-12T00:00:00.000Z",
+        "duration (text)": "5/12 08:00~18:00",
+        "end": "2021-05-12T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "5/13 08:00~18:00",
+        "end": "2021-05-13T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51175997616338,
+          23.952199981525638
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def1\u6bb591\u865f",
+        "address_en": "No. 91, Section 1, Yuanlu Road, Xihu Town, Changhua County",
+        "begin": "2021-05-14T00:00:00.000Z",
+        "duration (text)": "5/14 08:00~18:00",
+        "end": "2021-05-14T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.952199981525638,
+        "longtitude": 120.51175997616338,
+        "name": "\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-06T02:00:00.000Z",
+        "duration (text)": "5/6 10:00~22:00",
+        "end": "2021-05-06T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-07T02:00:00.000Z",
+        "duration (text)": "5/7 10:00~22:00",
+        "end": "2021-05-07T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-08T02:00:00.000Z",
+        "duration (text)": "5/8 10:00~22:00",
+        "end": "2021-05-08T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-09T02:00:00.000Z",
+        "duration (text)": "5/9 10:00~22:00",
+        "end": "2021-05-09T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-10T02:00:00.000Z",
+        "duration (text)": "5/10 10:00~22:00",
+        "end": "2021-05-10T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-11T02:00:00.000Z",
+        "duration (text)": "5/11 10:00~22:00",
+        "end": "2021-05-11T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-12T02:00:00.000Z",
+        "duration (text)": "5/12 10:00~22:00",
+        "end": "2021-05-12T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-13T02:00:00.000Z",
+        "duration (text)": "5/13 10:00~22:00",
+        "end": "2021-05-13T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.588493895097,
+          23.8599718128417
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u65b0\u751f\u88578\u865f\u5c0d\u9762\u9435\u76ae\u5c4b",
+        "address_en": "Tin House Opposite No. 8 Xinsheng Street, Tianzhong Town, Changhua County",
+        "begin": "2021-05-14T02:00:00.000Z",
+        "duration (text)": "5/14 10:00~22:00",
+        "end": "2021-05-14T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.8599718128417,
+        "longtitude": 120.588493895097,
+        "name": "\u7fca\u6e32\u5065\u5eb7\u8212\u6d3b\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.4856999686387,
+          23.957419979366207
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u6e56\u6771\u91cc\u9577\u9752\u885722\u865f",
+        "address_en": "No. 22, Changqing Street, Hudong Lane, Xihu Town, Changhua County",
+        "begin": "2021-05-07T10:00:00.000Z",
+        "duration (text)": "5/7 18:00~19:00",
+        "end": "2021-05-07T11:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.957419979366207,
+        "longtitude": 120.4856999686387,
+        "name": "\u6eaa\u6e56\u591c\u5e02",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.555093490675,
+          24.0231586697069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
+        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
+        "begin": "2021-05-08T04:00:00.000Z",
+        "duration (text)": "5/8 12:00~15:00",
+        "end": "2021-05-08T07:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.0231586697069,
+        "longtitude": 120.555093490675,
+        "name": "\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
+        "name_en": "CK Lee Garden",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.55416405200958,
+              24.023324558798414
+            ],
+            [
+              120.55428206920624,
+              24.02235930421065
+            ],
+            [
+              120.55556952953339,
+              24.023167766668074
+            ],
+            [
+              120.55452346801758,
+              24.023721438023664
+            ],
+            [
+              120.55416405200958,
+              24.023324558798414
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
+        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
+        "begin": "2021-05-08T04:00:00.000Z",
+        "duration (text)": "5/8 12:00~15:00",
+        "end": "2021-05-08T07:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.0231586697069,
+        "longtitude": 120.555093490675,
+        "name": "\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
+        "name_en": "CK Lee Garden",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.4818599673369,
+          23.961979986150737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u5149\u5e73\u91cc\u6771\u74b0\u8def503\u865f",
+        "address_en": "No.503, East Ring Road, Guangpingli, Xihu Town, Changhua County",
+        "begin": "2021-05-08T00:00:00.000Z",
+        "duration (text)": "5/8 08:00~09:00",
+        "end": "2021-05-08T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.961979986150737,
+        "longtitude": 120.4818599673369,
+        "name": "\u5927\u76e4\u5927\u5927\u8ce3\u5834\u6eaa\u6e56\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.4758543402459,
+          23.963410400460607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u5927\u767c\u8def59\u865f",
+        "address_en": "No. 59, Dafa Road, Xihu Town, Changhua County",
+        "begin": "2021-05-08T00:00:00.000Z",
+        "duration (text)": "5/8 08:00~09:00",
+        "end": "2021-05-08T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.963410400460607,
+        "longtitude": 120.4758543402459,
+        "name": "\u597d\u7f8e\u4e94\u91d1\u767e\u8ca8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54247998657752,
+          24.07149998660735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5e02\u4e2d\u5c71\u8def\u4e8c\u6bb5237\u865f",
+        "address_en": "No. 237, Section 2, Zhongshan Road, Changhua City",
+        "begin": "2021-05-08T10:00:00.000Z",
+        "duration (text)": "5/8 18:00~21:00",
+        "end": "2021-05-08T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.07149998660735,
+        "longtitude": 120.54247998657752,
+        "name": "\u4e0b\u5348\u8336\u7f8e\u98df\u5c0f\u9928",
+        "name_en": "Local Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58143999454632,
+          23.85383998223294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u6c99\u5d19\u8def457\u865f",
+        "address_en": "No. 457, Shalun Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-09T00:00:00.000Z",
+        "duration (text)": "5/9 08:00~18:00",
+        "end": "2021-05-09T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.85383998223294,
+        "longtitude": 120.58143999454632,
+        "name": "\u7acb\u8c50\u5be6\u696d\u516c\u53f8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58143999454632,
+          23.85383998223294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u6c99\u5d19\u8def457\u865f",
+        "address_en": "No. 457, Shalun Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-10T00:00:00.000Z",
+        "duration (text)": "5/10 08:00~18:00",
+        "end": "2021-05-10T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.85383998223294,
+        "longtitude": 120.58143999454632,
+        "name": "\u7acb\u8c50\u5be6\u696d\u516c\u53f8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58143999454632,
+          23.85383998223294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u6c99\u5d19\u8def457\u865f",
+        "address_en": "No. 457, Shalun Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-11T00:00:00.000Z",
+        "duration (text)": "5/11 08:00~18:00",
+        "end": "2021-05-11T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.85383998223294,
+        "longtitude": 120.58143999454632,
+        "name": "\u7acb\u8c50\u5be6\u696d\u516c\u53f8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58143999454632,
+          23.85383998223294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u6c99\u5d19\u8def457\u865f",
+        "address_en": "No. 457,  Shalun Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-12T00:00:00.000Z",
+        "duration (text)": "5/12 08:00~18:00",
+        "end": "2021-05-12T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.85383998223294,
+        "longtitude": 120.58143999454632,
+        "name": "\u7acb\u8c50\u5be6\u696d\u516c\u53f8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58143999454632,
+          23.85383998223294
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u6c99\u5d19\u8def457\u865f",
+        "address_en": "No. 457, Shalun Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "5/13 08:00~18:00",
+        "end": "2021-05-13T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.85383998223294,
+        "longtitude": 120.58143999454632,
+        "name": "\u7acb\u8c50\u5be6\u696d\u516c\u53f8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.48275004163514,
+          23.96135000230808
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u6e56\u6771\u91cc\u8208\u5b78\u885775\u865f",
+        "address_en": "No. 75, Xingxue Street, Hudong Li, Xihu Town, Changhua County",
+        "begin": "2021-05-09T11:00:00.000Z",
+        "duration (text)": "5/9 19:00-21:00",
+        "end": "2021-05-09T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.96135000230808,
+        "longtitude": 120.48275004163514,
+        "name": "\u6eaa\u6e56\u9955\u5ba2\u71d2\u70e4\u706b\u934b",
+        "name_en": "Xihu Gourmet BBQ Hot Pot",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.57099483363547,
+          23.875912272417636
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5927\u793e\u8def\u4e8c\u6bb5281\u865f",
+        "address_en": "",
+        "begin": "2021-05-09T12:00:00.000Z",
+        "duration (text)": "5/9 20:00-20:10",
+        "end": "2021-05-09T12:10:00.000Z",
+        "investigating": false,
+        "latitude": 23.875912272417636,
+        "longtitude": 120.57099483363547,
+        "name": "\u7530\u4e2d\u9ad8\u9435\u591c\u5e02",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53811544342224,
+          23.951734787012438
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u4e2d\u6b63\u8def\u4e00\u6bb5580\u865f",
+        "address_en": "",
+        "begin": "2021-05-09T04:30:00.000Z",
+        "duration (text)": "5/9 12:30~13:20",
+        "end": "2021-05-09T05:20:00.000Z",
+        "investigating": false,
+        "latitude": 23.951734787012438,
+        "longtitude": 120.53811544342224,
+        "name": "\u5927\u57d4\u9435\u677f\u71d2\u57d4\u5fc3\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.47781997382538,
+          23.956820002736904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u897f\u74b0\u8def156\u865f",
+        "address_en": "",
+        "begin": "2021-05-09T00:30:00.000Z",
+        "duration (text)": "5/9 08:30~09:00",
+        "end": "2021-05-09T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956820002736904,
+        "longtitude": 120.47781997382538,
+        "name": "\u6eaa\u6e56\u5168\u570b\u751f\u9bae\u8d85\u5e02",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58936578140587,
+          23.852310798075838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5357\u8def\u91cc\u54e1\u96c6\u8def\u4e8c\u6bb5329\u865f",
+        "address_en": "",
+        "begin": "2021-05-10T09:30:00.000Z",
+        "duration (text)": "5/10 17:30~18:00",
+        "end": "2021-05-10T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.852310798075838,
+        "longtitude": 120.58936578140587,
+        "name": "\u8863\u4f73\u4eba\u670d\u98fe\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.5873700234049,
+          23.863439985487346
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u798f\u5b89\u8def285\u865f",
+        "address_en": "No. 285, Fu'an Road, Tianzhong Town, Changhua County",
+        "begin": "2021-05-10T10:00:00.000Z",
+        "duration (text)": "5/10 18:00-19:00",
+        "end": "2021-05-10T11:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.863439985487346,
+        "longtitude": 120.5873700234049,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3Pxmart\u7530\u4e2d\u65b0\u798f",
+        "name_en": "PX Mart Tianzhong XinFu",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "No. 140 Lin, Zhongyi North Road, Puxin Township, Changhua County",
+        "begin": "2021-05-10T11:00:00.000Z",
+        "duration (text)": "5/10 19:00-21:00",
+        "end": "2021-05-10T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u57d4\u5fc3\u591c\u5e97\u71d2\u70e4",
+        "name_en": "BBQ Restaraunts in PuXin",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "",
+        "begin": "2021-05-10T20:00:00.000Z",
+        "duration (text)": "5/11 04:00~14:00",
+        "end": "2021-05-11T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u5f18\u723a\u65e9\u9910\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "",
+        "begin": "2021-05-11T20:00:00.000Z",
+        "duration (text)": "5/12 04:00~14:00",
+        "end": "2021-05-12T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u5f18\u723a\u65e9\u9910\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T20:00:00.000Z",
+        "duration (text)": "5/13 04:00~14:00",
+        "end": "2021-05-13T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u5f18\u723a\u65e9\u9910\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T20:00:00.000Z",
+        "duration (text)": "5/14 04:00~14:00",
+        "end": "2021-05-14T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u5f18\u723a\u65e9\u9910\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54283907540145,
+          23.956967606299756
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
+        "address_en": "",
+        "begin": "2021-05-14T20:00:00.000Z",
+        "duration (text)": "5/15 04:00~14:00",
+        "end": "2021-05-15T06:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.956967606299756,
+        "longtitude": 120.54283907540145,
+        "name": "\u5f18\u723a\u65e9\u9910\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53890186967494,
+          24.07623474032177
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-11T01:00:00.000Z",
+        "duration (text)": "5/11 09:00~09:10",
+        "end": "2021-05-11T01:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5e02\u6c11\u6b0a\u5e02\u5834\u5916\u570d\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.53868770599365,
+              24.076441574964672
+            ],
+            [
+              120.538392663002,
+              24.075851397821296
+            ],
+            [
+              120.53896397352217,
+              24.075623652388188
+            ],
+            [
+              120.53923755884169,
+              24.07622362604548
+            ],
+            [
+              120.53868770599365,
+              24.076441574964672
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-11T01:00:00.000Z",
+        "duration (text)": "5/11 09:00~09:10",
+        "end": "2021-05-11T01:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5e02\u6c11\u6b0a\u5e02\u5834\u5916\u570d\u6c34\u679c\u6524",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.4818599673369,
+          23.961979986150737
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u5149\u5e73\u91cc\u6771\u74b0\u8def503\u865f",
+        "address_en": "",
+        "begin": "2021-05-11T13:00:00.000Z",
+        "duration (text)": "5/11 21:00~21:10",
+        "end": "2021-05-11T13:10:00.000Z",
+        "investigating": false,
+        "latitude": 23.961979986150737,
+        "longtitude": 120.4818599673369,
+        "name": "\u5927\u76e4\u5927\u5927\u8ce3\u5834\u6eaa\u6e56\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53296996305369,
+          23.963129983266413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u7464\u9cf3\u8def3\u6bb5166\u5df760\u865f",
+        "address_en": "",
+        "begin": "2021-05-11T08:30:00.000Z",
+        "duration (text)": "5/11 16:30~16:45",
+        "end": "2021-05-11T08:45:00.000Z",
+        "investigating": false,
+        "latitude": 23.963129983266413,
+        "longtitude": 120.53296996305369,
+        "name": "\u89c0\u7384\u5bae",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.4856999686387,
+          23.957419979366207
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u6e56\u6771\u91cc\u9577\u9752\u885722\u865f",
+        "address_en": "No. 22, Changqing Street, Hudong Lane, Xihu Town, Changhua County",
+        "begin": "2021-05-11T21:00:00.000Z",
+        "duration (text)": "5/12 05:00-05:30",
+        "end": "2021-05-11T21:30:00.000Z",
+        "investigating": false,
+        "latitude": 23.957419979366207,
+        "longtitude": 120.4856999686387,
+        "name": "\u6eaa\u6e56\u93ae\u679c\u83dc\u5e02\u5834",
+        "name_en": "Local Market in Xihu",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.43434456134779,
+          24.055416604877596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u9e7f\u6e2f\u93ae\u4e2d\u5c71\u8def234\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T06:00:00.000Z",
+        "duration (text)": "5/12 14:00~14:20",
+        "end": "2021-05-12T06:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.055416604877596,
+        "longtitude": 120.43434456134779,
+        "name": "\u9e7f\u6e2f\u5408\u4f5c\u4fe1\u7528\u793e",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.560230007656,
+          23.9515399904696
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u660e\u8056\u8def\u56db\u6bb565\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T08:00:00.000Z",
+        "duration (text)": "5/12 16:00~16:08",
+        "end": "2021-05-12T08:08:00.000Z",
+        "investigating": false,
+        "latitude": 23.9515399904696,
+        "longtitude": 120.560230007656,
+        "name": "\u57d4\u5fc3\u8fb2\u6703\u660e\u8056\u5206\u90e8",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58803001446091,
+          23.86084000294136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5fa9\u8208\u8def761\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T08:50:00.000Z",
+        "duration (text)": "5/12 16:50~17:00",
+        "end": "2021-05-12T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.86084000294136,
+        "longtitude": 120.58803001446091,
+        "name": "\u6eff\u6f22\u725b\u8089\u9eb5",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53626002768812,
+          23.95109998246241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u54e1\u9e7f\u8def\u4e09\u6bb5115-3\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T12:00:00.000Z",
+        "duration (text)": "5/12 20:00~20:05",
+        "end": "2021-05-12T12:05:00.000Z",
+        "investigating": false,
+        "latitude": 23.95109998246241,
+        "longtitude": 120.53626002768812,
+        "name": "\u57d4\u5fc3\u65b0\u822a\u5feb\u905e",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58628004071596,
+          23.85972998750384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5357\u5317\u885785\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T04:30:00.000Z",
+        "duration (text)": "5/13 12:30~12:40",
+        "end": "2021-05-13T04:40:00.000Z",
+        "investigating": false,
+        "latitude": 23.85972998750384,
+        "longtitude": 120.58628004071596,
+        "name": "\u81ea\u52a9\u9910(\u7121\u5e02\u62db)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51121012184763,
+          23.952004291625375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def\u4e00\u6bb581\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T04:30:00.000Z",
+        "duration (text)": "5/13 12:30~12:40",
+        "end": "2021-05-13T04:40:00.000Z",
+        "investigating": false,
+        "latitude": 23.952004291625375,
+        "longtitude": 120.51121012184763,
+        "name": "\u963f\u6797\u4ed4\u81ea\u52a9\u9910",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.41212999281106,
+          24.02721998469309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5ec8\u7c98\u6751\u6cbf\u6d77\u8def\u4e09\u6bb588\u865f",
+        "address_en": "No. 88, Section 3, Haitian Road, Xia Nien Village, Fuxing Township, Changhua County",
+        "begin": "2021-05-12T04:00:00.000Z",
+        "duration (text)": "5\u670812\u65e5 12:00-12:30",
+        "end": "2021-05-12T04:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.02721998469309,
+        "longtitude": 120.41212999281106,
+        "name": "\u798f\u6a02\u4f73\u5927\u8ce3\u5834",
+        "name_en": "FuLeJia Supermarket",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.41212999281106,
+          24.02721998469309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5ec8\u7c98\u6751\u6cbf\u6d77\u8def\u4e09\u6bb588\u865f",
+        "address_en": "No. 88, Section 3, Haitian Road, Xia Nien Village, Fuxing Township, Changhua County",
+        "begin": "2021-05-13T04:00:00.000Z",
+        "duration (text)": "5\u670813\u65e5 12:00-12:30",
+        "end": "2021-05-13T04:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.02721998469309,
+        "longtitude": 120.41212999281106,
+        "name": "\u798f\u6a02\u4f73\u5927\u8ce3\u5834",
+        "name_en": "FuLeJia Supermarket",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53630000936624,
+          24.088599991094597
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u81ea\u5f37\u5357\u8def30\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 18:00~18:20",
+        "end": "2021-05-13T10:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.088599991094597,
+        "longtitude": 120.53630000936624,
+        "name": "\u963f\u5fb7\u9d5d\u8089\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53626002768812,
+          23.95109998246241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u54e1\u9e7f\u8def\u4e09\u6bb5115-3\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T12:00:00.000Z",
+        "duration (text)": "5/12 20:00~20:05",
+        "end": "2021-05-12T12:05:00.000Z",
+        "investigating": false,
+        "latitude": 23.95109998246241,
+        "longtitude": 120.53626002768812,
+        "name": "\u57d4\u5fc3\u65b0\u822a\u5feb\u905e",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58628004071596,
+          23.85972998750384
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5357\u5317\u885785\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T04:30:00.000Z",
+        "duration (text)": "5/13 12:30~12:40",
+        "end": "2021-05-13T04:40:00.000Z",
+        "investigating": false,
+        "latitude": 23.85972998750384,
+        "longtitude": 120.58628004071596,
+        "name": "\u81ea\u52a9\u9910(\u7121\u5e02\u62db)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.51121012184763,
+          23.952004291625375
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u54e1\u9e7f\u8def\u4e00\u6bb581\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T04:30:00.000Z",
+        "duration (text)": "5/13 12:30~12:40",
+        "end": "2021-05-13T04:40:00.000Z",
+        "investigating": false,
+        "latitude": 23.952004291625375,
+        "longtitude": 120.51121012184763,
+        "name": "\u963f\u6797\u4ed4\u81ea\u52a9\u9910",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.41212999281106,
+          24.02721998469309
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5ec8\u7c98\u6751\u6cbf\u6d77\u8def\u4e09\u6bb588\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T04:00:00.000Z",
+        "duration (text)": "5/13 12:00~12:05",
+        "end": "2021-05-13T04:05:00.000Z",
+        "investigating": false,
+        "latitude": 24.02721998469309,
+        "longtitude": 120.41212999281106,
+        "name": "\u798f\u6a02\u4f73\u5927\u8ce3\u5834",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53630000936624,
+          24.088599991094597
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u81ea\u5f37\u5357\u8def30\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 18:00~18:20",
+        "end": "2021-05-13T10:20:00.000Z",
+        "investigating": false,
+        "latitude": 24.088599991094597,
+        "longtitude": 120.53630000936624,
+        "name": "\u963f\u5fb7\u9d5d\u8089\u5e97",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53626002768812,
+          23.95109998246241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u54e1\u9e7f\u8def\u4e09\u6bb5115-3\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T16:00:00.000Z",
+        "duration (text)": "5/13 00:00~00:10",
+        "end": "2021-05-12T16:10:00.000Z",
+        "investigating": false,
+        "latitude": 23.95109998246241,
+        "longtitude": 120.53626002768812,
+        "name": "\u57d4\u5fc3\u65b0\u822a\u5feb\u905e",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53626002768812,
+          23.95109998246241
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u54e1\u9e7f\u8def\u4e09\u6bb5115-3\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 18:00~18:01",
+        "end": "2021-05-13T10:00:01.000Z",
+        "investigating": false,
+        "latitude": 23.95109998246241,
+        "longtitude": 120.53626002768812,
+        "name": "\u57d4\u5fc3\u65b0\u822a\u5feb\u905e",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.46504000223479,
+          23.899030007374947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u57e4\u982d\u9109\u5e84\u5b50\u8def352\u5df76\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T10:00:00.000Z",
+        "duration (text)": "5/13 18:00~19:00",
+        "end": "2021-05-13T11:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.899030007374947,
+        "longtitude": 120.46504000223479,
+        "name": "\u9673\u5c45\u8ca1\u570b\u8853\u9928",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.58803001446091,
+          23.86084000294136
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u5fa9\u8208\u8def761\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T08:50:00.000Z",
+        "duration (text)": "5/12 16:50~17:00",
+        "end": "2021-05-12T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 23.86084000294136,
+        "longtitude": 120.58803001446091,
+        "name": "\u6eff\u6f22\u725b\u8089\u9eb5",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.44384996427402,
+          24.04792999105898
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5f70\u9e7f\u8def\u4e03\u6bb5495\u865f",
+        "address_en": "",
+        "begin": "2021-05-14T02:30:00.000Z",
+        "duration (text)": "5/14 10:30~11:00",
+        "end": "2021-05-14T03:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.04792999105898,
+        "longtitude": 120.44384996427402,
+        "name": "\u798f\u8208\u9109\u516c\u6240",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.40129325991019,
+          24.019767253951834
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u54e1\u6797\u5ba2\u904b\u798f\u8208\u9ea5\u539d\u7ad9",
+        "address_en": "Yuanlin Bus Fuxing Maicuo Station",
+        "begin": "2021-05-14T02:00:00.000Z",
+        "duration (text)": "5/14 10:00-10:10",
+        "end": "2021-05-14T02:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
+        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.40089726448058,
+              24.020026984024913
+            ],
+            [
+              120.40125668048857,
+              24.019517395831105
+            ],
+            [
+              120.40158927440645,
+              24.019747690745742
+            ],
+            [
+              120.40135324001312,
+              24.020129881395867
+            ],
+            [
+              120.40089726448058,
+              24.020026984024913
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u54e1\u6797\u5ba2\u904b\u798f\u8208\u9ea5\u539d\u7ad9",
+        "address_en": "Yuanlin Bus Fuxing Maicuo Station",
+        "begin": "2021-05-14T02:00:00.000Z",
+        "duration (text)": "5/14 10:00-10:10",
+        "end": "2021-05-14T02:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
+        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.43652299745385,
+          24.05148933693004
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u54e1\u6797\u5ba2\u904b\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9",
+        "address_en": "Yuanlin Passenger Transport Lukang Dingtaixing Station",
+        "begin": "2021-05-14T02:00:00.000Z",
+        "duration (text)": "5/14 10:00-10:10",
+        "end": "2021-05-14T02:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
+        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.43641641736032,
+              24.051537290331098
+            ],
+            [
+              120.43644525110722,
+              24.051198056630295
+            ],
+            [
+              120.4367744922638,
+              24.051223162404206
+            ],
+            [
+              120.43672017753123,
+              24.051549537018335
+            ],
+            [
+              120.43641641736032,
+              24.051537290331098
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u54e1\u6797\u5ba2\u904b\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9",
+        "address_en": "Yuanlin Passenger Transport Lukang Dingtaixing Station",
+        "begin": "2021-05-14T02:00:00.000Z",
+        "duration (text)": "5/14 10:00-10:10",
+        "end": "2021-05-14T02:10:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
+        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.43534000000011,
+          24.05678000000006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5ba2\u904b\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9",
+        "address_en": "Changhua Passenger Transport Lukang Town Office Station",
+        "begin": "2021-05-14T02:57:00.000Z",
+        "duration (text)": "5/14 10:57-11:24",
+        "end": "2021-05-14T03:24:00.000Z",
+        "investigating": false,
+        "latitude": 24.05678000000006,
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
+        "name_en": "BUS from Lukang Town Office to Luji Hospital)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.43506659567356,
+              24.056728556327034
+            ],
+            [
+              120.43519198894501,
+              24.056620177477253
+            ],
+            [
+              120.43542467057704,
+              24.056772642612614
+            ],
+            [
+              120.43534219264983,
+              24.05691347370123
+            ],
+            [
+              120.43506659567356,
+              24.056728556327034
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5ba2\u904b\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9",
+        "address_en": "Changhua Passenger Transport Lukang Town Office Station",
+        "begin": "2021-05-14T02:57:00.000Z",
+        "duration (text)": "5/14 10:57-11:24",
+        "end": "2021-05-14T03:24:00.000Z",
+        "fill": "#555555",
+        "fill-opacity": 0.5,
+        "investigating": false,
+        "latitude": 24.05678000000006,
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
+        "name_en": "BUS from Lukang Town Office to Luji Hospital)",
+        "stroke": "#555555",
+        "stroke-opacity": 1,
+        "stroke-width": 2,
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54412866598372,
+          24.07106068372769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5ba2\u904b\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9",
+        "address_en": "Changhua Passenger Transport Changhua Christian Hospital Station",
+        "begin": "2021-05-14T02:57:00.000Z",
+        "duration (text)": "5/14 10:57-11:24",
+        "end": "2021-05-14T03:24:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
+        "name_en": "BUS from Lukang Town Office to Luji Hospital)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.54281830787657,
+              24.072273543799863
+            ],
+            [
+              120.54229795932768,
+              24.070975598092637
+            ],
+            [
+              120.54464757442476,
+              24.070823762076284
+            ],
+            [
+              120.5451089143753,
+              24.07109314843346
+            ],
+            [
+              120.54504454135893,
+              24.07211681143063
+            ],
+            [
+              120.54281830787657,
+              24.072273543799863
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5ba2\u904b\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9",
+        "address_en": "Changhua Passenger Transport Changhua Christian Hospital Station",
+        "begin": "2021-05-14T02:57:00.000Z",
+        "duration (text)": "5/14 10:57-11:24",
+        "end": "2021-05-14T03:24:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
+        "name_en": "BUS from Lukang Town Office to Luji Hospital)",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54247998657752,
+          24.07149998660735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u5e02\u4e2d\u5c71\u8def\u4e8c\u6bb5237\u865f",
+        "address_en": "No. 237, Section 2, Zhongshan Road, Changhua City",
+        "begin": "2021-05-08T10:00:00.000Z",
+        "duration (text)": "5/8 18:00-21:00",
+        "end": "2021-05-08T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.07149998660735,
+        "longtitude": 120.54247998657752,
+        "name": "\u4e0b\u5348\u8336\u7f8e\u98df\u5c0f\u9928",
+        "name_en": "Local Restaurant",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.435060030052,
+          24.05726998767689
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u9e7f\u6e2f\u93ae\u6c11\u6b0a\u8def168\u865f",
+        "address_en": "No. 168, Minquan Road, Lugang Township, Changhua County",
+        "begin": "2021-05-14T00:00:00.000Z",
+        "duration (text)": "5/14 08:00-10:00",
+        "end": "2021-05-14T02:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.05726998767689,
+        "longtitude": 120.435060030052,
+        "name": "\u9e7f\u6e2f\u93ae\u516c\u6240",
+        "name_en": "Lukang Township Office",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.54090997229372,
+          24.07878000479134
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u4e2d\u83ef\u8def134\u865f",
+        "address_en": "",
+        "begin": "2021-05-15T10:50:00.000Z",
+        "duration (text)": "5/15 18:50~19:10",
+        "end": "2021-05-15T11:10:00.000Z",
+        "investigating": false,
+        "latitude": 24.07878000479134,
+        "longtitude": 120.54090997229372,
+        "name": "\u958b\u5316\u5bfa",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.53738999205518,
+          24.066439999298396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5f70\u5316\u7e23\u5f70\u5316\u5e02\u6c11\u65cf\u8def26\u865f",
+        "address_en": "",
+        "begin": "2021-05-15T11:25:00.000Z",
+        "duration (text)": "5/15 19:25~20:40",
+        "end": "2021-05-15T12:40:00.000Z",
+        "investigating": false,
+        "latitude": 24.066439999298396,
+        "longtitude": 120.53738999205518,
+        "name": "\u990a\u934b YangGuo \u77f3\u982d\u6dae\u6dae\u934b(\u5f70\u5316\u65d7\u8266\u5e97)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66483004049621,
+          24.17087997969746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6210\u90fd\u8def302\u865f",
+        "address_en": "No. 302, Chengdu Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 07:00~07:30",
+        "end": "2021-05-11T23:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.17087997969746,
+        "longtitude": 120.66483004049621,
+        "name": "\u7c73\u5947\u5821\u65e9\u9910\u5e97",
+        "name_en": "MickyBao",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66378003948546,
+          24.17044998806456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def358\u865f",
+        "address_en": "No.358, Chonqing Rd., Xitun District, Taichung City",
+        "begin": "2021-05-11T23:30:00.000Z",
+        "duration (text)": "5/12 07:30~18:00",
+        "end": "2021-05-12T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.17044998806456,
+        "longtitude": 120.66378003948546,
+        "name": "\u91cd\u6176\u570b\u5c0f(\u672a\u6234\u53e3\u7f69)",
+        "name_en": "Chonqing Elementary School",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66483004049621,
+          24.17087997969746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6210\u90fd\u8def302\u865f",
+        "address_en": "No. 302, Chengdu Road, Xitun District, Taichung City",
+        "begin": "2021-05-12T23:00:00.000Z",
+        "duration (text)": "5/13 07:00~07:30",
+        "end": "2021-05-12T23:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.17087997969746,
+        "longtitude": 120.66483004049621,
+        "name": "\u7c73\u5947\u5821\u65e9\u9910\u5e97",
+        "name_en": "MickyBao",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66378003948546,
+          24.17044998806456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def358\u865f",
+        "address_en": "No.358, Chonqing Rd., Xitun District, Taichung City",
+        "begin": "2021-05-12T23:30:00.000Z",
+        "duration (text)": "5/13 07:30~18:00",
+        "end": "2021-05-13T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.17044998806456,
+        "longtitude": 120.66378003948546,
+        "name": "\u91cd\u6176\u570b\u5c0f(\u672a\u6234\u53e3\u7f69)",
+        "name_en": "Chonqing Elementary School",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66483004049621,
+          24.17087997969746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6210\u90fd\u8def302\u865f",
+        "address_en": "No. 302, Chengdu Road, Xitun District, Taichung City",
+        "begin": "2021-05-13T23:00:00.000Z",
+        "duration (text)": "5/14 07:00~07:30",
+        "end": "2021-05-13T23:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.17087997969746,
+        "longtitude": 120.66483004049621,
+        "name": "\u7c73\u5947\u5821\u65e9\u9910\u5e97",
+        "name_en": "MickyBao",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66378003948546,
+          24.17044998806456
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def358\u865f",
+        "address_en": "No.358, Chonqing Rd., Xitun District, Taichung City",
+        "begin": "2021-05-13T23:30:00.000Z",
+        "duration (text)": "5/14 07:30~18:00",
+        "end": "2021-05-14T10:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.17044998806456,
+        "longtitude": 120.66378003948546,
+        "name": "\u91cd\u6176\u570b\u5c0f(\u672a\u6234\u53e3\u7f69)",
+        "name_en": "Chonqing Elementary School",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.66031001538983,
+          24.169089982364838
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u5be7\u590f\u8def232\u865f",
+        "address_en": "No. 232, Ningxia Rd., Xitun Dist., Taichung City",
+        "begin": "2021-05-16T01:00:00.000Z",
+        "duration (text)": "5/16 09:00~10:00",
+        "end": "2021-05-16T02:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.169089982364838,
+        "longtitude": 120.66031001538983,
+        "name": "7-11\u6587\u83ef\u9580\u5e02(\u6234\u53e3\u7f69\u3001\u7528\u9910\u6642\u62ff\u4e0b)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922225208097090"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.65752699971199,
+          24.1673575833884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.6575819849968,
+              24.16777971137452
+            ],
+            [
+              120.65715819597243,
+              24.167367371879237
+            ],
+            [
+              120.65754577517508,
+              24.1670467984139
+            ],
+            [
+              120.65791323781015,
+              24.167378383930554
+            ],
+            [
+              120.6575819849968,
+              24.16777971137452
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.65752699971199,
+          24.1673575833884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.6575819849968,
+              24.16777971137452
+            ],
+            [
+              120.65715819597243,
+              24.167367371879237
+            ],
+            [
+              120.65754577517508,
+              24.1670467984139
+            ],
+            [
+              120.65791323781015,
+              24.167378383930554
+            ],
+            [
+              120.6575819849968,
+              24.16777971137452
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.65752699971199,
+          24.1673575833884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.6575819849968,
+              24.16777971137452
+            ],
+            [
+              120.65715819597243,
+              24.167367371879237
+            ],
+            [
+              120.65754577517508,
+              24.1670467984139
+            ],
+            [
+              120.65791323781015,
+              24.167378383930554
+            ],
+            [
+              120.6575819849968,
+              24.16777971137452
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-11T23:00:00.000Z",
+        "duration (text)": "5/12 7:00-8:00",
+        "end": "2021-05-12T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.65752699971199,
+          24.1673575833884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-15T16:00:00.000Z",
+        "duration (text)": "5/16 \u8abf\u67e5\u4e2d",
+        "end": "2021-05-16T16:00:00.000Z",
+        "investigating": true,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.6575819849968,
+              24.16777971137452
+            ],
+            [
+              120.65715819597243,
+              24.167367371879237
+            ],
+            [
+              120.65754577517508,
+              24.1670467984139
+            ],
+            [
+              120.65791323781015,
+              24.167378383930554
+            ],
+            [
+              120.6575819849968,
+              24.16777971137452
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u91cd\u6176\u8def180\u865f",
+        "address_en": "No. 180, Chongqing Road, Xitun District, Taichung City",
+        "begin": "2021-05-15T16:00:00.000Z",
+        "duration (text)": "5/16 \u8abf\u67e5\u4e2d",
+        "end": "2021-05-16T16:00:00.000Z",
+        "investigating": true,
+        "latitude": 24.1672999850322,
+        "longtitude": 120.65752001509884,
+        "name": "\u4e2d\u7fa9\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/2922420078077603"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.67663371562958,
+          24.115149178564753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T02:30:00.000Z",
+        "duration (text)": "5/12 11:00",
+        "end": "2021-05-12T03:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.115180011892306,
+        "longtitude": 120.67702000992233,
+        "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.67532996678506,
+          24.125420015363687
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u5b78\u5e9c\u8def36\u865f",
+        "address_en": "",
+        "begin": "2021-05-12T12:30:00.000Z",
+        "duration (text)": "5/12 21:00",
+        "end": "2021-05-12T13:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.125420015363687,
+        "longtitude": 120.67532996678506,
+        "name": "\u8208\u5927\u6c38\u548c\u9ed1\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.67663371562958,
+          24.115149178564753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
+        "address_en": "",
+        "begin": "2021-05-13T01:00:00.000Z",
+        "duration (text)": "5/13 09:00~10:00",
+        "end": "2021-05-13T02:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.115180011892306,
+        "longtitude": 120.67702000992233,
+        "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.67663371562958,
+          24.115149178564753
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5927\u660e\u8def446-452\u865f",
+        "address_en": "",
+        "begin": "2021-05-15T01:00:00.000Z",
+        "duration (text)": "5/15 09:00~10:00",
+        "end": "2021-05-15T02:00:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u5c0f\u8449\u65e9\u9910\u5c4b(\u5167\u7528)",
+        "name_en": "",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20210517/1984006.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-08T21:00:00.000Z",
+        "duration (text)": "5/9 5:00",
+        "end": "2021-05-08T22:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-08T22:00:00.000Z",
+        "duration (text)": "5/9 6:00-12:00",
+        "end": "2021-05-09T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69915996896998,
+          24.096570007547996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
+        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-09T08:50:00.000Z",
+        "duration (text)": "5/9 16:50",
+        "end": "2021-05-09T09:50:00.000Z",
+        "investigating": false,
+        "latitude": 24.096570007547996,
+        "longtitude": 120.69915996896998,
+        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
+        "name_en": "BaiQiao Supermarket (with mask)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-09T22:00:00.000Z",
+        "duration (text)": "5/10 6:00",
+        "end": "2021-05-09T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-10T00:00:00.000Z",
+        "duration (text)": "5/10 8:00",
+        "end": "2021-05-10T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-10T04:00:00.000Z",
+        "duration (text)": "5/10 12:00",
+        "end": "2021-05-10T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-10T22:00:00.000Z",
+        "duration (text)": "5/11 6:00",
+        "end": "2021-05-10T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-11T04:00:00.000Z",
+        "duration (text)": "5/11 12:00",
+        "end": "2021-05-11T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69881143327518,
+          24.096494913544205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def565\u865f",
+        "address_en": "No. 565, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-11T08:00:00.000Z",
+        "duration (text)": "5/11 16:00-17:00",
+        "end": "2021-05-11T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.096494913544205,
+        "longtitude": 120.69881143327518,
+        "name": "\u4ec1\u5316\u9ec3\u660f\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69915996896998,
+          24.096570007547996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
+        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-11T08:00:00.000Z",
+        "duration (text)": "5/11 16:00-17:00",
+        "end": "2021-05-11T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.096570007547996,
+        "longtitude": 120.69915996896998,
+        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
+        "name_en": "BaiQiao Supermarket (with mask)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-11T22:00:00.000Z",
+        "duration (text)": "5/12 6:00",
+        "end": "2021-05-11T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-12T00:00:00.000Z",
+        "duration (text)": "5/12 8:00-12:00",
+        "end": "2021-05-12T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-12T22:00:00.000Z",
+        "duration (text)": "5/13 6:00",
+        "end": "2021-05-12T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "5/13 8:00-8:30",
+        "end": "2021-05-13T00:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-13T04:00:00.000Z",
+        "duration (text)": "5/13 12:00",
+        "end": "2021-05-13T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-14T03:30:00.000Z",
+        "duration (text)": "5/14 11:30",
+        "end": "2021-05-14T04:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-14T23:00:00.000Z",
+        "duration (text)": "5/15 7:00",
+        "end": "2021-05-15T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-15T04:30:00.000Z",
+        "duration (text)": "5/15 12:30",
+        "end": "2021-05-15T05:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.58973550796509,
+              24.183441508267578
+            ],
+            [
+              120.58769702911377,
+              24.18039763478274
+            ],
+            [
+              120.59104979038237,
+              24.17952165130573
+            ],
+            [
+              120.5938446521759,
+              24.180730409052636
+            ],
+            [
+              120.59323310852052,
+              24.182903207952666
+            ],
+            [
+              120.59011638164519,
+              24.184067891229574
+            ],
+            [
+              120.58973550796509,
+              24.183441508267578
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-09T12:00:00.000Z",
+        "duration (text)": "05/09 20:00~22:00",
+        "end": "2021-05-09T14:00:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u6771\u6d77\u5546\u5708 (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Donghai Shopping District (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.59012442827223,
+          24.180836847698437
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u4e2d\u5e02\u9f8d\u4e95\u5340\u65b0\u8208\u8def17\u865f",
+        "address_en": "No. 17, Xinxing Road, Longjing District, Taichung City",
+        "begin": "2021-05-09T12:00:00.000Z",
+        "duration (text)": "05/09 20:00~22:00",
+        "end": "2021-05-09T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.18083001122848,
+        "longtitude": 120.59013999094725,
+        "name": "\u56db\u5b63\u7cbe\u54c1\u767e\u8ca8\u6771\u6d77\u5e97",
+        "name_en": "4 Seasons Department Store"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.59116914868355,
+              24.181384944146906
+            ],
+            [
+              120.59120669960976,
+              24.18118307854131
+            ],
+            [
+              120.5919376015663,
+              24.181344571051323
+            ],
+            [
+              120.59191480278967,
+              24.181493829098546
+            ],
+            [
+              120.59178337454796,
+              24.181523191316792
+            ],
+            [
+              120.59116914868355,
+              24.181384944146906
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u81fa\u4e2d\u5e02\u9f8d\u4e95\u5340\u65b0\u8208\u8def2-10\u865f",
+        "address_en": "No. 2-10, Xinxing Road, Longjing District, Taichung City",
+        "begin": "2021-05-09T12:00:00.000Z",
+        "duration (text)": "05/09 20:00~22:00",
+        "end": "2021-05-09T14:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.181349982591968,
+        "longtitude": 120.59138000970307,
+        "name": "\u611b\u8fea\u9054 \u6771\u6d77\u5e97",
+        "name_en": "Addidas (Donghai)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.58973550796509,
+              24.183441508267578
+            ],
+            [
+              120.58769702911377,
+              24.18039763478274
+            ],
+            [
+              120.59104979038237,
+              24.17952165130573
+            ],
+            [
+              120.5938446521759,
+              24.180730409052636
+            ],
+            [
+              120.59323310852052,
+              24.182903207952666
+            ],
+            [
+              120.59011638164519,
+              24.184067891229574
+            ],
+            [
+              120.58973550796509,
+              24.183441508267578
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-10T12:30:00.000Z",
+        "duration (text)": "05/10 20:30",
+        "end": "2021-05-10T13:30:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u6771\u6d77\u5546\u5708 (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Donghai Shopping District (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.58486327528952,
+              24.18185963291857
+            ],
+            [
+              120.58477208018303,
+              24.18170425817999
+            ],
+            [
+              120.58473587036133,
+              24.18154643640143
+            ],
+            [
+              120.58496922254561,
+              24.18146079659495
+            ],
+            [
+              120.58508321642876,
+              24.181820483395974
+            ],
+            [
+              120.58486327528952,
+              24.18185963291857
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u81fa\u4e2d\u5e02\u9f8d\u4e95\u5340\u65b0\u8208\u8def87\u865f",
+        "address_en": "No. 87, Xinxing Road, Longjing District, Taichung City",
+        "begin": "2021-05-11T12:30:00.000Z",
+        "duration (text)": "05/11 20:30",
+        "end": "2021-05-11T13:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.18173001808195,
+        "longtitude": 120.5848299714666,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3Pxmart \u53f0\u4e2d\u6771\u6d77\u5e97",
+        "name_en": "PX Mart TaiChung DongHai"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.58563709259033,
+              24.185868725114922
+            ],
+            [
+              120.58355569839476,
+              24.187023594336964
+            ],
+            [
+              120.57814836502075,
+              24.18216915840872
+            ],
+            [
+              120.57671070098876,
+              24.177373264136342
+            ],
+            [
+              120.58181762695311,
+              24.175748491735106
+            ],
+            [
+              120.58291196823119,
+              24.172596765815683
+            ],
+            [
+              120.590443611145,
+              24.17527867417358
+            ],
+            [
+              120.59357643127441,
+              24.18087722095464
+            ],
+            [
+              120.5928683280945,
+              24.183363210181103
+            ],
+            [
+              120.58563709259033,
+              24.185868725114922
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-12T12:30:00.000Z",
+        "duration (text)": "05/12 20:30",
+        "end": "2021-05-12T13:00:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u6771\u6d77\u5546\u5708 (\u7d0410\u5206\u9418) (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Donghai Shopping District (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.58563709259033,
+              24.185868725114922
+            ],
+            [
+              120.58355569839476,
+              24.187023594336964
+            ],
+            [
+              120.57814836502075,
+              24.18216915840872
+            ],
+            [
+              120.57671070098876,
+              24.177373264136342
+            ],
+            [
+              120.58181762695311,
+              24.175748491735106
+            ],
+            [
+              120.58291196823119,
+              24.172596765815683
+            ],
+            [
+              120.590443611145,
+              24.17527867417358
+            ],
+            [
+              120.59357643127441,
+              24.18087722095464
+            ],
+            [
+              120.5928683280945,
+              24.183363210181103
+            ],
+            [
+              120.58563709259033,
+              24.185868725114922
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2021-05-13T12:30:00.000Z",
+        "duration (text)": "05/13 20:30",
+        "end": "2021-05-13T13:00:00.000Z",
+        "investigating": false,
+        "latitude": "",
+        "longtitude": "",
+        "name": "\u6771\u6d77\u5546\u5708 (\u7d0410\u5206\u9418) (\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Donghai Shopping District (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.040049196319,
           24.8084971849375
         ],
@@ -1161,995 +5048,6 @@
         "longtitude": 121.77402491001466,
         "name": "7-11\u8056\u660c\u9580\u5e02",
         "name_en": "7-Eleven\u00a0Shengchang store"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.54247998657752,
-          24.07149998660735
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u5e02\u4e2d\u5c71\u8def\u4e8c\u6bb5237\u865f",
-        "address_en": "No. 237, Section 2, Zhongshan Road, Changhua City",
-        "begin": "2021-05-08T10:00:00.000Z",
-        "duration (text)": "5\u67088\u65e5 18:00-21:00",
-        "end": "2021-05-08T13:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.07149998660735,
-        "longtitude": 120.54247998657752,
-        "name": "\u4e0b\u5348\u8336\u7f8e\u98df\u5c0f\u9928",
-        "name_en": "Local Restaurant"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.48275004163514,
-          23.96135000230808
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u6e56\u6771\u91cc\u8208\u5b78\u885775\u865f",
-        "address_en": "No. 75, Xingxue Street, Hudong Li, Xihu Town, Changhua County",
-        "begin": "2021-05-09T11:00:00.000Z",
-        "duration (text)": "5\u67089\u65e5 19:00-21:00",
-        "end": "2021-05-09T13:00:00.000Z",
-        "investigating": false,
-        "latitude": 23.96135000230808,
-        "longtitude": 120.48275004163514,
-        "name": "\u6eaa\u6e56\u9955\u5ba2\u71d2\u70e4\u706b\u934b",
-        "name_en": "Xihu Gourmet BBQ Hot Pot"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.5873700234049,
-          23.863439985487346
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u7530\u4e2d\u93ae\u798f\u5b89\u8def285\u865f",
-        "address_en": "No. 285, Fu'an Road, Tianzhong Town, Changhua County",
-        "begin": "2021-05-10T10:00:00.000Z",
-        "duration (text)": "5\u670810\u65e5 18:00-19:00",
-        "end": "2021-05-10T11:00:00.000Z",
-        "investigating": false,
-        "latitude": 23.863439985487346,
-        "longtitude": 120.5873700234049,
-        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3Pxmart\u7530\u4e2d\u65b0\u798f",
-        "name_en": "PX Mart Tianzhong XinFu"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.54283907540145,
-          23.956967606299756
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u57d4\u5fc3\u9109\u5fe0\u7fa9\u5317\u8def\u81e8140\u865f",
-        "address_en": "No. 140 Lin, Zhongyi North Road, Puxin Township, Changhua County",
-        "begin": "2021-05-10T11:00:00.000Z",
-        "duration (text)": "5\u670810\u65e5 19:00-21:00",
-        "end": "2021-05-10T13:00:00.000Z",
-        "investigating": false,
-        "latitude": 23.956967606299756,
-        "longtitude": 120.54283907540145,
-        "name": "\u57d4\u5fc3\u591c\u5e97\u71d2\u70e4",
-        "name_en": "BBQ Restaraunts in PuXin"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.4856999686387,
-          23.957419979366207
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u6eaa\u6e56\u93ae\u6e56\u6771\u91cc\u9577\u9752\u885722\u865f",
-        "address_en": "No. 22, Changqing Street, Hudong Lane, Xihu Town, Changhua County",
-        "begin": "2021-05-11T21:00:00.000Z",
-        "duration (text)": "5\u670812\u65e5 05:00-05:30",
-        "end": "2021-05-11T21:30:00.000Z",
-        "investigating": false,
-        "latitude": 23.957419979366207,
-        "longtitude": 120.4856999686387,
-        "name": "\u6eaa\u6e56\u93ae\u679c\u83dc\u5e02\u5834",
-        "name_en": "Local Market in Xihu"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.41212999281106,
-          24.02721998469309
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5ec8\u7c98\u6751\u6cbf\u6d77\u8def\u4e09\u6bb588\u865f",
-        "address_en": "No. 88, Section 3, Haitian Road, Xia Nien Village, Fuxing Township, Changhua County",
-        "begin": "2021-05-12T04:00:00.000Z",
-        "duration (text)": "5\u670812\u65e5 12:00-12:30",
-        "end": "2021-05-12T04:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.02721998469309,
-        "longtitude": 120.41212999281106,
-        "name": "\u798f\u6a02\u4f73\u5927\u8ce3\u5834",
-        "name_en": "FuLeJia Supermarket"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.41212999281106,
-          24.02721998469309
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u798f\u8208\u9109\u5ec8\u7c98\u6751\u6cbf\u6d77\u8def\u4e09\u6bb588\u865f",
-        "address_en": "No. 88, Section 3, Haitian Road, Xia Nien Village, Fuxing Township, Changhua County",
-        "begin": "2021-05-13T04:00:00.000Z",
-        "duration (text)": "5\u670813\u65e5 12:00-12:30",
-        "end": "2021-05-13T04:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.02721998469309,
-        "longtitude": 120.41212999281106,
-        "name": "\u798f\u6a02\u4f73\u5927\u8ce3\u5834",
-        "name_en": "FuLeJia Supermarket"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.435060030052,
-          24.05726998767689
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u7e23\u9e7f\u6e2f\u93ae\u6c11\u6b0a\u8def168\u865f",
-        "address_en": "No. 168, Minquan Road, Lugang Township, Changhua County",
-        "begin": "2021-05-14T00:00:00.000Z",
-        "duration (text)": "5\u670814\u65e5 08:00-10:00",
-        "end": "2021-05-14T02:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.05726998767689,
-        "longtitude": 120.435060030052,
-        "name": "\u9e7f\u6e2f\u93ae\u516c\u6240",
-        "name_en": "Lukang Township Office"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.40129325991019,
-          24.019767253951834
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u54e1\u6797\u5ba2\u904b\u798f\u8208\u9ea5\u539d\u7ad9",
-        "address_en": "Yuanlin Bus Fuxing Maicuo Station",
-        "begin": "2021-05-14T02:00:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:00-10:10",
-        "end": "2021-05-14T02:10:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
-        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              120.40089726448058,
-              24.020026984024913
-            ],
-            [
-              120.40125668048857,
-              24.019517395831105
-            ],
-            [
-              120.40158927440645,
-              24.019747690745742
-            ],
-            [
-              120.40135324001312,
-              24.020129881395867
-            ],
-            [
-              120.40089726448058,
-              24.020026984024913
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "address": "\u54e1\u6797\u5ba2\u904b\u798f\u8208\u9ea5\u539d\u7ad9",
-        "address_en": "Yuanlin Bus Fuxing Maicuo Station",
-        "begin": "2021-05-14T02:00:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:00-10:10",
-        "end": "2021-05-14T02:10:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
-        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.43652299745385,
-          24.05148933693004
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u54e1\u6797\u5ba2\u904b\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9",
-        "address_en": "Yuanlin Passenger Transport Lukang Dingtaixing Station",
-        "begin": "2021-05-14T02:00:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:00-10:10",
-        "end": "2021-05-14T02:10:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
-        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              120.43641641736032,
-              24.051537290331098
-            ],
-            [
-              120.43644525110722,
-              24.051198056630295
-            ],
-            [
-              120.4367744922638,
-              24.051223162404206
-            ],
-            [
-              120.43672017753123,
-              24.051549537018335
-            ],
-            [
-              120.43641641736032,
-              24.051537290331098
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "address": "\u54e1\u6797\u5ba2\u904b\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9",
-        "address_en": "Yuanlin Passenger Transport Lukang Dingtaixing Station",
-        "begin": "2021-05-14T02:00:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:00-10:10",
-        "end": "2021-05-14T02:10:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u54e1\u6797\u5ba2\u904b(FAE-578) (\u798f\u8208\u9ea5\u539d\u7ad9\u81f3\u9e7f\u6e2f\u9f0e\u6cf0\u8208\u7ad9)",
-        "name_en": "BUS (from Fuxing Maicuo Station to Lugang Dingtaixing Station)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.43534000000011,
-          24.05678000000006
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u5ba2\u904b\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9",
-        "address_en": "Changhua Passenger Transport Lukang Town Office Station",
-        "begin": "2021-05-14T02:57:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:57-11:24",
-        "end": "2021-05-14T03:24:00.000Z",
-        "investigating": false,
-        "latitude": 24.05678000000006,
-        "longtitude": "",
-        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
-        "name_en": "BUS from Lukang Town Office to Luji Hospital)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              120.43506659567356,
-              24.056728556327034
-            ],
-            [
-              120.43519198894501,
-              24.056620177477253
-            ],
-            [
-              120.43542467057704,
-              24.056772642612614
-            ],
-            [
-              120.43534219264983,
-              24.05691347370123
-            ],
-            [
-              120.43506659567356,
-              24.056728556327034
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u5ba2\u904b\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9",
-        "address_en": "Changhua Passenger Transport Lukang Town Office Station",
-        "begin": "2021-05-14T02:57:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:57-11:24",
-        "end": "2021-05-14T03:24:00.000Z",
-        "fill": "#555555",
-        "fill-opacity": 0.5,
-        "investigating": false,
-        "latitude": 24.05678000000006,
-        "longtitude": "",
-        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
-        "name_en": "BUS from Lukang Town Office to Luji Hospital)",
-        "stroke": "#555555",
-        "stroke-opacity": 1,
-        "stroke-width": 2
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.54412866598372,
-          24.07106068372769
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u5ba2\u904b\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9",
-        "address_en": "Changhua Passenger Transport Changhua Christian Hospital Station",
-        "begin": "2021-05-14T02:57:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:57-11:24",
-        "end": "2021-05-14T03:24:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
-        "name_en": "BUS from Lukang Town Office to Luji Hospital)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              120.54281830787657,
-              24.072273543799863
-            ],
-            [
-              120.54229795932768,
-              24.070975598092637
-            ],
-            [
-              120.54464757442476,
-              24.070823762076284
-            ],
-            [
-              120.5451089143753,
-              24.07109314843346
-            ],
-            [
-              120.54504454135893,
-              24.07211681143063
-            ],
-            [
-              120.54281830787657,
-              24.072273543799863
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "address": "\u5f70\u5316\u5ba2\u904b\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9",
-        "address_en": "Changhua Passenger Transport Changhua Christian Hospital Station",
-        "begin": "2021-05-14T02:57:00.000Z",
-        "duration (text)": "5\u670814\u65e5 10:57-11:24",
-        "end": "2021-05-14T03:24:00.000Z",
-        "investigating": false,
-        "latitude": "",
-        "longtitude": "",
-        "name": "\u5f70\u5316\u5ba2\u904b(593-FX) (\u9e7f\u6e2f\u93ae\u516c\u6240\u7ad9\u81f3\u5f70\u5316\u57fa\u7763\u6559\u91ab\u9662\u7ad9)",
-        "name_en": "BUS from Lukang Town Office to Luji Hospital)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.555093490675,
-          24.0231586697069
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
-        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
-        "begin": "2021-05-08T03:00:00.000Z",
-        "duration (text)": "5\u67088\u65e5 \u4e2d\u5348",
-        "end": "2021-05-08T06:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.0231586697069,
-        "longtitude": 120.555093490675,
-        "name": "\u5f70\u5316\u82b1\u58c7\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
-        "name_en": "CK Lee Garden"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          [
-            [
-              120.55416405200958,
-              24.023324558798414
-            ],
-            [
-              120.55428206920624,
-              24.02235930421065
-            ],
-            [
-              120.55556952953339,
-              24.023167766668074
-            ],
-            [
-              120.55452346801758,
-              24.023721438023664
-            ],
-            [
-              120.55416405200958,
-              24.023324558798414
-            ]
-          ]
-        ],
-        "type": "Polygon"
-      },
-      "properties": {
-        "address": "503\u5f70\u5316\u7e23\u82b1\u58c7\u9109\u82b1\u5357\u8def33\u865f",
-        "address_en": "No. 33\u865f, Huanan Rd, Huatan Township, Changhua County, 503",
-        "begin": "2021-05-08T03:00:00.000Z",
-        "duration (text)": "5\u67088\u65e5 \u4e2d\u5348",
-        "end": "2021-05-08T06:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.0231586697069,
-        "longtitude": 120.555093490675,
-        "name": "\u5f70\u5316\u82b1\u58c7\u5168\u570b\u9e97\u5712\u5927\u98ef\u5e97",
-        "name_en": "CK Lee Garden"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-08T21:00:00.000Z",
-        "duration (text)": "5/9 5:00",
-        "end": "2021-05-08T22:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.71352001312817,
-          24.167620006095447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
-        "begin": "2021-05-08T22:00:00.000Z",
-        "duration (text)": "5/9 6:00-12:00",
-        "end": "2021-05-09T04:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.72745336756367,
-          24.166711670204283
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
-        "address_en": "Jingxian Road, Beitun District, Taichung City",
-        "begin": "2021-05-08T22:00:00.000Z",
-        "duration (text)": "5/9 6:00-12:00",
-        "end": "2021-05-09T04:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.166711670204283,
-        "longtitude": 120.72745336756367,
-        "name": "\u666f\u8ce2\u516c\u5712",
-        "name_en": "Jingxian Park"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69915996896998,
-          24.096570007547996
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
-        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
-        "begin": "2021-05-09T08:50:00.000Z",
-        "duration (text)": "5/9 16:50",
-        "end": "2021-05-09T09:50:00.000Z",
-        "investigating": false,
-        "latitude": 24.096570007547996,
-        "longtitude": 120.69915996896998,
-        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
-        "name_en": "BaiQiao Supermarket (with mask)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-09T22:00:00.000Z",
-        "duration (text)": "5/10 6:00",
-        "end": "2021-05-09T23:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.71352001312817,
-          24.167620006095447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
-        "begin": "2021-05-10T00:00:00.000Z",
-        "duration (text)": "5/10 8:00",
-        "end": "2021-05-10T01:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.72745336756367,
-          24.166711670204283
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
-        "address_en": "Jingxian Road, Beitun District, Taichung City",
-        "begin": "2021-05-10T00:00:00.000Z",
-        "duration (text)": "5/10 8:00",
-        "end": "2021-05-10T01:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.166711670204283,
-        "longtitude": 120.72745336756367,
-        "name": "\u666f\u8ce2\u516c\u5712",
-        "name_en": "Jingxian Park"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.70363171938169,
-          24.092364154868182
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
-        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
-        "begin": "2021-05-10T04:00:00.000Z",
-        "duration (text)": "5/10 12:00",
-        "end": "2021-05-10T05:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.092364154868182,
-        "longtitude": 120.70363171938169,
-        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-10T22:00:00.000Z",
-        "duration (text)": "5/11 6:00",
-        "end": "2021-05-10T23:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.70363171938169,
-          24.092364154868182
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
-        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
-        "begin": "2021-05-11T04:00:00.000Z",
-        "duration (text)": "5/11 12:00",
-        "end": "2021-05-11T05:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.092364154868182,
-        "longtitude": 120.70363171938169,
-        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69881143327518,
-          24.096494913544205
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def565\u865f",
-        "address_en": "No. 565, Renhua Road, Dali District, Taichung City",
-        "begin": "2021-05-11T08:00:00.000Z",
-        "duration (text)": "5/11 16:00-17:00",
-        "end": "2021-05-11T09:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.096494913544205,
-        "longtitude": 120.69881143327518,
-        "name": "\u4ec1\u5316\u9ec3\u660f\u5e02\u5834(\u6234\u53e3\u7f69)",
-        "name_en": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69915996896998,
-          24.096570007547996
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
-        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
-        "begin": "2021-05-11T08:00:00.000Z",
-        "duration (text)": "5/11 16:00-17:00",
-        "end": "2021-05-11T09:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.096570007547996,
-        "longtitude": 120.69915996896998,
-        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
-        "name_en": "BaiQiao Supermarket (with mask)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-11T22:00:00.000Z",
-        "duration (text)": "5/12 6:00",
-        "end": "2021-05-11T23:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.71352001312817,
-          24.167620006095447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
-        "begin": "2021-05-12T00:00:00.000Z",
-        "duration (text)": "5/12 8:00-12:00",
-        "end": "2021-05-12T04:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.72745336756367,
-          24.166711670204283
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
-        "address_en": "Jingxian Road, Beitun District, Taichung City",
-        "begin": "2021-05-12T00:00:00.000Z",
-        "duration (text)": "5/12 8:00-12:00",
-        "end": "2021-05-12T04:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.166711670204283,
-        "longtitude": 120.72745336756367,
-        "name": "\u666f\u8ce2\u516c\u5712",
-        "name_en": "Jingxian Park"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-12T22:00:00.000Z",
-        "duration (text)": "5/13 6:00",
-        "end": "2021-05-12T23:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.71352001312817,
-          24.167620006095447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
-        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
-        "begin": "2021-05-13T00:00:00.000Z",
-        "duration (text)": "5/13 8:00-8:30",
-        "end": "2021-05-13T00:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.167620006095447,
-        "longtitude": 120.71352001312817,
-        "name": "\u798f\u9686\u5bae",
-        "name_en": "Fulong Temple"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.72745336756367,
-          24.166711670204283
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
-        "address_en": "Jingxian Road, Beitun District, Taichung City",
-        "begin": "2021-05-13T00:00:00.000Z",
-        "duration (text)": "5/13 8:00-8:30",
-        "end": "2021-05-13T00:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.166711670204283,
-        "longtitude": 120.72745336756367,
-        "name": "\u666f\u8ce2\u516c\u5712",
-        "name_en": "Jingxian Park"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.70363171938169,
-          24.092364154868182
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
-        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
-        "begin": "2021-05-13T04:00:00.000Z",
-        "duration (text)": "5/13 12:00",
-        "end": "2021-05-13T05:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.092364154868182,
-        "longtitude": 120.70363171938169,
-        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.70363171938169,
-          24.092364154868182
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
-        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
-        "begin": "2021-05-14T03:30:00.000Z",
-        "duration (text)": "5/14 11:30",
-        "end": "2021-05-14T04:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.092364154868182,
-        "longtitude": 120.70363171938169,
-        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.69858999955403,
-          24.089569986839578
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
-        "address_en": "785 Tucheng Road, Dali District, Taichung City",
-        "begin": "2021-05-14T23:00:00.000Z",
-        "duration (text)": "5/15 7:00",
-        "end": "2021-05-15T00:00:00.000Z",
-        "investigating": false,
-        "latitude": 24.089569986839578,
-        "longtitude": 120.69858999955403,
-        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": "Yonghe Soy Milk (with mask, take out)"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.70363171938169,
-          24.092364154868182
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
-        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
-        "begin": "2021-05-15T04:30:00.000Z",
-        "duration (text)": "5/15 12:30",
-        "end": "2021-05-15T05:30:00.000Z",
-        "investigating": false,
-        "latitude": 24.092364154868182,
-        "longtitude": 120.70363171938169,
-        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
-        "name_en": ""
       },
       "type": "Feature"
     },
@@ -5133,6 +8031,490 @@
         "longtitude": 121.5576700314682,
         "name": "\u5df4\u96f7\u5df4\u96f7\u5370\u5ea6\u9910\u5ef3",
         "name_en": "Balle Balle Indian Restaurant & Bar"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-08T21:00:00.000Z",
+        "duration (text)": "5/9 5:00",
+        "end": "2021-05-08T22:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-08T22:00:00.000Z",
+        "duration (text)": "5/9 6:00-12:00",
+        "end": "2021-05-09T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.72745336756367,
+          24.166711670204283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
+        "address_en": "Jingxian Road, Beitun District, Taichung City",
+        "begin": "2021-05-08T22:00:00.000Z",
+        "duration (text)": "5/9 6:00-12:00",
+        "end": "2021-05-09T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.166711670204283,
+        "longtitude": 120.72745336756367,
+        "name": "\u666f\u8ce2\u516c\u5712",
+        "name_en": "Jingxian Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69915996896998,
+          24.096570007547996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
+        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-09T08:50:00.000Z",
+        "duration (text)": "5/9 16:50",
+        "end": "2021-05-09T09:50:00.000Z",
+        "investigating": false,
+        "latitude": 24.096570007547996,
+        "longtitude": 120.69915996896998,
+        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
+        "name_en": "BaiQiao Supermarket (with mask)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-09T22:00:00.000Z",
+        "duration (text)": "5/10 6:00",
+        "end": "2021-05-09T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-10T00:00:00.000Z",
+        "duration (text)": "5/10 8:00",
+        "end": "2021-05-10T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.72745336756367,
+          24.166711670204283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
+        "address_en": "Jingxian Road, Beitun District, Taichung City",
+        "begin": "2021-05-10T00:00:00.000Z",
+        "duration (text)": "5/10 8:00",
+        "end": "2021-05-10T01:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.166711670204283,
+        "longtitude": 120.72745336756367,
+        "name": "\u666f\u8ce2\u516c\u5712",
+        "name_en": "Jingxian Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-10T04:00:00.000Z",
+        "duration (text)": "5/10 12:00",
+        "end": "2021-05-10T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-10T22:00:00.000Z",
+        "duration (text)": "5/11 6:00",
+        "end": "2021-05-10T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-11T04:00:00.000Z",
+        "duration (text)": "5/11 12:00",
+        "end": "2021-05-11T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69881143327518,
+          24.096494913544205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def565\u865f",
+        "address_en": "No. 565, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-11T08:00:00.000Z",
+        "duration (text)": "5/11 16:00-17:00",
+        "end": "2021-05-11T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.096494913544205,
+        "longtitude": 120.69881143327518,
+        "name": "\u4ec1\u5316\u9ec3\u660f\u5e02\u5834(\u6234\u53e3\u7f69)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69915996896998,
+          24.096570007547996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def628\u865f",
+        "address_en": "No. 628, Renhua Road, Dali District, Taichung City",
+        "begin": "2021-05-11T08:00:00.000Z",
+        "duration (text)": "5/11 16:00-17:00",
+        "end": "2021-05-11T09:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.096570007547996,
+        "longtitude": 120.69915996896998,
+        "name": "\u60e0\u5584(\u767e\u6a4b)\u8d85\u5e02(\u6234\u53e3\u7f69)",
+        "name_en": "BaiQiao Supermarket (with mask)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-11T22:00:00.000Z",
+        "duration (text)": "5/12 6:00",
+        "end": "2021-05-11T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-12T00:00:00.000Z",
+        "duration (text)": "5/12 8:00-12:00",
+        "end": "2021-05-12T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.72745336756367,
+          24.166711670204283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
+        "address_en": "Jingxian Road, Beitun District, Taichung City",
+        "begin": "2021-05-12T00:00:00.000Z",
+        "duration (text)": "5/12 8:00-12:00",
+        "end": "2021-05-12T04:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.166711670204283,
+        "longtitude": 120.72745336756367,
+        "name": "\u666f\u8ce2\u516c\u5712",
+        "name_en": "Jingxian Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-12T22:00:00.000Z",
+        "duration (text)": "5/13 6:00",
+        "end": "2021-05-12T23:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.71352001312817,
+          24.167620006095447
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u548c\u8857130\u865f",
+        "address_en": "No. 130, Jinghe Street, Beitun District, Taichung City",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "5/13 8:00-8:30",
+        "end": "2021-05-13T00:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.167620006095447,
+        "longtitude": 120.71352001312817,
+        "name": "\u798f\u9686\u5bae",
+        "name_en": "Fulong Temple"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.72745336756367,
+          24.166711670204283
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u666f\u8ce2\u8def",
+        "address_en": "Jingxian Road, Beitun District, Taichung City",
+        "begin": "2021-05-13T00:00:00.000Z",
+        "duration (text)": "5/13 8:00-8:30",
+        "end": "2021-05-13T00:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.166711670204283,
+        "longtitude": 120.72745336756367,
+        "name": "\u666f\u8ce2\u516c\u5712",
+        "name_en": "Jingxian Park"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-13T04:00:00.000Z",
+        "duration (text)": "5/13 12:00",
+        "end": "2021-05-13T05:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-14T03:30:00.000Z",
+        "duration (text)": "5/14 11:30",
+        "end": "2021-05-14T04:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.69858999955403,
+          24.089569986839578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u5857\u57ce\u8def785\u865f",
+        "address_en": "785 Tucheng Road, Dali District, Taichung City",
+        "begin": "2021-05-14T23:00:00.000Z",
+        "duration (text)": "5/15 7:00",
+        "end": "2021-05-15T00:00:00.000Z",
+        "investigating": false,
+        "latitude": 24.089569986839578,
+        "longtitude": 120.69858999955403,
+        "name": "\u6c38\u548c\u8c46\u6f3f(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": "Yonghe Soy Milk (with mask, take out)"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.70363171938169,
+          24.092364154868182
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u6210\u529f\u4e8c\u8def10\u865f",
+        "address_en": "No. 10, Chenggong 2nd Road, Dali District, Taichung City",
+        "begin": "2021-05-15T04:30:00.000Z",
+        "duration (text)": "5/15 12:30",
+        "end": "2021-05-15T05:30:00.000Z",
+        "investigating": false,
+        "latitude": 24.092364154868182,
+        "longtitude": 120.70363171938169,
+        "name": "\u5713\u901a\u81ea\u52a9\u9910(\u6234\u53e3\u7f69\u3001\u5916\u5e36)",
+        "name_en": ""
       },
       "type": "Feature"
     }
