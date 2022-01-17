@@ -9,10 +9,10 @@
     },
     {
       "__comment": "Taiwan g0v Dataset",
-      "desc": "台灣 g0v 資料集 (Taiwan g0v Dataset)",
+      "desc": "台灣 g0v 資料集 兩月內資料 (Taiwan g0v Dataset of last 2 months)",
       "meta": "countries/taiwan/taiwan-g0v-dataset-meta.json",
       "path": "countries/taiwan/taiwan-g0v-dataset-output.json",
-      "src": "https://pse.is/3gprqa"
+      "src": "https://tinyurl.com/taiwan-g0v-covid-19-traces"
     }
   ]
 }
