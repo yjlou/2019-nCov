@@ -3,6 +3,256 @@
     {
       "geometry": {
         "coordinates": [
+          121.515588814872,
+          25.0291375105968
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-16T00:22:00.000Z",
+        "description": "\u81fa\u5317\u5ba2\u904b243\u8def\u516c\u8eca \u5be7\u6ce2\u91cd\u6176\u8def\u53e3\u7ad9\u81f3\u81fa\u5317\u6cd5\u9662\u7ad9",
+        "duration (text)": "2022/01/16 08:22-08:25",
+        "end": "2022-01-16T00:25:00.000Z",
+        "latitude": 25.0291375105968,
+        "longitude": 121.515588814872,
+        "name": "\u5be7\u6ce2\u91cd\u6176\u8def\u53e3\u7ad9 (\u81fa\u5317\u5ba2\u904b243\u8def\u516c\u8eca)",
+        "name_en": "Ningbo Chongqing Road Station (Taipei Bus No. 243)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.511451777388,
+          25.035861443142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-16T00:22:00.000Z",
+        "description": "\u81fa\u5317\u5ba2\u904b243\u8def\u516c\u8eca \u5be7\u6ce2\u91cd\u6176\u8def\u53e3\u7ad9\u81f3\u81fa\u5317\u6cd5\u9662\u7ad9",
+        "duration (text)": "2022/01/16 08:22-08:25",
+        "end": "2022-01-16T00:25:00.000Z",
+        "latitude": 25.035861443142,
+        "longitude": 121.511451777388,
+        "name": "\u81fa\u5317\u6cd5\u9662\u7ad9 (\u81fa\u5317\u5ba2\u904b243\u8def\u516c\u8eca)",
+        "name_en": "Taipei Court Station (Taipei Passenger Bus No. 243)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508905140299,
+          25.0400806576189
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u9577\u6c99\u8857\u4e00\u6bb520\u865f",
+        "address_en": "No. 20, Section 1, Changsha Street, Zhongzheng District, Taipei City",
+        "begin": "2022-01-16T00:32:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 08:32-08:35",
+        "end": "2022-01-16T00:35:00.000Z",
+        "latitude": 25.0400806576189,
+        "longitude": 121.508905140299,
+        "name": "\u7d71\u4e00\u8d85\u5546-\u82f1\u96c4\u9928",
+        "name_en": "Uni-President Supermarket-Hero Hall",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.509139654541,
+          25.0415220026189
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u865f",
+        "address_en": "No. 32, Baoqing Road, Zhongzheng District, Taipei City",
+        "begin": "2022-01-16T10:11:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 18:11-20:30",
+        "end": "2022-01-16T12:30:00.000Z",
+        "latitude": 25.0415220026189,
+        "longitude": 121.509139654541,
+        "name": "\u9060\u6771\u767e\u8ca8 \u53f0\u5317\u5bf6\u6176\u5e97\u4e00\u6a13",
+        "name_en": "Far Eastern Department Store Taipei Baoqing Store, 1st Floor",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508967606406,
+          25.0414665829439
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u865f1\u6a13",
+        "address_en": "1st Floor, No. 32, Baoqing Road, Zhongzheng District, Taipei City",
+        "begin": "2022-01-16T10:11:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 18:11-20:30",
+        "end": "2022-01-16T12:30:00.000Z",
+        "latitude": 25.0414665829439,
+        "longitude": 121.508967606406,
+        "name": "Skylark\u6d0b\u98df\u2027\u82b3\u9130 \u5bf6\u6176\u9060\u767e\u5e97",
+        "name_en": "Skylark Western Food\u2027Friendly Neighborhood Baoqing Yuanbai Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.518966039196,
+          25.0367623011122
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u4e2d\u5c71\u5357\u8def21\u4e4b1\u865f",
+        "address_en": "No. 21-1, Zhongshan South Road, Zhongzheng District, Taipei City",
+        "begin": "2022-01-17T08:34:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 16:34-18:00",
+        "end": "2022-01-17T10:00:00.000Z",
+        "latitude": 25.0367623011122,
+        "longitude": 121.518966039196,
+        "name": "\u6625\u6c34\u5802\u4e2d\u6b63\u5e97",
+        "name_en": "Chunshuitang Zhongzheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18182",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=6AF227C5489B92D8"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.52715080654,
+          25.1432277544507
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-19T00:28:00.000Z",
+        "description": "\u4e09\u91cd\u5ba2\u904b508\u8def\u516c\u8eca \u60c7\u6558\u5de5\u5546\u7ad9-\u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9",
+        "duration (text)": "2022/01/19 8:28-8:56",
+        "end": "2022-01-19T00:56:00.000Z",
+        "latitude": 25.1432277544507,
+        "longitude": 121.52715080654,
+        "name": "\u60c7\u6558\u5de5\u5546\u7ad9 (\u4e09\u91cd\u5ba2\u904b508\u8def\u516c\u8eca)",
+        "name_en": "Dunxu Industrial and Commercial Station (Sanchong Passenger Transport No. 508)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18181",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=4983D361DF01C72B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.52228356654,
+          25.100824095026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-19T00:28:00.000Z",
+        "description": "\u4e09\u91cd\u5ba2\u904b508\u8def\u516c\u8eca \u60c7\u6558\u5de5\u5546\u7ad9-\u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9",
+        "duration (text)": "2022/01/19 8:28-8:56",
+        "end": "2022-01-19T00:56:00.000Z",
+        "latitude": 25.100824095026,
+        "longitude": 121.52228356654,
+        "name": "\u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9 (\u4e09\u91cd\u5ba2\u904b508\u8def\u516c\u8eca)",
+        "name_en": "MRT Zhishan Station 1 stop (Sanchong Passenger Transport No. 508)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18181",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=4983D361DF01C72B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.522300929569,
+          25.1008486146745
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-19T01:04:00.000Z",
+        "description": "\u81fa\u5317\u5ba2\u904b310\u8def\u516c\u8eca \u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9-\u4e2d\u5c71\u5e02\u5834\u7ad9",
+        "duration (text)": "2022/01/19 9:04-9:27",
+        "end": "2022-01-19T01:27:00.000Z",
+        "latitude": 25.1008486146745,
+        "longitude": 121.522300929569,
+        "name": "\u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9 (\u81fa\u5317\u5ba2\u904b310\u8def\u516c\u8eca)",
+        "name_en": "MRT Zhishan Station 1 stop (Taipei Bus No. 310)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18181",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=4983D361DF01C72B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.522110575567,
+          25.0513059784706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-01-19T01:04:00.000Z",
+        "description": "\u81fa\u5317\u5ba2\u904b310\u8def\u516c\u8eca \u6377\u904b\u829d\u5c71\u7ad9\u4e00\u7ad9-\u4e2d\u5c71\u5e02\u5834\u7ad9",
+        "duration (text)": "2022/01/19 9:04-9:27",
+        "end": "2022-01-19T01:27:00.000Z",
+        "latitude": 25.0513059784706,
+        "longitude": 121.522110575567,
+        "name": "\u4e2d\u5c71\u5e02\u5834\u7ad9 (\u81fa\u5317\u5ba2\u904b310\u8def\u516c\u8eca)",
+        "name_en": "Zhongshan Market Station (Taipei Bus No. 310)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18181",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=4983D361DF01C72B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.513532011886,
           25.0710950707637
         ],
@@ -3993,6 +4243,31 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "16816",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=1FD9C93029E5F786"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.151864916968,
+          22.9918384530876
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u5b89\u5e73\u5340\u57ce\u5e73\u8def1\u865f",
+        "address_en": "No. 1, Chengping Road, Anping District, Tainan City",
+        "begin": "2022-01-16T03:00:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/01/16 11:00-15:00",
+        "end": "2022-01-16T07:00:00.000Z",
+        "latitude": 22.9918384530876,
+        "longitude": 120.151864916968,
+        "name": "\u7384\u994c\u6d77\u9bae\u5bb4\u6703\u9928",
+        "name_en": "Shanjan Banquet",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212(\u9ad8\u96c4\u500b\u6848\uff09",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/taiwanweicher/posts/5117052378346557"
       },
       "type": "Feature"
     },
@@ -8468,6 +8743,406 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17630",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2858845434407518"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.198617636143,
+          25.0657461914913
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u5fe0\u5b5d\u4e09\u885719\u865f",
+        "address_en": "No. 19, Zhongxiao 3rd Street, Dayan District, Taoyuan City",
+        "begin": "2022-01-09T16:00:00.000Z",
+        "description": "(1/10~1/13)",
+        "duration (text)": "2022/01/10 \u4e0a\u5348",
+        "end": "2022-01-10T04:00:00.000Z",
+        "latitude": 25.0657461914913,
+        "longitude": 121.198617636143,
+        "name": "\u5927\u5712\u516c\u6709\u5e02\u5834",
+        "name_en": "Dayuan public market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.198624341665,
+          25.0657486210958
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u5fe0\u5b5d\u4e09\u885719\u865f",
+        "address_en": "No. 19, Zhongxiao 3rd Street, Dayan District, Taoyuan City",
+        "begin": "2022-01-10T16:00:00.000Z",
+        "description": "(1/10~1/13)",
+        "duration (text)": "2022/01/11 \u4e0a\u5348",
+        "end": "2022-01-11T04:00:00.000Z",
+        "latitude": 25.0657486210958,
+        "longitude": 121.198624341665,
+        "name": "\u5927\u5712\u516c\u6709\u5e02\u5834",
+        "name_en": "Dayuan public market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.198624341665,
+          25.0657431544856
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u5fe0\u5b5d\u4e09\u885719\u865f",
+        "address_en": "No. 19, Zhongxiao 3rd Street, Dayan District, Taoyuan City",
+        "begin": "2022-01-11T16:00:00.000Z",
+        "description": "(1/10~1/13)",
+        "duration (text)": "2022/01/12 \u4e0a\u5348",
+        "end": "2022-01-12T04:00:00.000Z",
+        "latitude": 25.0657431544856,
+        "longitude": 121.198624341665,
+        "name": "\u5927\u5712\u516c\u6709\u5e02\u5834",
+        "name_en": "Dayuan public market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.198613612829,
+          25.0657425470845
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u5fe0\u5b5d\u4e09\u885719\u865f",
+        "address_en": "No. 19, Zhongxiao 3rd Street, Dayan District, Taoyuan City",
+        "begin": "2022-01-12T16:00:00.000Z",
+        "description": "(1/10~1/13)",
+        "duration (text)": "2022/01/13 \u4e0a\u5348",
+        "end": "2022-01-13T04:00:00.000Z",
+        "latitude": 25.0657425470845,
+        "longitude": 121.198613612829,
+        "name": "\u5927\u5712\u516c\u6709\u5e02\u5834",
+        "name_en": "Dayuan public market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.224859128213,
+          24.9597343476008
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u5ef6\u5e73\u8def366\u865f",
+        "address_en": "No. 366, Yanping Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-12T06:04:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/12 14:04~14:37",
+        "end": "2022-01-12T06:37:00.000Z",
+        "latitude": 24.9597343476008,
+        "longitude": 121.224859128213,
+        "name": "\u53f0\u65b0\u9280\u884c\u4e2d\u58e2\u5206\u884c",
+        "name_en": "Taishin Bank Chungli Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.232521651646,
+          24.9654312951223
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u798f\u5dde\u4e00\u8857126\u865f",
+        "address_en": "No. 126, Fuzhou 1st Street, Zhongli District, Taoyuan City",
+        "begin": "2022-01-12T07:23:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/12 15:23",
+        "end": "2022-01-12T08:23:00.000Z",
+        "latitude": 24.9654312951223,
+        "longitude": 121.232521651646,
+        "name": "\u5168\u806f\u4e2d\u58e2\u798f\u5dde\u9580\u5e02",
+        "name_en": "Quanlian Zhongli Fuzhou store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.155591798235,
+          24.9640145840092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u6c11\u65cf\u8def\u516d\u6bb5508\u865f",
+        "address_en": "No. 508, Section 6, Minzu Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-13T04:45:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/13 12:45",
+        "end": "2022-01-13T05:45:00.000Z",
+        "latitude": 24.9640145840092,
+        "longitude": 121.155591798235,
+        "name": "Costco\u6843\u5712\u4e2d\u58e2\u5e97",
+        "name_en": "Costco Taoyuan Zhongli Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.300006422887,
+          25.0143483835566
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u6843\u5712\u5340\u540c\u5fb7\u4e94\u885773\u865f10\u6a13(\u4e2d\u8302\u65b0\u5929\u5730)",
+        "address_en": "10th Floor, No. 73, Tongde 5th Street, Taoyuan District, Taoyuan City (Zhongmao Xintiandi)",
+        "begin": "2022-01-13T10:37:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/13 18:37",
+        "end": "2022-01-13T11:37:00.000Z",
+        "latitude": 25.0143483835566,
+        "longitude": 121.300006422887,
+        "name": "XIANG DUCK\u4eab\u9d28\u6843\u5712\u540c\u5fb7\u5e97",
+        "name_en": "XIANG DUCK Xiangya Taoyuan Tongde Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.231769467871,
+          24.9630371131314
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u83ef\u8def\u4e8c\u6bb5518\u865f",
+        "address_en": "No. 518, Section 2, Zhonghua Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-14T08:01:00.000Z",
+        "description": "CQ2\u5feb\u526a-\u4e2d\u83ef\u5e97",
+        "duration (text)": "2022/01/14 16:01",
+        "end": "2022-01-14T09:01:00.000Z",
+        "latitude": 24.9630371131314,
+        "longitude": 121.231769467871,
+        "name": "CQ2\u5feb\u526a\u5c08\u9580\u5e97",
+        "name_en": "CQ2 Quick Cut Specialty Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.233079598235,
+          24.9673963445682
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u798f\u5dde\u4e00\u8857250\u865f",
+        "address_en": "No. 250, Fuzhou 1st Street, Zhongli District, Taoyuan City",
+        "begin": "2022-01-15T08:02:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/15 16:02",
+        "end": "2022-01-15T09:02:00.000Z",
+        "latitude": 24.9673963445682,
+        "longitude": 121.233079598235,
+        "name": "\u5c48\u81e3\u6c0f\u798f\u5dde\u9580\u5e02",
+        "name_en": "Watsons Fuzhou store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.236104875339,
+          24.9679211646963
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u5712\u8def135\u865f",
+        "address_en": "No. 135, Zhongyuan Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-15T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/15 18:00~20:00",
+        "end": "2022-01-15T12:00:00.000Z",
+        "latitude": 24.9679211646963,
+        "longitude": 121.236104875339,
+        "name": "\u934b\u53f0\u9298\u6642\u5c1a\u6e6f\u934b\u4e2d\u5712\u5e97",
+        "name_en": "Guotaiming Fashion Soup Pot Zhongyuan Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.300113147121,
+          24.9624546114121
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u516b\u5fb7\u5340\u4ecb\u58fd\u8def\u4e00\u6bb5793\u865f",
+        "address_en": "No. 793, Section 1, Jieshou Road, Bade District, Taoyuan City",
+        "begin": "2022-01-16T09:31:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 17:31~18:30",
+        "end": "2022-01-16T10:30:00.000Z",
+        "latitude": 24.9624546114121,
+        "longitude": 121.300113147121,
+        "name": "\u9322\u90fd\u65e5\u5f0f\u6dae\u6dae\u934b\u6843\u5712\u516b\u5fb7\u4ecb\u58fd\u5e97",
+        "name_en": "Qiandu Shabu Shabu Taoyuan Bade Jieshou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.236534097013,
+          24.9650419472049
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u5712\u8def20\u865f",
+        "address_en": "No. 20, Zhongyuan Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-17T02:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 10:00",
+        "end": "2022-01-17T03:00:00.000Z",
+        "latitude": 24.9650419472049,
+        "longitude": 121.236534097013,
+        "name": "\u5bcc\u6797\u6f22\u5821\u4e2d\u58e2\u4e2d\u5712\u5e97",
+        "name_en": "Fulin Burger Zhongli Zhongyuan Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.249280077883,
+          24.9686403209298
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u83ef\u8def\u4e00\u6bb5699\u865f",
+        "address_en": "No. 699, Section 1, Zhonghua Road, Zhongli District, Taoyuan City",
+        "begin": "2022-01-17T03:49:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 11:49",
+        "end": "2022-01-17T04:49:00.000Z",
+        "latitude": 24.9686403209298,
+        "longitude": 121.249280077883,
+        "name": "UNIQLO\u4e2d\u58e2\u4e2d\u83ef\u8def\u5e97",
+        "name_en": "UNIQLO Zhongli Zhonghua Road Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.19795412017,
+          25.065133469381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u4e2d\u8208\u885742\u865f",
+        "address_en": "No. 42, Zhongxing Street, Dayuan District, Taoyuan City",
+        "begin": "2022-01-18T16:00:00.000Z",
+        "description": "\u53ea\u80fd\u4ee5\u5730\u5740\u5b9a\u4f4d\uff0cgoogle map\u4e0a\u7121\u5ea7\u6a19",
+        "duration (text)": "2022/01/19 \u65e9\u4e0a",
+        "end": "2022-01-19T04:00:00.000Z",
+        "latitude": 25.065133469381,
+        "longitude": 121.19795412017,
+        "name": "\u5510\u8001\u5927\u65b0\u9bae\u852c\u679c\u884c",
+        "name_en": "Don's Fresh Vegetables and Fruits Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.214819302219,
+          24.9407046542268
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5e73\u93ae\u5340\u74b0\u5357\u8def\u4e8c\u6bb5261\u865f",
+        "address_en": "No. 261, Section 2, South Ring Road, Pingzhen District, Taoyuan City",
+        "begin": "2022-01-19T16:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 \u4e0a\u5348",
+        "end": "2022-01-20T04:00:00.000Z",
+        "latitude": 24.9407046542268,
+        "longitude": 121.214819302219,
+        "name": "\u7279\u529b\u5c4b\u5e73\u93ae\u5e97",
+        "name_en": "Tellywu Pingzhen Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18117, 18154, 18183, 18184",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5096709470340652"
       },
       "type": "Feature"
     },
@@ -20449,6 +21124,708 @@
     {
       "geometry": {
         "coordinates": [
+          120.293281017914,
+          22.5799083859377
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u4e2d\u6d32\u4e8c\u8def156\u865f",
+        "address_en": "No. 156, Zhongzhou 2nd Road, Qijin District, Kaohsiung City",
+        "begin": "2022-01-13T12:11:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/13 20:11-20:30",
+        "end": "2022-01-13T12:30:00.000Z",
+        "latitude": 22.5799083859377,
+        "longitude": 120.293281017914,
+        "name": "\u5927\u6e2f\u8d85\u5e02-\u4e2d\u5dde\u9580\u5e02",
+        "name_en": "Dagang Market - Zhongzhou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.284606801248,
+          22.6060269084458
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f44\u78bc\u982d",
+        "address_en": "Wharf 44, Kaohsiung Port, Cijin District, Kaohsiung City",
+        "begin": "2022-01-13T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/13 09:00-12:00",
+        "end": "2022-01-13T04:00:00.000Z",
+        "latitude": 22.6060269084458,
+        "longitude": 120.284606801248,
+        "name": "\u9ad8\u96c4\u6e2f44\u78bc\u982d",
+        "name_en": "Kaohsiung Port Wharf 44",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.284563885903,
+          22.6060467175187
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f44\u78bc\u982d",
+        "address_en": "Wharf 44, Kaohsiung Port, Cijin District, Kaohsiung City",
+        "begin": "2022-01-14T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/14 09:00-12:00",
+        "end": "2022-01-14T04:00:00.000Z",
+        "latitude": 22.6060467175187,
+        "longitude": 120.284563885903,
+        "name": "\u9ad8\u96c4\u6e2f44\u78bc\u982d",
+        "name_en": "Kaohsiung Port Wharf 44",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.290707611411,
+          22.5873570933758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u5927\u6c55\u982d\u6f01\u6e2f",
+        "address_en": "Dashantou Fishing Port, Cijin District, Kaohsiung City",
+        "begin": "2022-01-16T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 09:00-09:30",
+        "end": "2022-01-16T01:30:00.000Z",
+        "latitude": 22.5873570933758,
+        "longitude": 120.290707611411,
+        "name": "\u5927\u6c55\u982d\u6f01\u6e2f",
+        "name_en": "Dashantou Fishing Port",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.290697553127,
+          22.5873694757257
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u5927\u6c55\u982d\u6f01\u6e2f",
+        "address_en": "Dashantou Fishing Port, Cijin District, Kaohsiung City",
+        "begin": "2022-01-17T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 09:00-09:30",
+        "end": "2022-01-17T01:30:00.000Z",
+        "latitude": 22.5873694757257,
+        "longitude": 120.290697553127,
+        "name": "\u5927\u6c55\u982d\u6f01\u6e2f",
+        "name_en": "Dashantou Fishing Port",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.290710964172,
+          22.587352759553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u5927\u6c55\u982d\u6f01\u6e2f",
+        "address_en": "Dashantou Fishing Port, Cijin District, Kaohsiung City",
+        "begin": "2022-01-18T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/18 09:00-09:30",
+        "end": "2022-01-18T01:30:00.000Z",
+        "latitude": 22.587352759553,
+        "longitude": 120.290710964172,
+        "name": "\u5927\u6c55\u982d\u6f01\u6e2f",
+        "name_en": "Dashantou Fishing Port",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18186",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.300678480049,
+          22.6125034331986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e09\u591a\u56db\u8def95\u865f",
+        "address_en": "No. 95, Sanduo 4th Road, Lingya District, Kaohsiung City",
+        "begin": "2022-01-13T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/13 19:00-19:15",
+        "end": "2022-01-13T11:15:00.000Z",
+        "latitude": 22.6125034331986,
+        "longitude": 120.300678480049,
+        "name": "\u7c73\u5bf6\u4fbf\u7576",
+        "name_en": "Mibao Bento",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18187",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.300691220541,
+          22.6125356214252
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e09\u591a\u56db\u8def95\u865f",
+        "address_en": "No. 95, Sanduo 4th Road, Lingya District, Kaohsiung City",
+        "begin": "2022-01-19T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 18:00-18:15",
+        "end": "2022-01-19T10:15:00.000Z",
+        "latitude": 22.6125356214252,
+        "longitude": 120.300691220541,
+        "name": "\u7c73\u5bf6\u4fbf\u7576",
+        "name_en": "Mibao Bento",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18187",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.308016406269,
+          22.5922017547639
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u524d\u93ae\u8857281\u865f",
+        "address_en": "No. 281, Qianzhen Street, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-15T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/15 12:00-12:15",
+        "end": "2022-01-15T04:15:00.000Z",
+        "latitude": 22.5922017547639,
+        "longitude": 120.308016406269,
+        "name": "\u6e2f\u90fd\u71d2\u81d8",
+        "name_en": "Gangdu Delicatessen",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18187",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.299262811577,
+          22.6120663501873
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e09\u591a\u56db\u8def123\u865f",
+        "address_en": "No. 123, Sanduo 4th Road, Lingya District, Kaohsiung City",
+        "begin": "2022-01-17T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 19:00-21:00",
+        "end": "2022-01-17T13:00:00.000Z",
+        "latitude": 22.6120663501873,
+        "longitude": 120.299262811577,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3-\u9ad8\u96c4\u82d3\u96c5\u4e09\u591a\u5e97",
+        "name_en": "PX Mart Kaohsiung Lingya Sanduo Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18187",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.30793070298,
+          22.5924919924851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u64f4\u5efa\u4e00\u8def1\u4e4b3\u865f",
+        "address_en": "No. 1-3, Extension 1st Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-19T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 12:00-12:15",
+        "end": "2022-01-19T04:15:00.000Z",
+        "latitude": 22.5924919924851,
+        "longitude": 120.30793070298,
+        "name": "\u5ee3\u798f\u571f\u9b60\u9b5a\u7fb9",
+        "name_en": "Guangfu Tuyu Thick Soup",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18187",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.306999867248,
+          22.6136527236741
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u6587\u6a6b\u4e09\u8def59\u865f",
+        "address_en": "No. 59, Wenheng 3rd Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-10T13:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/10 21:00-22:00",
+        "end": "2022-01-10T14:00:00.000Z",
+        "latitude": 22.6136527236741,
+        "longitude": 120.306999867248,
+        "name": "\u5065\u8eab\u5de5\u5ee0-\u4e09\u591a\u5ee0",
+        "name_en": "Fitness Factoray Shandou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.306997855591,
+          22.6136576756681
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u6587\u6a6b\u4e09\u8def59\u865f",
+        "address_en": "No. 59, Wenheng 3rd Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-11T13:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/11 21:00-22:00",
+        "end": "2022-01-11T14:00:00.000Z",
+        "latitude": 22.6136576756681,
+        "longitude": 120.306997855591,
+        "name": "\u5065\u8eab\u5de5\u5ee0-\u4e09\u591a\u5ee0",
+        "name_en": "Fitness Factoray Shandou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.306958963561,
+          22.6136793406396
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u6587\u6a6b\u4e09\u8def59\u865f",
+        "address_en": "No. 59, Wenheng 3rd Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-16T13:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/16 21:00-22:00",
+        "end": "2022-01-16T14:00:00.000Z",
+        "latitude": 22.6136793406396,
+        "longitude": 120.306958963561,
+        "name": "\u5065\u8eab\u5de5\u5ee0-\u4e09\u591a\u5ee0",
+        "name_en": "Fitness Factoray Shandou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.306981762337,
+          22.6136539616726
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u6587\u6a6b\u4e09\u8def59\u865f",
+        "address_en": "No. 59, Wenheng 3rd Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-17T13:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/17 21:00-22:00",
+        "end": "2022-01-17T14:00:00.000Z",
+        "latitude": 22.6136539616726,
+        "longitude": 120.306981762337,
+        "name": "\u5065\u8eab\u5de5\u5ee0-\u4e09\u591a\u5ee0",
+        "name_en": "Fitness Factoray Shandou Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.287265344547,
+          22.6744778976975
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u5357\u5927\u8def4\u865f",
+        "address_en": "No. 4, Nanda Road, Zuoying District, Kaohsiung City",
+        "begin": "2022-01-15T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/15 19:00-21:00",
+        "end": "2022-01-15T13:00:00.000Z",
+        "latitude": 22.6744778976975,
+        "longitude": 120.287265344547,
+        "name": "\u6d77\u5149\u4ff1\u6a02\u90e8\u4e2d\u9910\u5ef3",
+        "name_en": "Haiguang Chinese Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.297526566636,
+          22.574375712689
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u4e2d\u6d32\u4e8c\u8def83\u865f",
+        "address_en": "No. 83, Zhongzhou 2nd Road, Qijin District, Kaohsiung City",
+        "begin": "2022-01-19T23:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 07:40-07:55",
+        "end": "2022-01-19T23:55:00.000Z",
+        "latitude": 22.574375712689,
+        "longitude": 120.297526566636,
+        "name": "7-11\u65b0\u65d7\u8056\u9580\u5e02",
+        "name_en": "7-11 Xinqi Shengmen City",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.272647008964,
+          22.6074783756573
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u4e2d\u6d32\u4e09\u8def579\u865f",
+        "address_en": "No. 579, Zhongzhou 3rd Road, Qijin District, Kaohsiung City",
+        "begin": "2022-01-20T07:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 15:30-15:45",
+        "end": "2022-01-20T07:45:00.000Z",
+        "latitude": 22.6074783756573,
+        "longitude": 120.272647008964,
+        "name": "7-11\u65d7\u6d77\u9580\u5e02",
+        "name_en": "7-11 Qihaimen City",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18212",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.339687895955,
+          22.6009967011399
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u4e94\u7532\u4e8c\u8def242\u865f",
+        "address_en": "No. 242, Wujia 2nd Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-01-15T09:53:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/15 17:53-18:15",
+        "end": "2022-01-15T10:15:00.000Z",
+        "latitude": 22.6009967011399,
+        "longitude": 120.339687895955,
+        "name": "\u516b\u65b9\u96f2\u96c6-\u9cf3\u5c71\u4e94\u7532\u5e97",
+        "name_en": "Gathering in all directions-Fengshan Wujia Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.335051829074,
+          22.6041382590006
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u5d17\u5c71\u5357\u885738\u5df713\u865f",
+        "address_en": "No. 13, Lane 38, Gangshan South Street, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-19T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 12:00-12:15",
+        "end": "2022-01-19T04:15:00.000Z",
+        "latitude": 22.6041382590006,
+        "longitude": 120.335051829074,
+        "name": "\u745e\u8208\u5e02\u5834",
+        "name_en": "Ruixing Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.33554792404173,
+              22.604522551057368
+            ],
+            [
+              120.33499002456664,
+              22.604168459521922
+            ],
+            [
+              120.33478081226347,
+              22.604453218520767
+            ],
+            [
+              120.33467888832092,
+              22.6043814097853
+            ],
+            [
+              120.33526897430419,
+              22.60361627300159
+            ],
+            [
+              120.33601194620132,
+              22.604116459988937
+            ],
+            [
+              120.33571422100066,
+              22.60449283711738
+            ],
+            [
+              120.33622920513152,
+              22.604819690104314
+            ],
+            [
+              120.3361541032791,
+              22.604923688619152
+            ],
+            [
+              120.33562839031218,
+              22.604584455078385
+            ],
+            [
+              120.33536553382874,
+              22.60493359323553
+            ],
+            [
+              120.33527970314026,
+              22.604879117836713
+            ],
+            [
+              120.33554792404173,
+              22.604522551057368
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u5d17\u5c71\u5357\u885738\u5df713\u865f",
+        "address_en": "No. 13, Lane 38, Gangshan South Street, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-19T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 12:00-12:15",
+        "end": "2022-01-19T04:15:00.000Z",
+        "latitude": 22.6041382590006,
+        "longitude": 120.335051829074,
+        "name": "\u745e\u8208\u5e02\u5834",
+        "name_en": "Ruixing Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.311468907332,
+          22.6174370962591
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u5fa9\u8208\u4e8c\u8def38\u865f",
+        "address_en": "No. 38, Fuxing 2nd Road, Lingya District, Kaohsiung City",
+        "begin": "2022-01-19T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 15:00-15:30",
+        "end": "2022-01-19T07:30:00.000Z",
+        "latitude": 22.6174370962591,
+        "longitude": 120.311468907332,
+        "name": "\u9678\u767c\u6a5f\u8eca\u884c",
+        "name_en": "Lufa Locomotive Co.",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.326621630042,
+          22.6465029032792
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5927\u8c50\u4e8c\u8def39\u865f",
+        "address_en": "No. 39, Dafeng 2nd Road, Sanmin District, Kaohsiung City",
+        "begin": "2022-01-19T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/19 19:00-19:30",
+        "end": "2022-01-19T11:30:00.000Z",
+        "latitude": 22.6465029032792,
+        "longitude": 120.326621630042,
+        "name": "\u6b63\u5fc3\u5f8b\u52d5\u9aa8\u67b6\u5e73\u8861\u6280\u8853",
+        "name_en": "Positive Heart Rhythm Skeletal Balance Technology",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.294991026315,
+          22.5765099826147
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u65d7\u6d25\u4e8c\u8def255\u865f",
+        "address_en": "No. 255, Cijin 2nd Road, Cijin District, Kaohsiung City",
+        "begin": "2022-01-19T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 07:00-07:15",
+        "end": "2022-01-19T23:15:00.000Z",
+        "latitude": 22.5765099826147,
+        "longitude": 120.294991026315,
+        "name": "\u65e9\u9910\u6524\u8ca9(\u7121\u5e97\u540d)",
+        "name_en": "Breakfast vendor (no shop name)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.292457460041,
+          22.5824431150645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u4e0a\u7af9\u5df7140-131\u865f",
+        "address_en": "No. 140-131, Shangzhu Lane, Cijin District, Kaohsiung City",
+        "begin": "2022-01-20T02:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 10:00~10:15",
+        "end": "2022-01-20T02:15:00.000Z",
+        "latitude": 22.5824431150645,
+        "longitude": 120.292457460041,
+        "name": "\u798f\u5229\u793e",
+        "name_en": "Welfare agency",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.292460812802,
+          22.5824437342041
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u4e0a\u7af9\u5df7140-131\u865f",
+        "address_en": "No. 140-131, Shangzhu Lane, Cijin District, Kaohsiung City",
+        "begin": "2022-01-20T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/20 15:00~15:15",
+        "end": "2022-01-20T07:15:00.000Z",
+        "latitude": 22.5824437342041,
+        "longitude": 120.292460812802,
+        "name": "\u798f\u5229\u793e",
+        "name_en": "Welfare agency",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18215",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/FongshanHuangjie/posts/3084878728506523"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.32435408149,
           22.5895134050933
         ],
@@ -20899,20 +22276,20 @@
     {
       "geometry": {
         "coordinates": [
-          120.283150464334,
-          22.6088584696813
+          120.283505725962,
+          22.6076066072856
         ],
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534043\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f43\u78bc\u982d",
         "address_en": "Kaohsiung Port 43 Pier",
         "begin": "2022-01-10T00:56:00.000Z",
         "description": "",
         "duration (text)": "2022/01/10 08:56~19:41",
         "end": "2022-01-10T11:41:00.000Z",
-        "latitude": 22.6088584696813,
-        "longitude": 120.283150464334,
+        "latitude": 22.6076066072856,
+        "longitude": 120.283505725962,
         "name": "\u9ea5\u62c9\u502b\u8239",
         "name_en": "McLaren ship",
         "\u6821\u5c0d\u8005": "",
@@ -20930,12 +22307,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-10T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/10 14:30~13:15(+1)",
-        "end": "2022-01-11T05:15:00.000Z",
+        "duration (text)": "2022/01/10 14:30~13:15",
+        "end": "2022-01-10T07:30:00.000Z",
         "latitude": 22.6005480412473,
         "longitude": 120.294302267753,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -20955,12 +22332,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-11T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/11 14:30~13:15(+1)",
-        "end": "2022-01-12T05:15:00.000Z",
+        "duration (text)": "2022/01/11 14:30~13:15",
+        "end": "2022-01-11T07:30:00.000Z",
         "latitude": 22.6005358045928,
         "longitude": 120.294363463097,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -20980,12 +22357,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-12T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/12 14:30~13:15(+1)",
-        "end": "2022-01-13T05:15:00.000Z",
+        "duration (text)": "2022/01/12 14:30~13:15",
+        "end": "2022-01-12T07:30:00.000Z",
         "latitude": 22.6005110422597,
         "longitude": 120.294261539151,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21005,12 +22382,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-13T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/13 14:30~13:15(+1)",
-        "end": "2022-01-14T05:15:00.000Z",
+        "duration (text)": "2022/01/13 14:30~13:15",
+        "end": "2022-01-13T07:30:00.000Z",
         "latitude": 22.600580376781,
         "longitude": 120.294299090078,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21030,12 +22407,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-14T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/14 14:30~13:15(+1)",
-        "end": "2022-01-15T05:15:00.000Z",
+        "duration (text)": "2022/01/14 14:30~13:15",
+        "end": "2022-01-14T07:30:00.000Z",
         "latitude": 22.6005655193865,
         "longitude": 120.294272267987,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21055,12 +22432,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-15T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/15 14:30~13:15(+1)",
-        "end": "2022-01-16T05:15:00.000Z",
+        "duration (text)": "2022/01/15 14:30~13:15",
+        "end": "2022-01-15T07:30:00.000Z",
         "latitude": 22.6005853292454,
         "longitude": 120.29432591217,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21080,12 +22457,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-16T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/16 14:30~13:15(+1)",
-        "end": "2022-01-17T05:15:00.000Z",
+        "duration (text)": "2022/01/16 14:30~13:15",
+        "end": "2022-01-16T07:30:00.000Z",
         "latitude": 22.6005902817097,
         "longitude": 120.294266903569,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21105,12 +22482,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-17T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/17 14:30~13:15(+1)",
-        "end": "2022-01-18T05:15:00.000Z",
+        "duration (text)": "2022/01/17 14:30~13:15",
+        "end": "2022-01-17T07:30:00.000Z",
         "latitude": 22.6005110422597,
         "longitude": 120.294309818915,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21130,12 +22507,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-18T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/18 14:30~13:15(+1)",
-        "end": "2022-01-19T05:15:00.000Z",
+        "duration (text)": "2022/01/18 14:30~13:15",
+        "end": "2022-01-18T07:30:00.000Z",
         "latitude": 22.6005011373253,
         "longitude": 120.294256174732,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21155,12 +22532,12 @@
         "type": "Point"
       },
       "properties": {
-        "address": "\u9ad8\u96c4\u6e2f\u65d7\u6d25\u534032\u78bc\u982d",
+        "address": "\u9ad8\u96c4\u5e02\u65d7\u6d25\u5340\u9ad8\u96c4\u6e2f32\u78bc\u982d",
         "address_en": "Kaohsiung Port 32 Pier",
         "begin": "2022-01-19T06:30:00.000Z",
         "description": "(1/10~1/19)",
-        "duration (text)": "2022/01/19 14:30~13:15(+1)",
-        "end": "2022-01-20T05:15:00.000Z",
+        "duration (text)": "2022/01/19 14:30~13:15",
+        "end": "2022-01-19T07:30:00.000Z",
         "latitude": 22.6005902817097,
         "longitude": 120.294374191934,
         "name": "\u65b0\u5149\u8f2a\u8239",
@@ -21192,6 +22569,31 @@
         "name_en": "Costco - China Store",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "18157",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/4939227772805480"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.335181147034,
+          22.6036051983825
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4fdd\u6cf0\u8def379\u865f",
+        "address_en": "No. 379, Baotai Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-01-16T09:30:00.000Z",
+        "description": "\u5f8c\u4f86\u624d\u88dc\u5145\u7684\u8db3\u8de1",
+        "duration (text)": "2022/01/16 17:30~19:30",
+        "end": "2022-01-16T11:30:00.000Z",
+        "latitude": 22.6036051983825,
+        "longitude": 120.335181147034,
+        "name": "\u5317\u5e73\u4eac\u5eda\u5317\u65b9\u9eb5\u98df\u9928-\u4fdd\u6cf0\u5e97",
+        "name_en": "Beijing Beijing Kitchen North Restaurant - Baotai Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "18155, 18156, 18157",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/4939227772805480"
       },
       "type": "Feature"
