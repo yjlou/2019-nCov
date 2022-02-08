@@ -9748,106 +9748,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.616551309341,
-          25.0434071177642
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-07T07:39:00.000Z",
-        "description": "\u516c\u8eca306\u8def\u7dda:\u4e2d\u7814\u9662-\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3",
-        "duration (text)": "12/7 15:39-15:50",
-        "end": "2021-12-07T07:50:00.000Z",
-        "latitude": 25.0434071177642,
-        "longitude": 121.616551309341,
-        "name": "\u516c\u8eca306\u8def\u7dda:\u4e2d\u7814\u9662",
-        "name_en": "Bus route 306: Academia Sinica",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=1FD9C93029E5F786"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.606653932099,
-          25.0544162855066
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-07T07:39:00.000Z",
-        "description": "\u516c\u8eca306\u8def\u7dda:\u4e2d\u7814\u9662-\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3",
-        "duration (text)": "12/7 15:39-15:50",
-        "end": "2021-12-07T07:50:00.000Z",
-        "latitude": 25.0544162855066,
-        "longitude": 121.606653932099,
-        "name": "\u516c\u8eca306\u8def\u7dda:\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3",
-        "name_en": "Bus route 306: Nangang Administration Center",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=1FD9C93029E5F786"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.60713876683,
-          25.0543064817867
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-07T08:03:00.000Z",
-        "description": "\u516c\u8eca\u85cd21\u8def\u7dda:\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3-\u4e2d\u8208\u8def",
-        "duration (text)": "12/7 16:03-16:19",
-        "end": "2021-12-07T08:19:00.000Z",
-        "latitude": 25.0543064817867,
-        "longitude": 121.60713876683,
-        "name": "\u516c\u8eca\u85cd21\u8def\u7dda:\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3",
-        "name_en": "Bus Blue 21 Route: Nangang Administration Center",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=1FD9C93029E5F786"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.6350105007,
-          25.0616409116571
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-07T08:03:00.000Z",
-        "description": "\u516c\u8eca\u85cd21\u8def\u7dda:\u5357\u6e2f\u884c\u653f\u4e2d\u5fc3-\u4e2d\u8208\u8def",
-        "duration (text)": "12/7 16:03-16:19",
-        "end": "2021-12-07T08:19:00.000Z",
-        "latitude": 25.0616409116571,
-        "longitude": 121.6350105007,
-        "name": "\u516c\u8eca\u85cd21\u8def\u7dda:\u4e2d\u8208\u8def",
-        "name_en": "Bus Blue 21 Route: Zhongxing Road",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=1FD9C93029E5F786"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.227840092739,
           23.0172602573499
         ],
@@ -12340,6 +12240,1631 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.475250929255,
+          25.0316002973491
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u4ec1\u5316\u885746\u865f",
+        "address_en": "",
+        "begin": "2022-02-01T09:24:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/01 17:24",
+        "end": "2022-02-01T10:24:00.000Z",
+        "latitude": 25.0316002973491,
+        "longitude": 121.475250929255,
+        "name": "\u5168\u5bb6\u677f\u6a4b\u52dd\u6587\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472325196635,
+          25.0299159860195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u65b0\u57d4\u7ad9",
+        "duration (text)": "2022/02/02 11:00",
+        "end": "2022-02-02T04:00:00.000Z",
+        "latitude": 25.0299159860195,
+        "longitude": 121.472325196635,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.468588823279,
+          25.0229986474625
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def\u4e09\u6bb52\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u65b0\u57d4\u7ad9",
+        "duration (text)": "2022/02/02 11:00",
+        "end": "2022-02-02T04:00:00.000Z",
+        "latitude": 25.0229986474625,
+        "longitude": 121.468588823279,
+        "name": "\u65b0\u57d4\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.466829463598,
+          25.0262792308135
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6c11\u751f\u8def3\u6bb570\u865f",
+        "address_en": "",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "(\u74b0\u72c0\u7dda)\u65b0\u57d4\u6c11\u751f\u7ad9-\u982d\u524d\u5e84\u7ad9",
+        "duration (text)": "2022/02/02 11:00",
+        "end": "2022-02-02T04:00:00.000Z",
+        "latitude": 25.0262792308135,
+        "longitude": 121.466829463598,
+        "name": "\u65b0\u57d4\u6c11\u751f\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.460524316026,
+          25.0398520216094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u601d\u6e90\u8def18\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "(\u74b0\u72c0\u7dda)\u65b0\u57d4\u6c11\u751f\u7ad9-\u982d\u524d\u5e84\u7ad9",
+        "duration (text)": "2022/02/02 11:00",
+        "end": "2022-02-02T04:00:00.000Z",
+        "latitude": 25.0398520216094,
+        "longitude": 121.460524316026,
+        "name": "\u982d\u524d\u5e84\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.422458827498,
+          25.0288559113394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6b63\u8def624\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "(\u4e2d\u548c\u65b0\u8606\u7dda)\u982d\u524d\u5e84\u7ad9-\u4e39\u9cf3\u7ad9",
+        "duration (text)": "2022/02/02 11:00",
+        "end": "2022-02-02T04:00:00.000Z",
+        "latitude": 25.0288559113394,
+        "longitude": 121.422458827498,
+        "name": "\u4e39\u9cf3\u6377\u904b\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.428391668309,
+          25.0182220228919
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u897f\u76db\u8857151\u865f",
+        "address_en": "",
+        "begin": "2022-02-02T06:57:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/02 14:57",
+        "end": "2022-02-02T07:57:00.000Z",
+        "latitude": 25.0182220228919,
+        "longitude": 121.428391668309,
+        "name": "\u5168\u5bb6\u65b0\u838a\u76db\u5be7\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.464970103891,
+          25.041334614062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e2d\u6b63\u8def1\u865f",
+        "address_en": "",
+        "begin": "2022-02-02T11:24:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/02 19:24",
+        "end": "2022-02-02T12:24:00.000Z",
+        "latitude": 25.041334614062,
+        "longitude": 121.464970103891,
+        "name": "IKEA\u5b9c\u5bb6\u5bb6\u5c45\u65b0\u838a\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.426878870759,
+          25.0243785381159
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5efa\u5b89\u885795\u865f1\u6a13",
+        "address_en": "",
+        "begin": "2022-02-03T08:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/03 16:40",
+        "end": "2022-02-03T09:40:00.000Z",
+        "latitude": 25.0243785381159,
+        "longitude": 121.426878870759,
+        "name": "\u7d71\u4e00\u6642\u5b89\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.421074856039,
+          25.0195094145045
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u9f8d\u5b89\u8def252-1\u865f",
+        "address_en": "",
+        "begin": "2022-02-03T13:12:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/03 21:12",
+        "end": "2022-02-03T14:12:00.000Z",
+        "latitude": 25.0195094145045,
+        "longitude": 121.421074856039,
+        "name": "\u5bf6\u96c5\u65b0\u838a\u9f8d\u5b89\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.477402046694,
+          25.0327511929163
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u61f7\u5fb7\u885755\u865f57\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T10:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 18:40",
+        "end": "2022-02-05T11:40:00.000Z",
+        "latitude": 25.0327511929163,
+        "longitude": 121.477402046694,
+        "name": "\u7d71\u4e00\u61f7\u5fb7\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.471940868309,
+          25.0297850294548
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5311\u865f",
+        "address_en": "",
+        "begin": "2022-02-06T00:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 08:00-16:00",
+        "end": "2022-02-06T08:00:00.000Z",
+        "latitude": 25.0297850294548,
+        "longitude": 121.471940868309,
+        "name": "\u6021\u5ba2\u5496\u5561\u6c5f\u7fe0\u6377\u904b\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.475170785451,
+          25.0326993758607
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5472\u865f",
+        "address_en": "",
+        "begin": "2022-02-01T16:32:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/02 00:32",
+        "end": "2022-02-01T17:32:00.000Z",
+        "latitude": 25.0326993758607,
+        "longitude": 121.475170785451,
+        "name": "\u7d71\u4e00\u677f\u8056\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.475168773794,
+          25.032697553166
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5472\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T10:34:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 18:34",
+        "end": "2022-02-05T11:34:00.000Z",
+        "latitude": 25.032697553166,
+        "longitude": 121.475168773794,
+        "name": "\u7d71\u4e00\u677f\u8056\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.427260946306,
+          25.0254415203928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5f8c\u6e2f\u4e00\u8def76\u5df714\u5f041\u865f",
+        "address_en": "",
+        "begin": "2022-02-02T14:03:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/02 22:03",
+        "end": "2022-02-02T15:03:00.000Z",
+        "latitude": 25.0254415203928,
+        "longitude": 121.427260946306,
+        "name": "\u7d71\u4e00\u5f8c\u6e2f\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.42726228741,
+          25.0254360519852
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5f8c\u6e2f\u4e00\u8def76\u5df714\u5f041\u865f",
+        "address_en": "",
+        "begin": "2022-02-03T14:21:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/03 22:21",
+        "end": "2022-02-03T15:21:00.000Z",
+        "latitude": 25.0254360519852,
+        "longitude": 121.42726228741,
+        "name": "\u7d71\u4e00\u5f8c\u6e2f\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.427264969619,
+          25.0254415203928
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5f8c\u6e2f\u4e00\u8def76\u5df714\u5f041\u865f",
+        "address_en": "",
+        "begin": "2022-02-04T10:27:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/04 18:27",
+        "end": "2022-02-04T11:27:00.000Z",
+        "latitude": 25.0254415203928,
+        "longitude": 121.427264969619,
+        "name": "\u7d71\u4e00\u5f8c\u6e2f\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.474103010026,
+          25.0314403748319
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u4ec1\u5316\u88572\u865f",
+        "address_en": "",
+        "begin": "2022-02-04T08:50:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/04 16:50",
+        "end": "2022-02-04T09:50:00.000Z",
+        "latitude": 25.0314403748319,
+        "longitude": 121.474103010026,
+        "name": "\u99a5\u6f2b\u9eb5\u5305\u82b1\u5712 FM STATION-\u6c5f\u5b50\u7fe0",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.474107703891,
+          25.0314355142628
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u4ec1\u5316\u88572\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T10:16:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 18:16",
+        "end": "2022-02-05T11:16:00.000Z",
+        "latitude": 25.0314355142628,
+        "longitude": 121.474107703891,
+        "name": "\u99a5\u6f2b\u9eb5\u5305\u82b1\u5712 FM STATION-\u6c5f\u5b50\u7fe0",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.474552871387,
+          25.0311985406578
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5410\u5df71\u5f047\u865f1\u6a13",
+        "address_en": "",
+        "begin": "2022-02-05T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 18:00",
+        "end": "2022-02-05T11:00:00.000Z",
+        "latitude": 25.0311985406578,
+        "longitude": 121.474552871387,
+        "name": "I WASH\u6d17\u8863\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4745568947,
+          25.0311942876515
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e8c\u6bb5410\u5df71\u5f047\u865f1\u6a13",
+        "address_en": "",
+        "begin": "2022-02-05T10:50:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 18:50",
+        "end": "2022-02-05T11:50:00.000Z",
+        "latitude": 25.0311942876515,
+        "longitude": 121.4745568947,
+        "name": "I WASH\u6d17\u8863\u5e97",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19346",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472329085126,
+          25.0299138477214
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/03 06:00-06:30",
+        "end": "2022-02-02T22:30:00.000Z",
+        "latitude": 25.0299138477214,
+        "longitude": 121.472329085126,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.5083019487,
+          25.0421909718983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/03 06:00-06:30",
+        "end": "2022-02-02T22:30:00.000Z",
+        "latitude": 25.0421909718983,
+        "longitude": 121.5083019487,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533166272614,
+          25.0519605759701
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-02T22:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u897f\u9580\u7ad9-\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "duration (text)": "2022/02/03 06:00-06:30",
+        "end": "2022-02-02T22:30:00.000Z",
+        "latitude": 25.0519605759701,
+        "longitude": 121.533166272614,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533164260958,
+          25.0519593610311
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T11:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u677e\u6c5f\u5357\u4eac\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/03 19:00-19:30",
+        "end": "2022-02-03T11:30:00.000Z",
+        "latitude": 25.0519593610311,
+        "longitude": 121.533164260958,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.50829591373,
+          25.0421903643804
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/03 19:00-19:30",
+        "end": "2022-02-03T11:30:00.000Z",
+        "latitude": 25.0421903643804,
+        "longitude": 121.50829591373,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472325732365,
+          25.0299211386654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/03 19:00-19:30",
+        "end": "2022-02-03T11:30:00.000Z",
+        "latitude": 25.0299211386654,
+        "longitude": 121.472325732365,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4723210385,
+          25.0299150628788
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/04 06:00-06:30",
+        "end": "2022-02-03T22:30:00.000Z",
+        "latitude": 25.0299150628788,
+        "longitude": 121.4723210385,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.50829591373,
+          25.042192186934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/04 06:00-06:30",
+        "end": "2022-02-03T22:30:00.000Z",
+        "latitude": 25.042192186934,
+        "longitude": 121.50829591373,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533164260958,
+          25.0519557162142
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-03T22:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u897f\u9580\u7ad9-\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "duration (text)": "2022/02/04 06:00-06:30",
+        "end": "2022-02-03T22:30:00.000Z",
+        "latitude": 25.0519557162142,
+        "longitude": 121.533164260958,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533165602062,
+          25.0519563236837
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T11:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u677e\u6c5f\u5357\u4eac\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/04 19:00-19:30",
+        "end": "2022-02-04T11:30:00.000Z",
+        "latitude": 25.0519563236837,
+        "longitude": 121.533165602062,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508299266491,
+          25.0421861117552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/04 19:00-19:30",
+        "end": "2022-02-04T11:30:00.000Z",
+        "latitude": 25.0421861117552,
+        "longitude": 121.508299266491,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472324391261,
+          25.0299126325641
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/04 19:00-19:30",
+        "end": "2022-02-04T11:30:00.000Z",
+        "latitude": 25.0299126325641,
+        "longitude": 121.472324391261,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472324391261,
+          25.0299211386654
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/05 06:00-06:30",
+        "end": "2022-02-04T22:30:00.000Z",
+        "latitude": 25.0299211386654,
+        "longitude": 121.472324391261,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508299937043,
+          25.0421934019697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/05 06:00-06:30",
+        "end": "2022-02-04T22:30:00.000Z",
+        "latitude": 25.0421934019697,
+        "longitude": 121.508299937043,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533166272614,
+          25.0519611834395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-04T22:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u897f\u9580\u7ad9-\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "duration (text)": "2022/02/05 06:00-06:30",
+        "end": "2022-02-04T22:30:00.000Z",
+        "latitude": 25.0519611834395,
+        "longitude": 121.533166272614,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533168954823,
+          25.0519611834395
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T11:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u677e\u6c5f\u5357\u4eac\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/05 19:00-19:30",
+        "end": "2022-02-05T11:30:00.000Z",
+        "latitude": 25.0519611834395,
+        "longitude": 121.533168954823,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508294572625,
+          25.0421934019697
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/05 19:00-19:30",
+        "end": "2022-02-05T11:30:00.000Z",
+        "latitude": 25.0421934019697,
+        "longitude": 121.508294572625,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472325732365,
+          25.0299156704575
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/05 19:00-19:30",
+        "end": "2022-02-05T11:30:00.000Z",
+        "latitude": 25.0299156704575,
+        "longitude": 121.472325732365,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.4723210385,
+          25.0299150628788
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/07 06:00-06:30",
+        "end": "2022-02-06T22:30:00.000Z",
+        "latitude": 25.0299150628788,
+        "longitude": 121.4723210385,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508300607595,
+          25.042192186934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T22:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/07 06:00-06:30",
+        "end": "2022-02-06T22:30:00.000Z",
+        "latitude": 25.042192186934,
+        "longitude": 121.508300607595,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533164260958,
+          25.0519636133174
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T22:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u897f\u9580\u7ad9-\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "duration (text)": "2022/02/07 06:00-06:30",
+        "end": "2022-02-06T22:30:00.000Z",
+        "latitude": 25.0519636133174,
+        "longitude": 121.533164260958,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533168954823,
+          25.0519623983785
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u5c71\u5340\u677e\u6c5f\u8def126\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T11:00:00.000Z",
+        "description": "(\u677e\u5c71\u65b0\u5e97\u7dda)\u677e\u6c5f\u5357\u4eac\u7ad9-\u897f\u9580\u7ad9",
+        "duration (text)": "2022/02/07 19:00-19:30",
+        "end": "2022-02-07T11:30:00.000Z",
+        "latitude": 25.0519623983785,
+        "longitude": 121.533168954823,
+        "name": "\u6377\u904b\u677e\u6c5f\u5357\u4eac\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508298595939,
+          25.0421909718983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/07 19:00-19:30",
+        "end": "2022-02-07T11:30:00.000Z",
+        "latitude": 25.0421909718983,
+        "longitude": 121.508298595939,
+        "name": "\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472323720708,
+          25.0299168856148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T11:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u897f\u9580\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/07 19:00-19:30",
+        "end": "2022-02-07T11:30:00.000Z",
+        "latitude": 25.0299168856148,
+        "longitude": 121.472323720708,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467011392235,
+          25.0232798367892
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def\u4e00\u6bb5435\u5df7",
+        "address_en": "",
+        "begin": "2022-02-06T01:47:00.000Z",
+        "description": "\u653f\u5e9c\u6c92\u6709\u516c\u544a\u6b64\u8db3\u8de1\u78ba\u5207\u5730\u5740\uff0c\u6b64\u8db3\u8de1\u53ea\u4ee3\u8868\u7d04\u7565\u7bc4\u570d\u3001\u4e0d\u4ee3\u8868\u78ba\u8a3a\u8005\u4e00\u5b9a\u7d93\u904e\u6b64\u4f4d\u7f6e",
+        "duration (text)": "2022/02/06 09:47",
+        "end": "2022-02-06T02:47:00.000Z",
+        "latitude": 25.0232798367892,
+        "longitude": 121.467011392235,
+        "name": "\u65b0\u57d4\u5e02\u5834",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19353",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472323720709,
+          25.0299174931948
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/05 08:00-08:45",
+        "end": "2022-02-05T00:45:00.000Z",
+        "latitude": 25.0299174931948,
+        "longitude": 121.472323720709,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517527857054,
+          25.0462504407511
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/05 08:00-08:45",
+        "end": "2022-02-05T00:45:00.000Z",
+        "latitude": 25.0462504407511,
+        "longitude": 121.517527857054,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570082900565,
+          25.0328184186558
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T00:00:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u53f0\u5317\u8eca\u7ad9-\u8c61\u5c71\u7ad9",
+        "duration (text)": "2022/02/05 08:00-08:45",
+        "end": "2022-02-05T00:45:00.000Z",
+        "latitude": 25.0328184186558,
+        "longitude": 121.570082900565,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570077536148,
+          25.0328178110915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T13:00:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u8c61\u5c71\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/05 21:00-21:45",
+        "end": "2022-02-05T13:45:00.000Z",
+        "latitude": 25.0328178110915,
+        "longitude": 121.570077536148,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51753590368,
+          25.0462516557467
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T13:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/05 21:00-21:45",
+        "end": "2022-02-05T13:45:00.000Z",
+        "latitude": 25.0462516557467,
+        "longitude": 121.51753590368,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472324391261,
+          25.0299181007735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-05T13:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/05 21:00-21:45",
+        "end": "2022-02-05T13:45:00.000Z",
+        "latitude": 25.0299181007735,
+        "longitude": 121.472324391261,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472322379605,
+          25.0299193159308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/06 08:00-08:45",
+        "end": "2022-02-06T00:45:00.000Z",
+        "latitude": 25.0299193159308,
+        "longitude": 121.472322379605,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517523833741,
+          25.0462498332534
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-06T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/06 08:00-08:45",
+        "end": "2022-02-06T00:45:00.000Z",
+        "latitude": 25.0462498332534,
+        "longitude": 121.517523833741,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570081559461,
+          25.0328159883986
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T00:00:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u53f0\u5317\u8eca\u7ad9-\u8c61\u5c71\u7ad9",
+        "duration (text)": "2022/02/06 08:00-08:45",
+        "end": "2022-02-06T00:45:00.000Z",
+        "latitude": 25.0328159883986,
+        "longitude": 121.570081559461,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570080888909,
+          25.032811127884
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T12:30:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u8c61\u5c71\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/06 20:30-21:10",
+        "end": "2022-02-06T13:10:00.000Z",
+        "latitude": 25.032811127884,
+        "longitude": 121.570080888909,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517531209815,
+          25.0462467957645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-06T12:30:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/06 20:30-21:10",
+        "end": "2022-02-06T13:10:00.000Z",
+        "latitude": 25.0462467957645,
+        "longitude": 121.517531209815,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472327744022,
+          25.0299168856161
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-06T12:30:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/06 20:30-21:10",
+        "end": "2022-02-06T13:10:00.000Z",
+        "latitude": 25.0299168856161,
+        "longitude": 121.472327744022,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472321709053,
+          25.0299150628801
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/07 08:00-08:45",
+        "end": "2022-02-07T00:45:00.000Z",
+        "latitude": 25.0299150628801,
+        "longitude": 121.472321709053,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517530539263,
+          25.046245580769
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-07T00:00:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u6c5f\u5b50\u7fe0\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/07 08:00-08:45",
+        "end": "2022-02-07T00:45:00.000Z",
+        "latitude": 25.046245580769,
+        "longitude": 121.517530539263,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570076195043,
+          25.0328141657056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T00:00:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u53f0\u5317\u8eca\u7ad9-\u8c61\u5c71\u7ad9",
+        "duration (text)": "2022/02/07 08:00-08:45",
+        "end": "2022-02-07T00:45:00.000Z",
+        "latitude": 25.0328141657056,
+        "longitude": 121.570076195043,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.570080888909,
+          25.0328153808343
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4fe1\u7fa9\u5340\u4fe1\u7fa9\u8def5\u6bb5152\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T10:30:00.000Z",
+        "description": "(\u6de1\u6c34\u4fe1\u7fa9\u7dda) \u8c61\u5c71\u7ad9-\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/07 18:30-19:10",
+        "end": "2022-02-07T11:10:00.000Z",
+        "latitude": 25.0328153808343,
+        "longitude": 121.570080888909,
+        "name": "\u6377\u904b\u8c61\u5c71\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517530539263,
+          25.0462522632444
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "",
+        "begin": "2022-02-07T10:30:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/07 18:30-19:10",
+        "end": "2022-02-07T11:10:00.000Z",
+        "latitude": 25.0462522632444,
+        "longitude": 121.517530539263,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.472324391261,
+          25.0299138477228
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u6587\u5316\u8def2\u6bb5296\u865fB1",
+        "address_en": "",
+        "begin": "2022-02-07T10:30:00.000Z",
+        "description": "(\u677f\u5357\u7dda) \u53f0\u5317\u8eca\u7ad9-\u6c5f\u5b50\u7fe0\u7ad9",
+        "duration (text)": "2022/02/07 18:30-19:10",
+        "end": "2022-02-07T11:10:00.000Z",
+        "latitude": 25.0299138477228,
+        "longitude": 121.472324391261,
+        "name": "\u6377\u904b\u6c5f\u5b50\u7fe0\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.477392420816,
+          25.0327478836742
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u61f7\u5fb7\u885755\u865f57\u865f",
+        "address_en": "",
+        "begin": "2022-02-05T13:49:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/05 21:49",
+        "end": "2022-02-05T14:49:00.000Z",
+        "latitude": 25.0327478836742,
+        "longitude": 121.477392420816,
+        "name": "\u7d71\u4e00\u61f7\u5fb7\u9580\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": 19355,
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4908184639272359"
       },
       "type": "Feature"
     },
@@ -17371,31 +18896,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.635539726782,
-          25.0613212213128
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u4e2d\u8208\u8def60\u865f",
-        "address_en": "No. 60, Zhongxing Road, Xizhi District, New Taipei City",
-        "begin": "2021-12-07T12:00:00.000Z",
-        "description": "",
-        "duration (text)": "12/7 20:00-20:30",
-        "end": "2021-12-07T12:30:00.000Z",
-        "latitude": 25.0613212213128,
-        "longitude": 121.635539726782,
-        "name": "7-11\u65b0\u5de5\u5efa\u9580\u5e02",
-        "name_en": "7-11 Xin Gong Jian Store",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5247687178581952"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           121.633013384512,
           25.0644621808164
         ],
@@ -21057,6 +22557,56 @@
     {
       "geometry": {
         "coordinates": [
+          121.277792214523,
+          24.9046586848967
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u6eaa\u5340\u6148\u5149\u8857166\u865f",
+        "address_en": "No. 166, Ciguang Street, Daxi District, Taoyuan City",
+        "begin": "2022-02-02T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/02 09:00-10:00",
+        "end": "2022-02-02T02:00:00.000Z",
+        "latitude": 24.9046586848967,
+        "longitude": 121.277792214523,
+        "name": "\u7f8e\u5ec9\u793e\u5927\u6eaa\u6148\u5149\u5e97",
+        "name_en": "Simple Mart Daxi Ciguang Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19360, 19362",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.tycg.gov.tw/ch/home.jsp?id=10412&parentpath=0,10401&mcustomize=news_view_small.jsp&dataserno=202202080003"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.279256482537,
+          24.8972119575801
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u6eaa\u5340\u54e1\u6797\u8def\u4e00\u6bb5173\u865f",
+        "address_en": "No. 173, Section 1, Yuanlin Road, Daxi District, Taoyuan City",
+        "begin": "2022-02-03T08:13:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/03 16:13",
+        "end": "2022-02-03T09:13:00.000Z",
+        "latitude": 24.8972119575801,
+        "longitude": 121.279256482537,
+        "name": "\u5544\u6728\u9ce5\u85e5\u5c40\u5927\u6eaa\u5e97",
+        "name_en": "Woodpecker Pharmacy Daxi Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19360, 19362",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.tycg.gov.tw/ch/home.jsp?id=10412&parentpath=0,10401&mcustomize=news_view_small.jsp&dataserno=202202080003"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.288224330489,
           24.8762862714867
         ],
@@ -21107,22 +22657,22 @@
     {
       "geometry": {
         "coordinates": [
-          121.288225671593,
-          24.8762887048355
+          121.288240393253,
+          24.8762856916634
         ],
         "type": "Point"
       },
       "properties": {
         "address": "\u6843\u5712\u5e02\u5927\u6eaa\u5340\u6587\u5316\u8def256\u865f",
-        "address_en": "",
+        "address_en": "No. 256, Wenhua Road, Daxi District, Taoyuan City",
         "begin": "2022-01-28T16:00:00.000Z",
         "description": "",
         "duration (text)": "2022/01/29",
         "end": "2022-01-29T16:00:00.000Z",
-        "latitude": 24.8762887048355,
-        "longitude": 121.288225671593,
+        "latitude": 24.8762856916634,
+        "longitude": 121.288240393253,
         "name": "\u6587\u5316\u5c0f\u5403\u5e97",
-        "name_en": "",
+        "name_en": "Cultural Snack Bar",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "19229",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5162284757116456"
@@ -49154,31 +50704,6 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "\u5c1a\u672a\u53d6\u865f",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.cdc.gov.tw/Bulletin/Detail/8XzxB5KZNJhy0ITApU7wWg?typeid=9"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.635539726782,
-          25.0613105088857
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u6c50\u6b62\u5340\u4e2d\u8208\u8def60\u865f",
-        "address_en": "No. 60, Zhongxing Road, Xizhi District, New Taipei City",
-        "begin": "2021-12-07T12:00:00.000Z",
-        "description": "",
-        "duration (text)": "12/7 20:00-20:30",
-        "end": "2021-12-07T12:30:00.000Z",
-        "latitude": 25.0613105088857,
-        "longitude": 121.635539726782,
-        "name": "7-11\u6c50\u6b62\u65b0\u5de5\u5efa\u9580\u5e02",
-        "name_en": "7-11 Xizhi Xin Gong Jian Store",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "16816",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/mohw.gov.tw/posts/2046521765514231"
       },
       "type": "Feature"
     },
