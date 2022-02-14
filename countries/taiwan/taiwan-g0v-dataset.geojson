@@ -3,6 +3,106 @@
     {
       "geometry": {
         "coordinates": [
+          121.517951451405,
+          25.0492518693548
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "No. 209, Section 1, Shimin Avenue, Datong District, Taipei City",
+        "begin": "2022-02-11T01:00:00.000Z",
+        "description": "\u81fa\u5317\u8f49\u904b\u7ad9-\u570b\u5149\u5ba2\u904b1826\u7dda-\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 9:00",
+        "end": "2022-02-11T02:00:00.000Z",
+        "latitude": 25.0492518693548,
+        "longitude": 121.517951451405,
+        "name": "\u53f0\u5317\u8f49\u904b\u7ad9",
+        "name_en": "Taipei Bus Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/1983594/post"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.667539407377,
+          24.1793492378132
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, North District, Taichung City",
+        "begin": "2022-02-10T16:00:00.000Z",
+        "description": "\u81fa\u5317\u8f49\u904b\u7ad9-\u570b\u5149\u5ba2\u904b1826\u7dda-\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11",
+        "end": "2022-02-11T16:00:00.000Z",
+        "latitude": 24.1793492378132,
+        "longitude": 120.667539407377,
+        "name": "\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u7ad9",
+        "name_en": "Kuo-Kuang Bus Shuinan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/1983594/post"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.668162204034,
+          24.1790423085168
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, North District, Taichung City",
+        "begin": "2022-02-11T08:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u8f49\u904b\u7ad9-\u570b\u5149\u5ba2\u904b1826\u7dda-\u81fa\u5317\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 16:00",
+        "end": "2022-02-11T09:00:00.000Z",
+        "latitude": 24.1790423085168,
+        "longitude": 120.668162204034,
+        "name": "\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u7ad9",
+        "name_en": "Kuo-Kuang Bus Shuinan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/1983594/post"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517950110301,
+          25.0492542992864
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "No. 209, Section 1, Shimin Avenue, Datong District, Taipei City",
+        "begin": "2022-02-10T16:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b\u6c34\u6e73\u8f49\u904b\u7ad9-\u570b\u5149\u5ba2\u904b1826\u7dda-\u81fa\u5317\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11",
+        "end": "2022-02-11T16:00:00.000Z",
+        "latitude": 25.0492542992864,
+        "longitude": 121.517950110301,
+        "name": "\u53f0\u5317\u8f49\u904b\u7ad9",
+        "name_en": "Taipei Bus Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/1983594/post"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.616036360367,
           24.1117540037506
         ],
@@ -522,6 +622,706 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "18711",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/GLAT.Taichung/posts/3114230895563186"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.54154668702,
+          24.9678369928304
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-08T04:01:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u81f3\u53e4\u4ead\u7ad9",
+        "duration (text)": "2022/02/08 12:01-12:23",
+        "end": "2022-02-08T04:23:00.000Z",
+        "latitude": 24.9678369928304,
+        "longitude": 121.54154668702,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.522829597148,
+          25.0265370694539
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def2\u6bb5164\u4e4b1\u865fB1",
+        "address_en": "B1, No. 164-1, Section 2, Roosevelt Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-08T04:01:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u81f3\u53e4\u4ead\u7ad9",
+        "duration (text)": "2022/02/08 12:01-12:23",
+        "end": "2022-02-08T04:23:00.000Z",
+        "latitude": 25.0265370694539,
+        "longitude": 121.522829597148,
+        "name": "\u6377\u904b\u53e4\u4ead\u7ad9",
+        "name_en": "MRT Guting Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.527475928647,
+          25.0287723162423
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u6f6e\u5dde\u8857105\u865f1\u6a13",
+        "address_en": "1st Floor, No. 105, Chaozhou Street, Daan District, Taipei City",
+        "begin": "2022-02-08T04:28:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 12:28-14:00",
+        "end": "2022-02-08T06:00:00.000Z",
+        "latitude": 25.0287723162423,
+        "longitude": 121.527475928647,
+        "name": "UNCLE Q Vegan \u5275\u610f\u852c\u98df\u9910\u5ef3",
+        "name_en": "UNCLE Q Vegan Creative Vegetable Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.530153194232,
+          25.0313614523584
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u6c38\u5eb7\u885731\u5df714-4\u865f",
+        "address_en": "No. 14-4, Lane 31, Yongkang Street, Daan District, Taipei City",
+        "begin": "2022-02-08T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 15:00-16:08",
+        "end": "2022-02-08T08:08:00.000Z",
+        "latitude": 25.0313614523584,
+        "longitude": 121.530153194232,
+        "name": "\u6084\u6084\u597d\u98df\u6c38\u5eb7\u5e97\u8216",
+        "name_en": "Quietly Good Food Yongkang Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.528058476807,
+          25.0246310626645
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u6d66\u57ce\u88571\u865f",
+        "address_en": "No. 1, Pucheng Street, Daan District, Taipei City",
+        "begin": "2022-02-08T08:24:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 16:24-16:52",
+        "end": "2022-02-08T08:52:00.000Z",
+        "latitude": 25.0246310626645,
+        "longitude": 121.528058476807,
+        "name": "\u6c34\u6e96\u66f8\u5c40",
+        "name_en": "Standard Bookstore",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.531183234984,
+          25.0186736807092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u7f85\u65af\u798f\u8def\u4e09\u6bb5283\u5df77\u5f0410\u865f",
+        "address_en": "No. 10, Alley 7, Lane 283, Section 3, Roosevelt Road, Daan District, Taipei City",
+        "begin": "2022-02-08T09:06:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 17:06-17:50",
+        "end": "2022-02-08T09:50:00.000Z",
+        "latitude": 25.0186736807092,
+        "longitude": 121.531183234984,
+        "name": "AMOUTER\u6236\u5916\u7528\u54c1\u5e97",
+        "name_en": "AMOUTER Outdoor Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.53422160645,
+          25.0148932759104
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def4\u6bb564\u4e4b1\u865fB1",
+        "address_en": "B1, No. 64-1, Section 4, Roosevelt Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-08T09:57:00.000Z",
+        "description": "\u6377\u904b\u516c\u9928\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/08 17:57-18:09",
+        "end": "2022-02-08T10:09:00.000Z",
+        "latitude": 25.0148932759104,
+        "longitude": 121.53422160645,
+        "name": "\u6377\u904b\u516c\u9928\u7ad9",
+        "name_en": "MRT Gongguan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.54155597322,
+          24.9678832937875
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-08T09:57:00.000Z",
+        "description": "\u6377\u904b\u516c\u9928\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/08 17:57-18:09",
+        "end": "2022-02-08T10:09:00.000Z",
+        "latitude": 24.9678832937875,
+        "longitude": 121.54155597322,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541509542218,
+          24.9678496203659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-09T10:45:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "duration (text)": "2022/02/09 18:45-19:12",
+        "end": "2022-02-09T11:12:00.000Z",
+        "latitude": 24.9678496203659,
+        "longitude": 121.541509542218,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508327705422,
+          25.0421782915596
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "B1, No. 32-1, Baoqing Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-09T10:45:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "duration (text)": "2022/02/09 18:45-19:12",
+        "end": "2022-02-09T11:12:00.000Z",
+        "latitude": 25.0421782915596,
+        "longitude": 121.508327705422,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "MRT Ximen Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.532894511689,
+          25.0423540794851
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def1\u6bb567\u865f",
+        "address_en": "No. 67, Section 1, Xinsheng South Road, Daan District, Taipei City",
+        "begin": "2022-02-09T10:45:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "duration (text)": "2022/02/09 18:45-19:12",
+        "end": "2022-02-09T11:12:00.000Z",
+        "latitude": 25.0423540794851,
+        "longitude": 121.532894511689,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "name_en": "MRT Zhongxiao Xinsheng Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.544814278312,
+          25.0437659036914
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fa9\u8208\u5357\u8def\u4e00\u6bb5107\u5df711\u865f",
+        "address_en": "No. 11, Lane 107, Section 1, Fuxing South Road, Daan District, Taipei City",
+        "begin": "2022-02-09T11:34:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 19:34-22:00",
+        "end": "2022-02-09T14:00:00.000Z",
+        "latitude": 25.0437659036914,
+        "longitude": 121.544814278312,
+        "name": "Miacucina\u5fa9\u8208\u5e97",
+        "name_en": "Miacucina Revival Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.543765198741,
+          25.0416123394766
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def4\u6bb547\u865f",
+        "address_en": "No. 47, Section 4, Zhongxiao East Road, Daan District, Taipei City",
+        "begin": "2022-02-09T14:11:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u5fa9\u8208\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/09 22:11-22:47",
+        "end": "2022-02-09T14:47:00.000Z",
+        "latitude": 25.0416123394766,
+        "longitude": 121.543765198741,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u5fa9\u8208\u7ad9",
+        "name_en": "MRT Zhongxiao Fuxing Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508263220739,
+          25.0421989114022
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "B1, No. 32-1, Baoqing Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-09T14:11:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u5fa9\u8208\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/09 22:11-22:47",
+        "end": "2022-02-09T14:47:00.000Z",
+        "latitude": 25.0421989114022,
+        "longitude": 121.508263220739,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "MRT Ximen Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541537400819,
+          24.967815946935
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-09T14:11:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u5fa9\u8208\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/09 22:11-22:47",
+        "end": "2022-02-09T14:47:00.000Z",
+        "latitude": 24.967815946935,
+        "longitude": 121.541537400819,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541577164099,
+          24.9678146948282
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-11T00:24:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/11 08:24-08:45",
+        "end": "2022-02-11T00:45:00.000Z",
+        "latitude": 24.9678146948282,
+        "longitude": 121.541577164099,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.518320650738,
+          25.0326337711413
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def1\u6bb58\u4e4b1\u865fB1",
+        "address_en": "B1, No. 8-1, Section 1, Roosevelt Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T00:24:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/11 08:24-08:45",
+        "end": "2022-02-11T00:45:00.000Z",
+        "latitude": 25.0326337711413,
+        "longitude": 121.518320650738,
+        "name": "\u6377\u904b\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9",
+        "name_en": "MRT Chiang Kai-shek Memorial Hall Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51747921447,
+          25.046199964844
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "No. 49, Section 1, Zhongxiao West Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T00:24:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u53f0\u5317\u8eca\u7ad9",
+        "duration (text)": "2022/02/11 08:24-08:45",
+        "end": "2022-02-11T00:45:00.000Z",
+        "latitude": 25.046199964844,
+        "longitude": 121.51747921447,
+        "name": "\u6377\u904b\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "MRT Taipei Main Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517965098517,
+          25.0491973264365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "No. 209, Section 1, Civic Avenue, Datong District, Taipei City",
+        "begin": "2022-02-11T01:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda \u81fa\u5317\u8f49\u904b\u7ad9\u81f3\u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 09:00-11:00",
+        "end": "2022-02-11T03:00:00.000Z",
+        "latitude": 25.0491973264365,
+        "longitude": 121.517965098517,
+        "name": "\u81fa\u5317\u8f49\u904b\u7ad9 (\u570b\u5149\u5ba2\u904b1826\u7dda)",
+        "name_en": "Taipei Bus Station (Guoguang Passenger Transport Line 1826)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.668166927783,
+          24.1790365957318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, Beitun District, Taichung City",
+        "begin": "2022-02-11T01:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda \u81fa\u5317\u8f49\u904b\u7ad9\u81f3\u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 09:00-11:00",
+        "end": "2022-02-11T03:00:00.000Z",
+        "latitude": 24.1790365957318,
+        "longitude": 120.668166927783,
+        "name": "\u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9 (\u570b\u5149\u5ba2\u904b1826\u7dda)",
+        "name_en": "Taichung Shuinan Transfer Station (Guoguang Bus Line 1826)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.668157540051,
+          24.1790390426307
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, Beitun District, Taichung City",
+        "begin": "2022-02-11T08:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda \u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9\u81f3\u81fa\u5317\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 16:00-18:40",
+        "end": "2022-02-11T10:40:00.000Z",
+        "latitude": 24.1790390426307,
+        "longitude": 120.668157540051,
+        "name": "\u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9 (\u570b\u5149\u5ba2\u904b1826\u7dda)",
+        "name_en": "Taichung Shuinan Transfer Station (Guoguang Bus Line 1826)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51786074667,
+          25.0492351412263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "No. 209, Section 1, Civic Avenue, Datong District, Taipei City",
+        "begin": "2022-02-11T08:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda \u81fa\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9\u81f3\u81fa\u5317\u8f49\u904b\u7ad9",
+        "duration (text)": "2022/02/11 16:00-18:40",
+        "end": "2022-02-11T10:40:00.000Z",
+        "latitude": 25.0492351412263,
+        "longitude": 121.51786074667,
+        "name": "\u81fa\u5317\u8f49\u904b\u7ad9 (\u570b\u5149\u5ba2\u904b1826\u7dda)",
+        "name_en": "Taipei Bus Station (Guoguang Passenger Transport Line 1826)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51756686453,
+          25.0462079056475
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5fe0\u5b5d\u897f\u8def1\u6bb549\u865f",
+        "address_en": "No. 49, Section 1, Zhongxiao West Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T10:51:00.000Z",
+        "description": "\u6377\u904b\u53f0\u5317\u8eca\u7ad9\u81f3\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "duration (text)": "2022/02/11 18:51-19:01",
+        "end": "2022-02-11T11:01:00.000Z",
+        "latitude": 25.0462079056475,
+        "longitude": 121.51756686453,
+        "name": "\u6377\u904b\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "MRT Taipei Main Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.532950685597,
+          25.0423442843483
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def1\u6bb567\u865f",
+        "address_en": "No. 67, Section 1, Xinsheng South Road, Daan District, Taipei City",
+        "begin": "2022-02-11T10:51:00.000Z",
+        "description": "\u6377\u904b\u53f0\u5317\u8eca\u7ad9\u81f3\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "duration (text)": "2022/02/11 18:51-19:01",
+        "end": "2022-02-11T11:01:00.000Z",
+        "latitude": 25.0423442843483,
+        "longitude": 121.532950685597,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "name_en": "MRT Zhongxiao Xinsheng Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.53940983332,
+          25.0424231399369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def\u4e09\u6bb5217\u5df71\u5f046\u865f",
+        "address_en": "No. 6, Alley 1, Lane 217, Section 3, Zhongxiao East Road, Daan District, Taipei City",
+        "begin": "2022-02-11T11:20:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 19:20-21:26",
+        "end": "2022-02-11T13:26:00.000Z",
+        "latitude": 25.0424231399369,
+        "longitude": 121.53940983332,
+        "name": "SOUL R. VEGAN CAF\u00c9\u9748\u9b42\u9910\u5ef3",
+        "name_en": "SOUL R. VEGAN CAF\u00c9",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.532867418041,
+          25.0423323727677
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def1\u6bb567\u865f",
+        "address_en": "No. 67, Section 1, Xinsheng South Road, Daan District, Taipei City",
+        "begin": "2022-02-11T13:36:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/11 21:36-22:04",
+        "end": "2022-02-11T14:04:00.000Z",
+        "latitude": 25.0423323727677,
+        "longitude": 121.532867418041,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "name_en": "MRT Zhongxiao Xinsheng Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508264492422,
+          25.0422129595542
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32\u4e4b1\u865fB1",
+        "address_en": "B1, No. 32-1, Baoqing Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T13:36:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/11 21:36-22:04",
+        "end": "2022-02-11T14:04:00.000Z",
+        "latitude": 25.0422129595542,
+        "longitude": 121.508264492422,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "MRT Ximen Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541502874496,
+          24.9678904600355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def1\u6bb5295\u865f",
+        "address_en": "No. 295, Section 1, Beixin Road, Xindian District, New Taipei City",
+        "begin": "2022-02-11T13:36:00.000Z",
+        "description": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9\u7d93\u897f\u9580\u7ad9\u81f3\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "duration (text)": "2022/02/11 21:36-22:04",
+        "end": "2022-02-11T14:04:00.000Z",
+        "latitude": 24.9678904600355,
+        "longitude": 121.541502874496,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "MRT Xindian District Gongsuo Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=953BAB577C70169F"
       },
       "type": "Feature"
     },
@@ -11723,6 +12523,131 @@
     {
       "geometry": {
         "coordinates": [
+          120.209488685191,
+          23.280990590342
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u5b78\u7532\u5340\u4e09\u6176\u91cc6\u9130\u9802\u6d3275-25\u865f",
+        "address_en": "No. 75-25, Neighboring Dingzhou, 6 Sanqingli, Xuejia District, Tainan City",
+        "begin": "2022-02-03T01:00:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/03 09:00-13:00",
+        "end": "2022-02-03T05:00:00.000Z",
+        "latitude": 23.280990590342,
+        "longitude": 120.209488685191,
+        "name": "\u9811\u76ae\u4e16\u754c\u91ce\u751f\u52d5\u7269\u5712",
+        "name_en": "WanPi Safari Zoo",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5514245191937183"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.266775467037,
+          23.3170620354874
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u9e7d\u6c34\u5340\u6708\u6d25\u6e2f",
+        "address_en": "Yuejin Port, Yanshui District, Tainan City",
+        "begin": "2022-02-03T06:00:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/03 14:00-15:00",
+        "end": "2022-02-03T07:00:00.000Z",
+        "latitude": 23.3170620354874,
+        "longitude": 120.266775467037,
+        "name": "\u9e7d\u6c34\u6708\u6d25\u6e2f\u71c8\u7bc0",
+        "name_en": "Yanshui Lantern Festival",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5514245191937183"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.28794309929,
+          22.9653193289172
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u5927\u9806\u8857170\u865f",
+        "address_en": "No. 170, Dashun Street, Guiren District, Tainan City",
+        "begin": "2022-02-12T03:47:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/12 11:47",
+        "end": "2022-02-12T04:47:00.000Z",
+        "latitude": 22.9653193289172,
+        "longitude": 120.28794309929,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6b78\u4ec1\u5927\u9806\u5e97",
+        "name_en": "Family-Mart Guiren Dashun Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5514245191937183"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.232700317676,
+          22.9907829135572
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6771\u5340\u4e2d\u83ef\u6771\u8def\u4e00\u6bb5366\u865f3\u6a13",
+        "address_en": "3rd Floor, No. 366, Section 1, Zhonghua East Road, East District, Tainan City",
+        "begin": "2022-01-30T10:44:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/30 18:44-21:00",
+        "end": "2022-01-30T13:00:00.000Z",
+        "latitude": 22.9907829135572,
+        "longitude": 120.232700317676,
+        "name": "\u6f22\u4f86\u852c\u98df\u53f0\u5357\u5e97(\u5357\u7d21\u5922\u6642\u4ee3)",
+        "name_en": "Hanlei Vegetarian Food Tainan Store (T.S. Mall)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://health.tainan.gov.tw/page.asp?mainid=%7B09C09D81%2DCA0E%2D44F3%2D981C%2DBC814FA5DE18%7D"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.232544079003,
+          22.9909532851399
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6771\u5340\u4e2d\u83ef\u6771\u8def\u4e00\u6bb5366\u865f1\u6a13",
+        "address_en": "1st Floor, No. 366, Section 1, Zhonghua East Road, East District, Tainan City",
+        "begin": "2022-01-30T13:10:00.000Z",
+        "description": "",
+        "duration (text)": "2022/01/30 21:10-22:00",
+        "end": "2022-01-30T14:00:00.000Z",
+        "latitude": 22.9909532851399,
+        "longitude": 120.232544079003,
+        "name": "\u661f\u5df4\u514b1F\u5357\u7d21\u9580\u5e02",
+        "name_en": "Starbucks Tainan T.S. Mall 1st Floor Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://health.tainan.gov.tw/page.asp?mainid=%7B09C09D81%2DCA0E%2D44F3%2D981C%2DBC814FA5DE18%7D"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.182511809658,
           23.0472848019707
         ],
@@ -11956,9 +12881,9 @@
       "properties": {
         "address": "\u53f0\u5357\u5e02\u65b0\u71df\u5340\u592a\u5b50\u5bae45-2\u865f",
         "address_en": "No. 45-2, Taigong Palace, Xinying District, Tainan City",
-        "begin": "2022-02-11T03:40:00.000Z",
+        "begin": "2022-02-11T02:40:00.000Z",
         "description": "\u81ea\u884c\u958b\u8eca",
-        "duration (text)": "2022/02/11 11:40",
+        "duration (text)": "2022/02/11 \u7d0411:40",
         "end": "2022-02-11T04:40:00.000Z",
         "latitude": 23.2949561660139,
         "longitude": 120.273301042213,
@@ -11981,9 +12906,9 @@
       "properties": {
         "address": "\u53f0\u5357\u5e02\u65b0\u71df\u5340\u592a\u5b50\u5bae45-2\u865f",
         "address_en": "No. 45-2, Taigong Palace, Xinying District, Tainan City",
-        "begin": "2022-02-11T03:40:00.000Z",
+        "begin": "2022-02-11T02:40:00.000Z",
         "description": "\u81ea\u884c\u958b\u8eca",
-        "duration (text)": "2022/02/11 11:40",
+        "duration (text)": "2022/02/11 \u7d0411:40",
         "end": "2022-02-11T04:40:00.000Z",
         "latitude": 23.2949580136827,
         "longitude": 120.273295007242,
@@ -15835,6 +16760,506 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.43391800294,
+          25.0209460486255
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u65b0\u6a39\u8def198\u865f",
+        "address_en": "",
+        "begin": "2022-02-08T00:51:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 08:51",
+        "end": "2022-02-08T01:51:00.000Z",
+        "latitude": 25.0209460486255,
+        "longitude": 121.43391800294,
+        "name": "\u7530\u5009\u751f\u9bae\u8d85\u5e02",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19664",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.428922292139,
+          25.0222899251685
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u6c11\u5b89\u8def285-1\u865f",
+        "address_en": "No. 285-1, Min'an Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-08T08:07:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 16:07",
+        "end": "2022-02-08T09:07:00.000Z",
+        "latitude": 25.0222899251685,
+        "longitude": 121.428922292139,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u65b0\u838a\u5bcc\u5b89\u5e97",
+        "name_en": "Family Mart Xinzhuang Fu'an Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19664",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541530548224,
+          24.967873621066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e00\u6bb5",
+        "address_en": "",
+        "begin": "2022-02-08T04:23:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/08 12:23",
+        "end": "2022-02-08T05:23:00.000Z",
+        "latitude": 24.967873621066,
+        "longitude": 121.541530548224,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.522816879378,
+          25.0265889048148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def\u4e8c\u6bb5164\u4e4b1\u865fB1\u6a13",
+        "address_en": "",
+        "begin": "2022-02-08T04:23:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/08 12:23",
+        "end": "2022-02-08T05:23:00.000Z",
+        "latitude": 25.0265889048148,
+        "longitude": 121.522816879378,
+        "name": "\u6377\u904b\u53e4\u4ead\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541533737926,
+          24.9678794042801
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e00\u6bb5",
+        "address_en": "",
+        "begin": "2022-02-09T11:12:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/09 19:12",
+        "end": "2022-02-09T12:12:00.000Z",
+        "latitude": 24.9678794042801,
+        "longitude": 121.541533737926,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508291424715,
+          25.0421907404446
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32-1\u865f",
+        "address_en": "",
+        "begin": "2022-02-09T11:12:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda\u30fb\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/09 19:12",
+        "end": "2022-02-09T12:12:00.000Z",
+        "latitude": 25.0421907404446,
+        "longitude": 121.508291424715,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.532899997757,
+          25.0423988650571
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def\u4e00\u6bb567\u865f",
+        "address_en": "",
+        "begin": "2022-02-09T11:12:00.000Z",
+        "description": "\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/09 19:12",
+        "end": "2022-02-09T12:12:00.000Z",
+        "latitude": 25.0423988650571,
+        "longitude": 121.532899997757,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.543802255427,
+          25.0416604652916
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u5fe0\u5b5d\u6771\u8def\u4e09\u6bb5302\u865f",
+        "address_en": "",
+        "begin": "2022-02-09T14:27:00.000Z",
+        "description": "\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/09 22:27",
+        "end": "2022-02-09T15:27:00.000Z",
+        "latitude": 25.0416604652916,
+        "longitude": 121.543802255427,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u5fa9\u8208\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508295429271,
+          25.0421943832073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32-1\u865f",
+        "address_en": "",
+        "begin": "2022-02-09T14:27:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda\u30fb\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/09 22:27",
+        "end": "2022-02-09T15:27:00.000Z",
+        "latitude": 25.0421943832073,
+        "longitude": 121.508295429271,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541533737926,
+          24.967873621066
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e00\u6bb5",
+        "address_en": "",
+        "begin": "2022-02-09T14:27:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/09 22:27",
+        "end": "2022-02-09T15:27:00.000Z",
+        "latitude": 24.967873621066,
+        "longitude": 121.541533737926,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541527358522,
+          24.9678822958871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e00\u6bb5",
+        "address_en": "",
+        "begin": "2022-02-11T00:23:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/11 08:23",
+        "end": "2022-02-11T01:23:00.000Z",
+        "latitude": 24.9678822958871,
+        "longitude": 121.541527358522,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.518314087659,
+          25.032668856793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def\u4e00\u6bb58\u4e4b1\u865f",
+        "address_en": "",
+        "begin": "2022-02-11T00:23:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda \u6de1\u6c34\u4fe1\u7fa9\u7dda",
+        "duration (text)": "2022/02/11 08:23",
+        "end": "2022-02-11T01:23:00.000Z",
+        "latitude": 25.032668856793,
+        "longitude": 121.518314087659,
+        "name": "\u6377\u904b\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517511911178,
+          25.0462255077497
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5317\u5e73\u897f\u8def3\u865f",
+        "address_en": "No. 3, Beiping West Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T00:23:00.000Z",
+        "description": "\u6de1\u6c34\u4fe1\u7fa9\u7dda",
+        "duration (text)": "2022/02/11 08:23",
+        "end": "2022-02-11T01:23:00.000Z",
+        "latitude": 25.0462255077497,
+        "longitude": 121.517511911178,
+        "name": "\u53f0\u5317\u8eca\u7ad9",
+        "name_en": "Taipei Main Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517935409927,
+          25.0492859421661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "",
+        "begin": "2022-02-11T01:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda",
+        "duration (text)": "2022/02/11 09:00",
+        "end": "2022-02-11T02:00:00.000Z",
+        "latitude": 25.0492859421661,
+        "longitude": 121.517935409927,
+        "name": "\u53f0\u5317\u8f49\u904b\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.668148620422,
+          24.1790565557996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, Beitun District, Taichung City",
+        "begin": "2022-02-11T01:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda",
+        "duration (text)": "2022/02/11 09:00",
+        "end": "2022-02-11T02:00:00.000Z",
+        "latitude": 24.1790565557996,
+        "longitude": 120.668148620422,
+        "name": "\u53f0\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "name_en": "Taichung Shuinan Transfer Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.668167586502,
+          24.1790461744881
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u4e2d\u6e05\u8def\u4e8c\u6bb5346\u865f",
+        "address_en": "No. 346, Section 2, Zhongqing Road, Beitun District, Taichung City",
+        "begin": "2022-02-11T08:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda",
+        "duration (text)": "2022/02/11 16:00",
+        "end": "2022-02-11T09:00:00.000Z",
+        "latitude": 24.1790461744881,
+        "longitude": 120.668167586502,
+        "name": "\u53f0\u4e2d\u6c34\u6e73\u8f49\u904b\u7ad9",
+        "name_en": "Taichung Shuinan Transfer Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.517941789331,
+          25.0492859421661
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u5e02\u6c11\u5927\u9053\u4e00\u6bb5209\u865f",
+        "address_en": "",
+        "begin": "2022-02-11T08:00:00.000Z",
+        "description": "\u570b\u5149\u5ba2\u904b1826\u7dda",
+        "duration (text)": "2022/02/11 16:00",
+        "end": "2022-02-11T09:00:00.000Z",
+        "latitude": 25.0492859421661,
+        "longitude": 121.517941789331,
+        "name": "\u53f0\u5317\u8f49\u904b\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.532889268921,
+          25.0423988650571
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def\u4e00\u6bb567\u865f",
+        "address_en": "",
+        "begin": "2022-02-11T14:04:00.000Z",
+        "description": "\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/11 22:04",
+        "end": "2022-02-11T15:04:00.000Z",
+        "latitude": 25.0423988650571,
+        "longitude": 121.532889268921,
+        "name": "\u6377\u904b\u5fe0\u5b5d\u65b0\u751f\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508295429271,
+          25.0421900484199
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32-1\u865f",
+        "address_en": "",
+        "begin": "2022-02-11T14:04:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda\u30fb\u677f\u5357\u7dda",
+        "duration (text)": "2022/02/11 22:04",
+        "end": "2022-02-11T15:04:00.000Z",
+        "latitude": 25.0421900484199,
+        "longitude": 121.508295429271,
+        "name": "\u6377\u904b\u897f\u9580\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.541527867475,
+          24.967876969448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u5317\u65b0\u8def\u4e00\u6bb5",
+        "address_en": "",
+        "begin": "2022-02-11T14:04:00.000Z",
+        "description": "\u677e\u5c71\u65b0\u5e97\u7dda",
+        "duration (text)": "2022/02/11 22:04",
+        "end": "2022-02-11T15:04:00.000Z",
+        "latitude": 24.967876969448,
+        "longitude": 121.541527867475,
+        "name": "\u6377\u904b\u65b0\u5e97\u5340\u516c\u6240\u7ad9",
+        "name_en": "",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5497581393592528"
       },
       "type": "Feature"
     },
@@ -23607,6 +25032,256 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17026",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.210956646639,
+          24.6734374721633
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u5c16\u77f3\u9109\u9326\u5c4f\u67514\u913032\u865f",
+        "address_en": "No. 32, Neighborhood 4, Jinping Village, Jianshi Township, Hsinchu County",
+        "begin": "2022-02-07T03:00:00.000Z",
+        "description": "(\u6709\u98f2\u98df\u672a\u4f69\u6234\u56d7\u7f69)",
+        "duration (text)": "2022/02/07 11:00-12:00",
+        "end": "2022-02-07T04:00:00.000Z",
+        "latitude": 24.6734374721633,
+        "longitude": 121.210956646639,
+        "name": "\u671d\u65e5\u6eab\u6cc9",
+        "name_en": "Asahi Onsen",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2881085128850215"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.181215022588,
+          24.7058058668779
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u6a6b\u5c71\u9109\u5167\u7063\u6751\u4e2d\u6b63\u8def271\u865f",
+        "address_en": "No. 271, Zhongzheng Road, Neiwan Village, Hengshan Township, Hsinchu County",
+        "begin": "2022-02-07T05:00:00.000Z",
+        "description": "(\u7528\u9910\u672a\u4f69\u6234\u56d7\u7f69\u7d0420\u5206\u9418)",
+        "duration (text)": "2022/02/07 13:00-13:20",
+        "end": "2022-02-07T05:20:00.000Z",
+        "latitude": 24.7058058668779,
+        "longitude": 121.181215022588,
+        "name": "\u4e00\u52fa\u767e\u8336\u5802",
+        "name_en": "Yishao Baichatang",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2881085128850215"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.181011556826,
+          24.7057540793056
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u6a6b\u5c71\u9109\u5167\u7063\u6751\u4e2d\u6b63\u8def269\u865f",
+        "address_en": "No. 269, Zhongzheng Road, Neiwan Village, Hengshan Township, Hsinchu County",
+        "begin": "2022-02-07T05:20:00.000Z",
+        "description": "(\u6709\u4f69\u6234\u56d7\u7f69)",
+        "duration (text)": "2022/02/07 13:20-13:30",
+        "end": "2022-02-07T05:30:00.000Z",
+        "latitude": 24.7057540793056,
+        "longitude": 121.181011556826,
+        "name": "\u90ed\u91d1\u5c71\u82b1\u751f\u5e97",
+        "name_en": "Guo Jinshan Peanut Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2881085128850215"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.181460594123,
+          24.7056964977728
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u6a6b\u5c71\u9109\u5167\u7063\u6751\u4e2d\u6b63\u8def223\u865f",
+        "address_en": "No. 223, Zhongzheng Road, Neiwan Village, Hengshan Township, Hsinchu County",
+        "begin": "2022-02-07T05:30:00.000Z",
+        "description": "(\u6709\u6234\u56d7\u7f69\u505c\u7559\u7d041\u5c0f\u6642)",
+        "duration (text)": "2022/02/07 13:30-14:30",
+        "end": "2022-02-07T06:30:00.000Z",
+        "latitude": 24.7056964977728,
+        "longitude": 121.181460594123,
+        "name": "\u5e7b\u591a\u5947\u535a\u7269\u9928",
+        "name_en": "FantaSea Museum",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2881085128850215"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04969,
+          24.82764
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-07T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/7 \u7d049:00-10:00",
+        "end": "2022-02-07T02:00:00.000Z",
+        "latitude": 24.82764,
+        "longitude": 121.04969,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04966,
+          24.82763
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-08T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/8 \u7d049:00-10:00",
+        "end": "2022-02-08T02:00:00.000Z",
+        "latitude": 24.82763,
+        "longitude": 121.04966,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04962,
+          24.82765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-09T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/9 \u7d049:00-10:00",
+        "end": "2022-02-09T02:00:00.000Z",
+        "latitude": 24.82765,
+        "longitude": 121.04962,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04968,
+          24.82761
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-10T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/10 \u7d049:00-10:00",
+        "end": "2022-02-10T02:00:00.000Z",
+        "latitude": 24.82761,
+        "longitude": 121.04968,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04972,
+          24.82765
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-11T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/11 \u7d049:00-10:00",
+        "end": "2022-02-11T02:00:00.000Z",
+        "latitude": 24.82765,
+        "longitude": 121.04972,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.04966,
+          24.82767
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u7af9\u7e23\u65b0\u57d4\u93ae\u6587\u5c71\u91cc\u9060\u6771\u6bb5\u5730\u865f1025",
+        "address_en": "No. 1025, Far East Section, Wenshan Lane, Xinpu Town, Hsinchu County",
+        "begin": "2022-02-12T00:00:00.000Z",
+        "description": "\u8fb2\u7530\u7a2e\u83dc\u6709\u6234\u53e3\u7f69",
+        "duration (text)": "2022/2/12 \u7d049:00-10:00",
+        "end": "2022-02-12T02:00:00.000Z",
+        "latitude": 24.82767,
+        "longitude": 121.04966,
+        "name": "\u8fb2\u7530",
+        "name_en": "farmland",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19666",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2880377518920976"
       },
       "type": "Feature"
     },
@@ -55523,6 +57198,742 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17264",
         "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3791772"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.901186756448,
+          24.6927720173051
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u4e2d\u592e\u8def328\u865f",
+        "address_en": "No. 328, Central Road, Toufen City, Miaoli County",
+        "begin": "2022-02-06T04:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 12:30-13:30",
+        "end": "2022-02-06T05:30:00.000Z",
+        "latitude": 24.6927720173051,
+        "longitude": 120.901186756448,
+        "name": "\u4e94\u82b1\u99ac\u6c34\u9903\u5e97",
+        "name_en": "Wuhuama Dumpling Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.911408556452,
+          24.6965942600619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 14:00-14:40",
+        "end": "2022-02-06T06:40:00.000Z",
+        "latitude": 24.6965942600619,
+        "longitude": 120.911408556452,
+        "name": "\u982d\u4efd\u5e02\u87e0\u6843\u516c\u5712",
+        "name_en": "Toufen Pantao Park",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          [
+            [
+              120.91171056032181,
+              24.695803514116168
+            ],
+            [
+              120.91220140457153,
+              24.696502899843804
+            ],
+            [
+              120.91110974550247,
+              24.697143796906566
+            ],
+            [
+              120.91074228286743,
+              24.69686355715166
+            ],
+            [
+              120.91091394424438,
+              24.69678070353819
+            ],
+            [
+              120.91081202030183,
+              24.696597938019487
+            ],
+            [
+              120.91091662645339,
+              24.696524831736944
+            ],
+            [
+              120.9108254313469,
+              24.696342065842906
+            ],
+            [
+              120.91171056032181,
+              24.695803514116168
+            ]
+          ]
+        ],
+        "type": "Polygon"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 14:00-14:40",
+        "end": "2022-02-06T06:40:00.000Z",
+        "latitude": 24.6965942600619,
+        "longitude": 120.911408556452,
+        "name": "\u982d\u4efd\u5e02\u87e0\u6843\u516c\u5712",
+        "name_en": "Toufen Pantao Park",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879394446402,
+          24.6919455322664
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-06T16:00:00.000Z",
+        "description": "\u5168\u5929",
+        "duration (text)": "2022/02/07",
+        "end": "2022-02-07T16:00:00.000Z",
+        "latitude": 24.6919455322664,
+        "longitude": 120.879394446402,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.865741026622,
+          24.4260389005208
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5feb\u901f\u9053\u8def\u9032\u5927\u6e56\u5f8c\u53f3\u624b\u908a\u7b2c\u4e09\u6216\u7b2c\u56db\u9593\u8349\u8393\u5712",
+        "address_en": "The third or fourth strawberry farm on the right after the expressway enters Dahu",
+        "begin": "2022-02-08T06:00:00.000Z",
+        "description": "\u653f\u5e9c\u6c92\u6709\u516c\u544a\u6b64\u8db3\u8de1\u78ba\u5207\u5730\u5740\uff0c\u6b64\u8db3\u8de1\u53ea\u4ee3\u8868\u7d04\u7565\u7bc4\u570d\u3001\u4e0d\u4ee3\u8868\u78ba\u8a3a\u8005\u4e00\u5b9a\u7d93\u904e\u6b64\u4f4d\u7f6e",
+        "duration (text)": "2022/02/08 14:00-16:00",
+        "end": "2022-02-08T08:00:00.000Z",
+        "latitude": 24.4260389005208,
+        "longitude": 120.865741026622,
+        "name": "\u5927\u6e56\u63a1\u8349\u8393",
+        "name_en": "Strawberry Picking at Dahu Lake",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.875534497128,
+          24.689730182751
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5efa\u570b\u8def66\u4e4b68\u865f",
+        "address_en": "No. 66-68, Jianguo Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T11:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 19:30-20:30",
+        "end": "2022-02-08T12:30:00.000Z",
+        "latitude": 24.689730182751,
+        "longitude": 120.875534497128,
+        "name": "\u7af9\u5357\u7121\u540d\u706b\u934b\u5e97",
+        "name_en": "Zhunan Wuming Hot Pot Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879387075939,
+          24.6919480434758
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T00:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 8:00-13:00",
+        "end": "2022-02-09T05:00:00.000Z",
+        "latitude": 24.6919480434758,
+        "longitude": 120.879387075939,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879741669356,
+          24.690058836476
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def272\u865f",
+        "address_en": "No. 272, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 18:00-19:00",
+        "end": "2022-02-09T11:00:00.000Z",
+        "latitude": 24.690058836476,
+        "longitude": 120.879741669356,
+        "name": "\u7af9\u5357\u8a3a\u6240",
+        "name_en": "Zhunan Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879400895557,
+          24.691957251243
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-10T00:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 8:00-18:00",
+        "end": "2022-02-10T10:00:00.000Z",
+        "latitude": 24.691957251243,
+        "longitude": 120.879400895557,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19641",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.901184744791,
+          24.6927695803549
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u4e2d\u592e\u8def328\u865f",
+        "address_en": "No. 328, Central Road, Toufen City, Miaoli County",
+        "begin": "2022-02-06T04:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 12:30-13:30",
+        "end": "2022-02-06T05:30:00.000Z",
+        "latitude": 24.6927695803549,
+        "longitude": 120.901184744791,
+        "name": "\u4e94\u82b1\u99ac\u6c34\u9903\u5e97",
+        "name_en": "Wuhuama Dumpling Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.911365171885,
+          24.6966027064141
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 14:00-14:40",
+        "end": "2022-02-06T06:40:00.000Z",
+        "latitude": 24.6966027064141,
+        "longitude": 120.911365171885,
+        "name": "\u982d\u4efd\u5e02\u87e0\u6843\u516c\u5712",
+        "name_en": "Toufen Pantao Park",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879406423403,
+          24.6919396727777
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-06T16:00:00.000Z",
+        "description": "\u5168\u5929",
+        "duration (text)": "2022/02/07",
+        "end": "2022-02-07T16:00:00.000Z",
+        "latitude": 24.6919396727777,
+        "longitude": 120.879406423403,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.865750584929,
+          24.4260650089122
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5feb\u901f\u9053\u8def\u9032\u5927\u6e56\u5f8c\u53f3\u624b\u908a\u7b2c\u4e09\u6216\u7b2c\u56db\u9593\u8349\u8393\u5712",
+        "address_en": "The third or fourth strawberry farm on the right after the expressway enters Dahu",
+        "begin": "2022-02-08T06:00:00.000Z",
+        "description": "\u653f\u5e9c\u6c92\u6709\u516c\u544a\u6b64\u8db3\u8de1\u78ba\u5207\u5730\u5740\uff0c\u6b64\u8db3\u8de1\u53ea\u4ee3\u8868\u7d04\u7565\u7bc4\u570d\u3001\u4e0d\u4ee3\u8868\u78ba\u8a3a\u8005\u4e00\u5b9a\u7d93\u904e\u6b64\u4f4d\u7f6e",
+        "duration (text)": "2022/02/08 14:00-16:00",
+        "end": "2022-02-08T08:00:00.000Z",
+        "latitude": 24.4260650089122,
+        "longitude": 120.865750584929,
+        "name": "\u5927\u6e56\u63a1\u8349\u8393",
+        "name_en": "Strawberry Picking at Dahu Lake",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879387075939,
+          24.6919413469173
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T00:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 8:00-13:00",
+        "end": "2022-02-09T05:00:00.000Z",
+        "latitude": 24.6919413469173,
+        "longitude": 120.879387075939,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879386154631,
+          24.6919530658944
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def285\u865f",
+        "address_en": "No. 285, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-10T00:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 8:00-18:00",
+        "end": "2022-02-10T10:00:00.000Z",
+        "latitude": 24.6919530658944,
+        "longitude": 120.879386154631,
+        "name": "\u6587\u5c71\u68c9\u88ab\u884c",
+        "name_en": "Wenshan Quilt Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879336356928,
+          24.6914117405092
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9265\u865f",
+        "address_en": "No. 265 Guangfu, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T02:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 10:00-11:00",
+        "end": "2022-02-11T03:00:00.000Z",
+        "latitude": 24.6914117405092,
+        "longitude": 120.879336356928,
+        "name": "\u5b8f\u5b89\u8a3a\u6240",
+        "name_en": "Wang On Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19642",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.87704616917,
+          24.6837609991132
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u4e2d\u6b63\u8def89\u865f",
+        "address_en": "No. 89, Zhongzheng Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-03T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/03 12:00-14:00",
+        "end": "2022-02-03T06:00:00.000Z",
+        "latitude": 24.6837609991132,
+        "longitude": 120.87704616917,
+        "name": "\u4e00\u54c1\u714a\u7f8e\u98df\u9928",
+        "name_en": "Yipinxuan Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.865664560171,
+          24.425934466901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u5feb\u901f\u9053\u8def\u9032\u5927\u6e56\u5f8c\u53f3\u624b\u908a\u7b2c\u4e09\u6216\u7b2c\u56db\u9593\u8349\u8393\u5712",
+        "address_en": "The third or fourth strawberry farm on the right after the expressway enters Dahu",
+        "begin": "2022-02-08T06:00:00.000Z",
+        "description": "\u653f\u5e9c\u6c92\u6709\u516c\u544a\u6b64\u8db3\u8de1\u78ba\u5207\u5730\u5740\uff0c\u6b64\u8db3\u8de1\u53ea\u4ee3\u8868\u7d04\u7565\u7bc4\u570d\u3001\u4e0d\u4ee3\u8868\u78ba\u8a3a\u8005\u4e00\u5b9a\u7d93\u904e\u6b64\u4f4d\u7f6e",
+        "duration (text)": "2022/02/08 14:00-16:00",
+        "end": "2022-02-08T08:00:00.000Z",
+        "latitude": 24.425934466901,
+        "longitude": 120.865664560171,
+        "name": "\u5927\u6e56\u63a1\u8349\u8393",
+        "name_en": "Strawberry Picking at Dahu Lake",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878383899498,
+          24.6873361059277
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 09:00-10:00",
+        "end": "2022-02-09T02:00:00.000Z",
+        "latitude": 24.6873361059277,
+        "longitude": 120.878383899498,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878493717013,
+          24.6859214164346
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u885786\u865f",
+        "address_en": "No. 86 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 15:00-15:35",
+        "end": "2022-02-09T07:35:00.000Z",
+        "latitude": 24.6859214164346,
+        "longitude": 120.878493717013,
+        "name": "\u7af9\u5357\u90f5\u5c40",
+        "name_en": "Zhunan Post Office",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878488787194,
+          24.6857162500583
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u885782\u865f",
+        "address_en": "No. 82, Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T07:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 15:40-15:45",
+        "end": "2022-02-09T07:45:00.000Z",
+        "latitude": 24.6857162500583,
+        "longitude": 120.878488787194,
+        "name": "\u7af9\u53577-11 \u6176\u7af9\u9580\u5e02",
+        "name_en": "Zhunan 7-11 Qingzhu Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.864632422768,
+          24.6828835625945
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u4e2d\u6b63\u8def308\u865f",
+        "address_en": "No. 308, Zhongzheng Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-10T03:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 11:40-11:45",
+        "end": "2022-02-10T03:45:00.000Z",
+        "latitude": 24.6828835625945,
+        "longitude": 120.864632422768,
+        "name": "\u4e2d\u6e2f\u8089\u5713",
+        "name_en": "Chinese and Hong Kong Meatballs",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19643",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.901196814732,
+          24.6927701895925
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u4e2d\u592e\u8def328\u865f",
+        "address_en": "No. 328, Central Road, Toufen City, Miaoli County",
+        "begin": "2022-02-06T04:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 12:30-13:30",
+        "end": "2022-02-06T05:30:00.000Z",
+        "latitude": 24.6927701895925,
+        "longitude": 120.901196814732,
+        "name": "\u4e94\u82b1\u99ac\u6c34\u9903\u5e97",
+        "name_en": "Wuhuama Dumpling Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.911414754248,
+          24.6966787235576
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/06 14:00-14:40",
+        "end": "2022-02-06T06:40:00.000Z",
+        "latitude": 24.6966787235576,
+        "longitude": 120.911414754248,
+        "name": "\u982d\u4efd\u5e02\u87e0\u6843\u516c\u5712",
+        "name_en": "Toufen Pantao Park",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.875528462158,
+          24.689733229013
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5efa\u570b\u8def66\u4e4b68\u865f",
+        "address_en": "No. 66-68, Jianguo Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T11:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 19:30-20:30",
+        "end": "2022-02-08T12:30:00.000Z",
+        "latitude": 24.689733229013,
+        "longitude": 120.875528462158,
+        "name": "\u7af9\u5357\u7121\u540d\u706b\u934b\u5e97",
+        "name_en": "Zhunan Wuming Hot Pot Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879749643612,
+          24.6900776741366
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def272\u865f",
+        "address_en": "No. 272, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/09 19:00-19:10",
+        "end": "2022-02-09T11:10:00.000Z",
+        "latitude": 24.6900776741366,
+        "longitude": 120.879749643612,
+        "name": "\u7af9\u5357\u8a3a\u6240",
+        "name_en": "Zhunan Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879348426868,
+          24.6914153959743
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def265\u865f",
+        "address_en": "No. 265, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T02:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 10:00-11:00",
+        "end": "2022-02-11T03:00:00.000Z",
+        "latitude": 24.6914153959743,
+        "longitude": 120.879348426868,
+        "name": "\u5b8f\u5b89\u8a3a\u6240",
+        "name_en": "Wang On Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879529405613,
+          24.6912907558574
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def342\u865f",
+        "address_en": "No. 342, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T03:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 11:40-11:45",
+        "end": "2022-02-11T03:45:00.000Z",
+        "latitude": 24.6912907558574,
+        "longitude": 120.879529405613,
+        "name": "7-11\u5149\u5357\u9580\u5e02",
+        "name_en": "7-11 Guangnan Gate",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19644",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4853251984769916"
       },
       "type": "Feature"
     },
