@@ -628,6 +628,81 @@
     {
       "geometry": {
         "coordinates": [
+          121.5217403666,
+          25.0562687382943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u4e2d\u5c71\u5317\u8def\u4e8c\u6bb550\u5df715\u865f",
+        "address_en": "No. 15, Lane 50, Section 2, Zhongshan North Road, Zhongshan District, Taipei City",
+        "begin": "2022-02-11T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 12:00-13:00",
+        "end": "2022-02-11T05:00:00.000Z",
+        "latitude": 25.0562687382943,
+        "longitude": 121.5217403666,
+        "name": "\u5409\u677e\u65e5\u672c\u6599\u7406",
+        "name_en": "Yoshimatsu Japanese Cuisine",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=45FC2DCB1F3F1FE7"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.516339040109,
+          25.0476542940702
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u5317\u5e73\u897f\u8def3\u865f",
+        "address_en": "No. 3, Beiping West Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T06:31:00.000Z",
+        "description": "\u9ad8\u9435-\u8eca\u6b210137 \u53f0\u5317\u7ad9-\u5de6\u71df\u7ad9",
+        "duration (text)": "2022/02/11 14:31-16:05",
+        "end": "2022-02-11T08:05:00.000Z",
+        "latitude": 25.0476542940702,
+        "longitude": 121.516339040109,
+        "name": "\u9ad8\u9435\u53f0\u5317\u7ad9 (\u8eca\u6b210137)",
+        "name_en": "HSR Taipei Station (Train No. 0137)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=45FC2DCB1F3F1FE7"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.3074048849,
+          22.6874430572178
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u83dc\u516c\u91cc",
+        "address_en": "Zuoying District, Kaohsiung City",
+        "begin": "2022-02-11T06:31:00.000Z",
+        "description": "\u9ad8\u9435-\u8eca\u6b210137 \u53f0\u5317\u7ad9-\u5de6\u71df\u7ad9",
+        "duration (text)": "2022/02/11 14:31-16:05",
+        "end": "2022-02-11T08:05:00.000Z",
+        "latitude": 22.6874430572178,
+        "longitude": 120.3074048849,
+        "name": "\u9ad8\u9435\u5de6\u71df\u7ad9 (\u8eca\u6b210137)",
+        "name_en": "High Speed Rail Zuoying Station (Train No. 0137)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=45FC2DCB1F3F1FE7"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.54154668702,
           24.9678369928304
         ],
@@ -738,15 +813,15 @@
         "address_en": "No. 1, Pucheng Street, Daan District, Taipei City",
         "begin": "2022-02-08T08:24:00.000Z",
         "description": "",
-        "duration (text)": "2022/02/08 16:24-16:52",
-        "end": "2022-02-08T08:52:00.000Z",
+        "duration (text)": "2022/02/08 16:24-16:27",
+        "end": "2022-02-08T08:27:00.000Z",
         "latitude": 25.0246310626645,
         "longitude": 121.528058476807,
         "name": "\u6c34\u6e96\u66f8\u5c40",
         "name_en": "Standard Bookstore",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "19665",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3829731"
       },
       "type": "Feature"
     },
@@ -763,15 +838,40 @@
         "address_en": "No. 10, Alley 7, Lane 283, Section 3, Roosevelt Road, Daan District, Taipei City",
         "begin": "2022-02-08T09:06:00.000Z",
         "description": "",
-        "duration (text)": "2022/02/08 17:06-17:50",
-        "end": "2022-02-08T09:50:00.000Z",
+        "duration (text)": "2022/02/08 17:06-17:10",
+        "end": "2022-02-08T09:10:00.000Z",
         "latitude": 25.0186736807092,
         "longitude": 121.531183234984,
         "name": "AMOUTER\u6236\u5916\u7528\u54c1\u5e97",
         "name_en": "AMOUTER Outdoor Shop",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "19665",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=AA97F8DCA02F802B"
+        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3829731"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.533030124271,
+          25.0169877837937
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u5b89\u5340\u65b0\u751f\u5357\u8def\u4e09\u6bb598\u865f",
+        "address_en": "No. 98, Section 3, Xinsheng South Road, Daan District, Taipei City",
+        "begin": "2022-02-08T09:14:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/08 17:14-17:50",
+        "end": "2022-02-08T09:50:00.000Z",
+        "latitude": 25.0169877837937,
+        "longitude": 121.533030124271,
+        "name": "\u8aa0\u54c1\u53f0\u5927\u5e97",
+        "name_en": "Eslite National Taiwan University",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19665",
+        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3829731"
       },
       "type": "Feature"
     },
@@ -12598,8 +12698,8 @@
     {
       "geometry": {
         "coordinates": [
-          120.232700317676,
-          22.9907829135572
+          120.233557828269,
+          22.9913241932767
         ],
         "type": "Point"
       },
@@ -12610,13 +12710,13 @@
         "description": "",
         "duration (text)": "2022/01/30 18:44-21:00",
         "end": "2022-01-30T13:00:00.000Z",
-        "latitude": 22.9907829135572,
-        "longitude": 120.232700317676,
+        "latitude": 22.9913241932767,
+        "longitude": 120.233557828269,
         "name": "\u6f22\u4f86\u852c\u98df\u53f0\u5357\u5e97(\u5357\u7d21\u5922\u6642\u4ee3)",
         "name_en": "Hanlei Vegetarian Food Tainan Store (T.S. Mall)",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "19665",
-        "\u8cc7\u6599\u4f86\u6e90": "https://health.tainan.gov.tw/page.asp?mainid=%7B09C09D81%2DCA0E%2D44F3%2D981C%2DBC814FA5DE18%7D"
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5514164405278595"
       },
       "type": "Feature"
     },
@@ -12631,9 +12731,9 @@
       "properties": {
         "address": "\u53f0\u5357\u5e02\u6771\u5340\u4e2d\u83ef\u6771\u8def\u4e00\u6bb5366\u865f1\u6a13",
         "address_en": "1st Floor, No. 366, Section 1, Zhonghua East Road, East District, Tainan City",
-        "begin": "2022-01-30T13:10:00.000Z",
+        "begin": "2022-01-30T12:10:00.000Z",
         "description": "",
-        "duration (text)": "2022/01/30 21:10-22:00",
+        "duration (text)": "2022/01/30 \u7d0421:10-22:00",
         "end": "2022-01-30T14:00:00.000Z",
         "latitude": 22.9909532851399,
         "longitude": 120.232544079003,
@@ -12641,7 +12741,7 @@
         "name_en": "Starbucks Tainan T.S. Mall 1st Floor Store",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "19665",
-        "\u8cc7\u6599\u4f86\u6e90": "https://health.tainan.gov.tw/page.asp?mainid=%7B09C09D81%2DCA0E%2D44F3%2D981C%2DBC814FA5DE18%7D"
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5514164405278595"
       },
       "type": "Feature"
     },
@@ -16760,6 +16860,106 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.393818002415,
+          24.9722788989026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6a39\u6797\u5340\u4e2d\u5c71\u8def\u4e09\u6bb5209-1\u865f211\u865f",
+        "address_en": "No. 211, No. 209-1, Section 3, Zhongshan Road, Shulin District, New Taipei City",
+        "begin": "2022-02-10T07:51:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 15:51",
+        "end": "2022-02-10T08:51:00.000Z",
+        "latitude": 24.9722788989026,
+        "longitude": 121.393818002415,
+        "name": "7-ELEVEN \u4f73\u653f\u9580\u5e02",
+        "name_en": "7-ELEVEN Jiazheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19794, 19795",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=9421"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.427121728957,
+          25.011502428292
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u6c11\u5b89\u897f\u8def309\u865f",
+        "address_en": "No. 309, Min'an West Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-11T07:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 15:30",
+        "end": "2022-02-11T08:30:00.000Z",
+        "latitude": 25.011502428292,
+        "longitude": 121.427121728957,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3-\u65b0\u838a\u6c11\u5b89\u9580\u5e02",
+        "name_en": "Quanlian Welfare Center-Xinzhuang Min'anmen City",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19794, 19795",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=9421"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.426614345578,
+          25.0177199508195
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u6c11\u5b89\u897f\u8def135\u865f",
+        "address_en": "No. 135, Min'an West Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-11T07:35:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 15:35-15:41",
+        "end": "2022-02-11T07:41:00.000Z",
+        "latitude": 25.0177199508195,
+        "longitude": 121.426614345578,
+        "name": "\u5eb7\u662f\u7f8e-\u9802\u76db\u9580\u5e02",
+        "name_en": "Kangshimei-Dingsheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19794, 19795",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=9421"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.426615686682,
+          25.0177242042927
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u6c11\u5b89\u897f\u8def135\u865f",
+        "address_en": "No. 135, Min'an West Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-12T08:43:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/12 16:43-16:50",
+        "end": "2022-02-12T08:50:00.000Z",
+        "latitude": 25.0177242042927,
+        "longitude": 121.426615686682,
+        "name": "\u5eb7\u662f\u7f8e-\u9802\u76db\u9580\u5e02",
+        "name_en": "Kangshimei-Dingsheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19794, 19795",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=9421"
       },
       "type": "Feature"
     },
@@ -57204,6 +57404,681 @@
     {
       "geometry": {
         "coordinates": [
+          120.901183591967,
+          24.6927719479358
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u4e2d\u592e\u8def328\u865f",
+        "address_en": "No. 328, Central Road, Toufen City, Miaoli County",
+        "begin": "2022-02-06T04:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/6 12:30-13:30",
+        "end": "2022-02-06T05:30:00.000Z",
+        "latitude": 24.6927719479358,
+        "longitude": 120.901183591967,
+        "name": "\u4e94\u82b1\u99ac\u6c34\u9903\u5e97",
+        "name_en": "Wuhuama Dumpling Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.911372724425,
+          24.6966130850062
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02",
+        "address_en": "Toufen City, Miaoli County",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/6 14:00-14:40",
+        "end": "2022-02-06T06:40:00.000Z",
+        "latitude": 24.6966130850062,
+        "longitude": 120.911372724425,
+        "name": "\u87e0\u6843\u516c\u5712",
+        "name_en": "Pantao Park",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.876491970805,
+          24.6837074281815
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u4e2d\u6b63\u8def111\u865f",
+        "address_en": "No. 111, Zhongzheng Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-07T02:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/7 10:00-10:30",
+        "end": "2022-02-07T02:30:00.000Z",
+        "latitude": 24.6837074281815,
+        "longitude": 120.876491970805,
+        "name": "\u8def\u52a0\u7259\u91ab\u8a3a\u6240",
+        "name_en": "Lujia Dentist Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.875536115413,
+          24.6897421076295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5efa\u570b\u8def66\u4e4b68\u865f",
+        "address_en": "No. 66-68, Jianguo Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T11:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/8 19:30-20:30",
+        "end": "2022-02-08T12:30:00.000Z",
+        "latitude": 24.6897421076295,
+        "longitude": 120.875536115413,
+        "name": "\u7af9\u5357\u7121\u540d\u706b\u934b\u5e97",
+        "name_en": "Zhunan Nameless Hot Pot Restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.876546402603,
+          24.6878250167508
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u81ea\u7531\u885788\u4e4b15\u865f",
+        "address_en": "No. 88-15, Freedom Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T12:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/8 20:30-20:35",
+        "end": "2022-02-08T12:35:00.000Z",
+        "latitude": 24.6878250167508,
+        "longitude": 120.876546402603,
+        "name": "\u4f0a\u8c46\u86cb\u7cd5",
+        "name_en": "Izu Cake",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878510624433,
+          24.6874906145553
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857146\u865f\u5c0d\u9762(\u539f\u9802\u597d\u8d85\u5e02\u5c0d\u9762)",
+        "address_en": "Opposite to No. 146 Minzu Street, Zhunan Town, Miaoli County (opposite to the original Dinghao Supermarket)",
+        "begin": "2022-02-09T14:00:00.000Z",
+        "description": "\u8cb7\u6d88\u591c",
+        "duration (text)": "2022/2/9 22:00-22:20",
+        "end": "2022-02-09T14:20:00.000Z",
+        "latitude": 24.6874906145553,
+        "longitude": 120.878510624433,
+        "name": "\u6771\u5c71\u9d28\u982d",
+        "name_en": "Dongshan duck head",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879657223422,
+          24.6900562359074
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def272\u865f",
+        "address_en": "No. 272, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/9 18:00-20:00",
+        "end": "2022-02-09T12:00:00.000Z",
+        "latitude": 24.6900562359074,
+        "longitude": 120.879657223422,
+        "name": "\u7af9\u5357\u8a3a\u6240",
+        "name_en": "Zhunan Clinic",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19686",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878379997226,
+          24.6873547046011
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-01-29T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/1/30 06:00-14:00",
+        "end": "2022-01-30T06:00:00.000Z",
+        "latitude": 24.6873547046011,
+        "longitude": 120.878379997226,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.875225865305,
+          24.6894113384613
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u71df\u76e4\u91cc7\u9130\u5fe0\u7fa9\u88576\u865f",
+        "address_en": "No. 6, Zhongyi Street, 7th Neighborhood, Yingpanli, Zhunan Town, Miaoli County",
+        "begin": "2022-01-31T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/1/31 09:00-09:10",
+        "end": "2022-01-31T01:10:00.000Z",
+        "latitude": 24.6894113384613,
+        "longitude": 120.875225865305,
+        "name": "\u5473\u9109\u5546\u884c",
+        "name_en": "Weixiang Firm",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.868592733099,
+          24.6885920883328
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u71df\u76e4\u908a54\u4e4b7\u865f",
+        "address_en": "No. 54-7, Yingpanbian, Zhunan Town, Miaoli County",
+        "begin": "2022-01-31T23:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/1 07:30-08:00",
+        "end": "2022-02-01T00:00:00.000Z",
+        "latitude": 24.6885920883328,
+        "longitude": 120.868592733099,
+        "name": "\u5408\u5b89\u5bae\u571f\u5730\u516c\u5edf",
+        "name_en": "He'an Earth Temple",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.86647889722,
+          24.6937017373021
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u9f8d\u5b89\u885769\u865f",
+        "address_en": "No. 69, Longan Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-02T03:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/2 11:00-14:00",
+        "end": "2022-02-02T06:00:00.000Z",
+        "latitude": 24.6937017373021,
+        "longitude": 120.86647889722,
+        "name": "\u7af9\u5357\u540e\u539d\u9f8d\u9cf3\u5bae\u53ca\u5edf\u524d\u6524\u8ca9",
+        "name_en": "Zhunan Houcuo, Longfeng Temple and vendors in front of the temple",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.877284715571,
+          24.4964128848846
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7345\u6f6d\u9109\u65b0\u8c50\u6751\u516b\u89d2\u575134\u865f",
+        "address_en": "No. 34 Bajiaokeng, Xinfeng Village, Shitan Township, Miaoli County",
+        "begin": "2022-02-04T01:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/4 09:30-11:30",
+        "end": "2022-02-04T03:30:00.000Z",
+        "latitude": 24.4964128848846,
+        "longitude": 120.877284715571,
+        "name": "\u5354\u96f2\u5bae",
+        "name_en": "Xieyun Temple",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.921111397494,
+          24.541700710776
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7345\u6f6d\u9109\u65b0\u5e97\u67514\u913046-5\u865f",
+        "address_en": "No. 46-5, Neighborhood 4, Xindian Village, Shitan Township, Miaoli County",
+        "begin": "2022-02-04T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/4 12:00-13:00",
+        "end": "2022-02-04T05:00:00.000Z",
+        "latitude": 24.541700710776,
+        "longitude": 120.921111397494,
+        "name": "\u8303\u982d\u5bb6\u5ba2\u5bb6\u8fb2\u838a",
+        "name_en": "Fantoujia Hakka Farm",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.904667462593,
+          24.6881971003964
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u982d\u4efd\u5e02\u80b2\u6a02\u88576-6\u865f",
+        "address_en": "No. 6-6, Yule Street, Toufen City, Miaoli County",
+        "begin": "2022-02-05T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/5 14:00-16:30",
+        "end": "2022-02-05T08:30:00.000Z",
+        "latitude": 24.6881971003964,
+        "longitude": 120.904667462593,
+        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c5\u6a13\u6e6f\u59c6\u718a",
+        "name_en": "Tom Bear, 5th Floor, Shangshun Entertainment World",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878407605267,
+          24.687364738471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-05T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/6 06:00-14:00",
+        "end": "2022-02-06T06:00:00.000Z",
+        "latitude": 24.687364738471,
+        "longitude": 120.878407605267,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879424653975,
+          24.6890950778536
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def236\u865f",
+        "address_en": "No. 236, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-06T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/6 14:00-14:10",
+        "end": "2022-02-06T06:10:00.000Z",
+        "latitude": 24.6890950778536,
+        "longitude": 120.879424653975,
+        "name": "\u6eff\u610f\u9eb5\u98df\u9928",
+        "name_en": "Manyi noodle restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878417268081,
+          24.687334636859
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-07T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/8 06:00-14:00",
+        "end": "2022-02-08T06:00:00.000Z",
+        "latitude": 24.687334636859,
+        "longitude": 120.878417268081,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878396562051,
+          24.6873509418997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/9 06:00-14:00",
+        "end": "2022-02-09T06:00:00.000Z",
+        "latitude": 24.6873509418997,
+        "longitude": 120.878396562051,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878422789689,
+          24.6873271114548
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/10 06:00-14:00",
+        "end": "2022-02-10T06:00:00.000Z",
+        "latitude": 24.6873271114548,
+        "longitude": 120.878422789689,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878384138432,
+          24.687330874157
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-10T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/11 06:00-14:00",
+        "end": "2022-02-11T06:00:00.000Z",
+        "latitude": 24.687330874157,
+        "longitude": 120.878384138432,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879420630662,
+          24.6890889852983
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def236\u865f",
+        "address_en": "No. 236, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-08T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/8 14:00-14:10",
+        "end": "2022-02-08T06:10:00.000Z",
+        "latitude": 24.6890889852983,
+        "longitude": 120.879420630662,
+        "name": "\u6eff\u610f\u9eb5\u98df\u9928",
+        "name_en": "Manyi noodle restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879414595691,
+          24.6890932500871
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def236\u865f",
+        "address_en": "No. 236, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-09T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/9 14:00-14:10",
+        "end": "2022-02-09T06:10:00.000Z",
+        "latitude": 24.6890932500871,
+        "longitude": 120.879414595691,
+        "name": "\u6eff\u610f\u9eb5\u98df\u9928",
+        "name_en": "Manyi noodle restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879412584035,
+          24.6890883760428
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def236\u865f",
+        "address_en": "No. 236, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-10T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/10 14:00-14:10",
+        "end": "2022-02-10T06:10:00.000Z",
+        "latitude": 24.6890883760428,
+        "longitude": 120.879412584035,
+        "name": "\u6eff\u610f\u9eb5\u98df\u9928",
+        "name_en": "Manyi noodle restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.879421301214,
+          24.6890962963646
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5149\u5fa9\u8def236\u865f",
+        "address_en": "No. 236, Guangfu Road, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/11 14:00-14:10",
+        "end": "2022-02-11T06:10:00.000Z",
+        "latitude": 24.6890962963646,
+        "longitude": 120.879421301214,
+        "name": "\u6eff\u610f\u9eb5\u98df\u9928",
+        "name_en": "Manyi noodle restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.86293398168,
+          24.6982060231601
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u9f8d\u6c5f\u8857213\u865f",
+        "address_en": "No. 213, Longjiang Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/11 18:00-20:00",
+        "end": "2022-02-11T12:00:00.000Z",
+        "latitude": 24.6982060231601,
+        "longitude": 120.86293398168,
+        "name": "\u82f1\u5409\u5229\u9910\u5ef3",
+        "name_en": "English restaurant",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.87135720129,
+          24.6847679892921
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u5927\u696d\u885772\u865f1-2\u6a13",
+        "address_en": "Floor 1-2, No. 72 Daye Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T11:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/11 19:40-19:50",
+        "end": "2022-02-11T11:50:00.000Z",
+        "latitude": 24.6847679892921,
+        "longitude": 120.87135720129,
+        "name": "\u5927\u696d\u6587\u7406\u77ed\u671f\u88dc\u7fd2\u73ed",
+        "name_en": "Daye Arts and Science Short-term Workshop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.878393801247,
+          24.6873409080288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u82d7\u6817\u7e23\u7af9\u5357\u93ae\u6c11\u65cf\u8857109\u865f",
+        "address_en": "No. 109 Minzu Street, Zhunan Town, Miaoli County",
+        "begin": "2022-02-11T22:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/12 06:00-14:00",
+        "end": "2022-02-12T06:00:00.000Z",
+        "latitude": 24.6873409080288,
+        "longitude": 120.878393801247,
+        "name": "\u7af9\u5357\u7b2c\u4e8c\u516c\u6709\u96f6\u552e\u5e02\u5834",
+        "name_en": "Zhunan Second Public Retail Market",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19731",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.miaoli.gov.tw/News_Content2.aspx?n=285&s=497622"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.901186756448,
           24.6927720173051
         ],
@@ -58932,6 +59807,456 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "\u5c1a\u672a\u53d6\u865f",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.cdc.gov.tw/Bulletin/Detail/8XzxB5KZNJhy0ITApU7wWg?typeid=9"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.516297427497,
+          25.0476619605943
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5317\u5e73\u897f\u8def3\u865f",
+        "address_en": "No. 3, Beiping West Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-11T06:31:00.000Z",
+        "description": "\u9ad8\u9435137\u73ed\u6b21\u53f0\u5317\u5de6\u71df",
+        "duration (text)": "2022/02/11 14:31-16:05",
+        "end": "2022-02-11T08:05:00.000Z",
+        "latitude": 25.0476619605943,
+        "longitude": 121.516297427497,
+        "name": "\u9ad8\u9435 \u53f0\u5317\u7ad9",
+        "name_en": "High Speed Rail Taipei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.30739635328,
+          22.6874687724427
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u9ad8\u9435\u8def105\u865f",
+        "address_en": "No. 105, High-speed Railway, Zuoying District, Kaohsiung City",
+        "begin": "2022-02-11T06:31:00.000Z",
+        "description": "\u9ad8\u9435137\u73ed\u6b21\u53f0\u5317\u5de6\u71df",
+        "duration (text)": "2022/02/11 14:31-16:05",
+        "end": "2022-02-11T08:05:00.000Z",
+        "latitude": 22.6874687724427,
+        "longitude": 120.30739635328,
+        "name": "\u9ad8\u9435 \u65b0\u5de6\u71df\u7ad9",
+        "name_en": "High Speed Rail Xinzuoying Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.351018246697,
+          22.6344547234534
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u6587\u5316\u8def139\u865f",
+        "address_en": "No. 139, Wenhua Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T10:50:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 18:50-19:50",
+        "end": "2022-02-11T11:50:00.000Z",
+        "latitude": 22.6344547234534,
+        "longitude": 120.351018246697,
+        "name": "\u9d28\u5bee\u8857-\u70e4\u9d28\u9ede\u5fc3\u574a-\u9cf3\u5c71\u4e00\u865f\u5e97",
+        "name_en": "ApliuStreet  - Roast Duck Dim Sum Shop - Fengshan No. 1 Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19730",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.366854647271,
+          22.6282940303433
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u745e\u8208\u8def260\u865f",
+        "address_en": "No. 260, Ruixing Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-10T10:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 18:30-18:40",
+        "end": "2022-02-10T10:40:00.000Z",
+        "latitude": 22.6282940303433,
+        "longitude": 120.366854647271,
+        "name": "\u83ef\u65b0\u725b\u6392",
+        "name_en": "Huaxin Steak",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.366618231188,
+          22.6275122474783
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u745e\u8208\u8def216\u865f1\u6a13",
+        "address_en": "1st Floor, No. 216, Ruixing Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-10T10:44:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 18:44-18:49",
+        "end": "2022-02-10T10:49:00.000Z",
+        "latitude": 22.6275122474783,
+        "longitude": 120.366618231188,
+        "name": "7-ELEVEN \u745e\u9806\u9580\u5e02",
+        "name_en": "7-ELEVEN Ruishun Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.311665430317,
+          22.6148529203997
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u5fa9\u8208\u4e09\u8def435\u3001437\u865f",
+        "address_en": "No. 435, 437, Fuxing 3rd Road, Qianzhen District, Kaohsiung City",
+        "begin": "2022-02-11T05:36:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 13:36-13:41",
+        "end": "2022-02-11T05:41:00.000Z",
+        "latitude": 22.6148529203997,
+        "longitude": 120.311665430317,
+        "name": "7-ELEVEN \u946b\u611b\u7fa4\u9580\u5e02",
+        "name_en": "7-ELEVEN Xinaiqun Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.366757803426,
+          22.6285695568495
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u745e\u8208\u8def277\u865f",
+        "address_en": "No. 277, Ruixing Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T06:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 14:00-15:00",
+        "end": "2022-02-11T07:00:00.000Z",
+        "latitude": 22.6285695568495,
+        "longitude": 120.366757803426,
+        "name": "\u5ddd\u5473\u9eb5\u9928",
+        "name_en": "Sichuan Noodle House",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.351018817764,
+          22.6344569263953
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u6587\u5316\u8def139\u865f",
+        "address_en": "No. 139, Wenhua Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T10:50:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 18:50-19:50",
+        "end": "2022-02-11T11:50:00.000Z",
+        "latitude": 22.6344569263953,
+        "longitude": 120.351018817764,
+        "name": "\u9d28\u5bee\u8857-\u70e4\u9d28\u9ede\u5fc3\u574a-\u9cf3\u5c71\u4e00\u865f\u5e97",
+        "name_en": "ApliuStreet  - Roast Duck Dim Sum Shop - Fengshan No. 1 Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.350833260983,
+          22.6346582543864
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u6587\u5316\u8def152\u865f",
+        "address_en": "No. 152, Wenhua Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T11:55:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 19:55-20:00",
+        "end": "2022-02-11T12:00:00.000Z",
+        "latitude": 22.6346582543864,
+        "longitude": 120.350833260983,
+        "name": "\u591a\u9ea5\u7da0\u70d8\u7119\u7f8e\u98df-\u9cf3\u5c71\u5e97",
+        "name_en": "Domalie Bakery-Fengshan Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.360986293485,
+          22.6717809175369
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u4ec1\u6b66\u5340\u9cf3\u4ec1\u8def4-6\u865f",
+        "address_en": "No. 4-6, Fengren Road, Renwu District, Kaohsiung City",
+        "begin": "2022-02-13T01:54:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/13 09:54-10:00",
+        "end": "2022-02-13T02:00:00.000Z",
+        "latitude": 22.6717809175369,
+        "longitude": 120.360986293485,
+        "name": "\u840a\u723e\u5bcc\u4fbf\u5229\u5546\u5e97 \u4ec1\u6b66\u9cf3\u6210\u5e97",
+        "name_en": "Hi-life Convenience Store Renwu Fengcheng Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.367688203162,
+          22.6309391309355
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u535a\u611b\u8def361\u865f",
+        "address_en": "No. 361, Boai Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-13T09:54:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/13 17:54-18:04",
+        "end": "2022-02-13T10:04:00.000Z",
+        "latitude": 22.6309391309355,
+        "longitude": 120.367688203162,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3Pxmart \u9cf3\u5c71\u535a\u611b",
+        "name_en": "PX Mart Fengshanboai Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19732",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.318915918193,
+          22.6527937964366
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5927\u9806\u4e8c\u8def849\u865f",
+        "address_en": "No. 849, Dashun 2nd Road, Sanmin District, Kaohsiung City",
+        "begin": "2022-02-09T16:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 00:00-01:00",
+        "end": "2022-02-09T17:00:00.000Z",
+        "latitude": 22.6527937964366,
+        "longitude": 120.318915918193,
+        "name": "\u5bb6\u6a02\u798f \u9f0e\u5c71\u5e97",
+        "name_en": "Carrefour Dingshan Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.307607230725,
+          22.6651518517839
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u88d5\u8aa0\u8def301\u865f",
+        "address_en": "No. 301, Yucheng Road, Zuoying District, Kaohsiung City",
+        "begin": "2022-02-10T06:03:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 14:03-15:33",
+        "end": "2022-02-10T07:33:00.000Z",
+        "latitude": 22.6651518517839,
+        "longitude": 120.307607230725,
+        "name": "\u8584\u591a\u7fa9 Bite2Eat \u7fa9\u5f0f\u624b\u5de5\u62ab\u85a9 \u9ad8\u96c4\u88d5\u8aa0\u5e97",
+        "name_en": "Bite2Eat Italian Handmade Pizza Kaohsiung Yucheng Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.351153765756,
+          22.6399168244025
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u9752\u5e74\u8def\u4e8c\u6bb5300\u865f",
+        "address_en": "No. 300, Section 2, Qingnian Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-10T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/10 19:00-25:00",
+        "end": "2022-02-10T17:00:00.000Z",
+        "latitude": 22.6399168244025,
+        "longitude": 120.351153765756,
+        "name": "\u8001\u6c5f\u7d05\u8336\u725b\u5976 \u9cf3\u5c71\u5e97",
+        "name_en": "Laojiang Black Tea Milk Fengshan Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.351153765629,
+          22.6399193826774
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u9752\u5e74\u8def\u4e8c\u6bb5300\u865f",
+        "address_en": "No. 300, Section 2, Qingnian Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 15:00-19:30",
+        "end": "2022-02-11T11:30:00.000Z",
+        "latitude": 22.6399193826774,
+        "longitude": 120.351153765629,
+        "name": "\u8001\u6c5f\u7d05\u8336\u725b\u5976 \u9cf3\u5c71\u5e97",
+        "name_en": "Laojiang Black Tea Milk Fengshan Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.361061590936,
+          22.6247971639644
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u7dad\u65b0\u8def109\u865f",
+        "address_en": "No. 109, Weixin Road, Fengshan District, Kaohsiung City",
+        "begin": "2022-02-11T11:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/11 19:40-25:00",
+        "end": "2022-02-11T17:00:00.000Z",
+        "latitude": 22.6247971639644,
+        "longitude": 120.361061590936,
+        "name": "\u8001\u6c5f\u7d05\u8336\u725b\u5976 \u7dad\u65b0\u5e97",
+        "name_en": "Laojiang Black Tea Milk Weixin Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.346105106587,
+          22.6425743512094
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u6f84\u6e05\u8def550\u865f",
+        "address_en": "No. 550, Chengcheng Road, Sanmin District, Kaohsiung City",
+        "begin": "2022-02-12T13:04:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/12 21:04-21:34",
+        "end": "2022-02-12T13:34:00.000Z",
+        "latitude": 22.6425743512094,
+        "longitude": 120.346105106587,
+        "name": "\u9ea5\u7576\u52de \u9ad8\u96c4\u65b0\u6f84\u6e05\u5e97",
+        "name_en": "McDonald's Kaohsiung Xingchengqing Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.328225236452,
+          22.6214563071278
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e09\u591a\u4e00\u8def335\u865f2\u6a13",
+        "address_en": "2F, No. 335, Sanduo 1st Road, Lingya District, Kaohsiung City",
+        "begin": "2022-02-12T14:04:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/12 22:04-26:30",
+        "end": "2022-02-12T18:30:00.000Z",
+        "latitude": 22.6214563071278,
+        "longitude": 120.328225236452,
+        "name": "E7PLAY \u4e09\u591a\u9928",
+        "name_en": "E7PLAY Sanduo Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19733",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/bravo.Kaohsiung/posts/5030448717016718"
       },
       "type": "Feature"
     },
