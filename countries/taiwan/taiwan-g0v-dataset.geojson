@@ -628,6 +628,81 @@
     {
       "geometry": {
         "coordinates": [
+          121.523214188646,
+          25.1392097323148
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u6cc9\u6e90\u8def220\u865f",
+        "address_en": "No. 80, Section 5, Chengde Road, Shilin District, Taipei City",
+        "begin": "2022-02-17T02:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/17 10:30-11:00",
+        "end": "2022-02-17T03:00:00.000Z",
+        "latitude": 25.1392097323148,
+        "longitude": 121.523214188646,
+        "name": "\u967d\u660e\u5c71\u81fb\u611b\u6a13",
+        "name_en": "Yangmingshan Zhenai Building",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20028",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20220220/2192976.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524532112004,
+          25.1047324073632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def\u516d\u6bb577\u865fB1",
+        "address_en": "B1, No. 77, Section 6, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-17T11:49:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/17 19:49-21:19",
+        "end": "2022-02-17T13:19:00.000Z",
+        "latitude": 25.1047324073632,
+        "longitude": 121.524532112004,
+        "name": "\u9f0e\u6cf0\u8c50\u5929\u6bcdSOGO\u5e97",
+        "name_en": "Din Tai Fung Tianmu SOGO Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20028",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20220220/2192976.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.514067758229,
+          25.0945114511818
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u627f\u5fb7\u8def\u4e94\u6bb580\u865f",
+        "address_en": "No. 80, Section 5, Chengde Road, Shilin District, Taipei City",
+        "begin": "2022-02-18T05:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/18 13:00-13:40",
+        "end": "2022-02-18T05:40:00.000Z",
+        "latitude": 25.0945114511818,
+        "longitude": 121.514067758229,
+        "name": "\u58eb\u6797\u76e3\u7406\u7ad9",
+        "name_en": "Shilin Supervision Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20028",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.ettoday.net/news/20220220/2192976.htm"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.532782580372,
           25.0527778912208
         ],
@@ -18543,6 +18618,181 @@
     {
       "geometry": {
         "coordinates": [
+          120.209644888229,
+          22.9941231309075
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u4e2d\u897f\u5340\u897f\u83ef\u5357\u885760\u865f",
+        "address_en": "No. 60, Xihua South Street, Central and Western District, Tainan City",
+        "begin": "2022-02-12T07:00:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/12 15:00-15:40",
+        "end": "2022-02-12T07:40:00.000Z",
+        "latitude": 22.9941231309075,
+        "longitude": 120.209644888229,
+        "name": "BB YOUR LOVE \u897f\u83ef\u5e97",
+        "name_en": "BB YOUR LOVE Xihua Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.299753008966,
+          22.9697738723819
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u5fe0\u5b5d\u5317\u8def158\u865f",
+        "address_en": "No. 158, Zhongxiao North Road, Guiren District, Tainan City",
+        "begin": "2022-02-12T09:00:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/12 17:00-17:10",
+        "end": "2022-02-12T09:10:00.000Z",
+        "latitude": 22.9697738723819,
+        "longitude": 120.299753008966,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3-\u6b78\u4ec1\u5fe0\u5b5d\u5317\u5e97",
+        "name_en": "PX-Mart Guiren Zhongxiao North Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.294688761806,
+          22.9679829023735
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u4e2d\u6b63\u5317\u8def\u4e00\u6bb528\u865f",
+        "address_en": "No. 28, Section 1, Zhongzheng North Road, Guiren District, Tainan City",
+        "begin": "2022-02-12T09:24:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/12 17:24-17:34",
+        "end": "2022-02-12T09:34:00.000Z",
+        "latitude": 22.9679829023735,
+        "longitude": 120.294688761806,
+        "name": "\u5357\u4e00\u6392\u9aa8",
+        "name_en": "Nan-i Pork Ribs",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.302716011511,
+          22.9656288255951
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u4e2d\u5c71\u8def\u4e00\u6bb5305\u865f",
+        "address_en": "No. 305, Section 1, Zhongshan Road, Guiren District, Tainan City",
+        "begin": "2022-02-13T07:30:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/13 15:30-15:50",
+        "end": "2022-02-13T07:50:00.000Z",
+        "latitude": 22.9656288255951,
+        "longitude": 120.302716011511,
+        "name": "\u5927\u76e4\u5927\u4e94\u91d1\u767e\u8ca8\u98df\u54c1\u5927\u8ce3\u5834-\u6b78\u4ec1\u5e97",
+        "name_en": "Dapanda Hardware Store Guiren Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.296175544626,
+          22.9606377605827
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u5927\u6210\u8def211\u865f",
+        "address_en": "No. 211, Dacheng Road, Guiren District, Tainan City",
+        "begin": "2022-02-13T14:30:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/13 22:30-22:35",
+        "end": "2022-02-13T14:35:00.000Z",
+        "latitude": 22.9606377605827,
+        "longitude": 120.296175544626,
+        "name": "7-11\u7d05\u74e6\u539d\u9580\u5e02",
+        "name_en": "7-11 Red Rooftop Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.302719384431,
+          22.9656018549471
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u4e2d\u5c71\u8def\u4e00\u6bb5305\u865f",
+        "address_en": "No. 305, Section 1, Zhongshan Road, Guiren District, Tainan City",
+        "begin": "2022-02-13T14:40:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/13 22:40-22:45",
+        "end": "2022-02-13T14:45:00.000Z",
+        "latitude": 22.9656018549471,
+        "longitude": 120.302719384431,
+        "name": "7-11\u6b78\u4ec1\u8c50\u751f\u9580\u5e02",
+        "name_en": "7-11 Quiren Fengsheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.287652003522,
+          22.9634106894658
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u6c11\u6b0a\u5357\u8def170\u865f",
+        "address_en": "No. 170, Minquan South Road, Guiren District, Tainan City",
+        "begin": "2022-02-14T00:18:00.000Z",
+        "description": "\u81ea\u884c\u958b\u8eca",
+        "duration (text)": "2022/02/14 08:18-08:30",
+        "end": "2022-02-14T00:30:00.000Z",
+        "latitude": 22.9634106894658,
+        "longitude": 120.287652003522,
+        "name": "\u5bcc\u6797\u6f22\u5821-\u6b78\u5357\u5e97",
+        "name_en": "Fulin Burger  Guinan Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20101",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5533651683329867"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.218129168048,
           23.064414283222
         ],
@@ -22455,6 +22705,106 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.508832523163,
+          25.0131879442611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u4ec1\u611b\u8def202\u5df711\u865f",
+        "address_en": "No. 11, Lane 202, Ren'ai Road, Yonghe District, New Taipei City",
+        "begin": "2022-02-15T02:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/15 10:30-11:00",
+        "end": "2022-02-15T03:00:00.000Z",
+        "latitude": 25.0131879442611,
+        "longitude": 121.508832523163,
+        "name": "\u6c38\u548c\u4fdd\u798f\u5bae",
+        "name_en": "Yonghe Baofu Palace",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20066",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4945403832217106"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.5138524504,
+          25.0068493347263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u79c0\u6717\u8def\u4e00\u6bb512\u865f",
+        "address_en": "No. 12, Section 1, Xiulang Road, Yonghe District, New Taipei City",
+        "begin": "2022-02-15T03:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/15 11:00-11:30",
+        "end": "2022-02-15T03:30:00.000Z",
+        "latitude": 25.0068493347263,
+        "longitude": 121.5138524504,
+        "name": "\u5e97\u4ed4\u8857\u798f\u5fb7\u5bae",
+        "name_en": "Dianzai Street Fude Palace",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20066",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4945403832217106"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.513100895546,
+          25.012351685706
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u4fe1\u7fa9\u8def45\u865f",
+        "address_en": "No. 45, Xinyi Road, Yonghe District, New Taipei City",
+        "begin": "2022-02-15T07:30:00.000Z",
+        "description": "Gmap \u4e2d\u7121\u6b64\u5ea7\u6a19\uff0c\u5730\u5740\u4f86\u6e90\u70ba\u5176FB",
+        "duration (text)": "2022/02/15 15:30-15:35",
+        "end": "2022-02-15T07:35:00.000Z",
+        "latitude": 25.012351685706,
+        "longitude": 121.513100895546,
+        "name": "\u56db\u5bf6\u8c9d\u7f8e\u98df\u5718\u8cfc\u8216",
+        "name_en": "Four Baby Food Group Buying Shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20066",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4945403832217106"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.51119069888,
+          25.012866545959
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6c38\u548c\u5340\u4ec1\u611b\u8def151\u865f",
+        "address_en": "No. 151, Renai Road, Yonghe District, New Taipei City",
+        "begin": "2022-02-15T07:36:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/15 15:36-15:41",
+        "end": "2022-02-15T07:41:00.000Z",
+        "latitude": 25.012866545959,
+        "longitude": 121.51119069888,
+        "name": "\u8766\u76ae\u5e97\u5230\u5e97 \u6c38\u548c\u4ec1\u611b\u5e97",
+        "name_en": "Shopee shop to shop Yonghe Renai shop",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20066",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4945403832217106"
       },
       "type": "Feature"
     },
@@ -64410,8 +64760,8 @@
         "end": "2022-02-05T08:30:00.000Z",
         "latitude": 24.6882059184358,
         "longitude": 120.904656835605,
-        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c5\u6a13\u6e6f\u59c6\u718a",
-        "name_en": "Tom Bear, 5th Floor, Shangshun Entertainment World",
+        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c6\u6a13\u6e6f\u59c6\u718a",
+        "name_en": "Tom Bear, 6th Floor, Shangshun Entertainment World",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "20069",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4872188026209645/"
@@ -64571,8 +64921,8 @@
     {
       "geometry": {
         "coordinates": [
-          120.299762346151,
-          23.5764649568919
+          120.871381791434,
+          24.6847767641137
         ],
         "type": "Point"
       },
@@ -64583,8 +64933,8 @@
         "description": "",
         "duration (text)": "2022/2/11 19:40-19:50",
         "end": "2022-02-11T11:50:00.000Z",
-        "latitude": 23.5764649568919,
-        "longitude": 120.299762346151,
+        "latitude": 24.6847767641137,
+        "longitude": 120.871381791434,
         "name": "\u5927\u696d\u6587\u7406\u77ed\u671f\u88dc\u7fd2\u73ed",
         "name_en": "Daye Arts and Science Short-term Remedial Course",
         "\u6821\u5c0d\u8005": "",
@@ -64635,8 +64985,8 @@
         "end": "2022-02-05T08:30:00.000Z",
         "latitude": 24.6882059685336,
         "longitude": 120.904655778878,
-        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c5\u6a13\u6e6f\u59c6\u718a",
-        "name_en": "Tom Bear, 5th Floor, Shangshun Entertainment World",
+        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c6\u6a13\u6e6f\u59c6\u718a",
+        "name_en": "Tom Bear, 6th Floor, Shangshun Entertainment World",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "20070",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4872188026209645/"
@@ -64671,8 +65021,8 @@
     {
       "geometry": {
         "coordinates": [
-          120.299762346151,
-          23.5764649568919
+          120.871385814747,
+          24.6847718899006
         ],
         "type": "Point"
       },
@@ -64683,8 +65033,8 @@
         "description": "",
         "duration (text)": "2022/2/11 17:00-19:50",
         "end": "2022-02-11T11:50:00.000Z",
-        "latitude": 23.5764649568919,
-        "longitude": 120.299762346151,
+        "latitude": 24.6847718899006,
+        "longitude": 120.871385814747,
         "name": "\u5927\u696d\u6587\u7406\u77ed\u671f\u88dc\u7fd2\u73ed",
         "name_en": "Daye Arts and Science Short-term Remedial Course",
         "\u6821\u5c0d\u8005": "",
@@ -64735,8 +65085,8 @@
         "end": "2022-02-05T08:30:00.000Z",
         "latitude": 24.688205309176,
         "longitude": 120.904656835605,
-        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c5\u6a13\u6e6f\u59c6\u718a",
-        "name_en": "Tom Bear, 5th Floor, Shangshun Entertainment World",
+        "name": "\u5c1a\u9806\u80b2\u6a02\u4e16\u754c6\u6a13\u6e6f\u59c6\u718a",
+        "name_en": "Tom Bear, 6th Floor, Shangshun Entertainment World",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "20071",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/happiness.miaoli/posts/4872188026209645/"
