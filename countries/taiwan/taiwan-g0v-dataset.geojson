@@ -22711,6 +22711,31 @@
     {
       "geometry": {
         "coordinates": [
+          121.366203668309,
+          25.0706380913367
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6797\u53e3\u5340\u6587\u5316\u4e09\u8def\u4e00\u6bb5356\u865f2\u6a13",
+        "address_en": "2F, No. 356, Section 1, Wenhua 3rd Road, Linkou District, New Taipei City",
+        "begin": "2022-02-17T06:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/17 14:30-15:30",
+        "end": "2022-02-17T07:30:00.000Z",
+        "latitude": 25.0706380913367,
+        "longitude": 121.366203668309,
+        "name": "\u975c\u5ca1\u52dd\u653f\u65e5\u5f0f\u8c6c\u6392 \u6797\u53e3\u4e09\u4e95outlet\u5e97",
+        "name_en": "Shizuoka Katsumasa Pork Chops Linkou Mitsui outlet store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20028",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.health.ntpc.gov.tw/basic/?mode=detail&node=9437"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.508832523163,
           25.0131879442611
         ],
