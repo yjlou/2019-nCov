@@ -23560,6 +23560,31 @@
     {
       "geometry": {
         "coordinates": [
+          121.530052814541,
+          24.9726379544347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u4e2d\u592e\u8def159\u865f4F",
+        "address_en": "4F, No. 159, Zhongyang Road, Xindian District, New Taipei City",
+        "begin": "2022-02-19T06:04:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/19 14:04-14:10",
+        "end": "2022-02-19T06:10:00.000Z",
+        "latitude": 24.9726379544347,
+        "longitude": 121.530052814541,
+        "name": "IKEA Caf\u00e9",
+        "name_en": "IKEA Cafe",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20248",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4954830747941081"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.366203668309,
           25.0706380913367
         ],
@@ -32860,131 +32885,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.458446740475,
-          25.0090398969002
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-22T11:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u677f\u6a4b\u7ad9",
-        "duration (text)": "12/22 19:00",
-        "end": "2021-12-22T12:00:00.000Z",
-        "latitude": 25.0090398969002,
-        "longitude": 121.458446740475,
-        "name": "264\u516c\u8eca - \u6377\u904b\u5e9c\u4e2d\u7ad9(\u5e9c\u4e2d\u8def)",
-        "name_en": "Bus 264-MRT Fuzhong Station (Fuzhong Road)",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.462443097812,
-          25.0137641487727
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7ad9\u524d\u8def5\u865fB1",
-        "address_en": "B1, No. 5, Zhanqian Road, Banqiao District, New Taipei City",
-        "begin": "2021-12-22T11:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u677f\u6a4b\u7ad9",
-        "duration (text)": "12/22 19:00",
-        "end": "2021-12-22T12:00:00.000Z",
-        "latitude": 25.0137641487727,
-        "longitude": 121.462443097812,
-        "name": "\u6377\u904b\u677f\u6a4b\u7ad9",
-        "name_en": "MRT Banqiao Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.463762744624,
-          25.0144058346006
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e8c\u6bb57\u865fB1",
-        "address_en": "B1, No. 7, Section 2, Xianmin Avenue, Banqiao District, New Taipei City",
-        "begin": "2021-12-22T11:30:00.000Z",
-        "description": "",
-        "duration (text)": "12/22 19:30",
-        "end": "2021-12-22T12:30:00.000Z",
-        "latitude": 25.0144058346006,
-        "longitude": 121.463762744624,
-        "name": "\u677f\u6a4b\u8eca\u7ad9\u74b0\u7403B1\u5730\u4e0b\u8857\u5c0f\u5357\u9580\u50b3\u7d71\u7f8e\u98df",
-        "name_en": "Banqiao Station Global B1 Underground Street Xiaonanmen Traditional Food",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.463782354982,
-          25.0140655900066
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e8c\u6bb57\u865f",
-        "address_en": "No. 7, Section 2, County Min Avenue, Banqiao District, New Taipei City",
-        "begin": "2021-12-22T13:50:00.000Z",
-        "description": "\u677f\u6a4b\u8eca\u7ad9-\u5340\u9593\u8eca-\u6d6e\u5dde\u8eca\u7ad9",
-        "duration (text)": "12/22 21:50",
-        "end": "2021-12-22T14:50:00.000Z",
-        "latitude": 25.0140655900066,
-        "longitude": 121.463782354982,
-        "name": "\u677f\u6a4b\u8eca\u7ad9",
-        "name_en": "Banqiao Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.444736997812,
-          25.0041725373981
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u50d1\u4e2d\u4e8c\u8857156\u865f",
-        "address_en": "No. 156, Qiaozhong Second Street, Banqiao District, New Taipei City",
-        "begin": "2021-12-22T13:50:00.000Z",
-        "description": "\u677f\u6a4b\u8eca\u7ad9-\u5340\u9593\u8eca-\u6d6e\u5dde\u8eca\u7ad9",
-        "duration (text)": "12/22 21:50",
-        "end": "2021-12-22T14:50:00.000Z",
-        "latitude": 25.0041725373981,
-        "longitude": 121.444736997812,
-        "name": "\u6d6e\u5dde\u8eca\u7ad9",
-        "name_en": "Fuzhou Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           121.458475415394,
           25.0090355658351
         ],
@@ -36990,6 +36890,81 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17630",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/WKYang.HC/posts/2858845434407518"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.245017024798,
+          25.1173145409721
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u5927\u5712\u5340\u6f01\u6e2f\u8def451\u5df725\u865f",
+        "address_en": "No. 25, Lane 451, Yugang Road, Dayuan District, Taoyuan City",
+        "begin": "2022-02-12T03:00:00.000Z",
+        "description": "\u6b64\u8db3\u8de1\u53ea\u4ee3\u8868\u7d04\u7565\u7bc4\u570d\u3001\u4e0d\u4ee3\u8868\u78ba\u8a3a\u8005\u4e00\u5b9a\u7d93\u904e\u6b64\u4f4d\u7f6e",
+        "duration (text)": "2022/02/12 11:00-16:00",
+        "end": "2022-02-12T08:00:00.000Z",
+        "latitude": 25.1173145409721,
+        "longitude": 121.245017024798,
+        "name": "\u7af9\u570d\u6f01\u6e2f",
+        "name_en": "Zhuwei Fishing Port",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19951",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5209362675741997"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.225589542481,
+          24.9536163888258
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u4e2d\u58e2\u5340\u4e2d\u548c\u8def139 \u865f",
+        "address_en": "No. 139, Zhonghe Road, Zhongli District, Taoyuan City",
+        "begin": "2022-02-11T16:00:00.000Z",
+        "description": "\u677f\u6a4b\u5f80\u8fd4\u4e2d\u58e2",
+        "duration (text)": "2022/02/12",
+        "end": "2022-02-12T16:00:00.000Z",
+        "latitude": 24.9536163888258,
+        "longitude": 121.225589542481,
+        "name": "\u4e2d\u58e2\u706b\u8eca\u7ad9",
+        "name_en": "Zhongli Railway Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19951",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5209362675741997"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.463825065593,
+          25.0140269031832
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u9053\u4e8c\u6bb57\u865f",
+        "address_en": "No. 7, Section 2, Xianmin Avenue, Banqiao District, New Taipei City",
+        "begin": "2022-02-11T16:00:00.000Z",
+        "description": "\u677f\u6a4b\u5f80\u8fd4\u4e2d\u58e2",
+        "duration (text)": "2022/02/12",
+        "end": "2022-02-12T16:00:00.000Z",
+        "latitude": 25.0140269031832,
+        "longitude": 121.463825065593,
+        "name": "\u677f\u6a4b\u706b\u8eca\u7ad9",
+        "name_en": "Banqiao Railway Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "19951",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/tycgnews/posts/5209362675741997"
       },
       "type": "Feature"
     },
