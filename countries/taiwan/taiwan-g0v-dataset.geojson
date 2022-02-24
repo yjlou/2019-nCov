@@ -628,6 +628,31 @@
     {
       "geometry": {
         "coordinates": [
+          121.525575907986,
+          25.1019459805127
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def\u4e94\u6bb5837\u865f",
+        "address_en": "Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-18T04:12:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/18 12:12-13:01",
+        "end": "2022-02-18T05:01:00.000Z",
+        "latitude": 25.1019459805127,
+        "longitude": 121.525575907986,
+        "name": "\u5408\u4f5c\u91d1\u5eab\u5546\u696d\u9280\u884c\u5317\u58eb\u6797\u5206\u884c",
+        "name_en": "Cooperative Bank Commercial Bank Bei Shilin Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20248",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=7B04E5D7E160BA70"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.549195544448,
           25.025604814302
         ],
@@ -32879,106 +32904,6 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17307",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5353403534676982"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.458475415394,
-          25.0090355658351
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2021-12-23T10:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u6377\u904b\u897f\u9580\u7ad9-\u677e\u5c71\u65b0\u5e97\u7dda-\u6377\u904b\u5357\u4eac\u5fa9\u8208\u7ad9",
-        "duration (text)": "12/23 18:00",
-        "end": "2021-12-23T11:00:00.000Z",
-        "latitude": 25.0090355658351,
-        "longitude": 121.458475415394,
-        "name": "264\u516c\u8eca - \u6377\u904b\u5e9c\u4e2d\u7ad9(\u5e9c\u4e2d\u8def)",
-        "name_en": "Bus 264-MRT Fuzhong Station (Fuzhong Road)",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.459440040758,
-          25.008535508675
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u7e23\u6c11\u5927\u90531\u6bb5193\u865f",
-        "address_en": "No. 193, Section 1, Xianmin Avenue, Banqiao District, New Taipei City",
-        "begin": "2021-12-23T10:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u6377\u904b\u897f\u9580\u7ad9-\u677e\u5c71\u65b0\u5e97\u7dda-\u6377\u904b\u5357\u4eac\u5fa9\u8208\u7ad9",
-        "duration (text)": "12/23 18:00",
-        "end": "2021-12-23T11:00:00.000Z",
-        "latitude": 25.008535508675,
-        "longitude": 121.459440040758,
-        "name": "\u6377\u904b\u5e9c\u4e2d\u7ad9",
-        "name_en": "MRT Fuzhong Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.508349040141,
-          25.0421925872365
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u5317\u5e02\u4e2d\u6b63\u5340\u5bf6\u6176\u8def32-1\u865f",
-        "address_en": "No. 32-1, Baoqing Road, Zhongzheng District, Taipei City",
-        "begin": "2021-12-23T10:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u6377\u904b\u897f\u9580\u7ad9-\u677e\u5c71\u65b0\u5e97\u7dda-\u6377\u904b\u5357\u4eac\u5fa9\u8208\u7ad9",
-        "duration (text)": "12/23 18:00",
-        "end": "2021-12-23T11:00:00.000Z",
-        "latitude": 25.0421925872365,
-        "longitude": 121.508349040141,
-        "name": "\u6377\u904b\u897f\u9580\u7ad9",
-        "name_en": "MRT Ximen Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.54405324015,
-          25.0518313919583
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u81fa\u5317\u5e02\u677e\u5c71\u5340\u5357\u4eac\u6771\u8def3\u6bb5253\u865f",
-        "address_en": "No.253, Section 3, Nanjing East Road, Songshan District, Taipei City",
-        "begin": "2021-12-23T10:00:00.000Z",
-        "description": "264\u516c\u8eca-\u6377\u904b\u5e9c\u4e2d\u7ad9-\u677f\u5357\u7dda-\u6377\u904b\u897f\u9580\u7ad9-\u677e\u5c71\u65b0\u5e97\u7dda-\u6377\u904b\u5357\u4eac\u5fa9\u8208\u7ad9",
-        "duration (text)": "12/23 18:00",
-        "end": "2021-12-23T11:00:00.000Z",
-        "latitude": 25.0518313919583,
-        "longitude": 121.54405324015,
-        "name": "\u6377\u904b\u5357\u4eac\u5fa9\u8208\u7ad9",
-        "name_en": "MRT Nanjing Fuxing Station",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17026",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/myntpc/posts/5316534428363893"
       },
       "type": "Feature"
     },
