@@ -628,6 +628,906 @@
     {
       "geometry": {
         "coordinates": [
+          121.467099864,
+          25.125631585727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-16T23:00:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/17 07:00-07:25",
+        "end": "2022-02-16T23:25:00.000Z",
+        "latitude": 25.125631585727,
+        "longitude": 121.467099864,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524976408016,
+          25.0842821451597
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def5\u6bb565\u865f",
+        "address_en": "No. 65, Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-16T23:00:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/17 07:00-07:25",
+        "end": "2022-02-16T23:25:00.000Z",
+        "latitude": 25.0842821451597,
+        "longitude": 121.524976408016,
+        "name": "\u6377\u904b\u528d\u6f6d\u7ad9",
+        "name_en": "MRT Jiantan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467099864,
+          25.1256327999347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-17T23:00:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/18 07:00-07:24",
+        "end": "2022-02-17T23:24:00.000Z",
+        "latitude": 25.1256327999347,
+        "longitude": 121.467099864,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524976408016,
+          25.084280323232
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def5\u6bb565\u865f",
+        "address_en": "No. 65, Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-17T23:00:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/18 07:00-07:24",
+        "end": "2022-02-17T23:24:00.000Z",
+        "latitude": 25.084280323232,
+        "longitude": 121.524976408016,
+        "name": "\u6377\u904b\u528d\u6f6d\u7ad9",
+        "name_en": "MRT Jiantan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467101205104,
+          25.1256321928308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-22T05:12:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/22 13:12-13:43",
+        "end": "2022-02-22T05:43:00.000Z",
+        "latitude": 25.1256321928308,
+        "longitude": 121.467101205104,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524976408016,
+          25.0842815378504
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def5\u6bb565\u865f",
+        "address_en": "No. 65, Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-22T05:12:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u528d\u6f6d\u7ad9",
+        "duration (text)": "2022/02/22 13:12-13:43",
+        "end": "2022-02-22T05:43:00.000Z",
+        "latitude": 25.0842815378504,
+        "longitude": 121.524976408016,
+        "name": "\u6377\u904b\u528d\u6f6d\u7ad9",
+        "name_en": "MRT Jiantan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524975737464,
+          25.0842815378504
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def5\u6bb565\u865f",
+        "address_en": "No. 65, Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-17T12:53:00.000Z",
+        "description": "\u6377\u904b\u528d\u6f6d\u7ad9\u81f3\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/17 20:53-21:17",
+        "end": "2022-02-17T13:17:00.000Z",
+        "latitude": 25.0842815378504,
+        "longitude": 121.524975737464,
+        "name": "\u6377\u904b\u528d\u6f6d\u7ad9",
+        "name_en": "MRT Jiantan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467099864,
+          25.125631585727
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-17T12:53:00.000Z",
+        "description": "\u6377\u904b\u528d\u6f6d\u7ad9\u81f3\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/17 20:53-21:17",
+        "end": "2022-02-17T13:17:00.000Z",
+        "latitude": 25.125631585727,
+        "longitude": 121.467099864,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.524975066911,
+          25.0842827524688
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u4e2d\u5c71\u5317\u8def5\u6bb565\u865f",
+        "address_en": "No. 65, Section 5, Zhongshan North Road, Shilin District, Taipei City",
+        "begin": "2022-02-18T12:48:00.000Z",
+        "description": "\u6377\u904b\u528d\u6f6d\u7ad9\u81f3\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/18 20:48-21:18",
+        "end": "2022-02-18T13:18:00.000Z",
+        "latitude": 25.0842827524688,
+        "longitude": 121.524975066911,
+        "name": "\u6377\u904b\u528d\u6f6d\u7ad9",
+        "name_en": "MRT Jiantan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467097852343,
+          25.1256340141424
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-18T12:48:00.000Z",
+        "description": "\u6377\u904b\u528d\u6f6d\u7ad9\u81f3\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/18 20:48-21:18",
+        "end": "2022-02-18T13:18:00.000Z",
+        "latitude": 25.1256340141424,
+        "longitude": 121.467097852343,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467269650671,
+          25.1224443320617
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u77e5\u884c\u8def316\u5df72\u865f",
+        "address_en": "No. 2, Lane 316, Zhixing Road, Beitou District, Taipei City",
+        "begin": "2022-02-17T13:23:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/17 21:23-21:26",
+        "end": "2022-02-17T13:26:00.000Z",
+        "latitude": 25.1224443320617,
+        "longitude": 121.467269650671,
+        "name": "\u840a\u723e\u5bcc\u4fbf\u5229\u5546\u5e97(\u5317\u5e02\u95dc\u6e21\u5e97)",
+        "name_en": "Hi-Life Convenience Store (Beishi Guandu)",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467100534552,
+          25.125635835454
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-18T22:57:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u666f\u7f8e\u7ad9",
+        "duration (text)": "2022/02/19 06:57-07:48",
+        "end": "2022-02-18T23:48:00.000Z",
+        "latitude": 25.125635835454,
+        "longitude": 121.467100534552,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.518315280413,
+          25.0326550155042
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def1\u6bb58\u4e4b1\u865fB1",
+        "address_en": "B1, No. 8-1, Section 1, Roosevelt Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-18T22:57:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u666f\u7f8e\u7ad9",
+        "duration (text)": "2022/02/19 06:57-07:48",
+        "end": "2022-02-18T23:48:00.000Z",
+        "latitude": 25.0326550155042,
+        "longitude": 121.518315280413,
+        "name": "\u6377\u904b\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9",
+        "name_en": "MRT Chiang Kai-shek Memorial Hall Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.540825185116,
+          24.9928278592295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u6587\u5c71\u5340\u7f85\u65af\u798f\u8def6\u6bb5216\u865f",
+        "address_en": "No. 216, Section 6, Roosevelt Road, Wenshan District, Taipei City",
+        "begin": "2022-02-18T22:57:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u666f\u7f8e\u7ad9",
+        "duration (text)": "2022/02/19 06:57-07:48",
+        "end": "2022-02-18T23:48:00.000Z",
+        "latitude": 24.9928278592295,
+        "longitude": 121.540825185116,
+        "name": "\u6377\u904b\u666f\u7f8e\u7ad9",
+        "name_en": "MRT Jingmei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.539906631508,
+          24.9914408469392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u6587\u5c71\u5340\u7f85\u65af\u798f\u8def\u516d\u6bb5274\u865f",
+        "address_en": "No. 274, Section 6, Roosevelt Road, Wenshan District, Taipei City",
+        "begin": "2022-02-18T23:52:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/19 07:52-08:02",
+        "end": "2022-02-19T00:02:00.000Z",
+        "latitude": 24.9914408469392,
+        "longitude": 121.539906631508,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u5168\u5bb6\u666f\u548c\u5e97",
+        "name_en": "Family Mart  Quanjiajinghe Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.538916316634,
+          24.9894513419793
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u6587\u5c71\u5340\u7f85\u65af\u798f\u8def\u516d\u6bb5336\u865f",
+        "address_en": "No. 336, Section 6, Roosevelt Road, Wenshan District, Taipei City",
+        "begin": "2022-02-19T00:30:00.000Z",
+        "description": "(\u570b\u5bb6\u8003\u8a66)",
+        "duration (text)": "2022/02/19 08:30-17:00",
+        "end": "2022-02-19T09:00:00.000Z",
+        "latitude": 24.9894513419793,
+        "longitude": 121.538916316634,
+        "name": "\u81fa\u5317\u5e02\u79c1\u7acb\u6eec\u6c5f\u9ad8\u7d1a\u4e2d\u5b78",
+        "name_en": "Taipei Private Hujiang Senior High School",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.540824514563,
+          24.9928315058026
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u6587\u5c71\u5340\u7f85\u65af\u798f\u8def6\u6bb5216\u865f",
+        "address_en": "No. 216, Section 6, Roosevelt Road, Wenshan District, Taipei City",
+        "begin": "2022-02-19T10:07:00.000Z",
+        "description": "\u6377\u904b\u666f\u7f8e\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u58eb\u6797\u7ad9",
+        "duration (text)": "2022/02/19 18:07-18:37",
+        "end": "2022-02-19T10:37:00.000Z",
+        "latitude": 24.9928315058026,
+        "longitude": 121.540824514563,
+        "name": "\u6377\u904b\u666f\u7f8e\u7ad9",
+        "name_en": "MRT Jingmei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.518315280413,
+          25.032653800374
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u4e2d\u6b63\u5340\u7f85\u65af\u798f\u8def1\u6bb58\u4e4b1\u865fB1",
+        "address_en": "B1, No. 8-1, Section 1, Roosevelt Road, Zhongzheng District, Taipei City",
+        "begin": "2022-02-19T10:07:00.000Z",
+        "description": "\u6377\u904b\u666f\u7f8e\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u58eb\u6797\u7ad9",
+        "duration (text)": "2022/02/19 18:07-18:37",
+        "end": "2022-02-19T10:37:00.000Z",
+        "latitude": 25.032653800374,
+        "longitude": 121.518315280413,
+        "name": "\u6377\u904b\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9",
+        "name_en": "MRT Chiang Kai-shek Memorial Hall Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.526214015208,
+          25.0934573362349
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u798f\u5fb7\u8def1\u865f",
+        "address_en": "No. 1, Fude Road, Shilin District, Taipei City",
+        "begin": "2022-02-19T10:07:00.000Z",
+        "description": "\u6377\u904b\u666f\u7f8e\u7ad9\u7d93\u4e2d\u6b63\u7d00\u5ff5\u5802\u7ad9\u81f3\u58eb\u6797\u7ad9",
+        "duration (text)": "2022/02/19 18:07-18:37",
+        "end": "2022-02-19T10:37:00.000Z",
+        "latitude": 25.0934573362349,
+        "longitude": 121.526214015208,
+        "name": "\u6377\u904b\u58eb\u6797\u7ad9",
+        "name_en": "MRT Shilin Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.525968345205,
+          25.0922029480073
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u58eb\u6797\u5340\u6587\u6797\u8def315\u865f",
+        "address_en": "No. 315, Wenlin Road, Shilin District, Taipei City",
+        "begin": "2022-02-19T10:38:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/19 18:38-19:40",
+        "end": "2022-02-19T11:40:00.000Z",
+        "latitude": 25.0922029480073,
+        "longitude": 121.525968345205,
+        "name": "\u58eb\u6797/\u4e0a\u8d8a\u6587\u6797Hair Salon",
+        "name_en": "Shihlin/Joetsu Bunlin Hair Salon",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.526212674103,
+          25.0934579434985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u798f\u5fb7\u8def1\u865f",
+        "address_en": "No. 1, Fude Road, Shilin District, Taipei City",
+        "begin": "2022-02-19T11:56:00.000Z",
+        "description": "\u6377\u904b\u58eb\u6797\u7ad9\u81f3\u6377\u904b\u65b0\u5317\u6295\u7ad9",
+        "duration (text)": "2022/02/19 19:56-20:20",
+        "end": "2022-02-19T12:20:00.000Z",
+        "latitude": 25.0934579434985,
+        "longitude": 121.526212674103,
+        "name": "\u6377\u904b\u58eb\u6797\u7ad9",
+        "name_en": "MRT Shilin Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.502286826756,
+          25.1369458114354
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u696d\u8def700\u865f",
+        "address_en": "No. 700, Daye Road, Beitou District, Taipei City",
+        "begin": "2022-02-19T11:56:00.000Z",
+        "description": "\u6377\u904b\u58eb\u6797\u7ad9\u81f3\u6377\u904b\u65b0\u5317\u6295\u7ad9",
+        "duration (text)": "2022/02/19 19:56-20:20",
+        "end": "2022-02-19T12:20:00.000Z",
+        "latitude": 25.1369458114354,
+        "longitude": 121.502286826756,
+        "name": "\u6377\u904b\u65b0\u5317\u6295\u7ad9",
+        "name_en": "MRT Xinbeitou Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.504322060597,
+          25.1362118396632
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u5149\u660e\u8def218-3\u865f",
+        "address_en": "No. 218-3, Guangming Road, Beitou District, Taipei City",
+        "begin": "2022-02-19T12:24:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/19 20:24-21:24",
+        "end": "2022-02-19T13:24:00.000Z",
+        "latitude": 25.1362118396632,
+        "longitude": 121.504322060597,
+        "name": "McDonald's \u9ea5\u7576\u52de\u5317\u6295\u5e97",
+        "name_en": "McDonald's Beitou Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.502287497308,
+          25.1369452043878
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u696d\u8def700\u865f",
+        "address_en": "No. 700, Daye Road, Beitou District, Taipei City",
+        "begin": "2022-02-19T13:51:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5317\u6295\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/19 21:51-22:19",
+        "end": "2022-02-19T14:19:00.000Z",
+        "latitude": 25.1369452043878,
+        "longitude": 121.502287497308,
+        "name": "\u6377\u904b\u65b0\u5317\u6295\u7ad9",
+        "name_en": "MRT Xinbeitou Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467100534552,
+          25.1256327999347
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-19T13:51:00.000Z",
+        "description": "\u6377\u904b\u65b0\u5317\u6295\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/19 21:51-22:19",
+        "end": "2022-02-19T14:19:00.000Z",
+        "latitude": 25.1256327999347,
+        "longitude": 121.467100534552,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467097852343,
+          25.1256321928308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-20T01:37:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u6377\u904b\u4e2d\u5c71\u7ad9",
+        "duration (text)": "2022/02/20 09:37-10:13",
+        "end": "2022-02-20T02:13:00.000Z",
+        "latitude": 25.1256321928308,
+        "longitude": 121.467097852343,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.520390743126,
+          25.0526860902552
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5357\u4eac\u897f\u8def16\u865f",
+        "address_en": "No. 16, Nanjing West Road, Zhongshan District, Taipei City",
+        "begin": "2022-02-20T01:37:00.000Z",
+        "description": "\u6377\u904b\u95dc\u6e21\u7ad9\u81f3\u6377\u904b\u4e2d\u5c71\u7ad9",
+        "duration (text)": "2022/02/20 09:37-10:13",
+        "end": "2022-02-20T02:13:00.000Z",
+        "latitude": 25.0526860902552,
+        "longitude": 121.520390743126,
+        "name": "\u6377\u904b\u4e2d\u5c71\u7ad9",
+        "name_en": "MRT Zhongshan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.519967841169,
+          25.050339318064
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5927\u540c\u5340\u9577\u5b89\u897f\u8def25\u865f",
+        "address_en": "No. 25, Chang'an West Road, Datong District, Taipei City",
+        "begin": "2022-02-20T02:24:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/20 10:24-10:29",
+        "end": "2022-02-20T02:29:00.000Z",
+        "latitude": 25.050339318064,
+        "longitude": 121.519967841169,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u798f\u5c71\u5e97",
+        "name_en": "Family Mart Fushan Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.521504046604,
+          25.0542107183394
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u4e2d\u5c71\u5317\u8def\u4e8c\u6bb536\u5df718\u865f",
+        "address_en": "No. 18, Lane 36, Section 2, Zhongshan North Road, Zhongshan District, Taipei City",
+        "begin": "2022-02-20T02:40:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/20 10:40-13:40",
+        "end": "2022-02-20T05:40:00.000Z",
+        "latitude": 25.0542107183394,
+        "longitude": 121.521504046604,
+        "name": "\u746a\u9ed1\u5bb6\u5c45 x P&T\u67cf\u6797\u8336\u9928 \u4e2d\u5c71\u9580\u5e02",
+        "name_en": "Marais Home x P&T Berlin Teahouse Zhongshan Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.520391413678,
+          25.0526854827893
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5357\u4eac\u897f\u8def16\u865f",
+        "address_en": "No. 16, Nanjing West Road, Zhongshan District, Taipei City",
+        "begin": "2022-02-20T09:50:00.000Z",
+        "description": "\u6377\u904b\u4e2d\u5c71\u7ad9\u81f3\u6377\u904b\u7af9\u570d\u7ad9",
+        "duration (text)": "2022/02/20 17:50-18:27",
+        "end": "2022-02-20T10:27:00.000Z",
+        "latitude": 25.0526854827893,
+        "longitude": 121.520391413678,
+        "name": "\u6377\u904b\u4e2d\u5c71\u7ad9",
+        "name_en": "MRT Zhongshan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459525478298,
+          25.1369141671112
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u6b0a\u8def50\u865f",
+        "address_en": "No. 50, Minquan Road, Tamsui District, New Taipei City",
+        "begin": "2022-02-20T09:50:00.000Z",
+        "description": "\u6377\u904b\u4e2d\u5c71\u7ad9\u81f3\u6377\u904b\u7af9\u570d\u7ad9",
+        "duration (text)": "2022/02/20 17:50-18:27",
+        "end": "2022-02-20T10:27:00.000Z",
+        "latitude": 25.1369141671112,
+        "longitude": 121.459525478298,
+        "name": "\u6377\u904b\u7af9\u570d\u7ad9",
+        "name_en": "MRT Zhuwei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459525478298,
+          25.1369153812068
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u6b0a\u8def50\u865f",
+        "address_en": "No. 50, Minquan Road, Tamsui District, New Taipei City",
+        "begin": "2022-02-20T10:56:00.000Z",
+        "description": "\u6377\u904b\u7af9\u570d\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/20 18:56-19:02",
+        "end": "2022-02-20T11:02:00.000Z",
+        "latitude": 25.1369153812068,
+        "longitude": 121.459525478298,
+        "name": "\u6377\u904b\u7af9\u570d\u7ad9",
+        "name_en": "MRT Zhuwei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467100534552,
+          25.1256321928308
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-20T10:56:00.000Z",
+        "description": "\u6377\u904b\u7af9\u570d\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/20 18:56-19:02",
+        "end": "2022-02-20T11:02:00.000Z",
+        "latitude": 25.1256321928308,
+        "longitude": 121.467100534552,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "Family Mart Xingsheng Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467505272874,
+          25.1219779232434
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u5317\u6295\u5340\u77e5\u884c\u8def298\u865f",
+        "address_en": "No. 298, Zhixing Road, Beitou District, Taipei City",
+        "begin": "2022-02-20T11:08:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/20 19:08-19:18",
+        "end": "2022-02-20T11:18:00.000Z",
+        "latitude": 25.1219779232434,
+        "longitude": 121.467505272874,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u884c\u52dd\u5e97",
+        "name_en": "Family Mart Xingsheng Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.526213344655,
+          25.0934579434985
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u58eb\u6797\u5340\u798f\u5fb7\u8def1\u865f",
+        "address_en": "No. 1, Fude Road, Shilin District, Taipei City",
+        "begin": "2022-02-22T06:39:00.000Z",
+        "description": "\u6377\u904b\u58eb\u6797\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/22 14:39-15:06",
+        "end": "2022-02-22T07:06:00.000Z",
+        "latitude": 25.0934579434985,
+        "longitude": 121.526213344655,
+        "name": "\u6377\u904b\u58eb\u6797\u7ad9",
+        "name_en": "MRT Shilin Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467099864,
+          25.1256352283501
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-22T06:39:00.000Z",
+        "description": "\u6377\u904b\u58eb\u6797\u7ad9\u81f3\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/02/22 14:39-15:06",
+        "end": "2022-02-22T07:06:00.000Z",
+        "latitude": 25.1256352283501,
+        "longitude": 121.467099864,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           121.525575907986,
           25.1019459805127
         ],
@@ -646,7 +1546,7 @@
         "name_en": "Cooperative Bank Commercial Bank Bei Shilin Branch",
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "20248",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.gov.taipei/covid19/News_Content.aspx?n=A626FBC2AB83E19F&sms=1A1B3A5B4DBDEDEB&s=7B04E5D7E160BA70"
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/humansoftaipei/posts/5357404880958694"
       },
       "type": "Feature"
     },
@@ -23579,6 +24479,181 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.520397697318,
+          25.0526871762365
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5317\u5e02\u4e2d\u5c71\u5340\u5357\u4eac\u897f\u8def16\u865f",
+        "address_en": "No. 16, Nanjing West Road, Zhongshan District, Taipei City",
+        "begin": "2022-02-20T09:50:00.000Z",
+        "description": "\u6377\u904b\u4e2d\u5c71\u7ad9-\u6de1\u6c34\u4fe1\u7fa9\u7dda-\u6377\u904b\u7af9\u570d\u7ad9",
+        "duration (text)": "2022/2/20 17:50-18:27",
+        "end": "2022-02-20T10:27:00.000Z",
+        "latitude": 25.0526871762365,
+        "longitude": 121.520397697318,
+        "name": "\u6377\u904b\u4e2d\u5c71\u7ad9",
+        "name_en": "MRT Zhongshan Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459525873536,
+          25.136915169273
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u6b0a\u8def50\u865f",
+        "address_en": "No. 50, Minquan Road, Tamsui District, New Taipei City",
+        "begin": "2022-02-20T09:50:00.000Z",
+        "description": "\u6377\u904b\u4e2d\u5c71\u7ad9-\u6de1\u6c34\u4fe1\u7fa9\u7dda-\u6377\u904b\u7af9\u570d\u7ad9",
+        "duration (text)": "2022/2/20 17:50-18:27",
+        "end": "2022-02-20T10:27:00.000Z",
+        "latitude": 25.136915169273,
+        "longitude": 121.459525873536,
+        "name": "\u6377\u904b\u7af9\u570d\u7ad9",
+        "name_en": "MRT Zhuwei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.460765908647,
+          25.1366298627318
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u65cf\u8def12\u865f",
+        "address_en": "No. 12, Minzu Road, Danshui District, New Taipei City",
+        "begin": "2022-02-20T10:29:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/20 18:29",
+        "end": "2022-02-20T11:29:00.000Z",
+        "latitude": 25.1366298627318,
+        "longitude": 121.460765908647,
+        "name": "\u9f8d\u65fa\u81ea\u52a9\u9910",
+        "name_en": "Longwang Buffet",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459525202984,
+          25.1369169904164
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u6de1\u6c34\u5340\u6c11\u6b0a\u8def50\u865f",
+        "address_en": "No. 50, Minquan Road, Tamsui District, New Taipei City",
+        "begin": "2022-02-20T10:56:00.000Z",
+        "description": "\u6377\u904b\u7af9\u570d\u7ad9-\u6de1\u6c34\u4fe1\u7fa9\u7dda-\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/2/20 18:56-19:02",
+        "end": "2022-02-20T11:02:00.000Z",
+        "latitude": 25.1369169904164,
+        "longitude": 121.459525202984,
+        "name": "\u6377\u904b\u7af9\u570d\u7ad9",
+        "name_en": "MRT Zhuwei Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.467099311215,
+          25.1256316308996
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u81fa\u5317\u5e02\u5317\u6295\u5340\u5927\u5ea6\u8def3\u6bb5296\u5df751\u865f",
+        "address_en": "No. 51, Lane 296, Section 3, Dadu Road, Beitou District, Taipei City",
+        "begin": "2022-02-20T10:56:00.000Z",
+        "description": "\u6377\u904b\u7af9\u570d\u7ad9-\u6de1\u6c34\u4fe1\u7fa9\u7dda-\u6377\u904b\u95dc\u6e21\u7ad9",
+        "duration (text)": "2022/2/20 18:56-19:02",
+        "end": "2022-02-20T11:02:00.000Z",
+        "latitude": 25.1256316308996,
+        "longitude": 121.467099311215,
+        "name": "\u6377\u904b\u95dc\u6e21\u7ad9",
+        "name_en": "MRT Guandu Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20317",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.544836664192,
+          24.9798389335619
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u4e2d\u8208\u8def3\u6bb5134\u865f",
+        "address_en": "No. 134, Sec. 3, Zhongxing Rd., Xindian Dist., New Taipei City",
+        "begin": "2022-02-16T05:39:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/16 13:39",
+        "end": "2022-02-16T06:39:00.000Z",
+        "latitude": 24.9798389335619,
+        "longitude": 121.544836664192,
+        "name": "\u7b2c\u4e00\u5546\u696d\u9280\u884c\u65b0\u5e97\u5206\u884c",
+        "name_en": "First Bank Xindian Branch",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20318",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.536910754371,
+          24.9749738510392
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u5e97\u5340\u4e2d\u6b63\u8def",
+        "address_en": "Zhongzheng Road, Xindian District, New Taipei City",
+        "begin": "2022-02-17T01:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/2/17 09:00-09:30",
+        "end": "2022-02-17T01:30:00.000Z",
+        "latitude": 24.9749738510392,
+        "longitude": 121.536910754371,
+        "name": "\u65e5\u65e5\u65fa\u6c34\u679c\u5ee3\u5834",
+        "name_en": "Ririwang Fruit Plaza",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20319",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/ntpchealth/posts/4957873890970100"
       },
       "type": "Feature"
     },
