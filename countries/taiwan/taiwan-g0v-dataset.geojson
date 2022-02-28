@@ -22141,6 +22141,81 @@
     {
       "geometry": {
         "coordinates": [
+          120.279198056389,
+          22.9529856103746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u516d\u7532\u91cc\u4e2d\u6b63\u5357\u8def\u4e00\u6bb51020\u865f",
+        "address_en": "No. 1020, Section 1, Zhongzheng South Road, Liujiali, Guiren District, Tainan City",
+        "begin": "2022-02-15T16:25:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/16 00:25-00:26",
+        "end": "2022-02-15T16:26:00.000Z",
+        "latitude": 22.9529856103746,
+        "longitude": 120.279198056389,
+        "name": "7-11\u516d\u767c\u9580\u5e02",
+        "name_en": "7-11 Liufa store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20581",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5558301224198246"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.294117678985,
+          22.9656554416138
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u5fa9\u8208\u8def162-1\u865f",
+        "address_en": "No. 162-1, Fuxing Road, Guiren District, Tainan City",
+        "begin": "2022-02-15T16:28:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/16 00:28-00:29",
+        "end": "2022-02-15T16:29:00.000Z",
+        "latitude": 22.9656554416138,
+        "longitude": 120.294117678985,
+        "name": "7-11\u4f0d\u8abc\u9580\u5e02",
+        "name_en": "7-11 Wuyi store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20581",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5558301224198246"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          120.292393832358,
+          22.9671420197746
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u53f0\u5357\u5e02\u6b78\u4ec1\u5340\u4e2d\u5c71\u8def\u4e8c\u6bb560\u865f",
+        "address_en": "No. 60, Section 2, Zhongshan Road, Guiren District, Tainan City",
+        "begin": "2022-02-15T16:32:00.000Z",
+        "description": "\u81ea\u884c\u9a0e\u8eca",
+        "duration (text)": "2022/02/16 00:32-00:36",
+        "end": "2022-02-15T16:36:00.000Z",
+        "latitude": 22.9671420197746,
+        "longitude": 120.292393832358,
+        "name": "7-11\u6b78\u4ec1\u9580\u5e02",
+        "name_en": "7-11 Gueiren store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20581",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/HealthTainan/posts/5558301224198246"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
           120.209644888229,
           22.9941231309075
         ],
@@ -26528,6 +26603,481 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "1/22\u4e0b\u5348\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/chshb.tw/posts/4743393152406418"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.445795528273,
+          25.0080154635635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u677f\u6a4b\u5340\u50d1\u4e2d\u4e8c\u8857104\u5df74\u865f",
+        "address_en": "No. 4, Lane 104, Qiaozhong 2nd Street, Banqiao District, New Taipei City",
+        "begin": "2022-02-25T06:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/25 14:30-15:00",
+        "end": "2022-02-25T07:00:00.000Z",
+        "latitude": 25.0080154635635,
+        "longitude": 121.445795528273,
+        "name": "\u90ed\u5bb6\u991b\u98e9\u9eb5",
+        "name_en": "Guojia Wonton Noodles",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20564",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.525014773193,
+          24.9902932869908
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u4e2d\u548c\u5340\u666f\u5e73\u8def2\u865f",
+        "address_en": "No. 2, Jingping Road, Zhonghe District, New Taipei City",
+        "begin": "2022-02-25T09:00:00.000Z",
+        "description": "\u6377\u904b\u79c0\u6717\u6a4b\u7ad9-\u74b0\u72c0\u7dda-\u6377\u904b\u5e78\u798f\u7ad9",
+        "duration (text)": "2022/02/25 17:00-17:40",
+        "end": "2022-02-25T09:40:00.000Z",
+        "latitude": 24.9902932869908,
+        "longitude": 121.525014773193,
+        "name": "\u6377\u904b\u79c0\u6717\u6a4b\u7ad9",
+        "name_en": "MRT Xiulangqiao Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20564",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459979481195,
+          25.0499796542869
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u601d\u6e90\u8def292\u865f",
+        "address_en": "No. 292, Siyuan Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-25T09:00:00.000Z",
+        "description": "\u6377\u904b\u79c0\u6717\u6a4b\u7ad9-\u74b0\u72c0\u7dda-\u6377\u904b\u5e78\u798f\u7ad9",
+        "duration (text)": "2022/02/25 17:00-17:40",
+        "end": "2022-02-25T09:40:00.000Z",
+        "latitude": 25.0499796542869,
+        "longitude": 121.459979481195,
+        "name": "\u6377\u904b\u5e78\u798f\u7ad9",
+        "name_en": "MRT Happiness Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20564",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.456199448865,
+          25.0492116288657
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def501\u865f",
+        "address_en": "No. 501, Xingfu Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-20T04:30:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/20 12:30",
+        "end": "2022-02-20T05:30:00.000Z",
+        "latitude": 25.0492116288657,
+        "longitude": 121.456199448865,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3\u65b0\u838a\u5e78\u798f\u5e97",
+        "name_en": "Quanlian Welfare Center Xinzhuang Happiness Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20565",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.456199448865,
+          25.0492152737642
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def501\u865f",
+        "address_en": "No. 501, Xingfu Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-21T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/21 12:00",
+        "end": "2022-02-21T05:00:00.000Z",
+        "latitude": 25.0492152737642,
+        "longitude": 121.456199448865,
+        "name": "\u5168\u806f\u798f\u5229\u4e2d\u5fc3\u65b0\u838a\u5e78\u798f\u5e97",
+        "name_en": "Quanlian Welfare Center Xinzhuang Happiness Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20565",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.454852823364,
+          25.0492169588947
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u5e78\u798f\u8def543\u865f",
+        "address_en": "No. 543, Xingfu Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-21T04:15:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/21 12:15",
+        "end": "2022-02-21T05:15:00.000Z",
+        "latitude": 25.0492169588947,
+        "longitude": 121.454852823364,
+        "name": "\u5b9c\u54c1\u798f\u5dde\u4e7e\u62cc\u9eb5",
+        "name_en": "Yipin Fuzhou Dry Noodles",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20565",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459186916733,
+          25.0617161499634
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-22T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/22 08:30-08:55",
+        "end": "2022-02-22T00:55:00.000Z",
+        "latitude": 25.0617161499634,
+        "longitude": 121.459186916733,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.370739221631,
+          25.0605391215257
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-22T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/22 08:30-08:55",
+        "end": "2022-02-22T00:55:00.000Z",
+        "latitude": 25.0605391215257,
+        "longitude": 121.370739221631,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459184905077,
+          25.061719187069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-23T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/23 08:30-08:55",
+        "end": "2022-02-23T00:55:00.000Z",
+        "latitude": 25.061719187069,
+        "longitude": 121.459184905077,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.370739221631,
+          25.0605415512335
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-23T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/23 08:30-08:55",
+        "end": "2022-02-23T00:55:00.000Z",
+        "latitude": 25.0605415512335,
+        "longitude": 121.370739221631,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459185575629,
+          25.0617197944901
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-24T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/24 08:30-08:55",
+        "end": "2022-02-24T00:55:00.000Z",
+        "latitude": 25.0617197944901,
+        "longitude": 121.459185575629,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.370739892183,
+          25.0605421586604
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-24T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/24 08:30-08:55",
+        "end": "2022-02-24T00:55:00.000Z",
+        "latitude": 25.0605421586604,
+        "longitude": 121.370739892183,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459186246181,
+          25.0617228315955
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-25T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/25 08:30-08:55",
+        "end": "2022-02-25T00:55:00.000Z",
+        "latitude": 25.0617228315955,
+        "longitude": 121.459186246181,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.37074190384,
+          25.0605433735143
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-25T00:30:00.000Z",
+        "description": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9-\u6a5f\u5834\u7dda-A8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "duration (text)": "2022/02/25 08:30-08:55",
+        "end": "2022-02-25T00:55:00.000Z",
+        "latitude": 25.0605433735143,
+        "longitude": 121.37074190384,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.370739892183,
+          25.0605439809412
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-22T10:30:00.000Z",
+        "description": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9-\u6a5f\u5834\u7dda-A3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "duration (text)": "2022/02/22 18:30-19:00",
+        "end": "2022-02-22T11:00:00.000Z",
+        "latitude": 25.0605439809412,
+        "longitude": 121.370739892183,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459186916733,
+          25.061719187069
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-22T10:30:00.000Z",
+        "description": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9-\u6a5f\u5834\u7dda-A3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "duration (text)": "2022/02/22 18:30-19:00",
+        "end": "2022-02-22T11:00:00.000Z",
+        "latitude": 25.061719187069,
+        "longitude": 121.459186916733,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.370740562736,
+          25.0605427660874
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u6843\u5712\u5e02\u9f9c\u5c71\u5340\u6587\u5316\u4e00\u8def6\u865f",
+        "address_en": "No. 6, Wenhua 1st Road, Guishan District, Taoyuan City",
+        "begin": "2022-02-23T10:30:00.000Z",
+        "description": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9-\u6a5f\u5834\u7dda-A3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "duration (text)": "2022/02/23 18:30-19:00",
+        "end": "2022-02-23T11:00:00.000Z",
+        "latitude": 25.0605427660874,
+        "longitude": 121.370740562736,
+        "name": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9",
+        "name_en": "MRT A8 Chang Gung Memorial Hospital Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.459186246181,
+          25.0617216167533
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u4e94\u5de5\u8def37\u865f",
+        "address_en": "No. 37, Wugong Road, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-23T10:30:00.000Z",
+        "description": "\u6377\u904bA8\u9577\u5e9a\u91ab\u9662\u7ad9-\u6a5f\u5834\u7dda-A3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "duration (text)": "2022/02/23 18:30-19:00",
+        "end": "2022-02-23T11:00:00.000Z",
+        "latitude": 25.0617216167533,
+        "longitude": 121.459186246181,
+        "name": "\u6377\u904bA3\u65b0\u5317\u7522\u696d\u5712\u5340\u7ad9",
+        "name_en": "MRT A3 New Taipei Industrial Park Station",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.458190868362,
+          25.0490012349336
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "\u65b0\u5317\u5e02\u65b0\u838a\u5340\u798f\u58fd\u885753\u865f",
+        "address_en": "No. 53, Fushou Street, Xinzhuang District, New Taipei City",
+        "begin": "2022-02-25T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/02/25 19:00",
+        "end": "2022-02-25T12:00:00.000Z",
+        "latitude": 25.0490012349336,
+        "longitude": 121.458190868362,
+        "name": "\u53f0\u5357\u53e4\u65e9\u5473\u4e03\u80a1\u8671\u76ee\u9b5a\u5c08\u8ce3\u5e97",
+        "name_en": "Tainan Ancient Taste Chigu Milkfish Specialty Store",
+        "\u6821\u5c0d\u8005": "",
+        "\u6848\u865f": "20566",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/218558484828205/posts/5545154195501914/"
       },
       "type": "Feature"
     },
@@ -69462,81 +70012,6 @@
         "\u6821\u5c0d\u8005": "",
         "\u6848\u865f": "17983",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/hlgov/posts/4929918397046682"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.59695000347,
-          23.9796635459888
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u6797\u653f\u885753\u865f",
-        "address_en": "53 Linzheng Street, Hualien City, Hualien County",
-        "begin": "2021-12-27T09:00:00.000Z",
-        "description": "12/27 17:00 \u81ea\u884c\u958b\u8eca\u5165\u4f4f",
-        "duration (text)": "12/27 17:00",
-        "end": "2021-12-27T10:00:00.000Z",
-        "latitude": 23.9796635459888,
-        "longitude": 121.59695000347,
-        "name": "\u82b1\u6f3e\u6751\u8072\u65c5\u5e97",
-        "name_en": "Huayang Village Sound Inn",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17264",
-        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3791772"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.605632166554,
-          23.9758698742825
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u4e2d\u83ef\u8def120\u865f",
-        "address_en": "No. 120, Zhonghua Road, Hualien City, Hualien County",
-        "begin": "2021-12-27T10:00:00.000Z",
-        "description": "",
-        "duration (text)": "12/27 18:00",
-        "end": "2021-12-27T11:00:00.000Z",
-        "latitude": 23.9758698742825,
-        "longitude": 121.605632166554,
-        "name": "\u6234\u8a18\u6241\u98df",
-        "name_en": "Dai Ji Flat Food",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17264",
-        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3791772"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.607186883616,
-          23.9786143412507
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u82b1\u84ee\u7e23\u82b1\u84ee\u5e02\u7bc0\u7d04\u885737\u865f",
-        "address_en": "37 Shijie Street, Hualien City, Hualien County",
-        "begin": "2021-12-27T12:22:00.000Z",
-        "description": "",
-        "duration (text)": "12/27 20:22",
-        "end": "2021-12-27T13:22:00.000Z",
-        "latitude": 23.9786143412507,
-        "longitude": 121.607186883616,
-        "name": "\u82b1\u84ee\u65e5\u65e5",
-        "name_en": "Hualien every day",
-        "\u6821\u5c0d\u8005": "",
-        "\u6848\u865f": "17264",
-        "\u8cc7\u6599\u4f86\u6e90": "https://news.ltn.com.tw/news/life/breakingnews/3791772"
       },
       "type": "Feature"
     },
