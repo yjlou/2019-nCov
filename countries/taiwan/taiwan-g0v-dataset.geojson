@@ -753,81 +753,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.533319578539,
-          24.2542833843497
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u68a7\u68f2\u5340\u96f2\u96c6\u8857",
-        "address_en": "Yunji Street, Wuqi District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "\u5e02\u5834\u7bc4\u570d\u5927\uff0c\u6a19\u8a18\u9ede\u50c5\u4f9b\u53c3\u8003",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.2542833843497,
-        "longitude": 120.533319578539,
-        "name": "\u68a7\u68f2\u7b2c\u4e00\u516c\u6709\u96f6\u552e\u5e02\u5834",
-        "name_en": "Wuqi First Public Retail Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2046613/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.687170097525,
-          24.1894690310736
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5c6f\u5340\u5d07\u5fb7\u5341\u4e00\u8def",
-        "address_en": "Chongde 11 Road, Beitun District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1894690310736,
-        "longitude": 120.687170097525,
-        "name": "\u85cf\u58fd\u53f8\u5d07\u5fb7\u5e97",
-        "name_en": "Tibetan Sushi Chongde",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2046613/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.645496641864,
-          24.1759251013196
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6587\u83ef\u8def",
-        "address_en": "Wenhua Road, Xitun District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "\u591c\u5e02\u7bc4\u570d\u5927\uff0c\u6a19\u8a18\u9ede\u50c5\u4f9b\u53c3\u8003",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1759251013196,
-        "longitude": 120.645496641864,
-        "name": "\u9022\u7532\u591c\u5e02",
-        "name_en": "Fengjia Night Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2046613/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.701754639583,
           24.2104559553739
         ],
@@ -1003,131 +928,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.697547579803,
-          24.0966171056118
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5927\u91cc\u5340\u4ec1\u5316\u8def",
-        "address_en": "Renhua Road, Dali District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.0966171056118,
-        "longitude": 120.697547579803,
-        "name": "\u5967\u5275\u904b\u52d5\u7a7a\u9593",
-        "name_en": "Ultron Sports Space",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.664521227043,
-          24.1652699725958
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u83ef\u7f8e\u897f\u8857\u4e8c\u6bb5",
-        "address_en": "Section 2, Huamei West Street, Xitun District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "\u5e02\u5834\u7bc4\u570d\u5927\uff0c\u6a19\u8a18\u9ede\u50c5\u4f9b\u53c3\u8003",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1652699725958,
-        "longitude": 120.664521227043,
-        "name": "\u83ef\u7f8e\u5e02\u96c6\u6524\u8ca9\u96c6\u4e2d\u5340",
-        "name_en": "Huamei Market Street Vendor Concentration Area",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.730447679806,
-          24.2490187665671
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u8c50\u539f\u5340\u8c50\u6771\u8def",
-        "address_en": "Fengdong Road, Fengyuan District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "\u5e02\u5834\u7bc4\u570d\u5927\uff0c\u6a19\u8a18\u9ede\u50c5\u4f9b\u53c3\u8003",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.2490187665671,
-        "longitude": 120.730447679806,
-        "name": "\u846b\u8606\u58a9\u89c0\u5149\u591c\u5e02",
-        "name_en": "Huludun Tourist Night Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.666064225054,
-          24.1572732368967
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u9928\u524d\u8def",
-        "address_en": "Guanqian Road, North District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1572732368967,
-        "longitude": 120.666064225054,
-        "name": "\u570b\u7acb\u81ea\u7136\u79d1\u5b78\u535a\u7269\u9928",
-        "name_en": "National Museum of Natural Science",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.669218928283,
-          24.1275757590234
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u4e94\u6b0a\u5357\u8def",
-        "address_en": "Wuquan South Road, South District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1275757590234,
-        "longitude": 120.669218928283,
-        "name": "\u53f0\u4e2d\u9ad8\u7b49\u884c\u653f\u6cd5\u9662",
-        "name_en": "Taichung High Administrative Court",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.715937656493,
           24.2502513209401
         ],
@@ -1172,156 +972,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045896/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.672203945974,
-          24.1708357079365
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u4e2d\u6e05\u8def\u4e00\u6bb5",
-        "address_en": "Section 1, Zhongqing Road, North District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1708357079365,
-        "longitude": 120.672203945974,
-        "name": "\u9ea5\u7576\u52de\u65b0\u5927\u96c5\u9910\u5ef3",
-        "name_en": "McDonald's New Tai Ya Restaurant",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045439/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.68538522636,
-          24.1560422708197
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5317\u5340\u5d07\u5fb7\u8def\u4e00\u6bb5",
-        "address_en": "Section 1, Chongde Road, North District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1560422708197,
-        "longitude": 120.68538522636,
-        "name": "\u81fa\u4e2d\u6baf\u5100\u9928\u5d07\u5fb7\u9928",
-        "name_en": "Taichung Funeral Home Chongde House",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045439/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.648080768077,
-          24.1720948431732
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u6cb3\u5357\u8def\u4e8c\u6bb5",
-        "address_en": "Section 2, Henan Road, Xitun District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1720948431732,
-        "longitude": 120.648080768077,
-        "name": "\u597d\u6a02\u8feaKTV\u897f\u5c6f\u5e97",
-        "name_en": "Haoledi KTV Xitun Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045439/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.669840603672,
-          24.1200576564512
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u5357\u5340\u4e94\u6b0a\u5357\u8def",
-        "address_en": "Wuquan South Road, South District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1200576564512,
-        "longitude": 120.669840603672,
-        "name": "\u81fa\u4e2d\u5716\u66f8\u9928\u5357\u5340\u5206\u9928",
-        "name_en": "Taichung Library South Branch",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045439/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.607106326973,
-          24.1881595960564
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u4e2d\u5e02\u897f\u5c6f\u5340\u798f\u79d1\u8def",
-        "address_en": "Fuke Road, Xitun District, Taichung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 24.1881595960564,
-        "longitude": 120.607106326973,
-        "name": "\u7fbd\u63da\u7fbd\u7403\u6703\u9928",
-        "name_en": "Badminton Club",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.taichung.gov.tw/2045439/post"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.154958090484,
-          22.7559940243354
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u53f0\u6771\u7e23\u53f0\u6771\u5e02\u4e2d\u83ef\u8def\u4e00\u6bb5",
-        "address_en": "Section 1, Zhonghua Road, Taitung City, Taitung County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.7559940243354,
-        "longitude": 121.154958090484,
-        "name": "\u6771\u4eae\u96de\u6392\u5e97",
-        "name_en": "Dongliang Chicken Chop Shop",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/taitung.gov/posts/373200551519804"
       },
       "type": "Feature"
     },
@@ -2078,81 +1728,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.55292849230429,
-          23.52094029227271
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u7af9\u5d0e\u9109\u6587\u5316\u8def28\u865f",
-        "address_en": "No. 28, Wenhua Road, Zhuqi Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.52094029227271,
-        "longitude": 120.55292849230429,
-        "name": "\u7af9\u5d0e\u570b\u5c0f",
-        "name_en": "Zhuqi Elementary School",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=919780ECEF6495A1"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.251087061455,
-          23.4112043526077
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6734\u5b50\u5e02\u677e\u83ef\u91cc345\u865f",
-        "address_en": "No. 345, Songhuali, Puzi City, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.4112043526077,
-        "longitude": 120.251087061455,
-        "name": "\u677e\u6885\u570b\u5c0f\u9644\u5e7c",
-        "name_en": "Songmei Elementary School Affiliated Kindergarten",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=919780ECEF6495A1"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.313007250069,
-          23.40942653473447
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u9e7f\u8349\u9109\u9e7f\u8349\u8def132\u865f",
-        "address_en": "No. 132, Lucao Road, Lucao Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.40942653473447,
-        "longitude": 120.313007250069,
-        "name": "\u9e7f\u8349\u570b\u4e2d",
-        "name_en": "Lucao Junior High School",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=919780ECEF6495A1"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.39912573423456,
           23.43247325246884
         ],
@@ -2197,206 +1772,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u544a",
         "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=919780ECEF6495A1"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.415128755254,
-          23.4358248409731
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6c34\u4e0a\u9109\u67f3\u6797\u675192\u865f",
-        "address_en": "No. 92, Liulin Village, Shuixiang Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.4358248409731,
-        "longitude": 120.415128755254,
-        "name": "\u67f3\u6797\u570b\u5c0f",
-        "name_en": "Liulin Elementary School",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&sms=A55ECAF6D99EACF8&s=FE6F406D8B3F25CD"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.473183504995,
-          23.5633367476804
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6c11\u96c4\u9109\u5927\u5b78\u8def\u4e00\u6bb5168\u865f",
-        "address_en": "No. 168, Section 1, Daxue Road, Minxiong Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.5633367476804,
-        "longitude": 120.473183504995,
-        "name": "\u4e2d\u6b63\u5927\u5b78",
-        "name_en": "Chung Cheng University",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&sms=A55ECAF6D99EACF8&s=FE6F406D8B3F25CD"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.49419775648,
-          23.5700758970233
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u5927\u6797\u93ae\u5357\u83ef\u8def\u4e00\u6bb555\u865f",
-        "address_en": "No. 55, Section 1, Nanhua Road, Dalin Town, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.5700758970233,
-        "longitude": 120.49419775648,
-        "name": "\u5357\u83ef\u5927\u5b78",
-        "name_en": "Nanhua University",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&sms=A55ECAF6D99EACF8&s=FE6F406D8B3F25CD"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.261350741043,
-          23.4534669690941
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6734\u5b50\u5e02\u5927\u9109\u91cc560\u865f",
-        "address_en": "No. 560, Daxiangli, Puzi City, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.4534669690941,
-        "longitude": 120.261350741043,
-        "name": "\u5927\u9109\u570b\u5c0f",
-        "name_en": "Daxiang Elementary School",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=67361A48B0B47B79"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.456526361931,
-          23.533778739392
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6c11\u96c4\u5317\u52e2\u4ed417\u865f",
-        "address_en": "No. 17, North Shizai, Minxiong, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.533778739392,
-        "longitude": 120.456526361931,
-        "name": "\u79c0\u6797\u570b\u5c0f",
-        "name_en": "Xiulin Elementary School",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=67361A48B0B47B79"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.391024559157,
-          23.6014987358301
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6eaa\u53e3\u9109\u4e2d\u5c71\u8def93\u865f",
-        "address_en": "No. 93, Zhongshan Road, Xikou Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.6014987358301,
-        "longitude": 120.391024559157,
-        "name": "\u6eaa\u53e3\u9109\u7acb\u5e7c\u5152\u5712",
-        "name_en": "Xikou Township Kindergarten",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=67361A48B0B47B79"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.399144098123,
-          23.432452037262
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6c34\u4e0a\u9109\u4e2d\u8208\u8def528\u865f",
-        "address_en": "No. 528, Zhongxing Road, Shuixiang Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.432452037262,
-        "longitude": 120.399144098123,
-        "name": "\u6c34\u4e0a\u5206\u5c40",
-        "name_en": "Water Bureau",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=67361A48B0B47B79"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.43734867084,
-          23.4185160711593
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5609\u7fa9\u7e23\u6c34\u4e0a\u9109",
-        "address_en": "Shuixiang Township, Chiayi County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 23.4185160711593,
-        "longitude": 120.43734867084,
-        "name": "\u6c34\u4e0a\u9109\u4e2d\u5e84\u71df\u5340",
-        "name_en": "Water Village Zhongzhuang Camp",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://cyshb.cyhg.gov.tw/News_Content.aspx?n=E236E03D6AE796F8&s=67361A48B0B47B79"
       },
       "type": "Feature"
     },
@@ -2478,81 +1853,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.539652453008,
-          22.5418725378138
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.5418725378138,
-        "longitude": 120.539652453008,
-        "name": "\u6f6e\u5dde\u591c\u5e02(\u64fa\u6524)",
-        "name_en": "Chaozhou Night Market (Stalls)",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/541934887298844"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.48006892615139,
-          22.652422407194464
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u5c4f\u6771\u7e23\u5c4f\u6771\u5e02\u548c\u751f\u8def\u4e8c\u6bb5221\u865f",
-        "address_en": "No. 221, Section 2, Hesheng Road, Pingtung City, Pingtung County",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.652422407194464,
-        "longitude": 120.48006892615139,
-        "name": "\u5c4f\u6771\u5e02\u679c\u83dc\u5e02\u5834(\u548c\u751f\u5e02\u5834)",
-        "name_en": "Pingtung City Fruit and Vegetable Market (Hesheng Market)",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/541934887298844"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.482593506695,
-          22.6684878995531
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6684878995531,
-        "longitude": 120.482593506695,
-        "name": "\u5efa\u570b\u5e02\u5834",
-        "name_en": "Jianguo Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/541934887298844"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.44362184653531,
           22.468158792659935
         ],
@@ -2578,75 +1878,950 @@
     {
       "geometry": {
         "coordinates": [
-          120.489862579283,
-          22.6698847879165
+          119.969001939438,
+          26.2059231189285
         ],
         "type": "Point"
       },
       "properties": {
         "address": "",
         "address_en": "",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6698847879165,
-        "longitude": 120.489862579283,
-        "name": "\u5c4f\u6771\u89c0\u5149\u591c\u5e02",
-        "name_en": "Pingtung Tourist Night Market",
+        "begin": "2022-06-27T23:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5357\u7aff",
+        "duration (text)": "2022/6/28 07:30-15:45",
+        "end": "2022-06-28T07:45:00.000Z",
+        "latitude": 26.2059231189285,
+        "longitude": 119.969001939438,
+        "name": "\u5317\u7aff\u767d\u6c99\u6e2f",
+        "name_en": "Beigan Baisha Port",
         "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/541157134043286"
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          120.482575572922,
-          22.6684858883711
+          119.943172003469,
+          26.1597898675384
         ],
         "type": "Point"
       },
       "properties": {
         "address": "",
         "address_en": "",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6684858883711,
-        "longitude": 120.482575572922,
-        "name": "\u5efa\u570b\u5e02\u5834",
-        "name_en": "Jianguo Market",
+        "begin": "2022-06-27T23:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5357\u7aff",
+        "duration (text)": "2022/6/28 07:30-15:45",
+        "end": "2022-06-28T07:45:00.000Z",
+        "latitude": 26.1597898675384,
+        "longitude": 119.943172003469,
+        "name": "\u5357\u7aff\u798f\u6fb3\u6e2f",
+        "name_en": "Nangan Fuao Port",
         "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/541157134043286"
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
       },
       "type": "Feature"
     },
     {
       "geometry": {
         "coordinates": [
-          120.482578346895,
-          22.6684843382516
+          119.94317626121,
+          26.1598051539876
         ],
         "type": "Point"
       },
       "properties": {
         "address": "",
         "address_en": "",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6684843382516,
-        "longitude": 120.482578346895,
-        "name": "\u5efa\u570b\u5e02\u5834",
-        "name_en": "Jianguo Market",
+        "begin": "2022-06-28T05:00:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/28 13:00-16:15",
+        "end": "2022-06-28T08:15:00.000Z",
+        "latitude": 26.1598051539876,
+        "longitude": 119.94317626121,
+        "name": "\u5357\u7aff\u798f\u6fb3\u6e2f",
+        "name_en": "Nangan Fuao Port",
         "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u544a",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/pan.menan1/posts/540484264110573"
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.968983367039,
+          26.2059252018528
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T05:00:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/28 13:00-16:15",
+        "end": "2022-06-28T08:15:00.000Z",
+        "latitude": 26.2059252018528,
+        "longitude": 119.968983367039,
+        "name": "\u5317\u7aff\u767d\u6c99\u6e2f",
+        "name_en": "Beigan Baisha Port",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943195421046,
+          26.1597841351193
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T09:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/27 17:30-17:45",
+        "end": "2022-06-27T09:45:00.000Z",
+        "latitude": 26.1597841351193,
+        "longitude": 119.943195421046,
+        "name": "\u5357\u7aff\u798f\u6fb3\u6e2f",
+        "name_en": "Nangan Fuao Port",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.968991492464,
+          26.2059460310934
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T09:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/27 17:30-17:45",
+        "end": "2022-06-27T09:45:00.000Z",
+        "latitude": 26.2059460310934,
+        "longitude": 119.968991492464,
+        "name": "\u5317\u7aff\u767d\u6c99\u6e2f",
+        "name_en": "Beigan Baisha Port",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943152843633,
+          26.1597631162473
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T09:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/28 17:30-17:45",
+        "end": "2022-06-28T09:45:00.000Z",
+        "latitude": 26.1597631162473,
+        "longitude": 119.943152843633,
+        "name": "\u5357\u7aff\u798f\u6fb3\u6e2f",
+        "name_en": "Nangan Fuao Port",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.969021672613,
+          26.2059283262391
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T09:30:00.000Z",
+        "description": "\u642d\u4e58\u5357\u5317\u7aff\u4ea4\u901a\u8239\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/28 17:30-17:45",
+        "end": "2022-06-28T09:45:00.000Z",
+        "latitude": 26.2059283262391,
+        "longitude": 119.969021672613,
+        "name": "\u5317\u7aff\u767d\u6c99\u6e2f",
+        "name_en": "Beigan Baisha Port",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          121.550105040475,
+          25.0639589267429
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T22:50:00.000Z",
+        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8781\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/27 06:50-07:50",
+        "end": "2022-06-26T23:50:00.000Z",
+        "latitude": 25.0639589267429,
+        "longitude": 121.550105040475,
+        "name": "\u677e\u5c71\u6a5f\u5834",
+        "name_en": "Songshan Airport",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.999496353122,
+          26.223598462813
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T22:50:00.000Z",
+        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8781\u5f80\u5317\u7aff",
+        "duration (text)": "2022/6/27 06:50-07:50",
+        "end": "2022-06-26T23:50:00.000Z",
+        "latitude": 26.223598462813,
+        "longitude": 119.999496353122,
+        "name": "\u99ac\u7956\u5317\u7aff\u6a5f\u5834",
+        "name_en": "Matsu Beigan Airport",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943246513941,
+          26.1597994215694
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-24T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/25 07:00-15:30",
+        "end": "2022-06-25T07:30:00.000Z",
+        "latitude": 26.1597994215694,
+        "longitude": 119.943246513941,
+        "name": "\u731b\u6c83\u6e2f\u5340",
+        "name_en": "Mengwo Port Area",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943223096364,
+          26.1598242620464
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-25T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/26 07:00-15:30",
+        "end": "2022-06-26T07:30:00.000Z",
+        "latitude": 26.1598242620464,
+        "longitude": 119.943223096364,
+        "name": "\u731b\u6c83\u6e2f\u5340",
+        "name_en": "Mengwo Port Area",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943191163305,
+          26.1597688486673
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 07:00-15:30",
+        "end": "2022-06-27T07:30:00.000Z",
+        "latitude": 26.1597688486673,
+        "longitude": 119.943191163305,
+        "name": "\u731b\u6c83\u6e2f\u5340",
+        "name_en": "Mengwo Port Area",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.951352545385,
+          26.1554931314635
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/29 07:00",
+        "end": "2022-06-29T00:00:00.000Z",
+        "latitude": 26.1554931314635,
+        "longitude": 119.951352545385,
+        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
+        "name_en": "Jie Shou Lion Market",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.951841202552,
+          26.1609243937288
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T08:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 16:00-16:30",
+        "end": "2022-06-27T08:30:00.000Z",
+        "latitude": 26.1609243937288,
+        "longitude": 119.951841202552,
+        "name": "\u99ac\u7956\u9152\u5ee0",
+        "name_en": "Matsu Winery",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.955524150973,
+          26.1577174292849
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T23:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 07:00-19:00",
+        "end": "2022-06-28T11:00:00.000Z",
+        "latitude": 26.1577174292849,
+        "longitude": 119.955524150973,
+        "name": "\u5357\u7aff\u822a\u7a7a\u7ad9",
+        "name_en": "Nangan Air Station",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.955335118234,
+          26.1574643106263
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-25T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/25 12:00-12:10",
+        "end": "2022-06-25T04:10:00.000Z",
+        "latitude": 26.1574643106263,
+        "longitude": 119.955335118234,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
+        "name_en": "FamilyMart Airport Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.955378502797,
+          26.1574865628381
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/26 12:00-12:10",
+        "end": "2022-06-26T04:10:00.000Z",
+        "latitude": 26.1574865628381,
+        "longitude": 119.955378502797,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
+        "name_en": "FamilyMart Airport Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.955341316028,
+          26.1574754367327
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 12:00-12:10",
+        "end": "2022-06-27T04:10:00.000Z",
+        "latitude": 26.1574754367327,
+        "longitude": 119.955341316028,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
+        "name_en": "FamilyMart Airport Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.955316524849,
+          26.1574921258904
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 12:00-12:10",
+        "end": "2022-06-28T04:10:00.000Z",
+        "latitude": 26.1574921258904,
+        "longitude": 119.955316524849,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
+        "name_en": "FamilyMart Airport Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.944010535219,
+          26.1606764584175
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T07:05:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 15:05-16:00",
+        "end": "2022-06-28T08:00:00.000Z",
+        "latitude": 26.1606764584175,
+        "longitude": 119.944010535219,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u78bc\u982d\u5e97",
+        "name_en": "Family Mart Wharf Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943919957872,
+          26.1577627783877
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T10:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 18:00-18:10",
+        "end": "2022-06-28T10:10:00.000Z",
+        "latitude": 26.1577627783877,
+        "longitude": 119.943919957872,
+        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u798f\u904b\u5e97",
+        "name_en": "Family Mart Fuyun Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943454899777,
+          26.1605786330448
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T07:05:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 15:05-16:00",
+        "end": "2022-06-28T08:00:00.000Z",
+        "latitude": 26.1605786330448,
+        "longitude": 119.943454899777,
+        "name": "85\u5ea6C\u798f\u6c83\u5e97",
+        "name_en": "85 Degree C Fuwo Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.939713808529,
+          26.1466929964415
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-25T05:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/25 13:00-15:30",
+        "end": "2022-06-25T07:30:00.000Z",
+        "latitude": 26.1466929964415,
+        "longitude": 119.939713808529,
+        "name": "85\u5ea6C\u6e05\u6c34\u5e97",
+        "name_en": "85 Degree C Qingshui Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.952216409192,
+          26.1586274937205
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T11:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 19:00-19:30",
+        "end": "2022-06-27T11:30:00.000Z",
+        "latitude": 26.1586274937205,
+        "longitude": 119.952216409192,
+        "name": "7-11\u4e2d\u96b4\u9580\u5e02",
+        "name_en": "7-11 Zhonglong Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.952022194377,
+          26.1559618607407
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/26 15:00-19:00",
+        "end": "2022-06-26T11:00:00.000Z",
+        "latitude": 26.1559618607407,
+        "longitude": 119.952022194377,
+        "name": "7-11\u99ac\u7956\u9580\u5e02",
+        "name_en": "7-11 Matsu store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943526350026,
+          26.1602698734259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 15:00-19:00",
+        "end": "2022-06-27T11:00:00.000Z",
+        "latitude": 26.1602698734259,
+        "longitude": 119.943526350026,
+        "name": "7-11\u798f\u6c83\u9580\u5e02",
+        "name_en": "7-11 Fuwo store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943526350026,
+          26.1602698734259
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 15:00-19:00",
+        "end": "2022-06-28T11:00:00.000Z",
+        "latitude": 26.1602698734259,
+        "longitude": 119.943526350026,
+        "name": "7-11\u798f\u6c83\u9580\u5e02",
+        "name_en": "7-11 Fuwo store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943533945031,
+          26.1602857797711
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-29T07:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/29 15:00-19:00",
+        "end": "2022-06-29T11:00:00.000Z",
+        "latitude": 26.1602857797711,
+        "longitude": 119.943533945031,
+        "name": "7-11\u798f\u6c83\u9580\u5e02",
+        "name_en": "7-11 Fuwo store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.943513691685,
+          26.1602721457611
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T07:05:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 15:05-16:00",
+        "end": "2022-06-28T08:00:00.000Z",
+        "latitude": 26.1602721457611,
+        "longitude": 119.943513691685,
+        "name": "7-11\u798f\u6c83\u9580\u5e02",
+        "name_en": "7-11 Fuwo store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998017883217,
+          26.2234447247726
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-25T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/25 12:00-14:00",
+        "end": "2022-06-25T06:00:00.000Z",
+        "latitude": 26.2234447247726,
+        "longitude": 119.998017883217,
+        "name": "7-11\u5317\u7aff\u9580\u5e02",
+        "name_en": "7-11 Beigan Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998010074484,
+          26.2234517298124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/26 12:00-14:00",
+        "end": "2022-06-26T06:00:00.000Z",
+        "latitude": 26.2234517298124,
+        "longitude": 119.998010074484,
+        "name": "7-11\u5317\u7aff\u9580\u5e02",
+        "name_en": "7-11 Beigan Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998049118148,
+          26.2234517298124
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 12:00-14:00",
+        "end": "2022-06-27T06:00:00.000Z",
+        "latitude": 26.2234517298124,
+        "longitude": 119.998049118148,
+        "name": "7-11\u5317\u7aff\u9580\u5e02",
+        "name_en": "7-11 Beigan Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998053022514,
+          26.2234377197325
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 12:00-14:00",
+        "end": "2022-06-28T06:00:00.000Z",
+        "latitude": 26.2234377197325,
+        "longitude": 119.998053022514,
+        "name": "7-11\u5317\u7aff\u9580\u5e02",
+        "name_en": "7-11 Beigan Store",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998615417443,
+          26.2238761499659
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-25T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/25 12:00-14:00",
+        "end": "2022-06-25T06:00:00.000Z",
+        "latitude": 26.2238761499659,
+        "longitude": 119.998615417443,
+        "name": "7-11\u5858\u5c90\u9580\u5e02",
+        "name_en": "7-11 Tangqimen City",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998639557322,
+          26.2238905868095
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-26T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/26 12:00-14:00",
+        "end": "2022-06-26T06:00:00.000Z",
+        "latitude": 26.2238905868095,
+        "longitude": 119.998639557322,
+        "name": "7-11\u5858\u5c90\u9580\u5e02",
+        "name_en": "7-11 Tangqimen City",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998567137685,
+          26.2239074297915
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-27T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/27 12:00-14:00",
+        "end": "2022-06-27T06:00:00.000Z",
+        "latitude": 26.2239074297915,
+        "longitude": 119.998567137685,
+        "name": "7-11\u5858\u5c90\u9580\u5e02",
+        "name_en": "7-11 Tangqimen City",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [
+          119.998580548729,
+          26.22389299295
+        ],
+        "type": "Point"
+      },
+      "properties": {
+        "address": "",
+        "address_en": "",
+        "begin": "2022-06-28T04:00:00.000Z",
+        "description": "",
+        "duration (text)": "2022/6/28 12:00-14:00",
+        "end": "2022-06-28T06:00:00.000Z",
+        "latitude": 26.22389299295,
+        "longitude": 119.998580548729,
+        "name": "7-11\u5858\u5c90\u9580\u5e02",
+        "name_en": "7-11 Tangqimen City",
+        "\u6821\u5c0d\u8005": "areong",
+        "\u6848\u865f": "\u672a\u516c\u5e03",
+        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid081EXS2ur67rKj7XYKBweAqkJcn5MZZj6LvpLwGSfxkeWqdnEvYqgBQoHSdbHFCjrl"
       },
       "type": "Feature"
     },
@@ -32203,31 +32378,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.955345815154,
-          26.157473689012
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-29T23:10:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 08:10\u5de6\u53f3",
-        "end": "2022-04-30T01:10:00.000Z",
-        "latitude": 26.157473689012,
-        "longitude": 119.955345815154,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
-        "name_en": "FamilyMart Airport Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/363779429125893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.955338439079,
           26.1574718833774
         ],
@@ -32253,31 +32403,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.951718571495,
-          26.1561489560932
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "\u4f7f\u7528Google Maps\u5730\u6a19\u7d93\u7def\u5ea6",
-        "duration (text)": "2022/04/30 18:00\u5de6\u53f3",
-        "end": "2022-04-30T11:00:00.000Z",
-        "latitude": 26.1561489560932,
-        "longitude": 119.951718571495,
-        "name": "7-11\u5c71\u96b4\u9580\u5e02",
-        "name_en": "7-11 Shanlong store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/363779429125893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.951734664748,
           26.156145344783
         ],
@@ -32294,31 +32419,6 @@
         "longitude": 119.951734664748,
         "name": "7-11\u5c71\u96b4\u9580\u5e02",
         "name_en": "7-11 Shanlong store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/363779429125893"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.952230005222,
-          26.1586387112323
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T06:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 14:00-16:00",
-        "end": "2022-04-30T08:00:00.000Z",
-        "latitude": 26.1586387112323,
-        "longitude": 119.952230005222,
-        "name": "7-11\u4e2d\u96b4\u9580\u5e02",
-        "name_en": "7-11 Zhonglong Store",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/363779429125893"
@@ -39028,31 +39128,6 @@
     {
       "geometry": {
         "coordinates": [
-          118.36290069907153,
-          24.441886289611208
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u91d1\u9580\u7e23\u91d1\u6e56\u93ae\u4e2d\u5c71\u8def8-8\u865f",
-        "address_en": "No. 8-8, Zhongshan Road, Jinhu Town, Kinmen County",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/30 17:00-18:00",
-        "end": "2022-04-30T10:00:00.000Z",
-        "latitude": 24.441886289611208,
-        "longitude": 118.36290069907153,
-        "name": "\u98a8\u7345\u723a\u5ee3\u5834",
-        "name_en": "Wind Lion Plaza",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K115",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/536238907873616"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           118.314506364585,
           24.4298406522184
         ],
@@ -39096,31 +39171,6 @@
         "name_en": "Yamawai Post Office",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "K115",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/536238907873616"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.36290189390051,
-          24.44189819709467
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u91d1\u9580\u7e23\u91d1\u6e56\u93ae\u4e2d\u5c71\u8def8-8\u865f",
-        "address_en": "No. 8-8, Zhongshan Road, Jinhu Town, Kinmen County",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/30 17:00-18:00",
-        "end": "2022-04-30T10:00:00.000Z",
-        "latitude": 24.44189819709467,
-        "longitude": 118.36290189390051,
-        "name": "\u98a8\u7345\u723a\u5ee3\u5834",
-        "name_en": "Wind Lion Plaza",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K116",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/536238907873616"
       },
       "type": "Feature"
@@ -39172,181 +39222,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "K117",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/536238907873616"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.34497718462,
-          22.5707412750437
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T06:30:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7a(B78925)14:30\u62b5\u91d1",
-        "duration (text)": "2022/04/30 14:30",
-        "end": "2022-04-30T07:30:00.000Z",
-        "latitude": 22.5707412750437,
-        "longitude": 120.34497718462,
-        "name": "\u9ad8\u96c4\u6a5f\u5834",
-        "name_en": "Kaohsiung Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.3682914304,
-          24.4357071768786
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T06:30:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7a(B78925)14:30\u62b5\u91d1",
-        "duration (text)": "2022/04/30 15:20",
-        "end": "2022-04-30T07:30:00.000Z",
-        "latitude": 24.4357071768786,
-        "longitude": 118.3682914304,
-        "name": "\u91d1\u9580\u6a5f\u5834",
-        "name_en": "Kinmen Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.320636753033,
-          24.3902900082292
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u91d1\u9580\u7e23\u91d1\u57ce\u93ae",
-        "address_en": "Jincheng Town, Kinmen County",
-        "begin": "2022-04-30T08:30:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 16:30",
-        "end": "2022-04-30T09:30:00.000Z",
-        "latitude": 24.3902900082292,
-        "longitude": 118.320636753033,
-        "name": "\u7fdf\u5c71\u5751\u9053",
-        "name_en": "Zhai Shan Tunnel Road",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.319057099955,
-          24.4316449810725
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 17:00-17:50",
-        "end": "2022-04-30T09:50:00.000Z",
-        "latitude": 24.4316449810725,
-        "longitude": 118.319057099955,
-        "name": "\u6a21\u7bc4\u8857",
-        "name_en": "Model Street",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.318363882087,
-          24.4322787864522
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 17:00-17:50",
-        "end": "2022-04-30T09:50:00.000Z",
-        "latitude": 24.4322787864522,
-        "longitude": 118.318363882087,
-        "name": "\u7e3d\u5175\u7f72",
-        "name_en": "General Military Department",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.318533530346,
-          24.43138400146
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 17:00-17:50",
-        "end": "2022-04-30T09:50:00.000Z",
-        "latitude": 24.43138400146,
-        "longitude": 118.318533530346,
-        "name": "\u8c9e\u7bc0\u724c\u574a",
-        "name_en": "Chastity Arch",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.323425804019,
-          24.4419708041482
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u91d1\u9580\u7e23\u91d1\u57ce\u93ae\u74b0\u5cf6\u5317\u8def\u4e00\u6bb561\u865f",
-        "address_en": "No. 61, Section 1, Huandao North Road, Jincheng Town, Kinmen County",
-        "begin": "2022-04-30T10:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/30 18:00-19:00",
-        "end": "2022-04-30T11:00:00.000Z",
-        "latitude": 24.4419708041482,
-        "longitude": 118.323425804019,
-        "name": "\u5ec9\u5764\u9910\u5ef3",
-        "name_en": "Lian Kun Restaurant",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K92",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534830264681147"
       },
       "type": "Feature"
     },
@@ -39753,181 +39628,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.550094668996,
-          25.0639289818047
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T00:00:00.000Z",
-        "description": "\u7acb\u69ae\u822a\u7a7aB78807",
-        "duration (text)": "2022/4/30 8:00",
-        "end": "2022-04-30T01:00:00.000Z",
-        "latitude": 25.0639289818047,
-        "longitude": 121.550094668996,
-        "name": "\u677e\u5c71\u6a5f\u5834",
-        "name_en": "Songshan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K77",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.368198945877,
-          24.435704207136
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T01:05:00.000Z",
-        "description": "\u7acb\u69ae\u822a\u7a7aB78807",
-        "duration (text)": "2022/4/30 9:05",
-        "end": "2022-04-30T02:05:00.000Z",
-        "latitude": 24.435704207136,
-        "longitude": 118.368198945877,
-        "name": "\u91d1\u9580\u6a5f\u5834",
-        "name_en": "Kinmen Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K77",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.550043594122,
-          25.0639202288827
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T02:50:00.000Z",
-        "description": "\u83ef\u4fe1\u822a\u7a7aAE1267",
-        "duration (text)": "2022/4/30 10:50",
-        "end": "2022-04-30T03:50:00.000Z",
-        "latitude": 25.0639202288827,
-        "longitude": 121.550043594122,
-        "name": "\u677e\u5c71\u6a5f\u5834",
-        "name_en": "Songshan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K80",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.368202739093,
-          24.4356765795871
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T03:50:00.000Z",
-        "description": "\u83ef\u4fe1\u822a\u7a7aAE1267",
-        "duration (text)": "2022/4/30 11:50",
-        "end": "2022-04-30T04:50:00.000Z",
-        "latitude": 24.4356765795871,
-        "longitude": 118.368202739093,
-        "name": "\u91d1\u9580\u6a5f\u5834",
-        "name_en": "Kinmen Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K80",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.44041388369,
-          24.5038021944181
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T06:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/30 14:00",
-        "end": "2022-04-30T07:00:00.000Z",
-        "latitude": 24.5038021944181,
-        "longitude": 118.44041388369,
-        "name": "\u6c11\u4fd7\u6587\u5316\u6751",
-        "name_en": "Folk Culture Village",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K80",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          118.408875922928,
-          24.5277108313134
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-04-30T07:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/30 15:00",
-        "end": "2022-04-30T08:00:00.000Z",
-        "latitude": 24.5277108313134,
-        "longitude": 118.408875922928,
-        "name": "\u99ac\u5c71\u89c0\u6e2c\u6240",
-        "name_en": "Masan Observatory",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "K80",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/yang.chengwu/posts/534156988081808"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.32550521576407,
-          22.63229629563726
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u5927\u9806\u4e09\u8def112\u865f",
-        "address_en": "No. 112, Dashun 3rd Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.63229629563726,
-        "longitude": 120.32550521576407,
-        "name": "\u5927\u5e11\u6bbfKTV\u5927\u9806\u5e97",
-        "name_en": "Dabaodian KTV Dashun Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.32552937623127,
           22.632299841149955
         ],
@@ -40278,31 +39978,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.299772274898,
-          22.6661199726907
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u88d5\u8aa0\u8def\u5357\u5c4f\u8def",
-        "address_en": "Nanping Road, Yucheng Road, Zuoying District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u70cf\u9f8d\u9eb5\u6524\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6661199726907,
-        "longitude": 120.299772274898,
-        "name": "\u745e\u8c50\u591c\u5e02",
-        "name_en": "Ruifeng Night Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.299791050362,
           22.6661199726907
         ],
@@ -40353,31 +40028,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.35204010536803,
-          22.62084151871738
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u4e94\u6b0a\u5357\u8def149\u5df71\u865f",
-        "address_en": "No. 1, Lane 149, Wuquan South Road, Fengshan District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u8089\u6524\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.62084151871738,
-        "longitude": 120.35204010536803,
-        "name": "\u9cf3\u897f\u9ec3\u660f\u5e02\u5834",
-        "name_en": "Fengxi Dusk Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.29822814349562,
           22.631673360668305
         ],
@@ -40403,31 +40053,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.3420461950426,
-          22.607008978994067
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u5927\u660e\u8def20\u865f",
-        "address_en": "No. 20, Daming Road, Fengshan District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.607008978994067,
-        "longitude": 120.3420461950426,
-        "name": "U2\u5c08\u696d\u9020\u578b",
-        "name_en": "U2 Professional Styling",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.29877754727426,
           22.621243043467118
         ],
@@ -40444,31 +40069,6 @@
         "longitude": 120.29877754727426,
         "name": "QuanMeiYan\u6e76\u7f8e\u598d \u4e2d\u83ef\u5e97(\u5de5\u4f5c\u4eba\u54e1)",
         "name_en": "QuanMeiYan Zhonghua Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.29627774936,
-          22.63121638320536
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u516d\u5408\u4e8c\u8def128\u865f2\u6a13",
-        "address_en": "2F, No. 128, Liuhe 2nd Road, Qianjin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.63121638320536,
-        "longitude": 120.29627774936,
-        "name": "\u766e\u5427 Inn bistro",
-        "name_en": "Addiction Bar Inn bistro",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
@@ -40594,56 +40194,6 @@
         "longitude": 120.308474828697,
         "name": "\u6668\u66f8cafeBar",
         "name_en": "Morning Book CafeBar",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30047176987082,
-          22.61974470076463
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u4ec1\u5fb7\u8857211\u865f",
-        "address_en": "No. 211, Rende Street, Qianjin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.61974470076463,
-        "longitude": 120.30047176987082,
-        "name": "\u820a\u93ae",
-        "name_en": "old town",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30757015014369,
-          22.660819806308073
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u660e\u8aa0\u4e8c\u8def369\u865f2\u6a13",
-        "address_en": "2F, No. 369, Mingcheng 2nd Road, Zuoying District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.660819806308073,
-        "longitude": 120.30757015014369,
-        "name": "M.W Cyberpunk Restaurant",
-        "name_en": "M.W Cyberpunk Restaurant",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
@@ -40803,31 +40353,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.30137675268047,
-          22.6157441176925
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4e2d\u83ef\u56db\u8def140\u865f",
-        "address_en": "No. 140, Zhonghua 4th Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6157441176925,
-        "longitude": 120.30137675268047,
-        "name": "\u5927\u5e1d\u570b\u821e\u5ef3",
-        "name_en": "Grand Empire Ballroom",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.30133428648766,
           22.61573978490876
         ],
@@ -40869,81 +40394,6 @@
         "longitude": 120.30132771310488,
         "name": "\u5927\u5e1d\u570b\u821e\u5ef3",
         "name_en": "Grand Empire Ballroom",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.29461510221273,
-          22.63070509834414
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u516d\u5408\u4e8c\u8def160\u865f",
-        "address_en": "No. 160, Liuhe 2nd Road, Qianjin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.63070509834414,
-        "longitude": 120.29461510221273,
-        "name": "\u9ad8\u96c4\u9e97\u7dfb\u6703\u9928",
-        "name_en": "Kaohsiung Beauty Club",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30026647379051,
-          22.61319011863374
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u81ea\u5f37\u4e09\u8def62\u865f",
-        "address_en": "No. 62, Ziqiang 3rd Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.61319011863374,
-        "longitude": 120.30026647379051,
-        "name": "\u51f1\u6492\u5e1d\u82d1",
-        "name_en": "Caesar's Court",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.32365087014254,
-          22.631950513767805
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u6b66\u5edf\u8def222\u865f",
-        "address_en": "No. 222, Wumiao Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.631950513767805,
-        "longitude": 120.32365087014254,
-        "name": "\u516d\u661f\u7d1a\u990a\u751f\u6703\u9928",
-        "name_en": "Six-star health club",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6864"
@@ -41103,81 +40553,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.30947280482575,
-          22.62279455315387
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u5fa9\u8208\u4e8c\u8def260\u865f15\u6a13",
-        "address_en": "15th Floor, No. 260, Fuxing 2nd Road, Xinxing District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.62279455315387,
-        "longitude": 120.30947280482575,
-        "name": "168\u5546\u52d9\u9152\u5e97",
-        "name_en": "168 Business Hotel",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.29218016546582,
-          22.631825986518987
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u4e03\u8ce2\u4e8c\u8def249\u865f3\u6a13",
-        "address_en": "3rd Floor, No. 249, Qixian 2nd Road, Qianjin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.631825986518987,
-        "longitude": 120.29218016546582,
-        "name": "\u5948\u7c73\u5361\u62c9ok",
-        "name_en": "nano karaoke",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.29548500366627,
-          22.629038050415033
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u91d1\u5340\u4e2d\u6b63\u56db\u8def167\u865f",
-        "address_en": "No. 167, Zhongzheng 4th Road, Qianjin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.629038050415033,
-        "longitude": 120.29548500366627,
-        "name": "H\u7537\u6a21\u6703\u9928",
-        "name_en": "H Male Model Club",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.29549644180011,
           22.629041289935863
         ],
@@ -41194,31 +40569,6 @@
         "longitude": 120.29549644180011,
         "name": "H\u7537\u6a21\u6703\u9928",
         "name_en": "H Male Model Club",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30258504044743,
-          22.642226305198605
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u535a\u611b\u4e00\u8def27\u865f\u4e00\u6a13",
-        "address_en": "1st Floor, No. 27, Bo'ai 1st Road, Sanmin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.642226305198605,
-        "longitude": 120.30258504044743,
-        "name": "\u5feb\u6a02\u7d05\u5c0f\u5403\u90e8",
-        "name_en": "Happy Red Snack",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
@@ -41253,31 +40603,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.30358060570076,
-          22.61552106025537
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u8208\u4e2d\u4e8c\u8def2\u865f",
-        "address_en": "No. 2, Xingzhong 2nd Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.61552106025537,
-        "longitude": 120.30358060570076,
-        "name": "\u7687\u5bb6\u8cb4\u8cd3\u9802\u7d1a\u5546\u52d9\u9152\u5e97",
-        "name_en": "Royal VIP top business hotel",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.30358824822895,
           22.615506415623553
         ],
@@ -41294,31 +40619,6 @@
         "longitude": 120.30358824822895,
         "name": "\u7687\u5bb6\u8cb4\u8cd3\u9802\u7d1a\u5546\u52d9\u9152\u5e97",
         "name_en": "Royal VIP top business hotel",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30875072277709,
-          22.679311758323752
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u535a\u611b\u4e09\u8def518\u865f",
-        "address_en": "No. 518, Bo'ai 3rd Road, Zuoying District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.679311758323752,
-        "longitude": 120.30875072277709,
-        "name": "\u51fa\u7375\u9910\u9152\u9928",
-        "name_en": "out hunting tavern",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
@@ -41428,81 +40728,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.30029820513255,
-          22.781043058669095
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5ca1\u5c71\u5340\u6377\u5b89\u8def28\u865f",
-        "address_en": "No. 28, Jie'an Road, Gangshan District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.781043058669095,
-        "longitude": 120.30029820513255,
-        "name": "\u4eab\u6eab\u99a8KTV\u5ca1\u5c71\u5e97",
-        "name_en": "Enjoy Warm KTV Okayama Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.33254381069027,
-          22.64340742021764
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u7fa9\u83ef\u8def433\u865f",
-        "address_en": "No. 433, Yihua Road, Sanmin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.64340742021764,
-        "longitude": 120.33254381069027,
-        "name": "\u7d71\u767e\u923a",
-        "name_en": "Tong Baiyu",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30697350030825,
-          22.595332740153406
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u4e2d\u83ef\u4e94\u8def789\u865fB1",
-        "address_en": "B1, No. 789, Zhonghua 5th Road, Qianzhen District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.595332740153406,
-        "longitude": 120.30697350030825,
-        "name": "\u5077\u98ef\u8cca\u9ad8\u96c4\u5922\u6642\u4ee3\u5e97",
-        "name_en": "Meal Thief Kaohsiung Dream Times Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.30152846137317,
           22.62348435421316
         ],
@@ -41519,56 +40744,6 @@
         "longitude": 120.30152846137317,
         "name": "\u4e7e\u676f\u71d2\u70e4",
         "name_en": "Cheers BBQ",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30237704519934,
-          22.669727986185936
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u535a\u611b\u4e8c\u8def777\u865fB1",
-        "address_en": "B1, No. 777, Bo'ai 2nd Road, Zuoying District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.669727986185936,
-        "longitude": 120.30237704519934,
-        "name": "\u9f0e\u6cf0\u8c50-\u9ad8\u96c4\u5e97",
-        "name_en": "Din Tai Fung - Kaohsiung Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30238015481731,
-          22.6697348181242
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5de6\u71df\u5340\u535a\u611b\u4e8c\u8def777\u865fB1",
-        "address_en": "B1, No. 777, Bo'ai 2nd Road, Zuoying District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6697348181242,
-        "longitude": 120.30238015481731,
-        "name": "\u9f0e\u6cf0\u8c50-\u9ad8\u96c4\u5e97",
-        "name_en": "Din Tai Fung - Kaohsiung Store",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6850"
@@ -41878,56 +41053,6 @@
     {
       "geometry": {
         "coordinates": [
-          120.3002492130126,
-          22.61317968446622
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u81ea\u5f37\u4e09\u8def62\u865f",
-        "address_en": "No. 62, Ziqiang 3rd Road, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.61317968446622,
-        "longitude": 120.3002492130126,
-        "name": "\u51f1\u6492\u5e1d\u82d1",
-        "name_en": "Caesar's Court",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.2977768587756,
-          22.636570272436042
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u6cb3\u5317\u4e8c\u8def101\u865f2\u6a13",
-        "address_en": "2nd Floor, No. 101, Hebei 2nd Road, Sanmin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.636570272436042,
-        "longitude": 120.2977768587756,
-        "name": "\u7f85\u99ac\u5e1d\u570b\u5546\u52d9\u9152\u5e97",
-        "name_en": "Roman Empire Business Hotel",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.29773018623055,
           22.63652792069958
         ],
@@ -41944,31 +41069,6 @@
         "longitude": 120.29773018623055,
         "name": "\u7f85\u99ac\u5e1d\u570b\u5546\u52d9\u9152\u5e97",
         "name_en": "Roman Empire Business Hotel",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.28475289021043,
-          22.79247876264291
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u5ca1\u5c71\u5340\u516c\u5712\u897f\u8def\u4e09\u6bb5155\u865f",
-        "address_en": "No. 155, Section 3, Park West Road, Gangshan District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.79247876264291,
-        "longitude": 120.28475289021043,
-        "name": "\u8d8a\u660e\u73e0\u990a\u751f\u9928",
-        "name_en": "Yuemingzhu Health Center",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
@@ -41997,231 +41097,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u4f48",
         "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30708965575093,
-          22.63080513825018
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u4e2d\u6b63\u4e09\u8def97-1\u865f",
-        "address_en": "No. 97-1, Zhongzheng 3rd Road, Xinxing District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.63080513825018,
-        "longitude": 120.30708965575093,
-        "name": "A&G Talking Bar",
-        "name_en": "A&G Talking Bar",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30309945505685,
-          22.61989736713828
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u4ec1\u667a\u8857207\u865f",
-        "address_en": "No. 207, Renzhi Street, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.61989736713828,
-        "longitude": 120.30309945505685,
-        "name": "\u8c6c\u982d\u9152\u5427",
-        "name_en": "Pig's Head Bar",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30003343977565,
-          22.633750666486623
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u660e\u661f\u885751\u865f",
-        "address_en": "No. 51, Star Street, Xinxing District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.633750666486623,
-        "longitude": 120.30003343977565,
-        "name": "\u660e\u661f\u91e3\u8766\u5834",
-        "name_en": "Star Shrimp Fishing Farm",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.33542501149,
-          22.6034509210668
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u9cf3\u5c71\u5340\u4fdd\u6cf0\u8def\u4e0a",
-        "address_en": "Baotai Road, Fengshan District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6034509210668,
-        "longitude": 120.33542501149,
-        "name": "\u8089\u8c46\u516c\u5e02\u5834",
-        "name_en": "meat market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.318914402097,
-          22.6177250416238
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u82d3\u96c5\u5340\u5ee3\u5dde\u4e8c\u885795\u5df7\u5468\u908a",
-        "address_en": "Around Lane 95, Guangzhou 2nd Street, Lingya District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/04/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6177250416238,
-        "longitude": 120.318914402097,
-        "name": "\u4e09\u548c\u5e02\u5834",
-        "name_en": "Sanhe Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6835"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30473938592002,
-          22.6233077822869
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u65b0\u8208\u5340\u6587\u5316\u8def53\u865f",
-        "address_en": "No. 53, Wenhua Road, Xinxing District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.6233077822869,
-        "longitude": 120.30473938592002,
-        "name": "\u6731\u7d05\u9152\u5ba4 Red.House",
-        "name_en": "Red.House",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6829"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.32890570977949,
-          22.66016541340931
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u4e09\u6c11\u5340\u5927\u88d5\u8def252\u865f",
-        "address_en": "No. 252, Dayu Road, Sanmin District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.66016541340931,
-        "longitude": 120.32890570977949,
-        "name": "\u5e15\u72c4\u5c3c\u8afe Padrino \u7fa9\u5927\u5229\u5eda\u623f",
-        "name_en": "Padrino Italian Kitchen",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6829"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.30846790860566,
-          22.614956288397906
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u6797\u68ee\u4e09\u8def199\u865f",
-        "address_en": "No. 199, Linsen 3rd Road, Qianzhen District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "(\u5de5\u4f5c\u4eba\u54e1)",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.614956288397906,
-        "longitude": 120.30846790860566,
-        "name": "\u97d3\u77f3\u98df\u5802-\u6797\u68ee\u5e97",
-        "name_en": "Han Shi Canteen-Linsen Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6829"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.319670243983,
-          22.5839873653715
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "\u9ad8\u96c4\u5e02\u524d\u93ae\u5340\u8859\u4ec1\u8857\u4e0a",
-        "address_en": "On Yaren Street, Qianzhen District, Kaohsiung City",
-        "begin": "2022-04-28T16:00:00.000Z",
-        "description": "\u7121\u516c\u544a\u8a73\u7d30\u5730\u5740\uff0c\u4f4d\u7f6e\u50c5\u4f9b\u53c3\u8003",
-        "duration (text)": "2022/4/29",
-        "end": "2022-04-29T16:00:00.000Z",
-        "latitude": 22.5839873653715,
-        "longitude": 120.319670243983,
-        "name": "\u8349\u8859\u5e02\u5834",
-        "name_en": "Soya Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u4f48",
-        "\u8cc7\u6599\u4f86\u6e90": "https://khd.kcg.gov.tw/tw/news/show.php?num=6829"
       },
       "type": "Feature"
     },
