@@ -27128,31 +27128,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.955352290902,
-          26.1574811593602
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-06T01:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 09:00-17:00",
-        "end": "2022-06-06T09:00:00.000Z",
-        "latitude": 26.1574811593602,
-        "longitude": 119.955352290902,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
-        "name_en": "FamilyMart Airport Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389037639933405"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.955339895312,
           26.1574811593602
         ],
@@ -27197,31 +27172,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389037639933405"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.951280262859,
-          26.1554854923242
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 07:00-08:30",
-        "end": "2022-06-06T00:30:00.000Z",
-        "latitude": 26.1554854923242,
-        "longitude": 119.951280262859,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834\u53ca\u5e02\u5834\u96dc\u8ca8\u5e97",
-        "name_en": "Jie Shou Lion Market and Market Grocery Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/388268623343640"
       },
       "type": "Feature"
     },
@@ -27297,106 +27247,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/388268623343640"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.943183534402,
-          26.1597865845101
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T23:00:00.000Z",
-        "description": "\u642d\u4e58\u5357\u5317\u4e4b\u661f\u5f80\u897f\u8392",
-        "duration (text)": "2022/6/6 07:00-07:50",
-        "end": "2022-06-05T23:50:00.000Z",
-        "latitude": 26.1597865845101,
-        "longitude": 119.943183534402,
-        "name": "\u5357\u7aff\u798f\u6fb3\u6e2f",
-        "name_en": "Nangan Fuao Port",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.93658028549,
-          25.9644098104355
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T23:00:00.000Z",
-        "description": "\u642d\u4e58\u5357\u5317\u4e4b\u661f\u5f80\u897f\u8392",
-        "duration (text)": "2022/6/6 07:00-07:50",
-        "end": "2022-06-05T23:50:00.000Z",
-        "latitude": 25.9644098104355,
-        "longitude": 119.93658028549,
-        "name": "\u897f\u8392\u9752\u5e06\u6e2f",
-        "name_en": "Xiju Qingfan Port",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.936779204597,
-          25.964430249456
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-06T03:00:00.000Z",
-        "description": "\u642d\u4e58\u8392\u5149\u4e4b\u661f\u5f80\u6771\u8392",
-        "duration (text)": "2022/6/6 11:00-11:10",
-        "end": "2022-06-06T03:10:00.000Z",
-        "latitude": 25.964430249456,
-        "longitude": 119.936779204597,
-        "name": "\u897f\u8392\u9752\u5e06\u6e2f",
-        "name_en": "Xiju Qingfan Port",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.96808000608,
-          25.9549149106979
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-06T03:00:00.000Z",
-        "description": "\u642d\u4e58\u8392\u5149\u4e4b\u661f\u5f80\u6771\u8392",
-        "duration (text)": "2022/6/6 11:00-11:10",
-        "end": "2022-06-06T03:10:00.000Z",
-        "latitude": 25.9549149106979,
-        "longitude": 119.96808000608,
-        "name": "\u6771\u8392\u731b\u6fb3\u6e2f",
-        "name_en": "Dongju Mengao Port",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
       },
       "type": "Feature"
     },
@@ -27528,56 +27378,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.955325367606,
-          26.157472318415
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-06T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 17:00",
-        "end": "2022-06-06T10:00:00.000Z",
-        "latitude": 26.157472318415,
-        "longitude": 119.955325367606,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
-        "name_en": "Family Mart Fuyun Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.943926418373,
-          26.1577800963477
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-06T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 17:00-17:10",
-        "end": "2022-06-06T09:10:00.000Z",
-        "latitude": 26.1577800963477,
-        "longitude": 119.943926418373,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u798f\u904b\u5e97",
-        "name_en": "Baisha Port District",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.943919461583,
           26.1577504359209
         ],
@@ -27597,81 +27397,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.968981664348,
-          26.2059571173065
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 07:00-16:00",
-        "end": "2022-06-06T08:00:00.000Z",
-        "latitude": 26.2059571173065,
-        "longitude": 119.968981664348,
-        "name": "\u767d\u6c99\u6e2f\u5340",
-        "name_en": "Jie Shou Lion Market and Market Grocery Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387660196737816"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.943169640887,
-          26.1598020134055
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T22:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 06:00-15:00",
-        "end": "2022-06-06T07:00:00.000Z",
-        "latitude": 26.1598020134055,
-        "longitude": 119.943169640887,
-        "name": "\u798f\u6c83\u6e2f\u5340",
-        "name_en": "Fuwo port area",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387030520134117"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.951324333526,
-          26.1554887539191
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-05T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/6 07:00-07:50",
-        "end": "2022-06-05T23:50:00.000Z",
-        "latitude": 26.1554887539191,
-        "longitude": 119.951324333526,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834\u53ca\u5e02\u5834\u96dc\u8ca8\u5e97",
-        "name_en": "Jie Shou Lion Market and Market Grocery Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/387030520134117"
       },
       "type": "Feature"
     }
