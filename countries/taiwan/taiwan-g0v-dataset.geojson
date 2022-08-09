@@ -25878,31 +25878,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.951332453307,
-          26.1554771547506
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T01:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 09:00-09:30",
-        "end": "2022-06-08T01:30:00.000Z",
-        "latitude": 26.1554771547506,
-        "longitude": 119.951332453307,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
-        "name_en": "Jie Shou Lion Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391536689683500"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.95135141939,
           26.1554737499548
         ],
@@ -25944,31 +25919,6 @@
         "longitude": 119.951317280441,
         "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
         "name_en": "Jie Shou Lion Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391536689683500"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.951798165754,
-          26.1550628614938
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T08:30:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 16:30",
-        "end": "2022-06-08T09:30:00.000Z",
-        "latitude": 26.1550628614938,
-        "longitude": 119.951798165754,
-        "name": "\u767d\u99ac\u738b\u516c\u5712",
-        "name_en": "White Horse Park",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391536689683500"
@@ -26153,31 +26103,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.943918533427,
-          26.1577504588168
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T10:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 18:00",
-        "end": "2022-06-08T11:00:00.000Z",
-        "latitude": 26.1577504588168,
-        "longitude": 119.943918533427,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u798f\u904b\u5e97",
-        "name_en": "Family Mart Fuyun Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391036546400181"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.943889419244,
           26.1577561397768
         ],
@@ -26303,56 +26228,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.998545393953,
-          26.2238161674411
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 17:00-20:30",
-        "end": "2022-06-08T12:30:00.000Z",
-        "latitude": 26.2238161674411,
-        "longitude": 119.998545393953,
-        "name": "7-11\u5858\u5c90\u9580\u5e02",
-        "name_en": "7-11 Tangqimen City",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391036546400181"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.952219226142,
-          26.1586344676984
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T04:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 12:00-12:10",
-        "end": "2022-06-08T04:10:00.000Z",
-        "latitude": 26.1586344676984,
-        "longitude": 119.952219226142,
-        "name": "7-11\u4e2d\u96b4\u9580\u5e02",
-        "name_en": "7-11 Zhonglong Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391036546400181"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.952227674571,
           26.1586238513365
         ],
@@ -26372,31 +26247,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/391036546400181"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.918579439659,
-          26.1590862139112
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T00:00:00.000Z",
-        "description": "\u642d\u4e58\u5357\u7aff\u516c\u8eca\u5f80\u99ac\u6e2f",
-        "duration (text)": "2022/6/8 08:00",
-        "end": "2022-06-08T01:00:00.000Z",
-        "latitude": 26.1590862139112,
-        "longitude": 119.918579439659,
-        "name": "\u99ac\u6e2f(\u516c\u8eca)",
-        "name_en": "Magang (Bus)",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/390342923136210"
       },
       "type": "Feature"
     },
@@ -26494,31 +26344,6 @@
         "longitude": 119.943161441862,
         "name": "\u798f\u6c83\u6e2f\u5340",
         "name_en": "Fuwo port area",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/390342923136210"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.955557743748,
-          26.1576998710502
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T00:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 08:00-17:00",
-        "end": "2022-06-08T09:00:00.000Z",
-        "latitude": 26.1576998710502,
-        "longitude": 119.955557743748,
-        "name": "\u5357\u7aff\u6a5f\u5834\u822a\u7a7a\u7ad9",
-        "name_en": "Nangan Airport Air Terminal",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/390342923136210"
@@ -26628,31 +26453,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.951334520875,
-          26.1554797258168
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-07T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 07:00-07:50",
-        "end": "2022-06-07T23:50:00.000Z",
-        "latitude": 26.1554797258168,
-        "longitude": 119.951334520875,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
-        "name_en": "Jie Shou Lion Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/390342923136210"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.951320183415,
           26.1554947400238
         ],
@@ -26728,31 +26528,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.974243496195,
-          26.2164072884931
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T07:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 15:00-16:00",
-        "end": "2022-06-08T08:00:00.000Z",
-        "latitude": 26.2164072884931,
-        "longitude": 119.974243496195,
-        "name": "7-11\u5e73\u7406\u9580\u5e02",
-        "name_en": "7-11 Pingli store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/390342923136210"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.998560672849,
           26.2238247366079
         ],
@@ -26803,56 +26578,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.952039599355,
-          26.1559648726228
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T04:20:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 12:20-12:30",
-        "end": "2022-06-08T04:30:00.000Z",
-        "latitude": 26.1559648726228,
-        "longitude": 119.952039599355,
-        "name": "7-11\u99ac\u7956\u9580\u5e02",
-        "name_en": "7-11 Matsu store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389711339866035"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.955348458675,
-          26.1574649993531
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T00:30:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 08:30",
-        "end": "2022-06-08T01:30:00.000Z",
-        "latitude": 26.1574649993531,
-        "longitude": 119.955348458675,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
-        "name_en": "FamilyMart Airport Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389711339866035"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.955331520637,
           26.1574778637201
         ],
@@ -26897,56 +26622,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389711339866035"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.955336796414,
-          26.1574811593602
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-08T01:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 09:00-17:00",
-        "end": "2022-06-08T09:00:00.000Z",
-        "latitude": 26.1574811593602,
-        "longitude": 119.955336796414,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6a5f\u5834\u5e97",
-        "name_en": "FamilyMart Airport Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/389037639933405"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.95132081532,
-          26.1554733590121
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-06-07T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/6/8 07:00-08:30",
-        "end": "2022-06-08T00:30:00.000Z",
-        "latitude": 26.1554733590121,
-        "longitude": 119.95132081532,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834\u53ca\u5e02\u5834\u96dc\u8ca8\u5e97",
-        "name_en": "Jie Shou Lion Market and Market Grocery Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/388268623343640"
       },
       "type": "Feature"
     }
