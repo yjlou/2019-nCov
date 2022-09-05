@@ -9303,56 +9303,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.55011321053442,
-          25.06394027277173
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T08:00:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8765\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 16:00-16:50",
-        "end": "2022-07-04T08:50:00.000Z",
-        "latitude": 25.06394027277173,
-        "longitude": 121.55011321053442,
-        "name": "\u677e\u5c71\u6a5f\u5834",
-        "name_en": "Songshan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.95549596702733,
-          26.15774503828775
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T08:00:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8765\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 16:00-16:50",
-        "end": "2022-07-04T08:50:00.000Z",
-        "latitude": 26.15774503828775,
-        "longitude": 119.95549596702733,
-        "name": "\u99ac\u7956\u5357\u7aff\u6a5f\u5834",
-        "name_en": "Mazu Nangan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.6003976404009,
           24.255478772699973
         ],
@@ -9478,31 +9428,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.94406690943305,
-          26.159426687391885
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T09:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 17:00-19:00",
-        "end": "2022-07-04T11:00:00.000Z",
-        "latitude": 26.159426687391885,
-        "longitude": 119.94406690943305,
-        "name": "\u798f\u6c83\u904b\u52d5\u5834",
-        "name_en": "Fuwo Stadium",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.94407269706325,
           26.159423067690348
         ],
@@ -9519,31 +9444,6 @@
         "longitude": 119.94407269706325,
         "name": "\u798f\u6c83\u904b\u52d5\u5834",
         "name_en": "Fuwo Stadium",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.9979520084127,
-          26.22583040059201
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T12:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 20:00-21:00",
-        "end": "2022-07-04T13:00:00.000Z",
-        "latitude": 26.22583040059201,
-        "longitude": 119.9979520084127,
-        "name": "\u5317\u7aff\u904b\u52d5\u5834",
-        "name_en": "Beigan Sports Ground",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
@@ -9594,31 +9494,6 @@
         "longitude": 119.9979513532928,
         "name": "\u5317\u7aff\u904b\u52d5\u5834",
         "name_en": "Beigan Sports Ground",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.94317431193546,
-          26.1597924383172
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T01:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 09:00-17:30",
-        "end": "2022-07-04T09:30:00.000Z",
-        "latitude": 26.1597924383172,
-        "longitude": 119.94317431193546,
-        "name": "\u798f\u6c83\u6e2f\u5340",
-        "name_en": "Fuwo port area",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
@@ -9728,31 +9603,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.95184512510039,
-          26.16092695388973
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T00:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 08:00-17:30",
-        "end": "2022-07-04T09:30:00.000Z",
-        "latitude": 26.16092695388973,
-        "longitude": 119.95184512510039,
-        "name": "\u99ac\u7956\u9152\u5ee0",
-        "name_en": "Matsu Winery",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.95184514186427,
           26.160927533307344
         ],
@@ -9819,31 +9669,6 @@
         "longitude": 119.95183987473806,
         "name": "\u99ac\u7956\u9152\u5ee0",
         "name_en": "Matsu Winery",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.9513200521447,
-          26.15549159625311
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-03T21:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 05:00-07:40",
-        "end": "2022-07-03T23:40:00.000Z",
-        "latitude": 26.15549159625311,
-        "longitude": 119.9513200521447,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
-        "name_en": "Jie Shou Lion Market",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
@@ -9953,31 +9778,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.99804119059425,
-          26.22346207381796
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T08:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 16:00-17:50",
-        "end": "2022-07-04T09:50:00.000Z",
-        "latitude": 26.22346207381796,
-        "longitude": 119.99804119059425,
-        "name": "7-11\u5317\u7aff\u9580\u5e02",
-        "name_en": "7-11 Beigan Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.99803978176007,
           26.223463819557963
         ],
@@ -10069,31 +9869,6 @@
         "longitude": 119.95183577182382,
         "name": "7-11\u5c71\u96b4\u9580\u5e02",
         "name_en": "7-11 Shanlong store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.99725262404208,
-          26.224573868403763
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T07:30:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 15:30-16:00",
-        "end": "2022-07-04T08:00:00.000Z",
-        "latitude": 26.224573868403763,
-        "longitude": 119.99725262404208,
-        "name": "\u5317\u7aff\u4e2d\u83ef\u90f5\u653f",
-        "name_en": "Beigan Chunghwa Post",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0ymmg8LM84co5dpZSbr8oVoQqDCt7KDQfdgKWtU6MFQbUAE5xzmESyEuRBWXbiQ4al"
@@ -10219,56 +9994,6 @@
         "longitude": 119.99946157550715,
         "name": "\u99ac\u7956\u5317\u7aff\u6a5f\u5834",
         "name_en": "Matsu Beigan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.60049538574293,
-          24.25555420293515
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T01:50:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8731\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 09:50-10:50",
-        "end": "2022-07-04T02:50:00.000Z",
-        "latitude": 24.25555420293515,
-        "longitude": 120.60049538574293,
-        "name": "\u53f0\u4e2d\u6a5f\u5834",
-        "name_en": "Taichung Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.95548962080119,
-          26.157677980292988
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T01:50:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8731\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 09:50-10:50",
-        "end": "2022-07-04T02:50:00.000Z",
-        "latitude": 26.157677980292988,
-        "longitude": 119.95548962080119,
-        "name": "\u99ac\u7956\u5357\u7aff\u6a5f\u5834",
-        "name_en": "Mazu Nangan Airport",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
@@ -10578,56 +10303,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.95131802926674,
-          26.155462360409892
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-03T23:50:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 07:50-08:00",
-        "end": "2022-07-04T00:00:00.000Z",
-        "latitude": 26.155462360409892,
-        "longitude": 119.95131802926674,
-        "name": "\u4ecb\u58fd\u7345\u5b50\u5e02\u5834",
-        "name_en": "Jie Shou Lion Market",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.48830639586158,
-          26.367545621048897
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T10:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 18:00-18:10",
-        "end": "2022-07-04T10:10:00.000Z",
-        "latitude": 26.367545621048897,
-        "longitude": 120.48830639586158,
-        "name": "7-11\u6771\u5f15\u9580\u5e02",
-        "name_en": "7-11 Dongyin Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           120.48831448066882,
           26.367548282928073
         ],
@@ -10703,31 +10378,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.93785256601271,
-          26.15291322419769
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T10:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 18:00",
-        "end": "2022-07-04T11:00:00.000Z",
-        "latitude": 26.15291322419769,
-        "longitude": 119.93785256601271,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6e05\u6c34\u5e97",
-        "name_en": "Family Mart Shimizu Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.93785636248276,
           26.152917181221035
         ],
@@ -10772,81 +10422,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid022Wftfyr6zssRQ5SxAoUzKRbYDcfj6jqNXcMfbV5hewTULLGL1a3HqQoA9nKNb4qBl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          121.55010323674881,
-          25.06397793874187
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T05:45:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-9087\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 13:45-14:45",
-        "end": "2022-07-04T06:45:00.000Z",
-        "latitude": 25.06397793874187,
-        "longitude": 121.55010323674881,
-        "name": "\u677e\u5c71\u6a5f\u5834",
-        "name_en": "Songshan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.99945170266452,
-          26.223590912324994
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T05:45:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-9087\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 13:45-14:45",
-        "end": "2022-07-04T06:45:00.000Z",
-        "latitude": 26.223590912324994,
-        "longitude": 119.99945170266452,
-        "name": "\u99ac\u7956\u5317\u7aff\u6a5f\u5834",
-        "name_en": "Matsu Beigan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          120.00051445526644,
-          26.222225061376303
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T06:30:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 14:30-17:30",
-        "end": "2022-07-04T09:30:00.000Z",
-        "latitude": 26.222225061376303,
-        "longitude": 120.00051445526644,
-        "name": "\u99ac\u9f3b\u7063",
-        "name_en": "Mabi Wan",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
       },
       "type": "Feature"
     },
@@ -10928,56 +10503,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.99858225639404,
-          26.22380521267113
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T14:10:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 22:10-22:15",
-        "end": "2022-07-04T14:15:00.000Z",
-        "latitude": 26.22380521267113,
-        "longitude": 119.99858225639404,
-        "name": "7-11\u5858\u5c90\u9580\u5e02",
-        "name_en": "7-11 Tangqimen City",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.97424674236338,
-          26.216402313287684
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-03T23:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 07:00-15:00",
-        "end": "2022-07-04T07:00:00.000Z",
-        "latitude": 26.216402313287684,
-        "longitude": 119.97424674236338,
-        "name": "7-11\u576a\u91cc\u9580\u5e02",
-        "name_en": "7-11 Pingli Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.9742504350762,
           26.21640149336995
         ],
@@ -10994,31 +10519,6 @@
         "longitude": 119.9742504350762,
         "name": "7-11\u576a\u91cc\u9580\u5e02",
         "name_en": "7-11 Pingli Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.99803458783782,
-          26.223441702833483
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T12:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 20:00-20:10",
-        "end": "2022-07-04T12:10:00.000Z",
-        "latitude": 26.223441702833483,
-        "longitude": 119.99803458783782,
-        "name": "7-11\u5317\u7aff\u9580\u5e02",
-        "name_en": "7-11 Beigan Store",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
@@ -11078,31 +10578,6 @@
     {
       "geometry": {
         "coordinates": [
-          119.96896242493477,
-          26.20591618164255
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T06:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 14:00-18:00",
-        "end": "2022-07-04T10:00:00.000Z",
-        "latitude": 26.20591618164255,
-        "longitude": 119.96896242493477,
-        "name": "\u767d\u6c99\u6e2f\u5340",
-        "name_en": "Baisha Port District",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           119.96895988676975,
           26.205914157055755
         ],
@@ -11119,31 +10594,6 @@
         "longitude": 119.96895988676975,
         "name": "\u767d\u6c99\u6e2f\u5340",
         "name_en": "Baisha Port District",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.94391927151813,
-          26.15774610567217
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T00:40:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 08:40",
-        "end": "2022-07-04T01:40:00.000Z",
-        "latitude": 26.15774610567217,
-        "longitude": 119.94391927151813,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u798f\u904b\u5e97",
-        "name_en": "Family Mart Fuyun Store",
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0j2SH8Zz3PgJgMoUce9evEiUXrN7zUMQwWHd2RvBr5Yen2TiVLXbTJX5zLbswPutpl"
@@ -11228,56 +10678,6 @@
     {
       "geometry": {
         "coordinates": [
-          121.55011941413952,
-          25.063905443854562
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T05:00:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8759\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 13:00-14:00",
-        "end": "2022-07-04T06:00:00.000Z",
-        "latitude": 25.063905443854562,
-        "longitude": 121.55011941413952,
-        "name": "\u677e\u5c71\u6a5f\u5834",
-        "name_en": "Songshan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.95554284956816,
-          26.157751708939482
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T05:00:00.000Z",
-        "description": "\u642d\u4e58\u7acb\u69ae\u822a\u7a7aB7-8759\u5f80\u5357\u7aff",
-        "duration (text)": "2022/7/4 13:00-14:00",
-        "end": "2022-07-04T06:00:00.000Z",
-        "latitude": 26.157751708939482,
-        "longitude": 119.95554284956816,
-        "name": "\u99ac\u7956\u5357\u7aff\u6a5f\u5834",
-        "name_en": "Mazu Nangan Airport",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
           121.5501197088729,
           25.063912470116655
         ],
@@ -11322,181 +10722,6 @@
         "\u6821\u5c0d\u8005": "areong",
         "\u6848\u865f": "\u672a\u516c\u5e03",
         "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.9555464653135,
-          26.15774970378734
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T06:20:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 14:20-14:30",
-        "end": "2022-07-04T06:30:00.000Z",
-        "latitude": 26.15774970378734,
-        "longitude": 119.9555464653135,
-        "name": "\u5357\u7aff\u822a\u7a7a\u7ad9",
-        "name_en": "Nangan Air Station",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.94826903194853,
-          26.155258173131426
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T01:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 09:00-16:00",
-        "end": "2022-07-04T08:00:00.000Z",
-        "latitude": 26.155258173131426,
-        "longitude": 119.94826903194853,
-        "name": "\u5357\u7aff\u9109\u9ad4\u80b2\u9928",
-        "name_en": "Nangan Township Gymnasium",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.9417104146768,
-          26.157330894692493
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T06:35:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 14:35",
-        "end": "2022-07-04T07:35:00.000Z",
-        "latitude": 26.157330894692493,
-        "longitude": 119.9417104146768,
-        "name": "\u5357\u7aff\u4e2d\u83ef\u96fb\u4fe1",
-        "name_en": "Nangan Chunghwa Telecom",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.94402377024626,
-          26.159382156456278
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T12:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 20:00-21:00",
-        "end": "2022-07-04T13:00:00.000Z",
-        "latitude": 26.159382156456278,
-        "longitude": 119.94402377024626,
-        "name": "\u798f\u6c83\u904b\u52d5\u5834",
-        "name_en": "Fuwo Stadium",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.93786056367786,
-          26.152906543829847
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T03:20:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 11:20-11:30",
-        "end": "2022-07-04T03:30:00.000Z",
-        "latitude": 26.152906543829847,
-        "longitude": 119.93786056367786,
-        "name": "\u5168\u5bb6\u4fbf\u5229\u5546\u5e97\u6e05\u6c34\u5e97",
-        "name_en": "Family Mart Shimizu Store",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.99855109807277,
-          26.22378021637172
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T03:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 11:00-12:00",
-        "end": "2022-07-04T04:00:00.000Z",
-        "latitude": 26.22378021637172,
-        "longitude": 119.99855109807277,
-        "name": "7-11\u5858\u5c90\u9580\u5e02",
-        "name_en": "7-11 Tangqimen City",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid0gjCXEqvo6xEtJCjxNh2gvWMk9f7dpEcFCH3yptTFkcYTiGkjFpVQzYwoiBB72Woel"
-      },
-      "type": "Feature"
-    },
-    {
-      "geometry": {
-        "coordinates": [
-          119.9188284710261,
-          26.159719012143874
-        ],
-        "type": "Point"
-      },
-      "properties": {
-        "address": "",
-        "address_en": "",
-        "begin": "2022-07-04T04:00:00.000Z",
-        "description": "",
-        "duration (text)": "2022/7/4 12:00",
-        "end": "2022-07-04T05:00:00.000Z",
-        "latitude": 26.159719012143874,
-        "longitude": 119.9188284710261,
-        "name": "7-11\u99ac\u6e2f\u9580\u5e02",
-        "name_en": "7-11 Magang outlet",
-        "\u6821\u5c0d\u8005": "areong",
-        "\u6848\u865f": "\u672a\u516c\u5e03",
-        "\u8cc7\u6599\u4f86\u6e90": "https://www.facebook.com/matsuhb/posts/pfbid036fawvuLNCFgq9nZ2nkgafD5ftDRdS5xKjk11LS8t1W7tevCtyxnqBFzMRnxmdoitl"
       },
       "type": "Feature"
     }
